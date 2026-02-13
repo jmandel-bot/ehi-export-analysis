@@ -1,0 +1,733 @@
+Clinisys
+Application Interfacing
+
+Patient Population Export Specification
+
+Table of Contents
+1
+
+Scope ................................................................................................................................................................ 3
+1.1
+
+Interface Overview .................................................................................................................................. 3
+
+1.2
+
+HL7 Version Conformance....................................................................................................................... 3
+
+1.3
+
+Data Flow and Communications ............................................................................................................. 3
+
+1.4
+
+Specifications and Signoff Processes....................................................................................................... 3
+
+2
+
+Project Identifiers and Contacts ...................................................................................................................... 4
+
+3
+
+Site-Specific Configuration Questions.............................................................................................................. 5
+3.1
+
+CPU Hardware ......................................................................................................................................... 5
+
+3.2
+
+Software Versions and Overlay Information ........................................................................................... 7
+
+3.3
+
+TCP/IP Communications and Ports ......................................................................................................... 7
+
+3.4
+
+Multiple Facilities .................................................................................................................................... 8
+
+3.5
+
+Transaction Framing ................................................................................................................................ 8
+
+3.6
+
+Outbound Messages ............................................................................................................................... 8
+
+3.7
+
+Filters .........................................................................................................Error! Bookmark not defined.
+
+4
+
+Function Overviews ......................................................................................................................................... 9
+
+5
+
+User Load instructions for TCP/IP .................................................................................................................. 11
+
+6
+
+Signoff Page ................................................................................................................................................... 12
+
+Lab Historical Load Interface Specifications
+Proprietary & Confidential | Clinisys
+
+Page | 2 of 14
+
+1
+
+Scope
+
+1.1 Interface Overview
+The patient population export is designed to extract data from the lab or archive areas and format that data to an
+external system in either real-time HL7 messages or to a file. The interface is based on a live interface formatter and
+requires SAM if the pre-existing interface is using SAM. There are no changes to the format of the pre-existing result
+interface format. The site is responsible for running small batches of historical loads so that there is no impact to the
+overall space that is used to extract the load.
+
+1.2 HL7 Version Conformance
+This interface is based on HL7 version 2.3 or HL7 version 2.5.1.
+
+1.3 Data Flow and Communications
+This interface’s communication is based on TCP/IP through a VPN tunnel. The use of Sunquest Application
+Manager (SAM) is not required unless the interface you will use for the historical format uses SAM already.
+Note: this interface will be tested on the Clinisys Test area. Test patient data can be sent from test. The client
+assumes the responsibility of using production area data for testing purposes.
+
+Outbound Flow
+
+Clinisys SQ
+Lab
+
+Outbound Flow
+
+SAM
+
+HIS /
+ENGINE
+
+1.4 Specifications and Signoff Processes
+Completion of these specifications is a joint responsibility of two parties: Clinisys and you as the customer.
+While Clinisys assists with completing the document, you as the customer have the primary responsibility for
+identifying the requirements for this interface. At the conclusion of the specifications process, you will be
+required to sign off that the specifications are complete and accurate. The completed specifications are
+recorded with your project record and become the work instruction for the installation of your new interface.
+Change of Scope will incur additional fees.
+
+Lab Historical Load Interface Specifications
+Proprietary & Confidential | Clinisys
+
+Page | 3 of 14
+
+2
+
+Project Identifiers and Contacts
+HL7 Application Interface Specification Document
+Effective January 2014
+a.
+b.
+
+INSTRUCTIONS
+Enter all requested information.
+To navigate from text box to text box (
+)use F11 on your keyboard. Use
+Shift F11 to go back to a missed text box.
+
+Lab Historical Load
+
+SITE
+NAME
+
+SITE
+CODE:
+
+PROJECT:
+
+SO#:
+
+Lab Historical Load Interface
+
+VENDOR INFORMATION :
+
+INTERFACE ENGINE INFORMATION:
+
+Vendor Name:
+
+Engine Name:
+
+Contact Name:
+
+Contact Name:
+
+E-mail:
+
+E-mail:
+
+Phone:
+
+Phone:
+
+LAB CONTACT:
+
+IS CONTACT:
+
+System Manager:
+
+Name:
+
+E-mail:
+
+E-mail:
+
+Phone:
+
+Phone:
+
+CLINISYS PROJECT MANAGER:
+
+CLINISYS INTERFACE ANALYST:
+
+Name:
+
+Name:
+
+E-mail:
+
+E-mail:
+
+Phone:
+
+Phone:
+
+Lab Historical Load Interface Specifications
+Proprietary & Confidential | Clinisys
+
+Page | 4 of 14
+
+3
+
+Site-Specific Configuration Questions
+
+After carefully reviewing this entire document, please answer the questions below and send a completed copy
+to your Clinisys Interface Analyst. Since these questions relate directly to the specific set up of your interface,
+answers to these questions are required before the interface installation can begin. If you need more
+information for a question, please contact your interface analyst.
+To complete this section, provide responses to each item.
+• Radio Buttons: Where only one choice is available, click the radio button that applies. A choice of
+“Unknown” is available to allow you to work through the form. At the time this document is submitted
+as complete no items may be marked as “Unknown”.
+• Text Boxes: Use the text boxes to fill in information. To fill in a text box, click the box once and start
+typing the response. Alternatively, double-click on the box and a data entry dialog will open for you to
+fill in the response as the “default text".
+• Check Boxes: Click to toggle the check box on or off.
+
+3.1 CPU Hardware
+3.1.1
+
+What CPU configuration is being used at your site?
+
+Single CPU
+Dual CPU (A-B Link)
+High Availability
+If HA, what is the virtual IP address of the LAB CPU?
+What is the physical IP address of the main lab CPU?
+
+N/A
+
+If the address is NAT'd, what is the NAT'd address of the main lab CPU?
+
+What is the physical IP address of the secondary lab CPU?
+
+N/A
+
+N/A
+
+If the address is NAT'd, what is the NAT'd address of the secondary lab CPU?
+3.1.2
+
+Does your site use IP Alias for your SAM servers?
+
+N/A (not using IP Alias
+
+Yes
+
+If Yes, what is the IP Alias address of the Test Area?
+
+If the address is NAT'd, what is the NAT'd address of the test area?
+
+N/A
+
+If Yes, what is the IP Alias address of the Live Area?
+Lab Historical Load Interface Specifications
+Proprietary & Confidential | Clinisys
+
+Page | 5 of 14
+
+What is the physical IP address of the Primary SAM?
+
+N/A
+
+If the address is NAT'd, what is the NAT'd address of the Primary SAM?
+What is the physical IP address of the Secondary SAM?
+If the address is NAT'd, what is the NAT'd address of the Secondary SAM?
+
+N/A
+
+N/A
+
+*Notes: If HA or IP Alias are enabled, all virtual and physical IP’s will need to be allowed through firewalls or
+VPNs as bi-directional connections for proper communication handling. If Alias is enabled the vendor will
+connect to the virtual address.
+Prior to go live, the site’s network engineer and the vendor’s network engineer will update the VPN/Firewall
+rules to define the Live alias IP address of the SAM. This is required to be completed to ensure a successful
+connection between the SAM interface and the Vendor.
+• Any outbound Network Address Translations (NAT’ing) will need to be provided to Clinisys prior to the
+go live to ensure the interfaces successfully connect to the correct IP address.
+• Any inbound Network Address Translations (NAT’ing) will need to be provided to the vendor prior to
+the go live.
+**Note on Vendor Connectivity:
+• If IP alias for the SAM server is defined, the vendor should connect to the alias.
+• If not using IP alias on SAM, the vendor should connect to the physical IP address of the primary SAM,
+but would then need to connect to the physical IP address of the secondary SAM if the site is in
+failover.
+
+Responsible Party for Firewall Connections
+Name:
+Phone Number:
+Title:
+Email:
+
+Lab Historical Load Interface Specifications
+Proprietary & Confidential | Clinisys
+
+Page | 6 of 14
+
+3.2 Software Versions and Overlay Information
+The LAB, AI and SAM versions in both TEST and LIVE must be in sync prior to moving the interface live.
+NOTE: THIS INTERFACE REQUIRES:
+A live Clinisys Result Interface
+If Lab Archive data will be sent, v 5.2+ is required
+
+HL7 version 2.5.1 minimum requirements:
+SQ Lab 7.0, AI 3.3, SAM 4.2, IX 1.7
+Note: Any of these Clinisys SQ Laboratory versions are acceptable for v 2.5.1 interfaces:
+•
+•
+•
+•
+
+7.0.1003 Patch 5 or later
+7.1.0032 R1 Patch 7 or later
+7.1.1001 Patch 2 or later
+7.2 or later
+
+3.2.1
+
+On which Clinisys SQ Laboratory software version will this interface be installed?
+Version:
+
+3.2.2
+
+On which AI software version will this interface be installed?
+Version:
+
+3.2.3
+
+If using SAM what is the name of the SAM test area?
+
+3.2.4
+
+The interface will be shipped to the lab test area named
+
+on the
+
+CPU.
+
+Note: If you are going to use a meaningful use version 2.5.1 interface for the historical feed, you must
+have all patches for Lab, AI and IX in production before sending data from the historical interface that
+will use that format.
+
+3.3 TCP/IP Communications and Ports
+3.3.1
+
+What is the IP address of the HIS/Interface Engine?
+
+3.3.2
+
+What port number should be used for the result historical load interface in the TEST area?
+
+3.3.3
+
+What port number should be used for the result historical load interface in the LIVE area?
+
+Lab Historical Load Interface Specifications
+Proprietary & Confidential | Clinisys
+
+Page | 7 of 14
+
+3.4 Multiple Facilities
+3.4.1
+
+Will transactions for more than one hospital go through these interfaces?
+
+Yes
+
+No
+
+If yes, list all of the HIDs that will be using this interface:
+HID Number
+
+3.4.2
+
+HID Mnemonic
+
+Hospital Name
+
+Will the value sent for the HID need to be translated by the interface to a different value? (Select
+One)
+
+No
+Yes
+Please specify:
+
+3.5 Transaction Framing
+3.5.1
+
+The communication envelope and the format of the transactions sent by the result historical load
+interface will be the same as your current (active in production) results interface.
+Which current results interface should be used?
+
+** Note: There must be a current HL7 results interface on site in order for Clinisys to install the result historical load
+interface. The historical load interface will use the current results interface to format the transactions for the result
+historical load interface. HMA will be copied from the current interface to the result historic load interface. After
+installation of the result historic load interface, if changes are made in HMA to the current interface, those same changes
+need to be applied in HMA for the result historic load interface. **
+
+3.6 Outbound Messages
+3.6.1
+
+Of the lab modules which exist on the current results interface, which results should be sent across
+the result historical load interface?
+
+General Lab
+
+Blood Bank
+
+Microbiology
+
+** Note: No filtering is done on Lab or SAM with respect to patient type, location, HID, etc. If historical CoPath results
+are required, please contact your Sales Account Manager for a CoPath Data export quote **
+
+Lab Historical Load Interface Specifications
+Proprietary & Confidential | Clinisys
+
+Page | 8 of 14
+
+3.6.2
+
+Will archived data need to be sent across the result historical load interface?
+
+Yes
+3.6.2.1
+
+No
+
+If Yes*, what is the name of the archive area?
+
+* Note: Inquiry only areas may be used for historical data. The value of the HID within that inquiry area may differ from
+the lab HID. It may be necessary to secure custom coding to cross walk this, or use your interface engine to convert the
+HID to the proper entry
+A utility will be run on the system to show the collection dates available within the archive area.
+Archive area collection dates
+
+3.6.2.2
+
+If you have purchased an extended maintenance license, how long will the historical interface be
+used in the live area?
+(if you are using the standard 6 months, mark this as N/A)
+
+** Note: The interface will be available for 6 months after it is installed in your production area. After 6 months the
+interface will automatically be disabled. If the interface is needed for a longer period of time, please contact your Sales
+Account Manager for a quote. **
+
+4
+
+Function Overviews
+Function HRPLD Overview
+Define Date Range
+RESULT LOAD OPTIONS
+1. Define Date Range
+2. Start/Stop Extract
+3. Start/Stop Interface
+Select Option : 1
+USER OPTIONS FOR RESULT LOAD
+---------------------------Please Enter Site Code <site> :
+Please Enter Interface Number :
+Please Enter Job Number :
+START DATE <T>:
+END DATE:
+❖ Enter the Site Code or carriage return to accept the default
+
+Lab Historical Load Interface Specifications
+Proprietary & Confidential | Clinisys
+
+Page | 9 of 14
+
+❖ Enter the result historical load interface number
+❖ Enter the interface formatting job number, which is 2
+❖ Enter the starting date of the requested collect date range (i.e. T-30 will start the extract at 30 days
+before today)
+❖ Enter the ending date of the requested collect date range
+
+Stop/Start Extract
+RESULT LOAD OPTIONS
+1. Define Date Range
+2. Start/Stop Extract
+3. Start/Stop Interface
+Select Option : 2
+USER OPTIONS FOR RESULT LOAD
+---------------------------Please Enter Site Code <site> :
+Clinisys Information Systems
+Please Enter Interface Number :
+Please Enter Job Number :
+Extract is currently NOT RUNNING, Start (S):
+
+❖
+❖
+❖
+❖
+
+Enter the Site Code or carriage return to accept the default
+Enter the result historical load interface number
+Enter the interface formatting job number, which is 2 (if 1 is entered an error will generate)
+A message will display indicating the state the extract process is in
+
+Three stages:
+1) Running: The extract was started and has not completed yet
+2) Suspended: The extract was interrupted while it was running and can be restarted where it left off
+3) Completed: The extract finished for the requested date range
+Notes:
+If the extract is running, it can be interrupted or terminated
+If the extract is suspended, it can be started or terminated
+If the extract is completed, it can be started
+
+Start/Stop Result Interface (formatter job)
+
+RESULT LOAD OPTIONS
+1. Define Date Range
+
+Lab Historical Load Interface Specifications
+Proprietary & Confidential | Clinisys
+
+Page | 10 of 14
+
+2. Start/Stop Extract
+3. Start/Stop Interface
+Select Option : 3
+
+Note:
+If option 3 is selected to start or stop the interface, the prompts will be the regular prompts seen from
+function HSTP. The jobs for the historical load results interface can be stopped and started using this function
+(HRPLD) or the normal STOP/START function, HSTP.
+
+4.1.1
+
+Monitor Interface
+
+Function UTL, Option 2 can be used to monitor when the historical load interface extract operation starts and completes.
+HIGH PRIORITY MESSAGE LOG FOR
+DATE TIME TERM MESSAGE
+05/06/14 09:07:15 NLA0:
+Result Load Completed.
+05/06/14 09:07:14 NLA0:
+Result Load Extract Started for
+date range 13881 - 13887.
+Redisplay ? (Y/<N>) :
+
+5
+
+User Load instructions for TCP/IP
+Functions to use: HRPLD and UTL
+
+1.
+
+Go into function HRPLD and select option #1 to define the date range
+Carriage return at the site code prompt
+Enter historical interface #
+Select job #2
+Enter the start date
+Enter the end date
+If everything looks appropriate, then (A)ccept
+
+2.
+
+Now go back into function HRPLD, and select option #2, start/stop extract
+Carriage return at the site code prompt
+Enter historical interface #
+Select job #2
+Enter an (S) to start the extract for the date range you selected in the previous step
+
+3. Once again go back into function HRPLD and select option #3, to start/stop the interface
+Enter historical interface #
+Choose all jobs and start the interface
+4.
+
+You can use function UTL to monitor the progress of the historical load interface
+Function UTL will show when the historical load interface has been started, and when it is finished
+
+Lab Historical Load Interface Specifications
+Proprietary & Confidential | Clinisys
+
+Page | 11 of 14
+
+6
+
+Signoff Page
+HL7 Application Interface Specification Document
+
+Lab Historical Load Signoff Page
+
+SITE
+NAME
+
+INSTRUCTIONS
+a. Enter all requested information.
+b. To navigate from text box to text box (
+) please use F11 on your keyboard.
+Use Shift F11 to go back to a missed text box.
+c. Check the boxes for Declarations A, B, C and E. Check Declaration D if it applies.
+d. Sign the document.
+e. Send the completed electronic copy to your Interface Analyst and fax the signed
+cover page to the analyst.
+
+SITE
+CODE:
+
+PROJECT:
+
+SO#:
+
+Lab Historical Load Interface
+
+DECLARATION: I / WE DECLARE THAT FOR THE SPECIFICATION FOR THE INTERFACE IDENTIFIED IN THIS DOCUMENT:
+
+A. THE SPECIFICATION IS COMPLETE AND ACCURATE:
+The Clinisys Interface Analyst and I have negotiated the Application Interface Specification document. I understand that
+these specifications will be followed precisely by the Clinisys programmer when developing and installing the interface
+code. By signing below, I am assuring that the specifications have been completed according to the requirements of the
+Clinisys SQ Lab system and the other vendor. In addition, I understand that any changes to the interface specification
+may result in additional fees and may impact the interface schedule.
+B. I / WE AGREE TO TESTING:
+I have considered all of the elements of this new interface that will require testing, and will test according to a test plan
+that meets my organization’s policies and workflows.
+C. I / WE WILL ENSURE THAT THE NECESSARY OVERLAY(S) ARE IN-PLACE:
+If I have an overlay scheduled, or have an overlay in the test area, I understand that the overlay must be moved to the
+production area prior to the interface live date. Should my last overlay be older than 6 months, Clinisys will evaluate and
+determine if an overlay is necessary. If an overlay is needed this interface installation will be put on hold until the overlay
+is installed in the test area.
+D. THIS INTERFACE REPLACES AN EXISTING INTERFACE:
+Be aware that if this interface is replacing an existing customized interface and the same customization is desired on the
+new interface, it must be negotiated with your interface analyst and additional fees will be charged.
+E.
+
+I UNDERSTAND THAT THIS IS A TEMPLATED INTERFACE:
+
+SIGNATURE OF CLIENT REPRESENTATIVE
+
+DATE
+
+NAME AND TITLE OF CLIENT REPRESENTATIVE
+
+Lab Historical Load Interface Specifications
+Proprietary & Confidential | Clinisys
+
+Page | 12 of 14
+
+INSTRUCTIONS TO PURCHASERS OF CLINISYS HL7 INTERFACES
+DECLARATIONS: Sections A, B, C and E must be selected. Select section D if this interface is replacing an
+existing customized interface.
+SUMMARY: This form must be completed for interfaces between Clinisys products and other electronic
+systems. The content of this document is the basis from which your interface will be developed. In an effort to
+provide the most efficient and effective implementation schedule possible, the Application Interfacing
+Department has developed a list of requirements to help facilitate the process. These requirements were
+developed as a result of our extensive experience in the clinical information system integration environment
+and represent items that if changed typically cause delays in the process. Client adherence to these
+requirements is crucial to the success of the implementation process, since resources are allocated at
+specified milestones in the process, and any deviation from the associated schedule will jeopardize the
+resource allocation.
+ELECTRONIC SUBMISSION: Emailed submissions of this completed form are preferred. Please contact your
+Project Manager or Interface Analyst if you need to arrange for hard copy submission.
+PROCESS DELAYS: Should there be delays related to the availability of hardware, software, personnel, or
+inactivity consistent with the milestone schedule, Clinisys reserves the right to reschedule the project for a
+later date. If the project is idle for a period of three weeks, the project may be placed on hold and rescheduling
+made necessary. Depending on the delay, a new overlay may be needed before the project can resume.
+Rescheduling will be subject to resource availability.
+DECLARATION A: Complete and Accurate
+The specification is designed to be detail oriented and should encompass all expected HL7 transaction types. A
+copy of this document, completed to the best of your ability, must be returned to your assigned Clinisys
+Interface Analyst in order to complete the specification negotiation process. In order to complete the specs,
+you will need to consult with the receiving system vendor and/or Interface Engine representative. In order to
+assist them, copies of this document may be distributed as needed. Please review this document and answer
+as many questions as possible. After your initial review, your Interface Analyst will work with you to finalize
+this document. Accurate completion of this document is essential as it will be used to program your
+interface(s).
+Data passing through one interface may affect other existing interfaces or planned additional interfaces. By
+agreeing to this specification you are confirming that you have considered these interactions and that this
+interface meets your requirements. Please consider the following examples provided for illustration only.
+• Please note that if we will be implementing ADT and OE interfaces, we expect that both the ADT and
+OE transactions will be sent on one logical connection. Be aware that if you choose to send ADT and
+OE to separate ports, Clinisys has no control over orders processing before ADT. Therefore, if orders
+arrive before ADT, the orders will not file and an error message will be produced. Please indicate if the
+orders interface should be added to your current ADT or whether it should stand alone (see warning
+above).
+• If installing only an orders (inbound) interface, it may affect your existing results (outbound) interface.
+For example, the HIS order number format may need to be changed on the result interface to
+accommodate the order number of the new order interface. It is the responsibility of the client to
+research the possible impact of a new orders interface on the existing results interface. Modifications
+to the existing results interface may result in additional fees.
+
+Lab Historical Load Interface Specifications
+Proprietary & Confidential | Clinisys
+
+Page | 13 of 14
+
+•
+•
+
+Installing only a results (outbound) interface may affect your current order (inbound) interface. For
+example, lab generated orders may be sent on the new result interface and order number update may
+need to be activated or deactivated on the current order interface.
+It is the responsibility of the client to research the possible impact of a new results interface on the
+existing orders interface. Modifications to the existing orders interface may result in additional fees.
+
+DECLARATION B: Testing
+All vendor systems and associated software/hardware must be installed and tested before communication
+testing with the Clinisys system can begin.
+Dedicated resources must be available to assist with the testing of all hardware and software components
+associated with the interface installation. These resources should be experienced in the domain relative to
+their assignment, and have the authorization to integrate system enhancements if necessary. In addition,
+these resources should also be defined prior to the beginning of the specification negotiation process and will
+require coverage during absences.
+A well-defined test plan must be used to validate the new interface. Clinisys will provide a generic test plan,
+when available, for the Laboratory Information System (LIS); however, you will need to refine the plan to
+include site-specific workflow considerations for your organization.
+DECLARATION C: Overlays
+An overlay must have been installed in the test area within the last six months of the project start date and the
+overlay needs to be moved live prior to the project. It is the responsibility of the site to arrange to have the
+overlay scheduled and to coordinate the overlay live date with the interface(s) live date. Please contact
+software distribution for assistance.
+DECLARATION D: Replacement of Customized Software
+Select section D if this interface is replacing an existing customized interface. If not replacing an existing
+interface or if customization is not required then do not select section D.
+DECLARATION E: Templated Interface
+This is a templated Interface (not custom); no changes can be made unless jointly agreed to by both vendors’
+development teams.
+If additional guidance is needed, please contact your Clinisys application interface analyst.
+
+Lab Historical Load Interface Specifications
+Proprietary & Confidential | Clinisys
+
+Page | 14 of 14
+
+

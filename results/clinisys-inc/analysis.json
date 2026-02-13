@@ -1,0 +1,113 @@
+{
+  "vendor": "Clinisys, Inc.",
+  "products": ["SQ Lab", "Sunquest Laboratory"],
+  "chpl_ids": [9726, 9734, 10701, 11038, 11600],
+  "export_documentation_url": "https://www.clinisys.com/us/en/onc-disclosure/",
+  "collection_date": "2026-02-13",
+
+  "access": {
+    "description": "The registered URL returned HTTP 200 directly with no redirects. The page is a WordPress site hosted on Kinsta behind Cloudflare. Content is fully server-rendered HTML — no SPA or JavaScript rendering needed. The page is titled 'Costs and Disclosures' and serves as a compliance hub covering ONC certification for multiple product versions (SQ Lab v2024, Sunquest Laboratory v7, v8, v10, v11). The two EHI export specification PDFs are linked near the bottom of the page as 'Individual Patient Export Specification' and 'Patient Population Export Specification'. No accordions, tabs, or expandable sections were needed — just scrolling. A OneTrust cookie consent banner overlays the page in the browser but doesn't block content.",
+    "final_url": "https://www.clinisys.com/us/en/onc-disclosure/",
+    "status": "found",
+    "requires_browser": false,
+    "anti_bot_protection": "none",
+    "navigation_complexity": "direct_link"
+  },
+
+  "product_context": {
+    "description": "Clinisys (formerly Sunquest Information Systems) is a laboratory information system (LIS) vendor — not an EHR. The certified products (SQ Lab, Sunquest Laboratory) are clinical laboratory information systems designed for multi-disciplinary labs. They manage lab workflows including specimen tracking, order management, result reporting, and instrument interfacing. The broader Clinisys product portfolio includes SQ Blood Bank, PowerPath/CoPathPlus (anatomic pathology), Orchard Enterprise/Harvest (additional LIS products), and Atlas (middleware). None of these products include patient portal, billing/revenue cycle, appointment scheduling, clinical documentation, medication management, or other full-EHR capabilities. SQ Lab integrates with external HIS/EHR systems via HL7 interfaces (2,000+ application interfaces and 11,000 instrument interfaces). Because this is a departmental lab system rather than a full EHR, the scope of 'all EHI that can be stored by the product' is legitimately limited to lab-related data: orders, results, specimens, blood bank, and patient demographics as stored in the LIS.",
+    "tags": ["laboratory-information-system", "departmental-system", "not-full-ehr", "no-patient-portal", "no-billing", "no-scheduling", "integrates-with-external-ehr", "multi-product-portfolio"],
+    "certified_module_name": "Sunquest Laboratory / SQ Lab",
+    "broader_product_name": "Clinisys SQ Lab (with SQ Blood Bank integration)",
+    "product_url": "https://www.clinisys.com/us/en/products/clinisys-sq-lab/"
+  },
+
+  "export_approach": {
+    "description": "Clinisys provides two export mechanisms. The Individual Patient Export uses a proprietary pipe-delimited flat file format with numbered record types (Type 10-66) covering demographics, blood bank data, lab orders, accessions, order codes, test components, blood bank reactions, and historical results. This is a native database export using the system's internal data structures. The Patient Population Export is fundamentally different — it's an HL7 v2.3/v2.5.1 interface that sends historical lab results as HL7 messages over TCP/IP to an external receiving system. This is not a file-based export but rather a real-time message interface requiring VPN tunnel, TCP/IP port configuration, and a receiving system. The population export re-uses the format of the site's existing HL7 results interface, and requires a results interface license. The individual patient export appears to be a self-contained extraction; the population export requires significant infrastructure setup.",
+    "tags": ["pipe-delimited-flat-file", "hl7-v2-messages", "native-database-export", "dual-mechanism", "individual-vs-population", "population-requires-interface-license", "numbered-record-types"],
+    "primary_format": "pipe-delimited-text",
+    "file_types": ["txt", "hl7"],
+    "container": "none"
+  },
+
+  "documentation_quality": {
+    "description": "The Individual Patient Export Specification is a concise 5-page document that defines a pipe-delimited flat file format with 14 record types (Type 0 through Type 66). Each record type lists numbered field positions with descriptions. The documentation is field-level but sparse — it gives field names and positions but does not include data types, maximum lengths, value sets, or example records. Some fields note sub-delimiters (# and !) but don't enumerate possible values. One field explicitly notes 'will need translation' (specimen code). No foreign key relationships are documented beyond implicit references (ORDX links type 20→30→40→50→60→65/66). The Population Export Specification is a 14-page interface implementation document — mostly a fill-in-the-blank worksheet for configuring HL7 TCP/IP connectivity. It contains no data dictionary content; it assumes you already have a working HL7 results interface and just describes how to run historical data through it. Neither document provides LOINC mapping tables, result interpretation guides, or sample output. A developer reading these docs could understand the basic structure of the individual patient export but would need vendor support for many fields.",
+    "tags": ["field-level-positions", "no-data-types", "no-value-sets", "no-examples", "concise", "population-doc-is-implementation-worksheet", "sparse-documentation"],
+    "schema_documented": true,
+    "field_level_detail": true,
+    "value_sets_documented": false,
+    "relationships_documented": false,
+    "examples_provided": false,
+    "table_or_resource_count": 14,
+    "documentation_format": "pdf",
+    "documentation_version": "v1.0",
+    "documentation_last_updated": "2023-11"
+  },
+
+  "ehi_coverage": {
+    "overall_assessment": "Because Clinisys SQ Lab / Sunquest Laboratory is a laboratory information system — not a full EHR — the relevant EHI scope is narrow by design. The individual patient export covers the core data the system stores: patient demographics (limited to lab context), lab orders with ordering physician and diagnosis, accession/specimen data, test components with LOINC codes, result history with technologist attribution, and blood bank data (antigens/antibodies, transfusions, reactions). This is a reasonable representation of what a LIS actually stores. However, even within the LIS domain, the export documentation is notably thin — only 14 record types in 5 pages for a system that has been in production for decades. There may be internal data (QC records, instrument logs, reference range tables, configuration data) that isn't represented. The population export adds no new data categories — it just re-formats the same results as HL7 messages. Most EHI categories (messaging, billing, scheduling, documents) are legitimately not applicable because the product doesn't store that data.",
+    "clinical": {
+      "present": true,
+      "evidence": "Core strength. Type 20 (orders with physician, diagnosis, location), Type 30 (accessions with specimen and collection data), Type 40 (order codes with LOINC, CPT, lab department), Type 50 (test components with LOINC), Types 55/56 (blood bank reactions), Types 60/65/66 (historical results including numeric, comment, freetext, and micro susceptibility). Also patient demographics (Type 10) and blood bank administrative data (Types 11-14 with antigens, antibodies, problems, transfusion attributes)."
+    },
+    "secure_messages": {
+      "present": false,
+      "evidence": "Not applicable. SQ Lab is a laboratory information system with no patient portal or messaging capability. No messaging data exists in the system to export."
+    },
+    "billing_financial": {
+      "present": false,
+      "evidence": "Minimal billing-adjacent data exists: Type 20 includes 'Special Billing Code' and 'Patient Account', and Type 40 includes CPT codes. However, there are no charge amounts, claim records, payment data, or financial transaction tables. This is expected — SQ Lab is not a billing system. Billing is handled by the integrated HIS/EHR."
+    },
+    "insurance_coverage": {
+      "present": false,
+      "evidence": "No insurance, coverage, eligibility, or authorization data in the export. Not applicable — SQ Lab does not store insurance information."
+    },
+    "appointments_scheduling": {
+      "present": false,
+      "evidence": "No appointment or scheduling data. Type 30 has 'Scheduled Collect' (collection scheduling) but this is specimen collection timing, not patient appointment scheduling. Not applicable for a departmental LIS."
+    },
+    "documents_images": {
+      "present": false,
+      "evidence": "No document, image, or attachment types in the export specification. The LIS may store some documents internally (e.g., scanned requisitions) but these are not represented in the export format."
+    },
+    "audit_trails": {
+      "present": false,
+      "evidence": "No explicit audit trail records in the export. However, there is significant operational attribution data embedded in other record types: technologist codes/names and timestamps on collection, receiving, answering, and result events (Types 30, 40, 50, 60). The ONC disclosure page separately certifies 170.315(d)(2) Auditable Events and 170.315(d)(3) Audit Reports, noting audit reports require Microsoft Excel. These audit capabilities exist in the product but are not part of the EHI export."
+    }
+  },
+
+  "issues": [
+    "The patient population export requires a results interface license that 'could incur an additional license fee' — charging extra for a component needed to export all EHI raises compliance questions under b(10).",
+    "The population export is an HL7 TCP/IP interface, not a file-based export — it requires VPN tunnel setup, a receiving system, and interface configuration, making it operationally complex and inaccessible without infrastructure.",
+    "Documentation is dated November 2023 (v1.0) and appears unchanged since initial creation — no evidence of updates as the product evolves.",
+    "The individual patient export has only 14 record types across 5 pages for a mature LIS product — the export may not cover all data the system stores (e.g., QC data, instrument logs, reference ranges, configuration).",
+    "One field is flagged as 'will need translation' (specimen code in Type 30) without providing the translation table, suggesting the export may produce codes that receivers cannot interpret.",
+    "Audit trail data is explicitly certified under 170.315(d)(2)/(d)(3) but is not included in the EHI export — the audit reports are a separate function requiring Microsoft Excel.",
+    "No LOINC mapping table is provided despite the export referencing LOINC codes in Types 40 and 50, and local test codes that may differ from LOINC."
+  ],
+
+  "downloaded_files": [
+    {
+      "local_path": "downloads/Patient-Data-Export-Specification.pdf",
+      "source_url": "https://www.clinisys.com/app/uploads/2023/11/Patient-Data-Export-Specification.pdf",
+      "size_bytes": 87155,
+      "type": "pdf",
+      "is_ehi_documentation": true,
+      "description": "Individual Patient Export Specification — defines the pipe-delimited flat file format with 14 record types (Types 0-66) covering patient demographics, blood bank data, lab orders, accessions, test components, reactions, and historical results. Version 1.0, November 2023.",
+      "curl_command": "curl -L -H 'User-Agent: Mozilla/5.0' -o Patient-Data-Export-Specification.pdf 'https://www.clinisys.com/app/uploads/2023/11/Patient-Data-Export-Specification.pdf'"
+    },
+    {
+      "local_path": "downloads/Patient-Population-Export-Specification.pdf",
+      "source_url": "https://www.clinisys.com/app/uploads/2023/11/Patient-Population-Export-Specification.pdf",
+      "size_bytes": 337133,
+      "type": "pdf",
+      "is_ehi_documentation": true,
+      "description": "Patient Population Export Specification — HL7 v2.3/v2.5.1 interface configuration document for bulk historical lab data export. Primarily an implementation worksheet (CPU config, TCP/IP setup, date range selection) rather than a data dictionary. Reuses the format of the site's existing HL7 results interface.",
+      "curl_command": "curl -L -H 'User-Agent: Mozilla/5.0' -o Patient-Population-Export-Specification.pdf 'https://www.clinisys.com/app/uploads/2023/11/Patient-Population-Export-Specification.pdf'"
+    }
+  ],
+
+  "summary": "Clinisys SQ Lab / Sunquest Laboratory is a laboratory information system, not a full EHR, so its EHI scope is legitimately narrow — lab orders, results, specimens, blood bank data, and minimal demographics. The individual patient export uses a compact pipe-delimited format with 14 record types that covers core lab data adequately. The population export is an HL7 interface requiring significant infrastructure setup and potentially an additional license fee. Documentation is sparse (5 pages for the actual data dictionary) and may not represent all data the mature LIS stores. The biggest concern is the additional fee for population export and the operational complexity of HL7-based bulk export.",
+
+  "notes": "Clinisys was formerly Sunquest Information Systems, Inc. — the CHPL certifications still reference the Sunquest name. The product portfolio also includes CoPathPlus (anatomic pathology) which is referenced in the population export spec ('If historical CoPath results are required, please contact your Sales Account Manager for a CoPath Data export quote'), suggesting pathology data requires separate, potentially costly arrangements. The ONC disclosure page covers five separate CHPL certifications (SQ Lab v2024, Sunquest Laboratory v7/v8/v10/v11) but the export specifications appear to be shared across all versions."
+}
