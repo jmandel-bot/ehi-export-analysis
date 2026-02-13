@@ -1,0 +1,149 @@
+{
+  "vendor": "Medical Information Technology, Inc. (MEDITECH)",
+  "products": [
+    "MEDITECH 6.0 Electronic Health Record Core HCIS",
+    "MEDITECH 6.0 Emergency Department Management",
+    "MEDITECH 6.1 Ambulatory Electronic Health Record",
+    "MEDITECH 6.1 Electronic Health Record Core HCIS",
+    "MEDITECH 6.1 Emergency Department Management",
+    "MEDITECH 6.1 Oncology",
+    "MEDITECH Cancer Case Reporting",
+    "MEDITECH Client/Server Electronic Health Record Core HCIS",
+    "MEDITECH Client/Server Emergency Department Management",
+    "MEDITECH Client/Server Oncology",
+    "MEDITECH Continuity of Care Interface (CCD)",
+    "MEDITECH Expanse 2.1 Ambulatory",
+    "MEDITECH Expanse 2.1 Core HCIS",
+    "MEDITECH Expanse 2.1 Oncology",
+    "MEDITECH Expanse 2.2 Ambulatory",
+    "MEDITECH Expanse 2.2 Core HCIS",
+    "MEDITECH Expanse 2.2 Emergency Department Management",
+    "MEDITECH Expanse 2.2 Oncology",
+    "MEDITECH Expanse Emergency Department Management",
+    "MEDITECH MAGIC Electronic Health Record Core HCIS",
+    "MEDITECH MAGIC Emergency Department Management",
+    "MEDITECH MAGIC HCA Electronic Health Record Core HCIS (without PatientKeeper)",
+    "MEDITECH MAGIC Oncology",
+    "MEDITECH MyHealth Portal",
+    "MEDITECH Public Health Interface Electronic Case Reporting",
+    "MEDITECH Public Health Interface Transmission to Immunization Registries",
+    "MEDITECH Public Health Interface for Syndromic Surveillance",
+    "MEDITECH Transmission of Reportable Laboratory Test and Values/Results"
+  ],
+  "chpl_ids": [
+    9091, 9092, 9095, 9101, 9103, 9107, 9108, 9109, 9162, 9238, 9258, 9265,
+    10924, 10925, 10926, 10927, 10929, 10930, 10931, 10932, 10933, 10934, 10935,
+    10972, 10973, 10976, 10977, 10978, 10979, 10981, 10982, 10984, 10985, 10988,
+    10993, 10994, 10995, 11018, 11742, 11743
+  ],
+  "export_documentation_url": "https://home.meditech.com/en/d/restapiresources/pages/ehiexport.htm",
+  "access": {
+    "status": "found",
+    "requires_browser": false,
+    "anti_bot_protection": "none",
+    "navigation_complexity": "one_click"
+  },
+  "export_format": {
+    "primary_format": "mixed",
+    "file_types": [
+      "csv",
+      "json",
+      "ndjson",
+      "pdf",
+      "png",
+      "jpg",
+      "tif",
+      "bmp",
+      "txt",
+      "xml"
+    ],
+    "container": "zip",
+    "description": "MEDITECH offers two distinct export configurations: Configuration 1 (newer platforms) provides Electronic Chart documents as images/PDFs in folder hierarchies plus FHIR resources and C-CDA documents. Configuration 2 (older platforms) provides structured patient data as CSV files with comprehensive table/column specifications, plus FHIR and C-CDA. Both configurations package exports as ZIP files with README, Table of Contents metadata, and supplemental clinical/administrative/financial reports."
+  },
+  "documentation": {
+    "format": "mixed",
+    "field_level_detail": true,
+    "data_types_included": false,
+    "table_or_resource_count": 196,
+    "downloadable": true,
+    "total_download_size_bytes": 938694
+  },
+  "ehi_coverage": {
+    "clinical": {
+      "present": true,
+      "evidence": "Extensive clinical data documented including: FHIR Resource Bundle (US Core STU 3.1.1), Structured Clinical Documents (C-CDA R2.1, R1.1), Electronic Chart documents, Ambulatory Results (lab and micro results), Immunization History, Vitals, Problems, Allergies, Medications, Procedures, Diagnoses, Clinical Queries. CSV tables include AprResLab, AprResMicro, MriImmunVaccineEvents, AprEncVitalsSets, AprPatProbMainProb, MriAllergy, RxmRxs, AdmVisitDiagnoses."
+    },
+    "secure_messages": {
+      "present": true,
+      "evidence": "Provider Messages section explicitly documented in Configuration 1 (File: Provider Messages.txt - 'Contains patient and physician interactive message'). Configuration 2 CSV includes message tables: AprEncMessages, AprEncMessagesLines with fields MessageUserID, MessageSeqID."
+    },
+    "billing_financial": {
+      "present": true,
+      "evidence": "Financial Reports section in Configuration 1 (File: FinancialEHI.txt - 'Contains a Patient Accounting report that includes financial transactions for the patient'). Configuration 2 CSV includes billing tables: PbrAccountClaims, PbrAccountClaimsDetail, PbrAccountTransactions, PbrAccountTxnFinanceCharges, PbrAccountTxnPymntDistribution, PbrAccountStatements, PbrAccountStatementDetail with fields for claim numbers, payment transactions, finance charges, amounts. Also includes ResidentTrustEHI.txt and CostEstimation.txt files."
+    },
+    "insurance_coverage": {
+      "present": true,
+      "evidence": "CSV tables include AdmInsurances, AdmInsuredData, AdmInsuredInfo, MriPatientInsurances, PbrAccountInsurance with fields: InsuranceID, InsuranceAuthNumber, InsuredPolicyNumber, InsuredGroupNumber, InsuredName, InsuredRelationshipID, CoverageNumber, GroupNumber, BenefitPlan, EligStatus, CopayAmount, CopayType, Deductible."
+    },
+    "appointments_scheduling": {
+      "present": true,
+      "evidence": "CSV tables include SchAppointments with fields: AppointmentID, AppointmentTypeID, ApptDate, ApptTime, ApptStatus. Visit-related tables: AdmVisits, AdmSeqVisitID, VisitDateTime, VisitReason. Authorization tables include ArmAuthServiceScheduledUnits."
+    },
+    "documents_images": {
+      "present": true,
+      "evidence": "Electronic Chart section (Configuration 1) provides comprehensive document/image export in folder hierarchies organized by Category/Subcategory. File formats include images (png, jpg, tif, bmp) and PDF files. Also includes folders for Record Documents, Global Documents, Historical Ambulatory Data, Pathology reports, Nursing Image Documentation, Imaging and Physician Documentation. Structured Clinical Documents section contains all C-CDA documents. Table of Contents.ndjson provides FHIR DocumentReference metadata for all documents."
+    },
+    "audit_trails": {
+      "present": false,
+      "evidence": "No explicit audit trail or access log tables found in CSV data dictionaries. Some user tracking fields exist (AddedUserID, EnteredByUserID, CompletedByUserID, AdminByUserID, IssuedByUserID) but no comprehensive audit/access history tables."
+    }
+  },
+  "sample_exports_available": false,
+  "developer_guide_available": false,
+  "downloaded_files": [
+    {
+      "local_path": "downloads/ehiexport_main.html",
+      "source_url": "https://home.meditech.com/en/d/restapiresources/pages/ehiexport.htm",
+      "size_bytes": 8964,
+      "type": "html",
+      "curl_command": "curl -sL 'https://home.meditech.com/en/d/restapiresources/pages/ehiexport.htm' -H 'User-Agent: Mozilla/5.0' -o ehiexport_main.html"
+    },
+    {
+      "local_path": "downloads/ehiexportconfig1.html",
+      "source_url": "https://home.meditech.com/en/d/restapiresources/pages/ehiexportconfig1.htm",
+      "size_bytes": 29280,
+      "type": "html",
+      "curl_command": "curl -sL 'https://home.meditech.com/en/d/restapiresources/pages/ehiexportconfig1.htm' -H 'User-Agent: Mozilla/5.0' -o ehiexportconfig1.html"
+    },
+    {
+      "local_path": "downloads/ehiexportconfig2.html",
+      "source_url": "https://home.meditech.com/en/d/restapiresources/pages/ehiexportconfig2.htm",
+      "size_bytes": 22780,
+      "type": "html",
+      "curl_command": "curl -sL 'https://home.meditech.com/en/d/restapiresources/pages/ehiexportconfig2.htm' -H 'User-Agent: Mozilla/5.0' -o ehiexportconfig2.html"
+    },
+    {
+      "local_path": "downloads/config2_cs_acute_ambulatory_csv.pdf",
+      "source_url": "https://home.meditech.com/en/d/regulatoryresources/otherfiles/csacuteandambehiexportdrsolutionmerged.pdf",
+      "size_bytes": 262764,
+      "type": "pdf",
+      "curl_command": "curl -L -H 'User-Agent: Mozilla/5.0' -o config2_cs_acute_ambulatory_csv.pdf 'https://home.meditech.com/en/d/regulatoryresources/otherfiles/csacuteandambehiexportdrsolutionmerged.pdf'"
+    },
+    {
+      "local_path": "downloads/config2_magic_acute_ambulatory_csv.pdf",
+      "source_url": "https://home.meditech.com/en/d/regulatoryresources/otherfiles/mgehiexportdrsolutionmerged.pdf",
+      "size_bytes": 363475,
+      "type": "pdf",
+      "curl_command": "curl -L -H 'User-Agent: Mozilla/5.0' -o config2_magic_acute_ambulatory_csv.pdf 'https://home.meditech.com/en/d/regulatoryresources/otherfiles/mgehiexportdrsolutionmerged.pdf'"
+    },
+    {
+      "local_path": "downloads/config2_mpm608_ambulatory_csv.pdf",
+      "source_url": "https://home.meditech.com/en/d/regulatoryresources/otherfiles/608ehiexportcsv.pdf",
+      "size_bytes": 251431,
+      "type": "pdf",
+      "curl_command": "curl -L -H 'User-Agent: Mozilla/5.0' -o config2_mpm608_ambulatory_csv.pdf 'https://home.meditech.com/en/d/regulatoryresources/otherfiles/608ehiexportcsv.pdf'"
+    }
+  ],
+  "issues": [],
+  "summary": "MEDITECH provides exceptionally comprehensive EHI export documentation covering their entire product portfolio from legacy MAGIC systems to modern Expanse 2.2. The documentation is split into two configurations: Configuration 1 (document-centric with Electronic Chart images/PDFs) and Configuration 2 (database-centric with structured CSV files). Configuration 2 provides detailed CSV data dictionaries documenting 106-196 tables with field-level mappings, covering clinical data, billing/financial transactions, insurance, appointments, secure messages, and extensive document/image repositories. Both configurations include FHIR US Core resources and C-CDA documents. The documentation is publicly accessible, well-organized, and includes comprehensive coverage of non-clinical administrative and financial data that typically isn't available through FHIR APIs."
+}
