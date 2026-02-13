@@ -7,101 +7,83 @@
     "EpicCare Inpatient Base",
     "Infection Control Antimicrobial Use and Resistance Reporting"
   ],
-  "chpl_ids": [
-    11595, 11596, 11597, 11603, 11604, 11641, 11643, 11644, 11653, 11654,
-    11683, 11684, 11685, 11686, 11687, 11711, 11712, 11713, 11730, 11731
-  ],
+  "chpl_ids": [11595, 11596, 11597, 11603, 11604, 11641, 11643, 11644, 11653, 11654, 11683, 11684, 11685, 11686, 11687, 11711, 11712, 11713, 11730, 11731],
   "export_documentation_url": "https://open.epic.com/EHITables",
   "access": {
     "status": "found",
     "requires_browser": false,
     "anti_bot_protection": "none",
-    "navigation_complexity": "direct_link",
-    "notes": "Exemplary accessibility. Clean HTML interface, direct ZIP download, no login required, no JavaScript needed for download."
+    "navigation_complexity": "one_click"
   },
   "export_format": {
     "primary_format": "tsv",
-    "file_types": ["tsv", "mixed"],
-    "container": "zip",
-    "description": "Tab-separated value (TSV) files native to Epic's database structure. The documentation states: 'The EHI Tables export contains the electronic health information available in a patient's Epic record in a computable, tab-separated value (TSV) file format native to Epic.' Some data (rich text documents, images) may be included as separate files referenced from the TSV tables."
+    "file_types": ["tsv"],
+    "container": "multiple_exports",
+    "description": "Tab-separated value (TSV) files, one per table, native to Epic's Clarity reporting database. Non-tabular content (rich text documents, images) is exported as separate files referenced from the TSV tables."
   },
   "documentation": {
     "format": "zip_of_html",
     "field_level_detail": true,
     "data_types_included": true,
-    "table_or_resource_count": 7673,
+    "table_or_resource_count": 7672,
     "downloadable": true,
-    "total_download_size_bytes": 12664966,
-    "documentation_quality": "excellent",
-    "details": "Each of 7,673 HTML files documents a single database table with: table description, primary key columns, complete column list with names/types/descriptions, notes about organization-specific customizations, and enumerated value lists where applicable."
+    "total_download_size_bytes": 12664966
   },
   "ehi_coverage": {
     "clinical": {
       "present": true,
-      "evidence": "Extensive clinical tables including PATIENT (85 columns), LAB_CASE_DB_MAIN, CLARITY_MEDICATION, ORDER_* tables, RESULT_* tables, diagnosis/procedure tables. Full Epic clinical database coverage."
+      "evidence": "Extensive clinical tables: 34 PATIENT tables, 160+ ORDER tables, 7 allergy tables, 10+ flowsheet/vitals tables, medication administration (MAR_*), problem lists, diagnoses, lab results, procedures, immunizations, and more."
     },
     "secure_messages": {
       "present": true,
-      "evidence": "CAL_MESSAGE_BODY, CAL_MESSAGE_TO, CAL_MESSAGE_CC, CAL_MESSAGE_BCC, CHAT_MESSAGE, CHAT_MESSAGE_CONTENT, CHAT_MESSAGE_EDITS, MESSAGE_METADATA tables. These cover patient-provider messaging through MyChart and internal messaging."
+      "evidence": "82 MyChart-related tables (MYC_CONVO, MYC_CONVO_ABT_MEDICATIONS, MYC_CONVO_ABT_MED_ADVICE, etc.), 16+ CHAT tables (CHAT_MESSAGE, CHAT_CONVERSATIONS, CHAT_MESSAGE_CONTENT), CAL_MESSAGE_* tables for internal messaging. Comprehensive portal messaging coverage."
     },
     "billing_financial": {
       "present": true,
-      "evidence": "Comprehensive billing coverage: AP_CLAIM (133 columns - managed care claims), ACCUM_CLAIM_DIAGNOSES, AP_CLAIMS_BUNDLE_LEDGER, AP_CLAIM_* tables (multiple), ARPB_TRANSACTIONS (multiple tables), charge and payment processing tables. Full accounts receivable and claims management."
+      "evidence": "698+ billing-related tables including ACCOUNT (guarantor accounts with PB/HB balances), ACCT_TX (transactions), AP_CLAIM and 30+ claim subtables, ARPB_* (accounts receivable professional billing), HSP_TRANSACTIONS, charge tables, payment tables, collection agency history."
     },
     "insurance_coverage": {
       "present": true,
-      "evidence": "ACCT_COVERAGE, AUTHORIZATIONS, AUTHORIZATIONS_2, BENEFITS, BENEFITS_TEMPLATE, ADJUDICATION_BENEFITS, insurance eligibility and authorization tables. Complete coverage/payer information."
+      "evidence": "215+ insurance-related tables including COVERAGE, BENEFITS, AUTHORIZATIONS (plus AUTHORIZATIONS_2), BENEFIT_EVALUATOR, eligibility tables, payer tables, capitation payment tables, plan identifiers."
     },
     "appointments_scheduling": {
       "present": true,
-      "evidence": "APPT_REQUEST, SCHEDULER_HX, SCHEDULING_GROUPER_INFO, SCHED_POOL_INFO, VISIT_* tables (VISIT_SET, VISIT_NARRATIVE_EPT, VISIT_PREDICTIONS), encounter and appointment scheduling tables."
+      "evidence": "56+ appointment/scheduling-related tables including visit tables, encounter tables, appointment request tables, scheduling tables."
     },
     "documents_images": {
       "present": true,
-      "evidence": "ABN_DOCUMENT_ID, ACCESSIBLE_DOCUMENTS_PREF, AP_CLAIM_ATTACHMENTS, AP_CLAIM_PROC_ATTACHMENTS, CONTACT_POINT_DOCUMENTS, DICOM_* tables (DICOM_MANIFEST, DICOM_IMAGE_WINDOW_INFO, DICOM_AFFECTED_INS, DICOM_DEFINITION), document and imaging reference tables. Note: Actual document/image files are not in TSV format but are referenced from tables."
+      "evidence": "67+ document/image-related tables including DICOM_MANIFEST, DICOM_DEFINITION, DICOM_IMAGE_WINDOW_INFO, attachment tables (CLM_ATTACH, AP_CLAIM_ATTACHMENTS), document reference tables. Landing page notes non-tabular content (documents, images) is exported as separate files."
     },
     "audit_trails": {
       "present": true,
-      "evidence": "Extensive audit trail tables: ADVERSE_EVENT_HISTORY, ADV_EVT_*_HISTORY tables (multiple), ALT_HISTORY, ANTICOAG_AUDIT, AN_DELETION_AUDIT, AN_STAFF_AUDIT, *_HISTORY tables throughout the schema. Epic maintains comprehensive audit logs."
-    },
-    "additional_domains": {
-      "present": true,
-      "notes": "Registration (ACCOUNT_* tables), benefits coordination, care management, quality measures, reporting, surgical services, pharmacy, laboratory, radiology, pathology, oncology, cardiology, and many specialty-specific modules. This is a complete enterprise EHR database schema."
+      "evidence": "157+ audit tables including ORDER_AUDIT_TRL, FLOWSHEET_IMG_LINK_AUDIT, CONSENT_LINK_AUDIT, APPEAL_GRV_AUDIT_TRAIL, AN_DELETION_AUDIT, CHAT_ACCESS_LOG, CL_QANSWER_AUDIT, and many domain-specific audit/history tables."
     }
   },
   "sample_exports_available": false,
-  "developer_guide_available": true,
-  "developer_guide_notes": "The main page references 'Step-by-Step Developer Guide' and 'Data Sharing Playbooks' accessible from the navigation menu, though these may be for APIs rather than file processing. The page also references open.epic.com for programmatic integration options.",
+  "developer_guide_available": false,
   "downloaded_files": [
     {
       "local_path": "downloads/Epic_EHI_Tables.zip",
       "source_url": "https://open.epic.com/EHITables/Download",
       "size_bytes": 12664966,
       "type": "zip",
-      "curl_command": "curl -L -H 'User-Agent: Mozilla/5.0' -o Epic_EHI_Tables.zip 'https://open.epic.com/EHITables/Download'",
-      "contents": "7,674 files (7,673 HTM + 1 CSS), 83 MB uncompressed",
-      "structure": "Single directory DocGen_su117s2p_2026-02-12_14.10.01/ containing one HTML file per table plus shared CSS stylesheet"
+      "curl_command": "curl -L -H 'User-Agent: Mozilla/5.0' -o Epic_EHI_Tables.zip 'https://open.epic.com/EHITables/Download'"
+    },
+    {
+      "local_path": "downloads/landing-page.html",
+      "source_url": "https://open.epic.com/EHITables",
+      "size_bytes": 8742,
+      "type": "html",
+      "curl_command": "curl -sL -H 'User-Agent: Mozilla/5.0' -o landing-page.html 'https://open.epic.com/EHITables'"
+    },
+    {
+      "local_path": "downloads/techspec-index.html",
+      "source_url": "https://open.epic.com/EHITables/TechSpec",
+      "size_bytes": 1077591,
+      "type": "html",
+      "curl_command": "curl -sL -H 'User-Agent: Mozilla/5.0' -o techspec-index.html 'https://open.epic.com/EHITables/TechSpec'"
     }
   ],
   "issues": [],
-  "notable_strengths": [
-    "Most comprehensive EHI documentation found - 7,673 tables covering entire Epic database",
-    "Excellent documentation quality with field-level detail, data types, and descriptions",
-    "Publicly accessible with no login, captcha, or anti-bot measures",
-    "Full downloadable archive provided",
-    "Well-organized both as web interface and ZIP download",
-    "Current and timestamped (February 2026 release, generated 2/12/2026)",
-    "Includes organization-specific customization notes and enumerated value lists",
-    "Far exceeds minimum ONC requirements for b(10) documentation"
-  ],
-  "technical_notes": [
-    "Export format is TSV (tab-separated values), Epic's native database export format",
-    "Each patient export would contain data from relevant tables in TSV files",
-    "Rich documents and images are not converted to TSV but included as separate files with references in TSV tables",
-    "The 7,673 tables represent Epic's complete database schema, though not all tables would contain data for every patient",
-    "Tables include both clinical and administrative/operational data",
-    "Many tables have organization-specific columns/values based on customer configuration"
-  ],
-  "fhir_vs_ehi_notes": "Epic's EHI export is fundamentally different from their FHIR APIs. The EHI export dumps Epic's actual database tables in TSV format - raw, unmapped, comprehensive. This includes local codes, custom fields, internal identifiers, billing details, audit trails, and operational data that would never surface through FHIR US Core APIs. While Epic also offers excellent FHIR support, this EHI export provides the complete picture of what's actually stored in Epic's database, making it the only practical way to access comprehensive billing, insurance, custom form data, and historical information that predates or wasn't mapped for FHIR.",
-  "summary": "Epic Systems Corporation provides the gold standard for EHI export documentation. Their public website at open.epic.com/EHITables offers comprehensive documentation for 7,673 database tables representing Epic's complete EHI export schema. Each table is documented at the field level with data types, descriptions, and enumerated values. The export format is TSV (tab-separated values) native to Epic's database. The documentation is easily accessible, downloadable as a 12.7 MB ZIP file, current (February 2026), and requires no login or navigation complexity. This documentation far exceeds ONC requirements and represents the most thorough EHI export documentation available from any major EHR vendor."
+  "summary": "Epic provides the most comprehensive EHI export documentation of any EHR vendor. The export produces TSV files from Epic's Clarity database, with 7,672 tables documented at field level (column name, data type, description, primary key, discontinued status). Documentation is available as both an online browsable index and a downloadable ZIP of HTML files. Coverage spans all EHI categories: clinical data, secure messages (82 MyChart tables), billing (698+ tables), insurance (215+ tables), appointments, documents/images (including DICOM), and audit trails (157+ tables). No anti-bot protection, no login required, no JavaScript needed. This is a genuine database-native export, not a FHIR re-export."
 }
