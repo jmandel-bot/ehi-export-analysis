@@ -18,57 +18,62 @@
   "collection_date": "2026-02-13",
 
   "access": {
-    "description": "The registered URL at www.darenasolutions.com redirects (301) to darena.health/meldrx-onc-hti1-certified, which is a Squarespace page containing a JavaScript redirect to /onc-hti1-certified. Three hops total to reach the actual content. The EHI section is anchored at #b10-EHI-Export-Documentation and is visible in-page without expanding accordions. A newsletter popup overlay appears after ~10 seconds and must be dismissed. The swagger documentation link referenced in the EHI section (app.meldrx.com/swagger/index.html) is dead (404). Replacement API docs exist at docs.darena.health but are not referenced from the EHI section.",
+    "description": "The registered URL at www.darenasolutions.com 301-redirects to darena.health (domain rebrand), then the page at /meldrx-onc-hti1-certified performs a JavaScript redirect to /onc-hti1-certified. The final page is a Squarespace-hosted ONC certification page. The b(10) section is accessible via the #b10-EHI-Export-Documentation anchor — it scrolls directly to the section. A newsletter popup appears and must be dismissed. The section itself contains only two brief paragraphs about FHIR Bulk Export and DocumentReference, with no downloadable data dictionary. The linked swagger documentation at app.meldrx.com/swagger returns 404.",
     "final_url": "https://darena.health/onc-hti1-certified#b10-EHI-Export-Documentation",
     "status": "found",
     "requires_browser": true,
     "anti_bot_protection": "none",
-    "navigation_complexity": "multi_page"
+    "navigation_complexity": "one_click"
   },
 
   "product_context": {
-    "description": "Darena Health (formerly MeldRx, formerly BlueButtonPRO) is a FHIR middleware and compliance platform — NOT an EHR. It provides ONC-certified modules that EHR vendors integrate with to achieve certification. The platform handles FHIR API compliance (g10), EHI export (b10), clinical decision support (b11), and MIPS reporting. The 11 products listed in this certification are separate, independent EHR/practice management systems from 11 different developers that use Darena Health as their compliance layer. These products span radically different specialties: EZDERM (dermatology), PIMSY Platinum (behavioral health), eRAD RIS (radiology information), WITS (substance abuse treatment), Raintree (rehabilitation/therapy), Clinicmind (chiropractic/multi-specialty), Amrita (hospital information system), and others. Each of these products has its own patient portal, billing, scheduling, and specialty-specific functionality that stores data in its own database. Darena Health's FHIR layer only contains whatever data has been synchronized from those underlying systems — typically the USCDI-mapped clinical subset. This architecture means the EHI export almost certainly cannot access the full breadth of data stored by any of the 11 products.",
+    "description": "Darena Health (formerly MeldRx, BlueButtonPRO) is NOT an EHR — it is a FHIR middleware platform. It provides ONC-certified API modules as a SaaS service that EHR vendors integrate to achieve ONC certification compliance. Darena Health describes itself as 'the nation's first ONC Certified FHIR API.' The 11 products listed in CHPL are the actual EHR systems that use Darena Health as their certified module. These range widely: a hospital information system (Amrita HIS), specialty EHRs (ophthalmology — Doctorsoft, dermatology — EZDERM, behavioral health — PIMSY/Office Anywhere, physical therapy — Raintree), a radiology information system (eRAD RIS), a substance abuse treatment system (WITS), a public health system (Epi-Management), and full practice management suites with billing (Clinicmind, UnifiMD). Every one of these products stores substantial data beyond clinical documentation — billing/claims, scheduling, specialty-specific workflows, patient portals, document management, state reporting — that the underlying EHR databases contain but that Darena Health's FHIR middleware layer almost certainly does not have access to.",
     "tags": [
       "fhir-middleware",
-      "compliance-platform",
+      "multi-vendor-certification",
+      "saas-platform",
       "not-an-ehr",
-      "shared-certification-11-products",
-      "multi-specialty",
-      "multi-developer",
-      "white-label-compliance"
+      "11-products-certified-through-one-module",
+      "covers-diverse-specialties",
+      "behavioral-health",
+      "dermatology",
+      "ophthalmology",
+      "physical-therapy",
+      "radiology",
+      "substance-abuse-treatment",
+      "hospital-information-system"
     ],
     "certified_module_name": "Darena Health Version 2.0",
-    "broader_product_name": "Multiple independent products (Amrita HIS, Clinicmind, Doctorsoft EHR, EZDERM, Epi-Management, Office Anywhere, PIMSY Platinum, Raintree, UnifiMD, WITS, eRAD RIS)",
+    "broader_product_name": "Multiple products (Amrita HIS, Clinicmind, Doctorsoft, EZDERM, Epi-Management, Office Anywhere, PIMSY, Raintree, UnifiMD, WITS, eRAD RIS)",
     "product_url": "https://darena.health/"
   },
 
   "export_approach": {
-    "description": "Darena Health's EHI export uses FHIR Bulk Data Export (HL7 FHIR Bulk Data STU 1.0.1). The export is initiated via a Group-level $export operation on the FHIR server, producing NDJSON files of FHIR resources. Non-FHIR data is exported as DocumentReference resources (which can wrap C-CDA documents or other files). This is a pure FHIR-based export — there is no native database dump. The export can only contain data that has been loaded into the Darena Health FHIR workspace from the underlying EHR system. This is a significant limitation: the export is bounded by what the EHR-to-FHIR mapping covers, not by what the underlying EHR actually stores. For 11 different products across 11 specialties, the FHIR mapping is almost certainly limited to standard USCDI clinical data.",
+    "description": "Darena Health's EHI export is entirely FHIR-based. It uses two mechanisms: (1) FHIR Bulk Export for structured data, producing NDJSON files per the FHIR Bulk Data standard (STU 1.0.1), and (2) DocumentReference FHIR resources for non-FHIR content (which can wrap any file, including C-CDA documents). Because Darena Health is middleware — not the EHR itself — it can only export data that EHR vendors have pushed into its FHIR server. It has no direct access to the underlying EHR databases. This creates a fundamental architectural limitation: the export is bounded by whatever FHIR resources each vendor chose to map and send to Darena Health, not by what the EHR actually stores. This is the weakest possible export architecture for EHI completeness — the middleware cannot know what it doesn't have.",
     "tags": [
-      "fhir-bulk-data-export",
-      "ndjson-format",
-      "fhir-r4",
-      "group-level-export",
-      "document-reference-for-non-fhir",
-      "middleware-layer-only",
-      "bounded-by-fhir-mapping"
+      "fhir-bulk-export",
+      "ndjson",
+      "document-reference-wrapper",
+      "middleware-limited",
+      "no-direct-database-access",
+      "bounded-by-vendor-mapping",
+      "fhir-r4"
     ],
     "primary_format": "ndjson",
     "file_types": ["ndjson", "json"],
-    "container": "fhir-bulk-data"
+    "container": "fhir-bulk-export"
   },
 
   "documentation_quality": {
-    "description": "The EHI export documentation is extraordinarily minimal — two sentences on a web page. There is no data dictionary, no schema documentation, no list of exported FHIR resource types, no field-level detail, no sample exports, and no documentation of what data categories are included. The referenced swagger documentation link is dead (404). Alternative API documentation exists at docs.darena.health (Postman format) which documents the Bulk Export API endpoints (System App Token, Get Workspace Details, Get Groups, Start Bulk Export, Get Content), but even these only document API mechanics — not what data is exported. The swagger JSON (OpenAPI 3.0.1) provides endpoint definitions but no FHIR resource schemas specific to the export. A developer receiving this export would need to understand FHIR R4 resource schemas independently — the documentation provides zero guidance on what resources to expect or what fields they contain.",
+    "description": "The EHI export documentation is essentially nonexistent. The b(10) section on the certification page contains exactly two sentences describing the approach (FHIR Bulk Export + DocumentReference). There is no data dictionary, no list of FHIR resource types included in the export, no field-level documentation, no schema definitions, no sample data. The linked swagger documentation (app.meldrx.com/swagger) returns 404. The docs.darena.health site is a Postman-hosted API portal with general integration guidance, but it does not document what data is in the EHI export or what FHIR resources are supported for bulk export. A developer receiving an export would have no vendor-provided documentation to interpret the contents. They would need to rely entirely on generic FHIR R4 and US Core specifications.",
     "tags": [
-      "extremely-minimal",
-      "no-data-dictionary",
-      "no-schema-documentation",
-      "dead-swagger-link",
+      "essentially-no-documentation",
       "two-sentences-only",
-      "api-mechanics-only",
-      "no-field-detail",
-      "no-sample-data"
+      "no-data-dictionary",
+      "no-resource-listing",
+      "swagger-link-dead",
+      "no-field-definitions",
+      "relies-on-fhir-spec-knowledge"
     ],
     "schema_documented": false,
     "field_level_detail": false,
@@ -77,85 +82,77 @@
     "examples_provided": false,
     "table_or_resource_count": null,
     "documentation_format": "html",
-    "documentation_version": "Darena Health Version 2.0",
+    "documentation_version": null,
     "documentation_last_updated": null
   },
 
   "ehi_coverage": {
-    "overall_assessment": "Coverage is almost certainly severely incomplete for all 11 products. Darena Health is a FHIR middleware layer — it can only export data that has been mapped and synchronized from each underlying EHR into the FHIR workspace. Standard FHIR R4 resources cover clinical data reasonably well (diagnoses, medications, labs, allergies, vitals) but have significant gaps in billing detail, secure messaging, insurance authorization specifics, scheduling, audit trails, and specialty-specific data. Given that the 11 products span dermatology, behavioral health, radiology, substance abuse treatment, rehabilitation, and hospital settings, each with deep specialty-specific data models, the FHIR layer is almost certainly capturing only a fraction of each product's stored EHI. The documentation provides no list of exported resource types, making it impossible to verify coverage. The DocumentReference mechanism for non-FHIR data (e.g., C-CDA documents) provides a theoretical path for additional data but only if the underlying EHR has implemented that mapping — which is not documented.",
+    "overall_assessment": "It is impossible to assess EHI coverage with confidence because there is no data dictionary and the export depends entirely on what each of the 11 EHR vendors feeds into the Darena Health FHIR server. At best, the export contains standard FHIR R4/US Core clinical resources (Patient, Condition, MedicationRequest, Observation, AllergyIntolerance, Procedure, Immunization, DiagnosticReport, etc.) plus DocumentReference wrappers for non-FHIR content like C-CDA documents. At worst, it contains only what was minimally needed for g(10) API certification. Given the middleware architecture, the export almost certainly does not include billing line items, insurance authorization details, scheduling data, patient-provider messages, specialty-specific data, or audit trails — data that every one of these 11 products stores but that would not typically be mapped to FHIR resources and pushed to a third-party middleware platform. The gap between what these products store and what this export likely contains is enormous.",
     "clinical": {
       "present": true,
-      "evidence": "FHIR Bulk Data Export will include standard FHIR R4 clinical resources (Patient, Condition, MedicationRequest, Observation, AllergyIntolerance, Immunization, Procedure, DiagnosticReport, etc.) to the extent they have been mapped from the underlying EHR. The G9 section of the API docs shows CCDA creation capability. However, no specific list of exported resource types is provided in the documentation."
+      "evidence": "The FHIR Bulk Export would include standard US Core clinical resources (Patient, Condition, MedicationRequest, Observation, AllergyIntolerance, Procedure, Immunization, etc.). Additionally, C-CDA documents wrapped in DocumentReference resources provide clinical summaries. However, specialty-specific clinical data (dermatology images, ophthalmology measurements, behavioral health assessments, PT functional outcomes, radiology workflows) would likely not be represented in standard FHIR resources."
     },
     "secure_messages": {
       "present": false,
-      "evidence": "No mention of Communication, messaging, portal messages, or inbox in any documentation. FHIR R4's Communication resource could theoretically carry messages, but there is no evidence it is included. Multiple underlying products (Clinicmind, Raintree, PIMSY Platinum, etc.) likely have patient portals with messaging, but this data would need explicit mapping to Darena's FHIR layer."
+      "evidence": "No mention of messaging, inbox, communication, or portal messages anywhere in the documentation. Several of the underlying products (Clinicmind, Raintree, UnifiMD) have patient portals, but portal message data would not typically be sent to a FHIR middleware layer. FHIR Communication resources are not part of US Core and would require deliberate mapping."
     },
     "billing_financial": {
       "present": false,
-      "evidence": "No mention of Claim, ExplanationOfBenefit, ChargeItem, Invoice, or any billing/financial FHIR resources in the documentation. The underlying products (especially full EHRs like Clinicmind, Raintree, Doctorsoft) have extensive billing/RCM capabilities. FHIR R4 has limited billing resources compared to what EHR billing modules actually store. No evidence of billing data mapping."
+      "evidence": "No mention of billing, charges, claims, payments, or financial data anywhere in the documentation. Multiple underlying products (Clinicmind, Raintree, UnifiMD, PIMSY, eRAD) have extensive billing/RCM capabilities. FHIR has Claim/ExplanationOfBenefit resources but these are not part of US Core and billing data would not typically be pushed to a FHIR middleware layer. This is a critical gap given that billing data is part of the Designated Record Set."
     },
     "insurance_coverage": {
       "present": false,
-      "evidence": "No mention of Coverage, InsurancePlan, eligibility, or authorization resources. The underlying EHRs store detailed insurance information for claims processing, but there is no evidence this is mapped to Darena's FHIR layer."
+      "evidence": "No mention of insurance, coverage, eligibility, or authorization data. The underlying products handle insurance/payer data but this would remain in the EHR databases, not in the Darena Health FHIR server."
     },
     "appointments_scheduling": {
       "present": false,
-      "evidence": "No mention of Appointment, Schedule, or Slot resources. All underlying EHR products have scheduling functionality, but there is no evidence appointment data is included in the FHIR workspace."
+      "evidence": "No mention of appointments or scheduling. Multiple products (Clinicmind, Raintree, UnifiMD, PIMSY) have scheduling modules. FHIR Appointment resources exist but are not part of US Core and would not be in a typical FHIR Bulk Export from a middleware platform."
     },
     "documents_images": {
       "present": true,
-      "evidence": "The documentation explicitly mentions DocumentReference resource types for non-FHIR resources including CCDA. The G10 section includes 'Upload DocumentReference' and the G9 section includes 'Get CCDA DocumentReference'. However, this is limited to documents that have been explicitly uploaded to the Darena workspace — it's unclear whether scanned documents, images, or specialty-specific media (e.g., dermatology photos from EZDERM, radiology images from eRAD RIS) are included."
+      "evidence": "The documentation explicitly mentions DocumentReference for non-FHIR resources, stating it 'can be used with any file, including CCDA.' This provides a mechanism for including documents, but whether each vendor actually maps their documents (scanned files, clinical photos, uploaded images, faxes) into DocumentReference resources in Darena Health is unknown and varies by vendor. Dermatology images (EZDERM), radiology images (eRAD), and scanned documents are unlikely to be pushed to the middleware layer."
     },
     "audit_trails": {
       "present": false,
-      "evidence": "No mention of AuditEvent, Provenance, or access logging in the export documentation. The certification includes 170.315(d)(2) 'Auditable Events and Tamper Resistance' and (d)(3) 'Audit Reports' but these appear to be about the Darena platform's own audit capabilities, not about exporting audit data from the underlying EHRs."
+      "evidence": "No mention of audit logs, access tracking, or provenance in the EHI export documentation. Darena Health is certified for d(2) Auditable Events and d(3) Audit Reports, but these likely apply to access logs within the Darena Health platform itself, not to exporting audit trail data from the underlying EHR systems as part of the EHI export."
     }
   },
 
   "issues": [
-    "The EHI export documentation consists of only two sentences — grossly insufficient for understanding what data is exported.",
-    "The swagger documentation link referenced in the b(10) section (app.meldrx.com/swagger/index.html) returns 404, leaving the primary reference dead.",
-    "Darena Health is a FHIR middleware platform, not an EHR — the export can only contain data that has been mapped and synchronized from 11 separate underlying EHR systems, which is almost certainly a small subset of each product's stored EHI.",
-    "11 different EHR products from 11 different developers across radically different specialties (dermatology, behavioral health, radiology, substance abuse, rehabilitation, hospital) all share this single 2-sentence EHI export documentation page.",
-    "No data dictionary, no list of exported FHIR resource types, no field-level documentation, and no sample exports are provided.",
-    "The FHIR Bulk Data Export approach inherently limits coverage to data that can be represented as standard FHIR R4 resources, which excludes most billing detail, insurance authorization specifics, scheduling data, secure messages, and specialty-specific data.",
-    "Specialty-specific data critical to the underlying products (e.g., dermatology images in EZDERM, behavioral health treatment plans in PIMSY, radiology reports in eRAD RIS, substance abuse treatment data in WITS) has no documented path to the FHIR export.",
-    "The registered URL requires three hops to reach content (301 redirect, JS redirect, then scroll to anchor) and the old domain (darenasolutions.com) is used in the CHPL registration.",
-    "No documentation of how non-FHIR data from underlying EHRs gets into the DocumentReference pathway — the mechanism exists in theory but its implementation for each of the 11 products is unknown."
+    "The EHI export documentation consists of only two sentences — no data dictionary, no resource listing, no field definitions, no schema documentation whatsoever.",
+    "The linked swagger documentation at app.meldrx.com/swagger/index.html returns 404 Not Found, meaning the only referenced technical documentation is inaccessible.",
+    "Darena Health is FHIR middleware, not an EHR — it can only export data that EHR vendors push into it, creating a fundamental architectural limitation on export completeness.",
+    "11 diverse EHR products (hospital system, dermatology, ophthalmology, behavioral health, radiology, substance abuse treatment, practice management) all share the same two-sentence EHI export documentation, despite having vastly different data models and storage.",
+    "The FHIR Bulk Export approach is inherently limited for EHI completeness — standard FHIR R4 resources cannot represent billing line items, insurance authorizations, scheduling, patient portal messages, specialty-specific clinical data, or audit trails.",
+    "Products with extensive billing/RCM capabilities (Clinicmind, Raintree, UnifiMD, PIMSY, eRAD) almost certainly have billing data that is not included in the export.",
+    "Products with patient portals (Clinicmind, Raintree) likely have portal messaging data that is not included in the export.",
+    "Specialty-specific clinical data (dermatology images from EZDERM, ophthalmology measurements from Doctorsoft, behavioral health assessments from PIMSY/Office Anywhere, radiology workflows from eRAD) are unlikely to be captured in standard FHIR resources.",
+    "Substance abuse treatment data (WITS) and epidemiological surveillance data (Epi-Management) are highly specialized and almost entirely outside FHIR resource coverage.",
+    "The registered URL requires two redirects (domain rebrand + JavaScript redirect) to reach the actual content, reducing discoverability."
   ],
 
   "downloaded_files": [
     {
-      "local_path": "downloads/darena-health-onc-certified-page.html",
+      "local_path": "downloads/darena-health-onc-certification-page.html",
       "source_url": "https://darena.health/onc-hti1-certified",
       "size_bytes": 234237,
       "type": "html",
       "is_ehi_documentation": true,
-      "description": "ONC Certification page containing the b(10) EHI Export Documentation section (two sentences describing FHIR Bulk Export and DocumentReference approach)",
-      "curl_command": "curl -sL 'https://darena.health/onc-hti1-certified' -H 'User-Agent: Mozilla/5.0' -o darena-health-onc-certified-page.html"
+      "description": "Full ONC certification page containing the b(10) EHI Export Documentation section (two paragraphs describing FHIR Bulk Export + DocumentReference approach)",
+      "curl_command": "curl -sL 'https://darena.health/onc-hti1-certified' -H 'User-Agent: Mozilla/5.0' -o downloads/darena-health-onc-certification-page.html"
     },
     {
       "local_path": "downloads/darena-health-api-docs.html",
       "source_url": "https://docs.darena.health/",
       "size_bytes": 39942,
       "type": "html",
-      "is_ehi_documentation": true,
-      "description": "Postman-hosted API documentation covering Bulk Export endpoints (System App Token, Get Workspace Details, Get Groups, Start Bulk Export, Get Content) and FHIR API endpoints. Requires JavaScript to render.",
-      "curl_command": "curl -sL 'https://docs.darena.health/' -H 'User-Agent: Mozilla/5.0' -o darena-health-api-docs.html"
-    },
-    {
-      "local_path": "downloads/darena-health-swagger-api-v16.json",
-      "source_url": "https://app.meldrx.com/swagger/v16/swagger.json",
-      "size_bytes": 646785,
-      "type": "json",
-      "is_ehi_documentation": true,
-      "description": "OpenAPI 3.0.1 specification for Darena Health APIs. Contains endpoint definitions for FHIR operations, bulk export, CCDA import/export, MIPS reporting, and data models. Previously downloaded; the swagger UI is now 404 but this JSON was captured when it was live.",
-      "curl_command": "curl -sL 'https://app.meldrx.com/swagger/v16/swagger.json' -H 'User-Agent: Mozilla/5.0' -o darena-health-swagger-api-v16.json"
+      "is_ehi_documentation": false,
+      "description": "Postman-hosted API documentation portal for Darena Health. General integration guidance for developers; does not contain EHI export-specific documentation. Content is largely JavaScript-rendered.",
+      "curl_command": "curl -sL 'https://docs.darena.health/' -H 'User-Agent: Mozilla/5.0' -o downloads/darena-health-api-docs.html"
     }
   ],
 
-  "summary": "Darena Health is a FHIR middleware/compliance platform (not an EHR) that provides ONC-certified modules to 11 separate EHR products from 11 different developers across diverse specialties. Its b(10) EHI export documentation consists of just two sentences describing FHIR Bulk Data Export and DocumentReference-based non-FHIR export, with the referenced swagger link now dead (404). The FHIR-only export approach inherently limits coverage to data that has been mapped from each underlying EHR to the FHIR workspace, almost certainly missing billing, insurance, scheduling, secure messages, audit trails, and specialty-specific data that the underlying EHR products store.",
+  "summary": "Darena Health is a FHIR middleware platform — not an EHR — that provides ONC-certified modules to 11 diverse EHR products ranging from hospital systems to dermatology to radiology to substance abuse treatment. The EHI export documentation is essentially nonexistent: two sentences describing FHIR Bulk Export and DocumentReference, with no data dictionary and dead swagger links. The middleware architecture means the export can only contain what each vendor pushes into the FHIR server, creating a fundamental gap between what these products actually store (billing, scheduling, messages, specialty data, images, audit trails) and what the export can provide. This is one of the weakest EHI export implementations encountered — inadequate documentation, architectural limitations preventing completeness, and a one-size-fits-all approach for 11 radically different products.",
 
-  "notes": "This is a particularly problematic case for EHI completeness. The b(10) requirement covers 'all EHI stored by the product, of which the Health IT Module is a part.' The certified module (Darena Health) is a FHIR middleware layer that sits alongside — not inside — the actual EHR products. The products (Raintree, Clinicmind, EZDERM, etc.) are the systems that actually store patient data. Darena Health only sees what the EHR has pushed to it via FHIR/CCDA mappings. This creates a fundamental architectural gap: the certified module's export capability is limited to data that exists in the middleware layer, while the bulk of EHI remains in the underlying EHR databases that Darena Health has no direct access to. Each of the 11 products would need its own comprehensive data mapping to close this gap, and there is no documentation suggesting this has been done comprehensively for any of them."
+  "notes": "The middleware certification model raises a systemic concern: Darena Health achieves b(10) certification, and then 11 EHR vendors claim compliance by integrating with it. But b(10) requires export of 'all EHI stored by the product of which the Health IT Module is a part.' If the certified module (Darena Health) is part of a product (e.g., Clinicmind), then the export must include ALL data from Clinicmind — including billing, scheduling, messages, etc. A FHIR middleware layer that only receives clinical FHIR resources from the EHR cannot satisfy this requirement. Each of the 11 products would need to ensure all their data is pushed to Darena Health, which is architecturally impractical. The ONC certification page mentions 'MeldRx is now Darena Health' — the company has rebranded at least twice (BlueButtonPRO → MeldRx → Darena Health)."
 }
