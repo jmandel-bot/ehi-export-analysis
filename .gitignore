@@ -5,3 +5,7 @@ chpl-data/details/
 
 # Claude/shelley logs - ephemeral
 wiggum/logs/
+
+# Old pipeline dir (moved to work/ and results/)
+wiggum/results/
+wiggum/work/

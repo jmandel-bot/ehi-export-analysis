@@ -71,19 +71,20 @@ Shows: completed count, running processes, per-vendor summary, failures.
 ## Files
 
 ```
+work/
+  targets.json              # Deduplicated URL → vendor(s) map
+  all-export-urls.json      # Raw per-product URL data
+results/
+  <vendor-slug>/
+    collection-log.md       # Navigation journal
+    analysis.json           # Structured characterization
+    downloads/              # All downloaded artifacts
 wiggum/
   00-fetch-export-urls.sh   # Stage 0: build target list from CHPL
-  loop.sh                   # Main loop: one Claude invocation per URL
+  loop.sh                   # Main loop: one LLM invocation per URL
   prompt.md                 # Prompt template (filled per vendor)
   status.sh                 # Check progress
-  work/
-    targets.json            # Deduplicated URL → vendor(s) map
-    all-export-urls.jsonl   # Raw per-product URL data
-  results/
-    <vendor-slug>/
-      collection-log.md     # Navigation journal
-      analysis.json         # Structured characterization
-      downloads/            # All downloaded artifacts
+  shelley-prompt.ts         # Shelley SSE client (Bun)
   logs/
-    <vendor-slug>.log       # Raw Claude output
+    <vendor-slug>.log       # Raw LLM output
 ```

@@ -16,9 +16,9 @@ export PATH="$HOME/.local/bin:$HOME/.bun/bin:$PATH"
 
 ROOT="$(cd "$(dirname "${BASH_SOURCE[0]}")/.." && pwd)"
 CONFIG_DIR="$ROOT/wiggum"
-TARGETS="$ROOT/wiggum/work/targets.json"
+TARGETS="$ROOT/work/targets.json"
 PROMPT_TEMPLATE="$ROOT/wiggum/prompt.md"
-RESULTS_DIR="$ROOT/wiggum/results"
+RESULTS_DIR="$ROOT/results"
 LOG_DIR="$ROOT/wiggum/logs"
 
 MAX_CONCURRENT="${MAX_CONCURRENT:-3}"

@@ -6,7 +6,7 @@ set -euo pipefail
 
 ROOT="$(cd "$(dirname "${BASH_SOURCE[0]}")/.." && pwd)"
 CHPL_DIR="$ROOT/chpl-data"
-WORK_DIR="$ROOT/wiggum/work"
+WORK_DIR="$ROOT/work"
 mkdir -p "$WORK_DIR" "$CHPL_DIR"
 
 BULK_FILE="$CHPL_DIR/all-active-listings.json"

@@ -3,8 +3,8 @@
 set -euo pipefail
 
 ROOT="$(cd "$(dirname "${BASH_SOURCE[0]}")/.." && pwd)"
-RESULTS="$ROOT/wiggum/results"
-TARGETS="$ROOT/wiggum/work/targets.json"
+RESULTS="$ROOT/results"
+TARGETS="$ROOT/work/targets.json"
 
 TOTAL=$(jq 'length' "$TARGETS" 2>/dev/null || echo 0)
 
