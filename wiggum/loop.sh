@@ -15,13 +15,58 @@ set -euo pipefail
 export PATH="$HOME/.local/bin:$HOME/.bun/bin:$PATH"
 
 ROOT="$(cd "$(dirname "${BASH_SOURCE[0]}")/.." && pwd)"
+CONFIG_DIR="$ROOT/wiggum"
 TARGETS="$ROOT/wiggum/work/targets.json"
 PROMPT_TEMPLATE="$ROOT/wiggum/prompt.md"
 RESULTS_DIR="$ROOT/wiggum/results"
 LOG_DIR="$ROOT/wiggum/logs"
 
 MAX_CONCURRENT="${MAX_CONCURRENT:-3}"
+
+# LLM backend: "claude" (default), "shelley", or "gemini"
+LLM_BACKEND="${LLM_BACKEND:-claude}"
+
+# Claude settings
 CLAUDE_MODEL="${CLAUDE_MODEL:-sonnet}"
+CLAUDE_BUDGET="${CLAUDE_BUDGET:-2.00}"
+
+# Shelley settings
+SHELLEY_PROMPT="${SHELLEY_PROMPT:-$CONFIG_DIR/shelley-prompt.ts}"
+SHELLEY_SERVER="${SHELLEY_SERVER:-http://localhost:9999}"
+SHELLEY_MODEL="${SHELLEY_MODEL:-}"
+SHELLEY_USER="${SHELLEY_USER:-wiggum}"
+
+# Gemini settings
+GEMINI_MODEL="${GEMINI_MODEL:-gemini-3-pro-preview}"
+
+# Run LLM — dispatches based on LLM_BACKEND.
+# Prompt comes via stdin. First arg is working directory.
+run_llm() {
+  local cwd="$1"
+  case "$LLM_BACKEND" in
+    claude)
+      cd "$cwd"
+      claude -p --dangerously-skip-permissions \
+        --model "$CLAUDE_MODEL" \
+        --max-budget-usd "$CLAUDE_BUDGET"
+      ;;
+    shelley)
+      local args=("$SHELLEY_PROMPT" -server "$SHELLEY_SERVER" -cwd "$cwd" -user "$SHELLEY_USER" -v)
+      if [[ -n "$SHELLEY_MODEL" ]]; then
+        args+=(-model "$SHELLEY_MODEL")
+      fi
+      "${args[@]}"
+      ;;
+    gemini)
+      cd "$cwd"
+      gemini -p "" --yolo --output-format text --model "$GEMINI_MODEL"
+      ;;
+    *)
+      echo "Unknown LLM_BACKEND: $LLM_BACKEND" >&2
+      return 1
+      ;;
+  esac
+}
 
 # Parse args
 RESUME=false
@@ -45,10 +90,15 @@ fi
 
 TOTAL=$(jq 'length' "$TARGETS")
 echo "=== EHI Export Documentation Collection ==="
-echo "Targets: $TOTAL unique URLs"
+echo "Backend:     $LLM_BACKEND"
+case "$LLM_BACKEND" in
+  claude)  echo "Model:       $CLAUDE_MODEL (budget \$$CLAUDE_BUDGET)" ;;
+  shelley) echo "Server:      $SHELLEY_SERVER (model: ${SHELLEY_MODEL:-default})" ;;
+  gemini)  echo "Model:       $GEMINI_MODEL" ;;
+esac
+echo "Targets:     $TOTAL unique URLs"
 echo "Concurrency: $MAX_CONCURRENT"
-echo "Model: $CLAUDE_MODEL"
-echo "Results: $RESULTS_DIR/"
+echo "Results:     $RESULTS_DIR/"
 echo ""
 
 # Slug-ify a vendor name
@@ -140,17 +190,13 @@ launch_one() {
     -e "s|{{OUTPUT_DIR}}|${output_dir}|g" \
     "$PROMPT_TEMPLATE")
 
-  echo "[$idx/$TOTAL] LAUNCH $slug"
+  echo "[$idx/$TOTAL] LAUNCH $slug ($LLM_BACKEND)"
   echo "  URL: $url"
   echo "  Developer(s): $developers"
   echo "  Output: $output_dir/"
 
-  # Launch Claude in background
-  claude -p \
-    --dangerously-skip-permissions \
-    --model "$CLAUDE_MODEL" \
-    --max-budget-usd 2.00 \
-    "$prompt" \
+  # Launch LLM in background — prompt via stdin
+  run_llm "$ROOT" <<< "$prompt" \
     > "$LOG_DIR/${slug}.log" 2>&1 &
 
   PIDS[$slug]=$!

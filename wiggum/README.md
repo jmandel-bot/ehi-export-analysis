@@ -43,7 +43,22 @@ MAX_CONCURRENT=5 ./wiggum/loop.sh --resume
 
 # Use a different model
 CLAUDE_MODEL=opus ./wiggum/loop.sh --only 0
+
+# Use Shelley backend instead of Claude CLI
+LLM_BACKEND=shelley ./wiggum/loop.sh --resume
+LLM_BACKEND=shelley SHELLEY_MODEL=claude-sonnet-4.5 ./wiggum/loop.sh --only 0
+
+# Use Gemini
+LLM_BACKEND=gemini ./wiggum/loop.sh --resume
 ```
+
+## Backends
+
+| Backend | Env vars | Notes |
+|---------|----------|-------|
+| `claude` (default) | `CLAUDE_MODEL` (sonnet), `CLAUDE_BUDGET` (2.00) | Claude Code CLI with `--dangerously-skip-permissions` |
+| `shelley` | `SHELLEY_SERVER` (localhost:9999), `SHELLEY_MODEL`, `SHELLEY_USER` (wiggum) | Shelley server via `shelley-prompt.ts` |
+| `gemini` | `GEMINI_MODEL` (gemini-3-pro-preview) | Gemini CLI with `--yolo` |
 
 ## Checking Progress
 
