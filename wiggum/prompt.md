@@ -393,11 +393,20 @@ The JSON below shows the target schema. Follow these rules:
 - **Tags are freeform strings.** Use them to capture concepts that don't fit
   neatly into the schema. Be specific and descriptive.
 
+**Important: multiple distinct products at one URL.** Many URLs document
+several related but distinct products (e.g., MEDITECH Expanse vs MEDITECH 6.x
+vs MEDITECH MAGIC — same URL, different platforms with different export
+approaches). When this happens, produce a **separate entry in the `products`
+array** for each distinct product. Don't try to squash different products into
+one analysis — the differences matter.
+
+Group by distinct product, not by every CHPL version. MEDITECH Expanse 2.1
+and Expanse 2.2 are the same product; MEDITECH Expanse and MEDITECH MAGIC are
+not. Use your judgment.
+
 ```json
 {
   "vendor": "Vendor Name",
-  "products": ["Product A"],
-  "chpl_ids": [12345],
   "export_documentation_url": "https://...",
   "collection_date": "2026-02-13",
 
@@ -411,87 +420,90 @@ The JSON below shows the target schema. Follow these rules:
     "navigation_complexity": "direct_link|one_click|accordion|multi_page|spa_navigation"
   },
 
-  "product_context": {
-    "description": "Narrative description of the vendor's product. What is it?
-      Who uses it? What does it do? Is the certified module the whole product
-      or a component of something larger? What data does the broader product
-      store that might be relevant to EHI export completeness?",
-    "tags": ["full-ehr", "ambulatory", "has-patient-portal", "has-billing",
-             "has-scheduling", "ophthalmology-specialty"],
-    "certified_module_name": "athenaClinicals",
-    "broader_product_name": "athenaOne",
-    "product_url": "https://www.athenahealth.com/..."
-  },
+  "products": [
+    {
+      "name": "Product Name (e.g., 'MEDITECH Expanse' not 'MEDITECH Expanse 2.2 Core HCIS')",
+      "chpl_ids": [12345, 12346],
+      "certified_module_names": ["MEDITECH Expanse 2.1 Core HCIS", "MEDITECH Expanse 2.2 Core HCIS"],
 
-  "export_approach": {
-    "description": "Narrative description of how the vendor approaches EHI export.
-      Do they dump native database tables? Export FHIR resources? Generate C-CDA
-      documents? Some combination? How does this affect completeness? Is the
-      export a single operation or multiple separate exports needed?",
-    "tags": ["database-native", "tsv-format", "single-zip-export", "7673-tables"],
-    "primary_format": "tsv",
-    "file_types": ["tsv", "pdf", "png"],
-    "container": "zip"
-  },
+      "product_context": {
+        "description": "Narrative description of this specific product. What is it?
+          Who uses it? What does it do? Is the certified module the whole product
+          or a component of something larger? What data does the broader product
+          store that might be relevant to EHI export completeness?",
+        "tags": ["full-ehr", "ambulatory", "has-patient-portal", "has-billing",
+                 "has-scheduling"],
+        "broader_product_name": "athenaOne",
+        "product_url": "https://www.athenahealth.com/..."
+      },
 
-  "documentation_quality": {
-    "description": "Narrative assessment of the documentation. How detailed is it?
-      Could a developer figure out what to do with the export? Is it self-contained
-      or does it assume knowledge of external standards? What tools would you need?",
-    "tags": ["field-level-detail", "includes-data-types", "includes-relationships",
-             "no-sample-data", "self-contained"],
-    "schema_documented": true,
-    "field_level_detail": true,
-    "value_sets_documented": false,
-    "relationships_documented": false,
-    "examples_provided": false,
-    "table_or_resource_count": 261,
-    "documentation_format": "html",
-    "documentation_version": "v3.2 (if visible)",
-    "documentation_last_updated": "2025-09-24 (if visible)"
-  },
+      "export_approach": {
+        "description": "Narrative description of how this product's EHI export works.
+          Do they dump native database tables? Export FHIR resources? Generate C-CDA?
+          Some combination? How does this affect completeness?",
+        "tags": ["database-native", "tsv-format", "single-zip-export", "7673-tables"],
+        "primary_format": "tsv",
+        "file_types": ["tsv", "pdf", "png"],
+        "container": "zip"
+      },
 
-  "ehi_coverage": {
-    "overall_assessment": "Narrative assessment of how completely the export
-      covers the full EHI / Designated Record Set. What's strong? What's missing?
-      How does the export approach affect coverage? Given what you know about
-      the broader product, are there capabilities whose data appears to be
-      absent from the export?",
-    "clinical": {
-      "present": true,
-      "evidence": "Full clinical tables including diagnoses, medications, labs..."
-    },
-    "secure_messages": {
-      "present": false,
-      "evidence": "Searched for message/inbox/communication — not found.
-        The product has a patient portal (verified on vendor website) so
-        messaging data likely exists but is not included in the export."
-    },
-    "billing_financial": {
-      "present": true,
-      "evidence": "Charge, Claim, Payment tables with dollar amounts..."
-    },
-    "insurance_coverage": {
-      "present": true,
-      "evidence": "Insurance table with plan, eligibility, authorization fields..."
-    },
-    "appointments_scheduling": {
-      "present": true,
-      "evidence": "Appointment table with date, time, status, provider..."
-    },
-    "documents_images": {
-      "present": true,
-      "evidence": "Documents folder with scanned images, uploaded files..."
-    },
-    "audit_trails": {
-      "present": false,
-      "evidence": "No audit tables found in export documentation."
+      "documentation_quality": {
+        "description": "Narrative assessment of the documentation for this product.",
+        "tags": ["field-level-detail", "includes-data-types"],
+        "schema_documented": true,
+        "field_level_detail": true,
+        "value_sets_documented": false,
+        "relationships_documented": false,
+        "examples_provided": false,
+        "table_or_resource_count": 261,
+        "documentation_format": "html",
+        "documentation_version": "v3.2 (if visible)",
+        "documentation_last_updated": "2025-09-24 (if visible)"
+      },
+
+      "ehi_coverage": {
+        "overall_assessment": "Narrative assessment of how completely this product's
+          export covers the full EHI / Designated Record Set. What's strong?
+          What's missing? Given what the broader product does, are there
+          capabilities whose data appears absent from the export?",
+        "clinical": {
+          "present": true,
+          "evidence": "Full clinical tables including diagnoses, medications, labs..."
+        },
+        "secure_messages": {
+          "present": false,
+          "evidence": "Searched for message/inbox/communication — not found.
+            The product has a patient portal (verified on vendor website) so
+            messaging data likely exists but is not included in the export."
+        },
+        "billing_financial": {
+          "present": true,
+          "evidence": "Charge, Claim, Payment tables with dollar amounts..."
+        },
+        "insurance_coverage": {
+          "present": true,
+          "evidence": "Insurance table with plan, eligibility, authorization fields..."
+        },
+        "appointments_scheduling": {
+          "present": true,
+          "evidence": "Appointment table with date, time, status, provider..."
+        },
+        "documents_images": {
+          "present": true,
+          "evidence": "Documents folder with scanned images, uploaded files..."
+        },
+        "audit_trails": {
+          "present": false,
+          "evidence": "No audit tables found in export documentation."
+        }
+      },
+
+      "issues": [
+        "Describe specific problems, red flags, or compliance concerns for this product."
+      ],
+
+      "summary": "2-3 sentence summary of this product's EHI export capability."
     }
-  },
-
-  "issues": [
-    "Describe specific problems, red flags, or compliance concerns.",
-    "Each issue should be a complete sentence that stands on its own."
   ],
 
   "downloaded_files": [
@@ -506,8 +518,8 @@ The JSON below shows the target schema. Follow these rules:
     }
   ],
 
-  "summary": "2-4 sentence summary of this vendor's EHI export capability,
-    covering what's strong, what's weak, and what's notable.",
+  "summary": "2-4 sentence vendor-level summary covering the overall picture
+    across all products at this URL.",
 
   "notes": "Any additional observations that don't fit elsewhere."
 }
