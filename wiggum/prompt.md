@@ -343,8 +343,7 @@ The reproducibility record. Structure:
 # {{Vendor Name}} — EHI Export Documentation Collection Log
 
 ## Source
-- CHPL IDs: 12345
-- Products: Product A
+- CHPL IDs: 12345, 12346
 - Registered URL: https://...
 
 ## Navigation Journal
@@ -371,11 +370,34 @@ Verified: `file filename.pdf` → PDF document, version 1.7
 Pages: 142 (from pdfinfo)
 Saved to: downloads/filename.pdf
 
-## Product Context
-(what you learned about the broader product from the vendor's website)
-
 ## Obstacles & Notes
 (anti-bot issues, special headers, dead ends, anything notable)
+
+---
+
+## Product: {{Product Name A}} (e.g., "MEDITECH Expanse")
+
+### Product Context
+(what you learned about this product from the vendor's website — what it does,
+who uses it, what data it stores, patient portal, billing, messaging, etc.)
+
+### Export Approach
+(how this product's export works — database dump, FHIR, C-CDA, etc.
+which downloaded files apply to this product)
+
+### EHI Coverage Assessment
+(narrative walkthrough of the 7 categories — what's present, what's missing,
+what's suspicious. connect the product context to the export: if the product
+has messaging but the export doesn't include it, say so and explain why it matters)
+
+### Issues & Red Flags
+(specific concerns for this product)
+
+---
+
+## Product: {{Product Name B}} (e.g., "MEDITECH MAGIC")
+
+(same structure — repeat for each distinct product at this URL)
 ```
 
 ### 2. `analysis.json` — Structured Characterization
