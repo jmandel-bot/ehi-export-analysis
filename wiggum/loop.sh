@@ -33,7 +33,7 @@ CLAUDE_BUDGET="${CLAUDE_BUDGET:-2.00}"
 # Shelley settings
 SHELLEY_PROMPT="${SHELLEY_PROMPT:-$CONFIG_DIR/shelley-prompt.ts}"
 SHELLEY_SERVER="${SHELLEY_SERVER:-http://localhost:9999}"
-SHELLEY_MODEL="${SHELLEY_MODEL:-}"
+SHELLEY_MODEL="${SHELLEY_MODEL:-claude-opus-4.6}"
 SHELLEY_USER="${SHELLEY_USER:-wiggum}"
 
 # Gemini settings
