@@ -174,10 +174,20 @@ before marking as failed.
 
 ## Part 3: Research the Broader Product
 
-This is where you go beyond the export documentation to understand what the
-vendor's product actually does. The b(10) requirement covers "all EHI that can
-be stored by the product, of which the Health IT Module is a part" — so we need
-to understand the full product.
+This is critical: you must go **beyond the export documentation URL** to the
+vendor's main website (and possibly other public sources). The b(10) requirement
+covers "all EHI that can be stored by the product, of which the Health IT
+Module is a part" — so we need to understand the full product.
+
+The export doc URL ({{URL}}) tells you what the vendor *says* they export.
+The vendor's main website tells you what the product *actually does* — and
+therefore what data it probably stores. The gap between those two is the story.
+
+### How to research:
+
+Start from the vendor's main website (usually obvious from the export doc URL
+domain, or search for "{{DEVELOPERS}} EHR"). Look at product pages, feature
+lists, customer-facing documentation, press releases, screenshots.
 
 ### What to investigate:
 
