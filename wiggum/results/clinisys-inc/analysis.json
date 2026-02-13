@@ -1,142 +1,108 @@
 {
-  "vendor": "Clinisys, Inc.",
-  "products": ["SQ Lab", "Sunquest Laboratory"],
-  "chpl_ids": [9726, 9734, 10701, 11038, 11600],
-  "export_documentation_url": "https://www.clinisys.com/us/en/onc-disclosure/",
+  "vendor": "Clinisys Inc.",
+  "products": ["Clinisys Harvest", "Clinisys Orchard"],
+  "chpl_ids": [11285, 11490, 11581, 11634],
+  "export_documentation_url": "https://www.clinisys.com/uk/en/history/orchard/",
   "access": {
     "status": "found",
     "requires_browser": false,
     "anti_bot_protection": "none",
-    "navigation_complexity": "one_click",
-    "notes": "WordPress page behind Cloudflare; all content server-rendered. EHI export spec PDFs are at the bottom of a multi-product compliance hub. No JavaScript, login, or anti-bot issues."
+    "navigation_complexity": "accordion",
+    "notes": "WordPress site with accordion sections. EHI export PDFs are in a collapsed 'Export Specifications' accordion. Content is in DOM source, curl-accessible."
   },
   "export_format": {
-    "primary_format": "mixed",
-    "file_types": ["pipe-delimited text", "HL7 v2.3/v2.5.1"],
+    "primary_format": "hl7v2",
+    "file_types": ["hl7"],
     "container": "unknown",
-    "description": "Individual patient export produces pipe-delimited (\"|\") flat text with typed record rows (Type 10=demographics, 20=orders, 30=accessions, etc.). Patient population export produces HL7 v2.3 or v2.5.1 messages via TCP/IP or to a file, using the site's existing results interface formatter. No mention of ZIP packaging or folder structure."
+    "description": "HL7 v2.3 ORU^R01 messages containing lab results. Each message includes patient demographics (PID), visit info (PV1), order details (ORC/OBR), and observation results (OBX). Supports embedded PDF results via Base64 encoding in OBX-5. The container/packaging method for bulk export is not described in the documentation."
   },
   "documentation": {
     "format": "pdf",
     "field_level_detail": true,
-    "data_types_included": false,
-    "table_or_resource_count": 12,
+    "data_types_included": true,
+    "table_or_resource_count": 7,
+    "resource_names": ["MSH (Message Header)", "PID (Patient Identification)", "NTE (Notes and Comments)", "PV1 (Patient Visit)", "ORC (Common Order)", "OBR (Observation Request / Lab Order)", "OBX (Observation/Result)"],
     "downloadable": true,
-    "total_download_size_bytes": 424288,
-    "notes": "12 record types documented in the Individual Export Spec (Types 0, 1, 10-15, 20, 30, 40, 50, 55, 56, 60, 65, 66). Field positions and descriptions are provided, but no formal data types (numeric, varchar, etc.) are specified. The Population Export Spec is mostly an HL7 interface configuration template, not a data dictionary."
+    "total_download_size_bytes": 1985346,
+    "notes": "Two separate PDFs, one for each product line (Enterprise and Harvest). Each documents the same 7 HL7 segments but with product-specific field mappings. Enterprise has ~222 field definitions across 15 pages; Harvest has ~160 across 13 pages."
   },
   "ehi_coverage": {
     "clinical": {
       "present": true,
-      "evidence": "Lab results (Type 60/65/66), test components (Type 50), order codes (Type 40), blood bank reaction results (Types 55/56). This is a laboratory information system; clinical data is lab-specific."
+      "evidence": "Lab results are the core clinical content. OBX segment documents observation values, units, reference ranges, abnormal flags, LOINC codes, result status (preliminary/final/corrected). OBR documents lab orders, panels, specimen types, ordering providers, draw dates."
+    },
+    "demographics": {
+      "present": true,
+      "evidence": "PID segment includes: patient ID, name, DOB, sex, race, ethnicity, address, phone, email, SSN, marital status, language, death indicator. PV1 includes encounter/visit details, patient class (inpatient/outpatient), admit/discharge dates."
     },
     "secure_messages": {
       "present": false,
-      "evidence": "Searched for message/inbox/communication/chat/portal/correspondence — not found. LIS does not handle patient messaging."
+      "evidence": "Searched for message/inbox/communication/portal/secure/correspondence — not found. This is a lab system; patient messaging is not a core function."
     },
     "billing_financial": {
-      "present": true,
-      "evidence": "Type 20 field 9: 'Special Billing Code'; Type 40 field 26: 'CPT Code(s)'; Type 50 field 8: 'CPT Code'; Type 20 field 15: 'Patient Account'. Limited billing data — charge codes but no amounts, claims, or payment records."
+      "present": "partial",
+      "evidence": "OBR-55 documents 'Billing Status', OBR-16.x maps to 'Billing ID', OBR-45 documents ABN (Advance Beneficiary Notice) status codes (GA=signed, GZ=refused). PV1-20 maps to 'Financial Class host code'. However, no dedicated billing tables with charge amounts, CPT codes, or payment information."
     },
     "insurance_coverage": {
       "present": false,
-      "evidence": "Searched for insurance/coverage/eligibility/authorization/payer/carrier/benefit/plan — not found in export specifications."
+      "evidence": "No IN1 (Insurance) segment documented. No fields for payer, coverage, eligibility, or authorization found in either PDF."
     },
     "appointments_scheduling": {
       "present": false,
-      "evidence": "Searched for appointment/schedule/booking — not found. LIS does not manage appointments. Ordering data (Type 20) captures when orders were placed but not scheduling."
+      "evidence": "No appointment/scheduling data. OBR-27.4 has a 'Scheduled draw date/time' field for specimen collection scheduling, but no appointment management data."
     },
     "documents_images": {
-      "present": false,
-      "evidence": "Searched for document/image/attachment/scan/fax/DICOM — not found. Export is structured data only."
+      "present": true,
+      "evidence": "OBX supports embedded PDF documents via Base64 encoding (OBX-2='ED', OBX-5.1='pdf', OBX-5.2='Base64', OBX-5.3=encoded PDF content). Harvest spec also mentions 'Encoded PDF Document' for microbiology and AP reports."
     },
     "audit_trails": {
       "present": false,
-      "evidence": "Searched for audit/access/tracking/who viewed — not found in export specifications. The system has auditable events per 170.315(d)(2) certification, but audit data is not included in the EHI export."
+      "evidence": "No audit trail data in the export specifications. The certification page lists 170.315(d)(2) Auditable Events and 170.315(d)(3) Audit Reports as separate certified criteria, but audit data is not part of the results export."
     },
-    "lab_data": {
+    "lab_results": {
       "present": true,
-      "evidence": "Core domain. Complete lab workflow: orders (Type 20), accessions (Type 30), order codes with LOINC (Type 40), test components (Type 50), blood bank reactions (Types 55/56), result history (Type 60), numeric/comment/freetext results (Type 65), microbiology susceptibility (Type 66)."
+      "evidence": "This is the primary and essentially only data domain. Complete lab results export via HL7 ORU^R01: test names, LOINC codes, result values (numeric and text), units, reference ranges, abnormal flags, result status, approving technician, run date/time."
     },
-    "blood_bank": {
+    "orders": {
       "present": true,
-      "evidence": "Types 11-14: Antigen/Antibody data, Problems, Comments, Transfusion Attributes. Types 55/56: Blood Bank Reaction Results at test and phase level. Type 10 includes ABO, Rh, number of transfusions, date of last transfusion."
+      "evidence": "ORC (Common Order) and OBR (Observation Request) segments document lab orders: placer/filler order numbers, ordering provider, order date, priority, specimen source, collection volume, fasting status, panel codes."
     },
-    "patient_demographics": {
+    "specimen_info": {
       "present": true,
-      "evidence": "Type 10: Hospital, Patient Name, DOB, Sex, SSN, ABO, Rh. Type 15: Linked MRN list. Limited demographic set appropriate for an LIS."
+      "evidence": "OBR-14 (Specimen Received Date/Time), OBR-15 (Specimen Source/Sample Type), OBR-9 (Collection Volume), OBR-10 (Collector/Phlebotomist identification)."
+    },
+    "provider_info": {
+      "present": true,
+      "evidence": "Multiple provider roles documented: Ordering Provider (OBR-16), Attending Physician (PV1-7), Referring Physician (PV1-8), Approving Technician (OBX-16), Collector/Phlebotomist (OBR-10), CC providers (OBR-28)."
     }
   },
   "sample_exports_available": false,
   "developer_guide_available": false,
   "downloaded_files": [
     {
-      "local_path": "downloads/Patient-Data-Export-Specification.pdf",
-      "source_url": "https://www.clinisys.com/app/uploads/2023/11/Patient-Data-Export-Specification.pdf",
-      "size_bytes": 87155,
+      "local_path": "downloads/Orchard-Enterprise-Results-Export-Specification.pdf",
+      "source_url": "https://www.clinisys.com/app/uploads/2025/11/Orchard-Enterprise-Results-Export-Specification.pdf",
+      "size_bytes": 976077,
       "type": "pdf",
-      "pages": 5,
-      "curl_command": "curl -L -H 'User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36' -o Patient-Data-Export-Specification.pdf 'https://www.clinisys.com/app/uploads/2023/11/Patient-Data-Export-Specification.pdf'"
+      "pages": 15,
+      "curl_command": "curl -L -H 'User-Agent: Mozilla/5.0' -o Orchard-Enterprise-Results-Export-Specification.pdf 'https://www.clinisys.com/app/uploads/2025/11/Orchard-Enterprise-Results-Export-Specification.pdf'"
     },
     {
-      "local_path": "downloads/Patient-Population-Export-Specification.pdf",
-      "source_url": "https://www.clinisys.com/app/uploads/2023/11/Patient-Population-Export-Specification.pdf",
-      "size_bytes": 337133,
+      "local_path": "downloads/Orchard-Harvest-Results-Export-Specification.pdf",
+      "source_url": "https://www.clinisys.com/app/uploads/2025/11/Orchard-Harvest-Results-Export-Specification.pdf",
+      "size_bytes": 1009269,
       "type": "pdf",
-      "pages": 14,
-      "curl_command": "curl -L -H 'User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36' -o Patient-Population-Export-Specification.pdf 'https://www.clinisys.com/app/uploads/2023/11/Patient-Population-Export-Specification.pdf'"
-    },
-    {
-      "local_path": "downloads/Compliance-Certificate-SQ-Lab-v2024.pdf",
-      "source_url": "https://www.clinisys.com/app/uploads/2025/09/Compliance-Certificate-SQ-Lab-v2024-022625.pdf",
-      "size_bytes": 265743,
-      "type": "pdf",
-      "pages": 1,
-      "curl_command": "curl -L -H 'User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36' -o Compliance-Certificate-SQ-Lab-v2024.pdf 'https://www.clinisys.com/app/uploads/2025/09/Compliance-Certificate-SQ-Lab-v2024-022625.pdf'"
-    },
-    {
-      "local_path": "downloads/Compliance-Certificate-Sunquest-Laboratory-v7.pdf",
-      "source_url": "https://www.clinisys.com/app/uploads/2024/06/Compliance-Certificate-Sunquest-Laboratory-v7-060324.pdf",
-      "size_bytes": 265803,
-      "type": "pdf",
-      "pages": 1,
-      "curl_command": "curl -L -H 'User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36' -o Compliance-Certificate-Sunquest-Laboratory-v7.pdf 'https://www.clinisys.com/app/uploads/2024/06/Compliance-Certificate-Sunquest-Laboratory-v7-060324.pdf'"
-    },
-    {
-      "local_path": "downloads/Compliance-Certificate-Sunquest-Laboratory-v8.pdf",
-      "source_url": "https://www.clinisys.com/app/uploads/2024/06/Compliance-Certificate-Sunquest-Laboratory-v8-060324.pdf",
-      "size_bytes": 265809,
-      "type": "pdf",
-      "pages": 1,
-      "curl_command": "curl -L -H 'User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36' -o Compliance-Certificate-Sunquest-Laboratory-v8.pdf 'https://www.clinisys.com/app/uploads/2024/06/Compliance-Certificate-Sunquest-Laboratory-v8-060324.pdf'"
-    },
-    {
-      "local_path": "downloads/Compliance-Certificate-Sunquest-Laboratory-v10.pdf",
-      "source_url": "https://www.clinisys.com/app/uploads/2024/06/Compliance-Certificate-Sunquest-Laboratory-10.0-060324.pdf",
-      "size_bytes": 265812,
-      "type": "pdf",
-      "pages": 1,
-      "curl_command": "curl -L -H 'User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36' -o Compliance-Certificate-Sunquest-Laboratory-v10.pdf 'https://www.clinisys.com/app/uploads/2024/06/Compliance-Certificate-Sunquest-Laboratory-10.0-060324.pdf'"
-    },
-    {
-      "local_path": "downloads/Compliance-Certificate-Sunquest-Laboratory-v11.pdf",
-      "source_url": "https://www.clinisys.com/app/uploads/2024/06/Compliance-Certificate-Sunquest-Laboratory-v11-060324.pdf",
-      "size_bytes": 265827,
-      "type": "pdf",
-      "pages": 1,
-      "curl_command": "curl -L -H 'User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36' -o Compliance-Certificate-Sunquest-Laboratory-v11.pdf 'https://www.clinisys.com/app/uploads/2024/06/Compliance-Certificate-Sunquest-Laboratory-v11-060324.pdf'"
+      "pages": 13,
+      "curl_command": "curl -L -H 'User-Agent: Mozilla/5.0' -o Orchard-Harvest-Results-Export-Specification.pdf 'https://www.clinisys.com/app/uploads/2025/11/Orchard-Harvest-Results-Export-Specification.pdf'"
     }
   ],
   "issues": [
-    "Documentation is very minimal — Individual Patient Export Spec is only 5 pages with basic field position listings, no data types or value sets.",
-    "Patient Population Export Spec (14 pages) is primarily an HL7 interface configuration/signoff template, not a data dictionary. It documents the process for setting up the export interface, not the exported data content.",
-    "No sample/example export files provided.",
-    "No developer guide or tools for reading/processing exports.",
-    "No schema definition (DDL, JSON Schema, XSD) — just prose descriptions of pipe-delimited field positions.",
-    "Some fields note 'will need translation' (e.g., Specimen Code in Type 30) without providing the translation tables or value sets.",
-    "Export scope is limited to laboratory data only (expected for an LIS), but the documentation doesn't explicitly state what data domains are excluded.",
-    "SQ Lab v2024 product section has no separate b(10) EHI Export documentation — it appears to share the same export specs as the Sunquest Laboratory versions.",
-    "No insurance, appointments, documents/images, secure messages, or audit trail data in the export — these domains don't apply to a laboratory system."
+    "Documentation covers only lab results export (HL7 ORU^R01), not a comprehensive database dump of all system data",
+    "Export container/packaging method not described — unclear how bulk export is delivered (individual HL7 messages? batch file? ZIP?)",
+    "No insurance (IN1) segment included in export despite PV1 having Financial Class field",
+    "No audit trail data included in export despite system being certified for 170.315(d)(2) Auditable Events",
+    "Documentation titles say 'Results Export' not 'EHI Export' — scope may be narrower than full Designated Record Set",
+    "Both PDFs carry confidentiality notices restricting distribution to clients and their vendors — potentially inconsistent with ONC's public accessibility requirement"
   ],
-  "summary": "Clinisys provides two EHI export specifications for their Sunquest Laboratory / SQ Lab products. The Individual Patient Export produces pipe-delimited text files with 12+ record types covering patient demographics, blood bank data, lab orders, accessions, test components, and results (including blood bank reactions and microbiology susceptibility). The Patient Population Export uses HL7 v2.3/v2.5.1 messages via the existing results interface. Documentation is minimal (5-page and 14-page PDFs) with field-level descriptions but no data types, value sets, or sample exports. As a laboratory information system, the export scope is appropriately limited to lab domain data — no insurance, appointments, messaging, documents, or audit trails."
+  "summary": "Clinisys (formerly Orchard Software) provides two PDFs documenting their EHI export format for their lab information systems (Harvest and Enterprise). The export uses HL7 v2.3 ORU^R01 messages containing patient demographics, lab orders, and observation results with field-level detail including LOINC mapping. As a laboratory-only system, the scope is inherently narrower than a full EHR — covering lab results, orders, specimens, and patient demographics but lacking billing details, insurance, messaging, appointments, or audit trails. The documentation is well-structured with segment/field tables but is titled 'Results Export' rather than 'EHI Export', raising questions about whether it represents the complete Designated Record Set."
 }

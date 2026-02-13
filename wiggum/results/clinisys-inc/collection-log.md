@@ -1,144 +1,114 @@
-# Clinisys, Inc. — EHI Export Documentation Collection Log
+# Clinisys Inc. — EHI Export Documentation Collection Log
 
 ## Source
-- **CHPL IDs**: 9726, 9734, 10701, 11038, 11600
-- **Products**: SQ Lab, Sunquest Laboratory
-- **Developer**: Clinisys, Inc.
-- **Registered URL**: https://www.clinisys.com/us/en/onc-disclosure/
+- **CHPL IDs**: 11285, 11490, 11581, 11634
+- **Products**: Clinisys Harvest (versions 14, 15), Clinisys Orchard (versions 11, 12)
+- **Developer**: Clinisys, Inc. (formerly Orchard Software Corporation)
+- **Registered URL**: https://www.clinisys.com/uk/en/history/orchard/
 
 ## Navigation Journal
 
 ### Step 1: Initial probe
+
 ```bash
-curl -sI -L "https://www.clinisys.com/us/en/onc-disclosure/" \
-  -H 'User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36'
+curl -sI -L "https://www.clinisys.com/uk/en/history/orchard/" -H 'User-Agent: Mozilla/5.0'
 ```
-**Result**: HTTP/2 200 directly (no redirects). Content-Type: `text/html; charset=UTF-8`. Server: Cloudflare. WordPress site (PHPSESSID cookie, `wp-json` link header). No content-disposition — this is an HTML page, not a direct download.
+
+**Result**: HTTP/2 200 OK. Direct response, no redirects. Content-Type: `text/html; charset=UTF-8`. Server: Cloudflare. WordPress site (revealed by `link: <https://www.clinisys.com/wp-json/>` header and `PHPSESSID` cookie). No anti-bot challenge encountered.
 
 ### Step 2: Page examination
+
 ```bash
-curl -sL "https://www.clinisys.com/us/en/onc-disclosure/" \
-  -H 'User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36' \
-  -o /tmp/clinisys-page.html
-wc -c /tmp/clinisys-page.html
-```
-**Result**: 114,775 bytes. Full HTML page (WordPress), not a SPA. Content is fully rendered server-side — no JavaScript required to see the content. The page title is "Costs and Disclosures".
-
-### Step 3: Page structure
-The page is a compliance/disclosure hub covering multiple products and certification criteria. Structure:
-
-1. **Hero section**: "Costs and Disclosures"
-2. **"Delivering accuracy and reliability"** — marketing intro about Sunquest Laboratory Platform
-3. **Capability and Description** — general product description
-4. **ONC Disclosure** — carousel/cards showing compliance criteria:
-   - 170.315(b)(10) Electronic Health Information (EHI) Export
-   - 170.315(d)(1) Authentication, Access Control, Authorization
-   - 170.315(d)(2) Auditable Events and Tamper-Resistance
-   - 170.315(d)(3) Audit Report(s)
-5. **SQ Lab v2024** — certification info + compliance certificate link (no separate b(10) section)
-6. **Sunquest Laboratory v7** — certification info + b(10) EHI Export section + other criteria
-7. **Sunquest Laboratory v8** — same structure as v7
-8. **Sunquest Laboratory v10** — same structure as v7
-9. **Sunquest Laboratory v11** — same structure as v7
-10. **Individual Patient Export Specification** — link to PDF
-11. **Patient Population Export Specification** — link to PDF
-
-Each Sunquest Laboratory version's b(10) section has identical text:
-> "Supports patients' access to their electronic data as well as providing all the EHI from the Clinisys certified Health IT product for export to another health IT system."
-> **Associated costs/fees:** The individual patient export is included as part of the core product associated with the Sunquest Laboratory User License. The patient population export requires the use of a results interface that could incur an additional license fee.
-
-### Step 4: Finding the EHI export documentation
-The actual EHI export specification documents are at the **very bottom** of the page content, just above the footer. They are presented as two cards with "View PDF" buttons:
-
-1. **Individual Patient Export Specification** → `Patient-Data-Export-Specification.pdf`
-2. **Patient Population Export Specification** → `Patient-Population-Export-Specification.pdf`
-
-These are shared across all product versions (not duplicated per version).
-
-Found via:
-```bash
-grep -oiE 'href="[^"]*\.(pdf|zip|xlsx|xls|csv|json|doc|docx)[^"]*"' /tmp/clinisys-page.html
+curl -sL "https://www.clinisys.com/uk/en/history/orchard/" -H 'User-Agent: Mozilla/5.0' -o /tmp/page.html
+wc -c /tmp/page.html
 ```
 
-### Step 5: Identified downloadable assets
+**Result**: 119,400 bytes. Full static HTML (WordPress-rendered), not a SPA. Content is fully in the HTML source — no JavaScript rendering required. Page title: "Orchard - Clinisys".
 
-**EHI Export Documentation (core):**
-- https://www.clinisys.com/app/uploads/2023/11/Patient-Data-Export-Specification.pdf
-- https://www.clinisys.com/app/uploads/2023/11/Patient-Population-Export-Specification.pdf
+The page is a **compliance/product hub** for the Orchard product line (rebranded from Orchard Software to Clinisys). It has:
+- A hero banner: "Orchard is now Clinisys™"
+- Product descriptions for Clinisys Orchard and Clinisys Harvest
+- Multiple accordion sections for certification details, testing, and export specs
 
-**Compliance Certificates (supplementary):**
-- https://www.clinisys.com/app/uploads/2025/09/Compliance-Certificate-SQ-Lab-v2024-022625.pdf
-- https://www.clinisys.com/app/uploads/2024/06/Compliance-Certificate-Sunquest-Laboratory-v7-060324.pdf
-- https://www.clinisys.com/app/uploads/2024/06/Compliance-Certificate-Sunquest-Laboratory-v8-060324.pdf
-- https://www.clinisys.com/app/uploads/2024/06/Compliance-Certificate-Sunquest-Laboratory-10.0-060324.pdf
-- https://www.clinisys.com/app/uploads/2024/06/Compliance-Certificate-Sunquest-Laboratory-v11-060324.pdf
+### Step 3: Finding the EHI section
+
+The page uses WordPress accordion blocks (`block-accordion-item`). The accordion sections are:
+
+1. **Clinisys Harvest 15** — Certification details, lists 170.315(b)(10) as certified criterion
+2. **Clinisys Harvest 14** — Same
+3. **Clinisys Orchard 12** — Same
+4. **Clinisys Orchard 11** — Same
+5. **Real World Testing Plan & Results** — RWT documents
+6. **Export Specifications** — ⬅️ **This is the EHI export documentation section**
+7. **Compliance with Multi-factor Authentication** — MFA compliance info
+
+The "Export Specifications" accordion is collapsed by default (CSS checkbox toggle). Its content is present in the HTML source — no JavaScript needed to discover it. Inside the accordion are two PDF download buttons:
+
+- "Orchard Enterprise Results Export Specification" → links to PDF
+- "Orchard Harvest Results Export Specification" → links to PDF
+
+All four product versions (Harvest 14/15, Orchard 11/12) reference `170.315(b)(10) Electronic Health Information (EHI) Export` with the description: "Supports patients' access to their electronic data as well as providing all the EHI from the Clinisys certified Health IT product for export to another health IT system."
+
+### Step 4: Identified downloadable assets
+
+From the "Export Specifications" accordion:
+
+1. `https://www.clinisys.com/app/uploads/2025/11/Orchard-Enterprise-Results-Export-Specification.pdf`
+2. `https://www.clinisys.com/app/uploads/2025/11/Orchard-Harvest-Results-Export-Specification.pdf`
+
+Other PDFs on the page (not EHI export docs, but for reference):
+- Certification certificates for all 4 product versions
+- RWT plans and results (2023-2025)
+- ESG report and Code of Conduct
 
 ## Downloads
 
-### Patient-Data-Export-Specification.pdf (85 KB, 5 pages)
-```bash
-curl -L -H 'User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36' \
-  -o downloads/Patient-Data-Export-Specification.pdf \
-  'https://www.clinisys.com/app/uploads/2023/11/Patient-Data-Export-Specification.pdf'
-```
-Verified: `PDF document, version 1.7, 5 page(s)` (87,155 bytes)
-Saved to: `downloads/Patient-Data-Export-Specification.pdf`
+### Orchard-Enterprise-Results-Export-Specification.pdf (953 KB, 15 pages)
 
-### Patient-Population-Export-Specification.pdf (329 KB, 14 pages)
 ```bash
-curl -L -H 'User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36' \
-  -o downloads/Patient-Population-Export-Specification.pdf \
-  'https://www.clinisys.com/app/uploads/2023/11/Patient-Population-Export-Specification.pdf'
+curl -L -H 'User-Agent: Mozilla/5.0' \
+  -o downloads/Orchard-Enterprise-Results-Export-Specification.pdf \
+  'https://www.clinisys.com/app/uploads/2025/11/Orchard-Enterprise-Results-Export-Specification.pdf'
 ```
-Verified: `PDF document, version 1.7, 14 page(s)` (337,133 bytes)
-Saved to: `downloads/Patient-Population-Export-Specification.pdf`
 
-### Compliance-Certificate-SQ-Lab-v2024.pdf (260 KB, 1 page)
-```bash
-curl -L -H 'User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36' \
-  -o downloads/Compliance-Certificate-SQ-Lab-v2024.pdf \
-  'https://www.clinisys.com/app/uploads/2025/09/Compliance-Certificate-SQ-Lab-v2024-022625.pdf'
-```
-Verified: `PDF document, version 1.7, 1 page(s)` (265,743 bytes)
+**Verified**:
+- `file` output: `PDF document, version 1.7, 15 page(s)`
+- Size: 976,077 bytes (953 KB)
+- Title: "HL7 Result Export HL7 Specification v2.3 — Orchard® Enterprise Lab™"
+- Revised: 03/15/2021
+- Copyright: Orchard Software Corporation 1998-2023
 
-### Compliance-Certificate-Sunquest-Laboratory-v7.pdf (260 KB, 1 page)
-```bash
-curl -L -H 'User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36' \
-  -o downloads/Compliance-Certificate-Sunquest-Laboratory-v7.pdf \
-  'https://www.clinisys.com/app/uploads/2024/06/Compliance-Certificate-Sunquest-Laboratory-v7-060324.pdf'
-```
-Verified: `PDF document, version 1.7, 1 page(s)` (265,803 bytes)
+**Contents**: HL7 v2.3 ORU^R01 message specification for lab results export from Orchard Enterprise. Documents 7 HL7 segments (MSH, PID, NTE, PV1, ORC, OBR, OBX) with ~222 field definitions including field names, lengths, and mapping comments.
 
-### Compliance-Certificate-Sunquest-Laboratory-v8.pdf (260 KB, 1 page)
-```bash
-curl -L -H 'User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36' \
-  -o downloads/Compliance-Certificate-Sunquest-Laboratory-v8.pdf \
-  'https://www.clinisys.com/app/uploads/2024/06/Compliance-Certificate-Sunquest-Laboratory-v8-060324.pdf'
-```
-Verified: `PDF document, version 1.7, 1 page(s)` (265,809 bytes)
+### Orchard-Harvest-Results-Export-Specification.pdf (985 KB, 13 pages)
 
-### Compliance-Certificate-Sunquest-Laboratory-v10.pdf (260 KB, 1 page)
 ```bash
-curl -L -H 'User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36' \
-  -o downloads/Compliance-Certificate-Sunquest-Laboratory-v10.pdf \
-  'https://www.clinisys.com/app/uploads/2024/06/Compliance-Certificate-Sunquest-Laboratory-10.0-060324.pdf'
+curl -L -H 'User-Agent: Mozilla/5.0' \
+  -o downloads/Orchard-Harvest-Results-Export-Specification.pdf \
+  'https://www.clinisys.com/app/uploads/2025/11/Orchard-Harvest-Results-Export-Specification.pdf'
 ```
-Verified: `PDF document, version 1.7, 1 page(s)` (265,812 bytes)
 
-### Compliance-Certificate-Sunquest-Laboratory-v11.pdf (260 KB, 1 page)
-```bash
-curl -L -H 'User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36' \
-  -o downloads/Compliance-Certificate-Sunquest-Laboratory-v11.pdf \
-  'https://www.clinisys.com/app/uploads/2024/06/Compliance-Certificate-Sunquest-Laboratory-v11-060324.pdf'
-```
-Verified: `PDF document, version 1.7, 1 page(s)` (265,827 bytes)
+**Verified**:
+- `file` output: `PDF document, version 1.7, 13 page(s)`
+- Size: 1,009,269 bytes (985 KB)
+- Title: "HL7 Outbound Result Specification v2.3 — Orchard® Harvest™"
+- Revised: 04/28/2023
+- Copyright: Orchard Software Corporation 1998-2023
+
+**Contents**: HL7 v2.3 ORU^R01 message specification for lab results export from Orchard Harvest. Documents the same 7 HL7 segments with ~160 field definitions. Similar structure to the Enterprise version but with some differences in supported fields.
 
 ## Obstacles & Notes
 
-- **No anti-bot protection encountered.** Cloudflare was transparent; no challenges or CAPTCHAs. Standard User-Agent header was sufficient.
-- **No JavaScript required.** The page is server-rendered WordPress. All content and links are present in the HTML source. `curl` works fine.
-- **Page is a multi-product compliance hub.** The EHI export specifications are shared across all product versions and placed at the bottom of the page, below the per-version sections. You have to scroll past all the version-specific compliance info to find them.
-- **No login wall.** All content is publicly accessible.
-- **Documentation is minimal.** The Individual Patient Export Spec is only 5 pages. The Population Export Spec is 14 pages but is mostly an HL7 interface configuration/signoff template, not a data dictionary.
-- **Clinisys is a laboratory information system (LIS) vendor**, not a full EHR. The scope of EHI is limited to laboratory data: orders, accessions, test results, specimen info, blood bank data, and basic patient demographics. This is expected given the product domain.
-- **The uploads directory timestamp is `2023/11`**, suggesting these specs were created in November 2023 (version 1.0 per the Individual Export Spec changelog).
+1. **No anti-bot protection** — Cloudflare is present but didn't challenge curl requests. User-Agent header sufficient.
+
+2. **Accordion content hidden by CSS** — The "Export Specifications" section uses a checkbox-based CSS toggle. Content is fully in the DOM but visually hidden until the accordion is expanded. `grep` finds links without needing a browser.
+
+3. **URL path is misleading** — The registered URL path (`/uk/en/history/orchard/`) suggests a UK/English locale and "history" section, but this is actually the main compliance/certification page for the Orchard product line.
+
+4. **Laboratory-only scope** — These are Laboratory Information Systems (LIS). The "EHI export" documentation covers **only lab results** in HL7 v2.3 ORU format. This is expected — the system is purpose-built for clinical laboratory workflows, not general-purpose EHR functionality. The export format documents how lab results (orders, specimens, observations, results) are exported.
+
+5. **HL7 v2.3 is the export format, not FHIR** — The export uses traditional HL7 v2.3 messaging (ORU^R01), which is a well-established healthcare interoperability format. This is a legitimate b(10) export format — the data flows as-is from the LIS database in HL7 message structure.
+
+6. **No sample data or developer guide** — The documentation is purely specification-level. No example export files, test data, or processing guides are provided.
+
+7. **"Results Export" not "All EHI Export"** — The documentation is titled "Results Export Specification" and scoped to lab results. For a lab-only system, results + patient demographics + orders may constitute the complete Designated Record Set, but the documentation doesn't explicitly enumerate all data domains in the system or confirm this covers "all" EHI.
