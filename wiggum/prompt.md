@@ -52,16 +52,9 @@ FHIR resource constraints. The data flows as-is from the system's database.
 
 Put ALL output files in that directory. Create subdirectories as needed.
 
-**CHPL metadata**: `{{OUTPUT_DIR}}/chpl-metadata.json` contains structured
-certification data for every product sharing this URL. Read it early — it has:
-- Developer website (starting point for product research)
-- Each product's name, version, certification date, practice type
-- Full list of certified criteria per product (not just b(10))
-
-This tells you a lot about the product before you even visit the URL. A product
-certified for (e)(1) has patient portal/API capabilities. One certified for
-(f)(1)-(f)(7) handles public health reporting. Use this context to understand
-what the product does and what data it likely stores.
+**CHPL metadata**: `{{OUTPUT_DIR}}/chpl-metadata.json` has structured
+certification data (developer website, product versions, certification dates,
+all certified criteria) if you need to cross-check or debug anything.
 
 ---
 
@@ -196,9 +189,8 @@ therefore what data it probably stores. The gap between those two is the story.
 
 ### How to research:
 
-Start with `{{OUTPUT_DIR}}/chpl-metadata.json` — it has the developer's website
-URL and the full list of certified criteria for each product. Then visit the
-vendor's website. Look at product pages, feature
+Start from the vendor's main website (usually obvious from the export doc URL
+domain, or search for "{{DEVELOPERS}} EHR"). Look at product pages, feature
 lists, customer-facing documentation, press releases, screenshots.
 
 ### What to investigate:
