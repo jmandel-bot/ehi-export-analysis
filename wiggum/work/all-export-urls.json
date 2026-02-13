@@ -1,0 +1,5699 @@
+[
+  {
+    "id": 11520,
+    "developer": "Oracle Health",
+    "product": "Oracle Health Millennium (Health Care Surveys)",
+    "version": "2024",
+    "chpl_product_number": "15.04.04.1221.Mill.HC.04.0.241009",
+    "export_url": "https://www.oracle.com/health/regulatory/certified-health-it/",
+    "b10_success": true
+  },
+  {
+    "id": 11525,
+    "developer": "My Vision Express, LLC",
+    "product": "My Vision Express",
+    "version": "22.0",
+    "chpl_product_number": "15.02.04.3202.A057.22.03.1.241028",
+    "export_url": "https://sightview.com/about-sightview/onc-certification/",
+    "b10_success": true
+  },
+  {
+    "id": 10076,
+    "developer": "TriMed Technologies",
+    "product": "TriMed Complete",
+    "version": "1",
+    "chpl_product_number": "15.05.05.3103.TRIC.01.00.1.190820",
+    "export_url": "https://www.trimedtech.com/EHRDisclosureV10",
+    "b10_success": true
+  },
+  {
+    "id": 11529,
+    "developer": "Sightview EHR Holdings, LLC",
+    "product": "myCare Portal",
+    "version": "4.0",
+    "chpl_product_number": "15.04.04.3206.myCa.04.03.1.241028",
+    "export_url": "https://sightview.com/about-sightview/onc-certification/",
+    "b10_success": true
+  },
+  {
+    "id": 11232,
+    "developer": "Practice Compass, LLC",
+    "product": "PracticeCompass EMR",
+    "version": "1.0",
+    "chpl_product_number": "15.04.04.3142.Prac.01.00.1.230203",
+    "export_url": "https://practicecompass.com/export/",
+    "b10_success": true
+  },
+  {
+    "id": 11519,
+    "developer": "Oracle Health",
+    "product": "Oracle Health Millennium (Immunizations)",
+    "version": "2024",
+    "chpl_product_number": "15.04.04.1221.Mill.I4.04.1.241009",
+    "export_url": "https://www.oracle.com/health/regulatory/certified-health-it/",
+    "b10_success": true
+  },
+  {
+    "id": 10470,
+    "developer": "First Insight Corporation",
+    "product": "MaximEyes.com",
+    "version": "1.1",
+    "chpl_product_number": "15.04.04.2729.Maxi.01.00.1.201014",
+    "export_url": "https://customer.first-insight.com/downloads/forms/MaximEyes-EHI-Export-Documentation.pdf",
+    "b10_success": true
+  },
+  {
+    "id": 11163,
+    "developer": "Phoenix Ortho, LLC",
+    "product": "Phoenix Ortho",
+    "version": "5",
+    "chpl_product_number": "15.04.04.2160.Phoe.05.01.1.221229",
+    "export_url": "https://blog.phoenixortho.net/phoenix-ortho-receives-mips-2015-certification",
+    "b10_success": true
+  },
+  {
+    "id": 11264,
+    "developer": "Epividian, Inc.",
+    "product": "CHORUS",
+    "version": "29.1",
+    "chpl_product_number": "15.07.05.3101.EPIV.01.00.0.230331",
+    "export_url": "https://www.epividian.com/legal-directory/onc-product-disclosure/",
+    "b10_success": true
+  },
+  {
+    "id": 9887,
+    "developer": "Vohra Wound Physicians Management, LLC",
+    "product": "VHS Medical Documentation & Coding",
+    "version": "3.5",
+    "chpl_product_number": "15.04.04.2875.VHSM.35.00.1.181221",
+    "export_url": "https://emr.vohrawoundteam.com/CompleteExport.html",
+    "b10_success": true
+  },
+  {
+    "id": 11429,
+    "developer": "Garage Solutions LLC",
+    "product": "Bridge eCQM",
+    "version": "v1.0.0",
+    "chpl_product_number": "15.04.04.1520.Brid.05.01.0.231228",
+    "export_url": "https://thegaragein.com/New/pdf/ExportDocumentation.pdf",
+    "b10_success": true
+  },
+  {
+    "id": 11036,
+    "developer": "AiTmed Inc.",
+    "product": "AiTmed Telehealth System",
+    "version": "2.0",
+    "chpl_product_number": "15.05.05.3128.AITM.01.00.0.221201",
+    "export_url": "https://www.aitmed.com/onc-certifications-costs",
+    "b10_success": true
+  },
+  {
+    "id": 10220,
+    "developer": "FlagShipMD LLC",
+    "product": "FlagShipMD",
+    "version": "7",
+    "chpl_product_number": "15.05.05.1496.FLAG.01.00.0.191218",
+    "export_url": "https://www.flagshipmd.com/flagshipmdnew/web/Company/ehrCertification.jsp",
+    "b10_success": true
+  },
+  {
+    "id": 11489,
+    "developer": "MassLight",
+    "product": "Oystehr",
+    "version": "1",
+    "chpl_product_number": "15.05.05.3196.MSLT.01.00.1.240617",
+    "export_url": "https://docs.oystehr.com/oystehr/services/fhir/bulk-data-export/",
+    "b10_success": true
+  },
+  {
+    "id": 11345,
+    "developer": "Renvio",
+    "product": "Clarity",
+    "version": "23",
+    "chpl_product_number": "15.04.04.3089.Clar.23.02.1.230913",
+    "export_url": "https://www.gorenvio.com/disclaimers",
+    "b10_success": true
+  },
+  {
+    "id": 11079,
+    "developer": "VIPA Health Solutions, LLC",
+    "product": "24/7 smartEMR",
+    "version": "7.2",
+    "chpl_product_number": "15.04.04.2916.smar.07.02.1.221216",
+    "export_url": "https://smartemr.readme.io/docs/electronic-health-information-export-b10",
+    "b10_success": true
+  },
+  {
+    "id": 11140,
+    "developer": "Azalea Health",
+    "product": "ChartAccess \u00ae",
+    "version": "7.0",
+    "chpl_product_number": "15.04.04.2688.Char.07.01.1.221227",
+    "export_url": "https://www.azaleahealth.com/resources/onc-certification/",
+    "b10_success": true
+  },
+  {
+    "id": 9108,
+    "developer": "Medical Information Technology, Inc. (MEDITECH)",
+    "product": "MEDITECH Public Health Interface for Syndromic Surveillance",
+    "version": "v6.1",
+    "chpl_product_number": "15.04.04.2931.MEDI.PH.00.1.171226",
+    "export_url": "https://home.meditech.com/en/d/restapiresources/pages/ehiexport.htm",
+    "b10_success": true
+  },
+  {
+    "id": 10904,
+    "developer": "Canvas Medical, Inc.",
+    "product": "Canvas Medical",
+    "version": "1",
+    "chpl_product_number": "15.04.04.3112.Canv.01.00.1.220523",
+    "export_url": "https://docs.canvasmedical.com/documentation/ehi-export/",
+    "b10_success": true
+  },
+  {
+    "id": 11261,
+    "developer": "Indiana Health Information Exchange",
+    "product": "Notifiable Condition Detector",
+    "version": "2.1",
+    "chpl_product_number": "15.07.05.1674.IHIE.01.00.1.230330",
+    "export_url": "https://www.ihie.org/wp-content/uploads/2024/05/170.315b10-Electronic-Health-Information-Export.pdf",
+    "b10_success": true
+  },
+  {
+    "id": 11530,
+    "developer": "Winnebago County Wisconsin",
+    "product": "Luna",
+    "version": "1.3",
+    "chpl_product_number": "15.04.04.2940.Luna.01.00.1.241028",
+    "export_url": "https://www.co.winnebago.wi.us/it-department/ehr-product-information#Structures",
+    "b10_success": true
+  },
+  {
+    "id": 10617,
+    "developer": "Beyond Essential Systems",
+    "product": "Tamanu EMR",
+    "version": "2",
+    "chpl_product_number": "15.05.05.3085.BES1.08.00.0.210512",
+    "export_url": "https://beyond-essential.slab.com/posts/tamanu-patient-summary-export-1jqz4yk5",
+    "b10_success": true
+  },
+  {
+    "id": 10924,
+    "developer": "Medical Information Technology, Inc. (MEDITECH)",
+    "product": "MEDITECH Expanse 2.1 Oncology",
+    "version": "v2.1c",
+    "chpl_product_number": "15.04.04.2931.MEDI.ON.02.1.220630",
+    "export_url": "https://home.meditech.com/en/d/restapiresources/pages/ehiexport.htm",
+    "b10_success": true
+  },
+  {
+    "id": 11072,
+    "developer": "Keiser Computers, Inc.",
+    "product": "Drs Enterprise",
+    "version": "12",
+    "chpl_product_number": "15.04.04.1764.DrsE.12.01.1.221213",
+    "export_url": "https://drsdoc.com/DataExport",
+    "b10_success": true
+  },
+  {
+    "id": 10988,
+    "developer": "Medical Information Technology, Inc. (MEDITECH)",
+    "product": "MEDITECH MyHealth Portal",
+    "version": "v2.0c",
+    "chpl_product_number": "15.04.04.2931.MEDI.02.01.1.220919",
+    "export_url": "https://home.meditech.com/en/d/restapiresources/pages/ehiexport.htm",
+    "b10_success": true
+  },
+  {
+    "id": 10797,
+    "developer": "ZH Healthcare, Inc.",
+    "product": "BlueEHR",
+    "version": "3",
+    "chpl_product_number": "15.02.05.3076.ZHHC.01.02.1.220119",
+    "export_url": "https://blueehr.com/certifications-and-costs/",
+    "b10_success": true
+  },
+  {
+    "id": 11299,
+    "developer": "eClinicalWorks, LLC",
+    "product": "eClinicalWorks",
+    "version": "Version 12.0.2",
+    "chpl_product_number": "15.04.04.2883.eCli.12.07.1.230613",
+    "export_url": "https://ehi.eclinicalworks.com/ehiexport/tableindex.html",
+    "b10_success": true
+  },
+  {
+    "id": 11149,
+    "developer": "Persivia",
+    "product": "Persivia Platform",
+    "version": "3.5",
+    "chpl_product_number": "15.04.04.2155.Pers.35.02.1.221227",
+    "export_url": "https://persivia.com/meaningful-use-certification-language/",
+    "b10_success": true
+  },
+  {
+    "id": 11187,
+    "developer": "Sevocity, a division of Conceptual MindWorks, Inc",
+    "product": "Sevocity",
+    "version": "v13.0",
+    "chpl_product_number": "15.04.04.2324.Sevo.13.01.1.221230",
+    "export_url": "https://www.sevocity.com/ehi-export-technical-documentation/",
+    "b10_success": true
+  },
+  {
+    "id": 10930,
+    "developer": "Medical Information Technology, Inc. (MEDITECH)",
+    "product": "MEDITECH Expanse Emergency Department Management",
+    "version": "v2.1c",
+    "chpl_product_number": "15.04.04.2931.MEDI.16.02.1.220630",
+    "export_url": "https://home.meditech.com/en/d/restapiresources/pages/ehiexport.htm",
+    "b10_success": true
+  },
+  {
+    "id": 10278,
+    "developer": "Physicians EMR, LLC",
+    "product": "IPClinical",
+    "version": "2.1",
+    "chpl_product_number": "15.05.05.2163.PEMR.01.00.1.200123",
+    "export_url": "https://ipclinical.com/documentation/b_10_Electronic_Health_Information_export.pdf",
+    "b10_success": true
+  },
+  {
+    "id": 10793,
+    "developer": "Alpha II, LLC",
+    "product": "MIPS Accelerator",
+    "version": "6",
+    "chpl_product_number": "15.99.05.1598.HEAL.01.03.0.220117",
+    "export_url": "https://www.alphaii.com/hubfs/Alphaii_March2023/pdfs/Patient-Export-Output-Format-v3.pdf?hsLang=en&__hstc=155195876.b3f28b845f130b7459d8a1e746201ea7.1681824942149.1698248613629.1698264607621.17&__hssc=155195876.1.1698264607621&__hsfp=2439428725&hsutk=b3f28b845f130b7459d8a1e746201ea7&contentType=standard-page",
+    "b10_success": true
+  },
+  {
+    "id": 9663,
+    "developer": "Medical Office Technologies, Inc.",
+    "product": "ezAccess Portal",
+    "version": "4.0",
+    "chpl_product_number": "15.04.04.1942.ezAc.04.00.1.171219",
+    "export_url": "https://www.ezaccessmot.com/",
+    "b10_success": true
+  },
+  {
+    "id": 11364,
+    "developer": "iTreatMD",
+    "product": "iTreatMD",
+    "version": "V2",
+    "chpl_product_number": "15.04.04.3175.iTre.02.00.0.231116",
+    "export_url": "https://www.itreatmd.com/ONC-Certification",
+    "b10_success": true
+  },
+  {
+    "id": 10771,
+    "developer": "CareCloud, Inc.",
+    "product": "PCG",
+    "version": "3.5",
+    "chpl_product_number": "15.02.05.2790.MICR.01.01.0.211229",
+    "export_url": "https://www.medsphere.com/certifications/",
+    "b10_success": true
+  },
+  {
+    "id": 10932,
+    "developer": "Medical Information Technology, Inc. (MEDITECH)",
+    "product": "MEDITECH Expanse 2.2 Oncology",
+    "version": "v2.2c",
+    "chpl_product_number": "15.04.04.2931.MEDI.ON.03.1.220630",
+    "export_url": "https://home.meditech.com/en/d/restapiresources/pages/ehiexport.htm",
+    "b10_success": true
+  },
+  {
+    "id": 10710,
+    "developer": "MDToolbox",
+    "product": "MDToolbox Rx",
+    "version": "5",
+    "chpl_product_number": "15.02.05.1832.MDTB.01.01.1.211105",
+    "export_url": "https://mdtoolbox.com/ExportFileFormat.htm",
+    "b10_success": true
+  },
+  {
+    "id": 10754,
+    "developer": "Callibra, Inc.",
+    "product": "Discharge 1-2-3\u2122 Composer\u2122",
+    "version": "1.5",
+    "chpl_product_number": "15.02.05.1192.CALL.01.01.1.211217",
+    "export_url": "https://www.discharge123.com/prot/EHI-Export/Index.htm",
+    "b10_success": true
+  },
+  {
+    "id": 10925,
+    "developer": "Medical Information Technology, Inc. (MEDITECH)",
+    "product": "MEDITECH Expanse 2.2 Ambulatory",
+    "version": "v2.2c",
+    "chpl_product_number": "15.04.04.2931.2931.02.03.1.220630",
+    "export_url": "https://home.meditech.com/en/d/restapiresources/pages/ehiexport.htm",
+    "b10_success": true
+  },
+  {
+    "id": 11456,
+    "developer": "eClinicalWorks, LLC",
+    "product": "eClinicalWorks",
+    "version": "Version 12.0.3",
+    "chpl_product_number": "15.04.04.2883.eCli.12.08.1.240322",
+    "export_url": "https://ehi.eclinicalworks.com/ehiexport/tableindex.html",
+    "b10_success": true
+  },
+  {
+    "id": 11142,
+    "developer": "QRS, Inc.",
+    "product": "PARADIGM\u00ae",
+    "version": "22",
+    "chpl_product_number": "15.04.04.2838.PARA.22.01.1.221227",
+    "export_url": "https://www.qrshs.info",
+    "b10_success": true
+  },
+  {
+    "id": 9902,
+    "developer": "Press Ganey Associates",
+    "product": "Quality Performer Hospital eMeasures",
+    "version": "Version 1.5",
+    "chpl_product_number": "15.04.04.2834.Qual.15.00.0.181231",
+    "export_url": "https://www.pressganey.com/platform/core-measures/quality-performer-certification/",
+    "b10_success": true
+  },
+  {
+    "id": 11108,
+    "developer": "CareCloud, Inc.",
+    "product": "ChartLogic EHR Classic",
+    "version": "9",
+    "chpl_product_number": "15.05.05.2790.CHRT.02.01.1.221222",
+    "export_url": "https://www.medsphere.com/certifications/",
+    "b10_success": true
+  },
+  {
+    "id": 11010,
+    "developer": "PhysicianXpress, Inc.",
+    "product": "PediatricXpress",
+    "version": "20",
+    "chpl_product_number": "15.02.05.3044.PHYX.04.03.1.221103",
+    "export_url": "https://physicianxpress.com/electronic-health-information-export/",
+    "b10_success": true
+  },
+  {
+    "id": 9546,
+    "developer": "CareCloud, Inc.",
+    "product": "Wellsoft EDIS",
+    "version": "11",
+    "chpl_product_number": "15.05.05.2790.WLST.01.01.1.180703",
+    "export_url": "https://www.medsphere.com/certifications/",
+    "b10_success": true
+  },
+  {
+    "id": 11476,
+    "developer": "SMARTMD Technologies, Inc.",
+    "product": "SMARTMD Palliative",
+    "version": "6",
+    "chpl_product_number": "15.11.09.3194.SMDP.06.00.1.240531",
+    "export_url": "https://www.smartmd.com/compliance/",
+    "b10_success": true
+  },
+  {
+    "id": 9092,
+    "developer": "Medical Information Technology, Inc. (MEDITECH)",
+    "product": "MEDITECH Cancer Case Reporting",
+    "version": "v6.1",
+    "chpl_product_number": "15.04.04.2931.MEDI.61.00.1.171226",
+    "export_url": "https://home.meditech.com/en/d/restapiresources/pages/ehiexport.htm",
+    "b10_success": true
+  },
+  {
+    "id": 8970,
+    "developer": "AssureCare LLC",
+    "product": "iPatientCare",
+    "version": "18.0",
+    "chpl_product_number": "15.04.04.2627.iPat.18.00.1.171201",
+    "export_url": "https://ipatientcare.com/onc-certified-health-it/",
+    "b10_success": true
+  },
+  {
+    "id": 11474,
+    "developer": "Doctorsoft Corporation",
+    "product": "Doctorsoft EHR",
+    "version": "v3.0",
+    "chpl_product_number": "15.04.04.1365.Doct.03.02.1.240518",
+    "export_url": "https://www.darenasolutions.com/meldrx-onc-hti1-certified#b10-EHI-Export-Documentation",
+    "b10_success": true
+  },
+  {
+    "id": 10964,
+    "developer": "1Life Healthcare, Inc",
+    "product": "1Life",
+    "version": "1.0",
+    "chpl_product_number": "15.05.05.3121.ONEL.01.00.1.220823",
+    "export_url": "https://apidocs.onemedical.io/ehi_export/overview/",
+    "b10_success": true
+  },
+  {
+    "id": 10282,
+    "developer": "Softbir, Inc.",
+    "product": "CloudMD365",
+    "version": "1",
+    "chpl_product_number": "15.04.04.3067.Clou.01.00.1.200122",
+    "export_url": "https://docindy.com/assets/CloudMD365%20EHI%20Export%20Documentation-Befwxq4M.pdf",
+    "b10_success": true
+  },
+  {
+    "id": 10802,
+    "developer": "Becton Dickinson and Company",
+    "product": "HealthSight Advisors",
+    "version": "4",
+    "chpl_product_number": "15.02.05.3024.BEDC.01.01.0.220125",
+    "export_url": "https://www.bd.com/content/dam/bd-assets/na/medication-management-solutions/documents/healthsight/BD_HealthSight_Advisors_EHI_Export_Instructions.pdf",
+    "b10_success": true
+  },
+  {
+    "id": 11085,
+    "developer": "eRAD, Inc.",
+    "product": "eRAD RIS",
+    "version": "Version 4",
+    "chpl_product_number": "15.04.04.2603.eRAD.04.01.1.221218",
+    "export_url": "https://www.darenasolutions.com/meldrx-onc-hti1-certified#b10-EHI-Export-Documentation",
+    "b10_success": true
+  },
+  {
+    "id": 11248,
+    "developer": "SpectraMedix",
+    "product": "VBP Performance Suite",
+    "version": "11",
+    "chpl_product_number": "15.07.05.2359.SPEC.01.00.1.230309",
+    "export_url": "https://www.spectramedix.com/onc-certified-health-it-mandatory-disclosure-information",
+    "b10_success": true
+  },
+  {
+    "id": 10757,
+    "developer": "Adaptamed, LLC",
+    "product": "EHR Your Way",
+    "version": "9.2.0.0",
+    "chpl_product_number": "15.02.05.1042.ADAP.01.01.0.211220",
+    "export_url": "https://ehryourway.com/electronic-health-information-export/",
+    "b10_success": true
+  },
+  {
+    "id": 11268,
+    "developer": "AaNeel Infotech",
+    "product": "My Health EHR - By AaNeelCare",
+    "version": "11",
+    "chpl_product_number": "15.07.05.3107.AANE.01.00.0.230403",
+    "export_url": "https://www.aaneel.com/aaneel-onc-ehr-certification-techspecs",
+    "b10_success": true
+  },
+  {
+    "id": 10699,
+    "developer": "UnisLink",
+    "product": "UnisLink iCMS (Intelligent Care Management Suite)",
+    "version": "3",
+    "chpl_product_number": "15.02.05.2942.UNIL.01.02.0.211008",
+    "export_url": "https://unislinka366.blob.core.windows.net/unislink-file-repo/ehi/ehi_export_model_v1.html",
+    "b10_success": true
+  },
+  {
+    "id": 11317,
+    "developer": "Osler, Inc.",
+    "product": "CareRails",
+    "version": "1.0",
+    "chpl_product_number": "15.05.05.3162.OSLR.01.00.0.230706",
+    "export_url": "https://disclosures.carerails.com/ehi/",
+    "b10_success": true
+  },
+  {
+    "id": 11295,
+    "developer": "SCC Soft Computer",
+    "product": "SoftLab",
+    "version": "4.5.8",
+    "chpl_product_number": "15.99.04.2287.SL45.04.05.1.230606",
+    "export_url": "https://www.softcomputer.com/regulatory-affairs/ehi-export/",
+    "b10_success": true
+  },
+  {
+    "id": 11343,
+    "developer": "CompuGroup Medical US",
+    "product": "CGM MEASURES",
+    "version": "2023.1",
+    "chpl_product_number": "15.02.04.2700.MEAS.23.02.1.230911",
+    "export_url": "https://www.cgm.com/usa_en/products/electronic-health-records/mips-dashboard/cgm-measures.html",
+    "b10_success": true
+  },
+  {
+    "id": 10787,
+    "developer": "eMedPractice LLC",
+    "product": "eMedicalPractice",
+    "version": "2.0",
+    "chpl_product_number": "15.02.05.2898.EMED.01.01.1.220112",
+    "export_url": "https://emedpractice.com/electronic-health-information-export/",
+    "b10_success": true
+  },
+  {
+    "id": 9807,
+    "developer": "Qualifacts Systems, LLC",
+    "product": "CareLogic",
+    "version": "Enterprise S3",
+    "chpl_product_number": "15.04.04.3124.Care.S3.00.1.181220",
+    "export_url": "https://documentation.qualifacts.com/ehi-export/?_gl=1*19zxd99*_gcl_au*NDg0MzU0Mzk3LjE2OTQwMTQ0NDc.",
+    "b10_success": true
+  },
+  {
+    "id": 10800,
+    "developer": "FIGmd Inc. (an MRO Company)",
+    "product": "FIGmd - Pegasus Quality Platform",
+    "version": "2.0",
+    "chpl_product_number": "15.02.05.2726.FIGM.01.01.0.220124",
+    "export_url": "https://www.figmd.com/pdf/ONC_Certification_Disclosures_and_Costs_21-May-2025.pdf",
+    "b10_success": true
+  },
+  {
+    "id": 11103,
+    "developer": "AssureCare LLC",
+    "product": "iPatientCare",
+    "version": "22.5",
+    "chpl_product_number": "15.04.04.2627.iPat.22.01.1.221221",
+    "export_url": "https://ipatientcare.com/onc-certified-health-it/",
+    "b10_success": true
+  },
+  {
+    "id": 9098,
+    "developer": "Benchmark Systems",
+    "product": "Benchmark EHR",
+    "version": "7.1",
+    "chpl_product_number": "15.04.04.1144.AntW.71.01.1.171219",
+    "export_url": "https://www.benchmarksystems.com/wp-content/uploads/2023/12/b-10-EHI-Export_Benchmark-Support_Self-Attestation-Document_final-1.pdf",
+    "b10_success": true
+  },
+  {
+    "id": 11331,
+    "developer": "Moyae, Inc.",
+    "product": "Moyae",
+    "version": "1",
+    "chpl_product_number": "15.05.05.3141.MOYA.01.01.1.230816",
+    "export_url": "https://www.moyae.com/disclosures-and-costs",
+    "b10_success": true
+  },
+  {
+    "id": 9559,
+    "developer": "Glenwood Systems LLC",
+    "product": "GlaceEMR",
+    "version": "6.0",
+    "chpl_product_number": "15.04.04.1535.Glac.06.00.1.180629",
+    "export_url": "https://docs.glaceemr.com/Glenwood/transparencydisclosure.html",
+    "b10_success": true
+  },
+  {
+    "id": 11440,
+    "developer": "Galaxy",
+    "product": "Galaxy",
+    "version": "v1",
+    "chpl_product_number": "15.04.04.3184.Gala.01.00.0.240103",
+    "export_url": "https://psychplus.com/meaningful-use-certification-language/",
+    "b10_success": true
+  },
+  {
+    "id": 8856,
+    "developer": "Bizmatics Inc.",
+    "product": "PrognoCIS",
+    "version": "Denali 3.1",
+    "chpl_product_number": "15.04.04.2689.Prog.31.00.1.170929",
+    "export_url": "https://prognocis.com/macra/#ehiexport",
+    "b10_success": true
+  },
+  {
+    "id": 10846,
+    "developer": "Medical Office Online",
+    "product": "Medical Office Online",
+    "version": "2.3.1",
+    "chpl_product_number": "15.02.05.2801.MEDO.01.01.1.220228",
+    "export_url": "https://www.medicalofficeonline.com/wp-content/uploads/2023/11/ExportFileDocumentation.pdf",
+    "b10_success": true
+  },
+  {
+    "id": 9590,
+    "developer": "MicroFour, Inc.",
+    "product": "PracticeStudio",
+    "version": "X20",
+    "chpl_product_number": "15.04.04.1985.Prac.20.00.1.180810",
+    "export_url": "https://www.practicestudio.net/Company/CompanyInformation/ExportProcess.aspx",
+    "b10_success": true
+  },
+  {
+    "id": 9969,
+    "developer": "VisionTree Software, Inc.",
+    "product": "VisionTree Optimal Care\u2122 (VTOC)",
+    "version": "5.0",
+    "chpl_product_number": "15.04.04.2513.Visi.05.00.1.190326",
+    "export_url": "https://visiontree.com/macra-mips",
+    "b10_success": true
+  },
+  {
+    "id": 10778,
+    "developer": "Strateq Health, Inc.",
+    "product": "StrateqEHR",
+    "version": "5",
+    "chpl_product_number": "15.05.05.3097.STRQ.01.00.1.220105",
+    "export_url": "https://strateqhealth.com/wp-content/uploads/2023/12/Strateq-Export.pdf",
+    "b10_success": true
+  },
+  {
+    "id": 9183,
+    "developer": "MedConnect, Inc.",
+    "product": "MedConnectHealth",
+    "version": "3.0",
+    "chpl_product_number": "15.04.04.1889.MedC.03.00.1.171212",
+    "export_url": "https://medconnecthealth.com/electronic-health-information-export/",
+    "b10_success": true
+  },
+  {
+    "id": 10258,
+    "developer": "ChartPath, LLC",
+    "product": "ChartPath",
+    "version": "1.29",
+    "chpl_product_number": "15.04.04.2996.Char.12.01.1.191227",
+    "export_url": "https://info.chartpath.com/ehiexport",
+    "b10_success": true
+  },
+  {
+    "id": 8873,
+    "developer": "Compulink Healthcare Solutions",
+    "product": "Compulink Advantage",
+    "version": "Version 12",
+    "chpl_product_number": "15.04.04.2701.Comp.12.00.1.171106",
+    "export_url": "https://www.compulinkadvantage.com/wp-content/uploads/2023/10/COMPULINK-PHIEXPORT-DOCUMENTATION.pdf",
+    "b10_success": true
+  },
+  {
+    "id": 11243,
+    "developer": "SCC Soft Computer",
+    "product": "SoftLab",
+    "version": "4.5.4",
+    "chpl_product_number": "15.07.04.2287.SL45.05.03.1.230209",
+    "export_url": "https://www.softcomputer.com/regulatory-affairs/ehi-export/",
+    "b10_success": true
+  },
+  {
+    "id": 9540,
+    "developer": "Bridge Patient Portal Inc.",
+    "product": "BridgeInteract",
+    "version": "3",
+    "chpl_product_number": "15.05.05.1947.BRID.01.00.0.180703",
+    "export_url": "https://cms.bridgeinteract.io/content/uploads/2023/12/Electronic-Health-Information-Export.pdf",
+    "b10_success": true
+  },
+  {
+    "id": 11121,
+    "developer": "CareCloud, Inc.",
+    "product": "CareVue",
+    "version": "2.1",
+    "chpl_product_number": "15.04.04.2790.Open.02.02.1.221222",
+    "export_url": "https://www.medsphere.com/certifications/",
+    "b10_success": true
+  },
+  {
+    "id": 11298,
+    "developer": "MedTrio, Inc.",
+    "product": "Medtrio EHR",
+    "version": "7.2034",
+    "chpl_product_number": "15.02.05.2646.MEDT.02.02.1.230615",
+    "export_url": "https://www.medtrio.com/documents/csvExplanation.pdf",
+    "b10_success": true
+  },
+  {
+    "id": 10047,
+    "developer": "Florida Department of Health",
+    "product": "The Florida Department of Health, Health Management System",
+    "version": "2015",
+    "chpl_product_number": "15.05.05.1498.FDOH.01.00.1.190626",
+    "export_url": "https://www.floridahealth.gov/statistics-data/health-management-system/",
+    "b10_success": true
+  },
+  {
+    "id": 11347,
+    "developer": "medent - Community Computer Service, Inc.",
+    "product": "medent",
+    "version": "v23.7",
+    "chpl_product_number": "15.04.04.1840.MEDE.23.02.1.230918",
+    "export_url": "https://www.medent.com/onc/",
+    "b10_success": true
+  },
+  {
+    "id": 9876,
+    "developer": "Elation Health, Inc.",
+    "product": "Elation EMR",
+    "version": "Version 3",
+    "chpl_product_number": "15.04.04.2717.Elat.03.00.1.181231",
+    "export_url": "https://help.elationhealth.com/s/article/EHI-Export-Criteria",
+    "b10_success": true
+  },
+  {
+    "id": 10072,
+    "developer": "Cyfluent",
+    "product": "Cyfluent",
+    "version": "Version 3.2",
+    "chpl_product_number": "15.04.04.2975.Cyfl.03.00.1.190813",
+    "export_url": "https://www.cyfluent.com/onc-certified-hit-2015-edition",
+    "b10_success": true
+  },
+  {
+    "id": 11125,
+    "developer": "Lancman Solutions LLC",
+    "product": "Epi-Management",
+    "version": "1.0",
+    "chpl_product_number": "15.04.04.3100.EpiM.01.01.1.221223",
+    "export_url": "https://www.darenasolutions.com/meldrx-onc-hti1-certified#b10-EHI-Export-Documentation",
+    "b10_success": true
+  },
+  {
+    "id": 11128,
+    "developer": "Practice Alternatives, Inc.",
+    "product": "AuroraEHR",
+    "version": "2.1",
+    "chpl_product_number": "15.99.04.2186.Auro.02.01.1.221227",
+    "export_url": "https://www.practice-alt.com/AuroraEHR_b10_EHI_Export_Documentation.pdf",
+    "b10_success": true
+  },
+  {
+    "id": 11047,
+    "developer": "Complete Healthcare Solutions, Inc.",
+    "product": "UnifiMD",
+    "version": "2.0",
+    "chpl_product_number": "15.04.04.2648.Unif.02.01.1.221205",
+    "export_url": "https://www.darenasolutions.com/meldrx-onc-hti1-certified#b10-EHI-Export-Documentation",
+    "b10_success": true
+  },
+  {
+    "id": 11216,
+    "developer": "OnCall Health",
+    "product": "OnCall Health",
+    "version": "v1",
+    "chpl_product_number": "15.07.04.3122.ONCA.01.01.1.230117",
+    "export_url": "https://documentation.qualifacts.com/ehi-export/",
+    "b10_success": true
+  },
+  {
+    "id": 11441,
+    "developer": "HealthAdvanta",
+    "product": "HealthAdvanta",
+    "version": "4.0.5.0",
+    "chpl_product_number": "15.04.04.3185.Heal.04.00.0.231229",
+    "export_url": "https://www.healthadvanta.com/disclosure/",
+    "b10_success": true
+  },
+  {
+    "id": 11129,
+    "developer": "The Echo Group",
+    "product": "EchoVantage",
+    "version": "3",
+    "chpl_product_number": "15.04.04.2425.Echo.13.02.1.221227",
+    "export_url": "https://ensorahealth.com/onc/echo/",
+    "b10_success": true
+  },
+  {
+    "id": 11242,
+    "developer": "SCC Soft Computer",
+    "product": "SoftLab",
+    "version": "4.5.5",
+    "chpl_product_number": "15.07.04.2287.SL45.04.04.1.230209",
+    "export_url": "https://www.softcomputer.com/regulatory-affairs/ehi-export/",
+    "b10_success": true
+  },
+  {
+    "id": 11533,
+    "developer": "Vecna Technologies, Inc.",
+    "product": "PathFinder Infection Control",
+    "version": "Version 17",
+    "chpl_product_number": "15.04.04.2497.Path.17.00.1.241107",
+    "export_url": "https://vecnahealthcare.com/features/clinical-surveillance/",
+    "b10_success": true
+  },
+  {
+    "id": 11236,
+    "developer": "Udoc Technologies, LLC",
+    "product": "Udoc",
+    "version": "Version 1",
+    "chpl_product_number": "15.07.04.3132.Udoc.01.01.0.230213",
+    "export_url": "https://udoc.com/",
+    "b10_success": true
+  },
+  {
+    "id": 10978,
+    "developer": "Medical Information Technology, Inc. (MEDITECH)",
+    "product": "MEDITECH MAGIC Oncology",
+    "version": "v5.67c",
+    "chpl_product_number": "15.04.04.2931.MEDI.MA.01.1.220915",
+    "export_url": "https://home.meditech.com/en/d/restapiresources/pages/ehiexport.htm",
+    "b10_success": true
+  },
+  {
+    "id": 11220,
+    "developer": "Mobile MediClaim",
+    "product": "Mobile MediClaim",
+    "version": "3.5",
+    "chpl_product_number": "15.07.09.3088.MO03.03.01.1.230120",
+    "export_url": "https://mobilemediclaim.com/licenses-certifications/",
+    "b10_success": true
+  },
+  {
+    "id": 11225,
+    "developer": "Imprivata",
+    "product": "Imprivata FairWarning",
+    "version": "23",
+    "chpl_product_number": "15.02.05.1485.FAIR.06.06.0.230130",
+    "export_url": "https://www.imprivata.com/onc-certification-disclosures",
+    "b10_success": true
+  },
+  {
+    "id": 10807,
+    "developer": "Acurus Solutions, Inc.",
+    "product": "Capella EHR",
+    "version": "6.1",
+    "chpl_product_number": "15.02.05.2669.ACUR.01.01.1.220131",
+    "export_url": "https://acurussolutions.com/Certification.html",
+    "b10_success": true
+  },
+  {
+    "id": 10795,
+    "developer": "EnableDoc LLC",
+    "product": "Enablemypractice",
+    "version": "EHR 5.0",
+    "chpl_product_number": "15.02.05.1439.ENAD.01.01.1.220118",
+    "export_url": "https://www.enabledoc.com/enablemypractice-data-export-guide/",
+    "b10_success": true
+  },
+  {
+    "id": 9836,
+    "developer": "Net Health",
+    "product": "Net Health\u00ae WoundExpert",
+    "version": "7.0",
+    "chpl_product_number": "15.04.04.2815.Woun.07.00.1.181231",
+    "export_url": "https://www.nethealth.com/drummond-certified-for-meaningful-use-woundexpert/",
+    "b10_success": true
+  },
+  {
+    "id": 11215,
+    "developer": "Verana Health",
+    "product": "Verana Quality Measures",
+    "version": "1",
+    "chpl_product_number": "15.99.09.3092.VE05.01.01.1.230118",
+    "export_url": "https://veranahealth.com/wp-content/uploads/2023/10/170.315b10-Electronic-Health-Information-Export.pdf",
+    "b10_success": true
+  },
+  {
+    "id": 9404,
+    "developer": "AutoMedical LLC",
+    "product": "Med-A-Morphosis",
+    "version": "V3",
+    "chpl_product_number": "15.05.05.3016.RMSC.01.00.1.180517",
+    "export_url": "https://mamemr.com/etcetera/disclosure.html",
+    "b10_success": true
+  },
+  {
+    "id": 9168,
+    "developer": "Core Solutions Inc",
+    "product": "Cx360",
+    "version": "7",
+    "chpl_product_number": "15.04.04.2703.Cx36.07.00.1.171226",
+    "export_url": "https://www.coresolutionsinc.com/Electronic-Health-Information-Export-Doc",
+    "b10_success": true
+  },
+  {
+    "id": 11045,
+    "developer": "PCE Systems",
+    "product": "PCE Care Management",
+    "version": "Version 9.4",
+    "chpl_product_number": "15.04.04.2125.PCEC.94.01.1.221205",
+    "export_url": "https://www.pcesystems.com/g10APIInfo.html",
+    "b10_success": true
+  },
+  {
+    "id": 11358,
+    "developer": "Professional Imaging, LLC",
+    "product": "PI EMR",
+    "version": "2",
+    "chpl_product_number": "15.07.05.2835.PROI.01.01.1.231027",
+    "export_url": "https://www.darenasolutions.com/bluebuttonpro-onc-hti1-certification/#b10-EHI-Export-Documentation",
+    "b10_success": true
+  },
+  {
+    "id": 10769,
+    "developer": "Netsmart Technologies",
+    "product": "myHealthpointe",
+    "version": "10",
+    "chpl_product_number": "15.04.04.2816.Myhe.10.00.1.211229",
+    "export_url": "https://www.ntst.com/lp/certifications",
+    "b10_success": true
+  },
+  {
+    "id": 10786,
+    "developer": "Advanced Data Systems Corporation",
+    "product": "MedicsCloud",
+    "version": "11.0",
+    "chpl_product_number": "15.02.05.1044.AVDC.01.01.1.220111",
+    "export_url": "https://apps.medicscloud.com/B10_MedicsCloud.html",
+    "b10_success": true
+  },
+  {
+    "id": 10779,
+    "developer": "ezEMRx Inc",
+    "product": "ezEMRx",
+    "version": "10.01",
+    "chpl_product_number": "15.02.05.2886.EZEM.01.01.1.220105",
+    "export_url": "https://www.ezemrx.com/ehi-export",
+    "b10_success": true
+  },
+  {
+    "id": 11122,
+    "developer": "Ensora Health",
+    "product": "Ensora eRx",
+    "version": "2.01",
+    "chpl_product_number": "15.04.04.3135.NCRX.02.00.0.221223",
+    "export_url": "https://ensorahealth.com/onc/erx/",
+    "b10_success": true
+  },
+  {
+    "id": 10979,
+    "developer": "Medical Information Technology, Inc. (MEDITECH)",
+    "product": "MEDITECH MAGIC Electronic Health Record Core HCIS",
+    "version": "v5.67c",
+    "chpl_product_number": "15.04.04.2931.MEDI.MM.01.1.220915",
+    "export_url": "https://home.meditech.com/en/d/restapiresources/pages/ehiexport.htm",
+    "b10_success": true
+  },
+  {
+    "id": 10977,
+    "developer": "Medical Information Technology, Inc. (MEDITECH)",
+    "product": "MEDITECH Continuity of Care Interface (CCD)",
+    "version": "v5.67c",
+    "chpl_product_number": "15.04.04.2931.MEDI.56.01.1.220915",
+    "export_url": "https://home.meditech.com/en/d/restapiresources/pages/ehiexport.htm",
+    "b10_success": true
+  },
+  {
+    "id": 10792,
+    "developer": "MDOps Corporation",
+    "product": "MDLog",
+    "version": "5.0",
+    "chpl_product_number": "15.99.05.1836.MDOP.01.01.1.220117",
+    "export_url": "https://pcc-demo.mdops.com/api/viewCCDSchema",
+    "b10_success": true
+  },
+  {
+    "id": 11022,
+    "developer": "Medical Informatics Engineering",
+    "product": "WebChart EHR",
+    "version": "8.4",
+    "chpl_product_number": "15.04.04.1932.WebC.84.01.0.221117",
+    "export_url": "https://docs.webchartnow.com/resources/system-specifications/electronic-health-information-ehi-export/ehi-export-technical-details/",
+    "b10_success": true
+  },
+  {
+    "id": 10973,
+    "developer": "Medical Information Technology, Inc. (MEDITECH)",
+    "product": "MEDITECH 6.0 Emergency Department Management",
+    "version": "v6.08c",
+    "chpl_product_number": "15.04.04.2931.MEDI.E6.01.1.220901",
+    "export_url": "https://home.meditech.com/en/d/restapiresources/pages/ehiexport.htm",
+    "b10_success": true
+  },
+  {
+    "id": 10976,
+    "developer": "Medical Information Technology, Inc. (MEDITECH)",
+    "product": "MEDITECH Continuity of Care Interface (CCD)",
+    "version": "v6.0c",
+    "chpl_product_number": "15.04.04.2931.MEDI.06.01.1.220901",
+    "export_url": "https://home.meditech.com/en/d/restapiresources/pages/ehiexport.htm",
+    "b10_success": true
+  },
+  {
+    "id": 9580,
+    "developer": "McKesson Specialty Health Technology Products LLC (Ontada)",
+    "product": "iKnowMed Generation 2",
+    "version": "Version 3",
+    "chpl_product_number": "15.04.04.2920.iKno.30.01.1.180508",
+    "export_url": "https://www.ontada.com/Providers-Solutions/EHI/",
+    "b10_success": true
+  },
+  {
+    "id": 11185,
+    "developer": "Clinicmind Inc.",
+    "product": "Clinicmind",
+    "version": "5.0",
+    "chpl_product_number": "15.07.04.2500.VERI.05.02.1.221230",
+    "export_url": "https://www.darenasolutions.com/meldrx-onc-hti1-certified#b10-EHI-Export-Documentation",
+    "b10_success": true
+  },
+  {
+    "id": 11362,
+    "developer": "IDC Telemed",
+    "product": "ILUM Insight",
+    "version": "2.7",
+    "chpl_product_number": "15.05.05.3174.IDCT.01.00.0.231106",
+    "export_url": "https://idctelemed.com/terms-of-use/",
+    "b10_success": true
+  },
+  {
+    "id": 11115,
+    "developer": "Flatiron Health",
+    "product": "OncoEMR",
+    "version": "2.8",
+    "chpl_product_number": "15.04.04.3010.Onco.28.02.1.221221",
+    "export_url": "https://flatiron.com/certification",
+    "b10_success": true
+  },
+  {
+    "id": 9107,
+    "developer": "Medical Information Technology, Inc. (MEDITECH)",
+    "product": "MEDITECH Public Health Interface for Syndromic Surveillance",
+    "version": "v6.0",
+    "chpl_product_number": "15.04.04.2931.MEDI.S6.00.1.171221",
+    "export_url": "https://home.meditech.com/en/d/restapiresources/pages/ehiexport.htm",
+    "b10_success": true
+  },
+  {
+    "id": 9923,
+    "developer": "Health Innovation Technologies, Inc.",
+    "product": "RevolutionEHR",
+    "version": "7",
+    "chpl_product_number": "15.04.04.1591.Revo.07.00.1.181231",
+    "export_url": "https://www.revolutionehr.com/certification-disclosures/",
+    "b10_success": true
+  },
+  {
+    "id": 10854,
+    "developer": "EndoSoft, LLC",
+    "product": "EndoVault",
+    "version": "3.2",
+    "chpl_product_number": "15.02.05.2721.ENDV.01.01.1.220310",
+    "export_url": "https://www.endosoft.com/ephi/",
+    "b10_success": true
+  },
+  {
+    "id": 9333,
+    "developer": "Universal EHR, Inc.",
+    "product": "Universal EHR",
+    "version": "2.0.0",
+    "chpl_product_number": "15.04.04.2478.Univ.02.00.1.180312",
+    "export_url": "https://www.universalehr.com/exportdoc.aspx",
+    "b10_success": true
+  },
+  {
+    "id": 10855,
+    "developer": "EndoSoft, LLC",
+    "product": "Qlinical",
+    "version": "1",
+    "chpl_product_number": "15.02.05.2721.QLIN.01.01.0.220310",
+    "export_url": "https://qlinical.com/ephi/",
+    "b10_success": true
+  },
+  {
+    "id": 8846,
+    "developer": "Tecurologic",
+    "product": "PediNotes",
+    "version": "5.1",
+    "chpl_product_number": "15.04.04.2375.Pedi.51.00.1.170914",
+    "export_url": "https://www.pedinotes.com/certifications",
+    "b10_success": true
+  },
+  {
+    "id": 11428,
+    "developer": "CPS",
+    "product": "EHRs-C",
+    "version": "2023",
+    "chpl_product_number": "15.04.04.3032.EHRs.23.01.0.231228",
+    "export_url": "https://docs.google.com/document/d/1mPl2rnTaif8WvkWWCiZ45DZrec87xh3qwATvQc_A4Bg/edit?usp=sharing",
+    "b10_success": true
+  },
+  {
+    "id": 9091,
+    "developer": "Medical Information Technology, Inc. (MEDITECH)",
+    "product": "MEDITECH Cancer Case Reporting",
+    "version": "v6.0",
+    "chpl_product_number": "15.04.04.2931.MEDI.06.00.1.171226",
+    "export_url": "https://home.meditech.com/en/d/restapiresources/pages/ehiexport.htm",
+    "b10_success": true
+  },
+  {
+    "id": 10566,
+    "developer": "Eyefinity, Inc.",
+    "product": "OfficeMate/ExamWRITER",
+    "version": "15.3",
+    "chpl_product_number": "15.04.04.2900.Offi.15.03.1.210218",
+    "export_url": "https://help.eyefinity.com/omew/export/elements.htm",
+    "b10_success": true
+  },
+  {
+    "id": 11204,
+    "developer": "Health Samurai, Inc.",
+    "product": "Aidbox FHIR API module",
+    "version": "1.0",
+    "chpl_product_number": "15.99.04.3119.AIDB.01.01.0.230101",
+    "export_url": "https://storage.googleapis.com/aidbox-public/smartbox/certification/b10/Attestation%20for%20ONC%20B10%20criteria.pdf",
+    "b10_success": true
+  },
+  {
+    "id": 11046,
+    "developer": "MD Synergy Solutions, LLC",
+    "product": "Althea Smart EHR",
+    "version": "Version 3.0",
+    "chpl_product_number": "15.04.04.1821.Alth.03.02.1.221205",
+    "export_url": "https://mdsynergy.com/wp-content/uploads/2024/12/AltheaEHIDocumentation.pdf",
+    "b10_success": true
+  },
+  {
+    "id": 11055,
+    "developer": "Healthie",
+    "product": "Healthie",
+    "version": "Cures 1",
+    "chpl_product_number": "15.04.04.3130.Heal.01.00.1.221207",
+    "export_url": "https://help.gethealthie.com/article/1200-b10-electronic-health-information-export-on-healthie",
+    "b10_success": true
+  },
+  {
+    "id": 10607,
+    "developer": "Carepaths Inc",
+    "product": "CarePaths EHR",
+    "version": "19.11",
+    "chpl_product_number": "15.04.04.2982.Care.19.00.1.210408",
+    "export_url": "https://carepaths.com/features/onc-certification/b10-export-format/",
+    "b10_success": true
+  },
+  {
+    "id": 11040,
+    "developer": "Nextech",
+    "product": "SRS EHR",
+    "version": "12",
+    "chpl_product_number": "15.04.04.2051.SRSE.12.03.1.221202",
+    "export_url": "https://www.nextech.com/compliance/ehi-export-documentation",
+    "b10_success": true
+  },
+  {
+    "id": 11071,
+    "developer": "EZDERM, LLC",
+    "product": "EZDERM",
+    "version": "4",
+    "chpl_product_number": "15.04.04.2987.EZDE.04.02.1.221213",
+    "export_url": "https://www.darenasolutions.com/meldrx-onc-hti1-certified#b10-EHI-Export-Documentation",
+    "b10_success": true
+  },
+  {
+    "id": 11195,
+    "developer": "Updox",
+    "product": "Updox",
+    "version": "2022.1",
+    "chpl_product_number": "15.04.04.2484.Updo.21.02.1.221230",
+    "export_url": "https://help.updox.com/help/tools-account-administration",
+    "b10_success": true
+  },
+  {
+    "id": 11024,
+    "developer": "ReLi Med Solutions, LLC",
+    "product": "ReLiMed EMR",
+    "version": "Version 7.3",
+    "chpl_product_number": "15.04.04.2990.ReLi.07.01.1.221118",
+    "export_url": "https://relimed.happyfox.com/kb/article/410-explanation-of-file-format-for-patient-export-cures-170-315-b-10/",
+    "b10_success": true
+  },
+  {
+    "id": 11405,
+    "developer": "i2i Population Health",
+    "product": "PRiZiM",
+    "version": "2",
+    "chpl_product_number": "15.04.04.2616.Priz.02.00.0.231213",
+    "export_url": "https://www.i2ipophealth.com/onc-certification-information/",
+    "b10_success": true
+  },
+  {
+    "id": 9861,
+    "developer": "KaZee, Inc.",
+    "product": "Pearl",
+    "version": "8.0",
+    "chpl_product_number": "15.05.05.1757.KAZE.01.00.0.190115",
+    "export_url": "https://tickets.kazee.us/docs/KaZee_Data_Dictionary.docx",
+    "b10_success": true
+  },
+  {
+    "id": 10818,
+    "developer": "ASP.MD Inc.",
+    "product": "ASP.MD Medical Office System",
+    "version": "92",
+    "chpl_product_number": "15.02.05.1026.ASPM.01.01.0.220203",
+    "export_url": "https://www.asp.md/export/",
+    "b10_success": true
+  },
+  {
+    "id": 10835,
+    "developer": "EnSoftek, Inc",
+    "product": "DrCloudEHR",
+    "version": "2025",
+    "chpl_product_number": "15.02.05.1434.ENST.01.01.1.220218",
+    "export_url": "https://www.drcloudemr.com/wp-content/uploads/EHI_Export/docs/index.html",
+    "b10_success": true
+  },
+  {
+    "id": 11360,
+    "developer": "MaxRemind Inc",
+    "product": "Maximus",
+    "version": "1.0",
+    "chpl_product_number": "15.05.05.3173.MAXR.01.00.1.231031",
+    "export_url": "https://maxremind.com/maximusehr-certification/",
+    "b10_success": true
+  },
+  {
+    "id": 11088,
+    "developer": "Eyefinity, Inc.",
+    "product": "EHR powered by EMA in Eyefinity Encompass",
+    "version": "7",
+    "chpl_product_number": "15.04.04.2900.Eyef.07.17.1.221219",
+    "export_url": "https://www.modmed.com/wp-content/uploads/2023/11/Data-Dictionary-for-ModMed-EMA-EHI-Export4.pdf",
+    "b10_success": true
+  },
+  {
+    "id": 11538,
+    "developer": "VSS Medical Technologies, Inc",
+    "product": "Aura Sigmund, MedicFusion Erx",
+    "version": "6.0",
+    "chpl_product_number": "15.04.04.2848.Aura.06.04.1.241201",
+    "export_url": "https://www.sigmundsoftware.com/wp-content/uploads/2023/11/VSS-Medical-Technologies-Electronic-Health-Export.pdf",
+    "b10_success": true
+  },
+  {
+    "id": 10789,
+    "developer": "PracticeSuite, Inc.",
+    "product": "FreeChiro",
+    "version": "EHR-18.0.0",
+    "chpl_product_number": "15.02.05.2198.FREC.01.02.1.220113",
+    "export_url": "https://academy.practicesuite.com/%c2%a7-170-315b10-electronic-health-information-ehi-export/",
+    "b10_success": true
+  },
+  {
+    "id": 9741,
+    "developer": "MedicalMine Inc.",
+    "product": "CharmHealth EHR",
+    "version": "1.2",
+    "chpl_product_number": "15.04.04.1948.ChAR.12.00.1.181115",
+    "export_url": "https://www.charmhealth.com/ehr/electronic-health-information-export.html",
+    "b10_success": true
+  },
+  {
+    "id": 9797,
+    "developer": "TechSoft, Inc.",
+    "product": "MDRhythm",
+    "version": "Version 8",
+    "chpl_product_number": "15.04.04.2413.MDRh.08.00.1.181208",
+    "export_url": "http://www.mdrhythm.com/onc-compliance.html",
+    "b10_success": true
+  },
+  {
+    "id": 11536,
+    "developer": "Systemedx Inc",
+    "product": "Systemedx Clinical Navigator",
+    "version": "2024.12",
+    "chpl_product_number": "15.04.04.2857.Syst.24.02.1.241126",
+    "export_url": "https://www.systemedx.com/dataExport.html",
+    "b10_success": true
+  },
+  {
+    "id": 10620,
+    "developer": "Liquid Medical Office, Inc.",
+    "product": "Liquid EMR",
+    "version": "3.0",
+    "chpl_product_number": "15.05.05.1802.LIQ1.01.00.0.210514",
+    "export_url": "https://www.liquidemr.com/data-export-specification-2/",
+    "b10_success": true
+  },
+  {
+    "id": 11541,
+    "developer": "TruBridge, Inc.",
+    "product": "TruBridge EHR",
+    "version": "22",
+    "chpl_product_number": "15.04.04.3104.Thri.22.04.1.241210",
+    "export_url": "https://ehi-export.plt.trubridge.com/",
+    "b10_success": true
+  },
+  {
+    "id": 10291,
+    "developer": "Commure",
+    "product": "PatientKeeper",
+    "version": "9.2",
+    "chpl_product_number": "15.04.04.2142.Pati.92.01.0.200129",
+    "export_url": "https://pkdemo6.patientkeeper.com/api-docs/v0/api/index.html",
+    "b10_success": true
+  },
+  {
+    "id": 11544,
+    "developer": "Helixbeat",
+    "product": "FUSION",
+    "version": "2.0",
+    "chpl_product_number": "15.04.04.3210.Fusi.02.00.0.241212",
+    "export_url": "https://genius.helixbeat.com/legal?document=Electronic+Health+Information+Export",
+    "b10_success": true
+  },
+  {
+    "id": 9457,
+    "developer": "Marquis Software Development, Inc.",
+    "product": "eOMIS Healthcare Management",
+    "version": "2015.1",
+    "chpl_product_number": "15.04.04.2791.eOMI.15.00.1.180319",
+    "export_url": "https://www.marquisware.com/eomis/onc-cost-and-limitations-2015/",
+    "b10_success": true
+  },
+  {
+    "id": 10709,
+    "developer": "TRIARQ Practice Services",
+    "product": "QSuite",
+    "version": "Manistee",
+    "chpl_product_number": "15.02.05.2614.TRIQ.01.01.1.211105",
+    "export_url": "https://ehi.myqone.com/",
+    "b10_success": true
+  },
+  {
+    "id": 11543,
+    "developer": "TronsHealth LLC",
+    "product": "TronsHealth",
+    "version": "1.0",
+    "chpl_product_number": "15.05.05.3209.TRON.00.00.1.241213",
+    "export_url": "https://tronshealth.com/wp-content/uploads/2024/10/%C2%A7170.315b10-Electronic-Health-Information-Export-EHI.docx.pdf",
+    "b10_success": true
+  },
+  {
+    "id": 11155,
+    "developer": "Procentive",
+    "product": "Procentive",
+    "version": "2",
+    "chpl_product_number": "15.04.04.2214.Proc.02.01.1.221228",
+    "export_url": "https://ensorahealth.com/onc/procentive/",
+    "b10_success": true
+  },
+  {
+    "id": 11167,
+    "developer": "CompuGroup Medical US",
+    "product": "CGM APRIMA",
+    "version": "v19",
+    "chpl_product_number": "15.04.04.2700.Apri.19.01.1.221228",
+    "export_url": "https://www.cgm.com/usa_en/products/electronic-health-records/cgm-aprima.html",
+    "b10_success": true
+  },
+  {
+    "id": 9974,
+    "developer": "StreamlineMD, LLC",
+    "product": "StreamlineMD EHR",
+    "version": "15.0",
+    "chpl_product_number": "15.04.04.2383.Stre.15.00.1.190417",
+    "export_url": "https://streamlinemd.com/wp-content/uploads/2023/10/StreamlineMD-EHR-EHI-Export.pdf",
+    "b10_success": true
+  },
+  {
+    "id": 11546,
+    "developer": "Cyfluent",
+    "product": "Cyfluent",
+    "version": "3.3",
+    "chpl_product_number": "15.04.04.2975.Cyfl.03.01.1.241211",
+    "export_url": "https://www.cyfluent.com/onc-certified-hit-2015-edition",
+    "b10_success": true
+  },
+  {
+    "id": 11032,
+    "developer": "Modernizing Medicine Inc.",
+    "product": "EMA",
+    "version": "7",
+    "chpl_product_number": "15.04.04.2002.EMA6.70.18.1.221129",
+    "export_url": "https://www.modmed.com/onc-certification/",
+    "b10_success": true
+  },
+  {
+    "id": 11557,
+    "developer": "Tebra Technologies, Inc.",
+    "product": "Tebra EHR",
+    "version": "5.1",
+    "chpl_product_number": "15.04.04.2777.Tebr.05.03.1.241219",
+    "export_url": "https://www.tebra.com/tebra-resources/macra-mips/",
+    "b10_success": true
+  },
+  {
+    "id": 11577,
+    "developer": "MD Office, LLC",
+    "product": "MDoffice",
+    "version": "13.0",
+    "chpl_product_number": "15.04.04.3205.Mdof.13.03.1.241224",
+    "export_url": "https://sightview.com/about-sightview/onc-certification/",
+    "b10_success": true
+  },
+  {
+    "id": 11555,
+    "developer": "inteliMD PLLC",
+    "product": "inteliMD",
+    "version": "1",
+    "chpl_product_number": "15.05.05.3211.INTL.01.00.1.241127",
+    "export_url": "https://www.intelimd.com/assets/docs/b10-ehi-export.pdf",
+    "b10_success": true
+  },
+  {
+    "id": 11549,
+    "developer": "DigiDMS, Inc.",
+    "product": "DigiDMS",
+    "version": "25.0",
+    "chpl_product_number": "15.04.04.2709.Digi.25.05.1.241212",
+    "export_url": "https://digidms.com/ehr/ehi-export",
+    "b10_success": true
+  },
+  {
+    "id": 11562,
+    "developer": "PAIX Technologies",
+    "product": "Harmony EHR PM",
+    "version": "1.8",
+    "chpl_product_number": "15.04.04.3213.Harm.01.00.0.241227",
+    "export_url": "https://www.paix-tech.com/documents/HarmonyEHR-EHI-Export.pdf",
+    "b10_success": true
+  },
+  {
+    "id": 11581,
+    "developer": "Clinisys Inc.",
+    "product": "Clinisys Harvest",
+    "version": "15",
+    "chpl_product_number": "15.07.09.2825.OR02.15.03.0.250101",
+    "export_url": "https://www.clinisys.com/uk/en/history/orchard/",
+    "b10_success": true
+  },
+  {
+    "id": 11565,
+    "developer": "ChartPerfect, Inc.",
+    "product": "ChartPerfect EHR",
+    "version": "10",
+    "chpl_product_number": "15.04.04.3019.Char.01.00.0.241218",
+    "export_url": "https://www.chartperfect.com/onc-certified-ehr",
+    "b10_success": true
+  },
+  {
+    "id": 11356,
+    "developer": "EHNOTE,INC",
+    "product": "EHNOTE",
+    "version": "1.0",
+    "chpl_product_number": "15.04.04.3171.EHNO.01.00.1.231025",
+    "export_url": "https://ehnote.com/certification/ehi-export",
+    "b10_success": true
+  },
+  {
+    "id": 10799,
+    "developer": "Tenzing Medical LLC",
+    "product": "Tenzing VistA",
+    "version": "2.1",
+    "chpl_product_number": "15.02.05.2936.TENZ.01.01.1.220120",
+    "export_url": "http://tenzingmedical.com/TenzingEHIFormatInfo.pdf",
+    "b10_success": true
+  },
+  {
+    "id": 11575,
+    "developer": "Netsmart Technologies",
+    "product": "myAvatar Certified Edition",
+    "version": "5",
+    "chpl_product_number": "15.04.04.2816.myAv.05.08.1.241227",
+    "export_url": "https://www.ntst.com/lp/certifications",
+    "b10_success": true
+  },
+  {
+    "id": 11554,
+    "developer": "Infinx Solutions, LLC",
+    "product": "Infinx EHR",
+    "version": "5.3",
+    "chpl_product_number": "15.04.04.2621.iMed.53.02.1.241219",
+    "export_url": "https://www.i3verticals.com/ehr-certification/",
+    "b10_success": true
+  },
+  {
+    "id": 11582,
+    "developer": "Sightview EHR Holdings, LLC",
+    "product": "Regulatory Compliance Platform",
+    "version": "2.0",
+    "chpl_product_number": "15.04.04.3206.Regu.02.04.1.241231",
+    "export_url": "https://sightview.com/about-sightview/onc-certification/",
+    "b10_success": true
+  },
+  {
+    "id": 9739,
+    "developer": "MedPharm Services LLC",
+    "product": "Intelligent Medical Software (IMS)",
+    "version": "14.0 SP 1",
+    "chpl_product_number": "15.99.04.2804.Inte.SP.01.1.181113",
+    "export_url": "https://www.meditab.com/company/ehi-export",
+    "b10_success": true
+  },
+  {
+    "id": 11583,
+    "developer": "Medflow EHR, LLC",
+    "product": "Medflow EHR",
+    "version": "11.0",
+    "chpl_product_number": "15.04.04.3204.Medf.11.03.1.250103",
+    "export_url": "https://sightview.com/about-sightview/onc-certification/",
+    "b10_success": true
+  },
+  {
+    "id": 11550,
+    "developer": "Greenway Health, LLC",
+    "product": "Greenway Electronic Case Reporting",
+    "version": "v1",
+    "chpl_product_number": "15.04.04.2913.Gree.01.00.1.241217",
+    "export_url": "https://ehi.greenwayhealth.com/default.htm",
+    "b10_success": true
+  },
+  {
+    "id": 11133,
+    "developer": "CompuGroup Medical US",
+    "product": "CGM eMDs",
+    "version": "v10",
+    "chpl_product_number": "15.04.04.2700.eMDs.10.02.1.221227",
+    "export_url": "https://www.cgm.com/usa_en/products/electronic-health-records/other-ehrs/cgm-emds.html",
+    "b10_success": true
+  },
+  {
+    "id": 11559,
+    "developer": "Dr. Know, LLC",
+    "product": "Dr. Know",
+    "version": "2",
+    "chpl_product_number": "15.04.04.3212.DRKN.02.00.0.241223",
+    "export_url": "https://docs.doc-know.com/docs/single-patient-export",
+    "b10_success": true
+  },
+  {
+    "id": 11578,
+    "developer": "Aente Inc",
+    "product": "Aente",
+    "version": "3",
+    "chpl_product_number": "15.04.04.3214.Aent.03.00.0.241231",
+    "export_url": "https://docs.aente.com/3-reference/jsonexport/",
+    "b10_success": true
+  },
+  {
+    "id": 10317,
+    "developer": "Genensys LLC",
+    "product": "Simplify EMR",
+    "version": "4.0",
+    "chpl_product_number": "15.05.05.1523.GENS.01.00.1.200225",
+    "export_url": "https://docs.google.com/document/d/1HsYw7-fWQW-6txwQBw0OcsT0M5H7Wxnv7A2YopWGXSo/edit?usp=sharing",
+    "b10_success": true
+  },
+  {
+    "id": 11563,
+    "developer": "NeoDeck Holdings",
+    "product": "NeoMed AI+",
+    "version": "4",
+    "chpl_product_number": "15.04.04.2814.NeoM.04.03.1.241223",
+    "export_url": "https://neodeck.atlassian.net/wiki/spaces/NPS/pages/3178987584/NeoMed+EHI+Export",
+    "b10_success": true
+  },
+  {
+    "id": 11540,
+    "developer": "TruBridge, Inc.",
+    "product": "TruBridge Provider EHR",
+    "version": "22",
+    "chpl_product_number": "15.04.04.3104.Thri.PR.04.1.241210",
+    "export_url": "https://ehi-export.plt.trubridge.com/",
+    "b10_success": true
+  },
+  {
+    "id": 9726,
+    "developer": "Clinisys, Inc.",
+    "product": "Sunquest Laboratory",
+    "version": "v8",
+    "chpl_product_number": "15.04.04.2390.Sunq.08.00.0.181030",
+    "export_url": "https://www.clinisys.com/us/en/onc-disclosure/",
+    "b10_success": true
+  },
+  {
+    "id": 11579,
+    "developer": "Sabiamed Corporation",
+    "product": "ClinNext 10",
+    "version": "V1.0",
+    "chpl_product_number": "15.04.04.2297.Clin.01.01.1.241218",
+    "export_url": "https://www.sabiamed.com/",
+    "b10_success": true
+  },
+  {
+    "id": 10594,
+    "developer": "Oracle Health",
+    "product": "Oracle Health PowerChart Touch",
+    "version": "4",
+    "chpl_product_number": "15.04.04.1221.Powe.03.02.1.210308",
+    "export_url": "https://www.oracle.com/health/regulatory/certified-health-it/",
+    "b10_success": true
+  },
+  {
+    "id": 10140,
+    "developer": "Healogics, Inc.",
+    "product": "i-heal",
+    "version": "2.0",
+    "chpl_product_number": "15.04.04.1575.ihea.02.00.1.191007",
+    "export_url": "https://www.healogics.com/certified-ehr-technology/",
+    "b10_success": true
+  },
+  {
+    "id": 11587,
+    "developer": "MedInformatix",
+    "product": "MedInformatix EHR",
+    "version": "7.8",
+    "chpl_product_number": "15.04.04.2795.MedI.78.03.1.250123",
+    "export_url": "https://www.medinformatix.com/ONC/EHIExport.html",
+    "b10_success": true
+  },
+  {
+    "id": 11589,
+    "developer": "Altera Digital Health Inc.",
+    "product": "Paragon\u00ae Denali",
+    "version": "1",
+    "chpl_product_number": "15.04.04.3123.Para.01.10.1.250130",
+    "export_url": "https://www.alterahealth.com/legal/onc-reg-compliance/",
+    "b10_success": true
+  },
+  {
+    "id": 10853,
+    "developer": "Infor-Med Medical Information Systems Inc.",
+    "product": "Praxis EMR",
+    "version": "9",
+    "chpl_product_number": "15.02.05.2766.INFO.01.02.1.220310",
+    "export_url": "https://www.praxisemr.com/certifications-and-costs.html",
+    "b10_success": true
+  },
+  {
+    "id": 11590,
+    "developer": "Carbon Health Technologies, Inc.",
+    "product": "CarbyOs EHR",
+    "version": "2",
+    "chpl_product_number": "15.04.04.3216.Carb.02.00.0.250129",
+    "export_url": "https://ehr-support.carbyos.com/certification-disclosures",
+    "b10_success": true
+  },
+  {
+    "id": 11572,
+    "developer": "Office Ally, LLC",
+    "product": "EHR 24/7",
+    "version": "5.9.255",
+    "chpl_product_number": "15.04.04.2822.EHR2.05.03.1.241226",
+    "export_url": "https://cms.officeally.com/onc-acb-certification",
+    "b10_success": true
+  },
+  {
+    "id": 11586,
+    "developer": "MDOfficeManager",
+    "product": "GeeseMed",
+    "version": "7.1",
+    "chpl_product_number": "15.04.09.3013.Gees.07.00.1.250101",
+    "export_url": "https://geesemed.com/wp-content/uploads/2024/05/GeeseMed_b10_Health-Info.Export_11202023.pdf",
+    "b10_success": true
+  },
+  {
+    "id": 11321,
+    "developer": "Asolva, Inc.",
+    "product": "Medici",
+    "version": "6",
+    "chpl_product_number": "15.05.05.3163.ASLV.01.00.0.230713",
+    "export_url": "https://harrisonpointsolutions.com/certifications/",
+    "b10_success": true
+  },
+  {
+    "id": 11564,
+    "developer": "NeoDeck Holdings",
+    "product": "NeoMed 3.0 / Legacy",
+    "version": "3.0.0.8",
+    "chpl_product_number": "15.05.04.2814.1739.03.02.1.241224",
+    "export_url": "https://neodeck.atlassian.net/wiki/spaces/NPS/pages/3178987584/NeoMed+EHI+Export",
+    "b10_success": true
+  },
+  {
+    "id": 11584,
+    "developer": "Dynamic Health IT, Inc",
+    "product": "CQMsolution",
+    "version": "25",
+    "chpl_product_number": "15.05.05.2713.DH25.05.08.0.241115",
+    "export_url": "https://www.dynamichealthit.com/connectehr-ehi",
+    "b10_success": true
+  },
+  {
+    "id": 11054,
+    "developer": "Modernizing Medicine Gastroenterology, LLC",
+    "product": "gGastro",
+    "version": "6",
+    "chpl_product_number": "15.04.04.3031.gGas.GA.10.1.221207",
+    "export_url": "https://www.modmed.com/onc-certification-gi/",
+    "b10_success": true
+  },
+  {
+    "id": 11592,
+    "developer": "Nuance Communications, Inc.",
+    "product": "Nuance Electronic Quality Measures",
+    "version": "24.1",
+    "chpl_product_number": "15.04.04.2071.Nuan.24.06.1.250204",
+    "export_url": "https://www.microsoft.com/en-us/health-solutions/revenue-integrity/quality-measures/cures-act-real-world-testing",
+    "b10_success": true
+  },
+  {
+    "id": 10446,
+    "developer": "Encite, Inc.",
+    "product": "Encite EHR",
+    "version": "v6",
+    "chpl_product_number": "15.04.04.1440.Enci.06.00.1.191231",
+    "export_url": "https://sites.google.com/encite.us/support/ehi-export",
+    "b10_success": true
+  },
+  {
+    "id": 10214,
+    "developer": "MedNet Medical Solutions",
+    "product": "emr4MD",
+    "version": "Version 9.10",
+    "chpl_product_number": "15.04.04.2796.emr4.09.00.1.191218",
+    "export_url": "http://mednetmedical.com/Open_API.html",
+    "b10_success": true
+  },
+  {
+    "id": 11591,
+    "developer": "HospiceMD, Inc.",
+    "product": "HomeHealthMD",
+    "version": "v1.17",
+    "chpl_product_number": "15.04.04.3193.Home.01.00.0.250129",
+    "export_url": "https://homehealthmd.com/export.aspx",
+    "b10_success": true
+  },
+  {
+    "id": 11593,
+    "developer": "Develo",
+    "product": "Develo EHR",
+    "version": "v3",
+    "chpl_product_number": "15.04.04.3217.Deve.03.00.1.250210",
+    "export_url": "https://getdevelo.com/ehi",
+    "b10_success": true
+  },
+  {
+    "id": 11588,
+    "developer": "MedInformatix",
+    "product": "MedInformatix EHR",
+    "version": "7.7",
+    "chpl_product_number": "15.04.04.2795.MedI.77.02.1.250123",
+    "export_url": "https://www.medinformatix.com/ONC/EHIExport.html",
+    "b10_success": true
+  },
+  {
+    "id": 9799,
+    "developer": "CareCloud, Inc.",
+    "product": "talkEHR",
+    "version": "Version 1.0",
+    "chpl_product_number": "15.04.04.2790.Talk.01.01.1.181217",
+    "export_url": "https://www.talkehr.com/cost-and-fees-information",
+    "b10_success": true
+  },
+  {
+    "id": 9930,
+    "developer": "myhELO, Inc.",
+    "product": "myhELO",
+    "version": "3.14",
+    "chpl_product_number": "15.05.05.2637.MOXE.01.00.1.190305",
+    "export_url": "https://www.myhelo.com/api_export_format/",
+    "b10_success": true
+  },
+  {
+    "id": 11601,
+    "developer": "GEMMS",
+    "product": "GEMMS ONE",
+    "version": "V7.8C",
+    "chpl_product_number": "15.04.04.2734.GEMM.78.03.1.250224",
+    "export_url": "https://www.medinformatix.com/ONC/EHIExport.html",
+    "b10_success": true
+  },
+  {
+    "id": 9109,
+    "developer": "Medical Information Technology, Inc. (MEDITECH)",
+    "product": "MEDITECH Transmission of Reportable Laboratory Test and Values/Results",
+    "version": "v5.67",
+    "chpl_product_number": "15.04.04.2931.MEDI.RE.00.1.171227",
+    "export_url": "https://home.meditech.com/en/d/restapiresources/pages/ehiexport.htm",
+    "b10_success": true
+  },
+  {
+    "id": 11609,
+    "developer": "Veradigm",
+    "product": "Veradigm FollowMyHealth\u00ae",
+    "version": "25",
+    "chpl_product_number": "15.04.04.2891.VFMH.25.08.1.250317",
+    "export_url": "https://veradigm.com/legal/onc-reg-compliance/",
+    "b10_success": true
+  },
+  {
+    "id": 11599,
+    "developer": "OT EMR, Inc.",
+    "product": "OneTouch EMR",
+    "version": "3",
+    "chpl_product_number": "15.04.05.2821.OTEM.01.00.1.250224",
+    "export_url": "https://onetouchemr.com/OneTouchEMR_FHIR_Restful_API_Documentation_v3.pdf",
+    "b10_success": true
+  },
+  {
+    "id": 11603,
+    "developer": "Epic Systems Corporation",
+    "product": "EpicCare Inpatient Base",
+    "version": "February 2025",
+    "chpl_product_number": "15.04.04.1447.Epic.IN.33.1.250220",
+    "export_url": "https://open.epic.com/EHITables",
+    "b10_success": true
+  },
+  {
+    "id": 11616,
+    "developer": "Agastha, Inc.",
+    "product": "Agastha Enterprise Healthcare Software",
+    "version": "25.1",
+    "chpl_product_number": "15.04.04.1056.Agas.25.02.1.250325",
+    "export_url": "https://agastha.com/Agastha-B10-Documentation.pdf",
+    "b10_success": true
+  },
+  {
+    "id": 11148,
+    "developer": "Networking Technology Inc., dba RXNT",
+    "product": "RXNT Electronic Health Records",
+    "version": "7.2",
+    "chpl_product_number": "15.04.04.2046.RxNT.72.01.1.221228",
+    "export_url": "https://help.rxnt.com/hc/en-us/articles/18557585411223-Electronic-Health-Information-Export-Guide#h_01HDKXY7HPFSCKR1MK8GA5G7B3",
+    "b10_success": true
+  },
+  {
+    "id": 11608,
+    "developer": "CareTracker, Inc.",
+    "product": "Amazing Charts",
+    "version": "12.2",
+    "chpl_product_number": "15.04.04.1206.Amaz.12.09.1.250313",
+    "export_url": "https://amazingcharts.com/hubfs/Amazing-Charts-EHI-Export-Documentation-V1_0-1-1.pdf?hsLang=en",
+    "b10_success": true
+  },
+  {
+    "id": 11600,
+    "developer": "Clinisys, Inc.",
+    "product": "SQ Lab",
+    "version": "v2024",
+    "chpl_product_number": "15.04.04.2390.Sunq.24.03.1.250221",
+    "export_url": "https://www.clinisys.com/us/en/onc-disclosure/",
+    "b10_success": true
+  },
+  {
+    "id": 11611,
+    "developer": "5E Analytics, LLC",
+    "product": "Memphi",
+    "version": "5",
+    "chpl_product_number": "15.11.09.3219.MMPH.05.00.0.250321",
+    "export_url": "https://5eanalytics.com/onc-acb-certified-software/",
+    "b10_success": true
+  },
+  {
+    "id": 9683,
+    "developer": "Anagen Systems",
+    "product": "Complete. MD Patient Web Portal",
+    "version": "v1.0",
+    "chpl_product_number": "15.04.04.3025.Comp.01.00.0.181014",
+    "export_url": "https://complete.md/onc-b10-certification/",
+    "b10_success": true
+  },
+  {
+    "id": 11606,
+    "developer": "Management Plus EHR, LLC",
+    "product": "ManagementPlus",
+    "version": "8.0",
+    "chpl_product_number": "15.04.04.3203.Mana.08.04.1.250228",
+    "export_url": "https://sightview.com/about-sightview/onc-certification/",
+    "b10_success": true
+  },
+  {
+    "id": 11613,
+    "developer": "athenahealth, Inc.",
+    "product": "athenaClinicals for Hospitals and Health Systems",
+    "version": "v25",
+    "chpl_product_number": "15.04.04.2880.Athe.IN.11.1.250321",
+    "export_url": "https://docs.athenahealth.com/athenaone-dataexports/",
+    "b10_success": true
+  },
+  {
+    "id": 10730,
+    "developer": "MedOne Systems, LLC",
+    "product": "BOLT",
+    "version": "V3.5",
+    "chpl_product_number": "15.04.04.1901.BOLT.03.02.1.211122",
+    "export_url": "https://www.medonesystems.com/ehi-export",
+    "b10_success": true
+  },
+  {
+    "id": 11610,
+    "developer": "Global Support Systems",
+    "product": "TurboPT",
+    "version": "2.1",
+    "chpl_product_number": "15.04.04.3218.Turb.02.00.0.250320",
+    "export_url": "https://turbopt.com/export_info.php",
+    "b10_success": true
+  },
+  {
+    "id": 11612,
+    "developer": "NextGen Healthcare",
+    "product": "Mirth Connect",
+    "version": "4.6",
+    "chpl_product_number": "15.05.05.2054.NGM3.04.03.1.250321",
+    "export_url": "https://www.nextgen.com/sldkjljieo0935jljsrnfkl",
+    "b10_success": true
+  },
+  {
+    "id": 11326,
+    "developer": "Empower Systems",
+    "product": "Empower Inpatient+Ambulatory",
+    "version": "V1.1.57",
+    "chpl_product_number": "15.04.04.2918.Empo.01.01.1.230726",
+    "export_url": "https://www.dynamichealthit.com/ehi-export",
+    "b10_success": true
+  },
+  {
+    "id": 11615,
+    "developer": "ClickMedix, LLC",
+    "product": "ClickMedix CareBrains EHR & Care Management Platform",
+    "version": "1.0",
+    "chpl_product_number": "15.05.05.3220.CLIK.01.00.0.250324",
+    "export_url": "https://clickmedix.com/ehr-export-format/",
+    "b10_success": true
+  },
+  {
+    "id": 11548,
+    "developer": "VieCure, Inc.",
+    "product": "VieCure",
+    "version": "3.4",
+    "chpl_product_number": "15.04.04.3066.VieC.03.03.1.241216",
+    "export_url": "https://www.viecure.com/certifications/onc-certification-criteria-for-health-it",
+    "b10_success": true
+  },
+  {
+    "id": 11604,
+    "developer": "Epic Systems Corporation",
+    "product": "EpicCare Ambulatory Base",
+    "version": "February 2025",
+    "chpl_product_number": "15.04.04.1447.Epic.AM.32.1.250220",
+    "export_url": "https://open.epic.com/EHITables",
+    "b10_success": true
+  },
+  {
+    "id": 11595,
+    "developer": "Epic Systems Corporation",
+    "product": "Infection Control Antimicrobial Use and Resistance Reporting",
+    "version": "February 2025",
+    "chpl_product_number": "15.04.04.1447.Infe.25.25.1.250214",
+    "export_url": "https://open.epic.com/EHITables",
+    "b10_success": true
+  },
+  {
+    "id": 11617,
+    "developer": "Medical Office Force, LLC.",
+    "product": "Medical Office Force",
+    "version": "1.0",
+    "chpl_product_number": "15.11.09.3221.MDOF.01.00.1.250401",
+    "export_url": "https://emr.medicalofficeforce.co/content/ccda_export",
+    "b10_success": true
+  },
+  {
+    "id": 11619,
+    "developer": "Apollo 360 Health",
+    "product": "Apollo 360",
+    "version": "2025.1",
+    "chpl_product_number": "15.11.09.3222.APLO.25.00.0.250401",
+    "export_url": "https://apollo360health.com/certification/c-cda",
+    "b10_success": true
+  },
+  {
+    "id": 10931,
+    "developer": "Medical Information Technology, Inc. (MEDITECH)",
+    "product": "MEDITECH 6.1 Electronic Health Record Core HCIS",
+    "version": "v6.15c",
+    "chpl_product_number": "15.04.04.2931.MEDI.HC.01.1.220630",
+    "export_url": "https://home.meditech.com/en/d/restapiresources/pages/ehiexport.htm",
+    "b10_success": true
+  },
+  {
+    "id": 11602,
+    "developer": "GEMMS",
+    "product": "GEMMS ONE",
+    "version": "V7.7C",
+    "chpl_product_number": "15.04.04.2734.GEMM.77.02.1.250224",
+    "export_url": "https://www.medinformatix.com/ONC/EHIExport.html",
+    "b10_success": true
+  },
+  {
+    "id": 11607,
+    "developer": "iMedicWare, LLC",
+    "product": "iMedicWare",
+    "version": "R8-V4",
+    "chpl_product_number": "15.04.04.3207.iMed.R8.04.1.250228",
+    "export_url": "https://sightview.com/about-sightview/onc-certification/",
+    "b10_success": true
+  },
+  {
+    "id": 10238,
+    "developer": "CompuGroup Medical US",
+    "product": "CGM ENTERPRISE EHR\u2122",
+    "version": "10.2.0",
+    "chpl_product_number": "15.04.04.2700.CGME.10.00.1.191230",
+    "export_url": "https://www.cgm.com/usa_en/products/electronic-health-records/other-ehrs/cgm-enterprise-ehr.html",
+    "b10_success": true
+  },
+  {
+    "id": 11620,
+    "developer": "Axxess",
+    "product": "Axxess Palliative",
+    "version": "Version 3.0.2022",
+    "chpl_product_number": "15.99.04.3134.AXXE.02.03.1.250313",
+    "export_url": "https://www.axxess.com/cehrt/",
+    "b10_success": true
+  },
+  {
+    "id": 11417,
+    "developer": "PipelineRx",
+    "product": "PowerGridRx",
+    "version": "2",
+    "chpl_product_number": "15.04.04.3180.Powe.02.00.0.231218",
+    "export_url": "https://www.pipelinerx.com/aur/",
+    "b10_success": true
+  },
+  {
+    "id": 11495,
+    "developer": "Medcare MSO",
+    "product": "HealUs EHR",
+    "version": "1.0",
+    "chpl_product_number": "15.05.05.3197.MDCR.01.00.1.240715",
+    "export_url": "https://docs.healusehr.com/EHI",
+    "b10_success": true
+  },
+  {
+    "id": 11636,
+    "developer": "Avon Health",
+    "product": "Avon EMR",
+    "version": "1.0",
+    "chpl_product_number": "15.04.04.3227.Avon.01.00.1.250514",
+    "export_url": "https://avonhealth.com/meaningful-use",
+    "b10_success": true
+  },
+  {
+    "id": 11633,
+    "developer": "Equicare Health Incorporated",
+    "product": "EQUICARE CS",
+    "version": "4.17",
+    "chpl_product_number": "15.04.04.2933.EQUI.47.10.1.250512",
+    "export_url": "https://equicarehealth.com/ehiexport/",
+    "b10_success": true
+  },
+  {
+    "id": 11596,
+    "developer": "Epic Systems Corporation",
+    "product": "Beaker Reportable Labs Reporting",
+    "version": "February 2025",
+    "chpl_product_number": "15.04.04.1447.Beak.25.26.1.250214",
+    "export_url": "https://open.epic.com/EHITables",
+    "b10_success": true
+  },
+  {
+    "id": 11621,
+    "developer": "Savas Solutions LLC",
+    "product": "Savas Software",
+    "version": "1.0",
+    "chpl_product_number": "15.04.04.3223.Sava.01.00.1.250414",
+    "export_url": "https://savassoftware.com/support_ehi_export/",
+    "b10_success": true
+  },
+  {
+    "id": 11624,
+    "developer": "BINSERA CORPORATION",
+    "product": "BINSERA EHR",
+    "version": "1",
+    "chpl_product_number": "15.05.05.3225.BINS.01.00.0.250423",
+    "export_url": "https://binsera.com/ehi-export",
+    "b10_success": true
+  },
+  {
+    "id": 11634,
+    "developer": "Clinisys Inc.",
+    "product": "Clinisys Orchard",
+    "version": "v12",
+    "chpl_product_number": "15.11.09.2825.ENLB.12.01.0.250513",
+    "export_url": "https://www.clinisys.com/uk/en/history/orchard/",
+    "b10_success": true
+  },
+  {
+    "id": 11618,
+    "developer": "Innovaccer Inc",
+    "product": "InGraph",
+    "version": "1.5",
+    "chpl_product_number": "15.04.04.3198.InGr.01.01.0.250401",
+    "export_url": "https://storage.googleapis.com/staging-incrowd/pdf/EHI%20Export%20Document/1724146814781/file.pdf",
+    "b10_success": true
+  },
+  {
+    "id": 11630,
+    "developer": "InterSystems Corporation",
+    "product": "HealthShare Personal Community",
+    "version": "2019.1",
+    "chpl_product_number": "15.04.04.2988.Heal.19.00.1.250430",
+    "export_url": "https://www.intersystems.com/healthcare-standards-certifications/",
+    "b10_success": true
+  },
+  {
+    "id": 11631,
+    "developer": "Firely USA Inc.",
+    "product": "Firely Server",
+    "version": "6",
+    "chpl_product_number": "15.04.04.3143.Fire.06.01.0.250502",
+    "export_url": "https://docs.fire.ly/projects/Firely-Server/en/latest/features_and_tools/bulkdataexport.html",
+    "b10_success": true
+  },
+  {
+    "id": 11632,
+    "developer": "Veradigm",
+    "product": "ePrescribe",
+    "version": "25",
+    "chpl_product_number": "15.04.04.2891.ePre.25.02.1.250505",
+    "export_url": "https://veradigm.com/legal/onc-reg-compliance/",
+    "b10_success": true
+  },
+  {
+    "id": 11635,
+    "developer": "Cantata Health Solutions",
+    "product": "imaServe",
+    "version": "3",
+    "chpl_product_number": "15.05.05.2022.IMAS.02.01.1.250514",
+    "export_url": "http://www.imasys.com/certifications",
+    "b10_success": true
+  },
+  {
+    "id": 11169,
+    "developer": "Amrita Ventures, LLC",
+    "product": "Amrita Hospital Information System",
+    "version": "AHIS 7.2",
+    "chpl_product_number": "15.04.04.2678.Amri.AH.01.1.221228",
+    "export_url": "https://www.darenasolutions.com/meldrx-onc-hti1-certified#b10-EHI-Export-Documentation",
+    "b10_success": true
+  },
+  {
+    "id": 11637,
+    "developer": "Oracle Health",
+    "product": "Oracle Health Data Intelligence: PI Functional Reports",
+    "version": "2025",
+    "chpl_product_number": "15.04.04.1221.PIFR.02.00.0.250515",
+    "export_url": "https://www.oracle.com/health/regulatory/certified-health-it/#ehi-export-lnk",
+    "b10_success": true
+  },
+  {
+    "id": 11638,
+    "developer": "Synapse Medicine Inc.",
+    "product": "Synapse Prescribe",
+    "version": "2",
+    "chpl_product_number": "15.05.05.3167.SYNA.02.01.1.250521",
+    "export_url": "https://cdn.prod.website-files.com/6557391911618b28bc0bf8b4/681e1cc3bd20a055e71d7ea1_b10%20EHI%20Export%20Format%20Documentation%20URL.pdf",
+    "b10_success": true
+  },
+  {
+    "id": 11639,
+    "developer": "InterSystems Corporation",
+    "product": "HealthShare Personal Community",
+    "version": "2021.2",
+    "chpl_product_number": "15.04.04.2988.Heal.21.01.1.250515",
+    "export_url": "https://www.intersystems.com/healthcare-standards-certifications/",
+    "b10_success": true
+  },
+  {
+    "id": 11641,
+    "developer": "Epic Systems Corporation",
+    "product": "Infection Control Antimicrobial Use and Resistance Reporting",
+    "version": "May 2025",
+    "chpl_product_number": "15.04.04.1447.Infe.25.26.1.250527",
+    "export_url": "https://open.epic.com/EHITables",
+    "b10_success": true
+  },
+  {
+    "id": 11642,
+    "developer": "Omnivers-AI Inc",
+    "product": "Omnivers",
+    "version": "2",
+    "chpl_product_number": "15.05.05.3229.OMVS.01.00.1.250529",
+    "export_url": "https://www.omnivers.ai/onc-certification",
+    "b10_success": true
+  },
+  {
+    "id": 11643,
+    "developer": "Epic Systems Corporation",
+    "product": "Beacon Cancer Registry Reporting",
+    "version": "May 2025",
+    "chpl_product_number": "15.04.04.1447.Beac.25.28.1.250527",
+    "export_url": "https://open.epic.com/EHITables",
+    "b10_success": true
+  },
+  {
+    "id": 11625,
+    "developer": "Careexpand LLC",
+    "product": "Careexpand",
+    "version": "v2024.11.0",
+    "chpl_product_number": "15.04.04.3226.Care.24.00.1.250422",
+    "export_url": "https://bookstack.careexpandcloud.com/books/techdoc-onc-patient-ehi-export-b10/page/b10-ehi-export-ccda",
+    "b10_success": true
+  },
+  {
+    "id": 11644,
+    "developer": "Epic Systems Corporation",
+    "product": "Beaker Reportable Labs Reporting",
+    "version": "May 2025",
+    "chpl_product_number": "15.04.04.1447.Beak.25.27.1.250529",
+    "export_url": "https://open.epic.com/EHITables",
+    "b10_success": true
+  },
+  {
+    "id": 10299,
+    "developer": "VersaSuite",
+    "product": "VersaSuite",
+    "version": "9.0",
+    "chpl_product_number": "15.99.04.2503.Vers.09.01.1.200210",
+    "export_url": "https://docs.versasuite.com",
+    "b10_success": true
+  },
+  {
+    "id": 10791,
+    "developer": "Prime Clinical Systems, Inc.",
+    "product": "Patient Chart Manager",
+    "version": "7.1",
+    "chpl_product_number": "15.02.05.2206.PRIC.01.03.1.220114",
+    "export_url": "https://www.primeclinical.com/wp-content/themes/BLANK-Theme/images/EHI_Export_170.315_b10.pdf",
+    "b10_success": true
+  },
+  {
+    "id": 11622,
+    "developer": "Smile CDR Inc. (doing business as Smile Digital Health)",
+    "product": "Smile CDR",
+    "version": "2025",
+    "chpl_product_number": "15.04.04.3129.Smil.24.03.0.250414",
+    "export_url": "https://www.smiledigitalhealth.com/bulk-data-export",
+    "b10_success": true
+  },
+  {
+    "id": 11640,
+    "developer": "OneOncology, LLC",
+    "product": "OneOncology HIE Integration",
+    "version": "1",
+    "chpl_product_number": "15.04.04.3228.Oneo.01.00.1.250516",
+    "export_url": "https://flatiron.com/certification",
+    "b10_success": true
+  },
+  {
+    "id": 10994,
+    "developer": "Medical Information Technology, Inc. (MEDITECH)",
+    "product": "MEDITECH Public Health Interface Electronic Case Reporting",
+    "version": "v6.0",
+    "chpl_product_number": "15.04.04.2931.Case.60.00.1.221001",
+    "export_url": "https://home.meditech.com/en/d/restapiresources/pages/ehiexport.htm",
+    "b10_success": true
+  },
+  {
+    "id": 11650,
+    "developer": "Vision Infonet Inc",
+    "product": "MDCare EMR/PMS",
+    "version": "6.0",
+    "chpl_product_number": "15.04.04.2872.MDCa.06.02.1.250604",
+    "export_url": "https://www.mdcare.com/EHIexport",
+    "b10_success": true
+  },
+  {
+    "id": 11646,
+    "developer": "CareTracker, Inc.",
+    "product": "Amazing Charts",
+    "version": "12.3",
+    "chpl_product_number": "15.04.04.1206.Amaz.12.10.1.250530",
+    "export_url": "https://amazingcharts.com/hubfs/Amazing-Charts-EHI-Export-Documentation-V1_0-1-1.pdf?hsLang=en",
+    "b10_success": true
+  },
+  {
+    "id": 10984,
+    "developer": "Medical Information Technology, Inc. (MEDITECH)",
+    "product": "MEDITECH Client/Server Emergency Department Management",
+    "version": "v5.67c",
+    "chpl_product_number": "15.04.04.2931.MEDI.CS.01.1.220916",
+    "export_url": "https://home.meditech.com/en/d/restapiresources/pages/ehiexport.htm",
+    "b10_success": true
+  },
+  {
+    "id": 11597,
+    "developer": "Epic Systems Corporation",
+    "product": "Beacon Cancer Registry Reporting",
+    "version": "February 2025",
+    "chpl_product_number": "15.04.04.1447.Beac.25.27.1.250213",
+    "export_url": "https://open.epic.com/EHITables",
+    "b10_success": true
+  },
+  {
+    "id": 11651,
+    "developer": "MEDHOST",
+    "product": "MEDHOST EDIS",
+    "version": "2024 R1",
+    "chpl_product_number": "15.04.04.2788.MEDH.24.08.1.250606",
+    "export_url": "https://www.medhost.com/ehr/interoperability/",
+    "b10_success": true
+  },
+  {
+    "id": 11667,
+    "developer": "Oracle Health",
+    "product": "Oracle Health Millennium (Immunizations)",
+    "version": "2025",
+    "chpl_product_number": "15.04.04.1221.Mill.I4.05.1.250605",
+    "export_url": "https://www.oracle.com/health/regulatory/certified-health-it/",
+    "b10_success": true
+  },
+  {
+    "id": 11657,
+    "developer": "Diagnostic Laboratory Services, Inc.",
+    "product": "Antrim Laboratory Data Management System",
+    "version": "1.0",
+    "chpl_product_number": "15.04.04.3231.Antr.01.00.0.250613",
+    "export_url": "https://dlslab.com/health-it-certification/ehi-export/",
+    "b10_success": true
+  },
+  {
+    "id": 11598,
+    "developer": "Mayo Clinic Labs",
+    "product": "Mayo Clinic Lab Registry",
+    "version": "5",
+    "chpl_product_number": "15.04.04.2792.Mayo.05.01.1.250207",
+    "export_url": "https://www.mayoclinic.org/about-mayo-clinic/disclosures",
+    "b10_success": true
+  },
+  {
+    "id": 11661,
+    "developer": "SunwaveHealth",
+    "product": "SunwaveHealth EMR Platform",
+    "version": "8.7",
+    "chpl_product_number": "15.04.04.3233.Sunw.08.00.0.250708",
+    "export_url": "https://sunwavehealth.atlassian.net/wiki/spaces/ONC/overview",
+    "b10_success": true
+  },
+  {
+    "id": 11219,
+    "developer": "Kanrad Technologies Inc",
+    "product": "KanTime Health",
+    "version": "1.0",
+    "chpl_product_number": "15.04.04.3096.KanH.01.01.1.230118",
+    "export_url": "https://kantime.com/wp-content/uploads/2023/11/EHI_Tool_Documentation.pdf",
+    "b10_success": true
+  },
+  {
+    "id": 11660,
+    "developer": "Curantis Solutions, LLC",
+    "product": "Curantis Solutions Hospice & Palliative",
+    "version": "2.0",
+    "chpl_product_number": "15.04.04.3232.Cura.02.00.0.250630",
+    "export_url": "https://curantissolutions.com/wp-content/uploads/2025/06/ONC-170.315b10-Electronic-Health-Information-Export.pdf",
+    "b10_success": true
+  },
+  {
+    "id": 11662,
+    "developer": "Dynamic Health IT, Inc",
+    "product": "ConnectEHR SMART 2.0",
+    "version": "FHIR4-B.S2",
+    "chpl_product_number": "15.02.05.2713.DYS2.05.04.0.250711",
+    "export_url": "https://www.dynamichealthit.com/connectehr-ehi",
+    "b10_success": true
+  },
+  {
+    "id": 11656,
+    "developer": "Edvak Technologies Inc",
+    "product": "Edvak EHR",
+    "version": "v1",
+    "chpl_product_number": "15.04.04.3230.Edva.0v.00.1.250613",
+    "export_url": "https://edvak.com/ehi-export",
+    "b10_success": true
+  },
+  {
+    "id": 11663,
+    "developer": "athenahealth, Inc.",
+    "product": "athenaFlow",
+    "version": "v25",
+    "chpl_product_number": "15.04.04.2880.flow.25.08.1.250711",
+    "export_url": "https://docs.mydata.athenahealth.com/fhir-r4/ehiexport.html#electronic-health-information-ehi-export",
+    "b10_success": true
+  },
+  {
+    "id": 11542,
+    "developer": "Theoria Medical, PLLC",
+    "product": "ChartEasy\u2122",
+    "version": "1.5",
+    "chpl_product_number": "15.04.04.3091.Char.01.01.1.241204",
+    "export_url": "https://theoriamedical.com/ehr-certificate",
+    "b10_success": true
+  },
+  {
+    "id": 11645,
+    "developer": "NextGen Healthcare",
+    "product": "NextGen Enterprise EHR",
+    "version": "Enterprise 8",
+    "chpl_product_number": "15.04.04.2054.Next.80.12.1.250602",
+    "export_url": "https://www.nextgen.com/sldkjljieo0935jljsrnfkl",
+    "b10_success": true
+  },
+  {
+    "id": 11652,
+    "developer": "Doc-tor.com",
+    "product": "Picasso",
+    "version": "8.2",
+    "chpl_product_number": "15.04.04.2985.Pica.08.06.1.250604",
+    "export_url": "https://doc-tor.com/wp-content/uploads/2023/11/Picasso-EHI-Export-Documentation-V1_0-1-1.pdf",
+    "b10_success": true
+  },
+  {
+    "id": 10796,
+    "developer": "Advanced Technologies Group, LLC",
+    "product": "ATG EHR",
+    "version": "10",
+    "chpl_product_number": "15.02.05.2670.ADTG.01.02.1.220118",
+    "export_url": "https://a-t-g.com/offender-management-suite/electronic-health-records/",
+    "b10_success": true
+  },
+  {
+    "id": 11668,
+    "developer": "Oracle Health",
+    "product": "Oracle Health Millennium (Health Care Surveys)",
+    "version": "2025",
+    "chpl_product_number": "15.04.04.1221.Mill.HC.05.0.250605",
+    "export_url": "https://www.oracle.com/health/regulatory/certified-health-it/",
+    "b10_success": true
+  },
+  {
+    "id": 11671,
+    "developer": "Oracle Health",
+    "product": "Oracle Health Data Intelligence: eCQMs",
+    "version": "2025",
+    "chpl_product_number": "15.04.04.1221.OHDI.24.01.0.250605",
+    "export_url": "https://www.oracle.com/health/regulatory/certified-health-it/#ehi-export-lnk",
+    "b10_success": true
+  },
+  {
+    "id": 11665,
+    "developer": "TiaTech USA, Inc.",
+    "product": "TiaMD",
+    "version": "3",
+    "chpl_product_number": "15.05.05.3234.TIAT.01.00.1.250722",
+    "export_url": "https://docs.tiatech.net",
+    "b10_success": true
+  },
+  {
+    "id": 11545,
+    "developer": "Helixbeat",
+    "product": "PULSE",
+    "version": "1.0",
+    "chpl_product_number": "15.04.04.3210.Puls.01.00.0.241213",
+    "export_url": "https://genius.helixbeat.com/legal?document=Electronic+Health+Information+Export",
+    "b10_success": true
+  },
+  {
+    "id": 11683,
+    "developer": "Epic Systems Corporation",
+    "product": "Beacon Cancer Registry Reporting",
+    "version": "August 2025",
+    "chpl_product_number": "15.04.04.1447.Beac.25.29.1.250825",
+    "export_url": "https://open.epic.com/EHITables",
+    "b10_success": true
+  },
+  {
+    "id": 11686,
+    "developer": "Epic Systems Corporation",
+    "product": "EpicCare Inpatient Base",
+    "version": "August 2025",
+    "chpl_product_number": "15.04.04.1447.Epic.IN.35.1.250825",
+    "export_url": "https://open.epic.com/EHITables",
+    "b10_success": true
+  },
+  {
+    "id": 10902,
+    "developer": "Aline",
+    "product": "Aline Care",
+    "version": "2",
+    "chpl_product_number": "15.05.05.3111.GLES.01.00.0.220520",
+    "export_url": "https://alineops.com/Certifications/",
+    "b10_success": true
+  },
+  {
+    "id": 10961,
+    "developer": "Juno Health",
+    "product": "Juno CQMsolution",
+    "version": "22",
+    "chpl_product_number": "15.04.04.2925.JCQM.02.06.0.220817",
+    "export_url": "https://www.junohealth.com/ehiexport",
+    "b10_success": true
+  },
+  {
+    "id": 11653,
+    "developer": "Epic Systems Corporation",
+    "product": "EpicCare Inpatient Base",
+    "version": "May 2025",
+    "chpl_product_number": "15.04.04.1447.Epic.IN.34.1.250609",
+    "export_url": "https://open.epic.com/EHITables",
+    "b10_success": true
+  },
+  {
+    "id": 11697,
+    "developer": "Veradigm",
+    "product": "Veradigm View",
+    "version": "1",
+    "chpl_product_number": "15.04.04.2891.View.01.02.1.250909",
+    "export_url": "https://veradigm.com/legal/onc-reg-compliance/",
+    "b10_success": true
+  },
+  {
+    "id": 11655,
+    "developer": "MEDHOST",
+    "product": "MEDHOST Enterprise - Financials",
+    "version": "2024 R1",
+    "chpl_product_number": "15.04.04.2788.MEDH.FI.09.0.250606",
+    "export_url": "https://www.medhost.com/ehr/interoperability/",
+    "b10_success": true
+  },
+  {
+    "id": 11666,
+    "developer": "Imprivata",
+    "product": "Access Intelligence",
+    "version": "25",
+    "chpl_product_number": "15.02.05.1485.ACCS.08.08.0.250722",
+    "export_url": "https://www.imprivata.com/onc-certification-disclosures",
+    "b10_success": true
+  },
+  {
+    "id": 11678,
+    "developer": "MEDHOST",
+    "product": "MEDHOST Enterprise - Clinicals",
+    "version": "2024 R1",
+    "chpl_product_number": "15.04.04.2788.MEDH.CL.10.1.250806",
+    "export_url": "https://www.medhost.com/ehr/interoperability/",
+    "b10_success": true
+  },
+  {
+    "id": 11681,
+    "developer": "Greenway Health, LLC",
+    "product": "Greenway Prime Suite",
+    "version": "v22",
+    "chpl_product_number": "15.04.04.2913.Prim.22.04.1.250814",
+    "export_url": "https://ehi.greenwayhealth.com/PrimeSuite/PrimeSuiteEHIExport.html",
+    "b10_success": true
+  },
+  {
+    "id": 11690,
+    "developer": "Garage Solutions LLC",
+    "product": "Bridge Ignite",
+    "version": "v1.0",
+    "chpl_product_number": "15.04.04.1520.Brid.01.00.1.250825",
+    "export_url": "https://thegaragein.com/New/ourplatform.html",
+    "b10_success": true
+  },
+  {
+    "id": 11692,
+    "developer": "Wound Therapeutics, LLC",
+    "product": "Wound Charts",
+    "version": "3",
+    "chpl_product_number": "15.11.09.3238.WDCH.03.00.1.250908",
+    "export_url": "https://www.woundcharts.net/documents/data_dictionary_and_export_file_formats.pdf",
+    "b10_success": true
+  },
+  {
+    "id": 11691,
+    "developer": "True RCM",
+    "product": "TrueRCM EHR",
+    "version": "v1.0",
+    "chpl_product_number": "15.04.04.3237.True.01.00.0.250902",
+    "export_url": "https://truercm.com/about-us/ehi-export",
+    "b10_success": true
+  },
+  {
+    "id": 11694,
+    "developer": "Wound Technology Network, Inc. d/b/a Woundtech",
+    "product": "Woundtech EMR",
+    "version": "21131",
+    "chpl_product_number": "15.05.05.3239.WNDT.01.00.1.250909",
+    "export_url": "https://woundtech.net/onc-ehi-export-instructions/",
+    "b10_success": true
+  },
+  {
+    "id": 11696,
+    "developer": "Alleva",
+    "product": "Alleva EHR",
+    "version": "3.00",
+    "chpl_product_number": "15.04.04.3240.Alle.03.00.0.250908",
+    "export_url": "https://hello.helloalleva.com/ehi_export",
+    "b10_success": true
+  },
+  {
+    "id": 11669,
+    "developer": "Oracle Health",
+    "product": "Oracle Health Millennium (CQMs)",
+    "version": "2025",
+    "chpl_product_number": "15.04.04.1221.Mill.CQ.06.1.250605",
+    "export_url": "https://www.oracle.com/health/regulatory/certified-health-it/",
+    "b10_success": true
+  },
+  {
+    "id": 9279,
+    "developer": "HCA Healthcare - Information Technology Group",
+    "product": "hCQM",
+    "version": "3.0",
+    "chpl_product_number": "15.04.04.2740.hCQM.03.00.0.171231",
+    "export_url": "https://www.hcadam.com/api/public/content/85df94e2bb2c4af4886e3963a4953525?v=b433230d",
+    "b10_success": true
+  },
+  {
+    "id": 11670,
+    "developer": "Oracle Health",
+    "product": "Oracle Health Millennium (Clinical)",
+    "version": "2025",
+    "chpl_product_number": "15.04.04.1221.Mill.25.08.0.250620",
+    "export_url": "https://www.oracle.com/health/regulatory/certified-health-it/",
+    "b10_success": true
+  },
+  {
+    "id": 11654,
+    "developer": "Epic Systems Corporation",
+    "product": "EpicCare Ambulatory Base",
+    "version": "May 2025",
+    "chpl_product_number": "15.04.04.1447.Epic.AM.33.1.250609",
+    "export_url": "https://open.epic.com/EHITables",
+    "b10_success": true
+  },
+  {
+    "id": 9267,
+    "developer": "Foothold Technology, Inc.",
+    "product": "AWARDS",
+    "version": "3.0",
+    "chpl_product_number": "15.04.04.1500.AWAR.03.00.1.171220",
+    "export_url": "https://awards1.zendesk.com/hc/en-us/articles/33133755413012-ExportBuilders",
+    "b10_success": true
+  },
+  {
+    "id": 11677,
+    "developer": "Imprivata Inc. (FKA Maize Analytics, Inc.)",
+    "product": "Explanation Based Auditing System",
+    "version": "1.04",
+    "chpl_product_number": "15.05.05.2967.EBAS.01.00.0.250731",
+    "export_url": "https://www.imprivata.com/onc-certification-disclosures-ebas",
+    "b10_success": true
+  },
+  {
+    "id": 11680,
+    "developer": "Divine Family Care",
+    "product": "DivineTech",
+    "version": "1.0",
+    "chpl_product_number": "15.04.04.3235.Divi.01.00.0.250728",
+    "export_url": "https://divinetechpoc.com/certification",
+    "b10_success": true
+  },
+  {
+    "id": 11682,
+    "developer": "Greenway Health, LLC",
+    "product": "Intergy EHR",
+    "version": "v22",
+    "chpl_product_number": "15.04.04.2913.Inte.22.06.0.250814",
+    "export_url": "https://ehi.greenwayhealth.com/Intergy/IntergyEHIExport.html",
+    "b10_success": true
+  },
+  {
+    "id": 11684,
+    "developer": "Epic Systems Corporation",
+    "product": "Beaker Reportable Labs Reporting",
+    "version": "August 2025",
+    "chpl_product_number": "15.04.04.1447.Beak.25.28.1.250825",
+    "export_url": "https://open.epic.com/EHITables",
+    "b10_success": true
+  },
+  {
+    "id": 11687,
+    "developer": "Epic Systems Corporation",
+    "product": "EpicCare Ambulatory Base",
+    "version": "August 2025",
+    "chpl_product_number": "15.04.04.1447.Epic.AM.34.1.250825",
+    "export_url": "https://open.epic.com/EHITables",
+    "b10_success": true
+  },
+  {
+    "id": 11675,
+    "developer": "Altera Digital Health Inc.",
+    "product": "TouchWorks EHR",
+    "version": "2025",
+    "chpl_product_number": "15.04.04.3123.Touc.25.12.1.250723",
+    "export_url": "https://www.alterahealth.com/legal/onc-reg-compliance/",
+    "b10_success": true
+  },
+  {
+    "id": 11269,
+    "developer": "The Montrose Center",
+    "product": "CONTINUUM",
+    "version": "2.0",
+    "chpl_product_number": "15.07.04.2005.CO02.01.01.0.230320",
+    "export_url": "https://montrosecenter.org/about/privacy/",
+    "b10_success": true
+  },
+  {
+    "id": 10240,
+    "developer": "CompuGroup Medical US",
+    "product": "CGM CLINICAL\u2122",
+    "version": "8.3",
+    "chpl_product_number": "15.04.04.2700.CGMC.08.00.1.191230",
+    "export_url": "https://www.cgm.com/usa_en/products/electronic-health-records/other-ehrs/cgm-clinical-pm-and-ehr.html",
+    "b10_success": true
+  },
+  {
+    "id": 11689,
+    "developer": "Prime DataQ Health, LLC",
+    "product": "summitEHR",
+    "version": "1.0",
+    "chpl_product_number": "15.04.04.3236.Davi.01.00.1.250827",
+    "export_url": "https://static1.squarespace.com/static/692e09ea4112f840c4fb54d8/t/69307ee493279950e0b33148/1764785893013/EHI+Export+Documentation+-+SummitEHR+v1.0.pdf",
+    "b10_success": true
+  },
+  {
+    "id": 11685,
+    "developer": "Epic Systems Corporation",
+    "product": "Infection Control Antimicrobial Use and Resistance Reporting",
+    "version": "August 2025",
+    "chpl_product_number": "15.04.04.1447.Infe.25.27.1.250825",
+    "export_url": "https://open.epic.com/EHITables",
+    "b10_success": true
+  },
+  {
+    "id": 11699,
+    "developer": "SPRY Therapeutics, Inc",
+    "product": "SPRY",
+    "version": "2",
+    "chpl_product_number": "15.04.04.3242.Spry.02.00.0.250922",
+    "export_url": "https://www.sprypt.com/chpl-product-certification",
+    "b10_success": true
+  },
+  {
+    "id": 11698,
+    "developer": "Lunar Systems, Inc.",
+    "product": "Lunar Cloud Platform",
+    "version": "2.6",
+    "chpl_product_number": "15.04.04.3241.Luna.02.00.1.250917",
+    "export_url": "https://golunar.com/ehi-export",
+    "b10_success": true
+  },
+  {
+    "id": 11700,
+    "developer": "Carbon Health Technologies, Inc.",
+    "product": "CarbyOs EHR",
+    "version": "3",
+    "chpl_product_number": "15.04.04.3216.Carb.02.01.1.250925",
+    "export_url": "https://ehr-support.carbyos.com/certification-disclosures",
+    "b10_success": true
+  },
+  {
+    "id": 11702,
+    "developer": "Oracle Health",
+    "product": "Oracle Health EHR",
+    "version": "25",
+    "chpl_product_number": "15.04.04.1221.Orac.25.00.1.251003",
+    "export_url": "https://www.oracle.com/health/regulatory/certified-health-it/#ehi-export-lnk",
+    "b10_success": true
+  },
+  {
+    "id": 11717,
+    "developer": "Indian Health Service",
+    "product": "Resource and Patient Management System Electronic Health Record",
+    "version": "BCERv9.0",
+    "chpl_product_number": "15.02.05.1673.RPMS.02.05.1.251124",
+    "export_url": "https://www.ihs.gov/rpms/applications/ftp/?parent=&fld=EHI_Schemas",
+    "b10_success": true
+  },
+  {
+    "id": 11703,
+    "developer": "Goodx Inc.",
+    "product": "Goodx",
+    "version": "1",
+    "chpl_product_number": "15.11.09.3243.GOOD.01.00.1.251031",
+    "export_url": "https://github.com/GoodXSoftware/patient_export/blob/master/README.md",
+    "b10_success": true
+  },
+  {
+    "id": 11711,
+    "developer": "Epic Systems Corporation",
+    "product": "Beacon Cancer Registry Reporting",
+    "version": "November 2025",
+    "chpl_product_number": "15.04.04.1447.Beac.25.30.1.251107",
+    "export_url": "https://open.epic.com/EHITables",
+    "b10_success": true
+  },
+  {
+    "id": 11713,
+    "developer": "Epic Systems Corporation",
+    "product": "Infection Control Antimicrobial Use and Resistance Reporting",
+    "version": "November 2025",
+    "chpl_product_number": "15.04.04.1447.Infe.25.28.1.251107",
+    "export_url": "https://open.epic.com/EHITables",
+    "b10_success": true
+  },
+  {
+    "id": 11715,
+    "developer": "Greenway Health, LLC",
+    "product": "Greenway Patient Portal",
+    "version": "v22",
+    "chpl_product_number": "15.04.04.2913.GWPP.22.01.1.251105",
+    "export_url": "https://ehi.greenwayhealth.com/default.htm",
+    "b10_success": true
+  },
+  {
+    "id": 11708,
+    "developer": "Altera Digital Health Inc.",
+    "product": "Sunrise Acute Care for Hospital-based Providers",
+    "version": "25.1",
+    "chpl_product_number": "15.04.04.3123.Sunr.AH.12.1.250905",
+    "export_url": "https://www.alterahealth.com/legal/onc-reg-compliance/",
+    "b10_success": true
+  },
+  {
+    "id": 11716,
+    "developer": "Theralytics",
+    "product": "Practice Management and Data Collection Software",
+    "version": "10.8",
+    "chpl_product_number": "15.04.04.3245.Prac.10.00.0.251119",
+    "export_url": "https://www.theralytics.net/ehiexport",
+    "b10_success": true
+  },
+  {
+    "id": 11718,
+    "developer": "Urgent Chart LLC",
+    "product": "UrgentChart",
+    "version": "1.0",
+    "chpl_product_number": "15.04.04.3246.Urge.01.00.0.251125",
+    "export_url": "https://www.urgentchart.com/export.html",
+    "b10_success": true
+  },
+  {
+    "id": 11719,
+    "developer": "Varian Medical Systems",
+    "product": "ARIA CORE",
+    "version": "18.3",
+    "chpl_product_number": "15.04.04.2496.ARIA.18.08.1.251126",
+    "export_url": "https://varian.com/aria/ehi",
+    "b10_success": true
+  },
+  {
+    "id": 11721,
+    "developer": "Ritten, Inc.",
+    "product": "Ritten",
+    "version": "v1.0",
+    "chpl_product_number": "15.04.04.3247.Ritt.01.00.0.251202",
+    "export_url": "https://ritten.notion.site/Ritten-EHI-Export-2a91c7de7e3a80bf88e1d7d4984d9b8d",
+    "b10_success": true
+  },
+  {
+    "id": 11727,
+    "developer": "Greenway Health, LLC",
+    "product": "Greenway Insights",
+    "version": "v25",
+    "chpl_product_number": "15.04.04.2913.GINS.25.04.1.251210",
+    "export_url": "https://ehi.greenwayhealth.com/Intergy/IntergyEHIExport.html",
+    "b10_success": true
+  },
+  {
+    "id": 11704,
+    "developer": "Experity",
+    "product": "Experity EMR",
+    "version": "25",
+    "chpl_product_number": "15.04.04.1368.Expe.25.06.1.251020",
+    "export_url": "https://www.experityhealth.com/onc-certification/",
+    "b10_success": true
+  },
+  {
+    "id": 11709,
+    "developer": "Altera Digital Health Inc.",
+    "product": "Sunrise Ambulatory Care",
+    "version": "25.1",
+    "chpl_product_number": "15.04.04.3123.Sunr.AM.12.1.250905",
+    "export_url": "https://www.alterahealth.com/legal/onc-reg-compliance/",
+    "b10_success": true
+  },
+  {
+    "id": 11714,
+    "developer": "athenahealth, Inc.",
+    "product": "athenaClinicals",
+    "version": "v25",
+    "chpl_product_number": "15.04.04.2880.Athe.AM.12.1.251028",
+    "export_url": "https://docs.athenahealth.com/athenaone-dataexports/",
+    "b10_success": true
+  },
+  {
+    "id": 11722,
+    "developer": "Nextech",
+    "product": "Nextech Select and NexCloud",
+    "version": "20",
+    "chpl_product_number": "15.04.04.2051.Ntec.20.12.1.251202",
+    "export_url": "https://www.nextech.com/hubfs/Nextech%20Select_NexCloud%20EHI%20Export%20Documentation.pdf",
+    "b10_success": true
+  },
+  {
+    "id": 11724,
+    "developer": "Nextech",
+    "product": "Nextech EHR (ICP)",
+    "version": "9",
+    "chpl_product_number": "15.04.04.2051.Inte.09.02.0.251202",
+    "export_url": "https://www.nextech.com/compliance/ehi-export-documentation",
+    "b10_success": true
+  },
+  {
+    "id": 11726,
+    "developer": "E-Health Partners, Inc.",
+    "product": "EHRez",
+    "version": "5.0",
+    "chpl_product_number": "15.04.04.1385.EHRe.05.02.0.251125",
+    "export_url": "https://www.ehrez.com/",
+    "b10_success": true
+  },
+  {
+    "id": 11728,
+    "developer": "Mingle Healthcare Solutions, Inc.",
+    "product": "eCQM Solutions",
+    "version": "4",
+    "chpl_product_number": "15.05.05.3248.MNGL.01.00.0.251211",
+    "export_url": "https://minglehealth.com/ecqm-ehi-export-format/",
+    "b10_success": true
+  },
+  {
+    "id": 11720,
+    "developer": "CareTracker, Inc.",
+    "product": "Amazing Charts",
+    "version": "12.4",
+    "chpl_product_number": "15.04.04.1206.Amaz.12.11.1.251201",
+    "export_url": "https://amazingcharts.com/hubfs/Amazing-Charts-EHI-Export-Documentation-V1_0-1-1.pdf?hsLang=en",
+    "b10_success": true
+  },
+  {
+    "id": 11629,
+    "developer": "athenahealth, Inc.",
+    "product": "athenaPractice",
+    "version": "v25",
+    "chpl_product_number": "15.04.04.2880.prac.25.07.1.250428",
+    "export_url": "https://docs.mydata.athenahealth.com/fhir-r4/ehiexport.html#electronic-health-information-ehi-export",
+    "b10_success": true
+  },
+  {
+    "id": 11705,
+    "developer": "CitiusTech, Inc.",
+    "product": "Perform+",
+    "version": "25.3",
+    "chpl_product_number": "15.04.04.2694.BICL.25.11.0.251010",
+    "export_url": "https://8759937.fs1.hubspotusercontent-na1.net/hubfs/8759937/Perform%2B_Regulatory_Certificate/PERFORM%2B_B10_Certification_Workflow_V1.2.pdf",
+    "b10_success": true
+  },
+  {
+    "id": 11674,
+    "developer": "Oracle Health",
+    "product": "Oracle Health Patient Portal",
+    "version": "2025",
+    "chpl_product_number": "15.04.04.1221.Pati.25.08.1.250612",
+    "export_url": "https://www.oracle.com/health/regulatory/certified-health-it/",
+    "b10_success": true
+  },
+  {
+    "id": 11712,
+    "developer": "Epic Systems Corporation",
+    "product": "Beaker Reportable Labs Reporting",
+    "version": "November 2025",
+    "chpl_product_number": "15.04.04.1447.Beak.25.29.1.251107",
+    "export_url": "https://open.epic.com/EHITables",
+    "b10_success": true
+  },
+  {
+    "id": 11723,
+    "developer": "Nextech",
+    "product": "Nextech Select and NexCloud with NewCropRx",
+    "version": "20",
+    "chpl_product_number": "15.04.04.2051.Next.20.11.1.251202",
+    "export_url": "https://www.nextech.com/hubfs/Nextech%20Select_NexCloud%20EHI%20Export%20Documentation.pdf",
+    "b10_success": true
+  },
+  {
+    "id": 11729,
+    "developer": "PointClickCare Technologies Inc.",
+    "product": "EHR for Practice Groups",
+    "version": "3",
+    "chpl_product_number": "15.04.04.2181.Poin.03.01.1.251208",
+    "export_url": "https://ehi-export.pointclickcare.com/site/index.html?_ga=2.54104619.209929156.1701272387-1273753859.1701272387",
+    "b10_success": true
+  },
+  {
+    "id": 11730,
+    "developer": "Epic Systems Corporation",
+    "product": "EpicCare Inpatient Base",
+    "version": "November 2025",
+    "chpl_product_number": "15.04.04.1447.Epic.IN.36.1.251201",
+    "export_url": "https://open.epic.com/EHITables",
+    "b10_success": true
+  },
+  {
+    "id": 11732,
+    "developer": "AdvancedMD",
+    "product": "AdvancedMD",
+    "version": "25",
+    "chpl_product_number": "15.04.04.2666.Adva.25.07.1.251215",
+    "export_url": "https://www.advancedmd.com/medical-office-software/data-export/",
+    "b10_success": true
+  },
+  {
+    "id": 11734,
+    "developer": "AdvancedMD",
+    "product": "AdvancedMD Mobile",
+    "version": "8",
+    "chpl_product_number": "15.04.04.2666.AdvM.08.03.1.251218",
+    "export_url": "https://www.advancedmd.com/medical-office-software/data-export/",
+    "b10_success": true
+  },
+  {
+    "id": 11285,
+    "developer": "Clinisys Inc.",
+    "product": "Clinisys Harvest",
+    "version": "14",
+    "chpl_product_number": "15.07.09.2825.OR02.14.02.0.230518",
+    "export_url": "https://www.clinisys.com/uk/en/history/orchard/",
+    "b10_success": true
+  },
+  {
+    "id": 11742,
+    "developer": "Medical Information Technology, Inc. (MEDITECH)",
+    "product": "MEDITECH Expanse 2.1 Ambulatory",
+    "version": "v2.1c",
+    "chpl_product_number": "15.04.04.2931.2931.16.03.1.251231",
+    "export_url": "https://home.meditech.com/en/d/restapiresources/pages/ehiexport.htm",
+    "b10_success": true
+  },
+  {
+    "id": 11743,
+    "developer": "Medical Information Technology, Inc. (MEDITECH)",
+    "product": "MEDITECH 6.1 Ambulatory Electronic Health Record",
+    "version": "v6.15c",
+    "chpl_product_number": "15.04.04.2931.MEDI.AM.02.1.251231",
+    "export_url": "https://home.meditech.com/en/d/restapiresources/pages/ehiexport.htm",
+    "b10_success": true
+  },
+  {
+    "id": 11744,
+    "developer": "Curis Partners LLC",
+    "product": "HousecallOS",
+    "version": "V1",
+    "chpl_product_number": "15.04.04.3252.Hous.01.00.0.251230",
+    "export_url": "https://app.box.com/s/rxi2lmsrjfhrb80o68a9dpdo6usys8ms",
+    "b10_success": true
+  },
+  {
+    "id": 11745,
+    "developer": "Medplum",
+    "product": "Medplum",
+    "version": "5",
+    "chpl_product_number": "15.04.04.3147.Medp.05.03.1.251231",
+    "export_url": "https://www.medplum.com/docs/api/fhir/operations/patient-everything",
+    "b10_success": true
+  },
+  {
+    "id": 11746,
+    "developer": "Intellix Solutions, LLC.",
+    "product": "BluKnox",
+    "version": "2.1.0",
+    "chpl_product_number": "15.11.09.3224.BluK.02.01.1.260109",
+    "export_url": "https://blucygnus.ai/product/NQ==",
+    "b10_success": true
+  },
+  {
+    "id": 11747,
+    "developer": "Varian Medical Systems",
+    "product": "Noona",
+    "version": "10",
+    "chpl_product_number": "15.04.04.2496.Noon.10.05.0.260101",
+    "export_url": "https://varian.com/aria/ehi",
+    "b10_success": true
+  },
+  {
+    "id": 11751,
+    "developer": "Objective Medical Systems, LLC",
+    "product": "OMS EHR",
+    "version": "6",
+    "chpl_product_number": "15.04.04.2086.OMSE.06.07.1.260108",
+    "export_url": "https://objectivemedicalsystems.com/wp-content/uploads/2025/09/EHI-Export-Data-Format.pdf",
+    "b10_success": true
+  },
+  {
+    "id": 11752,
+    "developer": "WoundAlly",
+    "product": "WoundAlly",
+    "version": "v1.0",
+    "chpl_product_number": "15.04.04.3253.Woun.01.00.0.260112",
+    "export_url": "https://woundally.com/ehi-export.php",
+    "b10_success": true
+  },
+  {
+    "id": 11735,
+    "developer": "CursaHealth LLC",
+    "product": "CursaHealth EHR",
+    "version": "2.0",
+    "chpl_product_number": "15.05.05.3249.CRSA.01.00.1.251229",
+    "export_url": "https://cursahealth.com/document/B10-Electronic-Health-information-Export.pdf",
+    "b10_success": true
+  },
+  {
+    "id": 11706,
+    "developer": "Virtusa Corporation",
+    "product": "CareDiscovery Electronic Quality Measures",
+    "version": "4.0",
+    "chpl_product_number": "15.04.04.3001.Care.04.06.0.251030",
+    "export_url": "https://www.virtusa.com/solutions/clinical-quality-measures-reporting/carediscovery-electronic-quality-measures-cdeqm",
+    "b10_success": true
+  },
+  {
+    "id": 11725,
+    "developer": "Medicus Clinical, LLC",
+    "product": "MedicusEHR",
+    "version": "1.0",
+    "chpl_product_number": "15.04.04.3057.Medi.01.01.1.251124",
+    "export_url": "https://portal.assertus.com/wp-content/uploads/2023/10/MedicusEHR-170-315-b-10.pdf",
+    "b10_success": true
+  },
+  {
+    "id": 11731,
+    "developer": "Epic Systems Corporation",
+    "product": "EpicCare Ambulatory Base",
+    "version": "November 2025",
+    "chpl_product_number": "15.04.04.1447.Epic.AM.35.1.251201",
+    "export_url": "https://open.epic.com/EHITables",
+    "b10_success": true
+  },
+  {
+    "id": 11733,
+    "developer": "Dynamic Health IT, Inc",
+    "product": "CQMsolution",
+    "version": "26",
+    "chpl_product_number": "15.05.05.2713.DH26.06.09.0.251219",
+    "export_url": "https://www.dynamichealthit.com/connectehr-ehi",
+    "b10_success": true
+  },
+  {
+    "id": 11736,
+    "developer": "MEDHOST",
+    "product": "MEDHOST Business Intelligence",
+    "version": "v6.7",
+    "chpl_product_number": "15.04.04.2788.MEDH.06.17.0.251219",
+    "export_url": "https://www.medhost.com/about-us/regulatory-and-compliance/",
+    "b10_success": true
+  },
+  {
+    "id": 11740,
+    "developer": "ATI Holdings LLC, DBA ATI Physical Therapy",
+    "product": "ATI EHR",
+    "version": "1.0",
+    "chpl_product_number": "15.04.04.3251.ATIE.01.00.1.251230",
+    "export_url": "https://www.atipt.com/ehi-export-information/",
+    "b10_success": true
+  },
+  {
+    "id": 11749,
+    "developer": "EDENLAB O\u00dc",
+    "product": "Kodjin FHIR Server",
+    "version": "5",
+    "chpl_product_number": "15.04.04.3148.Kodj.05.01.0.260108",
+    "export_url": "https://docs.kodjin.com/onc-bulk-data-export/",
+    "b10_success": true
+  },
+  {
+    "id": 11750,
+    "developer": "Vigiboss Inc.",
+    "product": "MD4Front",
+    "version": "V3.0",
+    "chpl_product_number": "15.04.04.2507.Md4f.03.00.0.260105",
+    "export_url": "https://vigiboss.com/md4front/onccertification/ElectronicHealthInformation.html",
+    "b10_success": true
+  },
+  {
+    "id": 11753,
+    "developer": "Inmediata Health Group LLC",
+    "product": "SecureEMR+",
+    "version": "4.0",
+    "chpl_product_number": "15.04.04.2769.Secu.04.02.1.260116",
+    "export_url": "https://portal.inmediata.com/2023/(b)%20(10)%20EHI%20Export_PrognoCIS%20Support_Self%20Attestation%20Document_final_Inmediata_Rev.pdf",
+    "b10_success": true
+  },
+  {
+    "id": 11707,
+    "developer": "Altera Digital Health Inc.",
+    "product": "Sunrise Acute Care",
+    "version": "25.1",
+    "chpl_product_number": "15.04.04.3123.Sunr.25.10.1.250905",
+    "export_url": "https://www.alterahealth.com/legal/onc-reg-compliance/",
+    "b10_success": true
+  },
+  {
+    "id": 11741,
+    "developer": "Altera Digital Health Inc.",
+    "product": "dbMotion",
+    "version": "25.2.1",
+    "chpl_product_number": "15.04.04.3123.dbMo.25.08.1.251230",
+    "export_url": "https://www.alterahealth.com/download/204/ehi-documentation/11975/ehiexportreferenceguide_dbmotion.pdf",
+    "b10_success": true
+  },
+  {
+    "id": 11738,
+    "developer": "Bizmatics Inc.",
+    "product": "PrognoCIS",
+    "version": "4.0",
+    "chpl_product_number": "15.04.04.2689.Prog.04.01.1.251224",
+    "export_url": "https://prognocis.com/macra/#ehiexport",
+    "b10_success": true
+  },
+  {
+    "id": 11754,
+    "developer": "Ankhos Oncology Software",
+    "product": "Ankhos",
+    "version": "4",
+    "chpl_product_number": "15.05.05.2959.ANKH.02.01.0.260120",
+    "export_url": "https://www.ankhos.com/s/EHIExportFormatSpecification.pdf",
+    "b10_success": true
+  },
+  {
+    "id": 11748,
+    "developer": "WEBeDoctor, Inc.",
+    "product": "WEBeDoctor Physician Office",
+    "version": "6.0",
+    "chpl_product_number": "15.99.05.2526.WEBe.06.02.1.260113",
+    "export_url": "https://new.webedoctor.com/certification/",
+    "b10_success": true
+  },
+  {
+    "id": 11755,
+    "developer": "Kipu Health",
+    "product": "Kipu",
+    "version": "15",
+    "chpl_product_number": "15.04.04.3254.Kipu.01.00.0.260120",
+    "export_url": "https://www.kipuhealth.com/wp-content/uploads/2025/12/ONC_EHI_Export_Documentation_v1.1.pdf",
+    "b10_success": true
+  },
+  {
+    "id": 11756,
+    "developer": "Doctornow Inc.",
+    "product": "DocNow EHR",
+    "version": "2026",
+    "chpl_product_number": "15.04.04.3120.Docn.26.01.0.260120",
+    "export_url": "https://doctornow.io/data-export",
+    "b10_success": true
+  },
+  {
+    "id": 11757,
+    "developer": "OpenEMR Foundation",
+    "product": "OpenEMR",
+    "version": "8",
+    "chpl_product_number": "15.05.05.3115.OPEN.02.01.1.260130",
+    "export_url": "https://www.open-emr.org/wiki/index.php/OpenEMR_7.0_B10",
+    "b10_success": true
+  },
+  {
+    "id": 11758,
+    "developer": "NextGen Healthcare",
+    "product": "Mirth Connect",
+    "version": "4.7",
+    "chpl_product_number": "15.05.05.2054.NGM4.05.04.1.260130",
+    "export_url": "https://www.nextgen.com/sldkjljieo0935jljsrnfkl",
+    "b10_success": true
+  },
+  {
+    "id": 11759,
+    "developer": "Infinx Solutions, LLC",
+    "product": "Infinx EHR",
+    "version": "5.4",
+    "chpl_product_number": "15.04.04.2621.Infi.54.03.1.260128",
+    "export_url": "https://www.i3verticals.com/ehr-certification/",
+    "b10_success": true
+  },
+  {
+    "id": 11760,
+    "developer": "Healthy Campus, LLC",
+    "product": "Healthy Campus Platform",
+    "version": "1.0",
+    "chpl_product_number": "15.04.04.3255.Heal.01.00.0.260128",
+    "export_url": "https://healthycampus.com/policies/ehi-export-policy/",
+    "b10_success": true
+  },
+  {
+    "id": 11761,
+    "developer": "Altera Digital Health Inc.",
+    "product": "Paragon\u00ae EHR",
+    "version": "25",
+    "chpl_product_number": "15.04.04.3123.Para.25.10.1.260202",
+    "export_url": "https://www.alterahealth.com/legal/onc-reg-compliance/",
+    "b10_success": true
+  },
+  {
+    "id": 11762,
+    "developer": "Medaxion, Inc.",
+    "product": "Medaxion Pulse",
+    "version": "Platform",
+    "chpl_product_number": "15.05.05.2797.MEDX.02.02.0.260204",
+    "export_url": "https://github.com/Medaxion/open_api_resources/wiki/Electronic-Health-Information-Export-Format",
+    "b10_success": true
+  },
+  {
+    "id": 11764,
+    "developer": "Ennoble Technologies LLC",
+    "product": "Office Anywhere",
+    "version": "2.1",
+    "chpl_product_number": "15.04.04.3094.Offi.02.02.1.260204",
+    "export_url": "https://www.darenasolutions.com/meldrx-onc-hti1-certified#b10-EHI-Export-Documentation",
+    "b10_success": true
+  },
+  {
+    "id": 11765,
+    "developer": "Healthmonix",
+    "product": "Prism",
+    "version": "2.2",
+    "chpl_product_number": "15.04.04.1618.Pris.02.00.0.260206",
+    "export_url": "https://healthmonix.com/onc-certification-details/",
+    "b10_success": true
+  },
+  {
+    "id": 11763,
+    "developer": "Veradigm",
+    "product": "Veradigm EHR",
+    "version": "26",
+    "chpl_product_number": "15.04.04.2891.Vera.26.14.1.251231",
+    "export_url": "https://veradigm.com/legal/onc-reg-compliance/",
+    "b10_success": true
+  },
+  {
+    "id": 11766,
+    "developer": "Iatric Systems, Inc",
+    "product": "PtAccess",
+    "version": "2.0",
+    "chpl_product_number": "15.05.05.2760.ISPT.02.01.1.260211",
+    "export_url": "https://iatric.com/meaningful-use/ptaccess-product-certification/",
+    "b10_success": true
+  },
+  {
+    "id": 11767,
+    "developer": "Networking Technology Inc., dba RXNT",
+    "product": "RXNT Electronic Health Records",
+    "version": "7.2",
+    "chpl_product_number": "15.04.04.2046.RxNT.72.02.1.260205",
+    "export_url": "https://help.rxnt.com/hc/en-us/articles/18557585411223-Electronic-Health-Information-Export-Guide#h_01HDKXY7HPFSCKR1MK8GA5G7B3",
+    "b10_success": true
+  },
+  {
+    "id": 11522,
+    "developer": "Oracle Health",
+    "product": "Oracle Health Millennium (Clinical)",
+    "version": "2024",
+    "chpl_product_number": "15.04.04.1221.Mill.24.07.0.240920",
+    "export_url": "https://www.oracle.com/health/regulatory/certified-health-it/",
+    "b10_success": true
+  },
+  {
+    "id": 11710,
+    "developer": "Unity Health",
+    "product": "Cinch Health",
+    "version": "1.0",
+    "chpl_product_number": "15.04.04.3244.Cinc.01.00.1.251016",
+    "export_url": "https://unityhealth360.com/onc-certification",
+    "b10_success": true
+  },
+  {
+    "id": 11739,
+    "developer": "Milliman MedInsight",
+    "product": "MedInsight eCQM",
+    "version": "2025",
+    "chpl_product_number": "15.04.04.3250.Medi.25.00.0.251222",
+    "export_url": "https://medinsight.com/healthcare-data-analytics-about/onc-certification-details/",
+    "b10_success": true
+  },
+  {
+    "id": 11701,
+    "developer": "Modernizing Medicine Inc.",
+    "product": "ModMed ASC",
+    "version": "6",
+    "chpl_product_number": "15.04.04.2002.mASC.06.11.0.250902",
+    "export_url": "https://www.modmed.com/asc-onc-certification/",
+    "b10_success": true
+  },
+  {
+    "id": 10830,
+    "developer": "Lille Group, Inc.",
+    "product": "escribeHOST",
+    "version": "7",
+    "chpl_product_number": "15.02.05.3058.LILG.01.01.1.220214",
+    "export_url": "https://ehr.escribe.com/ehr/api/ehi-export/doc",
+    "b10_success": true
+  },
+  {
+    "id": 11130,
+    "developer": "Nexus Clinical LLC",
+    "product": "Nexus EHR",
+    "version": "7.3",
+    "chpl_product_number": "15.04.04.2989.Nexu.07.03.1.221227",
+    "export_url": "https://www.nexusclinical.com/costs-and-limitations/",
+    "b10_success": true
+  },
+  {
+    "id": 11392,
+    "developer": "Smoky Mountain Information Systems, LLC",
+    "product": "PIMSY Platinum",
+    "version": "9.0",
+    "chpl_product_number": "15.04.04.2342.Pims.09.00.1.231204",
+    "export_url": "https://www.darenasolutions.com/meldrx-onc-hti1-certified#b10-EHI-Export-Documentation",
+    "b10_success": true
+  },
+  {
+    "id": 10935,
+    "developer": "Medical Information Technology, Inc. (MEDITECH)",
+    "product": "MEDITECH 6.1 Emergency Department Management",
+    "version": "v6.15c",
+    "chpl_product_number": "15.04.04.2931.MEDI.15.01.1.220630",
+    "export_url": "https://home.meditech.com/en/d/restapiresources/pages/ehiexport.htm",
+    "b10_success": true
+  },
+  {
+    "id": 11401,
+    "developer": "Altera Digital Health Inc.",
+    "product": "Altera Lab\u2122",
+    "version": "23.2",
+    "chpl_product_number": "15.04.04.3123.Alte.23.10.0.231206",
+    "export_url": "https://www.alterahealth.com/legal/onc-reg-compliance/",
+    "b10_success": true
+  },
+  {
+    "id": 11473,
+    "developer": "HospiceMD, Inc.",
+    "product": "HospiceMD",
+    "version": "1.17",
+    "chpl_product_number": "15.04.04.3193.Hosp.01.00.0.240515",
+    "export_url": "https://hospicemd.com/export.aspx",
+    "b10_success": true
+  },
+  {
+    "id": 11202,
+    "developer": "CareCloud, Inc.",
+    "product": "ChartLogic EHR",
+    "version": "1",
+    "chpl_product_number": "15.05.05.2790.CEHR.02.01.1.230103",
+    "export_url": "https://www.medsphere.com/certifications/",
+    "b10_success": true
+  },
+  {
+    "id": 11137,
+    "developer": "PCIS GOLD",
+    "product": "PCIS GOLD EHR",
+    "version": "2.6",
+    "chpl_product_number": "15.04.04.2126.PCIS.26.02.1.221222",
+    "export_url": "https://fhir.pcisgold.com/ehiexport/",
+    "b10_success": true
+  },
+  {
+    "id": 11150,
+    "developer": "CloudCraft, LLC",
+    "product": "CloudCraft Software",
+    "version": "9.0",
+    "chpl_product_number": "15.04.04.3071.Clou.09.01.1.221227",
+    "export_url": "https://cloudcraftsoftware.com/certification/B10.html",
+    "b10_success": true
+  },
+  {
+    "id": 11151,
+    "developer": "Azalea Health",
+    "product": "Azalea EHR",
+    "version": "4.0",
+    "chpl_product_number": "15.04.04.2688.Azal.04.02.1.221227",
+    "export_url": "https://www.azaleahealth.com/resources/onc-certification/",
+    "b10_success": true
+  },
+  {
+    "id": 10227,
+    "developer": "Ulrich Medical Concepts",
+    "product": "Team Chart Concept",
+    "version": "7.1",
+    "chpl_product_number": "15.05.05.3049.UL15.01.00.1.191226",
+    "export_url": "https://ulrichmedicalconcepts.com/home/the-ehr/meaningful-use/cost-disclosure-and-transparency/",
+    "b10_success": true
+  },
+  {
+    "id": 11127,
+    "developer": "ICANotes LLC",
+    "product": "ICANotes EHR/EMR for Behavioral Health",
+    "version": "11.6",
+    "chpl_product_number": "15.04.04.2755.ICAN.11.01.1.221224",
+    "export_url": "https://icanotes-ehr.na1.teamsupport.com/knowledgeBase/33770009",
+    "b10_success": true
+  },
+  {
+    "id": 11258,
+    "developer": "Cantata Health Solutions",
+    "product": "Arize",
+    "version": "1",
+    "chpl_product_number": "15.04.04.2022.Ariz.01.00.1.230317",
+    "export_url": "https://cantatahealth.com/wp-content/uploads/2024/12/Arize-Mandatory-Disclosures-1.pdf",
+    "b10_success": true
+  },
+  {
+    "id": 11266,
+    "developer": "Skilled Wound Care",
+    "product": "Treasure EHR",
+    "version": "5.0.1",
+    "chpl_product_number": "15.04.04.3055.Trea.05.01.1.230324",
+    "export_url": "https://www.skilledwoundcare.com/ehiexport",
+    "b10_success": true
+  },
+  {
+    "id": 9207,
+    "developer": "DrFirst",
+    "product": "Rcopia",
+    "version": "4",
+    "chpl_product_number": "15.04.04.1375.Rcop.04.00.0.171227",
+    "export_url": "https://drfirst.com/privacy-policy/ehi-export/",
+    "b10_success": true
+  },
+  {
+    "id": 11283,
+    "developer": "Juno Health",
+    "product": "Juno ConnectEHR",
+    "version": "v22",
+    "chpl_product_number": "15.04.04.2925.CONN.04.04.0.230427",
+    "export_url": "https://www.junohealth.com/ehiexport",
+    "b10_success": true
+  },
+  {
+    "id": 10785,
+    "developer": "Advanced Data Systems Corporation",
+    "product": "MedicsDocAssistant",
+    "version": "8.0",
+    "chpl_product_number": "15.02.05.1044.AVDD.01.01.1.220111",
+    "export_url": "https://apps.medicscloud.com/B10_MedicsDocAssistant.html",
+    "b10_success": true
+  },
+  {
+    "id": 10788,
+    "developer": "PracticeSuite, Inc.",
+    "product": "PracticeSuite",
+    "version": "EHR-18.0.0",
+    "chpl_product_number": "15.02.05.2198.PRAS.01.01.1.220113",
+    "export_url": "https://academy.practicesuite.com/%c2%a7-170-315b10-electronic-health-information-ehi-export/",
+    "b10_success": true
+  },
+  {
+    "id": 10861,
+    "developer": "NextGen Healthcare",
+    "product": "NextGen Enterprise EHR",
+    "version": "6.2021.1 Cures",
+    "chpl_product_number": "15.04.04.2054.Next.60.10.1.220318",
+    "export_url": "https://www.nextgen.com/sldkjljieo0935jljsrnfkl",
+    "b10_success": true
+  },
+  {
+    "id": 10831,
+    "developer": "Medi-EHR, LLC",
+    "product": "Medi-EHR",
+    "version": "2.1",
+    "chpl_product_number": "15.02.05.2979.MEDI.01.01.1.220215",
+    "export_url": "http://medi-ehr.com/compliance",
+    "b10_success": true
+  },
+  {
+    "id": 10781,
+    "developer": "EPOWERdoc, Inc.",
+    "product": "EMRdoc",
+    "version": "3.1.5",
+    "chpl_product_number": "15.04.04.1407.Emrd.03.00.1.220105",
+    "export_url": "https://www.epowerdoc.com/compliance-and-roi/b10-solution",
+    "b10_success": true
+  },
+  {
+    "id": 10898,
+    "developer": "Exym",
+    "product": "Exym",
+    "version": "1",
+    "chpl_product_number": "15.04.04.3109.Exym.01.00.0.220513",
+    "export_url": "https://21149294.fs1.hubspotusercontent-na1.net/hubfs/21149294/Electronic%20Health%20Information%20Export.pdf",
+    "b10_success": true
+  },
+  {
+    "id": 10149,
+    "developer": "eDerm Systems LLC",
+    "product": "eDerm Systems",
+    "version": "2.8.0",
+    "chpl_product_number": "15.04.04.2592.eDer.28.00.1.191025",
+    "export_url": "https://fhir.ederm.io:9443/fhir-server/api/v4/metadata",
+    "b10_success": true
+  },
+  {
+    "id": 10938,
+    "developer": "OpenEMR Foundation",
+    "product": "OpenEMR",
+    "version": "7.0",
+    "chpl_product_number": "15.05.05.3115.OPEN.01.00.1.220708",
+    "export_url": "https://www.open-emr.org/wiki/index.php/OpenEMR_7.0_B10",
+    "b10_success": true
+  },
+  {
+    "id": 10265,
+    "developer": "DocToMe, Inc.",
+    "product": "ethizo EHR",
+    "version": "2.0",
+    "chpl_product_number": "15.05.05.3060.DOTM.01.00.1.200107",
+    "export_url": "https://www.ethizo.com/electronic-health-information-export/",
+    "b10_success": true
+  },
+  {
+    "id": 11018,
+    "developer": "Medical Information Technology, Inc. (MEDITECH)",
+    "product": "MEDITECH MAGIC HCA Electronic Health Record Core HCIS (without PatientKeeper)",
+    "version": "v5.67c",
+    "chpl_product_number": "15.04.04.2931.MEDI.56.02.1.221111",
+    "export_url": "https://home.meditech.com/en/d/restapiresources/pages/ehiexport.htm",
+    "b10_success": true
+  },
+  {
+    "id": 11012,
+    "developer": "Eprosystem Inc.",
+    "product": "EproMedical",
+    "version": "3.0.0",
+    "chpl_product_number": "15.02.05.1449.EPRO.02.02.1.221108",
+    "export_url": "http://epromedical.com/ehi-export-b10/",
+    "b10_success": true
+  },
+  {
+    "id": 10702,
+    "developer": "Sargas Pharmaceutical Adherence and Compliance International",
+    "product": "Sargas International's Chronic Care Management Cloud dba hru2day",
+    "version": "21.9",
+    "chpl_product_number": "15.05.05.2306.SPAC.01.00.0.211014",
+    "export_url": "https://www.spacinternational.com/SPAC-Export.pdf",
+    "b10_success": true
+  },
+  {
+    "id": 10274,
+    "developer": "CorrecTek",
+    "product": "Spark",
+    "version": "7.1",
+    "chpl_product_number": "15.05.05.1292.CORT.01.00.1.200114",
+    "export_url": "https://www.correctek.com/cost-disclosure-and-transparency/",
+    "b10_success": true
+  },
+  {
+    "id": 9585,
+    "developer": "Genius Solutions Inc.",
+    "product": "ehrTHOMAS",
+    "version": "3",
+    "chpl_product_number": "15.05.05.2737.GENI.01.00.1.180802",
+    "export_url": "http://www.media.geniussolutions.com/ehrTHOMAS/ehrWebApi/Help/html/ElectronicHealthInformationExport.html",
+    "b10_success": true
+  },
+  {
+    "id": 10738,
+    "developer": "MEDHOST Cloud Services, Inc.",
+    "product": "YourCareCommunity Provider Portal",
+    "version": "V18",
+    "chpl_product_number": "15.04.04.3105.Clou.PR.12.0.211203",
+    "export_url": "https://www.medhost.com/ehr/interoperability/",
+    "b10_success": true
+  },
+  {
+    "id": 10734,
+    "developer": "Nortec Software Inc.",
+    "product": "Nortec EHR",
+    "version": "10.0",
+    "chpl_product_number": "15.04.04.2064.Nort.10.01.0.211202",
+    "export_url": "https://www.nortecehr.com/export-ehi.html",
+    "b10_success": true
+  },
+  {
+    "id": 10750,
+    "developer": "WRS Health",
+    "product": "WRS Health Web EHR and Practice Management System",
+    "version": "7.0",
+    "chpl_product_number": "15.02.05.2527.WRSH.01.01.1.211214",
+    "export_url": "https://www.wrshealth.com/onc-certification-and-costs",
+    "b10_success": true
+  },
+  {
+    "id": 10693,
+    "developer": "OrionNet Systems, LLC",
+    "product": "ThinkHealth - Practice Management Software (EHR)",
+    "version": "3",
+    "chpl_product_number": "15.02.05.2115.ORNS.01.01.1.210924",
+    "export_url": "https://www.iorion.com/downloads/layoutdefinitionehi.pdf",
+    "b10_success": true
+  },
+  {
+    "id": 11246,
+    "developer": "CureMD.com, Inc.",
+    "product": "CureMD SMART Cloud",
+    "version": "10g",
+    "chpl_product_number": "15.07.04.2706.CURE.10.01.1.230302",
+    "export_url": "https://www.curemd.com/ehi-export.asp",
+    "b10_success": true
+  },
+  {
+    "id": 11002,
+    "developer": "Meridian Medical Management",
+    "product": "VertexDr",
+    "version": "9.1",
+    "chpl_product_number": "15.04.04.2112.Vert.09.01.1.221024",
+    "export_url": "https://vertexdr.com",
+    "b10_success": true
+  },
+  {
+    "id": 11352,
+    "developer": "Greenway Health, LLC",
+    "product": "Greenway Prime Suite",
+    "version": "v21",
+    "chpl_product_number": "15.04.04.2913.Prim.21.03.1.231003",
+    "export_url": "https://ehi.greenwayhealth.com/PrimeSuite/PrimeSuiteEHIExport.html",
+    "b10_success": true
+  },
+  {
+    "id": 10803,
+    "developer": "Magilen Enterprises Inc",
+    "product": "QSmartCare",
+    "version": "1.0",
+    "chpl_product_number": "15.05.05.3098.MAGE.01.00.1.220127",
+    "export_url": "https://www.qsmartcare.com/ehi-template.html",
+    "b10_success": true
+  },
+  {
+    "id": 10838,
+    "developer": "Imprivata",
+    "product": "Imprivata FairWarning",
+    "version": "22",
+    "chpl_product_number": "15.02.05.1485.FAIR.05.05.0.220222",
+    "export_url": "https://www.imprivata.com/onc-certification-disclosures",
+    "b10_success": true
+  },
+  {
+    "id": 9101,
+    "developer": "Medical Information Technology, Inc. (MEDITECH)",
+    "product": "MEDITECH Public Health Interface Transmission to Immunization Registries",
+    "version": "v5.67",
+    "chpl_product_number": "15.04.04.2931.MEDI.IM.00.1.171227",
+    "export_url": "https://home.meditech.com/en/d/restapiresources/pages/ehiexport.htm",
+    "b10_success": true
+  },
+  {
+    "id": 9103,
+    "developer": "Medical Information Technology, Inc. (MEDITECH)",
+    "product": "MEDITECH Public Health Interface for Syndromic Surveillance",
+    "version": "v5.67",
+    "chpl_product_number": "15.04.04.2931.MEDI.PH.00.1.171227",
+    "export_url": "https://home.meditech.com/en/d/restapiresources/pages/ehiexport.htm",
+    "b10_success": true
+  },
+  {
+    "id": 10784,
+    "developer": "OmniMD Inc.",
+    "product": "OmniMD",
+    "version": "18.0",
+    "chpl_product_number": "15.02.05.1717.OMNI.01.01.1.220110",
+    "export_url": "https://omnimd.com/rwt/",
+    "b10_success": true
+  },
+  {
+    "id": 11359,
+    "developer": "Claimocity, Inc.",
+    "product": "Claimocity",
+    "version": "2",
+    "chpl_product_number": "15.05.05.3172.CLAM.01.00.0.231027",
+    "export_url": "https://claimocity.com/onc-certification",
+    "b10_success": true
+  },
+  {
+    "id": 11049,
+    "developer": "Office Practicum",
+    "product": "Office Practicum",
+    "version": "21",
+    "chpl_product_number": "15.04.04.3048.Offi.21.02.1.221121",
+    "export_url": "https://www.officepracticum.com/op/population-health/onc-certification#onccert",
+    "b10_success": true
+  },
+  {
+    "id": 10832,
+    "developer": "E*HealthLine.com, Inc.",
+    "product": "Phoenix\u00a9 Integrated Electronic Health Records",
+    "version": "10.0.0",
+    "chpl_product_number": "15.02.05.1384.PHOE.01.01.0.220217",
+    "export_url": "http://ehealthline.com/dev/pdf/Electronic%20Health%20Information%20Export.pdf",
+    "b10_success": true
+  },
+  {
+    "id": 10811,
+    "developer": "Welligent, Part of the ContinuumCloud",
+    "product": "Welligent",
+    "version": "8MU3",
+    "chpl_product_number": "15.02.05.2536.WELL.01.01.1.220201",
+    "export_url": "https://welligent.com/wp-content/uploads/2025/07/B10-Documentation.pdf",
+    "b10_success": true
+  },
+  {
+    "id": 11061,
+    "developer": "F&A Management",
+    "product": "RoverMD",
+    "version": "2",
+    "chpl_product_number": "15.05.05.3131.FAMT.01.00.1.221209",
+    "export_url": "https://www.fa-management.com/mu-disclosure/",
+    "b10_success": true
+  },
+  {
+    "id": 10739,
+    "developer": "MEDHOST Cloud Services, Inc.",
+    "product": "YourCareCommunity Patient Portal with YourCareEverywhere App",
+    "version": "V18",
+    "chpl_product_number": "15.04.04.3105.Your.PA.13.1.211203",
+    "export_url": "https://www.medhost.com/ehr/interoperability/",
+    "b10_success": true
+  },
+  {
+    "id": 10998,
+    "developer": "CliniComp, Intl.",
+    "product": "CliniComp|EHR",
+    "version": "213.03",
+    "chpl_product_number": "15.05.05.2695.CLIN.02.01.1.221013",
+    "export_url": "https://clinicomp.com/ehr-data-export-details/",
+    "b10_success": true
+  },
+  {
+    "id": 10933,
+    "developer": "Medical Information Technology, Inc. (MEDITECH)",
+    "product": "MEDITECH 6.1 Oncology",
+    "version": "v6.15c",
+    "chpl_product_number": "15.04.04.2931.MEDI.ON.01.1.220630",
+    "export_url": "https://home.meditech.com/en/d/restapiresources/pages/ehiexport.htm",
+    "b10_success": true
+  },
+  {
+    "id": 10805,
+    "developer": "NovoMedici, LLC",
+    "product": "NovoClinical",
+    "version": "1.0",
+    "chpl_product_number": "15.02.05.3015.Novo.01.01.1.220131",
+    "export_url": "https://s3.amazonaws.com/novoclinical.miscellaneous/Novoclinical+Data+Export+Format.pdf",
+    "b10_success": true
+  },
+  {
+    "id": 11123,
+    "developer": "Wolters Kluwer",
+    "product": "Sentri7",
+    "version": "2023",
+    "chpl_product_number": "15.04.04.3136.Sent.23.00.0.221223",
+    "export_url": "https://www.wolterskluwer.com/en/solutions/solesource/onc-b10-documentation",
+    "b10_success": true
+  },
+  {
+    "id": 11039,
+    "developer": "FannoTek, Inc.",
+    "product": "Redwood EMR",
+    "version": "5.0",
+    "chpl_product_number": "15.02.05.1490.FANT.01.02.1.221202",
+    "export_url": "https://redwoodemr.com/s/PatientExportInfo-v1.txt",
+    "b10_success": true
+  },
+  {
+    "id": 10701,
+    "developer": "Clinisys, Inc.",
+    "product": "Sunquest Laboratory",
+    "version": "10.0",
+    "chpl_product_number": "15.04.04.2390.Sunq.10.01.0.211008",
+    "export_url": "https://www.clinisys.com/us/en/onc-disclosure/",
+    "b10_success": true
+  },
+  {
+    "id": 11224,
+    "developer": "Holy Name Medical Center",
+    "product": "WebHIS",
+    "version": "1.2",
+    "chpl_product_number": "15.99.09.1632.WE01.01.02.1.230127",
+    "export_url": "https://www.holyname.org/Policy/ehi-export-file-format.aspx",
+    "b10_success": true
+  },
+  {
+    "id": 11069,
+    "developer": "VisionWeb",
+    "product": "Uprise",
+    "version": "3.1",
+    "chpl_product_number": "15.04.04.2514.Upri.31.01.1.221213",
+    "export_url": "https://help.youruprise.com/m/72283/l/1745699-data-export",
+    "b10_success": true
+  },
+  {
+    "id": 11369,
+    "developer": "CRITERION TECH PRIVATE LIMITED",
+    "product": "Medvantage",
+    "version": "1.0",
+    "chpl_product_number": "15.11.09.3177.MedV.01.00.0.231121",
+    "export_url": "https://his.medvantage.tech/static/media/ElectronicHealthInformationExport(Cures)Documentation.611db6cc4e7ae051986f.pdf",
+    "b10_success": true
+  },
+  {
+    "id": 11363,
+    "developer": "Consensus Cloud Solutions",
+    "product": "Conductor",
+    "version": "1.5",
+    "chpl_product_number": "15.04.04.2856.Cond.12.01.0.231113",
+    "export_url": "https://www.consensus.com/products/conductor/",
+    "b10_success": true
+  },
+  {
+    "id": 11038,
+    "developer": "Clinisys, Inc.",
+    "product": "Sunquest Laboratory",
+    "version": "v11",
+    "chpl_product_number": "15.04.04.2390.Sunq.11.02.1.221202",
+    "export_url": "https://www.clinisys.com/us/en/onc-disclosure/",
+    "b10_success": true
+  },
+  {
+    "id": 11372,
+    "developer": "NextServices, Inc.",
+    "product": "enki EHR",
+    "version": "3.0.2",
+    "chpl_product_number": "15.04.04.2911.enki.03.02.1.231122",
+    "export_url": "https://nextservices.com/enki-ehr-certification-details/",
+    "b10_success": true
+  },
+  {
+    "id": 11035,
+    "developer": "CREOKS GoHealth Solutions",
+    "product": "GoHealth Solutions",
+    "version": "1.0",
+    "chpl_product_number": "15.04.04.2653.GHSo.01.00.1.221201",
+    "export_url": "https://gohealthsolutions.org/disclosures/",
+    "b10_success": true
+  },
+  {
+    "id": 11366,
+    "developer": "DAW SYSTEMS, INC.",
+    "product": "ScriptSure Cloud",
+    "version": "3.0",
+    "chpl_product_number": "15.04.04.2919.Scri.03.02.0.231102",
+    "export_url": "https://www.dawsystems.com/eprescribing.html",
+    "b10_success": true
+  },
+  {
+    "id": 11068,
+    "developer": "Navigating Cancer, LLC",
+    "product": "Navigating Care",
+    "version": "7.0",
+    "chpl_product_number": "15.04.04.2034.Navi.07.01.1.221213",
+    "export_url": "https://www.navigatingcancer.com/requirements-incentives/",
+    "b10_success": true
+  },
+  {
+    "id": 11367,
+    "developer": "Morris Systems, Inc. d/b/a M-Systems, Inc.",
+    "product": "MHS",
+    "version": "7.000",
+    "chpl_product_number": "15.05.05.3176.MSYS.01.00.0.231117",
+    "export_url": "https://www.morris-systems.com/ccda_specifications.html",
+    "b10_success": true
+  },
+  {
+    "id": 11050,
+    "developer": "Raintree Systems, Inc.",
+    "product": "Raintree",
+    "version": "10.2.500",
+    "chpl_product_number": "15.04.04.2841.Rain.10.01.1.221206",
+    "export_url": "https://www.darenasolutions.com/meldrx-onc-hti1-certified#b10-EHI-Export-Documentation",
+    "b10_success": true
+  },
+  {
+    "id": 11173,
+    "developer": "CareCloud Health, Inc.",
+    "product": "CareCloud Charts",
+    "version": "3.0",
+    "chpl_product_number": "15.04.04.2981.Care.03.01.1.221229",
+    "export_url": "https://carecloud.box.com/s/hbcwnjut45ck1gp99so3v4p7tjncmxo4",
+    "b10_success": true
+  },
+  {
+    "id": 11083,
+    "developer": "Ocuco Limited",
+    "product": "Acuitas activEHR",
+    "version": "Version 2",
+    "chpl_product_number": "15.04.04.2087.Acui.02.01.1.221217",
+    "export_url": "https://www.myeyedata.com/Certification/",
+    "b10_success": true
+  },
+  {
+    "id": 11084,
+    "developer": "Addison Health Systems, Inc.",
+    "product": "WritePad EHR",
+    "version": "10",
+    "chpl_product_number": "15.02.05.1043.ADDI.02.02.1.221219",
+    "export_url": "https://www.writepad.com/_files/ugd/50126f_4343a04939f24a6f8cb83696bf9a948d.pdf",
+    "b10_success": true
+  },
+  {
+    "id": 9095,
+    "developer": "Medical Information Technology, Inc. (MEDITECH)",
+    "product": "MEDITECH Cancer Case Reporting",
+    "version": "v5.67",
+    "chpl_product_number": "15.04.04.2931.MEDI.CC.00.1.171226",
+    "export_url": "https://home.meditech.com/en/d/restapiresources/pages/ehiexport.htm",
+    "b10_success": true
+  },
+  {
+    "id": 11351,
+    "developer": "Greenway Health, LLC",
+    "product": "Intergy EHR",
+    "version": "v21",
+    "chpl_product_number": "15.04.04.2913.Inte.21.05.0.231003",
+    "export_url": "https://ehi.greenwayhealth.com/Intergy/IntergyEHIExport.html",
+    "b10_success": true
+  },
+  {
+    "id": 10673,
+    "developer": "NextGen Healthcare",
+    "product": "NextGen Direct Messaging",
+    "version": "2.14",
+    "chpl_product_number": "15.04.04.2054.Next.02.04.0.210812",
+    "export_url": "https://www.nextgen.com/sldkjljieo0935jljsrnfkl",
+    "b10_success": true
+  },
+  {
+    "id": 11087,
+    "developer": "EBIO-METRONICS",
+    "product": "EBIO-METRONICS",
+    "version": "3.1",
+    "chpl_product_number": "15.02.05.1388.EBIO.02.01.1.221219",
+    "export_url": "https://ebiometronics.com/data-export/",
+    "b10_success": true
+  },
+  {
+    "id": 11239,
+    "developer": "SCC Soft Computer",
+    "product": "SoftLab",
+    "version": "4.0.7",
+    "chpl_product_number": "15.07.04.2287.SL40.07.01.1.230209",
+    "export_url": "https://www.softcomputer.com/regulatory-affairs/ehi-export/",
+    "b10_success": true
+  },
+  {
+    "id": 11118,
+    "developer": "Nth Technologies, Inc.",
+    "product": "nAbleMD",
+    "version": "6.0c",
+    "chpl_product_number": "15.04.04.2070.nAbl.06.01.1.221221",
+    "export_url": "https://www.nablemd.com/certification2015.html",
+    "b10_success": true
+  },
+  {
+    "id": 11117,
+    "developer": "MediRec, Inc.",
+    "product": "abcEHR V",
+    "version": "2.0",
+    "chpl_product_number": "15.04.04.2799.abcE.02.01.1.221221",
+    "export_url": "https://www.medirec.us/products",
+    "b10_success": true
+  },
+  {
+    "id": 11131,
+    "developer": "Netsmart Technologies",
+    "product": "myEvolv Certified Edition",
+    "version": "11.0",
+    "chpl_product_number": "15.04.04.2816.myEv.11.02.1.221227",
+    "export_url": "https://www.ntst.com/lp/certifications",
+    "b10_success": true
+  },
+  {
+    "id": 10858,
+    "developer": "Qualifacts Systems, LLC",
+    "product": "Insync EMR/PM",
+    "version": "10",
+    "chpl_product_number": "15.02.05.3124.INSY.01.03.1.220314",
+    "export_url": "https://documentation.qualifacts.com/ehi-export/platform/insync/insync-ehi-export.html",
+    "b10_success": true
+  },
+  {
+    "id": 11086,
+    "developer": "Brilogy Corporation",
+    "product": "AXEIUM",
+    "version": "MU3",
+    "chpl_product_number": "15.05.05.1171.BRIL.02.01.1.221219",
+    "export_url": "https://www.axeium.com/EHI",
+    "b10_success": true
+  },
+  {
+    "id": 11390,
+    "developer": "Equicare Health Incorporated",
+    "product": "EQUICARE CS",
+    "version": "4.15",
+    "chpl_product_number": "15.04.04.2933.EQUI.45.08.1.231204",
+    "export_url": "https://equicarehealth.com/ehiexport/",
+    "b10_success": true
+  },
+  {
+    "id": 10809,
+    "developer": "Astronaut, LLC",
+    "product": "Astronaut",
+    "version": "1709",
+    "chpl_product_number": "15.02.05.3099.ASTR.01.00.1.220201",
+    "export_url": "https://astronautehr.com/index.php/disclosures/export-format-documentation/",
+    "b10_success": true
+  },
+  {
+    "id": 10435,
+    "developer": "Darena Solutions LLC dba Darena Health",
+    "product": "Darena Health",
+    "version": "Version 2.0",
+    "chpl_product_number": "15.04.04.1322.Blue.02.00.0.200807",
+    "export_url": "https://darena.health/onc-hti1-certified",
+    "b10_success": true
+  },
+  {
+    "id": 11065,
+    "developer": "Patient First",
+    "product": "PAS",
+    "version": "2015.0.0.1",
+    "chpl_product_number": "15.04.04.2140.PAS1.15.02.1.221212",
+    "export_url": "https://www.patientfirst.com/mandatory-disclosure-for-ehr",
+    "b10_success": true
+  },
+  {
+    "id": 10727,
+    "developer": "Braintree Health",
+    "product": "BRAINTREE",
+    "version": "10.5.1.1",
+    "chpl_product_number": "15.02.05.1167.BRNT.01.01.1.211119",
+    "export_url": "https://www.braintreehealth.com/braintree-onc-certification-btree/",
+    "b10_success": true
+  },
+  {
+    "id": 11402,
+    "developer": "Health Endeavors",
+    "product": "Health Endeavors Registry",
+    "version": "1.0",
+    "chpl_product_number": "15.04.04.3178.Heal.01.00.0.231206",
+    "export_url": "https://healthendeavors.com/onc-certification/",
+    "b10_success": true
+  },
+  {
+    "id": 11323,
+    "developer": "Mirketa Inc",
+    "product": "Elixir",
+    "version": "1",
+    "chpl_product_number": "15.05.05.3165.MRKT.01.00.1.230721",
+    "export_url": "https://www.mirketa.com/patient-ehi-export/",
+    "b10_success": true
+  },
+  {
+    "id": 11403,
+    "developer": "MD Logic, Inc.",
+    "product": "MD Logic EHR",
+    "version": "8.0",
+    "chpl_product_number": "15.04.04.2785.MDLo.08.03.1.231206",
+    "export_url": "https://www.mdlogic.com/solutions/b10-export-documentation",
+    "b10_success": true
+  },
+  {
+    "id": 11056,
+    "developer": "MD Logic, Inc.",
+    "product": "MD Logic EHR",
+    "version": "7.2",
+    "chpl_product_number": "15.04.04.2785.MDLo.07.02.1.221207",
+    "export_url": "https://www.mdlogic.com/solutions/b10-export-documentation",
+    "b10_success": true
+  },
+  {
+    "id": 9462,
+    "developer": "Sisoft Healthcare Information Systems",
+    "product": "SisoHis",
+    "version": "2",
+    "chpl_product_number": "15.05.05.3018.SISO.01.00.0.180621",
+    "export_url": "https://sisoft.com.tr/en/170.315.b10-Electronic.Health.Information.Export.pdf",
+    "b10_success": true
+  },
+  {
+    "id": 11092,
+    "developer": "ModuleMD",
+    "product": "ModuleMD WISE\u2122",
+    "version": "10.0",
+    "chpl_product_number": "15.04.04.2980.Modu.10.01.1.221219",
+    "export_url": "https://modulemd.com/wp-content/uploads/2023/11/B10-Data-Export-Process-Flow-Document_compressed.pdf",
+    "b10_success": true
+  },
+  {
+    "id": 8562,
+    "developer": "Iron Bridge Integration, Inc.",
+    "product": "Pub Hub",
+    "version": "V 2.0",
+    "chpl_product_number": "15.04.04.2965.IPub.02.00.0.170628",
+    "export_url": "https://www.ironbridgecorp.com/onc-certification",
+    "b10_success": true
+  },
+  {
+    "id": 11096,
+    "developer": "US Monitoring, Inc.",
+    "product": "USMON Database",
+    "version": "13",
+    "chpl_product_number": "15.99.09.3011.US01.13.01.0.221220",
+    "export_url": "https://usmon.com/ExportProcess.jsp",
+    "b10_success": true
+  },
+  {
+    "id": 11136,
+    "developer": "Netsmart Technologies",
+    "product": "GEHRIMED",
+    "version": "v.4.3",
+    "chpl_product_number": "15.04.04.2816.gEHR.04.03.1.221227",
+    "export_url": "https://www.ntst.com/lp/certifications/ehi-all-data-gehrimed",
+    "b10_success": true
+  },
+  {
+    "id": 11182,
+    "developer": "Metasolutions Inc",
+    "product": "ZoomMD",
+    "version": "4.1",
+    "chpl_product_number": "15.04.04.1979.Zoom.41.01.1.221230",
+    "export_url": "https://www.zoommd.com/company-certifications-awards/",
+    "b10_success": true
+  },
+  {
+    "id": 11410,
+    "developer": "BroadStreet Health LLC",
+    "product": "BroadStreet",
+    "version": "1",
+    "chpl_product_number": "15.05.05.3161.BRDS.01.00.1.231222",
+    "export_url": "https://broadstreetcare.com/docs/ehi-export",
+    "b10_success": true
+  },
+  {
+    "id": 11067,
+    "developer": "CHN Tech Solutions LLC",
+    "product": "Integrated Care EHR",
+    "version": "3",
+    "chpl_product_number": "15.05.05.3133.CHTS.01.00.1.221213",
+    "export_url": "https://onc.chntechsolutions.com/integrated-care-ehr-electronic-health-information-export-cures/",
+    "b10_success": true
+  },
+  {
+    "id": 11412,
+    "developer": "Accelerated Care Plus",
+    "product": "ACPlus\u2122",
+    "version": "V2",
+    "chpl_product_number": "15.04.04.3068.ACPl.02.01.0.231221",
+    "export_url": "https://acplus.com/technology/acplus/",
+    "b10_success": true
+  },
+  {
+    "id": 11426,
+    "developer": "MedOne Healthcare Partners",
+    "product": "OneConnect",
+    "version": "Version 0",
+    "chpl_product_number": "15.04.04.3182.Onec.00.00.1.231227",
+    "export_url": "https://www.medonehp.com/wp-content/uploads/2023/11/Export.pdf",
+    "b10_success": true
+  },
+  {
+    "id": 11411,
+    "developer": "Willowglade Technologies Corporation",
+    "product": "Personal Health Navigator",
+    "version": "6.0",
+    "chpl_product_number": "15.11.09.3179.PHN0.06.00.1.231222",
+    "export_url": "https://www.willowgladetechnologies.com/requirements",
+    "b10_success": true
+  },
+  {
+    "id": 10770,
+    "developer": "Royal Health, Inc.",
+    "product": "Royal Solutions",
+    "version": "5",
+    "chpl_product_number": "15.04.04.2845.Roya.05.00.1.211229",
+    "export_url": "https://royalsolutionsprod.blob.core.windows.net/public/publicimages/certification/DocumentationB10FormatExport.pdf",
+    "b10_success": true
+  },
+  {
+    "id": 11200,
+    "developer": "TenEleven Group",
+    "product": "electronic Clinical Record (eCR)",
+    "version": "2.4",
+    "chpl_product_number": "15.04.04.2861.Elec.24.01.1.221231",
+    "export_url": "https://ensorahealth.com/onc/teneleven/",
+    "b10_success": true
+  },
+  {
+    "id": 11409,
+    "developer": "Netsmart Technologies",
+    "product": "myUnity",
+    "version": "2023",
+    "chpl_product_number": "15.04.04.2816.myUn.23.02.0.231218",
+    "export_url": "https://www.ntst.com/lp/certifications",
+    "b10_success": true
+  },
+  {
+    "id": 11199,
+    "developer": "Providers Management, Inc.",
+    "product": "Integrated Providers Patient Portal",
+    "version": "3.18",
+    "chpl_product_number": "15.04.04.2224.Inte.03.01.1.221231",
+    "export_url": "https://www.alterahealth.com/legal/onc-reg-compliance/",
+    "b10_success": true
+  },
+  {
+    "id": 11421,
+    "developer": "Sophrona Solutions, Inc.",
+    "product": "Sophrona e2015 Portal Technology",
+    "version": "Version R10.11",
+    "chpl_product_number": "15.04.04.2355.Soph.10.02.1.231222",
+    "export_url": "https://sophrona.com/products/certifications/",
+    "b10_success": true
+  },
+  {
+    "id": 11143,
+    "developer": "Sequel Systems, Inc.",
+    "product": "SequelMed EHR",
+    "version": "V12",
+    "chpl_product_number": "15.04.04.2846.Sequ.12.01.1.221227",
+    "export_url": "https://www.sequelmed.com/data-export/",
+    "b10_success": true
+  },
+  {
+    "id": 11415,
+    "developer": "Payoda Technology Inc.",
+    "product": "HealthViewX",
+    "version": "2.0.187",
+    "chpl_product_number": "15.04.04.3054.Heal.02.01.1.231220",
+    "export_url": "https://www.healthviewx.com/wp-content/uploads/2023/12/EHI-Export-Documentation-V1.0.pdf",
+    "b10_success": true
+  },
+  {
+    "id": 11124,
+    "developer": "FEI Systems",
+    "product": "Web Infrastructure for Treatment Services (WITS)",
+    "version": "23",
+    "chpl_product_number": "15.04.04.1479.WITS.23.03.1.221223",
+    "export_url": "https://www.darenasolutions.com/meldrx-onc-hti1-certified#b10-EHI-Export-Documentation",
+    "b10_success": true
+  },
+  {
+    "id": 11161,
+    "developer": "ezCaretech Co., Ltd.",
+    "product": "BESTCare",
+    "version": "2.0G",
+    "chpl_product_number": "15.04.04.2610.BEST.02.01.1.221228",
+    "export_url": "https://www.ezcaretech.com/english/onc/b.10_EHI_Export_BESTCare2.0G.pdf",
+    "b10_success": true
+  },
+  {
+    "id": 11154,
+    "developer": "CyberMed Corporation",
+    "product": "CyberMed EHR",
+    "version": "7.0",
+    "chpl_product_number": "15.04.04.2775.Cybe.07.01.1.221228",
+    "export_url": "https://www.cybermedcorp.com/Products/EHR.html",
+    "b10_success": true
+  },
+  {
+    "id": 11427,
+    "developer": "Lightning Step Technologies",
+    "product": "Lightning Step",
+    "version": "1.0",
+    "chpl_product_number": "15.04.04.3183.Ligh.01.00.1.231228",
+    "export_url": "https://lightningstep.com/onc-certification",
+    "b10_success": true
+  },
+  {
+    "id": 11152,
+    "developer": "Agastha, Inc.",
+    "product": "Agastha Enterprise Healthcare Software",
+    "version": "20.1",
+    "chpl_product_number": "15.04.04.1056.Agas.20.01.1.221228",
+    "export_url": "https://agastha.com/Agastha-B10-Documentation.pdf",
+    "b10_success": true
+  },
+  {
+    "id": 11188,
+    "developer": "IMAT Solutions",
+    "product": "IMAT Solutions",
+    "version": "8",
+    "chpl_product_number": "15.04.04.3138.IMAT.08.00.0.221230",
+    "export_url": "https://imatsolutions.com/index.php/ecqm/",
+    "b10_success": true
+  },
+  {
+    "id": 11432,
+    "developer": "Dexter Solutions Inc",
+    "product": "eZDocs",
+    "version": "5.5",
+    "chpl_product_number": "15.02.04.2708.eZDo.05.02.1.240102",
+    "export_url": "https://dexter-solutions.com/certification",
+    "b10_success": true
+  },
+  {
+    "id": 11183,
+    "developer": "Qualifacts Systems, LLC",
+    "product": "Credible Behavioral Health",
+    "version": "Version 11",
+    "chpl_product_number": "15.04.04.3124.Cred.11.01.1.221230",
+    "export_url": "https://documentation.qualifacts.com/ehi-export",
+    "b10_success": true
+  },
+  {
+    "id": 11231,
+    "developer": "Family Health Centers of San Diego, Inc.",
+    "product": "CMIS Medical EHR",
+    "version": "2.0",
+    "chpl_product_number": "15.07.05.2728.FHCS.01.00.0.230203",
+    "export_url": "https://ppm.fhcsd.org/assets/EHIExportFormat.pdf",
+    "b10_success": true
+  },
+  {
+    "id": 11209,
+    "developer": "Claimpower, Inc.",
+    "product": "Claimpower Mobile EMR",
+    "version": "6.1",
+    "chpl_product_number": "15.04.04.1238.Clai.06.02.1.230109",
+    "export_url": "https://www.claimpowerehr.com/curesUpdate/CCDA_Export.PDF",
+    "b10_success": true
+  },
+  {
+    "id": 11237,
+    "developer": "Perk Medical Systems LLC (PCB Apps LLC)",
+    "product": "ezPractice",
+    "version": "V15.1",
+    "chpl_product_number": "15.07.04.2154.Ezpr.15.01.1.230208",
+    "export_url": "https://penn-clinical.com/ehi-export",
+    "b10_success": true
+  },
+  {
+    "id": 11240,
+    "developer": "SCC Soft Computer",
+    "product": "SoftLab",
+    "version": "4.0.8",
+    "chpl_product_number": "15.07.04.2287.SL40.08.02.1.230209",
+    "export_url": "https://www.softcomputer.com/regulatory-affairs/ehi-export/",
+    "b10_success": true
+  },
+  {
+    "id": 11444,
+    "developer": "Health Catalyst, Inc.",
+    "product": "MeasureAble",
+    "version": "1.0.0",
+    "chpl_product_number": "15.04.04.3034.Meas.01.00.0.240122",
+    "export_url": "https://ablehealth.elevio.help/en/articles/111633",
+    "b10_success": true
+  },
+  {
+    "id": 11138,
+    "developer": "IntrinsiQ Specialty Solutions, Inc. FBO Healthtronics Information Technology Solutions Inc.",
+    "product": "UroChart EHR",
+    "version": "9.0",
+    "chpl_product_number": "15.04.04.2978.UroC.09.10.1.221222",
+    "export_url": "https://www.intrinsiq.com/-/media/assets/intrinsiq/pdf/PHI_Data_Extract.pdf",
+    "b10_success": true
+  },
+  {
+    "id": 11451,
+    "developer": "NextGen Healthcare",
+    "product": "Mirth Connect",
+    "version": "4.5",
+    "chpl_product_number": "15.05.05.2054.NGM2.03.02.1.240222",
+    "export_url": "https://www.nextgen.com/sldkjljieo0935jljsrnfkl",
+    "b10_success": true
+  },
+  {
+    "id": 11459,
+    "developer": "MDFlow EHR, LLC DBA: MDFlow Systems",
+    "product": "MDFlow EHR and Patient Care Workflow Management System",
+    "version": "8.0",
+    "chpl_product_number": "15.11.09.3190.MDEP.08.00.1.240402",
+    "export_url": "https://www.mdflow.com/EHIExport.pdf",
+    "b10_success": true
+  },
+  {
+    "id": 11461,
+    "developer": "Thinkhat Software Inc",
+    "product": "ENLIV",
+    "version": "v1.0",
+    "chpl_product_number": "15.04.04.3191.Enli.01.00.0.240403",
+    "export_url": "https://www.enliv.com/ehi-export",
+    "b10_success": true
+  },
+  {
+    "id": 11286,
+    "developer": "AssureCare LLC",
+    "product": "iPatientCare",
+    "version": "23.0",
+    "chpl_product_number": "15.04.04.2627.iPat.23.02.1.230522",
+    "export_url": "https://ipatientcare.com/onc-certified-health-it/",
+    "b10_success": true
+  },
+  {
+    "id": 11147,
+    "developer": "Patagonia Health",
+    "product": "Patagonia Health EHR",
+    "version": "6",
+    "chpl_product_number": "15.04.04.2139.Pata.06.01.1.221227",
+    "export_url": "https://patagoniahealth.com/onc-certified-hit",
+    "b10_success": true
+  },
+  {
+    "id": 11416,
+    "developer": "Health Care Systems, Inc.",
+    "product": "HCS eMR",
+    "version": "10",
+    "chpl_product_number": "15.99.04.1582.HC01.10.02.1.231220",
+    "export_url": "https://www.hcsinc.net/meaningful-use/",
+    "b10_success": true
+  },
+  {
+    "id": 10763,
+    "developer": "SolidPractice Technologies, LLC",
+    "product": "SolidPractice",
+    "version": "2.0",
+    "chpl_product_number": "15.05.05.3095.SOLP.01.00.1.211227",
+    "export_url": "https://www.solidpractice.com/doc/SolidPractice-b10-exportable-data-content.pdf",
+    "b10_success": true
+  },
+  {
+    "id": 11452,
+    "developer": "Myriad Systems",
+    "product": "Myriad Health",
+    "version": "1.0",
+    "chpl_product_number": "15.05.05.3188.MYRD.01.00.0.240308",
+    "export_url": "https://myriad.health/terms",
+    "b10_success": true
+  },
+  {
+    "id": 11162,
+    "developer": "Inmediata Health Group LLC",
+    "product": "SecureEMR",
+    "version": "5",
+    "chpl_product_number": "15.07.04.2769.SE01.05.01.1.221228",
+    "export_url": "https://portal.inmediata.com/2023/SEMR%20B-10%20Final_Rv%20by%20FL.pdf",
+    "b10_success": true
+  },
+  {
+    "id": 11454,
+    "developer": "Trinitas LLC",
+    "product": "FEHR",
+    "version": "2024",
+    "chpl_product_number": "15.04.04.3189.FEHR.01.00.0.240314",
+    "export_url": "https://trinitashealth.com/FEHR-EHI/ehr-ehi-export-documentation_Trinitas/index.html",
+    "b10_success": true
+  },
+  {
+    "id": 10985,
+    "developer": "Medical Information Technology, Inc. (MEDITECH)",
+    "product": "MEDITECH Client/Server Oncology",
+    "version": "v5.67c",
+    "chpl_product_number": "15.04.04.2931.MEDI.OY.01.1.220916",
+    "export_url": "https://home.meditech.com/en/d/restapiresources/pages/ehiexport.htm",
+    "b10_success": true
+  },
+  {
+    "id": 11470,
+    "developer": "Accumedic Computer Systems, Inc.",
+    "product": "AccuMed EHR",
+    "version": "12.12",
+    "chpl_product_number": "15.04.04.1034.Accu.12.00.0.240506",
+    "export_url": "https://www.accumedic.com/onc-disclosure/",
+    "b10_success": true
+  },
+  {
+    "id": 11475,
+    "developer": "Juno Health",
+    "product": "Juno Patient Portal",
+    "version": "V23",
+    "chpl_product_number": "15.04.04.2925.JUNP.23.02.1.240523",
+    "export_url": "https://www.junohealth.com/ehiexport",
+    "b10_success": true
+  },
+  {
+    "id": 11354,
+    "developer": "OmniMD Inc.",
+    "product": "OmniMD",
+    "version": "20",
+    "chpl_product_number": "15.05.05.1717.OM20.02.02.1.231024",
+    "export_url": "https://omnimd.com/rwt/",
+    "b10_success": true
+  },
+  {
+    "id": 11472,
+    "developer": "Physician's Computer Company",
+    "product": "PCC EHR",
+    "version": "10",
+    "chpl_product_number": "15.04.04.2923.Pcce.10.00.0.240506",
+    "export_url": "https://learn.pcc.com/help/export-single-patient-record/",
+    "b10_success": true
+  },
+  {
+    "id": 11445,
+    "developer": "Imprivata",
+    "product": "Digital Identity Intelligence",
+    "version": "24",
+    "chpl_product_number": "15.02.05.1485.DIGI.07.07.0.240213",
+    "export_url": "https://www.imprivata.com/onc-certification-disclosures",
+    "b10_success": true
+  },
+  {
+    "id": 11467,
+    "developer": "Regard Technologies",
+    "product": "Regard SaaS Solution",
+    "version": "1",
+    "chpl_product_number": "15.04.04.3192.Rega.01.00.0.240502",
+    "export_url": "https://withregard.com/certification/",
+    "b10_success": true
+  },
+  {
+    "id": 11490,
+    "developer": "Clinisys Inc.",
+    "product": "Clinisys Orchard",
+    "version": "v11",
+    "chpl_product_number": "15.11.09.2825.ENLB.11.00.0.240618",
+    "export_url": "https://www.clinisys.com/uk/en/history/orchard/",
+    "b10_success": true
+  },
+  {
+    "id": 10794,
+    "developer": "AllegianceMD Software, Inc.",
+    "product": "Veracity",
+    "version": "9.1",
+    "chpl_product_number": "15.02.05.2672.ALLE.01.01.1.220117",
+    "export_url": "https://allegiancemd.com/ehi-export-documentation",
+    "b10_success": true
+  },
+  {
+    "id": 10246,
+    "developer": "PointClickCare Technologies Inc.",
+    "product": "PointClickCare",
+    "version": "4",
+    "chpl_product_number": "15.04.04.2181.Poin.04.00.1.191231",
+    "export_url": "https://ehi-export.pointclickcare.com/site/index.html?_ga=2.54104619.209929156.1701272387-1273753859.1701272387",
+    "b10_success": true
+  },
+  {
+    "id": 11494,
+    "developer": "Equicare Health Incorporated",
+    "product": "EQUICARE CS",
+    "version": "4.16",
+    "chpl_product_number": "15.04.04.2933.EQUI.46.09.1.240627",
+    "export_url": "https://equicarehealth.com/ehiexport/",
+    "b10_success": true
+  },
+  {
+    "id": 11493,
+    "developer": "Netsmart Technologies",
+    "product": "TheraOffice",
+    "version": "14.1",
+    "chpl_product_number": "15.04.04.2816.Ther.14.00.1.240628",
+    "export_url": "https://www.ntst.com/lp/certifications",
+    "b10_success": true
+  },
+  {
+    "id": 10207,
+    "developer": "NaphCare, Inc.",
+    "product": "TechCare\u00ae",
+    "version": "Version 5.0",
+    "chpl_product_number": "15.04.04.2813.Tech.05.00.0.191208",
+    "export_url": "https://devportal.techcareehr.com/EHIExport",
+    "b10_success": true
+  },
+  {
+    "id": 11492,
+    "developer": "CareTracker, Inc.",
+    "product": "Amazing Charts",
+    "version": "12.0",
+    "chpl_product_number": "15.04.04.1206.Amaz.12.08.1.240625",
+    "export_url": "https://amazingcharts.com/hubfs/Amazing-Charts-EHI-Export-Documentation-V1_0-1-1.pdf?hsLang=en",
+    "b10_success": true
+  },
+  {
+    "id": 9268,
+    "developer": "Zoobook Systems LLC",
+    "product": "Zoobook EHR",
+    "version": "2.0",
+    "chpl_product_number": "15.04.04.3008.Zoob.02.00.1.171231",
+    "export_url": "https://app.zoobooksystems.com/EHIexportDocumentation",
+    "b10_success": true
+  },
+  {
+    "id": 11319,
+    "developer": "VigiLanz Corporation",
+    "product": "VigiLanz Corporation",
+    "version": "2020",
+    "chpl_product_number": "15.04.04.2953.Dyna.17.01.0.230623",
+    "export_url": "https://www.inovalon.com/ehi-export/?src=vigilanz",
+    "b10_success": true
+  },
+  {
+    "id": 11497,
+    "developer": "Juno Health",
+    "product": "Juno EHR",
+    "version": "v24",
+    "chpl_product_number": "15.04.04.2925.Juno.23.02.1.240809",
+    "export_url": "https://www.junohealth.com/ehiexport",
+    "b10_success": true
+  },
+  {
+    "id": 11507,
+    "developer": "Practice Fusion",
+    "product": "Practice Fusion EHR",
+    "version": "3.7",
+    "chpl_product_number": "15.04.04.2924.Prac.37.01.1.240826",
+    "export_url": "https://www.practicefusion.com/ehi-export-documentation/",
+    "b10_success": true
+  },
+  {
+    "id": 11506,
+    "developer": "Rural Wisconsin Health Cooperative",
+    "product": "RWHC eCQM QI Program",
+    "version": "Version 8",
+    "chpl_product_number": "15.04.04.2281.RWHC.08.02.0.240828",
+    "export_url": "https://www.rwhc.com/Services/Quality-Programs/RWHC-Electronic-Clinical-Quality-Measures",
+    "b10_success": true
+  },
+  {
+    "id": 11514,
+    "developer": "Careficient Inc",
+    "product": "Careficient",
+    "version": "1",
+    "chpl_product_number": "15.11.09.3199.CARE.01.00.0.240910",
+    "export_url": "https://www.careficient.com/ehi-export/",
+    "b10_success": true
+  },
+  {
+    "id": 11499,
+    "developer": "CompuGroup Medical US",
+    "product": "CGM ENTERPRISE EHR\u2122",
+    "version": "10.3",
+    "chpl_product_number": "15.04.04.2700.CGME.10.01.1.240802",
+    "export_url": "https://www.cgm.com/usa_en/products/electronic-health-records/other-ehrs/cgm-enterprise-ehr.html",
+    "b10_success": true
+  },
+  {
+    "id": 11505,
+    "developer": "Oracle Health",
+    "product": "Oracle Health Millennium (CQMs)",
+    "version": "2024",
+    "chpl_product_number": "15.04.04.1221.Mill.24.05.1.240814",
+    "export_url": "https://www.oracle.com/health/regulatory/certified-health-it/",
+    "b10_success": true
+  },
+  {
+    "id": 11500,
+    "developer": "Pulse Systems, Inc",
+    "product": "Pulse EHR",
+    "version": "8.02",
+    "chpl_product_number": "15.04.04.2837.Puls.08.03.1.240806",
+    "export_url": "https://pulseinc.com/terms-conditions-certification-costs-and-limitations/",
+    "b10_success": true
+  },
+  {
+    "id": 11504,
+    "developer": "CareCloud, Inc.",
+    "product": "CareCloud Prime",
+    "version": "2.0",
+    "chpl_product_number": "15.04.04.2790.Clou.02.02.1.240821",
+    "export_url": "https://www.carecloud.com/cc-prime/",
+    "b10_success": true
+  },
+  {
+    "id": 11501,
+    "developer": "Iatric Systems, Inc",
+    "product": "Analytics on Demand",
+    "version": "2.0",
+    "chpl_product_number": "15.05.05.2760.ISAD.02.01.0.240819",
+    "export_url": "https://iatric.com/meaningful-use/analytics-on-demand-product-certification/",
+    "b10_success": true
+  },
+  {
+    "id": 11515,
+    "developer": "WebPT",
+    "product": "WebPT",
+    "version": "1.478",
+    "chpl_product_number": "15.04.04.3200.Webp.01.00.1.240916",
+    "export_url": "https://discover.webpt.com/docs/webpt-emr-cehrt-certification",
+    "b10_success": true
+  },
+  {
+    "id": 11518,
+    "developer": "Netsmart Technologies",
+    "product": "Carepathways Measures Reporting",
+    "version": "3",
+    "chpl_product_number": "15.04.04.2816.Care.03.00.0.241007",
+    "export_url": "https://www.ntst.com/lp/certifications",
+    "b10_success": true
+  },
+  {
+    "id": 11228,
+    "developer": "Sapphire Health",
+    "product": "Sapphire EHR",
+    "version": "2018-2019",
+    "chpl_product_number": "15.07.05.3052.SAPH.01.00.0.230130",
+    "export_url": "https://www.sapphire-health.com/disclosure",
+    "b10_success": true
+  },
+  {
+    "id": 9258,
+    "developer": "Medical Information Technology, Inc. (MEDITECH)",
+    "product": "MEDITECH Transmission of Reportable Laboratory Test and Values/Results",
+    "version": "v6.1",
+    "chpl_product_number": "15.04.04.2931.MEDI.T6.00.1.171226",
+    "export_url": "https://home.meditech.com/en/d/restapiresources/pages/ehiexport.htm",
+    "b10_success": true
+  },
+  {
+    "id": 10247,
+    "developer": "Enable Healthcare Inc.",
+    "product": "MDnet",
+    "version": "V10",
+    "chpl_product_number": "15.04.04.2719.MDne.10.01.1.191231",
+    "export_url": "https://provider.ehiehr.com/EHI_DATA_EXPort_GUIDE.pdf",
+    "b10_success": true
+  },
+  {
+    "id": 11281,
+    "developer": "MicroMD, LLC",
+    "product": "MicroMD EMR",
+    "version": "Version 20.0",
+    "chpl_product_number": "15.04.04.2753.Micr.20.07.1.230427",
+    "export_url": "https://www.micromd.com/micromd-emr-certified/",
+    "b10_success": true
+  },
+  {
+    "id": 11198,
+    "developer": "Wellsky",
+    "product": "WellSky Hospice & Palliative",
+    "version": "5",
+    "chpl_product_number": "15.04.04.1164.Well.05.01.1.221231",
+    "export_url": "https://mediwareinc.github.io/consolo.interop-api-docs/",
+    "b10_success": true
+  },
+  {
+    "id": 11214,
+    "developer": "MD Charts, LLC",
+    "product": "Physician's Solution",
+    "version": "11",
+    "chpl_product_number": "15.99.09.2479.PH01.11.01.1.230117",
+    "export_url": "https://mraemr.com:47102/api/DataExportGuidance.asp",
+    "b10_success": true
+  },
+  {
+    "id": 11238,
+    "developer": "Health Systems Technology, Inc.",
+    "product": "MedPointe",
+    "version": "13",
+    "chpl_product_number": "15.04.04.1597.MedP.13.01.1.230216",
+    "export_url": "https://hstspot.com/help-documents.php",
+    "b10_success": true
+  },
+  {
+    "id": 11300,
+    "developer": "MedAZ.Net, LLC",
+    "product": "Med A-Z",
+    "version": "202001",
+    "chpl_product_number": "15.05.05.3150.MDAZ.01.00.1.230616",
+    "export_url": "https://medaz.com/certificationinfo.html",
+    "b10_success": true
+  },
+  {
+    "id": 11280,
+    "developer": "Clinical Data Solutions",
+    "product": "The Clinical Manager",
+    "version": "2023.01.01",
+    "chpl_product_number": "15.04.04.2932.TheC.23.00.1.230414",
+    "export_url": "https://www.clinicaldata.org/mandatory-disclosures/",
+    "b10_success": true
+  },
+  {
+    "id": 9281,
+    "developer": "First Call Technologies, LLC DBA Community CareLink",
+    "product": "Community CareLink",
+    "version": "3.5",
+    "chpl_product_number": "15.04.04.1491.Comm.35.00.0.171231",
+    "export_url": "https://www.communitycarelink.com/data-extract",
+    "b10_success": true
+  },
+  {
+    "id": 11329,
+    "developer": "Aarista Technology LLC",
+    "product": "Aarista",
+    "version": "1.0",
+    "chpl_product_number": "15.04.04.3168.Aari.01.00.1.230808",
+    "export_url": "https://alteahc.com/wp-content/uploads/2023/11/Aarista_EHI_Export-.pdf",
+    "b10_success": true
+  },
+  {
+    "id": 10806,
+    "developer": "DOX EMR",
+    "product": "DOX EMR",
+    "version": "5.2",
+    "chpl_product_number": "15.02.05.1317.DOXE.01.01.1.220131",
+    "export_url": "https://www.doxemr.com/b10doc",
+    "b10_success": true
+  },
+  {
+    "id": 9372,
+    "developer": "NextGen Healthcare",
+    "product": "NextGen Office",
+    "version": "Version 5.0",
+    "chpl_product_number": "15.04.04.2054.Medi.05.00.1.180220",
+    "export_url": "https://www.nextgen.com/sldkjljieo0935jljsrnfkl",
+    "b10_success": true
+  },
+  {
+    "id": 10804,
+    "developer": "Cedaron Medical, Inc.",
+    "product": "Connect",
+    "version": "4.2",
+    "chpl_product_number": "15.04.04.2970.Conn.42.01.0.220128",
+    "export_url": "https://www.cedaron.com/wp-content/uploads/CONNECT-Patient-EHI-Export.pdf",
+    "b10_success": true
+  },
+  {
+    "id": 10852,
+    "developer": "Holt Systems, Inc.",
+    "product": "eMedRec",
+    "version": "9.1",
+    "chpl_product_number": "15.02.04.1631.A108.09.01.1.220308",
+    "export_url": "http://www.holtsystems.com/b10documentation_Intro.html",
+    "b10_success": true
+  },
+  {
+    "id": 10834,
+    "developer": "American Medical Solutions, Inc.",
+    "product": "Helios",
+    "version": "2.0",
+    "chpl_product_number": "15.02.05.1086.AMEM.01.01.1.220217",
+    "export_url": "https://amsemr.com/services/",
+    "b10_success": true
+  },
+  {
+    "id": 10884,
+    "developer": "Wellsky",
+    "product": "WellSky Specialty Care",
+    "version": "v12",
+    "chpl_product_number": "15.04.04.1164.Well.12.00.0.220429",
+    "export_url": "https://wellsky.com/behavioral-health-software/",
+    "b10_success": true
+  },
+  {
+    "id": 11139,
+    "developer": "Applied Research Works, Inc.",
+    "product": "Cozeva",
+    "version": "3.1",
+    "chpl_product_number": "15.04.04.1102.Coze.03.02.0.221227",
+    "export_url": "https://corp.cozeva.com/ehi-export/",
+    "b10_success": true
+  },
+  {
+    "id": 10194,
+    "developer": "InPracSys",
+    "product": "InPracSys EHR",
+    "version": "9.0",
+    "chpl_product_number": "15.05.05.2762.INPS.01.00.1.191206",
+    "export_url": "http://www.inpracsys.com/disclosure",
+    "b10_success": true
+  },
+  {
+    "id": 10171,
+    "developer": "Criterions Software Inc",
+    "product": "Criterions EHR",
+    "version": "4",
+    "chpl_product_number": "15.04.04.2705.Crit.04.00.1.191111",
+    "export_url": "https://criterions.com/cures-disclosures-2022/",
+    "b10_success": true
+  },
+  {
+    "id": 10934,
+    "developer": "Medical Information Technology, Inc. (MEDITECH)",
+    "product": "MEDITECH Continuity of Care Interface (CCD)",
+    "version": "v6.1c",
+    "chpl_product_number": "15.04.04.2931.MEDI.61.01.1.220630",
+    "export_url": "https://home.meditech.com/en/d/restapiresources/pages/ehiexport.htm",
+    "b10_success": true
+  },
+  {
+    "id": 10927,
+    "developer": "Medical Information Technology, Inc. (MEDITECH)",
+    "product": "MEDITECH Expanse 2.2 Emergency Department Management",
+    "version": "v2.2c",
+    "chpl_product_number": "15.04.04.2931.MEDI.ED.03.1.220630",
+    "export_url": "https://home.meditech.com/en/d/restapiresources/pages/ehiexport.htm",
+    "b10_success": true
+  },
+  {
+    "id": 10953,
+    "developer": "PartnerHelper",
+    "product": "DoctorHelper",
+    "version": "V3",
+    "chpl_product_number": "15.04.04.3118.Doct.03.00.1.220729",
+    "export_url": "https://www.doctorhelper.com/electronichealthinformationexport",
+    "b10_success": true
+  },
+  {
+    "id": 10910,
+    "developer": "drchrono Inc.",
+    "product": "drchrono EHR",
+    "version": "11.0",
+    "chpl_product_number": "15.99.04.2897.DRCH.11.03.1.220531",
+    "export_url": "https://support.drchrono.com/home/20260096536987-ehi-export-overview",
+    "b10_success": true
+  },
+  {
+    "id": 10926,
+    "developer": "Medical Information Technology, Inc. (MEDITECH)",
+    "product": "MEDITECH Expanse 2.2 Core HCIS",
+    "version": "v2.2c",
+    "chpl_product_number": "15.04.04.2931.MEDI.CO.02.1.220630",
+    "export_url": "https://home.meditech.com/en/d/restapiresources/pages/ehiexport.htm",
+    "b10_success": true
+  },
+  {
+    "id": 10249,
+    "developer": "WestCare Foundation, Inc.",
+    "product": "Clinical Data System",
+    "version": "1",
+    "chpl_product_number": "15.04.04.2649.Clin.01.00.0.191230",
+    "export_url": "https://westcare.com/electronic-health-record/",
+    "b10_success": true
+  },
+  {
+    "id": 10475,
+    "developer": "YOURDRS Services LLC",
+    "product": "YOURDRS",
+    "version": "Version 7.0",
+    "chpl_product_number": "15.04.04.3079.YOUR.07.00.1.201102",
+    "export_url": "https://www.yourdrs.com/Home/EHI_Export_Documentation",
+    "b10_success": true
+  },
+  {
+    "id": 10914,
+    "developer": "iSALUS Healthcare",
+    "product": "OfficeEMR",
+    "version": "2021",
+    "chpl_product_number": "15.04.04.2629.Offi.21.02.1.220606",
+    "export_url": "https://officeemr.knowledgeowl.com/help/ehi-export",
+    "b10_success": true
+  },
+  {
+    "id": 10944,
+    "developer": "LogiCoy Inc",
+    "product": "LogiCoy eRx",
+    "version": "1.2",
+    "chpl_product_number": "15.05.05.3117.LOGI.01.00.1.220721",
+    "export_url": "https://www.logicoy.com/onc-b10-format/",
+    "b10_success": true
+  },
+  {
+    "id": 10929,
+    "developer": "Medical Information Technology, Inc. (MEDITECH)",
+    "product": "MEDITECH Expanse 2.1 Core HCIS",
+    "version": "v2.1c",
+    "chpl_product_number": "15.04.04.2931.MEDI.CO.01.1.220630",
+    "export_url": "https://home.meditech.com/en/d/restapiresources/pages/ehiexport.htm",
+    "b10_success": true
+  },
+  {
+    "id": 11141,
+    "developer": "MedicaSoft, LLC",
+    "product": "ehr.NXT HealthCenter",
+    "version": "5.1",
+    "chpl_product_number": "15.04.04.1930.eHTC.05.01.0.221227",
+    "export_url": "https://www.medicasoft.com/compliance",
+    "b10_success": true
+  },
+  {
+    "id": 10348,
+    "developer": "Juno Health",
+    "product": "RxTracker",
+    "version": "Version 9",
+    "chpl_product_number": "15.04.04.2925.RxTr.09.02.1.200330",
+    "export_url": "https://www.junohealth.com/ehiexport",
+    "b10_success": true
+  },
+  {
+    "id": 10919,
+    "developer": "PRN Software (DoseSpot)",
+    "product": "DoseSpot",
+    "version": "8.0",
+    "chpl_product_number": "15.04.04.3056.Dose.08.01.0.220622",
+    "export_url": "https://www.dosespot.com/ehi-export",
+    "b10_success": true
+  },
+  {
+    "id": 10923,
+    "developer": "Practice EHR LLC",
+    "product": "Practice EHR",
+    "version": "V12",
+    "chpl_product_number": "15.04.04.2997.Prac.12.01.1.220628",
+    "export_url": "https://www.practiceehr.com/data-export",
+    "b10_success": true
+  },
+  {
+    "id": 10982,
+    "developer": "Medical Information Technology, Inc. (MEDITECH)",
+    "product": "MEDITECH Client/Server Electronic Health Record Core HCIS",
+    "version": "v5.67c",
+    "chpl_product_number": "15.04.04.2931.MEDI.MC.01.1.220915",
+    "export_url": "https://home.meditech.com/en/d/restapiresources/pages/ehiexport.htm",
+    "b10_success": true
+  },
+  {
+    "id": 10972,
+    "developer": "Medical Information Technology, Inc. (MEDITECH)",
+    "product": "MEDITECH 6.0 Electronic Health Record Core HCIS",
+    "version": "v6.08c",
+    "chpl_product_number": "15.04.04.2931.MEDI.EH.01.1.220901",
+    "export_url": "https://home.meditech.com/en/d/restapiresources/pages/ehiexport.htm",
+    "b10_success": true
+  },
+  {
+    "id": 10987,
+    "developer": "Streamline Healthcare Solutions",
+    "product": "SmartCare",
+    "version": "R6",
+    "chpl_product_number": "15.04.04.2855.Smar.R6.01.1.220915",
+    "export_url": "https://streamlinehealthcare.com/electronic-health-information-export/",
+    "b10_success": true
+  },
+  {
+    "id": 10981,
+    "developer": "Medical Information Technology, Inc. (MEDITECH)",
+    "product": "MEDITECH MAGIC Emergency Department Management",
+    "version": "v5.67c",
+    "chpl_product_number": "15.04.04.2931.MEDI.EM.01.1.220915",
+    "export_url": "https://home.meditech.com/en/d/restapiresources/pages/ehiexport.htm",
+    "b10_success": true
+  },
+  {
+    "id": 10833,
+    "developer": "E*HealthLine.com, Inc.",
+    "product": "CARE\u00a9 Integrated Hospital Information Management System",
+    "version": "10.0.0",
+    "chpl_product_number": "15.02.05.1384.EHLC.01.01.0.220217",
+    "export_url": "http://ehealthline.com/dev/pdf/Electronic%20Health%20Information%20Export.pdf",
+    "b10_success": true
+  },
+  {
+    "id": 10986,
+    "developer": "Comtron Inc.",
+    "product": "Medgen EHR",
+    "version": "Version 9",
+    "chpl_product_number": "15.04.04.2984.Medg.09.02.1.220915",
+    "export_url": "https://portal.medgenehr.com/Medgenweb/MedgenBackupUtility.pdf",
+    "b10_success": true
+  },
+  {
+    "id": 11000,
+    "developer": "Health Care 2000, Inc.",
+    "product": "MDVita",
+    "version": "27",
+    "chpl_product_number": "15.04.04.2904.MDVi.27.02.1.221020",
+    "export_url": "https://www.hc2000inc.com/Pages/MDVita_EHR_EHI_DataFormat.pdf",
+    "b10_success": true
+  },
+  {
+    "id": 10996,
+    "developer": "Abeo Solutions, Inc",
+    "product": "Crystal Practice Management",
+    "version": "6.0",
+    "chpl_product_number": "15.04.04.1030.Crys.06.01.1.221004",
+    "export_url": "https://www.crystalpm.com/21stCenturyCuresActB10AllDataExportUserDocumentation2.pdf",
+    "b10_success": true
+  },
+  {
+    "id": 11017,
+    "developer": "OMNIWOUND LLC",
+    "product": "OmniEMR",
+    "version": "1",
+    "chpl_product_number": "15.05.05.3125.OMNW.01.00.0.221111",
+    "export_url": "https://github.com/omniwound/ehi-template",
+    "b10_success": true
+  },
+  {
+    "id": 9988,
+    "developer": "EyeMD EMR Healthcare Systems, Inc.",
+    "product": "EyeMD Electronic Medical Records",
+    "version": "Version 2",
+    "chpl_product_number": "15.04.04.2725.EyeM.02.00.1.190501",
+    "export_url": "https://www.eyemdemr.com/compliance/fhir/",
+    "b10_success": true
+  },
+  {
+    "id": 10614,
+    "developer": "Iatric Systems, Inc",
+    "product": "Haystack iS",
+    "version": "1.0",
+    "chpl_product_number": "15.05.05.2760.HSiS.01.00.0.210426",
+    "export_url": "https://iatric.com/meaningful-use/haystack-is-product-certification/",
+    "b10_success": true
+  },
+  {
+    "id": 10745,
+    "developer": "GeniusDoc, Inc.",
+    "product": "GeniusDoc",
+    "version": "12.0",
+    "chpl_product_number": "15.02.05.1529.GDOC.01.01.1.211209",
+    "export_url": "https://www.geniusdoc.com/DataExport/GeniusDoc_Data_Export.pdf",
+    "b10_success": true
+  },
+  {
+    "id": 10741,
+    "developer": "Cantata Health Solutions",
+    "product": "Convergence Care",
+    "version": "7",
+    "chpl_product_number": "15.02.05.2022.CONT.01.00.1.211207",
+    "export_url": "https://cantatahealth.com/certifications/",
+    "b10_success": true
+  },
+  {
+    "id": 9349,
+    "developer": "Mendelson Kornblum Orthopedic & Spine Specialists",
+    "product": "OrthoplexEMR",
+    "version": "V1",
+    "chpl_product_number": "15.04.04.3014.Orth.01.00.1.180101",
+    "export_url": "https://orthoplex.mkoss.com/UserContent/Healthinformationexport.html",
+    "b10_success": true
+  },
+  {
+    "id": 9589,
+    "developer": "Harris CareTracker, Inc",
+    "product": "Harris CareTracker",
+    "version": "9",
+    "chpl_product_number": "15.04.04.1569.Harr.09.00.1.180701",
+    "export_url": "https://harriscaretracker.com/wp-content/uploads/2024/02/CareTracker-EHI-Export-Documentation-V1_0-1-1.pdf",
+    "b10_success": true
+  },
+  {
+    "id": 9665,
+    "developer": "ezCaretech Co., Ltd.",
+    "product": "BESTCare",
+    "version": "2.0B",
+    "chpl_product_number": "15.04.04.2610.BEST.02.00.1.180423",
+    "export_url": "https://www.ezcaretech.com/english/onc/b.10_EHI_Export.pdf",
+    "b10_success": true
+  },
+  {
+    "id": 10125,
+    "developer": "TruBridge, Inc.",
+    "product": "InstantPHR\u00ae CEHRT Edition",
+    "version": "20",
+    "chpl_product_number": "15.04.04.3104.Inst.20.02.1.190916",
+    "export_url": "https://developer.chbase.com/EHIExport",
+    "b10_success": true
+  },
+  {
+    "id": 9815,
+    "developer": "Infomedika, Inc.",
+    "product": "Evolution EHR",
+    "version": "3",
+    "chpl_product_number": "15.04.04.1684.Evol.08.00.1.181221",
+    "export_url": "https://infomedika.com/certifications/",
+    "b10_success": true
+  },
+  {
+    "id": 9814,
+    "developer": "MDLAND",
+    "product": "iClinic",
+    "version": "12.3",
+    "chpl_product_number": "15.04.04.1828.iCli.12.00.1.181221",
+    "export_url": "https://mdland.net/iClinicEHR/ehiexport/",
+    "b10_success": true
+  },
+  {
+    "id": 9858,
+    "developer": "Intellicure, LLC",
+    "product": "IntellicureEHR",
+    "version": "7",
+    "chpl_product_number": "15.04.04.1723.Inte.07.00.1.181231",
+    "export_url": "https://www.intellicureehr.com/Support/Documents/EhiExport",
+    "b10_success": true
+  },
+  {
+    "id": 10200,
+    "developer": "eHana",
+    "product": "eHana EHR",
+    "version": "v2019-MU",
+    "chpl_product_number": "15.04.04.2594.eHan.19.00.1.191206",
+    "export_url": "https://www.ehana.com/certification-documentation",
+    "b10_success": true
+  },
+  {
+    "id": 10253,
+    "developer": "Radysans, Inc",
+    "product": "Radysans EHR",
+    "version": "5.0",
+    "chpl_product_number": "15.04.04.2912.Rady.05.00.1.191231",
+    "export_url": "http://radysans.com/Radysans/ONCcertification.html",
+    "b10_success": true
+  },
+  {
+    "id": 10234,
+    "developer": "RestorixHealth",
+    "product": "WoundDocs",
+    "version": "7.0",
+    "chpl_product_number": "15.04.04.2272.Woun.07.01.1.191224",
+    "export_url": "https://www.nethealth.com/drummond-certified-for-meaningful-use-woundexpert/",
+    "b10_success": true
+  },
+  {
+    "id": 10277,
+    "developer": "EHR1, LLC",
+    "product": "EHR1",
+    "version": "v2.0",
+    "chpl_product_number": "15.04.04.2946.EHR1.02.00.1.200115",
+    "export_url": "https://www.ehr1.com/Disclosure",
+    "b10_success": true
+  },
+  {
+    "id": 10314,
+    "developer": "iCare.com, Inc.",
+    "product": "iCare EHR",
+    "version": "Version 2",
+    "chpl_product_number": "15.04.04.2617.iCar.02.00.1.200220",
+    "export_url": "https://icare.com/developers/ehi_export/",
+    "b10_success": true
+  },
+  {
+    "id": 10512,
+    "developer": "Health Information Management Systems, LLC",
+    "product": "Axiom",
+    "version": "Version: 7",
+    "chpl_product_number": "15.04.04.1590.Axio.02.01.1.201229",
+    "export_url": "https://axiomehr.com/ehiexport/",
+    "b10_success": true
+  },
+  {
+    "id": 10762,
+    "developer": "Picis PulseCheck",
+    "product": "PulseCheck ED",
+    "version": "7.0",
+    "chpl_product_number": "15.02.04.3070.Puls.07.03.1.211216",
+    "export_url": "https://pulsechecked.com/onc-certified/",
+    "b10_success": true
+  },
+  {
+    "id": 10761,
+    "developer": "Picis PulseCheck",
+    "product": "PulseCheck ED",
+    "version": "6.0",
+    "chpl_product_number": "15.02.04.3070.Puls.06.02.1.211216",
+    "export_url": "https://pulsechecked.com/onc-certified/",
+    "b10_success": true
+  },
+  {
+    "id": 11073,
+    "developer": "AZZLY, Inc.",
+    "product": "AZZLY Rize",
+    "version": "1.0",
+    "chpl_product_number": "15.04.04.1029.Rize.01.00.0.221214",
+    "export_url": "https://azzly.com/wp-content/uploads/2023/09/Data-Extraction-Instructions-AZZLY-Rize-v1.0.pdf",
+    "b10_success": true
+  },
+  {
+    "id": 11249,
+    "developer": "Point and Click Solutions, Inc.",
+    "product": "PNC Suite",
+    "version": "12",
+    "chpl_product_number": "15.04.04.3146.Pncs.12.00.0.230313",
+    "export_url": "https://www.pointandclicksolutions.com/fhir-record-export",
+    "b10_success": true
+  },
+  {
+    "id": 11194,
+    "developer": "Updox",
+    "product": "Updox",
+    "version": "2022.0",
+    "chpl_product_number": "15.04.04.2484.Updo.20.01.1.221230",
+    "export_url": "https://help.updox.com/help/tools-account-administration",
+    "b10_success": true
+  },
+  {
+    "id": 10464,
+    "developer": "Wellpath",
+    "product": "ERMA",
+    "version": "Version 6",
+    "chpl_product_number": "15.04.04.1293.ERMA.06.00.0.200928",
+    "export_url": "https://wellpathcare.com/wp-content/uploads/2024/05/Wellpath-ERMA-Export-Format.pdf",
+    "b10_success": true
+  },
+  {
+    "id": 11177,
+    "developer": "Sai Systems Digital LLC",
+    "product": "PacEHR",
+    "version": "v20",
+    "chpl_product_number": "15.04.04.3137.Pace.20.00.1.221229",
+    "export_url": "https://saisystems.com/health/pacehr-ehi/",
+    "b10_success": true
+  },
+  {
+    "id": 8332,
+    "developer": "Roji Health Intelligence LLC",
+    "product": "Roji Clinical Data Registry",
+    "version": "Version 2016",
+    "chpl_product_number": "15.04.04.2951.Roji.16.00.0.170202",
+    "export_url": "https://rojihealthintel.com/costs-and-limitations/",
+    "b10_success": true
+  },
+  {
+    "id": 11272,
+    "developer": "Mediportal",
+    "product": "M-Power",
+    "version": "5",
+    "chpl_product_number": "15.04.04.3149.Mpow.05.00.0.230404",
+    "export_url": "https://www.mediportal.com/export/",
+    "b10_success": true
+  },
+  {
+    "id": 11288,
+    "developer": "Wolters Kluwer",
+    "product": "Sentri7 AUR Reporting",
+    "version": "2023",
+    "chpl_product_number": "15.04.04.3136.Sent.23.00.0.230526",
+    "export_url": "https://www.wolterskluwer.com/en/solutions/solesource/onc-b10-documentation",
+    "b10_success": true
+  },
+  {
+    "id": 11241,
+    "developer": "SCC Soft Computer",
+    "product": "SoftLab",
+    "version": "4.0.9",
+    "chpl_product_number": "15.07.04.2287.SL40.09.03.1.230209",
+    "export_url": "https://www.softcomputer.com/regulatory-affairs/ehi-export/",
+    "b10_success": true
+  },
+  {
+    "id": 11282,
+    "developer": "CitiusTech, Inc.",
+    "product": "PERFORM+ Connect",
+    "version": "22.01.02",
+    "chpl_product_number": "15.04.04.2694.Perf.22.01.0.230426",
+    "export_url": "https://8759937.fs1.hubspotusercontent-na1.net/hubfs/8759937/assets/pdfs/PERFORM+Connect_FHIR_API_Document_V_22_01_02.pdf",
+    "b10_success": true
+  },
+  {
+    "id": 11324,
+    "developer": "iTRUST",
+    "product": "iTRUST",
+    "version": "i",
+    "chpl_product_number": "15.04.04.3166.iTRU.0i.00.0.230724",
+    "export_url": "https://www.itrust.io/b10/",
+    "b10_success": true
+  },
+  {
+    "id": 9265,
+    "developer": "Medical Information Technology, Inc. (MEDITECH)",
+    "product": "MEDITECH Public Health Interface Transmission to Immunization Registries",
+    "version": "v6.0",
+    "chpl_product_number": "15.04.04.2931.MEDI.I6.00.1.171227",
+    "export_url": "https://home.meditech.com/en/d/restapiresources/pages/ehiexport.htm",
+    "b10_success": true
+  },
+  {
+    "id": 8854,
+    "developer": "InteliChart LLC",
+    "product": "InteliChart Patient Portal",
+    "version": "3.5",
+    "chpl_product_number": "15.04.04.1722.Inte.35.00.1.170921",
+    "export_url": "https://www.intelichart.com/regulatory-and-compliance-requirements",
+    "b10_success": true
+  },
+  {
+    "id": 9843,
+    "developer": "Clinigence Health",
+    "product": "Clinigence Value Improvement Platform (VIP)",
+    "version": "4.5",
+    "chpl_product_number": "15.04.04.2696.Clin.05.00.0.181231",
+    "export_url": "https://support.clinigence.com/support/solutions/articles/3000123715-patient-record-export/",
+    "b10_success": true
+  },
+  {
+    "id": 9734,
+    "developer": "Clinisys, Inc.",
+    "product": "Sunquest Laboratory",
+    "version": "v7",
+    "chpl_product_number": "15.04.04.2390.Sunq.07.00.0.181030",
+    "export_url": "https://www.clinisys.com/us/en/onc-disclosure/",
+    "b10_success": true
+  },
+  {
+    "id": 10137,
+    "developer": "Medisolv, Inc.",
+    "product": "ENCOR-e",
+    "version": "Version 6",
+    "chpl_product_number": "15.04.04.2922.ENCO.06.01.1.191011",
+    "export_url": "https://medisolv.com/certifications",
+    "b10_success": true
+  },
+  {
+    "id": 10963,
+    "developer": "Doctornow Inc.",
+    "product": "DocNow EHR",
+    "version": "2022",
+    "chpl_product_number": "15.04.04.3120.Docn.22.00.0.220819",
+    "export_url": "https://doctornow.io/data-export",
+    "b10_success": true
+  },
+  {
+    "id": 10965,
+    "developer": "TruBridge, Inc.",
+    "product": "CHBase\u2122 CEHRT Edition",
+    "version": "20",
+    "chpl_product_number": "15.04.04.3104.CHBa.20.03.0.220819",
+    "export_url": "https://developer.chbase.com/EHIExport",
+    "b10_success": true
+  },
+  {
+    "id": 10918,
+    "developer": "Persivia",
+    "product": "Persivia Platform",
+    "version": "4.0",
+    "chpl_product_number": "15.04.04.2155.Mean.04.01.0.220622",
+    "export_url": "https://persivia.com/meaningful-use-certification-language/",
+    "b10_success": true
+  },
+  {
+    "id": 10971,
+    "developer": "Kennebec Behavioral Health",
+    "product": "Neo",
+    "version": "2.1",
+    "chpl_product_number": "15.04.04.1765.Neo1.02.00.1.220906",
+    "export_url": "https://support.kbhmaine.org/neo-faq/client-export",
+    "b10_success": true
+  },
+  {
+    "id": 10999,
+    "developer": "Healthfully Inc.",
+    "product": "BMH Care Anywhere",
+    "version": "17",
+    "chpl_product_number": "15.05.05.3081.HEAL.01.01.0.221018",
+    "export_url": "https://www.healthfully.io/legal-certification",
+    "b10_success": true
+  },
+  {
+    "id": 9238,
+    "developer": "Medical Information Technology, Inc. (MEDITECH)",
+    "product": "MEDITECH Public Health Interface Transmission to Immunization Registries",
+    "version": "v6.1",
+    "chpl_product_number": "15.04.04.2931.MEDI.IR.00.1.171227",
+    "export_url": "https://home.meditech.com/en/d/restapiresources/pages/ehiexport.htm",
+    "b10_success": true
+  },
+  {
+    "id": 10993,
+    "developer": "Medical Information Technology, Inc. (MEDITECH)",
+    "product": "MEDITECH Public Health Interface Electronic Case Reporting",
+    "version": "v5.67",
+    "chpl_product_number": "15.04.04.2931.Case.56.00.1.221001",
+    "export_url": "https://home.meditech.com/en/d/restapiresources/pages/ehiexport.htm",
+    "b10_success": true
+  },
+  {
+    "id": 10995,
+    "developer": "Medical Information Technology, Inc. (MEDITECH)",
+    "product": "MEDITECH Public Health Interface Electronic Case Reporting",
+    "version": "v6.1",
+    "chpl_product_number": "15.04.04.2931.Case.61.00.1.221001",
+    "export_url": "https://home.meditech.com/en/d/restapiresources/pages/ehiexport.htm",
+    "b10_success": true
+  },
+  {
+    "id": 10619,
+    "developer": "Extended Care Professional, LLC",
+    "product": "ECP",
+    "version": "8.0",
+    "chpl_product_number": "15.05.05.3086.ECP1.08.00.0.210514",
+    "export_url": "https://www.ecp123.com/exporting-electronic-health-information-ehi?hs_preview=FslteQVE-143661230087",
+    "b10_success": true
+  },
+  {
+    "id": 10527,
+    "developer": "Healthfully Inc.",
+    "product": "Healthfully",
+    "version": "17",
+    "chpl_product_number": "15.05.05.3081.HEFY.01.00.0.201222",
+    "export_url": "https://www.healthfully.io/legal-certification",
+    "b10_success": true
+  },
+  {
+    "id": 8830,
+    "developer": "CareCloud, Inc.",
+    "product": "ChartLogic Patient Portal",
+    "version": "9",
+    "chpl_product_number": "15.04.04.2790.Char.09.00.1.170814",
+    "export_url": "https://www.medsphere.com/certifications/",
+    "b10_success": true
+  },
+  {
+    "id": 10590,
+    "developer": "Orion Health",
+    "product": "Communicate",
+    "version": "2.4",
+    "chpl_product_number": "15.04.04.2113.Comm.23.01.0.210305",
+    "export_url": "https://orionhealth.com/global/certifications/onc-hit-certification-communicate/",
+    "b10_success": true
+  },
+  {
+    "id": 10692,
+    "developer": "ReportingMD, Inc.",
+    "product": "Total Outcomes Management (TOM)",
+    "version": "9.8",
+    "chpl_product_number": "15.02.05.2270.RPMD.01.02.0.210924",
+    "export_url": "https://reportingmd.com/ehi-export-specifications/",
+    "b10_success": true
+  },
+  {
+    "id": 10726,
+    "developer": "Darena Solutions LLC dba Darena Health",
+    "product": "MyMipsScore",
+    "version": "2018",
+    "chpl_product_number": "15.02.05.1322.DARE.01.01.1.211119",
+    "export_url": "https://darena.health/onc-hti1-certified",
+    "b10_success": true
+  },
+  {
+    "id": 10691,
+    "developer": "MDinteractive",
+    "product": "MDinteractive",
+    "version": "6",
+    "chpl_product_number": "15.99.05.3080.MDIN.01.01.0.210924",
+    "export_url": "https://mdinteractive.com/ecqm",
+    "b10_success": true
+  },
+  {
+    "id": 10733,
+    "developer": "Azara Healthcare, LLC",
+    "product": "Azara DRVS",
+    "version": "DRVS 33",
+    "chpl_product_number": "15.99.04.1134.A105.33.01.0.211201",
+    "export_url": "https://azaracdn.blob.core.windows.net/documentation/DRVS_Export_Formats.pdf",
+    "b10_success": true
+  },
+  {
+    "id": 9162,
+    "developer": "Medical Information Technology, Inc. (MEDITECH)",
+    "product": "MEDITECH Transmission of Reportable Laboratory Test and Values/Results",
+    "version": "v6.0",
+    "chpl_product_number": "15.04.04.2931.MEDI.R6.00.1.171227",
+    "export_url": "https://home.meditech.com/en/d/restapiresources/pages/ehiexport.htm",
+    "b10_success": true
+  },
+  {
+    "id": 10649,
+    "developer": "agilon health inc.",
+    "product": "Minerva",
+    "version": "V4",
+    "chpl_product_number": "15.04.04.3082.Mine.04.01.0.210609",
+    "export_url": "https://www.agilonhealth.com/wp-content/uploads/2025/01/Mphrx-EHI-export-documentation.pdf",
+    "b10_success": true
+  }
+]

@@ -1,0 +1,5913 @@
+[
+  {
+    "dev": "Medical Information Technology, Inc. (MEDITECH)",
+    "dev_id": 1932,
+    "products": [
+      {
+        "name": "MEDITECH 6.0 Electronic Health Record Core HCIS",
+        "id": 10972
+      },
+      {
+        "name": "MEDITECH 6.0 Emergency Department Management",
+        "id": 10973
+      },
+      {
+        "name": "MEDITECH 6.0 Medical and Practice Management (MPM) Electronic Health Record",
+        "id": 10975
+      },
+      {
+        "name": "MEDITECH 6.1 Ambulatory Electronic Health Record",
+        "id": 10937
+      },
+      {
+        "name": "MEDITECH 6.1 Electronic Health Record Core HCIS",
+        "id": 10931
+      },
+      {
+        "name": "MEDITECH 6.1 Emergency Department Management",
+        "id": 10935
+      },
+      {
+        "name": "MEDITECH 6.1 Oncology",
+        "id": 10933
+      },
+      {
+        "name": "MEDITECH Cancer Case Reporting",
+        "id": 9095
+      },
+      {
+        "name": "MEDITECH Client/Server Electronic Health Record Core HCIS",
+        "id": 10982
+      },
+      {
+        "name": "MEDITECH Client/Server Emergency Department Management",
+        "id": 10984
+      },
+      {
+        "name": "MEDITECH Client/Server Medical and Practice Management (MPM) Electronic Health Record",
+        "id": 10983
+      },
+      {
+        "name": "MEDITECH Client/Server Oncology",
+        "id": 10985
+      },
+      {
+        "name": "MEDITECH Continuity of Care Interface (CCD)",
+        "id": 10934
+      },
+      {
+        "name": "MEDITECH Expanse 2.1 Ambulatory",
+        "id": 10928
+      },
+      {
+        "name": "MEDITECH Expanse 2.1 Core HCIS",
+        "id": 10929
+      },
+      {
+        "name": "MEDITECH Expanse 2.1 Oncology",
+        "id": 10924
+      },
+      {
+        "name": "MEDITECH Expanse 2.2 Ambulatory",
+        "id": 10925
+      },
+      {
+        "name": "MEDITECH Expanse 2.2 Core HCIS",
+        "id": 10926
+      },
+      {
+        "name": "MEDITECH Expanse 2.2 Emergency Department Management",
+        "id": 10927
+      },
+      {
+        "name": "MEDITECH Expanse 2.2 Oncology",
+        "id": 10932
+      },
+      {
+        "name": "MEDITECH Expanse Emergency Department Management",
+        "id": 10930
+      },
+      {
+        "name": "MEDITECH MAGIC Electronic Health Record Core HCIS",
+        "id": 10979
+      },
+      {
+        "name": "MEDITECH MAGIC Emergency Department Management",
+        "id": 10981
+      },
+      {
+        "name": "MEDITECH MAGIC HCA Electronic Health Record Core HCIS (without PatientKeeper)",
+        "id": 11018
+      },
+      {
+        "name": "MEDITECH MAGIC Medical and Practice Management (MPM) Electronic Health Record",
+        "id": 10980
+      },
+      {
+        "name": "MEDITECH MAGIC Oncology",
+        "id": 10978
+      },
+      {
+        "name": "MEDITECH MyHealth Portal",
+        "id": 10988
+      },
+      {
+        "name": "MEDITECH Public Health Interface Electronic Case Reporting",
+        "id": 10993
+      },
+      {
+        "name": "MEDITECH Public Health Interface Transmission to Immunization Registries",
+        "id": 9101
+      },
+      {
+        "name": "MEDITECH Public Health Interface for Syndromic Surveillance",
+        "id": 9103
+      },
+      {
+        "name": "MEDITECH Transmission of Reportable Laboratory Test and Values/Results",
+        "id": 9162
+      }
+    ],
+    "product_count": 31
+  },
+  {
+    "dev": "Oracle Health",
+    "dev_id": 222,
+    "products": [
+      {
+        "name": "Health Data Intelligence: eCQMs",
+        "id": 11556
+      },
+      {
+        "name": "HealtheLife",
+        "id": 11276
+      },
+      {
+        "name": "NOVIUS Lab",
+        "id": 9582
+      },
+      {
+        "name": "Oracle Health Data Intelligence: PI Functional Reports",
+        "id": 11637
+      },
+      {
+        "name": "Oracle Health Data Intelligence: eCQMs",
+        "id": 11671
+      },
+      {
+        "name": "Oracle Health EHR",
+        "id": 11702
+      },
+      {
+        "name": "Oracle Health Millennium (CQMs)",
+        "id": 11669
+      },
+      {
+        "name": "Oracle Health Millennium (Clinical)",
+        "id": 11522
+      },
+      {
+        "name": "Oracle Health Millennium (Health Care Surveys)",
+        "id": 10876
+      },
+      {
+        "name": "Oracle Health Millennium (Immunizations)",
+        "id": 10879
+      },
+      {
+        "name": "Oracle Health Patient Portal",
+        "id": 11498
+      },
+      {
+        "name": "Oracle Health PowerChart Touch",
+        "id": 10594
+      },
+      {
+        "name": "Patient Portal - MMD",
+        "id": 9581
+      },
+      {
+        "name": "Soarian Clinicals",
+        "id": 10604
+      },
+      {
+        "name": "Soarian Document Management",
+        "id": 9584
+      }
+    ],
+    "product_count": 15
+  },
+  {
+    "dev": "Altera Digital Health Inc.",
+    "dev_id": 2124,
+    "products": [
+      {
+        "name": "Altera Lab™",
+        "id": 11401
+      },
+      {
+        "name": "Paragon® Ambulatory Care EHR",
+        "id": 11398
+      },
+      {
+        "name": "Paragon® Denali",
+        "id": 11589
+      },
+      {
+        "name": "Paragon® EHR",
+        "id": 11761
+      },
+      {
+        "name": "Paragon® for Hospitals EHR",
+        "id": 11397
+      },
+      {
+        "name": "Sunrise Acute Care",
+        "id": 11567
+      },
+      {
+        "name": "Sunrise Acute Care for Hospital-based Providers",
+        "id": 11566
+      },
+      {
+        "name": "Sunrise Ambulatory Care",
+        "id": 11384
+      },
+      {
+        "name": "TouchWorks EHR",
+        "id": 11469
+      },
+      {
+        "name": "dbMotion",
+        "id": 11081
+      }
+    ],
+    "product_count": 10
+  },
+  {
+    "dev": "Epic Systems Corporation",
+    "dev_id": 448,
+    "products": [
+      {
+        "name": "Beacon Cancer Registry Reporting",
+        "id": 11290
+      },
+      {
+        "name": "Beaker Reportable Labs Reporting",
+        "id": 11252
+      },
+      {
+        "name": "Electronic Case Reporting",
+        "id": 11250
+      },
+      {
+        "name": "EpicCare Ambulatory Base",
+        "id": 11340
+      },
+      {
+        "name": "EpicCare Inpatient Base",
+        "id": 11263
+      },
+      {
+        "name": "Infection Control Antimicrobial Use and Resistance Reporting",
+        "id": 11255
+      },
+      {
+        "name": "National Healthcare Survey Reporting",
+        "id": 11293
+      },
+      {
+        "name": "Syndromic Surveillance Reporting",
+        "id": 11292
+      }
+    ],
+    "product_count": 8
+  },
+  {
+    "dev": "CareCloud, Inc.",
+    "dev_id": 1791,
+    "products": [
+      {
+        "name": "CareCloud Prime",
+        "id": 11504
+      },
+      {
+        "name": "CareVue",
+        "id": 11121
+      },
+      {
+        "name": "ChartLogic EHR",
+        "id": 11202
+      },
+      {
+        "name": "ChartLogic EHR Classic",
+        "id": 11108
+      },
+      {
+        "name": "ChartLogic Patient Portal",
+        "id": 8830
+      },
+      {
+        "name": "PCG",
+        "id": 10771
+      },
+      {
+        "name": "Wellsoft EDIS",
+        "id": 9546
+      },
+      {
+        "name": "talkEHR",
+        "id": 9799
+      }
+    ],
+    "product_count": 8
+  },
+  {
+    "dev": "Netsmart Technologies",
+    "dev_id": 1817,
+    "products": [
+      {
+        "name": "Carepathways Measures Reporting",
+        "id": 11518
+      },
+      {
+        "name": "GEHRIMED",
+        "id": 11136
+      },
+      {
+        "name": "TheraOffice",
+        "id": 11493
+      },
+      {
+        "name": "myAvatar Certified Edition",
+        "id": 11575
+      },
+      {
+        "name": "myEvolv Certified Edition",
+        "id": 11131
+      },
+      {
+        "name": "myHealthpointe",
+        "id": 10769
+      },
+      {
+        "name": "myUnity",
+        "id": 11409
+      },
+      {
+        "name": "myUnity Senior Living",
+        "id": 11287
+      }
+    ],
+    "product_count": 8
+  },
+  {
+    "dev": "Greenway Health, LLC",
+    "dev_id": 1914,
+    "products": [
+      {
+        "name": "Greenway Electronic Case Reporting",
+        "id": 11550
+      },
+      {
+        "name": "Greenway Insights",
+        "id": 11727
+      },
+      {
+        "name": "Greenway Insights- Prime Suite",
+        "id": 11419
+      },
+      {
+        "name": "Greenway Insights-Intergy",
+        "id": 11418
+      },
+      {
+        "name": "Greenway Patient Portal",
+        "id": 11350
+      },
+      {
+        "name": "Greenway Prime Suite",
+        "id": 11352
+      },
+      {
+        "name": "Intergy EHR",
+        "id": 11351
+      },
+      {
+        "name": "Intergy Practice Analytics (IPA)",
+        "id": 11235
+      }
+    ],
+    "product_count": 8
+  },
+  {
+    "dev": "Eye Care Leaders, LLC",
+    "dev_id": 1999,
+    "products": [
+      {
+        "name": "MDoffice",
+        "id": 11197
+      },
+      {
+        "name": "ManagementPlus",
+        "id": 11172
+      },
+      {
+        "name": "Medflow EHR",
+        "id": 11106
+      },
+      {
+        "name": "My Vision Express",
+        "id": 11105
+      },
+      {
+        "name": "Regulatory Compliance Platform",
+        "id": 11181
+      },
+      {
+        "name": "myCare Portal",
+        "id": 11100
+      },
+      {
+        "name": "myCare iMedicWare",
+        "id": 11094
+      }
+    ],
+    "product_count": 7
+  },
+  {
+    "dev": "Juno Health",
+    "dev_id": 1926,
+    "products": [
+      {
+        "name": "Juno CQMsolution",
+        "id": 10961
+      },
+      {
+        "name": "Juno ConnectEHR",
+        "id": 10962
+      },
+      {
+        "name": "Juno EHR",
+        "id": 11301
+      },
+      {
+        "name": "Juno Emergency Services Solution",
+        "id": 10864
+      },
+      {
+        "name": "Juno Patient Portal",
+        "id": 11475
+      },
+      {
+        "name": "RxTracker",
+        "id": 10348
+      }
+    ],
+    "product_count": 6
+  },
+  {
+    "dev": "TruBridge, Inc.",
+    "dev_id": 2105,
+    "products": [
+      {
+        "name": "CHBase™ CEHRT Edition",
+        "id": 10965
+      },
+      {
+        "name": "Centriq",
+        "id": 10959
+      },
+      {
+        "name": "Centriq Clinic",
+        "id": 10960
+      },
+      {
+        "name": "InstantPHR® CEHRT Edition",
+        "id": 10125
+      },
+      {
+        "name": "TruBridge EHR",
+        "id": 10957
+      },
+      {
+        "name": "TruBridge Provider EHR",
+        "id": 10958
+      }
+    ],
+    "product_count": 6
+  },
+  {
+    "dev": "CompuGroup Medical US",
+    "dev_id": 1701,
+    "products": [
+      {
+        "name": "CGM APRIMA",
+        "id": 11167
+      },
+      {
+        "name": "CGM CLINICAL™",
+        "id": 10240
+      },
+      {
+        "name": "CGM ENTERPRISE EHR™",
+        "id": 10238
+      },
+      {
+        "name": "CGM MEASURES",
+        "id": 11343
+      },
+      {
+        "name": "CGM eMDs",
+        "id": 11133
+      }
+    ],
+    "product_count": 5
+  },
+  {
+    "dev": "MEDHOST",
+    "dev_id": 1789,
+    "products": [
+      {
+        "name": "MEDHOST Business Intelligence",
+        "id": 10664
+      },
+      {
+        "name": "MEDHOST EDIS",
+        "id": 10871
+      },
+      {
+        "name": "MEDHOST Enterprise - Clinicals",
+        "id": 10820
+      },
+      {
+        "name": "MEDHOST Enterprise - Financials",
+        "id": 10822
+      },
+      {
+        "name": "MEDHOST Enterprise - eRx",
+        "id": 10821
+      }
+    ],
+    "product_count": 5
+  },
+  {
+    "dev": "Imprivata",
+    "dev_id": 486,
+    "products": [
+      {
+        "name": "Access Intelligence",
+        "id": 11666
+      },
+      {
+        "name": "Digital Identity Intelligence",
+        "id": 11445
+      },
+      {
+        "name": "FairWarning® Patient Privacy Monitoring",
+        "id": 10829
+      },
+      {
+        "name": "Imprivata FairWarning",
+        "id": 10838
+      }
+    ],
+    "product_count": 4
+  },
+  {
+    "dev": "Nextech",
+    "dev_id": 1052,
+    "products": [
+      {
+        "name": "Nextech EHR (ICP)",
+        "id": 11724
+      },
+      {
+        "name": "Nextech Select and NexCloud",
+        "id": 11028
+      },
+      {
+        "name": "Nextech Select and NexCloud with NewCropRx",
+        "id": 11029
+      },
+      {
+        "name": "SRS EHR",
+        "id": 11040
+      }
+    ],
+    "product_count": 4
+  },
+  {
+    "dev": "NextGen Healthcare",
+    "dev_id": 1055,
+    "products": [
+      {
+        "name": "Mirth Connect",
+        "id": 11612
+      },
+      {
+        "name": "NextGen Direct Messaging",
+        "id": 10673
+      },
+      {
+        "name": "NextGen Enterprise EHR",
+        "id": 11302
+      },
+      {
+        "name": "NextGen Office",
+        "id": 9372
+      }
+    ],
+    "product_count": 4
+  },
+  {
+    "dev": "Varian Medical Systems",
+    "dev_id": 1497,
+    "products": [
+      {
+        "name": "ARIA CORE",
+        "id": 11558
+      },
+      {
+        "name": "ARIA Oncology Information System (for Medical Oncology)",
+        "id": 11003
+      },
+      {
+        "name": "ARIA Oncology Information System (for Radiation Oncology)",
+        "id": 11004
+      },
+      {
+        "name": "Noona",
+        "id": 11747
+      }
+    ],
+    "product_count": 4
+  },
+  {
+    "dev": "Dynamic Health IT, Inc",
+    "dev_id": 1714,
+    "products": [
+      {
+        "name": "CQMsolution",
+        "id": 11584
+      },
+      {
+        "name": "ConnectEHR",
+        "id": 10748
+      },
+      {
+        "name": "ConnectEHR +BulkFHIR",
+        "id": 10759
+      },
+      {
+        "name": "ConnectEHR SMART 2.0",
+        "id": 11662
+      }
+    ],
+    "product_count": 4
+  },
+  {
+    "dev": "athenahealth, Inc.",
+    "dev_id": 1881,
+    "products": [
+      {
+        "name": "athenaClinicals",
+        "id": 11259
+      },
+      {
+        "name": "athenaClinicals for Hospitals and Health Systems",
+        "id": 11260
+      },
+      {
+        "name": "athenaFlow",
+        "id": 11270
+      },
+      {
+        "name": "athenaPractice",
+        "id": 11629
+      }
+    ],
+    "product_count": 4
+  },
+  {
+    "dev": "Veradigm",
+    "dev_id": 1892,
+    "products": [
+      {
+        "name": "Veradigm EHR",
+        "id": 11463
+      },
+      {
+        "name": "Veradigm FollowMyHealth®",
+        "id": 11609
+      },
+      {
+        "name": "Veradigm View",
+        "id": 11697
+      },
+      {
+        "name": "ePrescribe",
+        "id": 11632
+      }
+    ],
+    "product_count": 4
+  },
+  {
+    "dev": "Experity",
+    "dev_id": 369,
+    "products": [
+      {
+        "name": "DocuTAP",
+        "id": 11112
+      },
+      {
+        "name": "Experity EMR",
+        "id": 11704
+      },
+      {
+        "name": "VelociDoc",
+        "id": 11408
+      }
+    ],
+    "product_count": 3
+  },
+  {
+    "dev": "Cantata Health Solutions",
+    "dev_id": 1023,
+    "products": [
+      {
+        "name": "Arize",
+        "id": 11258
+      },
+      {
+        "name": "Convergence Care",
+        "id": 10741
+      },
+      {
+        "name": "imaServe",
+        "id": 11635
+      }
+    ],
+    "product_count": 3
+  },
+  {
+    "dev": "Azalea Health",
+    "dev_id": 1689,
+    "products": [
+      {
+        "name": "Azalea EHR",
+        "id": 11151
+      },
+      {
+        "name": "ChartAccess ®",
+        "id": 11140
+      },
+      {
+        "name": "ChartMaker® Medical Suite",
+        "id": 11070
+      }
+    ],
+    "product_count": 3
+  },
+  {
+    "dev": "Iatric Systems, Inc",
+    "dev_id": 1761,
+    "products": [
+      {
+        "name": "Analytics on Demand",
+        "id": 9360
+      },
+      {
+        "name": "Haystack iS",
+        "id": 10614
+      },
+      {
+        "name": "PtAccess",
+        "id": 9358
+      }
+    ],
+    "product_count": 3
+  },
+  {
+    "dev": "Healthfully Inc.",
+    "dev_id": 2082,
+    "products": [
+      {
+        "name": "BMH Care Anywhere",
+        "id": 10999
+      },
+      {
+        "name": "Flagler Health + Anywhere",
+        "id": 10508
+      },
+      {
+        "name": "Healthfully",
+        "id": 10527
+      }
+    ],
+    "product_count": 3
+  },
+  {
+    "dev": "Qualifacts Systems, LLC",
+    "dev_id": 2125,
+    "products": [
+      {
+        "name": "CareLogic",
+        "id": 9807
+      },
+      {
+        "name": "Credible Behavioral Health",
+        "id": 11183
+      },
+      {
+        "name": "Insync EMR/PM",
+        "id": 10858
+      }
+    ],
+    "product_count": 3
+  },
+  {
+    "dev": "Advanced Data Systems Corporation",
+    "dev_id": 45,
+    "products": [
+      {
+        "name": "MedicsCloud",
+        "id": 10786
+      },
+      {
+        "name": "MedicsDocAssistant",
+        "id": 10785
+      }
+    ],
+    "product_count": 2
+  },
+  {
+    "dev": "Wellsky",
+    "dev_id": 165,
+    "products": [
+      {
+        "name": "WellSky Hospice & Palliative",
+        "id": 11198
+      },
+      {
+        "name": "WellSky Specialty Care",
+        "id": 10884
+      }
+    ],
+    "product_count": 2
+  },
+  {
+    "dev": "Darena Solutions LLC dba Darena Health",
+    "dev_id": 323,
+    "products": [
+      {
+        "name": "Darena Health",
+        "id": 10435
+      },
+      {
+        "name": "MyMipsScore",
+        "id": 10726
+      }
+    ],
+    "product_count": 2
+  },
+  {
+    "dev": "E*HealthLine.com, Inc.",
+    "dev_id": 385,
+    "products": [
+      {
+        "name": "CARE© Integrated Hospital Information Management System",
+        "id": 10833
+      },
+      {
+        "name": "Phoenix© Integrated Electronic Health Records",
+        "id": 10832
+      }
+    ],
+    "product_count": 2
+  },
+  {
+    "dev": "Elekta Inc.",
+    "dev_id": 421,
+    "products": [
+      {
+        "name": "Kaiku Health",
+        "id": 11479
+      },
+      {
+        "name": "MOSAIQ",
+        "id": 11097
+      }
+    ],
+    "product_count": 2
+  },
+  {
+    "dev": "Garage Solutions LLC",
+    "dev_id": 521,
+    "products": [
+      {
+        "name": "Bridge Ignite",
+        "id": 11690
+      },
+      {
+        "name": "Bridge eCQM",
+        "id": 11429
+      }
+    ],
+    "product_count": 2
+  },
+  {
+    "dev": "Modernizing Medicine Inc.",
+    "dev_id": 1003,
+    "products": [
+      {
+        "name": "EMA",
+        "id": 11032
+      },
+      {
+        "name": "ModMed ASC",
+        "id": 11701
+      }
+    ],
+    "product_count": 2
+  },
+  {
+    "dev": "PointClickCare Technologies Inc.",
+    "dev_id": 1182,
+    "products": [
+      {
+        "name": "EHR for Practice Groups",
+        "id": 11729
+      },
+      {
+        "name": "PointClickCare",
+        "id": 10246
+      }
+    ],
+    "product_count": 2
+  },
+  {
+    "dev": "PracticeSuite, Inc.",
+    "dev_id": 1199,
+    "products": [
+      {
+        "name": "FreeChiro",
+        "id": 10789
+      },
+      {
+        "name": "PracticeSuite",
+        "id": 10788
+      }
+    ],
+    "product_count": 2
+  },
+  {
+    "dev": "Clinisys, Inc.",
+    "dev_id": 1391,
+    "products": [
+      {
+        "name": "SQ Lab",
+        "id": 11600
+      },
+      {
+        "name": "Sunquest Laboratory",
+        "id": 10701
+      }
+    ],
+    "product_count": 2
+  },
+  {
+    "dev": "AdvancedMD",
+    "dev_id": 1667,
+    "products": [
+      {
+        "name": "AdvancedMD",
+        "id": 11406
+      },
+      {
+        "name": "AdvancedMD Mobile",
+        "id": 11407
+      }
+    ],
+    "product_count": 2
+  },
+  {
+    "dev": "CitiusTech, Inc.",
+    "dev_id": 1695,
+    "products": [
+      {
+        "name": "PERFORM+ Connect",
+        "id": 11282
+      },
+      {
+        "name": "Perform+",
+        "id": 11517
+      }
+    ],
+    "product_count": 2
+  },
+  {
+    "dev": "EndoSoft, LLC",
+    "dev_id": 1722,
+    "products": [
+      {
+        "name": "EndoVault",
+        "id": 10854
+      },
+      {
+        "name": "Qlinical",
+        "id": 10855
+      }
+    ],
+    "product_count": 2
+  },
+  {
+    "dev": "Inmediata Health Group LLC",
+    "dev_id": 1770,
+    "products": [
+      {
+        "name": "SecureEMR",
+        "id": 11162
+      },
+      {
+        "name": "SecureEMR+",
+        "id": 10615
+      }
+    ],
+    "product_count": 2
+  },
+  {
+    "dev": "Tebra Technologies, Inc.",
+    "dev_id": 1778,
+    "products": [
+      {
+        "name": "Tebra EHR",
+        "id": 11557
+      },
+      {
+        "name": "Tebra EHR (Kareo)",
+        "id": 11090
+      }
+    ],
+    "product_count": 2
+  },
+  {
+    "dev": "NeoDeck Holdings",
+    "dev_id": 1815,
+    "products": [
+      {
+        "name": "NeoMed 3.0 / Legacy",
+        "id": 11192
+      },
+      {
+        "name": "NeoMed AI+",
+        "id": 11191
+      }
+    ],
+    "product_count": 2
+  },
+  {
+    "dev": "Clinisys Inc.",
+    "dev_id": 1826,
+    "products": [
+      {
+        "name": "Clinisys Harvest",
+        "id": 11285
+      },
+      {
+        "name": "Clinisys Orchard",
+        "id": 11490
+      }
+    ],
+    "product_count": 2
+  },
+  {
+    "dev": "Eyefinity, Inc.",
+    "dev_id": 1901,
+    "products": [
+      {
+        "name": "EHR powered by EMA in Eyefinity Encompass",
+        "id": 11088
+      },
+      {
+        "name": "OfficeMate/ExamWRITER",
+        "id": 10566
+      }
+    ],
+    "product_count": 2
+  },
+  {
+    "dev": "InterSystems Corporation",
+    "dev_id": 1989,
+    "products": [
+      {
+        "name": "HealthShare Personal Community",
+        "id": 11157
+      },
+      {
+        "name": "HealthShare Unified Care Record",
+        "id": 10772
+      }
+    ],
+    "product_count": 2
+  },
+  {
+    "dev": "TriMed Technologies",
+    "dev_id": 2104,
+    "products": [
+      {
+        "name": "TriMed Complete",
+        "id": 10076
+      },
+      {
+        "name": "e-Medsys E.H.R.",
+        "id": 9849
+      }
+    ],
+    "product_count": 2
+  },
+  {
+    "dev": "MEDHOST Cloud Services, Inc.",
+    "dev_id": 2106,
+    "products": [
+      {
+        "name": "YourCareCommunity Patient Portal with YourCareEverywhere App",
+        "id": 10739
+      },
+      {
+        "name": "YourCareCommunity Provider Portal",
+        "id": 10738
+      }
+    ],
+    "product_count": 2
+  },
+  {
+    "dev": "1Life Healthcare, Inc",
+    "dev_id": 2122,
+    "products": [
+      {
+        "name": "1Life",
+        "id": 10964
+      },
+      {
+        "name": "Chirp",
+        "id": 10974
+      }
+    ],
+    "product_count": 2
+  },
+  {
+    "dev": "Wolters Kluwer",
+    "dev_id": 2137,
+    "products": [
+      {
+        "name": "Sentri7",
+        "id": 11123
+      },
+      {
+        "name": "Sentri7 AUR Reporting",
+        "id": 11288
+      }
+    ],
+    "product_count": 2
+  },
+  {
+    "dev": "Synapse Medicine Inc.",
+    "dev_id": 2168,
+    "products": [
+      {
+        "name": "P.A.G.R. Prescriptions",
+        "id": 11328
+      },
+      {
+        "name": "Synapse Prescribe",
+        "id": 11638
+      }
+    ],
+    "product_count": 2
+  },
+  {
+    "dev": "HospiceMD, Inc.",
+    "dev_id": 2194,
+    "products": [
+      {
+        "name": "HomeHealthMD",
+        "id": 11591
+      },
+      {
+        "name": "HospiceMD",
+        "id": 11473
+      }
+    ],
+    "product_count": 2
+  },
+  {
+    "dev": "Sightview EHR Holdings, LLC",
+    "dev_id": 2207,
+    "products": [
+      {
+        "name": "Regulatory Compliance Platform",
+        "id": 11582
+      },
+      {
+        "name": "myCare Portal",
+        "id": 11529
+      }
+    ],
+    "product_count": 2
+  },
+  {
+    "dev": "Helixbeat",
+    "dev_id": 2211,
+    "products": [
+      {
+        "name": "FUSION",
+        "id": 11544
+      },
+      {
+        "name": "PULSE",
+        "id": 11545
+      }
+    ],
+    "product_count": 2
+  },
+  {
+    "dev": "Intellix Solutions, LLC.",
+    "dev_id": 2225,
+    "products": [
+      {
+        "name": "BluKnox",
+        "id": 11746
+      },
+      {
+        "name": "BluVault",
+        "id": 11623
+      }
+    ],
+    "product_count": 2
+  },
+  {
+    "dev": "ASP.MD Inc.",
+    "dev_id": 27,
+    "products": [
+      {
+        "name": "ASP.MD Medical Office System",
+        "id": 10818
+      }
+    ],
+    "product_count": 1
+  },
+  {
+    "dev": "AZZLY, Inc.",
+    "dev_id": 30,
+    "products": [
+      {
+        "name": "AZZLY Rize",
+        "id": 11073
+      }
+    ],
+    "product_count": 1
+  },
+  {
+    "dev": "Abeo Solutions, Inc",
+    "dev_id": 31,
+    "products": [
+      {
+        "name": "Crystal Practice Management",
+        "id": 10996
+      }
+    ],
+    "product_count": 1
+  },
+  {
+    "dev": "Accumedic Computer Systems, Inc.",
+    "dev_id": 35,
+    "products": [
+      {
+        "name": "AccuMed EHR",
+        "id": 11470
+      }
+    ],
+    "product_count": 1
+  },
+  {
+    "dev": "Adaptamed, LLC",
+    "dev_id": 43,
+    "products": [
+      {
+        "name": "EHR Your Way",
+        "id": 10757
+      }
+    ],
+    "product_count": 1
+  },
+  {
+    "dev": "Addison Health Systems, Inc.",
+    "dev_id": 44,
+    "products": [
+      {
+        "name": "WritePad EHR",
+        "id": 11084
+      }
+    ],
+    "product_count": 1
+  },
+  {
+    "dev": "Agastha, Inc.",
+    "dev_id": 57,
+    "products": [
+      {
+        "name": "Agastha Enterprise Healthcare Software",
+        "id": 11152
+      }
+    ],
+    "product_count": 1
+  },
+  {
+    "dev": "American Medical Software",
+    "dev_id": 86,
+    "products": [
+      {
+        "name": "Ultra Charts",
+        "id": 11116
+      }
+    ],
+    "product_count": 1
+  },
+  {
+    "dev": "American Medical Solutions, Inc.",
+    "dev_id": 87,
+    "products": [
+      {
+        "name": "Helios",
+        "id": 10834
+      }
+    ],
+    "product_count": 1
+  },
+  {
+    "dev": "Applied Research Works, Inc.",
+    "dev_id": 103,
+    "products": [
+      {
+        "name": "Cozeva",
+        "id": 11139
+      }
+    ],
+    "product_count": 1
+  },
+  {
+    "dev": "Azara Healthcare, LLC",
+    "dev_id": 135,
+    "products": [
+      {
+        "name": "Azara DRVS",
+        "id": 10733
+      }
+    ],
+    "product_count": 1
+  },
+  {
+    "dev": "Benchmark Systems",
+    "dev_id": 145,
+    "products": [
+      {
+        "name": "Benchmark EHR",
+        "id": 9098
+      }
+    ],
+    "product_count": 1
+  },
+  {
+    "dev": "Best Practices Academy",
+    "dev_id": 147,
+    "products": [
+      {
+        "name": "eChiroEHR",
+        "id": 9371
+      }
+    ],
+    "product_count": 1
+  },
+  {
+    "dev": "Beth Israel Deaconess Medical Center",
+    "dev_id": 148,
+    "products": [
+      {
+        "name": "Online Medical Record",
+        "id": 11227
+      }
+    ],
+    "product_count": 1
+  },
+  {
+    "dev": "Braintree Health",
+    "dev_id": 168,
+    "products": [
+      {
+        "name": "BRAINTREE",
+        "id": 10727
+      }
+    ],
+    "product_count": 1
+  },
+  {
+    "dev": "Brilogy Corporation",
+    "dev_id": 172,
+    "products": [
+      {
+        "name": "AXEIUM",
+        "id": 11086
+      }
+    ],
+    "product_count": 1
+  },
+  {
+    "dev": "CHSPSC, LLC",
+    "dev_id": 180,
+    "products": [
+      {
+        "name": "PULSE",
+        "id": 11218
+      }
+    ],
+    "product_count": 1
+  },
+  {
+    "dev": "California Medical Systems",
+    "dev_id": 191,
+    "products": [
+      {
+        "name": "Practice Expert",
+        "id": 9856
+      }
+    ],
+    "product_count": 1
+  },
+  {
+    "dev": "Callibra, Inc.",
+    "dev_id": 193,
+    "products": [
+      {
+        "name": "Discharge 1-2-3™ Composer™",
+        "id": 10754
+      }
+    ],
+    "product_count": 1
+  },
+  {
+    "dev": "CareTracker, Inc.",
+    "dev_id": 207,
+    "products": [
+      {
+        "name": "Amazing Charts",
+        "id": 11365
+      }
+    ],
+    "product_count": 1
+  },
+  {
+    "dev": "Claimpower, Inc.",
+    "dev_id": 239,
+    "products": [
+      {
+        "name": "Claimpower Mobile EMR",
+        "id": 11209
+      }
+    ],
+    "product_count": 1
+  },
+  {
+    "dev": "CorrecTek",
+    "dev_id": 293,
+    "products": [
+      {
+        "name": "Spark",
+        "id": 10274
+      }
+    ],
+    "product_count": 1
+  },
+  {
+    "dev": "Wellpath",
+    "dev_id": 294,
+    "products": [
+      {
+        "name": "ERMA",
+        "id": 10464
+      }
+    ],
+    "product_count": 1
+  },
+  {
+    "dev": "DOX EMR",
+    "dev_id": 318,
+    "products": [
+      {
+        "name": "DOX EMR",
+        "id": 10806
+      }
+    ],
+    "product_count": 1
+  },
+  {
+    "dev": "Doctorsoft Corporation",
+    "dev_id": 366,
+    "products": [
+      {
+        "name": "Doctorsoft EHR",
+        "id": 11171
+      }
+    ],
+    "product_count": 1
+  },
+  {
+    "dev": "DrFirst",
+    "dev_id": 376,
+    "products": [
+      {
+        "name": "Rcopia",
+        "id": 9207
+      }
+    ],
+    "product_count": 1
+  },
+  {
+    "dev": "E-Health Partners, Inc.",
+    "dev_id": 386,
+    "products": [
+      {
+        "name": "EHRez",
+        "id": 11037
+      }
+    ],
+    "product_count": 1
+  },
+  {
+    "dev": "EBIO-METRONICS",
+    "dev_id": 389,
+    "products": [
+      {
+        "name": "EBIO-METRONICS",
+        "id": 11087
+      }
+    ],
+    "product_count": 1
+  },
+  {
+    "dev": "EPOWERdoc, Inc.",
+    "dev_id": 408,
+    "products": [
+      {
+        "name": "EMRdoc",
+        "id": 10781
+      }
+    ],
+    "product_count": 1
+  },
+  {
+    "dev": "EnSoftek, Inc",
+    "dev_id": 435,
+    "products": [
+      {
+        "name": "DrCloudEHR",
+        "id": 10835
+      }
+    ],
+    "product_count": 1
+  },
+  {
+    "dev": "EnableDoc LLC",
+    "dev_id": 440,
+    "products": [
+      {
+        "name": "Enablemypractice",
+        "id": 10795
+      }
+    ],
+    "product_count": 1
+  },
+  {
+    "dev": "Encite, Inc.",
+    "dev_id": 441,
+    "products": [
+      {
+        "name": "Encite EHR",
+        "id": 10446
+      }
+    ],
+    "product_count": 1
+  },
+  {
+    "dev": "Eprosystem Inc.",
+    "dev_id": 450,
+    "products": [
+      {
+        "name": "EproMedical",
+        "id": 11012
+      }
+    ],
+    "product_count": 1
+  },
+  {
+    "dev": "Exscribe, LLC",
+    "dev_id": 468,
+    "products": [
+      {
+        "name": "Exscribe EHR",
+        "id": 11145
+      }
+    ],
+    "product_count": 1
+  },
+  {
+    "dev": "FEI Systems",
+    "dev_id": 480,
+    "products": [
+      {
+        "name": "Web Infrastructure for Treatment Services (WITS)",
+        "id": 11124
+      }
+    ],
+    "product_count": 1
+  },
+  {
+    "dev": "FannoTek, Inc.",
+    "dev_id": 491,
+    "products": [
+      {
+        "name": "Redwood EMR",
+        "id": 11039
+      }
+    ],
+    "product_count": 1
+  },
+  {
+    "dev": "First Call Technologies, LLC DBA Community CareLink",
+    "dev_id": 492,
+    "products": [
+      {
+        "name": "Community CareLink",
+        "id": 9281
+      }
+    ],
+    "product_count": 1
+  },
+  {
+    "dev": "FlagShipMD LLC",
+    "dev_id": 497,
+    "products": [
+      {
+        "name": "FlagShipMD",
+        "id": 10220
+      }
+    ],
+    "product_count": 1
+  },
+  {
+    "dev": "Florida Department of Health",
+    "dev_id": 499,
+    "products": [
+      {
+        "name": "The Florida Department of Health, Health Management System",
+        "id": 10047
+      }
+    ],
+    "product_count": 1
+  },
+  {
+    "dev": "Foothold Technology, Inc.",
+    "dev_id": 501,
+    "products": [
+      {
+        "name": "AWARDS",
+        "id": 9267
+      }
+    ],
+    "product_count": 1
+  },
+  {
+    "dev": "Genensys LLC",
+    "dev_id": 524,
+    "products": [
+      {
+        "name": "Simplify EMR",
+        "id": 10317
+      }
+    ],
+    "product_count": 1
+  },
+  {
+    "dev": "GeniusDoc, Inc.",
+    "dev_id": 530,
+    "products": [
+      {
+        "name": "GeniusDoc",
+        "id": 10745
+      }
+    ],
+    "product_count": 1
+  },
+  {
+    "dev": "Glenwood Systems LLC",
+    "dev_id": 536,
+    "products": [
+      {
+        "name": "GlaceEMR",
+        "id": 9559
+      }
+    ],
+    "product_count": 1
+  },
+  {
+    "dev": "Harris CareTracker, Inc",
+    "dev_id": 570,
+    "products": [
+      {
+        "name": "Harris CareTracker",
+        "id": 9589
+      }
+    ],
+    "product_count": 1
+  },
+  {
+    "dev": "Healogics, Inc.",
+    "dev_id": 576,
+    "products": [
+      {
+        "name": "i-heal",
+        "id": 10140
+      }
+    ],
+    "product_count": 1
+  },
+  {
+    "dev": "Health Care Systems, Inc.",
+    "dev_id": 583,
+    "products": [
+      {
+        "name": "HCS eMR",
+        "id": 11416
+      }
+    ],
+    "product_count": 1
+  },
+  {
+    "dev": "Health Information Management Systems, LLC",
+    "dev_id": 591,
+    "products": [
+      {
+        "name": "Axiom",
+        "id": 10512
+      }
+    ],
+    "product_count": 1
+  },
+  {
+    "dev": "Health Innovation Technologies, Inc.",
+    "dev_id": 592,
+    "products": [
+      {
+        "name": "RevolutionEHR",
+        "id": 9923
+      }
+    ],
+    "product_count": 1
+  },
+  {
+    "dev": "Health Systems Technology, Inc.",
+    "dev_id": 598,
+    "products": [
+      {
+        "name": "MedPointe",
+        "id": 11238
+      }
+    ],
+    "product_count": 1
+  },
+  {
+    "dev": "Alpha II, LLC",
+    "dev_id": 599,
+    "products": [
+      {
+        "name": "MIPS Accelerator",
+        "id": 10793
+      }
+    ],
+    "product_count": 1
+  },
+  {
+    "dev": "Healthmonix",
+    "dev_id": 619,
+    "products": [
+      {
+        "name": "Prism",
+        "id": 11765
+      }
+    ],
+    "product_count": 1
+  },
+  {
+    "dev": "Henry Schein One",
+    "dev_id": 625,
+    "products": [
+      {
+        "name": "Dentrix Enterprise",
+        "id": 11430
+      }
+    ],
+    "product_count": 1
+  },
+  {
+    "dev": "Holt Systems, Inc.",
+    "dev_id": 632,
+    "products": [
+      {
+        "name": "eMedRec",
+        "id": 10852
+      }
+    ],
+    "product_count": 1
+  },
+  {
+    "dev": "Holy Name Medical Center",
+    "dev_id": 633,
+    "products": [
+      {
+        "name": "WebHIS",
+        "id": 11224
+      }
+    ],
+    "product_count": 1
+  },
+  {
+    "dev": "IMA Systems LLC",
+    "dev_id": 648,
+    "products": [
+      {
+        "name": "imaServe",
+        "id": 10554
+      }
+    ],
+    "product_count": 1
+  },
+  {
+    "dev": "Indian Health Service",
+    "dev_id": 674,
+    "products": [
+      {
+        "name": "Resource and Patient Management System Electronic Health Record",
+        "id": 11717
+      }
+    ],
+    "product_count": 1
+  },
+  {
+    "dev": "Indiana Health Information Exchange",
+    "dev_id": 675,
+    "products": [
+      {
+        "name": "Notifiable Condition Detector",
+        "id": 11261
+      }
+    ],
+    "product_count": 1
+  },
+  {
+    "dev": "WellStack, INC",
+    "dev_id": 682,
+    "products": [
+      {
+        "name": "Empower(TM) Patient Portal & Engagement Suite",
+        "id": 11190
+      }
+    ],
+    "product_count": 1
+  },
+  {
+    "dev": "InfoCare Healthcare Systems (Ireland) Limited",
+    "dev_id": 683,
+    "products": [
+      {
+        "name": "Soteria",
+        "id": 10532
+      }
+    ],
+    "product_count": 1
+  },
+  {
+    "dev": "Infomedika, Inc.",
+    "dev_id": 685,
+    "products": [
+      {
+        "name": "Evolution EHR",
+        "id": 9815
+      }
+    ],
+    "product_count": 1
+  },
+  {
+    "dev": "OmniMD Inc.",
+    "dev_id": 718,
+    "products": [
+      {
+        "name": "OmniMD",
+        "id": 10784
+      }
+    ],
+    "product_count": 1
+  },
+  {
+    "dev": "InteliChart LLC",
+    "dev_id": 723,
+    "products": [
+      {
+        "name": "InteliChart Patient Portal",
+        "id": 8854
+      }
+    ],
+    "product_count": 1
+  },
+  {
+    "dev": "Intellicure, LLC",
+    "dev_id": 724,
+    "products": [
+      {
+        "name": "IntellicureEHR",
+        "id": 9858
+      }
+    ],
+    "product_count": 1
+  },
+  {
+    "dev": "KaZee, Inc.",
+    "dev_id": 758,
+    "products": [
+      {
+        "name": "Pearl",
+        "id": 9861
+      }
+    ],
+    "product_count": 1
+  },
+  {
+    "dev": "Keiser Computers, Inc.",
+    "dev_id": 765,
+    "products": [
+      {
+        "name": "Drs Enterprise",
+        "id": 11072
+      }
+    ],
+    "product_count": 1
+  },
+  {
+    "dev": "Kennebec Behavioral Health",
+    "dev_id": 766,
+    "products": [
+      {
+        "name": "Neo",
+        "id": 10971
+      }
+    ],
+    "product_count": 1
+  },
+  {
+    "dev": "Liquid Medical Office, Inc.",
+    "dev_id": 803,
+    "products": [
+      {
+        "name": "Liquid EMR",
+        "id": 10620
+      }
+    ],
+    "product_count": 1
+  },
+  {
+    "dev": "MD Synergy Solutions, LLC",
+    "dev_id": 822,
+    "products": [
+      {
+        "name": "Althea Smart EHR",
+        "id": 11046
+      }
+    ],
+    "product_count": 1
+  },
+  {
+    "dev": "MDLAND",
+    "dev_id": 829,
+    "products": [
+      {
+        "name": "iClinic",
+        "id": 9814
+      }
+    ],
+    "product_count": 1
+  },
+  {
+    "dev": "MDToolbox",
+    "dev_id": 833,
+    "products": [
+      {
+        "name": "MDToolbox Rx",
+        "id": 10710
+      }
+    ],
+    "product_count": 1
+  },
+  {
+    "dev": "MDOps Corporation",
+    "dev_id": 837,
+    "products": [
+      {
+        "name": "MDLog",
+        "id": 10792
+      }
+    ],
+    "product_count": 1
+  },
+  {
+    "dev": "medent - Community Computer Service, Inc.",
+    "dev_id": 841,
+    "products": [
+      {
+        "name": "medent",
+        "id": 11347
+      }
+    ],
+    "product_count": 1
+  },
+  {
+    "dev": "MPN Software Systems, Inc.",
+    "dev_id": 854,
+    "products": [
+      {
+        "name": "ECLIPSE Spectrum",
+        "id": 11144
+      }
+    ],
+    "product_count": 1
+  },
+  {
+    "dev": "MedConnect, Inc.",
+    "dev_id": 890,
+    "products": [
+      {
+        "name": "MedConnectHealth",
+        "id": 9183
+      }
+    ],
+    "product_count": 1
+  },
+  {
+    "dev": "MedOne Systems, LLC",
+    "dev_id": 902,
+    "products": [
+      {
+        "name": "BOLT",
+        "id": 10730
+      }
+    ],
+    "product_count": 1
+  },
+  {
+    "dev": "MedicaSoft, LLC",
+    "dev_id": 931,
+    "products": [
+      {
+        "name": "ehr.NXT HealthCenter",
+        "id": 11141
+      }
+    ],
+    "product_count": 1
+  },
+  {
+    "dev": "Medical Informatics Engineering",
+    "dev_id": 933,
+    "products": [
+      {
+        "name": "WebChart EHR",
+        "id": 11022
+      }
+    ],
+    "product_count": 1
+  },
+  {
+    "dev": "Medical Office Technologies, Inc.",
+    "dev_id": 943,
+    "products": [
+      {
+        "name": "ezAccess Portal",
+        "id": 9663
+      }
+    ],
+    "product_count": 1
+  },
+  {
+    "dev": "Bridge Patient Portal Inc.",
+    "dev_id": 948,
+    "products": [
+      {
+        "name": "BridgeInteract",
+        "id": 9540
+      }
+    ],
+    "product_count": 1
+  },
+  {
+    "dev": "MedicalMine Inc.",
+    "dev_id": 949,
+    "products": [
+      {
+        "name": "CharmHealth EHR",
+        "id": 9741
+      }
+    ],
+    "product_count": 1
+  },
+  {
+    "dev": "Metasolutions Inc",
+    "dev_id": 980,
+    "products": [
+      {
+        "name": "ZoomMD",
+        "id": 11182
+      }
+    ],
+    "product_count": 1
+  },
+  {
+    "dev": "MicroFour, Inc.",
+    "dev_id": 986,
+    "products": [
+      {
+        "name": "PracticeStudio",
+        "id": 9590
+      }
+    ],
+    "product_count": 1
+  },
+  {
+    "dev": "The Montrose Center",
+    "dev_id": 1006,
+    "products": [
+      {
+        "name": "CONTINUUM",
+        "id": 11269
+      }
+    ],
+    "product_count": 1
+  },
+  {
+    "dev": "Navigating Cancer, LLC",
+    "dev_id": 1035,
+    "products": [
+      {
+        "name": "Navigating Care",
+        "id": 11068
+      }
+    ],
+    "product_count": 1
+  },
+  {
+    "dev": "Networking Technology Inc., dba RXNT",
+    "dev_id": 1047,
+    "products": [
+      {
+        "name": "RXNT Electronic Health Records",
+        "id": 11767
+      }
+    ],
+    "product_count": 1
+  },
+  {
+    "dev": "NextStep Solutions",
+    "dev_id": 1058,
+    "products": [
+      {
+        "name": "NextStep",
+        "id": 11013
+      }
+    ],
+    "product_count": 1
+  },
+  {
+    "dev": "Nortec Software Inc.",
+    "dev_id": 1065,
+    "products": [
+      {
+        "name": "Nortec EHR",
+        "id": 10734
+      }
+    ],
+    "product_count": 1
+  },
+  {
+    "dev": "Nth Technologies, Inc.",
+    "dev_id": 1071,
+    "products": [
+      {
+        "name": "nAbleMD",
+        "id": 11118
+      }
+    ],
+    "product_count": 1
+  },
+  {
+    "dev": "Nuance Communications, Inc.",
+    "dev_id": 1072,
+    "products": [
+      {
+        "name": "Nuance Electronic Quality Measures",
+        "id": 11592
+      }
+    ],
+    "product_count": 1
+  },
+  {
+    "dev": "Objective Medical Systems, LLC",
+    "dev_id": 1087,
+    "products": [
+      {
+        "name": "OMS EHR",
+        "id": 11751
+      }
+    ],
+    "product_count": 1
+  },
+  {
+    "dev": "Ocuco Limited",
+    "dev_id": 1088,
+    "products": [
+      {
+        "name": "Acuitas activEHR",
+        "id": 11083
+      }
+    ],
+    "product_count": 1
+  },
+  {
+    "dev": "Meridian Medical Management",
+    "dev_id": 1113,
+    "products": [
+      {
+        "name": "VertexDr",
+        "id": 11002
+      }
+    ],
+    "product_count": 1
+  },
+  {
+    "dev": "Orion Health",
+    "dev_id": 1114,
+    "products": [
+      {
+        "name": "Communicate",
+        "id": 10590
+      }
+    ],
+    "product_count": 1
+  },
+  {
+    "dev": "OrionNet Systems, LLC",
+    "dev_id": 1116,
+    "products": [
+      {
+        "name": "ThinkHealth - Practice Management Software (EHR)",
+        "id": 10693
+      }
+    ],
+    "product_count": 1
+  },
+  {
+    "dev": "PCE Systems",
+    "dev_id": 1126,
+    "products": [
+      {
+        "name": "PCE Care Management",
+        "id": 11045
+      }
+    ],
+    "product_count": 1
+  },
+  {
+    "dev": "PCIS GOLD",
+    "dev_id": 1127,
+    "products": [
+      {
+        "name": "PCIS GOLD EHR",
+        "id": 11137
+      }
+    ],
+    "product_count": 1
+  },
+  {
+    "dev": "Patagonia Health",
+    "dev_id": 1140,
+    "products": [
+      {
+        "name": "Patagonia Health EHR",
+        "id": 11147
+      }
+    ],
+    "product_count": 1
+  },
+  {
+    "dev": "Patient First",
+    "dev_id": 1141,
+    "products": [
+      {
+        "name": "PAS",
+        "id": 11065
+      }
+    ],
+    "product_count": 1
+  },
+  {
+    "dev": "PatientClick, Inc.",
+    "dev_id": 1142,
+    "products": [
+      {
+        "name": "PatientClick",
+        "id": 10856
+      }
+    ],
+    "product_count": 1
+  },
+  {
+    "dev": "Commure",
+    "dev_id": 1143,
+    "products": [
+      {
+        "name": "PatientKeeper",
+        "id": 10291
+      }
+    ],
+    "product_count": 1
+  },
+  {
+    "dev": "Perk Medical Systems LLC (PCB Apps LLC)",
+    "dev_id": 1155,
+    "products": [
+      {
+        "name": "ezPractice",
+        "id": 11237
+      }
+    ],
+    "product_count": 1
+  },
+  {
+    "dev": "Persivia",
+    "dev_id": 1156,
+    "products": [
+      {
+        "name": "Persivia Platform",
+        "id": 11149
+      }
+    ],
+    "product_count": 1
+  },
+  {
+    "dev": "Phoenix Ortho, LLC",
+    "dev_id": 1161,
+    "products": [
+      {
+        "name": "Phoenix Ortho",
+        "id": 11163
+      }
+    ],
+    "product_count": 1
+  },
+  {
+    "dev": "Physicians EMR, LLC",
+    "dev_id": 1164,
+    "products": [
+      {
+        "name": "IPClinical",
+        "id": 10278
+      }
+    ],
+    "product_count": 1
+  },
+  {
+    "dev": "Practice Alternatives, Inc.",
+    "dev_id": 1187,
+    "products": [
+      {
+        "name": "AuroraEHR",
+        "id": 11128
+      }
+    ],
+    "product_count": 1
+  },
+  {
+    "dev": "Prime Clinical Systems, Inc.",
+    "dev_id": 1207,
+    "products": [
+      {
+        "name": "Patient Chart Manager",
+        "id": 10791
+      }
+    ],
+    "product_count": 1
+  },
+  {
+    "dev": "Procentive",
+    "dev_id": 1215,
+    "products": [
+      {
+        "name": "Procentive",
+        "id": 11155
+      }
+    ],
+    "product_count": 1
+  },
+  {
+    "dev": "Providers Management, Inc.",
+    "dev_id": 1225,
+    "products": [
+      {
+        "name": "Integrated Providers Patient Portal",
+        "id": 11199
+      }
+    ],
+    "product_count": 1
+  },
+  {
+    "dev": "ReportingMD, Inc.",
+    "dev_id": 1271,
+    "products": [
+      {
+        "name": "Total Outcomes Management (TOM)",
+        "id": 10692
+      }
+    ],
+    "product_count": 1
+  },
+  {
+    "dev": "RestorixHealth",
+    "dev_id": 1273,
+    "products": [
+      {
+        "name": "WoundDocs",
+        "id": 10234
+      }
+    ],
+    "product_count": 1
+  },
+  {
+    "dev": "Rural Wisconsin Health Cooperative",
+    "dev_id": 1282,
+    "products": [
+      {
+        "name": "RWHC eCQM QI Program",
+        "id": 11506
+      }
+    ],
+    "product_count": 1
+  },
+  {
+    "dev": "SCC Soft Computer",
+    "dev_id": 1288,
+    "products": [
+      {
+        "name": "SoftLab",
+        "id": 11240
+      }
+    ],
+    "product_count": 1
+  },
+  {
+    "dev": "Sabiamed Corporation",
+    "dev_id": 1298,
+    "products": [
+      {
+        "name": "ClinNext 10",
+        "id": 9737
+      }
+    ],
+    "product_count": 1
+  },
+  {
+    "dev": "Sargas Pharmaceutical Adherence and Compliance International",
+    "dev_id": 1307,
+    "products": [
+      {
+        "name": "Sargas International's Chronic Care Management Cloud dba hru2day",
+        "id": 10702
+      }
+    ],
+    "product_count": 1
+  },
+  {
+    "dev": "Sevocity, a division of Conceptual MindWorks, Inc",
+    "dev_id": 1325,
+    "products": [
+      {
+        "name": "Sevocity",
+        "id": 11187
+      }
+    ],
+    "product_count": 1
+  },
+  {
+    "dev": "Smoky Mountain Information Systems, LLC",
+    "dev_id": 1343,
+    "products": [
+      {
+        "name": "PIMSY Platinum",
+        "id": 11392
+      }
+    ],
+    "product_count": 1
+  },
+  {
+    "dev": "Sophrona Solutions, Inc.",
+    "dev_id": 1356,
+    "products": [
+      {
+        "name": "Sophrona e2015 Portal Technology",
+        "id": 11421
+      }
+    ],
+    "product_count": 1
+  },
+  {
+    "dev": "SpectraMedix",
+    "dev_id": 1360,
+    "products": [
+      {
+        "name": "VBP Performance Suite",
+        "id": 11248
+      }
+    ],
+    "product_count": 1
+  },
+  {
+    "dev": "Tecurologic",
+    "dev_id": 1376,
+    "products": [
+      {
+        "name": "PediNotes",
+        "id": 8846
+      }
+    ],
+    "product_count": 1
+  },
+  {
+    "dev": "StreamlineMD, LLC",
+    "dev_id": 1384,
+    "products": [
+      {
+        "name": "StreamlineMD EHR",
+        "id": 9974
+      }
+    ],
+    "product_count": 1
+  },
+  {
+    "dev": "TechSoft, Inc.",
+    "dev_id": 1414,
+    "products": [
+      {
+        "name": "MDRhythm",
+        "id": 9797
+      }
+    ],
+    "product_count": 1
+  },
+  {
+    "dev": "The Echo Group",
+    "dev_id": 1426,
+    "products": [
+      {
+        "name": "EchoVantage",
+        "id": 11129
+      }
+    ],
+    "product_count": 1
+  },
+  {
+    "dev": "Universal EHR, Inc.",
+    "dev_id": 1479,
+    "products": [
+      {
+        "name": "Universal EHR",
+        "id": 9333
+      }
+    ],
+    "product_count": 1
+  },
+  {
+    "dev": "MD Charts, LLC",
+    "dev_id": 1480,
+    "products": [
+      {
+        "name": "Physician's Solution",
+        "id": 11214
+      }
+    ],
+    "product_count": 1
+  },
+  {
+    "dev": "Universal Research Solutions, LLC",
+    "dev_id": 1481,
+    "products": [
+      {
+        "name": "OBERD",
+        "id": 11208
+      }
+    ],
+    "product_count": 1
+  },
+  {
+    "dev": "Updox",
+    "dev_id": 1485,
+    "products": [
+      {
+        "name": "Updox",
+        "id": 11195
+      }
+    ],
+    "product_count": 1
+  },
+  {
+    "dev": "Vecna Technologies, Inc.",
+    "dev_id": 1498,
+    "products": [
+      {
+        "name": "PathFinder Infection Control",
+        "id": 11533
+      }
+    ],
+    "product_count": 1
+  },
+  {
+    "dev": "Clinicmind Inc.",
+    "dev_id": 1501,
+    "products": [
+      {
+        "name": "Clinicmind",
+        "id": 11185
+      }
+    ],
+    "product_count": 1
+  },
+  {
+    "dev": "VersaSuite",
+    "dev_id": 1504,
+    "products": [
+      {
+        "name": "VersaSuite",
+        "id": 10299
+      }
+    ],
+    "product_count": 1
+  },
+  {
+    "dev": "Vigiboss Inc.",
+    "dev_id": 1508,
+    "products": [
+      {
+        "name": "MD4Front",
+        "id": 11750
+      }
+    ],
+    "product_count": 1
+  },
+  {
+    "dev": "VisionTree Software, Inc.",
+    "dev_id": 1514,
+    "products": [
+      {
+        "name": "VisionTree Optimal Care™ (VTOC)",
+        "id": 9969
+      }
+    ],
+    "product_count": 1
+  },
+  {
+    "dev": "VisionWeb",
+    "dev_id": 1515,
+    "products": [
+      {
+        "name": "Uprise",
+        "id": 11069
+      }
+    ],
+    "product_count": 1
+  },
+  {
+    "dev": "WCH Service Bureau, Inc.",
+    "dev_id": 1526,
+    "products": [
+      {
+        "name": "iSmart EHR",
+        "id": 11058
+      }
+    ],
+    "product_count": 1
+  },
+  {
+    "dev": "WEBeDoctor, Inc.",
+    "dev_id": 1527,
+    "products": [
+      {
+        "name": "WEBeDoctor Physician Office",
+        "id": 11748
+      }
+    ],
+    "product_count": 1
+  },
+  {
+    "dev": "WRS Health",
+    "dev_id": 1528,
+    "products": [
+      {
+        "name": "WRS Health Web EHR and Practice Management System",
+        "id": 10750
+      }
+    ],
+    "product_count": 1
+  },
+  {
+    "dev": "Welligent, Part of the ContinuumCloud",
+    "dev_id": 1537,
+    "products": [
+      {
+        "name": "Welligent",
+        "id": 10811
+      }
+    ],
+    "product_count": 1
+  },
+  {
+    "dev": "eDerm Systems LLC",
+    "dev_id": 1593,
+    "products": [
+      {
+        "name": "eDerm Systems",
+        "id": 10149
+      }
+    ],
+    "product_count": 1
+  },
+  {
+    "dev": "eHana",
+    "dev_id": 1595,
+    "products": [
+      {
+        "name": "eHana EHR",
+        "id": 10200
+      }
+    ],
+    "product_count": 1
+  },
+  {
+    "dev": "eRAD, Inc.",
+    "dev_id": 1604,
+    "products": [
+      {
+        "name": "eRAD RIS",
+        "id": 11085
+      }
+    ],
+    "product_count": 1
+  },
+  {
+    "dev": "ezCaretech Co., Ltd.",
+    "dev_id": 1611,
+    "products": [
+      {
+        "name": "BESTCare",
+        "id": 9665
+      }
+    ],
+    "product_count": 1
+  },
+  {
+    "dev": "TRIARQ Practice Services",
+    "dev_id": 1615,
+    "products": [
+      {
+        "name": "QSuite",
+        "id": 10709
+      }
+    ],
+    "product_count": 1
+  },
+  {
+    "dev": "i2i Population Health",
+    "dev_id": 1617,
+    "products": [
+      {
+        "name": "PRiZiM",
+        "id": 11405
+      }
+    ],
+    "product_count": 1
+  },
+  {
+    "dev": "iCare.com, Inc.",
+    "dev_id": 1618,
+    "products": [
+      {
+        "name": "iCare EHR",
+        "id": 10314
+      }
+    ],
+    "product_count": 1
+  },
+  {
+    "dev": "Infinx Solutions, LLC",
+    "dev_id": 1622,
+    "products": [
+      {
+        "name": "Infinx EHR",
+        "id": 11413
+      }
+    ],
+    "product_count": 1
+  },
+  {
+    "dev": "AssureCare LLC",
+    "dev_id": 1628,
+    "products": [
+      {
+        "name": "iPatientCare",
+        "id": 8970
+      }
+    ],
+    "product_count": 1
+  },
+  {
+    "dev": "iSALUS Healthcare",
+    "dev_id": 1630,
+    "products": [
+      {
+        "name": "OfficeEMR",
+        "id": 10914
+      }
+    ],
+    "product_count": 1
+  },
+  {
+    "dev": "myhELO, Inc.",
+    "dev_id": 1638,
+    "products": [
+      {
+        "name": "myhELO",
+        "id": 9930
+      }
+    ],
+    "product_count": 1
+  },
+  {
+    "dev": "MedTrio, Inc.",
+    "dev_id": 1647,
+    "products": [
+      {
+        "name": "Medtrio EHR",
+        "id": 11298
+      }
+    ],
+    "product_count": 1
+  },
+  {
+    "dev": "Complete Healthcare Solutions, Inc.",
+    "dev_id": 1649,
+    "products": [
+      {
+        "name": "UnifiMD",
+        "id": 11047
+      }
+    ],
+    "product_count": 1
+  },
+  {
+    "dev": "WestCare Foundation, Inc.",
+    "dev_id": 1650,
+    "products": [
+      {
+        "name": "Clinical Data System",
+        "id": 10249
+      }
+    ],
+    "product_count": 1
+  },
+  {
+    "dev": "CREOKS GoHealth Solutions",
+    "dev_id": 1654,
+    "products": [
+      {
+        "name": "GoHealth Solutions",
+        "id": 11035
+      }
+    ],
+    "product_count": 1
+  },
+  {
+    "dev": "Acurus Solutions, Inc.",
+    "dev_id": 1670,
+    "products": [
+      {
+        "name": "Capella EHR",
+        "id": 10807
+      }
+    ],
+    "product_count": 1
+  },
+  {
+    "dev": "Advanced Technologies Group, LLC",
+    "dev_id": 1671,
+    "products": [
+      {
+        "name": "ATG EHR",
+        "id": 10796
+      }
+    ],
+    "product_count": 1
+  },
+  {
+    "dev": "AllegianceMD Software, Inc.",
+    "dev_id": 1673,
+    "products": [
+      {
+        "name": "Veracity",
+        "id": 10794
+      }
+    ],
+    "product_count": 1
+  },
+  {
+    "dev": "Amrita Ventures, LLC",
+    "dev_id": 1679,
+    "products": [
+      {
+        "name": "Amrita Hospital Information System",
+        "id": 11169
+      }
+    ],
+    "product_count": 1
+  },
+  {
+    "dev": "Bizmatics Inc.",
+    "dev_id": 1690,
+    "products": [
+      {
+        "name": "PrognoCIS",
+        "id": 8856
+      }
+    ],
+    "product_count": 1
+  },
+  {
+    "dev": "CliniComp, Intl.",
+    "dev_id": 1696,
+    "products": [
+      {
+        "name": "CliniComp|EHR",
+        "id": 10998
+      }
+    ],
+    "product_count": 1
+  },
+  {
+    "dev": "Clinigence Health",
+    "dev_id": 1697,
+    "products": [
+      {
+        "name": "Clinigence Value Improvement Platform (VIP)",
+        "id": 9843
+      }
+    ],
+    "product_count": 1
+  },
+  {
+    "dev": "Compulink Healthcare Solutions",
+    "dev_id": 1702,
+    "products": [
+      {
+        "name": "Compulink Advantage",
+        "id": 8873
+      }
+    ],
+    "product_count": 1
+  },
+  {
+    "dev": "Core Solutions Inc",
+    "dev_id": 1704,
+    "products": [
+      {
+        "name": "Cx360",
+        "id": 9168
+      }
+    ],
+    "product_count": 1
+  },
+  {
+    "dev": "Criterions Software Inc",
+    "dev_id": 1706,
+    "products": [
+      {
+        "name": "Criterions EHR",
+        "id": 10171
+      }
+    ],
+    "product_count": 1
+  },
+  {
+    "dev": "CureMD.com, Inc.",
+    "dev_id": 1707,
+    "products": [
+      {
+        "name": "CureMD SMART Cloud",
+        "id": 11246
+      }
+    ],
+    "product_count": 1
+  },
+  {
+    "dev": "Dexter Solutions Inc",
+    "dev_id": 1709,
+    "products": [
+      {
+        "name": "eZDocs",
+        "id": 11432
+      }
+    ],
+    "product_count": 1
+  },
+  {
+    "dev": "DigiDMS, Inc.",
+    "dev_id": 1710,
+    "products": [
+      {
+        "name": "DigiDMS",
+        "id": 11433
+      }
+    ],
+    "product_count": 1
+  },
+  {
+    "dev": "Elation Health, Inc.",
+    "dev_id": 1718,
+    "products": [
+      {
+        "name": "Elation EMR",
+        "id": 9876
+      }
+    ],
+    "product_count": 1
+  },
+  {
+    "dev": "Enable Healthcare Inc.",
+    "dev_id": 1720,
+    "products": [
+      {
+        "name": "MDnet",
+        "id": 10247
+      }
+    ],
+    "product_count": 1
+  },
+  {
+    "dev": "EyeMD EMR Healthcare Systems, Inc.",
+    "dev_id": 1726,
+    "products": [
+      {
+        "name": "EyeMD Electronic Medical Records",
+        "id": 9988
+      }
+    ],
+    "product_count": 1
+  },
+  {
+    "dev": "FIGmd Inc. (an MRO Company)",
+    "dev_id": 1727,
+    "products": [
+      {
+        "name": "FIGmd - Pegasus Quality Platform",
+        "id": 10800
+      }
+    ],
+    "product_count": 1
+  },
+  {
+    "dev": "Family Health Centers of San Diego, Inc.",
+    "dev_id": 1729,
+    "products": [
+      {
+        "name": "CMIS Medical EHR",
+        "id": 11231
+      }
+    ],
+    "product_count": 1
+  },
+  {
+    "dev": "First Insight Corporation",
+    "dev_id": 1730,
+    "products": [
+      {
+        "name": "MaximEyes.com",
+        "id": 10470
+      }
+    ],
+    "product_count": 1
+  },
+  {
+    "dev": "GEMMS",
+    "dev_id": 1735,
+    "products": [
+      {
+        "name": "GEMMS ONE",
+        "id": 11468
+      }
+    ],
+    "product_count": 1
+  },
+  {
+    "dev": "Genius Solutions Inc.",
+    "dev_id": 1738,
+    "products": [
+      {
+        "name": "ehrTHOMAS",
+        "id": 9585
+      }
+    ],
+    "product_count": 1
+  },
+  {
+    "dev": "HCA Healthcare - Information Technology Group",
+    "dev_id": 1741,
+    "products": [
+      {
+        "name": "hCQM",
+        "id": 9279
+      }
+    ],
+    "product_count": 1
+  },
+  {
+    "dev": "MicroMD, LLC",
+    "dev_id": 1754,
+    "products": [
+      {
+        "name": "MicroMD EMR",
+        "id": 11281
+      }
+    ],
+    "product_count": 1
+  },
+  {
+    "dev": "ICANotes LLC",
+    "dev_id": 1756,
+    "products": [
+      {
+        "name": "ICANotes EHR/EMR for Behavioral Health",
+        "id": 11127
+      }
+    ],
+    "product_count": 1
+  },
+  {
+    "dev": "InPracSys",
+    "dev_id": 1763,
+    "products": [
+      {
+        "name": "InPracSys EHR",
+        "id": 10194
+      }
+    ],
+    "product_count": 1
+  },
+  {
+    "dev": "Infor-Med Medical Information Systems Inc.",
+    "dev_id": 1767,
+    "products": [
+      {
+        "name": "Praxis EMR",
+        "id": 10853
+      }
+    ],
+    "product_count": 1
+  },
+  {
+    "dev": "CyberMed Corporation",
+    "dev_id": 1776,
+    "products": [
+      {
+        "name": "CyberMed EHR",
+        "id": 11154
+      }
+    ],
+    "product_count": 1
+  },
+  {
+    "dev": "MD Logic, Inc.",
+    "dev_id": 1786,
+    "products": [
+      {
+        "name": "MD Logic EHR",
+        "id": 11403
+      }
+    ],
+    "product_count": 1
+  },
+  {
+    "dev": "Marquis Software Development, Inc.",
+    "dev_id": 1792,
+    "products": [
+      {
+        "name": "eOMIS Healthcare Management",
+        "id": 9457
+      }
+    ],
+    "product_count": 1
+  },
+  {
+    "dev": "Mayo Clinic Labs",
+    "dev_id": 1793,
+    "products": [
+      {
+        "name": "Mayo Clinic Lab Registry",
+        "id": 11466
+      }
+    ],
+    "product_count": 1
+  },
+  {
+    "dev": "MedInformatix",
+    "dev_id": 1796,
+    "products": [
+      {
+        "name": "MedInformatix EHR",
+        "id": 10683
+      }
+    ],
+    "product_count": 1
+  },
+  {
+    "dev": "MedNet Medical Solutions",
+    "dev_id": 1797,
+    "products": [
+      {
+        "name": "emr4MD",
+        "id": 10214
+      }
+    ],
+    "product_count": 1
+  },
+  {
+    "dev": "Medaxion, Inc.",
+    "dev_id": 1798,
+    "products": [
+      {
+        "name": "Medaxion Pulse",
+        "id": 10743
+      }
+    ],
+    "product_count": 1
+  },
+  {
+    "dev": "MediRec, Inc.",
+    "dev_id": 1800,
+    "products": [
+      {
+        "name": "abcEHR V",
+        "id": 11117
+      }
+    ],
+    "product_count": 1
+  },
+  {
+    "dev": "Medical Office Online",
+    "dev_id": 1802,
+    "products": [
+      {
+        "name": "Medical Office Online",
+        "id": 10846
+      }
+    ],
+    "product_count": 1
+  },
+  {
+    "dev": "MedPharm Services LLC",
+    "dev_id": 1805,
+    "products": [
+      {
+        "name": "Intelligent Medical Software (IMS)",
+        "id": 9739
+      }
+    ],
+    "product_count": 1
+  },
+  {
+    "dev": "Medsphere Systems Corporation",
+    "dev_id": 1807,
+    "products": [
+      {
+        "name": "CQM Tracker",
+        "id": 10139
+      }
+    ],
+    "product_count": 1
+  },
+  {
+    "dev": "NaphCare, Inc.",
+    "dev_id": 1814,
+    "products": [
+      {
+        "name": "TechCare®",
+        "id": 10207
+      }
+    ],
+    "product_count": 1
+  },
+  {
+    "dev": "Net Health",
+    "dev_id": 1816,
+    "products": [
+      {
+        "name": "Net Health® WoundExpert",
+        "id": 9836
+      }
+    ],
+    "product_count": 1
+  },
+  {
+    "dev": "OT EMR, Inc.",
+    "dev_id": 1822,
+    "products": [
+      {
+        "name": "OneTouch EMR",
+        "id": 9396
+      }
+    ],
+    "product_count": 1
+  },
+  {
+    "dev": "Office Ally, LLC",
+    "dev_id": 1823,
+    "products": [
+      {
+        "name": "EHR 24/7",
+        "id": 11431
+      }
+    ],
+    "product_count": 1
+  },
+  {
+    "dev": "Press Ganey Associates",
+    "dev_id": 1835,
+    "products": [
+      {
+        "name": "Quality Performer Hospital eMeasures",
+        "id": 9902
+      }
+    ],
+    "product_count": 1
+  },
+  {
+    "dev": "Professional Imaging, LLC",
+    "dev_id": 1836,
+    "products": [
+      {
+        "name": "PI EMR",
+        "id": 11358
+      }
+    ],
+    "product_count": 1
+  },
+  {
+    "dev": "Pulse Systems, Inc",
+    "dev_id": 1838,
+    "products": [
+      {
+        "name": "Pulse EHR",
+        "id": 11391
+      }
+    ],
+    "product_count": 1
+  },
+  {
+    "dev": "QRS, Inc.",
+    "dev_id": 1839,
+    "products": [
+      {
+        "name": "PARADIGM®",
+        "id": 11142
+      }
+    ],
+    "product_count": 1
+  },
+  {
+    "dev": "Raintree Systems, Inc.",
+    "dev_id": 1842,
+    "products": [
+      {
+        "name": "Raintree",
+        "id": 11050
+      }
+    ],
+    "product_count": 1
+  },
+  {
+    "dev": "Royal Health, Inc.",
+    "dev_id": 1846,
+    "products": [
+      {
+        "name": "Royal Solutions",
+        "id": 10770
+      }
+    ],
+    "product_count": 1
+  },
+  {
+    "dev": "Sequel Systems, Inc.",
+    "dev_id": 1847,
+    "products": [
+      {
+        "name": "SequelMed EHR",
+        "id": 11143
+      }
+    ],
+    "product_count": 1
+  },
+  {
+    "dev": "VSS Medical Technologies, Inc",
+    "dev_id": 1849,
+    "products": [
+      {
+        "name": "Aura Sigmund, MedicFusion Erx",
+        "id": 11325
+      }
+    ],
+    "product_count": 1
+  },
+  {
+    "dev": "Streamline Healthcare Solutions",
+    "dev_id": 1856,
+    "products": [
+      {
+        "name": "SmartCare",
+        "id": 10987
+      }
+    ],
+    "product_count": 1
+  },
+  {
+    "dev": "Consensus Cloud Solutions",
+    "dev_id": 1857,
+    "products": [
+      {
+        "name": "Conductor",
+        "id": 11363
+      }
+    ],
+    "product_count": 1
+  },
+  {
+    "dev": "Systemedx Inc",
+    "dev_id": 1858,
+    "products": [
+      {
+        "name": "Systemedx Clinical Navigator",
+        "id": 11536
+      }
+    ],
+    "product_count": 1
+  },
+  {
+    "dev": "TenEleven Group",
+    "dev_id": 1862,
+    "products": [
+      {
+        "name": "electronic Clinical Record (eCR)",
+        "id": 11200
+      }
+    ],
+    "product_count": 1
+  },
+  {
+    "dev": "The Shams Group",
+    "dev_id": 1863,
+    "products": [
+      {
+        "name": "Galaxy",
+        "id": 10165
+      }
+    ],
+    "product_count": 1
+  },
+  {
+    "dev": "Vision Infonet Inc",
+    "dev_id": 1873,
+    "products": [
+      {
+        "name": "MDCare EMR/PMS",
+        "id": 11184
+      }
+    ],
+    "product_count": 1
+  },
+  {
+    "dev": "Vohra Wound Physicians Management, LLC",
+    "dev_id": 1876,
+    "products": [
+      {
+        "name": "VHS Medical Documentation & Coding",
+        "id": 9887
+      }
+    ],
+    "product_count": 1
+  },
+  {
+    "dev": "eClinicalWorks, LLC",
+    "dev_id": 1884,
+    "products": [
+      {
+        "name": "eClinicalWorks",
+        "id": 11021
+      }
+    ],
+    "product_count": 1
+  },
+  {
+    "dev": "ezEMRx Inc",
+    "dev_id": 1887,
+    "products": [
+      {
+        "name": "ezEMRx",
+        "id": 10779
+      }
+    ],
+    "product_count": 1
+  },
+  {
+    "dev": "DataLink, LLC",
+    "dev_id": 1896,
+    "products": [
+      {
+        "name": "EvokeEHR",
+        "id": 11537
+      }
+    ],
+    "product_count": 1
+  },
+  {
+    "dev": "drchrono Inc.",
+    "dev_id": 1898,
+    "products": [
+      {
+        "name": "drchrono EHR",
+        "id": 10910
+      }
+    ],
+    "product_count": 1
+  },
+  {
+    "dev": "eMedPractice LLC",
+    "dev_id": 1899,
+    "products": [
+      {
+        "name": "eMedicalPractice",
+        "id": 10787
+      }
+    ],
+    "product_count": 1
+  },
+  {
+    "dev": "Health Care 2000, Inc.",
+    "dev_id": 1905,
+    "products": [
+      {
+        "name": "MDVita",
+        "id": 11000
+      }
+    ],
+    "product_count": 1
+  },
+  {
+    "dev": "NextServices, Inc.",
+    "dev_id": 1912,
+    "products": [
+      {
+        "name": "enki EHR",
+        "id": 11372
+      }
+    ],
+    "product_count": 1
+  },
+  {
+    "dev": "Radysans, Inc",
+    "dev_id": 1913,
+    "products": [
+      {
+        "name": "Radysans EHR",
+        "id": 10253
+      }
+    ],
+    "product_count": 1
+  },
+  {
+    "dev": "VIPA Health Solutions, LLC",
+    "dev_id": 1917,
+    "products": [
+      {
+        "name": "24/7 smartEMR",
+        "id": 11079
+      }
+    ],
+    "product_count": 1
+  },
+  {
+    "dev": "Empower Systems",
+    "dev_id": 1919,
+    "products": [
+      {
+        "name": "Empower Inpatient+Ambulatory",
+        "id": 11326
+      }
+    ],
+    "product_count": 1
+  },
+  {
+    "dev": "DAW SYSTEMS, INC.",
+    "dev_id": 1920,
+    "products": [
+      {
+        "name": "ScriptSure Cloud",
+        "id": 11366
+      }
+    ],
+    "product_count": 1
+  },
+  {
+    "dev": "McKesson Specialty Health Technology Products LLC (Ontada)",
+    "dev_id": 1921,
+    "products": [
+      {
+        "name": "iKnowMed Generation 2",
+        "id": 9580
+      }
+    ],
+    "product_count": 1
+  },
+  {
+    "dev": "Medisolv, Inc.",
+    "dev_id": 1923,
+    "products": [
+      {
+        "name": "ENCOR-e",
+        "id": 10137
+      }
+    ],
+    "product_count": 1
+  },
+  {
+    "dev": "Physician's Computer Company",
+    "dev_id": 1924,
+    "products": [
+      {
+        "name": "PCC EHR",
+        "id": 11472
+      }
+    ],
+    "product_count": 1
+  },
+  {
+    "dev": "Practice Fusion",
+    "dev_id": 1925,
+    "products": [
+      {
+        "name": "Practice Fusion EHR",
+        "id": 9833
+      }
+    ],
+    "product_count": 1
+  },
+  {
+    "dev": "Clinical Data Solutions",
+    "dev_id": 1933,
+    "products": [
+      {
+        "name": "The Clinical Manager",
+        "id": 11280
+      }
+    ],
+    "product_count": 1
+  },
+  {
+    "dev": "Equicare Health Incorporated",
+    "dev_id": 1934,
+    "products": [
+      {
+        "name": "EQUICARE CS",
+        "id": 11390
+      }
+    ],
+    "product_count": 1
+  },
+  {
+    "dev": "Tenzing Medical LLC",
+    "dev_id": 1937,
+    "products": [
+      {
+        "name": "Tenzing VistA",
+        "id": 10799
+      }
+    ],
+    "product_count": 1
+  },
+  {
+    "dev": "Vision Works, Inc.",
+    "dev_id": 1940,
+    "products": [
+      {
+        "name": "Vision Works",
+        "id": 10954
+      }
+    ],
+    "product_count": 1
+  },
+  {
+    "dev": "Winnebago County Wisconsin",
+    "dev_id": 1941,
+    "products": [
+      {
+        "name": "Luna",
+        "id": 11530
+      }
+    ],
+    "product_count": 1
+  },
+  {
+    "dev": "Progression Systems, LLC",
+    "dev_id": 1942,
+    "products": [
+      {
+        "name": "PSNet",
+        "id": 8218
+      }
+    ],
+    "product_count": 1
+  },
+  {
+    "dev": "UnisLink",
+    "dev_id": 1943,
+    "products": [
+      {
+        "name": "UnisLink iCMS (Intelligent Care Management Suite)",
+        "id": 10699
+      }
+    ],
+    "product_count": 1
+  },
+  {
+    "dev": "EHR1, LLC",
+    "dev_id": 1947,
+    "products": [
+      {
+        "name": "EHR1",
+        "id": 10277
+      }
+    ],
+    "product_count": 1
+  },
+  {
+    "dev": "Roji Health Intelligence LLC",
+    "dev_id": 1952,
+    "products": [
+      {
+        "name": "Roji Clinical Data Registry",
+        "id": 8332
+      }
+    ],
+    "product_count": 1
+  },
+  {
+    "dev": "VigiLanz Corporation",
+    "dev_id": 1954,
+    "products": [
+      {
+        "name": "VigiLanz Corporation",
+        "id": 11319
+      }
+    ],
+    "product_count": 1
+  },
+  {
+    "dev": "Ankhos Oncology Software",
+    "dev_id": 1960,
+    "products": [
+      {
+        "name": "Ankhos",
+        "id": 10528
+      }
+    ],
+    "product_count": 1
+  },
+  {
+    "dev": "Integra Connect Newco, LLC",
+    "dev_id": 1965,
+    "products": [
+      {
+        "name": "IntegraCloud EHR",
+        "id": 11025
+      }
+    ],
+    "product_count": 1
+  },
+  {
+    "dev": "Iron Bridge Integration, Inc.",
+    "dev_id": 1966,
+    "products": [
+      {
+        "name": "Pub Hub",
+        "id": 8562
+      }
+    ],
+    "product_count": 1
+  },
+  {
+    "dev": "Imprivata Inc. (FKA Maize Analytics, Inc.)",
+    "dev_id": 1968,
+    "products": [
+      {
+        "name": "Explanation Based Auditing System",
+        "id": 9829
+      }
+    ],
+    "product_count": 1
+  },
+  {
+    "dev": "Cedaron Medical, Inc.",
+    "dev_id": 1971,
+    "products": [
+      {
+        "name": "Connect",
+        "id": 10804
+      }
+    ],
+    "product_count": 1
+  },
+  {
+    "dev": "Cyfluent",
+    "dev_id": 1976,
+    "products": [
+      {
+        "name": "Cyfluent",
+        "id": 10072
+      }
+    ],
+    "product_count": 1
+  },
+  {
+    "dev": "IntrinsiQ Specialty Solutions, Inc. FBO Healthtronics Information Technology Solutions Inc.",
+    "dev_id": 1979,
+    "products": [
+      {
+        "name": "UroChart EHR",
+        "id": 11138
+      }
+    ],
+    "product_count": 1
+  },
+  {
+    "dev": "Medi-EHR, LLC",
+    "dev_id": 1980,
+    "products": [
+      {
+        "name": "Medi-EHR",
+        "id": 10831
+      }
+    ],
+    "product_count": 1
+  },
+  {
+    "dev": "ModuleMD",
+    "dev_id": 1981,
+    "products": [
+      {
+        "name": "ModuleMD WISE™",
+        "id": 11092
+      }
+    ],
+    "product_count": 1
+  },
+  {
+    "dev": "CareCloud Health, Inc.",
+    "dev_id": 1982,
+    "products": [
+      {
+        "name": "CareCloud Charts",
+        "id": 11173
+      }
+    ],
+    "product_count": 1
+  },
+  {
+    "dev": "Carepaths Inc",
+    "dev_id": 1983,
+    "products": [
+      {
+        "name": "CarePaths EHR",
+        "id": 10607
+      }
+    ],
+    "product_count": 1
+  },
+  {
+    "dev": "Comtron Inc.",
+    "dev_id": 1985,
+    "products": [
+      {
+        "name": "Medgen EHR",
+        "id": 10986
+      }
+    ],
+    "product_count": 1
+  },
+  {
+    "dev": "Doc-tor.com",
+    "dev_id": 1986,
+    "products": [
+      {
+        "name": "Picasso",
+        "id": 11399
+      }
+    ],
+    "product_count": 1
+  },
+  {
+    "dev": "EZDERM, LLC",
+    "dev_id": 1988,
+    "products": [
+      {
+        "name": "EZDERM",
+        "id": 11071
+      }
+    ],
+    "product_count": 1
+  },
+  {
+    "dev": "Nexus Clinical LLC",
+    "dev_id": 1990,
+    "products": [
+      {
+        "name": "Nexus EHR",
+        "id": 11130
+      }
+    ],
+    "product_count": 1
+  },
+  {
+    "dev": "ReLi Med Solutions, LLC",
+    "dev_id": 1991,
+    "products": [
+      {
+        "name": "ReLiMed EMR",
+        "id": 11024
+      }
+    ],
+    "product_count": 1
+  },
+  {
+    "dev": "ChartPath, LLC",
+    "dev_id": 1997,
+    "products": [
+      {
+        "name": "ChartPath",
+        "id": 10258
+      }
+    ],
+    "product_count": 1
+  },
+  {
+    "dev": "Practice EHR LLC",
+    "dev_id": 1998,
+    "products": [
+      {
+        "name": "Practice EHR",
+        "id": 10923
+      }
+    ],
+    "product_count": 1
+  },
+  {
+    "dev": "Virtusa Corporation",
+    "dev_id": 2002,
+    "products": [
+      {
+        "name": "CareDiscovery Electronic Quality Measures",
+        "id": 11348
+      }
+    ],
+    "product_count": 1
+  },
+  {
+    "dev": "Zoobook Systems LLC",
+    "dev_id": 2009,
+    "products": [
+      {
+        "name": "Zoobook EHR",
+        "id": 9268
+      }
+    ],
+    "product_count": 1
+  },
+  {
+    "dev": "Picis Clinical Solutions, Inc",
+    "dev_id": 2010,
+    "products": [
+      {
+        "name": "Medstreaming Practice Suite",
+        "id": 10952
+      }
+    ],
+    "product_count": 1
+  },
+  {
+    "dev": "Flatiron Health",
+    "dev_id": 2011,
+    "products": [
+      {
+        "name": "OncoEMR",
+        "id": 11115
+      }
+    ],
+    "product_count": 1
+  },
+  {
+    "dev": "US Monitoring, Inc.",
+    "dev_id": 2012,
+    "products": [
+      {
+        "name": "USMON Database",
+        "id": 11096
+      }
+    ],
+    "product_count": 1
+  },
+  {
+    "dev": "MDOfficeManager",
+    "dev_id": 2014,
+    "products": [
+      {
+        "name": "GeeseMed",
+        "id": 11104
+      }
+    ],
+    "product_count": 1
+  },
+  {
+    "dev": "Mendelson Kornblum Orthopedic & Spine Specialists",
+    "dev_id": 2015,
+    "products": [
+      {
+        "name": "OrthoplexEMR",
+        "id": 9349
+      }
+    ],
+    "product_count": 1
+  },
+  {
+    "dev": "NovoMedici, LLC",
+    "dev_id": 2016,
+    "products": [
+      {
+        "name": "NovoClinical",
+        "id": 10805
+      }
+    ],
+    "product_count": 1
+  },
+  {
+    "dev": "AutoMedical LLC",
+    "dev_id": 2017,
+    "products": [
+      {
+        "name": "Med-A-Morphosis",
+        "id": 9404
+      }
+    ],
+    "product_count": 1
+  },
+  {
+    "dev": "Sisoft Healthcare Information Systems",
+    "dev_id": 2019,
+    "products": [
+      {
+        "name": "SisoHis",
+        "id": 9462
+      }
+    ],
+    "product_count": 1
+  },
+  {
+    "dev": "ChartPerfect, Inc.",
+    "dev_id": 2020,
+    "products": [
+      {
+        "name": "ChartPerfect EHR",
+        "id": 11565
+      }
+    ],
+    "product_count": 1
+  },
+  {
+    "dev": "myElth Inc",
+    "dev_id": 2022,
+    "products": [
+      {
+        "name": "myElth EHR",
+        "id": 10836
+      }
+    ],
+    "product_count": 1
+  },
+  {
+    "dev": "Becton Dickinson and Company",
+    "dev_id": 2025,
+    "products": [
+      {
+        "name": "HealthSight Advisors",
+        "id": 10802
+      }
+    ],
+    "product_count": 1
+  },
+  {
+    "dev": "Anagen Systems",
+    "dev_id": 2026,
+    "products": [
+      {
+        "name": "Complete. MD Patient Web Portal",
+        "id": 9683
+      }
+    ],
+    "product_count": 1
+  },
+  {
+    "dev": "Modernizing Medicine Gastroenterology, LLC",
+    "dev_id": 2032,
+    "products": [
+      {
+        "name": "gGastro",
+        "id": 11054
+      }
+    ],
+    "product_count": 1
+  },
+  {
+    "dev": "CPS",
+    "dev_id": 2033,
+    "products": [
+      {
+        "name": "EHRs-C",
+        "id": 11428
+      }
+    ],
+    "product_count": 1
+  },
+  {
+    "dev": "Health Catalyst, Inc.",
+    "dev_id": 2035,
+    "products": [
+      {
+        "name": "MeasureAble",
+        "id": 11444
+      }
+    ],
+    "product_count": 1
+  },
+  {
+    "dev": "PhysicianXpress, Inc.",
+    "dev_id": 2045,
+    "products": [
+      {
+        "name": "PediatricXpress",
+        "id": 11010
+      }
+    ],
+    "product_count": 1
+  },
+  {
+    "dev": "Office Practicum",
+    "dev_id": 2049,
+    "products": [
+      {
+        "name": "Office Practicum",
+        "id": 11049
+      }
+    ],
+    "product_count": 1
+  },
+  {
+    "dev": "Ulrich Medical Concepts",
+    "dev_id": 2050,
+    "products": [
+      {
+        "name": "Team Chart Concept",
+        "id": 10227
+      }
+    ],
+    "product_count": 1
+  },
+  {
+    "dev": "EyeCare Partners, LLC",
+    "dev_id": 2052,
+    "products": [
+      {
+        "name": "EyeCare 360",
+        "id": 11170
+      }
+    ],
+    "product_count": 1
+  },
+  {
+    "dev": "Sapphire Health",
+    "dev_id": 2053,
+    "products": [
+      {
+        "name": "Sapphire EHR",
+        "id": 11228
+      }
+    ],
+    "product_count": 1
+  },
+  {
+    "dev": "Payoda Technology Inc.",
+    "dev_id": 2055,
+    "products": [
+      {
+        "name": "HealthViewX",
+        "id": 11415
+      }
+    ],
+    "product_count": 1
+  },
+  {
+    "dev": "Skilled Wound Care",
+    "dev_id": 2056,
+    "products": [
+      {
+        "name": "Treasure EHR",
+        "id": 11266
+      }
+    ],
+    "product_count": 1
+  },
+  {
+    "dev": "PRN Software (DoseSpot)",
+    "dev_id": 2057,
+    "products": [
+      {
+        "name": "DoseSpot",
+        "id": 10919
+      }
+    ],
+    "product_count": 1
+  },
+  {
+    "dev": "Medicus Clinical, LLC",
+    "dev_id": 2058,
+    "products": [
+      {
+        "name": "MedicusEHR",
+        "id": 10164
+      }
+    ],
+    "product_count": 1
+  },
+  {
+    "dev": "Lille Group, Inc.",
+    "dev_id": 2059,
+    "products": [
+      {
+        "name": "escribeHOST",
+        "id": 10830
+      }
+    ],
+    "product_count": 1
+  },
+  {
+    "dev": "DocToMe, Inc.",
+    "dev_id": 2061,
+    "products": [
+      {
+        "name": "ethizo EHR",
+        "id": 10265
+      }
+    ],
+    "product_count": 1
+  },
+  {
+    "dev": "VieCure, Inc.",
+    "dev_id": 2067,
+    "products": [
+      {
+        "name": "VieCure",
+        "id": 11077
+      }
+    ],
+    "product_count": 1
+  },
+  {
+    "dev": "Softbir, Inc.",
+    "dev_id": 2068,
+    "products": [
+      {
+        "name": "CloudMD365",
+        "id": 10282
+      }
+    ],
+    "product_count": 1
+  },
+  {
+    "dev": "Accelerated Care Plus",
+    "dev_id": 2069,
+    "products": [
+      {
+        "name": "ACPlus™",
+        "id": 11412
+      }
+    ],
+    "product_count": 1
+  },
+  {
+    "dev": "Picis PulseCheck",
+    "dev_id": 2071,
+    "products": [
+      {
+        "name": "PulseCheck ED",
+        "id": 10761
+      }
+    ],
+    "product_count": 1
+  },
+  {
+    "dev": "CloudCraft, LLC",
+    "dev_id": 2072,
+    "products": [
+      {
+        "name": "CloudCraft Software",
+        "id": 11150
+      }
+    ],
+    "product_count": 1
+  },
+  {
+    "dev": "ZH Healthcare, Inc.",
+    "dev_id": 2077,
+    "products": [
+      {
+        "name": "BlueEHR",
+        "id": 10797
+      }
+    ],
+    "product_count": 1
+  },
+  {
+    "dev": "YOURDRS Services LLC",
+    "dev_id": 2080,
+    "products": [
+      {
+        "name": "YOURDRS",
+        "id": 10475
+      }
+    ],
+    "product_count": 1
+  },
+  {
+    "dev": "MDinteractive",
+    "dev_id": 2081,
+    "products": [
+      {
+        "name": "MDinteractive",
+        "id": 10691
+      }
+    ],
+    "product_count": 1
+  },
+  {
+    "dev": "agilon health inc.",
+    "dev_id": 2083,
+    "products": [
+      {
+        "name": "Minerva",
+        "id": 10649
+      }
+    ],
+    "product_count": 1
+  },
+  {
+    "dev": "Landmark Health, LLC",
+    "dev_id": 2085,
+    "products": [
+      {
+        "name": "Ubiquity",
+        "id": 10824
+      }
+    ],
+    "product_count": 1
+  },
+  {
+    "dev": "Beyond Essential Systems",
+    "dev_id": 2086,
+    "products": [
+      {
+        "name": "Tamanu EMR",
+        "id": 10617
+      }
+    ],
+    "product_count": 1
+  },
+  {
+    "dev": "Extended Care Professional, LLC",
+    "dev_id": 2087,
+    "products": [
+      {
+        "name": "ECP",
+        "id": 10619
+      }
+    ],
+    "product_count": 1
+  },
+  {
+    "dev": "Syntellis Performance Solutions, LLC",
+    "dev_id": 2088,
+    "products": [
+      {
+        "name": "Clinical Exchange Communicator",
+        "id": 11114
+      }
+    ],
+    "product_count": 1
+  },
+  {
+    "dev": "Mobile MediClaim",
+    "dev_id": 2089,
+    "products": [
+      {
+        "name": "Mobile MediClaim",
+        "id": 11220
+      }
+    ],
+    "product_count": 1
+  },
+  {
+    "dev": "Renvio",
+    "dev_id": 2090,
+    "products": [
+      {
+        "name": "Clarity",
+        "id": 11345
+      }
+    ],
+    "product_count": 1
+  },
+  {
+    "dev": "CareSpan USA,Inc.",
+    "dev_id": 2091,
+    "products": [
+      {
+        "name": "CareSpan Digital Health Platform",
+        "id": 10665
+      }
+    ],
+    "product_count": 1
+  },
+  {
+    "dev": "Theoria Medical, PLLC",
+    "dev_id": 2092,
+    "products": [
+      {
+        "name": "ChartEasy™",
+        "id": 10712
+      }
+    ],
+    "product_count": 1
+  },
+  {
+    "dev": "Verana Health",
+    "dev_id": 2093,
+    "products": [
+      {
+        "name": "Verana Quality Measures",
+        "id": 11215
+      }
+    ],
+    "product_count": 1
+  },
+  {
+    "dev": "Ennoble Technologies LLC",
+    "dev_id": 2095,
+    "products": [
+      {
+        "name": "Office Anywhere",
+        "id": 11111
+      }
+    ],
+    "product_count": 1
+  },
+  {
+    "dev": "SolidPractice Technologies, LLC",
+    "dev_id": 2096,
+    "products": [
+      {
+        "name": "SolidPractice",
+        "id": 10763
+      }
+    ],
+    "product_count": 1
+  },
+  {
+    "dev": "Kanrad Technologies Inc",
+    "dev_id": 2097,
+    "products": [
+      {
+        "name": "KanTime Health",
+        "id": 11219
+      }
+    ],
+    "product_count": 1
+  },
+  {
+    "dev": "Strateq Health, Inc.",
+    "dev_id": 2098,
+    "products": [
+      {
+        "name": "StrateqEHR",
+        "id": 10778
+      }
+    ],
+    "product_count": 1
+  },
+  {
+    "dev": "Magilen Enterprises Inc",
+    "dev_id": 2099,
+    "products": [
+      {
+        "name": "QSmartCare",
+        "id": 10803
+      }
+    ],
+    "product_count": 1
+  },
+  {
+    "dev": "Astronaut, LLC",
+    "dev_id": 2100,
+    "products": [
+      {
+        "name": "Astronaut",
+        "id": 10809
+      }
+    ],
+    "product_count": 1
+  },
+  {
+    "dev": "Lancman Solutions LLC",
+    "dev_id": 2101,
+    "products": [
+      {
+        "name": "Epi-Management",
+        "id": 11125
+      }
+    ],
+    "product_count": 1
+  },
+  {
+    "dev": "Epividian, Inc.",
+    "dev_id": 2102,
+    "products": [
+      {
+        "name": "CHORUS",
+        "id": 11264
+      }
+    ],
+    "product_count": 1
+  },
+  {
+    "dev": "MediFusion, LLC",
+    "dev_id": 2103,
+    "products": [
+      {
+        "name": "MediFusion",
+        "id": 10845
+      }
+    ],
+    "product_count": 1
+  },
+  {
+    "dev": "AaNeel Infotech",
+    "dev_id": 2108,
+    "products": [
+      {
+        "name": "My Health EHR - By AaNeelCare",
+        "id": 11268
+      }
+    ],
+    "product_count": 1
+  },
+  {
+    "dev": "Exym",
+    "dev_id": 2110,
+    "products": [
+      {
+        "name": "Exym",
+        "id": 10898
+      }
+    ],
+    "product_count": 1
+  },
+  {
+    "dev": "Caremerge",
+    "dev_id": 2111,
+    "products": [
+      {
+        "name": "Senior Living EHR",
+        "id": 10899
+      }
+    ],
+    "product_count": 1
+  },
+  {
+    "dev": "Aline",
+    "dev_id": 2112,
+    "products": [
+      {
+        "name": "Aline Care",
+        "id": 10902
+      }
+    ],
+    "product_count": 1
+  },
+  {
+    "dev": "Canvas Medical, Inc.",
+    "dev_id": 2113,
+    "products": [
+      {
+        "name": "Canvas Medical",
+        "id": 10904
+      }
+    ],
+    "product_count": 1
+  },
+  {
+    "dev": "ePH Solutions, Inc",
+    "dev_id": 2114,
+    "products": [
+      {
+        "name": "ePHS-EMR",
+        "id": 10909
+      }
+    ],
+    "product_count": 1
+  },
+  {
+    "dev": "OpenEMR Foundation",
+    "dev_id": 2116,
+    "products": [
+      {
+        "name": "OpenEMR",
+        "id": 10938
+      }
+    ],
+    "product_count": 1
+  },
+  {
+    "dev": "LogiCoy Inc",
+    "dev_id": 2118,
+    "products": [
+      {
+        "name": "LogiCoy eRx",
+        "id": 10944
+      }
+    ],
+    "product_count": 1
+  },
+  {
+    "dev": "PartnerHelper",
+    "dev_id": 2119,
+    "products": [
+      {
+        "name": "DoctorHelper",
+        "id": 10953
+      }
+    ],
+    "product_count": 1
+  },
+  {
+    "dev": "Health Samurai, Inc.",
+    "dev_id": 2120,
+    "products": [
+      {
+        "name": "Aidbox FHIR API module",
+        "id": 11204
+      }
+    ],
+    "product_count": 1
+  },
+  {
+    "dev": "Doctornow Inc.",
+    "dev_id": 2121,
+    "products": [
+      {
+        "name": "DocNow EHR",
+        "id": 11756
+      }
+    ],
+    "product_count": 1
+  },
+  {
+    "dev": "OnCall Health",
+    "dev_id": 2123,
+    "products": [
+      {
+        "name": "OnCall Health",
+        "id": 11216
+      }
+    ],
+    "product_count": 1
+  },
+  {
+    "dev": "OMNIWOUND LLC",
+    "dev_id": 2126,
+    "products": [
+      {
+        "name": "OmniEMR",
+        "id": 11017
+      }
+    ],
+    "product_count": 1
+  },
+  {
+    "dev": "MD1, Inc.",
+    "dev_id": 2127,
+    "products": [
+      {
+        "name": "MD1 Continuum",
+        "id": 11030
+      }
+    ],
+    "product_count": 1
+  },
+  {
+    "dev": "Kesz1 Technologies",
+    "dev_id": 2128,
+    "products": [
+      {
+        "name": "Civic Scheduler",
+        "id": 11033
+      }
+    ],
+    "product_count": 1
+  },
+  {
+    "dev": "AiTmed Inc.",
+    "dev_id": 2129,
+    "products": [
+      {
+        "name": "AiTmed Telehealth System",
+        "id": 11036
+      }
+    ],
+    "product_count": 1
+  },
+  {
+    "dev": "Smile CDR Inc. (doing business as Smile Digital Health)",
+    "dev_id": 2130,
+    "products": [
+      {
+        "name": "Smile CDR",
+        "id": 11622
+      }
+    ],
+    "product_count": 1
+  },
+  {
+    "dev": "Healthie",
+    "dev_id": 2131,
+    "products": [
+      {
+        "name": "Healthie",
+        "id": 11055
+      }
+    ],
+    "product_count": 1
+  },
+  {
+    "dev": "F&A Management",
+    "dev_id": 2132,
+    "products": [
+      {
+        "name": "RoverMD",
+        "id": 11061
+      }
+    ],
+    "product_count": 1
+  },
+  {
+    "dev": "Udoc Technologies, LLC",
+    "dev_id": 2133,
+    "products": [
+      {
+        "name": "Udoc",
+        "id": 11236
+      }
+    ],
+    "product_count": 1
+  },
+  {
+    "dev": "CHN Tech Solutions LLC",
+    "dev_id": 2134,
+    "products": [
+      {
+        "name": "Integrated Care EHR",
+        "id": 11067
+      }
+    ],
+    "product_count": 1
+  },
+  {
+    "dev": "Axxess",
+    "dev_id": 2135,
+    "products": [
+      {
+        "name": "Axxess Palliative",
+        "id": 11620
+      }
+    ],
+    "product_count": 1
+  },
+  {
+    "dev": "Ensora Health",
+    "dev_id": 2136,
+    "products": [
+      {
+        "name": "Ensora eRx",
+        "id": 11122
+      }
+    ],
+    "product_count": 1
+  },
+  {
+    "dev": "Sai Systems Digital LLC",
+    "dev_id": 2138,
+    "products": [
+      {
+        "name": "PacEHR",
+        "id": 11177
+      }
+    ],
+    "product_count": 1
+  },
+  {
+    "dev": "IMAT Solutions",
+    "dev_id": 2139,
+    "products": [
+      {
+        "name": "IMAT Solutions",
+        "id": 11188
+      }
+    ],
+    "product_count": 1
+  },
+  {
+    "dev": "Pure EHR LLC",
+    "dev_id": 2140,
+    "products": [
+      {
+        "name": "Pure EHR",
+        "id": 11213
+      }
+    ],
+    "product_count": 1
+  },
+  {
+    "dev": "Moyae, Inc.",
+    "dev_id": 2142,
+    "products": [
+      {
+        "name": "Moyae",
+        "id": 11331
+      }
+    ],
+    "product_count": 1
+  },
+  {
+    "dev": "Practice Compass, LLC",
+    "dev_id": 2143,
+    "products": [
+      {
+        "name": "PracticeCompass EMR",
+        "id": 11232
+      }
+    ],
+    "product_count": 1
+  },
+  {
+    "dev": "Firely USA Inc.",
+    "dev_id": 2144,
+    "products": [
+      {
+        "name": "Firely Server",
+        "id": 11631
+      }
+    ],
+    "product_count": 1
+  },
+  {
+    "dev": "SIMPLEASY HEALTHCARE SOLUTIONS, LLC",
+    "dev_id": 2146,
+    "products": [
+      {
+        "name": "EMeRSE",
+        "id": 11400
+      }
+    ],
+    "product_count": 1
+  },
+  {
+    "dev": "Point and Click Solutions, Inc.",
+    "dev_id": 2147,
+    "products": [
+      {
+        "name": "PNC Suite",
+        "id": 11249
+      }
+    ],
+    "product_count": 1
+  },
+  {
+    "dev": "Medplum",
+    "dev_id": 2148,
+    "products": [
+      {
+        "name": "Medplum",
+        "id": 11256
+      }
+    ],
+    "product_count": 1
+  },
+  {
+    "dev": "EDENLAB OÜ",
+    "dev_id": 2149,
+    "products": [
+      {
+        "name": "Kodjin FHIR Server",
+        "id": 11265
+      }
+    ],
+    "product_count": 1
+  },
+  {
+    "dev": "Mediportal",
+    "dev_id": 2150,
+    "products": [
+      {
+        "name": "M-Power",
+        "id": 11272
+      }
+    ],
+    "product_count": 1
+  },
+  {
+    "dev": "MedAZ.Net, LLC",
+    "dev_id": 2151,
+    "products": [
+      {
+        "name": "Med A-Z",
+        "id": 11300
+      }
+    ],
+    "product_count": 1
+  },
+  {
+    "dev": "BroadStreet Health LLC",
+    "dev_id": 2162,
+    "products": [
+      {
+        "name": "BroadStreet",
+        "id": 11410
+      }
+    ],
+    "product_count": 1
+  },
+  {
+    "dev": "Osler, Inc.",
+    "dev_id": 2163,
+    "products": [
+      {
+        "name": "CareRails",
+        "id": 11317
+      }
+    ],
+    "product_count": 1
+  },
+  {
+    "dev": "Asolva, Inc.",
+    "dev_id": 2164,
+    "products": [
+      {
+        "name": "Medici",
+        "id": 11321
+      }
+    ],
+    "product_count": 1
+  },
+  {
+    "dev": "Sri Laxmi Kravia Techlabs Private Limited",
+    "dev_id": 2165,
+    "products": [
+      {
+        "name": "Vedos",
+        "id": 11414
+      }
+    ],
+    "product_count": 1
+  },
+  {
+    "dev": "Mirketa Inc",
+    "dev_id": 2166,
+    "products": [
+      {
+        "name": "Elixir",
+        "id": 11323
+      }
+    ],
+    "product_count": 1
+  },
+  {
+    "dev": "iTRUST",
+    "dev_id": 2167,
+    "products": [
+      {
+        "name": "iTRUST",
+        "id": 11324
+      }
+    ],
+    "product_count": 1
+  },
+  {
+    "dev": "Aarista Technology LLC",
+    "dev_id": 2169,
+    "products": [
+      {
+        "name": "Aarista",
+        "id": 11329
+      }
+    ],
+    "product_count": 1
+  },
+  {
+    "dev": "Care Eco Corp",
+    "dev_id": 2171,
+    "products": [
+      {
+        "name": "CareEco",
+        "id": 11349
+      }
+    ],
+    "product_count": 1
+  },
+  {
+    "dev": "EHNOTE,INC",
+    "dev_id": 2172,
+    "products": [
+      {
+        "name": "EHNOTE",
+        "id": 11356
+      }
+    ],
+    "product_count": 1
+  },
+  {
+    "dev": "Claimocity, Inc.",
+    "dev_id": 2173,
+    "products": [
+      {
+        "name": "Claimocity",
+        "id": 11359
+      }
+    ],
+    "product_count": 1
+  },
+  {
+    "dev": "MaxRemind Inc",
+    "dev_id": 2174,
+    "products": [
+      {
+        "name": "Maximus",
+        "id": 11360
+      }
+    ],
+    "product_count": 1
+  },
+  {
+    "dev": "IDC Telemed",
+    "dev_id": 2175,
+    "products": [
+      {
+        "name": "ILUM Insight",
+        "id": 11362
+      }
+    ],
+    "product_count": 1
+  },
+  {
+    "dev": "iTreatMD",
+    "dev_id": 2176,
+    "products": [
+      {
+        "name": "iTreatMD",
+        "id": 11364
+      }
+    ],
+    "product_count": 1
+  },
+  {
+    "dev": "Morris Systems, Inc. d/b/a M-Systems, Inc.",
+    "dev_id": 2177,
+    "products": [
+      {
+        "name": "MHS",
+        "id": 11367
+      }
+    ],
+    "product_count": 1
+  },
+  {
+    "dev": "CRITERION TECH PRIVATE LIMITED",
+    "dev_id": 2178,
+    "products": [
+      {
+        "name": "Medvantage",
+        "id": 11369
+      }
+    ],
+    "product_count": 1
+  },
+  {
+    "dev": "Health Endeavors",
+    "dev_id": 2179,
+    "products": [
+      {
+        "name": "Health Endeavors Registry",
+        "id": 11402
+      }
+    ],
+    "product_count": 1
+  },
+  {
+    "dev": "Willowglade Technologies Corporation",
+    "dev_id": 2180,
+    "products": [
+      {
+        "name": "Personal Health Navigator",
+        "id": 11411
+      }
+    ],
+    "product_count": 1
+  },
+  {
+    "dev": "PipelineRx",
+    "dev_id": 2181,
+    "products": [
+      {
+        "name": "PowerGridRx",
+        "id": 11417
+      }
+    ],
+    "product_count": 1
+  },
+  {
+    "dev": "MedOne Healthcare Partners",
+    "dev_id": 2183,
+    "products": [
+      {
+        "name": "OneConnect",
+        "id": 11426
+      }
+    ],
+    "product_count": 1
+  },
+  {
+    "dev": "Lightning Step Technologies",
+    "dev_id": 2184,
+    "products": [
+      {
+        "name": "Lightning Step",
+        "id": 11427
+      }
+    ],
+    "product_count": 1
+  },
+  {
+    "dev": "Galaxy",
+    "dev_id": 2185,
+    "products": [
+      {
+        "name": "Galaxy",
+        "id": 11440
+      }
+    ],
+    "product_count": 1
+  },
+  {
+    "dev": "HealthAdvanta",
+    "dev_id": 2186,
+    "products": [
+      {
+        "name": "HealthAdvanta",
+        "id": 11441
+      }
+    ],
+    "product_count": 1
+  },
+  {
+    "dev": "Yasasii Solutions America LLC",
+    "dev_id": 2187,
+    "products": [
+      {
+        "name": "YASASII",
+        "id": 11442
+      }
+    ],
+    "product_count": 1
+  },
+  {
+    "dev": "HFWL Company",
+    "dev_id": 2188,
+    "products": [
+      {
+        "name": "EndocPM",
+        "id": 11443
+      }
+    ],
+    "product_count": 1
+  },
+  {
+    "dev": "Myriad Systems",
+    "dev_id": 2189,
+    "products": [
+      {
+        "name": "Myriad Health",
+        "id": 11452
+      }
+    ],
+    "product_count": 1
+  },
+  {
+    "dev": "Trinitas LLC",
+    "dev_id": 2190,
+    "products": [
+      {
+        "name": "FEHR",
+        "id": 11454
+      }
+    ],
+    "product_count": 1
+  },
+  {
+    "dev": "MDFlow EHR, LLC DBA: MDFlow Systems",
+    "dev_id": 2191,
+    "products": [
+      {
+        "name": "MDFlow EHR and Patient Care Workflow Management System",
+        "id": 11459
+      }
+    ],
+    "product_count": 1
+  },
+  {
+    "dev": "Thinkhat Software Inc",
+    "dev_id": 2192,
+    "products": [
+      {
+        "name": "ENLIV",
+        "id": 11461
+      }
+    ],
+    "product_count": 1
+  },
+  {
+    "dev": "Regard Technologies",
+    "dev_id": 2193,
+    "products": [
+      {
+        "name": "Regard SaaS Solution",
+        "id": 11467
+      }
+    ],
+    "product_count": 1
+  },
+  {
+    "dev": "SMARTMD Technologies, Inc.",
+    "dev_id": 2195,
+    "products": [
+      {
+        "name": "SMARTMD Palliative",
+        "id": 11476
+      }
+    ],
+    "product_count": 1
+  },
+  {
+    "dev": "MassLight",
+    "dev_id": 2197,
+    "products": [
+      {
+        "name": "Oystehr",
+        "id": 11489
+      }
+    ],
+    "product_count": 1
+  },
+  {
+    "dev": "Medcare MSO",
+    "dev_id": 2198,
+    "products": [
+      {
+        "name": "HealUs EHR",
+        "id": 11495
+      }
+    ],
+    "product_count": 1
+  },
+  {
+    "dev": "Innovaccer Inc",
+    "dev_id": 2199,
+    "products": [
+      {
+        "name": "InGraph",
+        "id": 11618
+      }
+    ],
+    "product_count": 1
+  },
+  {
+    "dev": "Careficient Inc",
+    "dev_id": 2200,
+    "products": [
+      {
+        "name": "Careficient",
+        "id": 11514
+      }
+    ],
+    "product_count": 1
+  },
+  {
+    "dev": "WebPT",
+    "dev_id": 2201,
+    "products": [
+      {
+        "name": "WebPT",
+        "id": 11515
+      }
+    ],
+    "product_count": 1
+  },
+  {
+    "dev": "My Vision Express, LLC",
+    "dev_id": 2203,
+    "products": [
+      {
+        "name": "My Vision Express",
+        "id": 11525
+      }
+    ],
+    "product_count": 1
+  },
+  {
+    "dev": "Management Plus EHR, LLC",
+    "dev_id": 2204,
+    "products": [
+      {
+        "name": "ManagementPlus",
+        "id": 11526
+      }
+    ],
+    "product_count": 1
+  },
+  {
+    "dev": "Medflow EHR, LLC",
+    "dev_id": 2205,
+    "products": [
+      {
+        "name": "Medflow EHR",
+        "id": 11527
+      }
+    ],
+    "product_count": 1
+  },
+  {
+    "dev": "MD Office, LLC",
+    "dev_id": 2206,
+    "products": [
+      {
+        "name": "MDoffice",
+        "id": 11528
+      }
+    ],
+    "product_count": 1
+  },
+  {
+    "dev": "iMedicWare, LLC",
+    "dev_id": 2208,
+    "products": [
+      {
+        "name": "iMedicWare",
+        "id": 11531
+      }
+    ],
+    "product_count": 1
+  },
+  {
+    "dev": "TronsHealth LLC",
+    "dev_id": 2210,
+    "products": [
+      {
+        "name": "TronsHealth",
+        "id": 11543
+      }
+    ],
+    "product_count": 1
+  },
+  {
+    "dev": "inteliMD PLLC",
+    "dev_id": 2212,
+    "products": [
+      {
+        "name": "inteliMD",
+        "id": 11555
+      }
+    ],
+    "product_count": 1
+  },
+  {
+    "dev": "Dr. Know, LLC",
+    "dev_id": 2213,
+    "products": [
+      {
+        "name": "Dr. Know",
+        "id": 11559
+      }
+    ],
+    "product_count": 1
+  },
+  {
+    "dev": "PAIX Technologies",
+    "dev_id": 2214,
+    "products": [
+      {
+        "name": "Harmony EHR PM",
+        "id": 11562
+      }
+    ],
+    "product_count": 1
+  },
+  {
+    "dev": "Aente Inc",
+    "dev_id": 2215,
+    "products": [
+      {
+        "name": "Aente",
+        "id": 11578
+      }
+    ],
+    "product_count": 1
+  },
+  {
+    "dev": "Carbon Health Technologies, Inc.",
+    "dev_id": 2217,
+    "products": [
+      {
+        "name": "CarbyOs EHR",
+        "id": 11700
+      }
+    ],
+    "product_count": 1
+  },
+  {
+    "dev": "Develo",
+    "dev_id": 2218,
+    "products": [
+      {
+        "name": "Develo EHR",
+        "id": 11593
+      }
+    ],
+    "product_count": 1
+  },
+  {
+    "dev": "Global Support Systems",
+    "dev_id": 2219,
+    "products": [
+      {
+        "name": "TurboPT",
+        "id": 11610
+      }
+    ],
+    "product_count": 1
+  },
+  {
+    "dev": "5E Analytics, LLC",
+    "dev_id": 2220,
+    "products": [
+      {
+        "name": "Memphi",
+        "id": 11611
+      }
+    ],
+    "product_count": 1
+  },
+  {
+    "dev": "ClickMedix, LLC",
+    "dev_id": 2221,
+    "products": [
+      {
+        "name": "ClickMedix CareBrains EHR & Care Management Platform",
+        "id": 11615
+      }
+    ],
+    "product_count": 1
+  },
+  {
+    "dev": "Medical Office Force, LLC.",
+    "dev_id": 2222,
+    "products": [
+      {
+        "name": "Medical Office Force",
+        "id": 11617
+      }
+    ],
+    "product_count": 1
+  },
+  {
+    "dev": "Apollo 360 Health",
+    "dev_id": 2223,
+    "products": [
+      {
+        "name": "Apollo 360",
+        "id": 11619
+      }
+    ],
+    "product_count": 1
+  },
+  {
+    "dev": "Savas Solutions LLC",
+    "dev_id": 2224,
+    "products": [
+      {
+        "name": "Savas Software",
+        "id": 11621
+      }
+    ],
+    "product_count": 1
+  },
+  {
+    "dev": "BINSERA CORPORATION",
+    "dev_id": 2226,
+    "products": [
+      {
+        "name": "BINSERA EHR",
+        "id": 11624
+      }
+    ],
+    "product_count": 1
+  },
+  {
+    "dev": "Careexpand LLC",
+    "dev_id": 2227,
+    "products": [
+      {
+        "name": "Careexpand",
+        "id": 11625
+      }
+    ],
+    "product_count": 1
+  },
+  {
+    "dev": "Avon Health",
+    "dev_id": 2228,
+    "products": [
+      {
+        "name": "Avon EMR",
+        "id": 11636
+      }
+    ],
+    "product_count": 1
+  },
+  {
+    "dev": "OneOncology, LLC",
+    "dev_id": 2229,
+    "products": [
+      {
+        "name": "OneOncology HIE Integration",
+        "id": 11640
+      }
+    ],
+    "product_count": 1
+  },
+  {
+    "dev": "Omnivers-AI Inc",
+    "dev_id": 2230,
+    "products": [
+      {
+        "name": "Omnivers",
+        "id": 11642
+      }
+    ],
+    "product_count": 1
+  },
+  {
+    "dev": "Edvak Technologies Inc",
+    "dev_id": 2231,
+    "products": [
+      {
+        "name": "Edvak EHR",
+        "id": 11656
+      }
+    ],
+    "product_count": 1
+  },
+  {
+    "dev": "Diagnostic Laboratory Services, Inc.",
+    "dev_id": 2232,
+    "products": [
+      {
+        "name": "Antrim Laboratory Data Management System",
+        "id": 11657
+      }
+    ],
+    "product_count": 1
+  },
+  {
+    "dev": "Curantis Solutions, LLC",
+    "dev_id": 2233,
+    "products": [
+      {
+        "name": "Curantis Solutions Hospice & Palliative",
+        "id": 11660
+      }
+    ],
+    "product_count": 1
+  },
+  {
+    "dev": "SunwaveHealth",
+    "dev_id": 2234,
+    "products": [
+      {
+        "name": "SunwaveHealth EMR Platform",
+        "id": 11661
+      }
+    ],
+    "product_count": 1
+  },
+  {
+    "dev": "TiaTech USA, Inc.",
+    "dev_id": 2235,
+    "products": [
+      {
+        "name": "TiaMD",
+        "id": 11665
+      }
+    ],
+    "product_count": 1
+  },
+  {
+    "dev": "Divine Family Care",
+    "dev_id": 2236,
+    "products": [
+      {
+        "name": "DivineTech",
+        "id": 11680
+      }
+    ],
+    "product_count": 1
+  },
+  {
+    "dev": "Prime DataQ Health, LLC",
+    "dev_id": 2237,
+    "products": [
+      {
+        "name": "summitEHR",
+        "id": 11689
+      }
+    ],
+    "product_count": 1
+  },
+  {
+    "dev": "True RCM",
+    "dev_id": 2238,
+    "products": [
+      {
+        "name": "TrueRCM EHR",
+        "id": 11691
+      }
+    ],
+    "product_count": 1
+  },
+  {
+    "dev": "Wound Therapeutics, LLC",
+    "dev_id": 2239,
+    "products": [
+      {
+        "name": "Wound Charts",
+        "id": 11692
+      }
+    ],
+    "product_count": 1
+  },
+  {
+    "dev": "Wound Technology Network, Inc. d/b/a Woundtech",
+    "dev_id": 2240,
+    "products": [
+      {
+        "name": "Woundtech EMR",
+        "id": 11694
+      }
+    ],
+    "product_count": 1
+  },
+  {
+    "dev": "Alleva",
+    "dev_id": 2241,
+    "products": [
+      {
+        "name": "Alleva EHR",
+        "id": 11696
+      }
+    ],
+    "product_count": 1
+  },
+  {
+    "dev": "Lunar Systems, Inc.",
+    "dev_id": 2242,
+    "products": [
+      {
+        "name": "Lunar Cloud Platform",
+        "id": 11698
+      }
+    ],
+    "product_count": 1
+  },
+  {
+    "dev": "SPRY Therapeutics, Inc",
+    "dev_id": 2243,
+    "products": [
+      {
+        "name": "SPRY",
+        "id": 11699
+      }
+    ],
+    "product_count": 1
+  },
+  {
+    "dev": "Goodx Inc.",
+    "dev_id": 2244,
+    "products": [
+      {
+        "name": "Goodx",
+        "id": 11703
+      }
+    ],
+    "product_count": 1
+  },
+  {
+    "dev": "Unity Health",
+    "dev_id": 2245,
+    "products": [
+      {
+        "name": "Cinch Health",
+        "id": 11710
+      }
+    ],
+    "product_count": 1
+  },
+  {
+    "dev": "Theralytics",
+    "dev_id": 2246,
+    "products": [
+      {
+        "name": "Practice Management and Data Collection Software",
+        "id": 11716
+      }
+    ],
+    "product_count": 1
+  },
+  {
+    "dev": "Urgent Chart LLC",
+    "dev_id": 2247,
+    "products": [
+      {
+        "name": "UrgentChart",
+        "id": 11718
+      }
+    ],
+    "product_count": 1
+  },
+  {
+    "dev": "Ritten, Inc.",
+    "dev_id": 2248,
+    "products": [
+      {
+        "name": "Ritten",
+        "id": 11721
+      }
+    ],
+    "product_count": 1
+  },
+  {
+    "dev": "Mingle Healthcare Solutions, Inc.",
+    "dev_id": 2249,
+    "products": [
+      {
+        "name": "eCQM Solutions",
+        "id": 11728
+      }
+    ],
+    "product_count": 1
+  },
+  {
+    "dev": "CursaHealth LLC",
+    "dev_id": 2250,
+    "products": [
+      {
+        "name": "CursaHealth EHR",
+        "id": 11735
+      }
+    ],
+    "product_count": 1
+  },
+  {
+    "dev": "Milliman MedInsight",
+    "dev_id": 2251,
+    "products": [
+      {
+        "name": "MedInsight eCQM",
+        "id": 11739
+      }
+    ],
+    "product_count": 1
+  },
+  {
+    "dev": "ATI Holdings LLC, DBA ATI Physical Therapy",
+    "dev_id": 2252,
+    "products": [
+      {
+        "name": "ATI EHR",
+        "id": 11740
+      }
+    ],
+    "product_count": 1
+  },
+  {
+    "dev": "Curis Partners LLC",
+    "dev_id": 2253,
+    "products": [
+      {
+        "name": "HousecallOS",
+        "id": 11744
+      }
+    ],
+    "product_count": 1
+  },
+  {
+    "dev": "WoundAlly",
+    "dev_id": 2254,
+    "products": [
+      {
+        "name": "WoundAlly",
+        "id": 11752
+      }
+    ],
+    "product_count": 1
+  },
+  {
+    "dev": "Kipu Health",
+    "dev_id": 2255,
+    "products": [
+      {
+        "name": "Kipu",
+        "id": 11755
+      }
+    ],
+    "product_count": 1
+  },
+  {
+    "dev": "Healthy Campus, LLC",
+    "dev_id": 2256,
+    "products": [
+      {
+        "name": "Healthy Campus Platform",
+        "id": 11760
+      }
+    ],
+    "product_count": 1
+  }
+]

@@ -1,0 +1,7 @@
+# CHPL bulk data - regenerate with ./wiggum/00-fetch-export-urls.sh
+chpl-data/all-active-listings.json
+chpl-data/all-listings.json.gz
+chpl-data/details/
+
+# Claude/shelley logs - ephemeral
+wiggum/logs/

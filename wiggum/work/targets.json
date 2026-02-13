@@ -1,0 +1,6143 @@
+[
+  {
+    "url": "https://home.meditech.com/en/d/restapiresources/pages/ehiexport.htm",
+    "developers": [
+      "Medical Information Technology, Inc. (MEDITECH)"
+    ],
+    "products": [
+      "MEDITECH 6.0 Electronic Health Record Core HCIS",
+      "MEDITECH 6.0 Emergency Department Management",
+      "MEDITECH 6.1 Ambulatory Electronic Health Record",
+      "MEDITECH 6.1 Electronic Health Record Core HCIS",
+      "MEDITECH 6.1 Emergency Department Management",
+      "MEDITECH 6.1 Oncology",
+      "MEDITECH Cancer Case Reporting",
+      "MEDITECH Client/Server Electronic Health Record Core HCIS",
+      "MEDITECH Client/Server Emergency Department Management",
+      "MEDITECH Client/Server Oncology",
+      "MEDITECH Continuity of Care Interface (CCD)",
+      "MEDITECH Expanse 2.1 Ambulatory",
+      "MEDITECH Expanse 2.1 Core HCIS",
+      "MEDITECH Expanse 2.1 Oncology",
+      "MEDITECH Expanse 2.2 Ambulatory",
+      "MEDITECH Expanse 2.2 Core HCIS",
+      "MEDITECH Expanse 2.2 Emergency Department Management",
+      "MEDITECH Expanse 2.2 Oncology",
+      "MEDITECH Expanse Emergency Department Management",
+      "MEDITECH MAGIC Electronic Health Record Core HCIS",
+      "MEDITECH MAGIC Emergency Department Management",
+      "MEDITECH MAGIC HCA Electronic Health Record Core HCIS (without PatientKeeper)",
+      "MEDITECH MAGIC Oncology",
+      "MEDITECH MyHealth Portal",
+      "MEDITECH Public Health Interface Electronic Case Reporting",
+      "MEDITECH Public Health Interface Transmission to Immunization Registries",
+      "MEDITECH Public Health Interface for Syndromic Surveillance",
+      "MEDITECH Transmission of Reportable Laboratory Test and Values/Results"
+    ],
+    "chpl_ids": [
+      9091,
+      9092,
+      9095,
+      9101,
+      9103,
+      9107,
+      9108,
+      9109,
+      9162,
+      9238,
+      9258,
+      9265,
+      10924,
+      10925,
+      10926,
+      10927,
+      10929,
+      10930,
+      10931,
+      10932,
+      10933,
+      10934,
+      10935,
+      10972,
+      10973,
+      10976,
+      10977,
+      10978,
+      10979,
+      10981,
+      10982,
+      10984,
+      10985,
+      10988,
+      10993,
+      10994,
+      10995,
+      11018,
+      11742,
+      11743
+    ],
+    "product_count": 40
+  },
+  {
+    "url": "https://open.epic.com/EHITables",
+    "developers": [
+      "Epic Systems Corporation"
+    ],
+    "products": [
+      "Beacon Cancer Registry Reporting",
+      "Beaker Reportable Labs Reporting",
+      "EpicCare Ambulatory Base",
+      "EpicCare Inpatient Base",
+      "Infection Control Antimicrobial Use and Resistance Reporting"
+    ],
+    "chpl_ids": [
+      11595,
+      11596,
+      11597,
+      11603,
+      11604,
+      11641,
+      11643,
+      11644,
+      11653,
+      11654,
+      11683,
+      11684,
+      11685,
+      11686,
+      11687,
+      11711,
+      11712,
+      11713,
+      11730,
+      11731
+    ],
+    "product_count": 20
+  },
+  {
+    "url": "https://www.darenasolutions.com/meldrx-onc-hti1-certified#b10-EHI-Export-Documentation",
+    "developers": [
+      "Amrita Ventures, LLC",
+      "Clinicmind Inc.",
+      "Complete Healthcare Solutions, Inc.",
+      "Doctorsoft Corporation",
+      "EZDERM, LLC",
+      "Ennoble Technologies LLC",
+      "FEI Systems",
+      "Lancman Solutions LLC",
+      "Raintree Systems, Inc.",
+      "Smoky Mountain Information Systems, LLC",
+      "eRAD, Inc."
+    ],
+    "products": [
+      "Amrita Hospital Information System",
+      "Clinicmind",
+      "Doctorsoft EHR",
+      "EZDERM",
+      "Epi-Management",
+      "Office Anywhere",
+      "PIMSY Platinum",
+      "Raintree",
+      "UnifiMD",
+      "Web Infrastructure for Treatment Services (WITS)",
+      "eRAD RIS"
+    ],
+    "chpl_ids": [
+      11047,
+      11050,
+      11071,
+      11085,
+      11124,
+      11125,
+      11169,
+      11185,
+      11392,
+      11474,
+      11764
+    ],
+    "product_count": 11
+  },
+  {
+    "url": "https://www.oracle.com/health/regulatory/certified-health-it/",
+    "developers": [
+      "Oracle Health"
+    ],
+    "products": [
+      "Oracle Health Millennium (CQMs)",
+      "Oracle Health Millennium (Clinical)",
+      "Oracle Health Millennium (Health Care Surveys)",
+      "Oracle Health Millennium (Immunizations)",
+      "Oracle Health Patient Portal",
+      "Oracle Health PowerChart Touch"
+    ],
+    "chpl_ids": [
+      10594,
+      11505,
+      11519,
+      11520,
+      11522,
+      11667,
+      11668,
+      11669,
+      11670,
+      11674
+    ],
+    "product_count": 10
+  },
+  {
+    "url": "https://www.alterahealth.com/legal/onc-reg-compliance/",
+    "developers": [
+      "Altera Digital Health Inc.",
+      "Providers Management, Inc."
+    ],
+    "products": [
+      "Altera Lab\u2122",
+      "Integrated Providers Patient Portal",
+      "Paragon\u00ae Denali",
+      "Paragon\u00ae EHR",
+      "Sunrise Acute Care",
+      "Sunrise Acute Care for Hospital-based Providers",
+      "Sunrise Ambulatory Care",
+      "TouchWorks EHR"
+    ],
+    "chpl_ids": [
+      11199,
+      11401,
+      11589,
+      11675,
+      11707,
+      11708,
+      11709,
+      11761
+    ],
+    "product_count": 8
+  },
+  {
+    "url": "https://sightview.com/about-sightview/onc-certification/",
+    "developers": [
+      "MD Office, LLC",
+      "Management Plus EHR, LLC",
+      "Medflow EHR, LLC",
+      "My Vision Express, LLC",
+      "Sightview EHR Holdings, LLC",
+      "iMedicWare, LLC"
+    ],
+    "products": [
+      "MDoffice",
+      "ManagementPlus",
+      "Medflow EHR",
+      "My Vision Express",
+      "Regulatory Compliance Platform",
+      "iMedicWare",
+      "myCare Portal"
+    ],
+    "chpl_ids": [
+      11525,
+      11529,
+      11577,
+      11582,
+      11583,
+      11606,
+      11607
+    ],
+    "product_count": 7
+  },
+  {
+    "url": "https://www.nextgen.com/sldkjljieo0935jljsrnfkl",
+    "developers": [
+      "NextGen Healthcare"
+    ],
+    "products": [
+      "Mirth Connect",
+      "NextGen Direct Messaging",
+      "NextGen Enterprise EHR",
+      "NextGen Office"
+    ],
+    "chpl_ids": [
+      9372,
+      10673,
+      10861,
+      11451,
+      11612,
+      11645,
+      11758
+    ],
+    "product_count": 7
+  },
+  {
+    "url": "https://www.medsphere.com/certifications/",
+    "developers": [
+      "CareCloud, Inc."
+    ],
+    "products": [
+      "CareVue",
+      "ChartLogic EHR",
+      "ChartLogic EHR Classic",
+      "ChartLogic Patient Portal",
+      "PCG",
+      "Wellsoft EDIS"
+    ],
+    "chpl_ids": [
+      8830,
+      9546,
+      10771,
+      11108,
+      11121,
+      11202
+    ],
+    "product_count": 6
+  },
+  {
+    "url": "https://www.softcomputer.com/regulatory-affairs/ehi-export/",
+    "developers": [
+      "SCC Soft Computer"
+    ],
+    "products": [
+      "SoftLab"
+    ],
+    "chpl_ids": [
+      11239,
+      11240,
+      11241,
+      11242,
+      11243,
+      11295
+    ],
+    "product_count": 6
+  },
+  {
+    "url": "https://www.ntst.com/lp/certifications",
+    "developers": [
+      "Netsmart Technologies"
+    ],
+    "products": [
+      "Carepathways Measures Reporting",
+      "TheraOffice",
+      "myAvatar Certified Edition",
+      "myEvolv Certified Edition",
+      "myHealthpointe",
+      "myUnity"
+    ],
+    "chpl_ids": [
+      10769,
+      11131,
+      11409,
+      11493,
+      11518,
+      11575
+    ],
+    "product_count": 6
+  },
+  {
+    "url": "https://www.clinisys.com/us/en/onc-disclosure/",
+    "developers": [
+      "Clinisys, Inc."
+    ],
+    "products": [
+      "SQ Lab",
+      "Sunquest Laboratory"
+    ],
+    "chpl_ids": [
+      9726,
+      9734,
+      10701,
+      11038,
+      11600
+    ],
+    "product_count": 5
+  },
+  {
+    "url": "https://www.medhost.com/ehr/interoperability/",
+    "developers": [
+      "MEDHOST",
+      "MEDHOST Cloud Services, Inc."
+    ],
+    "products": [
+      "MEDHOST EDIS",
+      "MEDHOST Enterprise - Clinicals",
+      "MEDHOST Enterprise - Financials",
+      "YourCareCommunity Patient Portal with YourCareEverywhere App",
+      "YourCareCommunity Provider Portal"
+    ],
+    "chpl_ids": [
+      10738,
+      10739,
+      11651,
+      11655,
+      11678
+    ],
+    "product_count": 5
+  },
+  {
+    "url": "https://www.junohealth.com/ehiexport",
+    "developers": [
+      "Juno Health"
+    ],
+    "products": [
+      "Juno CQMsolution",
+      "Juno ConnectEHR",
+      "Juno EHR",
+      "Juno Patient Portal",
+      "RxTracker"
+    ],
+    "chpl_ids": [
+      10348,
+      10961,
+      11283,
+      11475,
+      11497
+    ],
+    "product_count": 5
+  },
+  {
+    "url": "https://www.imprivata.com/onc-certification-disclosures",
+    "developers": [
+      "Imprivata"
+    ],
+    "products": [
+      "Access Intelligence",
+      "Digital Identity Intelligence",
+      "Imprivata FairWarning"
+    ],
+    "chpl_ids": [
+      10838,
+      11225,
+      11445,
+      11666
+    ],
+    "product_count": 4
+  },
+  {
+    "url": "https://www.clinisys.com/uk/en/history/orchard/",
+    "developers": [
+      "Clinisys Inc."
+    ],
+    "products": [
+      "Clinisys Harvest",
+      "Clinisys Orchard"
+    ],
+    "chpl_ids": [
+      11285,
+      11490,
+      11581,
+      11634
+    ],
+    "product_count": 4
+  },
+  {
+    "url": "https://www.medinformatix.com/ONC/EHIExport.html",
+    "developers": [
+      "GEMMS",
+      "MedInformatix"
+    ],
+    "products": [
+      "GEMMS ONE",
+      "MedInformatix EHR"
+    ],
+    "chpl_ids": [
+      11587,
+      11588,
+      11601,
+      11602
+    ],
+    "product_count": 4
+  },
+  {
+    "url": "https://veradigm.com/legal/onc-reg-compliance/",
+    "developers": [
+      "Veradigm"
+    ],
+    "products": [
+      "Veradigm EHR",
+      "Veradigm FollowMyHealth\u00ae",
+      "Veradigm View",
+      "ePrescribe"
+    ],
+    "chpl_ids": [
+      11609,
+      11632,
+      11697,
+      11763
+    ],
+    "product_count": 4
+  },
+  {
+    "url": "https://amazingcharts.com/hubfs/Amazing-Charts-EHI-Export-Documentation-V1_0-1-1.pdf?hsLang=en",
+    "developers": [
+      "CareTracker, Inc."
+    ],
+    "products": [
+      "Amazing Charts"
+    ],
+    "chpl_ids": [
+      11492,
+      11608,
+      11646,
+      11720
+    ],
+    "product_count": 4
+  },
+  {
+    "url": "https://ipatientcare.com/onc-certified-health-it/",
+    "developers": [
+      "AssureCare LLC"
+    ],
+    "products": [
+      "iPatientCare"
+    ],
+    "chpl_ids": [
+      8970,
+      11103,
+      11286
+    ],
+    "product_count": 3
+  },
+  {
+    "url": "https://www.dynamichealthit.com/connectehr-ehi",
+    "developers": [
+      "Dynamic Health IT, Inc"
+    ],
+    "products": [
+      "CQMsolution",
+      "ConnectEHR SMART 2.0"
+    ],
+    "chpl_ids": [
+      11584,
+      11662,
+      11733
+    ],
+    "product_count": 3
+  },
+  {
+    "url": "https://equicarehealth.com/ehiexport/",
+    "developers": [
+      "Equicare Health Incorporated"
+    ],
+    "products": [
+      "EQUICARE CS"
+    ],
+    "chpl_ids": [
+      11390,
+      11494,
+      11633
+    ],
+    "product_count": 3
+  },
+  {
+    "url": "https://www.oracle.com/health/regulatory/certified-health-it/#ehi-export-lnk",
+    "developers": [
+      "Oracle Health"
+    ],
+    "products": [
+      "Oracle Health Data Intelligence: PI Functional Reports",
+      "Oracle Health Data Intelligence: eCQMs",
+      "Oracle Health EHR"
+    ],
+    "chpl_ids": [
+      11637,
+      11671,
+      11702
+    ],
+    "product_count": 3
+  },
+  {
+    "url": "https://ehi.greenwayhealth.com/Intergy/IntergyEHIExport.html",
+    "developers": [
+      "Greenway Health, LLC"
+    ],
+    "products": [
+      "Greenway Insights",
+      "Intergy EHR"
+    ],
+    "chpl_ids": [
+      11351,
+      11682,
+      11727
+    ],
+    "product_count": 3
+  },
+  {
+    "url": "https://www.azaleahealth.com/resources/onc-certification/",
+    "developers": [
+      "Azalea Health"
+    ],
+    "products": [
+      "Azalea EHR",
+      "ChartAccess \u00ae"
+    ],
+    "chpl_ids": [
+      11140,
+      11151
+    ],
+    "product_count": 2
+  },
+  {
+    "url": "https://ehi.eclinicalworks.com/ehiexport/tableindex.html",
+    "developers": [
+      "eClinicalWorks, LLC"
+    ],
+    "products": [
+      "eClinicalWorks"
+    ],
+    "chpl_ids": [
+      11299,
+      11456
+    ],
+    "product_count": 2
+  },
+  {
+    "url": "https://persivia.com/meaningful-use-certification-language/",
+    "developers": [
+      "Persivia"
+    ],
+    "products": [
+      "Persivia Platform"
+    ],
+    "chpl_ids": [
+      10918,
+      11149
+    ],
+    "product_count": 2
+  },
+  {
+    "url": "https://prognocis.com/macra/#ehiexport",
+    "developers": [
+      "Bizmatics Inc."
+    ],
+    "products": [
+      "PrognoCIS"
+    ],
+    "chpl_ids": [
+      8856,
+      11738
+    ],
+    "product_count": 2
+  },
+  {
+    "url": "https://www.cyfluent.com/onc-certified-hit-2015-edition",
+    "developers": [
+      "Cyfluent"
+    ],
+    "products": [
+      "Cyfluent"
+    ],
+    "chpl_ids": [
+      10072,
+      11546
+    ],
+    "product_count": 2
+  },
+  {
+    "url": "https://www.nethealth.com/drummond-certified-for-meaningful-use-woundexpert/",
+    "developers": [
+      "Net Health",
+      "RestorixHealth"
+    ],
+    "products": [
+      "Net Health\u00ae WoundExpert",
+      "WoundDocs"
+    ],
+    "chpl_ids": [
+      9836,
+      10234
+    ],
+    "product_count": 2
+  },
+  {
+    "url": "https://flatiron.com/certification",
+    "developers": [
+      "Flatiron Health",
+      "OneOncology, LLC"
+    ],
+    "products": [
+      "OncoEMR",
+      "OneOncology HIE Integration"
+    ],
+    "chpl_ids": [
+      11115,
+      11640
+    ],
+    "product_count": 2
+  },
+  {
+    "url": "https://www.nextech.com/compliance/ehi-export-documentation",
+    "developers": [
+      "Nextech"
+    ],
+    "products": [
+      "Nextech EHR (ICP)",
+      "SRS EHR"
+    ],
+    "chpl_ids": [
+      11040,
+      11724
+    ],
+    "product_count": 2
+  },
+  {
+    "url": "https://help.updox.com/help/tools-account-administration",
+    "developers": [
+      "Updox"
+    ],
+    "products": [
+      "Updox"
+    ],
+    "chpl_ids": [
+      11194,
+      11195
+    ],
+    "product_count": 2
+  },
+  {
+    "url": "https://academy.practicesuite.com/%c2%a7-170-315b10-electronic-health-information-ehi-export/",
+    "developers": [
+      "PracticeSuite, Inc."
+    ],
+    "products": [
+      "FreeChiro",
+      "PracticeSuite"
+    ],
+    "chpl_ids": [
+      10788,
+      10789
+    ],
+    "product_count": 2
+  },
+  {
+    "url": "https://ehi-export.plt.trubridge.com/",
+    "developers": [
+      "TruBridge, Inc."
+    ],
+    "products": [
+      "TruBridge EHR",
+      "TruBridge Provider EHR"
+    ],
+    "chpl_ids": [
+      11540,
+      11541
+    ],
+    "product_count": 2
+  },
+  {
+    "url": "https://genius.helixbeat.com/legal?document=Electronic+Health+Information+Export",
+    "developers": [
+      "Helixbeat"
+    ],
+    "products": [
+      "FUSION",
+      "PULSE"
+    ],
+    "chpl_ids": [
+      11544,
+      11545
+    ],
+    "product_count": 2
+  },
+  {
+    "url": "https://www.i3verticals.com/ehr-certification/",
+    "developers": [
+      "Infinx Solutions, LLC"
+    ],
+    "products": [
+      "Infinx EHR"
+    ],
+    "chpl_ids": [
+      11554,
+      11759
+    ],
+    "product_count": 2
+  },
+  {
+    "url": "https://ehi.greenwayhealth.com/default.htm",
+    "developers": [
+      "Greenway Health, LLC"
+    ],
+    "products": [
+      "Greenway Electronic Case Reporting",
+      "Greenway Patient Portal"
+    ],
+    "chpl_ids": [
+      11550,
+      11715
+    ],
+    "product_count": 2
+  },
+  {
+    "url": "https://neodeck.atlassian.net/wiki/spaces/NPS/pages/3178987584/NeoMed+EHI+Export",
+    "developers": [
+      "NeoDeck Holdings"
+    ],
+    "products": [
+      "NeoMed 3.0 / Legacy",
+      "NeoMed AI+"
+    ],
+    "chpl_ids": [
+      11563,
+      11564
+    ],
+    "product_count": 2
+  },
+  {
+    "url": "https://ehr-support.carbyos.com/certification-disclosures",
+    "developers": [
+      "Carbon Health Technologies, Inc."
+    ],
+    "products": [
+      "CarbyOs EHR"
+    ],
+    "chpl_ids": [
+      11590,
+      11700
+    ],
+    "product_count": 2
+  },
+  {
+    "url": "https://agastha.com/Agastha-B10-Documentation.pdf",
+    "developers": [
+      "Agastha, Inc."
+    ],
+    "products": [
+      "Agastha Enterprise Healthcare Software"
+    ],
+    "chpl_ids": [
+      11152,
+      11616
+    ],
+    "product_count": 2
+  },
+  {
+    "url": "https://help.rxnt.com/hc/en-us/articles/18557585411223-Electronic-Health-Information-Export-Guide#h_01HDKXY7HPFSCKR1MK8GA5G7B3",
+    "developers": [
+      "Networking Technology Inc., dba RXNT"
+    ],
+    "products": [
+      "RXNT Electronic Health Records"
+    ],
+    "chpl_ids": [
+      11148,
+      11767
+    ],
+    "product_count": 2
+  },
+  {
+    "url": "https://docs.athenahealth.com/athenaone-dataexports/",
+    "developers": [
+      "athenahealth, Inc."
+    ],
+    "products": [
+      "athenaClinicals",
+      "athenaClinicals for Hospitals and Health Systems"
+    ],
+    "chpl_ids": [
+      11613,
+      11714
+    ],
+    "product_count": 2
+  },
+  {
+    "url": "https://www.cgm.com/usa_en/products/electronic-health-records/other-ehrs/cgm-enterprise-ehr.html",
+    "developers": [
+      "CompuGroup Medical US"
+    ],
+    "products": [
+      "CGM ENTERPRISE EHR\u2122"
+    ],
+    "chpl_ids": [
+      10238,
+      11499
+    ],
+    "product_count": 2
+  },
+  {
+    "url": "https://www.intersystems.com/healthcare-standards-certifications/",
+    "developers": [
+      "InterSystems Corporation"
+    ],
+    "products": [
+      "HealthShare Personal Community"
+    ],
+    "chpl_ids": [
+      11630,
+      11639
+    ],
+    "product_count": 2
+  },
+  {
+    "url": "https://docs.mydata.athenahealth.com/fhir-r4/ehiexport.html#electronic-health-information-ehi-export",
+    "developers": [
+      "athenahealth, Inc."
+    ],
+    "products": [
+      "athenaFlow",
+      "athenaPractice"
+    ],
+    "chpl_ids": [
+      11629,
+      11663
+    ],
+    "product_count": 2
+  },
+  {
+    "url": "https://ehi.greenwayhealth.com/PrimeSuite/PrimeSuiteEHIExport.html",
+    "developers": [
+      "Greenway Health, LLC"
+    ],
+    "products": [
+      "Greenway Prime Suite"
+    ],
+    "chpl_ids": [
+      11352,
+      11681
+    ],
+    "product_count": 2
+  },
+  {
+    "url": "https://varian.com/aria/ehi",
+    "developers": [
+      "Varian Medical Systems"
+    ],
+    "products": [
+      "ARIA CORE",
+      "Noona"
+    ],
+    "chpl_ids": [
+      11719,
+      11747
+    ],
+    "product_count": 2
+  },
+  {
+    "url": "https://www.nextech.com/hubfs/Nextech%20Select_NexCloud%20EHI%20Export%20Documentation.pdf",
+    "developers": [
+      "Nextech"
+    ],
+    "products": [
+      "Nextech Select and NexCloud",
+      "Nextech Select and NexCloud with NewCropRx"
+    ],
+    "chpl_ids": [
+      11722,
+      11723
+    ],
+    "product_count": 2
+  },
+  {
+    "url": "https://ehi-export.pointclickcare.com/site/index.html?_ga=2.54104619.209929156.1701272387-1273753859.1701272387",
+    "developers": [
+      "PointClickCare Technologies Inc."
+    ],
+    "products": [
+      "EHR for Practice Groups",
+      "PointClickCare"
+    ],
+    "chpl_ids": [
+      10246,
+      11729
+    ],
+    "product_count": 2
+  },
+  {
+    "url": "https://www.advancedmd.com/medical-office-software/data-export/",
+    "developers": [
+      "AdvancedMD"
+    ],
+    "products": [
+      "AdvancedMD",
+      "AdvancedMD Mobile"
+    ],
+    "chpl_ids": [
+      11732,
+      11734
+    ],
+    "product_count": 2
+  },
+  {
+    "url": "https://doctornow.io/data-export",
+    "developers": [
+      "Doctornow Inc."
+    ],
+    "products": [
+      "DocNow EHR"
+    ],
+    "chpl_ids": [
+      10963,
+      11756
+    ],
+    "product_count": 2
+  },
+  {
+    "url": "https://www.open-emr.org/wiki/index.php/OpenEMR_7.0_B10",
+    "developers": [
+      "OpenEMR Foundation"
+    ],
+    "products": [
+      "OpenEMR"
+    ],
+    "chpl_ids": [
+      10938,
+      11757
+    ],
+    "product_count": 2
+  },
+  {
+    "url": "https://omnimd.com/rwt/",
+    "developers": [
+      "OmniMD Inc."
+    ],
+    "products": [
+      "OmniMD"
+    ],
+    "chpl_ids": [
+      10784,
+      11354
+    ],
+    "product_count": 2
+  },
+  {
+    "url": "http://ehealthline.com/dev/pdf/Electronic%20Health%20Information%20Export.pdf",
+    "developers": [
+      "E*HealthLine.com, Inc."
+    ],
+    "products": [
+      "CARE\u00a9 Integrated Hospital Information Management System",
+      "Phoenix\u00a9 Integrated Electronic Health Records"
+    ],
+    "chpl_ids": [
+      10832,
+      10833
+    ],
+    "product_count": 2
+  },
+  {
+    "url": "https://www.wolterskluwer.com/en/solutions/solesource/onc-b10-documentation",
+    "developers": [
+      "Wolters Kluwer"
+    ],
+    "products": [
+      "Sentri7",
+      "Sentri7 AUR Reporting"
+    ],
+    "chpl_ids": [
+      11123,
+      11288
+    ],
+    "product_count": 2
+  },
+  {
+    "url": "https://darena.health/onc-hti1-certified",
+    "developers": [
+      "Darena Solutions LLC dba Darena Health"
+    ],
+    "products": [
+      "Darena Health",
+      "MyMipsScore"
+    ],
+    "chpl_ids": [
+      10435,
+      10726
+    ],
+    "product_count": 2
+  },
+  {
+    "url": "https://www.mdlogic.com/solutions/b10-export-documentation",
+    "developers": [
+      "MD Logic, Inc."
+    ],
+    "products": [
+      "MD Logic EHR"
+    ],
+    "chpl_ids": [
+      11056,
+      11403
+    ],
+    "product_count": 2
+  },
+  {
+    "url": "https://developer.chbase.com/EHIExport",
+    "developers": [
+      "TruBridge, Inc."
+    ],
+    "products": [
+      "CHBase\u2122 CEHRT Edition",
+      "InstantPHR\u00ae CEHRT Edition"
+    ],
+    "chpl_ids": [
+      10125,
+      10965
+    ],
+    "product_count": 2
+  },
+  {
+    "url": "https://pulsechecked.com/onc-certified/",
+    "developers": [
+      "Picis PulseCheck"
+    ],
+    "products": [
+      "PulseCheck ED"
+    ],
+    "chpl_ids": [
+      10761,
+      10762
+    ],
+    "product_count": 2
+  },
+  {
+    "url": "https://www.healthfully.io/legal-certification",
+    "developers": [
+      "Healthfully Inc."
+    ],
+    "products": [
+      "BMH Care Anywhere",
+      "Healthfully"
+    ],
+    "chpl_ids": [
+      10527,
+      10999
+    ],
+    "product_count": 2
+  },
+  {
+    "url": "https://www.trimedtech.com/EHRDisclosureV10",
+    "developers": [
+      "TriMed Technologies"
+    ],
+    "products": [
+      "TriMed Complete"
+    ],
+    "chpl_ids": [
+      10076
+    ],
+    "product_count": 1
+  },
+  {
+    "url": "https://practicecompass.com/export/",
+    "developers": [
+      "Practice Compass, LLC"
+    ],
+    "products": [
+      "PracticeCompass EMR"
+    ],
+    "chpl_ids": [
+      11232
+    ],
+    "product_count": 1
+  },
+  {
+    "url": "https://customer.first-insight.com/downloads/forms/MaximEyes-EHI-Export-Documentation.pdf",
+    "developers": [
+      "First Insight Corporation"
+    ],
+    "products": [
+      "MaximEyes.com"
+    ],
+    "chpl_ids": [
+      10470
+    ],
+    "product_count": 1
+  },
+  {
+    "url": "https://blog.phoenixortho.net/phoenix-ortho-receives-mips-2015-certification",
+    "developers": [
+      "Phoenix Ortho, LLC"
+    ],
+    "products": [
+      "Phoenix Ortho"
+    ],
+    "chpl_ids": [
+      11163
+    ],
+    "product_count": 1
+  },
+  {
+    "url": "https://www.epividian.com/legal-directory/onc-product-disclosure/",
+    "developers": [
+      "Epividian, Inc."
+    ],
+    "products": [
+      "CHORUS"
+    ],
+    "chpl_ids": [
+      11264
+    ],
+    "product_count": 1
+  },
+  {
+    "url": "https://emr.vohrawoundteam.com/CompleteExport.html",
+    "developers": [
+      "Vohra Wound Physicians Management, LLC"
+    ],
+    "products": [
+      "VHS Medical Documentation & Coding"
+    ],
+    "chpl_ids": [
+      9887
+    ],
+    "product_count": 1
+  },
+  {
+    "url": "https://thegaragein.com/New/pdf/ExportDocumentation.pdf",
+    "developers": [
+      "Garage Solutions LLC"
+    ],
+    "products": [
+      "Bridge eCQM"
+    ],
+    "chpl_ids": [
+      11429
+    ],
+    "product_count": 1
+  },
+  {
+    "url": "https://www.aitmed.com/onc-certifications-costs",
+    "developers": [
+      "AiTmed Inc."
+    ],
+    "products": [
+      "AiTmed Telehealth System"
+    ],
+    "chpl_ids": [
+      11036
+    ],
+    "product_count": 1
+  },
+  {
+    "url": "https://www.flagshipmd.com/flagshipmdnew/web/Company/ehrCertification.jsp",
+    "developers": [
+      "FlagShipMD LLC"
+    ],
+    "products": [
+      "FlagShipMD"
+    ],
+    "chpl_ids": [
+      10220
+    ],
+    "product_count": 1
+  },
+  {
+    "url": "https://docs.oystehr.com/oystehr/services/fhir/bulk-data-export/",
+    "developers": [
+      "MassLight"
+    ],
+    "products": [
+      "Oystehr"
+    ],
+    "chpl_ids": [
+      11489
+    ],
+    "product_count": 1
+  },
+  {
+    "url": "https://www.gorenvio.com/disclaimers",
+    "developers": [
+      "Renvio"
+    ],
+    "products": [
+      "Clarity"
+    ],
+    "chpl_ids": [
+      11345
+    ],
+    "product_count": 1
+  },
+  {
+    "url": "https://smartemr.readme.io/docs/electronic-health-information-export-b10",
+    "developers": [
+      "VIPA Health Solutions, LLC"
+    ],
+    "products": [
+      "24/7 smartEMR"
+    ],
+    "chpl_ids": [
+      11079
+    ],
+    "product_count": 1
+  },
+  {
+    "url": "https://docs.canvasmedical.com/documentation/ehi-export/",
+    "developers": [
+      "Canvas Medical, Inc."
+    ],
+    "products": [
+      "Canvas Medical"
+    ],
+    "chpl_ids": [
+      10904
+    ],
+    "product_count": 1
+  },
+  {
+    "url": "https://www.ihie.org/wp-content/uploads/2024/05/170.315b10-Electronic-Health-Information-Export.pdf",
+    "developers": [
+      "Indiana Health Information Exchange"
+    ],
+    "products": [
+      "Notifiable Condition Detector"
+    ],
+    "chpl_ids": [
+      11261
+    ],
+    "product_count": 1
+  },
+  {
+    "url": "https://www.co.winnebago.wi.us/it-department/ehr-product-information#Structures",
+    "developers": [
+      "Winnebago County Wisconsin"
+    ],
+    "products": [
+      "Luna"
+    ],
+    "chpl_ids": [
+      11530
+    ],
+    "product_count": 1
+  },
+  {
+    "url": "https://beyond-essential.slab.com/posts/tamanu-patient-summary-export-1jqz4yk5",
+    "developers": [
+      "Beyond Essential Systems"
+    ],
+    "products": [
+      "Tamanu EMR"
+    ],
+    "chpl_ids": [
+      10617
+    ],
+    "product_count": 1
+  },
+  {
+    "url": "https://drsdoc.com/DataExport",
+    "developers": [
+      "Keiser Computers, Inc."
+    ],
+    "products": [
+      "Drs Enterprise"
+    ],
+    "chpl_ids": [
+      11072
+    ],
+    "product_count": 1
+  },
+  {
+    "url": "https://blueehr.com/certifications-and-costs/",
+    "developers": [
+      "ZH Healthcare, Inc."
+    ],
+    "products": [
+      "BlueEHR"
+    ],
+    "chpl_ids": [
+      10797
+    ],
+    "product_count": 1
+  },
+  {
+    "url": "https://www.sevocity.com/ehi-export-technical-documentation/",
+    "developers": [
+      "Sevocity, a division of Conceptual MindWorks, Inc"
+    ],
+    "products": [
+      "Sevocity"
+    ],
+    "chpl_ids": [
+      11187
+    ],
+    "product_count": 1
+  },
+  {
+    "url": "https://ipclinical.com/documentation/b_10_Electronic_Health_Information_export.pdf",
+    "developers": [
+      "Physicians EMR, LLC"
+    ],
+    "products": [
+      "IPClinical"
+    ],
+    "chpl_ids": [
+      10278
+    ],
+    "product_count": 1
+  },
+  {
+    "url": "https://www.alphaii.com/hubfs/Alphaii_March2023/pdfs/Patient-Export-Output-Format-v3.pdf?hsLang=en&__hstc=155195876.b3f28b845f130b7459d8a1e746201ea7.1681824942149.1698248613629.1698264607621.17&__hssc=155195876.1.1698264607621&__hsfp=2439428725&hsutk=b3f28b845f130b7459d8a1e746201ea7&contentType=standard-page",
+    "developers": [
+      "Alpha II, LLC"
+    ],
+    "products": [
+      "MIPS Accelerator"
+    ],
+    "chpl_ids": [
+      10793
+    ],
+    "product_count": 1
+  },
+  {
+    "url": "https://www.ezaccessmot.com/",
+    "developers": [
+      "Medical Office Technologies, Inc."
+    ],
+    "products": [
+      "ezAccess Portal"
+    ],
+    "chpl_ids": [
+      9663
+    ],
+    "product_count": 1
+  },
+  {
+    "url": "https://www.itreatmd.com/ONC-Certification",
+    "developers": [
+      "iTreatMD"
+    ],
+    "products": [
+      "iTreatMD"
+    ],
+    "chpl_ids": [
+      11364
+    ],
+    "product_count": 1
+  },
+  {
+    "url": "https://mdtoolbox.com/ExportFileFormat.htm",
+    "developers": [
+      "MDToolbox"
+    ],
+    "products": [
+      "MDToolbox Rx"
+    ],
+    "chpl_ids": [
+      10710
+    ],
+    "product_count": 1
+  },
+  {
+    "url": "https://www.discharge123.com/prot/EHI-Export/Index.htm",
+    "developers": [
+      "Callibra, Inc."
+    ],
+    "products": [
+      "Discharge 1-2-3\u2122 Composer\u2122"
+    ],
+    "chpl_ids": [
+      10754
+    ],
+    "product_count": 1
+  },
+  {
+    "url": "https://www.qrshs.info",
+    "developers": [
+      "QRS, Inc."
+    ],
+    "products": [
+      "PARADIGM\u00ae"
+    ],
+    "chpl_ids": [
+      11142
+    ],
+    "product_count": 1
+  },
+  {
+    "url": "https://www.pressganey.com/platform/core-measures/quality-performer-certification/",
+    "developers": [
+      "Press Ganey Associates"
+    ],
+    "products": [
+      "Quality Performer Hospital eMeasures"
+    ],
+    "chpl_ids": [
+      9902
+    ],
+    "product_count": 1
+  },
+  {
+    "url": "https://physicianxpress.com/electronic-health-information-export/",
+    "developers": [
+      "PhysicianXpress, Inc."
+    ],
+    "products": [
+      "PediatricXpress"
+    ],
+    "chpl_ids": [
+      11010
+    ],
+    "product_count": 1
+  },
+  {
+    "url": "https://www.smartmd.com/compliance/",
+    "developers": [
+      "SMARTMD Technologies, Inc."
+    ],
+    "products": [
+      "SMARTMD Palliative"
+    ],
+    "chpl_ids": [
+      11476
+    ],
+    "product_count": 1
+  },
+  {
+    "url": "https://apidocs.onemedical.io/ehi_export/overview/",
+    "developers": [
+      "1Life Healthcare, Inc"
+    ],
+    "products": [
+      "1Life"
+    ],
+    "chpl_ids": [
+      10964
+    ],
+    "product_count": 1
+  },
+  {
+    "url": "https://docindy.com/assets/CloudMD365%20EHI%20Export%20Documentation-Befwxq4M.pdf",
+    "developers": [
+      "Softbir, Inc."
+    ],
+    "products": [
+      "CloudMD365"
+    ],
+    "chpl_ids": [
+      10282
+    ],
+    "product_count": 1
+  },
+  {
+    "url": "https://www.bd.com/content/dam/bd-assets/na/medication-management-solutions/documents/healthsight/BD_HealthSight_Advisors_EHI_Export_Instructions.pdf",
+    "developers": [
+      "Becton Dickinson and Company"
+    ],
+    "products": [
+      "HealthSight Advisors"
+    ],
+    "chpl_ids": [
+      10802
+    ],
+    "product_count": 1
+  },
+  {
+    "url": "https://www.spectramedix.com/onc-certified-health-it-mandatory-disclosure-information",
+    "developers": [
+      "SpectraMedix"
+    ],
+    "products": [
+      "VBP Performance Suite"
+    ],
+    "chpl_ids": [
+      11248
+    ],
+    "product_count": 1
+  },
+  {
+    "url": "https://ehryourway.com/electronic-health-information-export/",
+    "developers": [
+      "Adaptamed, LLC"
+    ],
+    "products": [
+      "EHR Your Way"
+    ],
+    "chpl_ids": [
+      10757
+    ],
+    "product_count": 1
+  },
+  {
+    "url": "https://www.aaneel.com/aaneel-onc-ehr-certification-techspecs",
+    "developers": [
+      "AaNeel Infotech"
+    ],
+    "products": [
+      "My Health EHR - By AaNeelCare"
+    ],
+    "chpl_ids": [
+      11268
+    ],
+    "product_count": 1
+  },
+  {
+    "url": "https://unislinka366.blob.core.windows.net/unislink-file-repo/ehi/ehi_export_model_v1.html",
+    "developers": [
+      "UnisLink"
+    ],
+    "products": [
+      "UnisLink iCMS (Intelligent Care Management Suite)"
+    ],
+    "chpl_ids": [
+      10699
+    ],
+    "product_count": 1
+  },
+  {
+    "url": "https://disclosures.carerails.com/ehi/",
+    "developers": [
+      "Osler, Inc."
+    ],
+    "products": [
+      "CareRails"
+    ],
+    "chpl_ids": [
+      11317
+    ],
+    "product_count": 1
+  },
+  {
+    "url": "https://www.cgm.com/usa_en/products/electronic-health-records/mips-dashboard/cgm-measures.html",
+    "developers": [
+      "CompuGroup Medical US"
+    ],
+    "products": [
+      "CGM MEASURES"
+    ],
+    "chpl_ids": [
+      11343
+    ],
+    "product_count": 1
+  },
+  {
+    "url": "https://emedpractice.com/electronic-health-information-export/",
+    "developers": [
+      "eMedPractice LLC"
+    ],
+    "products": [
+      "eMedicalPractice"
+    ],
+    "chpl_ids": [
+      10787
+    ],
+    "product_count": 1
+  },
+  {
+    "url": "https://documentation.qualifacts.com/ehi-export/?_gl=1*19zxd99*_gcl_au*NDg0MzU0Mzk3LjE2OTQwMTQ0NDc.",
+    "developers": [
+      "Qualifacts Systems, LLC"
+    ],
+    "products": [
+      "CareLogic"
+    ],
+    "chpl_ids": [
+      9807
+    ],
+    "product_count": 1
+  },
+  {
+    "url": "https://www.figmd.com/pdf/ONC_Certification_Disclosures_and_Costs_21-May-2025.pdf",
+    "developers": [
+      "FIGmd Inc. (an MRO Company)"
+    ],
+    "products": [
+      "FIGmd - Pegasus Quality Platform"
+    ],
+    "chpl_ids": [
+      10800
+    ],
+    "product_count": 1
+  },
+  {
+    "url": "https://www.benchmarksystems.com/wp-content/uploads/2023/12/b-10-EHI-Export_Benchmark-Support_Self-Attestation-Document_final-1.pdf",
+    "developers": [
+      "Benchmark Systems"
+    ],
+    "products": [
+      "Benchmark EHR"
+    ],
+    "chpl_ids": [
+      9098
+    ],
+    "product_count": 1
+  },
+  {
+    "url": "https://www.moyae.com/disclosures-and-costs",
+    "developers": [
+      "Moyae, Inc."
+    ],
+    "products": [
+      "Moyae"
+    ],
+    "chpl_ids": [
+      11331
+    ],
+    "product_count": 1
+  },
+  {
+    "url": "https://docs.glaceemr.com/Glenwood/transparencydisclosure.html",
+    "developers": [
+      "Glenwood Systems LLC"
+    ],
+    "products": [
+      "GlaceEMR"
+    ],
+    "chpl_ids": [
+      9559
+    ],
+    "product_count": 1
+  },
+  {
+    "url": "https://psychplus.com/meaningful-use-certification-language/",
+    "developers": [
+      "Galaxy"
+    ],
+    "products": [
+      "Galaxy"
+    ],
+    "chpl_ids": [
+      11440
+    ],
+    "product_count": 1
+  },
+  {
+    "url": "https://www.medicalofficeonline.com/wp-content/uploads/2023/11/ExportFileDocumentation.pdf",
+    "developers": [
+      "Medical Office Online"
+    ],
+    "products": [
+      "Medical Office Online"
+    ],
+    "chpl_ids": [
+      10846
+    ],
+    "product_count": 1
+  },
+  {
+    "url": "https://www.practicestudio.net/Company/CompanyInformation/ExportProcess.aspx",
+    "developers": [
+      "MicroFour, Inc."
+    ],
+    "products": [
+      "PracticeStudio"
+    ],
+    "chpl_ids": [
+      9590
+    ],
+    "product_count": 1
+  },
+  {
+    "url": "https://visiontree.com/macra-mips",
+    "developers": [
+      "VisionTree Software, Inc."
+    ],
+    "products": [
+      "VisionTree Optimal Care\u2122 (VTOC)"
+    ],
+    "chpl_ids": [
+      9969
+    ],
+    "product_count": 1
+  },
+  {
+    "url": "https://strateqhealth.com/wp-content/uploads/2023/12/Strateq-Export.pdf",
+    "developers": [
+      "Strateq Health, Inc."
+    ],
+    "products": [
+      "StrateqEHR"
+    ],
+    "chpl_ids": [
+      10778
+    ],
+    "product_count": 1
+  },
+  {
+    "url": "https://medconnecthealth.com/electronic-health-information-export/",
+    "developers": [
+      "MedConnect, Inc."
+    ],
+    "products": [
+      "MedConnectHealth"
+    ],
+    "chpl_ids": [
+      9183
+    ],
+    "product_count": 1
+  },
+  {
+    "url": "https://info.chartpath.com/ehiexport",
+    "developers": [
+      "ChartPath, LLC"
+    ],
+    "products": [
+      "ChartPath"
+    ],
+    "chpl_ids": [
+      10258
+    ],
+    "product_count": 1
+  },
+  {
+    "url": "https://www.compulinkadvantage.com/wp-content/uploads/2023/10/COMPULINK-PHIEXPORT-DOCUMENTATION.pdf",
+    "developers": [
+      "Compulink Healthcare Solutions"
+    ],
+    "products": [
+      "Compulink Advantage"
+    ],
+    "chpl_ids": [
+      8873
+    ],
+    "product_count": 1
+  },
+  {
+    "url": "https://cms.bridgeinteract.io/content/uploads/2023/12/Electronic-Health-Information-Export.pdf",
+    "developers": [
+      "Bridge Patient Portal Inc."
+    ],
+    "products": [
+      "BridgeInteract"
+    ],
+    "chpl_ids": [
+      9540
+    ],
+    "product_count": 1
+  },
+  {
+    "url": "https://www.medtrio.com/documents/csvExplanation.pdf",
+    "developers": [
+      "MedTrio, Inc."
+    ],
+    "products": [
+      "Medtrio EHR"
+    ],
+    "chpl_ids": [
+      11298
+    ],
+    "product_count": 1
+  },
+  {
+    "url": "https://www.floridahealth.gov/statistics-data/health-management-system/",
+    "developers": [
+      "Florida Department of Health"
+    ],
+    "products": [
+      "The Florida Department of Health, Health Management System"
+    ],
+    "chpl_ids": [
+      10047
+    ],
+    "product_count": 1
+  },
+  {
+    "url": "https://www.medent.com/onc/",
+    "developers": [
+      "medent - Community Computer Service, Inc."
+    ],
+    "products": [
+      "medent"
+    ],
+    "chpl_ids": [
+      11347
+    ],
+    "product_count": 1
+  },
+  {
+    "url": "https://help.elationhealth.com/s/article/EHI-Export-Criteria",
+    "developers": [
+      "Elation Health, Inc."
+    ],
+    "products": [
+      "Elation EMR"
+    ],
+    "chpl_ids": [
+      9876
+    ],
+    "product_count": 1
+  },
+  {
+    "url": "https://www.practice-alt.com/AuroraEHR_b10_EHI_Export_Documentation.pdf",
+    "developers": [
+      "Practice Alternatives, Inc."
+    ],
+    "products": [
+      "AuroraEHR"
+    ],
+    "chpl_ids": [
+      11128
+    ],
+    "product_count": 1
+  },
+  {
+    "url": "https://documentation.qualifacts.com/ehi-export/",
+    "developers": [
+      "OnCall Health"
+    ],
+    "products": [
+      "OnCall Health"
+    ],
+    "chpl_ids": [
+      11216
+    ],
+    "product_count": 1
+  },
+  {
+    "url": "https://www.healthadvanta.com/disclosure/",
+    "developers": [
+      "HealthAdvanta"
+    ],
+    "products": [
+      "HealthAdvanta"
+    ],
+    "chpl_ids": [
+      11441
+    ],
+    "product_count": 1
+  },
+  {
+    "url": "https://ensorahealth.com/onc/echo/",
+    "developers": [
+      "The Echo Group"
+    ],
+    "products": [
+      "EchoVantage"
+    ],
+    "chpl_ids": [
+      11129
+    ],
+    "product_count": 1
+  },
+  {
+    "url": "https://vecnahealthcare.com/features/clinical-surveillance/",
+    "developers": [
+      "Vecna Technologies, Inc."
+    ],
+    "products": [
+      "PathFinder Infection Control"
+    ],
+    "chpl_ids": [
+      11533
+    ],
+    "product_count": 1
+  },
+  {
+    "url": "https://udoc.com/",
+    "developers": [
+      "Udoc Technologies, LLC"
+    ],
+    "products": [
+      "Udoc"
+    ],
+    "chpl_ids": [
+      11236
+    ],
+    "product_count": 1
+  },
+  {
+    "url": "https://mobilemediclaim.com/licenses-certifications/",
+    "developers": [
+      "Mobile MediClaim"
+    ],
+    "products": [
+      "Mobile MediClaim"
+    ],
+    "chpl_ids": [
+      11220
+    ],
+    "product_count": 1
+  },
+  {
+    "url": "https://acurussolutions.com/Certification.html",
+    "developers": [
+      "Acurus Solutions, Inc."
+    ],
+    "products": [
+      "Capella EHR"
+    ],
+    "chpl_ids": [
+      10807
+    ],
+    "product_count": 1
+  },
+  {
+    "url": "https://www.enabledoc.com/enablemypractice-data-export-guide/",
+    "developers": [
+      "EnableDoc LLC"
+    ],
+    "products": [
+      "Enablemypractice"
+    ],
+    "chpl_ids": [
+      10795
+    ],
+    "product_count": 1
+  },
+  {
+    "url": "https://veranahealth.com/wp-content/uploads/2023/10/170.315b10-Electronic-Health-Information-Export.pdf",
+    "developers": [
+      "Verana Health"
+    ],
+    "products": [
+      "Verana Quality Measures"
+    ],
+    "chpl_ids": [
+      11215
+    ],
+    "product_count": 1
+  },
+  {
+    "url": "https://mamemr.com/etcetera/disclosure.html",
+    "developers": [
+      "AutoMedical LLC"
+    ],
+    "products": [
+      "Med-A-Morphosis"
+    ],
+    "chpl_ids": [
+      9404
+    ],
+    "product_count": 1
+  },
+  {
+    "url": "https://www.coresolutionsinc.com/Electronic-Health-Information-Export-Doc",
+    "developers": [
+      "Core Solutions Inc"
+    ],
+    "products": [
+      "Cx360"
+    ],
+    "chpl_ids": [
+      9168
+    ],
+    "product_count": 1
+  },
+  {
+    "url": "https://www.pcesystems.com/g10APIInfo.html",
+    "developers": [
+      "PCE Systems"
+    ],
+    "products": [
+      "PCE Care Management"
+    ],
+    "chpl_ids": [
+      11045
+    ],
+    "product_count": 1
+  },
+  {
+    "url": "https://www.darenasolutions.com/bluebuttonpro-onc-hti1-certification/#b10-EHI-Export-Documentation",
+    "developers": [
+      "Professional Imaging, LLC"
+    ],
+    "products": [
+      "PI EMR"
+    ],
+    "chpl_ids": [
+      11358
+    ],
+    "product_count": 1
+  },
+  {
+    "url": "https://apps.medicscloud.com/B10_MedicsCloud.html",
+    "developers": [
+      "Advanced Data Systems Corporation"
+    ],
+    "products": [
+      "MedicsCloud"
+    ],
+    "chpl_ids": [
+      10786
+    ],
+    "product_count": 1
+  },
+  {
+    "url": "https://www.ezemrx.com/ehi-export",
+    "developers": [
+      "ezEMRx Inc"
+    ],
+    "products": [
+      "ezEMRx"
+    ],
+    "chpl_ids": [
+      10779
+    ],
+    "product_count": 1
+  },
+  {
+    "url": "https://ensorahealth.com/onc/erx/",
+    "developers": [
+      "Ensora Health"
+    ],
+    "products": [
+      "Ensora eRx"
+    ],
+    "chpl_ids": [
+      11122
+    ],
+    "product_count": 1
+  },
+  {
+    "url": "https://pcc-demo.mdops.com/api/viewCCDSchema",
+    "developers": [
+      "MDOps Corporation"
+    ],
+    "products": [
+      "MDLog"
+    ],
+    "chpl_ids": [
+      10792
+    ],
+    "product_count": 1
+  },
+  {
+    "url": "https://docs.webchartnow.com/resources/system-specifications/electronic-health-information-ehi-export/ehi-export-technical-details/",
+    "developers": [
+      "Medical Informatics Engineering"
+    ],
+    "products": [
+      "WebChart EHR"
+    ],
+    "chpl_ids": [
+      11022
+    ],
+    "product_count": 1
+  },
+  {
+    "url": "https://www.ontada.com/Providers-Solutions/EHI/",
+    "developers": [
+      "McKesson Specialty Health Technology Products LLC (Ontada)"
+    ],
+    "products": [
+      "iKnowMed Generation 2"
+    ],
+    "chpl_ids": [
+      9580
+    ],
+    "product_count": 1
+  },
+  {
+    "url": "https://idctelemed.com/terms-of-use/",
+    "developers": [
+      "IDC Telemed"
+    ],
+    "products": [
+      "ILUM Insight"
+    ],
+    "chpl_ids": [
+      11362
+    ],
+    "product_count": 1
+  },
+  {
+    "url": "https://www.revolutionehr.com/certification-disclosures/",
+    "developers": [
+      "Health Innovation Technologies, Inc."
+    ],
+    "products": [
+      "RevolutionEHR"
+    ],
+    "chpl_ids": [
+      9923
+    ],
+    "product_count": 1
+  },
+  {
+    "url": "https://www.endosoft.com/ephi/",
+    "developers": [
+      "EndoSoft, LLC"
+    ],
+    "products": [
+      "EndoVault"
+    ],
+    "chpl_ids": [
+      10854
+    ],
+    "product_count": 1
+  },
+  {
+    "url": "https://www.universalehr.com/exportdoc.aspx",
+    "developers": [
+      "Universal EHR, Inc."
+    ],
+    "products": [
+      "Universal EHR"
+    ],
+    "chpl_ids": [
+      9333
+    ],
+    "product_count": 1
+  },
+  {
+    "url": "https://qlinical.com/ephi/",
+    "developers": [
+      "EndoSoft, LLC"
+    ],
+    "products": [
+      "Qlinical"
+    ],
+    "chpl_ids": [
+      10855
+    ],
+    "product_count": 1
+  },
+  {
+    "url": "https://www.pedinotes.com/certifications",
+    "developers": [
+      "Tecurologic"
+    ],
+    "products": [
+      "PediNotes"
+    ],
+    "chpl_ids": [
+      8846
+    ],
+    "product_count": 1
+  },
+  {
+    "url": "https://docs.google.com/document/d/1mPl2rnTaif8WvkWWCiZ45DZrec87xh3qwATvQc_A4Bg/edit?usp=sharing",
+    "developers": [
+      "CPS"
+    ],
+    "products": [
+      "EHRs-C"
+    ],
+    "chpl_ids": [
+      11428
+    ],
+    "product_count": 1
+  },
+  {
+    "url": "https://help.eyefinity.com/omew/export/elements.htm",
+    "developers": [
+      "Eyefinity, Inc."
+    ],
+    "products": [
+      "OfficeMate/ExamWRITER"
+    ],
+    "chpl_ids": [
+      10566
+    ],
+    "product_count": 1
+  },
+  {
+    "url": "https://storage.googleapis.com/aidbox-public/smartbox/certification/b10/Attestation%20for%20ONC%20B10%20criteria.pdf",
+    "developers": [
+      "Health Samurai, Inc."
+    ],
+    "products": [
+      "Aidbox FHIR API module"
+    ],
+    "chpl_ids": [
+      11204
+    ],
+    "product_count": 1
+  },
+  {
+    "url": "https://mdsynergy.com/wp-content/uploads/2024/12/AltheaEHIDocumentation.pdf",
+    "developers": [
+      "MD Synergy Solutions, LLC"
+    ],
+    "products": [
+      "Althea Smart EHR"
+    ],
+    "chpl_ids": [
+      11046
+    ],
+    "product_count": 1
+  },
+  {
+    "url": "https://help.gethealthie.com/article/1200-b10-electronic-health-information-export-on-healthie",
+    "developers": [
+      "Healthie"
+    ],
+    "products": [
+      "Healthie"
+    ],
+    "chpl_ids": [
+      11055
+    ],
+    "product_count": 1
+  },
+  {
+    "url": "https://carepaths.com/features/onc-certification/b10-export-format/",
+    "developers": [
+      "Carepaths Inc"
+    ],
+    "products": [
+      "CarePaths EHR"
+    ],
+    "chpl_ids": [
+      10607
+    ],
+    "product_count": 1
+  },
+  {
+    "url": "https://relimed.happyfox.com/kb/article/410-explanation-of-file-format-for-patient-export-cures-170-315-b-10/",
+    "developers": [
+      "ReLi Med Solutions, LLC"
+    ],
+    "products": [
+      "ReLiMed EMR"
+    ],
+    "chpl_ids": [
+      11024
+    ],
+    "product_count": 1
+  },
+  {
+    "url": "https://www.i2ipophealth.com/onc-certification-information/",
+    "developers": [
+      "i2i Population Health"
+    ],
+    "products": [
+      "PRiZiM"
+    ],
+    "chpl_ids": [
+      11405
+    ],
+    "product_count": 1
+  },
+  {
+    "url": "https://tickets.kazee.us/docs/KaZee_Data_Dictionary.docx",
+    "developers": [
+      "KaZee, Inc."
+    ],
+    "products": [
+      "Pearl"
+    ],
+    "chpl_ids": [
+      9861
+    ],
+    "product_count": 1
+  },
+  {
+    "url": "https://www.asp.md/export/",
+    "developers": [
+      "ASP.MD Inc."
+    ],
+    "products": [
+      "ASP.MD Medical Office System"
+    ],
+    "chpl_ids": [
+      10818
+    ],
+    "product_count": 1
+  },
+  {
+    "url": "https://www.drcloudemr.com/wp-content/uploads/EHI_Export/docs/index.html",
+    "developers": [
+      "EnSoftek, Inc"
+    ],
+    "products": [
+      "DrCloudEHR"
+    ],
+    "chpl_ids": [
+      10835
+    ],
+    "product_count": 1
+  },
+  {
+    "url": "https://maxremind.com/maximusehr-certification/",
+    "developers": [
+      "MaxRemind Inc"
+    ],
+    "products": [
+      "Maximus"
+    ],
+    "chpl_ids": [
+      11360
+    ],
+    "product_count": 1
+  },
+  {
+    "url": "https://www.modmed.com/wp-content/uploads/2023/11/Data-Dictionary-for-ModMed-EMA-EHI-Export4.pdf",
+    "developers": [
+      "Eyefinity, Inc."
+    ],
+    "products": [
+      "EHR powered by EMA in Eyefinity Encompass"
+    ],
+    "chpl_ids": [
+      11088
+    ],
+    "product_count": 1
+  },
+  {
+    "url": "https://www.sigmundsoftware.com/wp-content/uploads/2023/11/VSS-Medical-Technologies-Electronic-Health-Export.pdf",
+    "developers": [
+      "VSS Medical Technologies, Inc"
+    ],
+    "products": [
+      "Aura Sigmund, MedicFusion Erx"
+    ],
+    "chpl_ids": [
+      11538
+    ],
+    "product_count": 1
+  },
+  {
+    "url": "https://www.charmhealth.com/ehr/electronic-health-information-export.html",
+    "developers": [
+      "MedicalMine Inc."
+    ],
+    "products": [
+      "CharmHealth EHR"
+    ],
+    "chpl_ids": [
+      9741
+    ],
+    "product_count": 1
+  },
+  {
+    "url": "http://www.mdrhythm.com/onc-compliance.html",
+    "developers": [
+      "TechSoft, Inc."
+    ],
+    "products": [
+      "MDRhythm"
+    ],
+    "chpl_ids": [
+      9797
+    ],
+    "product_count": 1
+  },
+  {
+    "url": "https://www.systemedx.com/dataExport.html",
+    "developers": [
+      "Systemedx Inc"
+    ],
+    "products": [
+      "Systemedx Clinical Navigator"
+    ],
+    "chpl_ids": [
+      11536
+    ],
+    "product_count": 1
+  },
+  {
+    "url": "https://www.liquidemr.com/data-export-specification-2/",
+    "developers": [
+      "Liquid Medical Office, Inc."
+    ],
+    "products": [
+      "Liquid EMR"
+    ],
+    "chpl_ids": [
+      10620
+    ],
+    "product_count": 1
+  },
+  {
+    "url": "https://pkdemo6.patientkeeper.com/api-docs/v0/api/index.html",
+    "developers": [
+      "Commure"
+    ],
+    "products": [
+      "PatientKeeper"
+    ],
+    "chpl_ids": [
+      10291
+    ],
+    "product_count": 1
+  },
+  {
+    "url": "https://www.marquisware.com/eomis/onc-cost-and-limitations-2015/",
+    "developers": [
+      "Marquis Software Development, Inc."
+    ],
+    "products": [
+      "eOMIS Healthcare Management"
+    ],
+    "chpl_ids": [
+      9457
+    ],
+    "product_count": 1
+  },
+  {
+    "url": "https://ehi.myqone.com/",
+    "developers": [
+      "TRIARQ Practice Services"
+    ],
+    "products": [
+      "QSuite"
+    ],
+    "chpl_ids": [
+      10709
+    ],
+    "product_count": 1
+  },
+  {
+    "url": "https://tronshealth.com/wp-content/uploads/2024/10/%C2%A7170.315b10-Electronic-Health-Information-Export-EHI.docx.pdf",
+    "developers": [
+      "TronsHealth LLC"
+    ],
+    "products": [
+      "TronsHealth"
+    ],
+    "chpl_ids": [
+      11543
+    ],
+    "product_count": 1
+  },
+  {
+    "url": "https://ensorahealth.com/onc/procentive/",
+    "developers": [
+      "Procentive"
+    ],
+    "products": [
+      "Procentive"
+    ],
+    "chpl_ids": [
+      11155
+    ],
+    "product_count": 1
+  },
+  {
+    "url": "https://www.cgm.com/usa_en/products/electronic-health-records/cgm-aprima.html",
+    "developers": [
+      "CompuGroup Medical US"
+    ],
+    "products": [
+      "CGM APRIMA"
+    ],
+    "chpl_ids": [
+      11167
+    ],
+    "product_count": 1
+  },
+  {
+    "url": "https://streamlinemd.com/wp-content/uploads/2023/10/StreamlineMD-EHR-EHI-Export.pdf",
+    "developers": [
+      "StreamlineMD, LLC"
+    ],
+    "products": [
+      "StreamlineMD EHR"
+    ],
+    "chpl_ids": [
+      9974
+    ],
+    "product_count": 1
+  },
+  {
+    "url": "https://www.modmed.com/onc-certification/",
+    "developers": [
+      "Modernizing Medicine Inc."
+    ],
+    "products": [
+      "EMA"
+    ],
+    "chpl_ids": [
+      11032
+    ],
+    "product_count": 1
+  },
+  {
+    "url": "https://www.tebra.com/tebra-resources/macra-mips/",
+    "developers": [
+      "Tebra Technologies, Inc."
+    ],
+    "products": [
+      "Tebra EHR"
+    ],
+    "chpl_ids": [
+      11557
+    ],
+    "product_count": 1
+  },
+  {
+    "url": "https://www.intelimd.com/assets/docs/b10-ehi-export.pdf",
+    "developers": [
+      "inteliMD PLLC"
+    ],
+    "products": [
+      "inteliMD"
+    ],
+    "chpl_ids": [
+      11555
+    ],
+    "product_count": 1
+  },
+  {
+    "url": "https://digidms.com/ehr/ehi-export",
+    "developers": [
+      "DigiDMS, Inc."
+    ],
+    "products": [
+      "DigiDMS"
+    ],
+    "chpl_ids": [
+      11549
+    ],
+    "product_count": 1
+  },
+  {
+    "url": "https://www.paix-tech.com/documents/HarmonyEHR-EHI-Export.pdf",
+    "developers": [
+      "PAIX Technologies"
+    ],
+    "products": [
+      "Harmony EHR PM"
+    ],
+    "chpl_ids": [
+      11562
+    ],
+    "product_count": 1
+  },
+  {
+    "url": "https://www.chartperfect.com/onc-certified-ehr",
+    "developers": [
+      "ChartPerfect, Inc."
+    ],
+    "products": [
+      "ChartPerfect EHR"
+    ],
+    "chpl_ids": [
+      11565
+    ],
+    "product_count": 1
+  },
+  {
+    "url": "https://ehnote.com/certification/ehi-export",
+    "developers": [
+      "EHNOTE,INC"
+    ],
+    "products": [
+      "EHNOTE"
+    ],
+    "chpl_ids": [
+      11356
+    ],
+    "product_count": 1
+  },
+  {
+    "url": "http://tenzingmedical.com/TenzingEHIFormatInfo.pdf",
+    "developers": [
+      "Tenzing Medical LLC"
+    ],
+    "products": [
+      "Tenzing VistA"
+    ],
+    "chpl_ids": [
+      10799
+    ],
+    "product_count": 1
+  },
+  {
+    "url": "https://www.meditab.com/company/ehi-export",
+    "developers": [
+      "MedPharm Services LLC"
+    ],
+    "products": [
+      "Intelligent Medical Software (IMS)"
+    ],
+    "chpl_ids": [
+      9739
+    ],
+    "product_count": 1
+  },
+  {
+    "url": "https://www.cgm.com/usa_en/products/electronic-health-records/other-ehrs/cgm-emds.html",
+    "developers": [
+      "CompuGroup Medical US"
+    ],
+    "products": [
+      "CGM eMDs"
+    ],
+    "chpl_ids": [
+      11133
+    ],
+    "product_count": 1
+  },
+  {
+    "url": "https://docs.doc-know.com/docs/single-patient-export",
+    "developers": [
+      "Dr. Know, LLC"
+    ],
+    "products": [
+      "Dr. Know"
+    ],
+    "chpl_ids": [
+      11559
+    ],
+    "product_count": 1
+  },
+  {
+    "url": "https://docs.aente.com/3-reference/jsonexport/",
+    "developers": [
+      "Aente Inc"
+    ],
+    "products": [
+      "Aente"
+    ],
+    "chpl_ids": [
+      11578
+    ],
+    "product_count": 1
+  },
+  {
+    "url": "https://docs.google.com/document/d/1HsYw7-fWQW-6txwQBw0OcsT0M5H7Wxnv7A2YopWGXSo/edit?usp=sharing",
+    "developers": [
+      "Genensys LLC"
+    ],
+    "products": [
+      "Simplify EMR"
+    ],
+    "chpl_ids": [
+      10317
+    ],
+    "product_count": 1
+  },
+  {
+    "url": "https://www.sabiamed.com/",
+    "developers": [
+      "Sabiamed Corporation"
+    ],
+    "products": [
+      "ClinNext 10"
+    ],
+    "chpl_ids": [
+      11579
+    ],
+    "product_count": 1
+  },
+  {
+    "url": "https://www.healogics.com/certified-ehr-technology/",
+    "developers": [
+      "Healogics, Inc."
+    ],
+    "products": [
+      "i-heal"
+    ],
+    "chpl_ids": [
+      10140
+    ],
+    "product_count": 1
+  },
+  {
+    "url": "https://www.praxisemr.com/certifications-and-costs.html",
+    "developers": [
+      "Infor-Med Medical Information Systems Inc."
+    ],
+    "products": [
+      "Praxis EMR"
+    ],
+    "chpl_ids": [
+      10853
+    ],
+    "product_count": 1
+  },
+  {
+    "url": "https://cms.officeally.com/onc-acb-certification",
+    "developers": [
+      "Office Ally, LLC"
+    ],
+    "products": [
+      "EHR 24/7"
+    ],
+    "chpl_ids": [
+      11572
+    ],
+    "product_count": 1
+  },
+  {
+    "url": "https://geesemed.com/wp-content/uploads/2024/05/GeeseMed_b10_Health-Info.Export_11202023.pdf",
+    "developers": [
+      "MDOfficeManager"
+    ],
+    "products": [
+      "GeeseMed"
+    ],
+    "chpl_ids": [
+      11586
+    ],
+    "product_count": 1
+  },
+  {
+    "url": "https://harrisonpointsolutions.com/certifications/",
+    "developers": [
+      "Asolva, Inc."
+    ],
+    "products": [
+      "Medici"
+    ],
+    "chpl_ids": [
+      11321
+    ],
+    "product_count": 1
+  },
+  {
+    "url": "https://www.modmed.com/onc-certification-gi/",
+    "developers": [
+      "Modernizing Medicine Gastroenterology, LLC"
+    ],
+    "products": [
+      "gGastro"
+    ],
+    "chpl_ids": [
+      11054
+    ],
+    "product_count": 1
+  },
+  {
+    "url": "https://www.microsoft.com/en-us/health-solutions/revenue-integrity/quality-measures/cures-act-real-world-testing",
+    "developers": [
+      "Nuance Communications, Inc."
+    ],
+    "products": [
+      "Nuance Electronic Quality Measures"
+    ],
+    "chpl_ids": [
+      11592
+    ],
+    "product_count": 1
+  },
+  {
+    "url": "https://sites.google.com/encite.us/support/ehi-export",
+    "developers": [
+      "Encite, Inc."
+    ],
+    "products": [
+      "Encite EHR"
+    ],
+    "chpl_ids": [
+      10446
+    ],
+    "product_count": 1
+  },
+  {
+    "url": "http://mednetmedical.com/Open_API.html",
+    "developers": [
+      "MedNet Medical Solutions"
+    ],
+    "products": [
+      "emr4MD"
+    ],
+    "chpl_ids": [
+      10214
+    ],
+    "product_count": 1
+  },
+  {
+    "url": "https://homehealthmd.com/export.aspx",
+    "developers": [
+      "HospiceMD, Inc."
+    ],
+    "products": [
+      "HomeHealthMD"
+    ],
+    "chpl_ids": [
+      11591
+    ],
+    "product_count": 1
+  },
+  {
+    "url": "https://getdevelo.com/ehi",
+    "developers": [
+      "Develo"
+    ],
+    "products": [
+      "Develo EHR"
+    ],
+    "chpl_ids": [
+      11593
+    ],
+    "product_count": 1
+  },
+  {
+    "url": "https://www.talkehr.com/cost-and-fees-information",
+    "developers": [
+      "CareCloud, Inc."
+    ],
+    "products": [
+      "talkEHR"
+    ],
+    "chpl_ids": [
+      9799
+    ],
+    "product_count": 1
+  },
+  {
+    "url": "https://www.myhelo.com/api_export_format/",
+    "developers": [
+      "myhELO, Inc."
+    ],
+    "products": [
+      "myhELO"
+    ],
+    "chpl_ids": [
+      9930
+    ],
+    "product_count": 1
+  },
+  {
+    "url": "https://onetouchemr.com/OneTouchEMR_FHIR_Restful_API_Documentation_v3.pdf",
+    "developers": [
+      "OT EMR, Inc."
+    ],
+    "products": [
+      "OneTouch EMR"
+    ],
+    "chpl_ids": [
+      11599
+    ],
+    "product_count": 1
+  },
+  {
+    "url": "https://5eanalytics.com/onc-acb-certified-software/",
+    "developers": [
+      "5E Analytics, LLC"
+    ],
+    "products": [
+      "Memphi"
+    ],
+    "chpl_ids": [
+      11611
+    ],
+    "product_count": 1
+  },
+  {
+    "url": "https://complete.md/onc-b10-certification/",
+    "developers": [
+      "Anagen Systems"
+    ],
+    "products": [
+      "Complete. MD Patient Web Portal"
+    ],
+    "chpl_ids": [
+      9683
+    ],
+    "product_count": 1
+  },
+  {
+    "url": "https://www.medonesystems.com/ehi-export",
+    "developers": [
+      "MedOne Systems, LLC"
+    ],
+    "products": [
+      "BOLT"
+    ],
+    "chpl_ids": [
+      10730
+    ],
+    "product_count": 1
+  },
+  {
+    "url": "https://turbopt.com/export_info.php",
+    "developers": [
+      "Global Support Systems"
+    ],
+    "products": [
+      "TurboPT"
+    ],
+    "chpl_ids": [
+      11610
+    ],
+    "product_count": 1
+  },
+  {
+    "url": "https://www.dynamichealthit.com/ehi-export",
+    "developers": [
+      "Empower Systems"
+    ],
+    "products": [
+      "Empower Inpatient+Ambulatory"
+    ],
+    "chpl_ids": [
+      11326
+    ],
+    "product_count": 1
+  },
+  {
+    "url": "https://clickmedix.com/ehr-export-format/",
+    "developers": [
+      "ClickMedix, LLC"
+    ],
+    "products": [
+      "ClickMedix CareBrains EHR & Care Management Platform"
+    ],
+    "chpl_ids": [
+      11615
+    ],
+    "product_count": 1
+  },
+  {
+    "url": "https://www.viecure.com/certifications/onc-certification-criteria-for-health-it",
+    "developers": [
+      "VieCure, Inc."
+    ],
+    "products": [
+      "VieCure"
+    ],
+    "chpl_ids": [
+      11548
+    ],
+    "product_count": 1
+  },
+  {
+    "url": "https://emr.medicalofficeforce.co/content/ccda_export",
+    "developers": [
+      "Medical Office Force, LLC."
+    ],
+    "products": [
+      "Medical Office Force"
+    ],
+    "chpl_ids": [
+      11617
+    ],
+    "product_count": 1
+  },
+  {
+    "url": "https://apollo360health.com/certification/c-cda",
+    "developers": [
+      "Apollo 360 Health"
+    ],
+    "products": [
+      "Apollo 360"
+    ],
+    "chpl_ids": [
+      11619
+    ],
+    "product_count": 1
+  },
+  {
+    "url": "https://www.axxess.com/cehrt/",
+    "developers": [
+      "Axxess"
+    ],
+    "products": [
+      "Axxess Palliative"
+    ],
+    "chpl_ids": [
+      11620
+    ],
+    "product_count": 1
+  },
+  {
+    "url": "https://www.pipelinerx.com/aur/",
+    "developers": [
+      "PipelineRx"
+    ],
+    "products": [
+      "PowerGridRx"
+    ],
+    "chpl_ids": [
+      11417
+    ],
+    "product_count": 1
+  },
+  {
+    "url": "https://docs.healusehr.com/EHI",
+    "developers": [
+      "Medcare MSO"
+    ],
+    "products": [
+      "HealUs EHR"
+    ],
+    "chpl_ids": [
+      11495
+    ],
+    "product_count": 1
+  },
+  {
+    "url": "https://avonhealth.com/meaningful-use",
+    "developers": [
+      "Avon Health"
+    ],
+    "products": [
+      "Avon EMR"
+    ],
+    "chpl_ids": [
+      11636
+    ],
+    "product_count": 1
+  },
+  {
+    "url": "https://savassoftware.com/support_ehi_export/",
+    "developers": [
+      "Savas Solutions LLC"
+    ],
+    "products": [
+      "Savas Software"
+    ],
+    "chpl_ids": [
+      11621
+    ],
+    "product_count": 1
+  },
+  {
+    "url": "https://binsera.com/ehi-export",
+    "developers": [
+      "BINSERA CORPORATION"
+    ],
+    "products": [
+      "BINSERA EHR"
+    ],
+    "chpl_ids": [
+      11624
+    ],
+    "product_count": 1
+  },
+  {
+    "url": "https://storage.googleapis.com/staging-incrowd/pdf/EHI%20Export%20Document/1724146814781/file.pdf",
+    "developers": [
+      "Innovaccer Inc"
+    ],
+    "products": [
+      "InGraph"
+    ],
+    "chpl_ids": [
+      11618
+    ],
+    "product_count": 1
+  },
+  {
+    "url": "https://docs.fire.ly/projects/Firely-Server/en/latest/features_and_tools/bulkdataexport.html",
+    "developers": [
+      "Firely USA Inc."
+    ],
+    "products": [
+      "Firely Server"
+    ],
+    "chpl_ids": [
+      11631
+    ],
+    "product_count": 1
+  },
+  {
+    "url": "http://www.imasys.com/certifications",
+    "developers": [
+      "Cantata Health Solutions"
+    ],
+    "products": [
+      "imaServe"
+    ],
+    "chpl_ids": [
+      11635
+    ],
+    "product_count": 1
+  },
+  {
+    "url": "https://cdn.prod.website-files.com/6557391911618b28bc0bf8b4/681e1cc3bd20a055e71d7ea1_b10%20EHI%20Export%20Format%20Documentation%20URL.pdf",
+    "developers": [
+      "Synapse Medicine Inc."
+    ],
+    "products": [
+      "Synapse Prescribe"
+    ],
+    "chpl_ids": [
+      11638
+    ],
+    "product_count": 1
+  },
+  {
+    "url": "https://www.omnivers.ai/onc-certification",
+    "developers": [
+      "Omnivers-AI Inc"
+    ],
+    "products": [
+      "Omnivers"
+    ],
+    "chpl_ids": [
+      11642
+    ],
+    "product_count": 1
+  },
+  {
+    "url": "https://bookstack.careexpandcloud.com/books/techdoc-onc-patient-ehi-export-b10/page/b10-ehi-export-ccda",
+    "developers": [
+      "Careexpand LLC"
+    ],
+    "products": [
+      "Careexpand"
+    ],
+    "chpl_ids": [
+      11625
+    ],
+    "product_count": 1
+  },
+  {
+    "url": "https://docs.versasuite.com",
+    "developers": [
+      "VersaSuite"
+    ],
+    "products": [
+      "VersaSuite"
+    ],
+    "chpl_ids": [
+      10299
+    ],
+    "product_count": 1
+  },
+  {
+    "url": "https://www.primeclinical.com/wp-content/themes/BLANK-Theme/images/EHI_Export_170.315_b10.pdf",
+    "developers": [
+      "Prime Clinical Systems, Inc."
+    ],
+    "products": [
+      "Patient Chart Manager"
+    ],
+    "chpl_ids": [
+      10791
+    ],
+    "product_count": 1
+  },
+  {
+    "url": "https://www.smiledigitalhealth.com/bulk-data-export",
+    "developers": [
+      "Smile CDR Inc. (doing business as Smile Digital Health)"
+    ],
+    "products": [
+      "Smile CDR"
+    ],
+    "chpl_ids": [
+      11622
+    ],
+    "product_count": 1
+  },
+  {
+    "url": "https://www.mdcare.com/EHIexport",
+    "developers": [
+      "Vision Infonet Inc"
+    ],
+    "products": [
+      "MDCare EMR/PMS"
+    ],
+    "chpl_ids": [
+      11650
+    ],
+    "product_count": 1
+  },
+  {
+    "url": "https://dlslab.com/health-it-certification/ehi-export/",
+    "developers": [
+      "Diagnostic Laboratory Services, Inc."
+    ],
+    "products": [
+      "Antrim Laboratory Data Management System"
+    ],
+    "chpl_ids": [
+      11657
+    ],
+    "product_count": 1
+  },
+  {
+    "url": "https://www.mayoclinic.org/about-mayo-clinic/disclosures",
+    "developers": [
+      "Mayo Clinic Labs"
+    ],
+    "products": [
+      "Mayo Clinic Lab Registry"
+    ],
+    "chpl_ids": [
+      11598
+    ],
+    "product_count": 1
+  },
+  {
+    "url": "https://sunwavehealth.atlassian.net/wiki/spaces/ONC/overview",
+    "developers": [
+      "SunwaveHealth"
+    ],
+    "products": [
+      "SunwaveHealth EMR Platform"
+    ],
+    "chpl_ids": [
+      11661
+    ],
+    "product_count": 1
+  },
+  {
+    "url": "https://kantime.com/wp-content/uploads/2023/11/EHI_Tool_Documentation.pdf",
+    "developers": [
+      "Kanrad Technologies Inc"
+    ],
+    "products": [
+      "KanTime Health"
+    ],
+    "chpl_ids": [
+      11219
+    ],
+    "product_count": 1
+  },
+  {
+    "url": "https://curantissolutions.com/wp-content/uploads/2025/06/ONC-170.315b10-Electronic-Health-Information-Export.pdf",
+    "developers": [
+      "Curantis Solutions, LLC"
+    ],
+    "products": [
+      "Curantis Solutions Hospice & Palliative"
+    ],
+    "chpl_ids": [
+      11660
+    ],
+    "product_count": 1
+  },
+  {
+    "url": "https://edvak.com/ehi-export",
+    "developers": [
+      "Edvak Technologies Inc"
+    ],
+    "products": [
+      "Edvak EHR"
+    ],
+    "chpl_ids": [
+      11656
+    ],
+    "product_count": 1
+  },
+  {
+    "url": "https://theoriamedical.com/ehr-certificate",
+    "developers": [
+      "Theoria Medical, PLLC"
+    ],
+    "products": [
+      "ChartEasy\u2122"
+    ],
+    "chpl_ids": [
+      11542
+    ],
+    "product_count": 1
+  },
+  {
+    "url": "https://doc-tor.com/wp-content/uploads/2023/11/Picasso-EHI-Export-Documentation-V1_0-1-1.pdf",
+    "developers": [
+      "Doc-tor.com"
+    ],
+    "products": [
+      "Picasso"
+    ],
+    "chpl_ids": [
+      11652
+    ],
+    "product_count": 1
+  },
+  {
+    "url": "https://a-t-g.com/offender-management-suite/electronic-health-records/",
+    "developers": [
+      "Advanced Technologies Group, LLC"
+    ],
+    "products": [
+      "ATG EHR"
+    ],
+    "chpl_ids": [
+      10796
+    ],
+    "product_count": 1
+  },
+  {
+    "url": "https://docs.tiatech.net",
+    "developers": [
+      "TiaTech USA, Inc."
+    ],
+    "products": [
+      "TiaMD"
+    ],
+    "chpl_ids": [
+      11665
+    ],
+    "product_count": 1
+  },
+  {
+    "url": "https://alineops.com/Certifications/",
+    "developers": [
+      "Aline"
+    ],
+    "products": [
+      "Aline Care"
+    ],
+    "chpl_ids": [
+      10902
+    ],
+    "product_count": 1
+  },
+  {
+    "url": "https://thegaragein.com/New/ourplatform.html",
+    "developers": [
+      "Garage Solutions LLC"
+    ],
+    "products": [
+      "Bridge Ignite"
+    ],
+    "chpl_ids": [
+      11690
+    ],
+    "product_count": 1
+  },
+  {
+    "url": "https://www.woundcharts.net/documents/data_dictionary_and_export_file_formats.pdf",
+    "developers": [
+      "Wound Therapeutics, LLC"
+    ],
+    "products": [
+      "Wound Charts"
+    ],
+    "chpl_ids": [
+      11692
+    ],
+    "product_count": 1
+  },
+  {
+    "url": "https://truercm.com/about-us/ehi-export",
+    "developers": [
+      "True RCM"
+    ],
+    "products": [
+      "TrueRCM EHR"
+    ],
+    "chpl_ids": [
+      11691
+    ],
+    "product_count": 1
+  },
+  {
+    "url": "https://woundtech.net/onc-ehi-export-instructions/",
+    "developers": [
+      "Wound Technology Network, Inc. d/b/a Woundtech"
+    ],
+    "products": [
+      "Woundtech EMR"
+    ],
+    "chpl_ids": [
+      11694
+    ],
+    "product_count": 1
+  },
+  {
+    "url": "https://hello.helloalleva.com/ehi_export",
+    "developers": [
+      "Alleva"
+    ],
+    "products": [
+      "Alleva EHR"
+    ],
+    "chpl_ids": [
+      11696
+    ],
+    "product_count": 1
+  },
+  {
+    "url": "https://www.hcadam.com/api/public/content/85df94e2bb2c4af4886e3963a4953525?v=b433230d",
+    "developers": [
+      "HCA Healthcare - Information Technology Group"
+    ],
+    "products": [
+      "hCQM"
+    ],
+    "chpl_ids": [
+      9279
+    ],
+    "product_count": 1
+  },
+  {
+    "url": "https://awards1.zendesk.com/hc/en-us/articles/33133755413012-ExportBuilders",
+    "developers": [
+      "Foothold Technology, Inc."
+    ],
+    "products": [
+      "AWARDS"
+    ],
+    "chpl_ids": [
+      9267
+    ],
+    "product_count": 1
+  },
+  {
+    "url": "https://www.imprivata.com/onc-certification-disclosures-ebas",
+    "developers": [
+      "Imprivata Inc. (FKA Maize Analytics, Inc.)"
+    ],
+    "products": [
+      "Explanation Based Auditing System"
+    ],
+    "chpl_ids": [
+      11677
+    ],
+    "product_count": 1
+  },
+  {
+    "url": "https://divinetechpoc.com/certification",
+    "developers": [
+      "Divine Family Care"
+    ],
+    "products": [
+      "DivineTech"
+    ],
+    "chpl_ids": [
+      11680
+    ],
+    "product_count": 1
+  },
+  {
+    "url": "https://montrosecenter.org/about/privacy/",
+    "developers": [
+      "The Montrose Center"
+    ],
+    "products": [
+      "CONTINUUM"
+    ],
+    "chpl_ids": [
+      11269
+    ],
+    "product_count": 1
+  },
+  {
+    "url": "https://www.cgm.com/usa_en/products/electronic-health-records/other-ehrs/cgm-clinical-pm-and-ehr.html",
+    "developers": [
+      "CompuGroup Medical US"
+    ],
+    "products": [
+      "CGM CLINICAL\u2122"
+    ],
+    "chpl_ids": [
+      10240
+    ],
+    "product_count": 1
+  },
+  {
+    "url": "https://static1.squarespace.com/static/692e09ea4112f840c4fb54d8/t/69307ee493279950e0b33148/1764785893013/EHI+Export+Documentation+-+SummitEHR+v1.0.pdf",
+    "developers": [
+      "Prime DataQ Health, LLC"
+    ],
+    "products": [
+      "summitEHR"
+    ],
+    "chpl_ids": [
+      11689
+    ],
+    "product_count": 1
+  },
+  {
+    "url": "https://www.sprypt.com/chpl-product-certification",
+    "developers": [
+      "SPRY Therapeutics, Inc"
+    ],
+    "products": [
+      "SPRY"
+    ],
+    "chpl_ids": [
+      11699
+    ],
+    "product_count": 1
+  },
+  {
+    "url": "https://golunar.com/ehi-export",
+    "developers": [
+      "Lunar Systems, Inc."
+    ],
+    "products": [
+      "Lunar Cloud Platform"
+    ],
+    "chpl_ids": [
+      11698
+    ],
+    "product_count": 1
+  },
+  {
+    "url": "https://www.ihs.gov/rpms/applications/ftp/?parent=&fld=EHI_Schemas",
+    "developers": [
+      "Indian Health Service"
+    ],
+    "products": [
+      "Resource and Patient Management System Electronic Health Record"
+    ],
+    "chpl_ids": [
+      11717
+    ],
+    "product_count": 1
+  },
+  {
+    "url": "https://github.com/GoodXSoftware/patient_export/blob/master/README.md",
+    "developers": [
+      "Goodx Inc."
+    ],
+    "products": [
+      "Goodx"
+    ],
+    "chpl_ids": [
+      11703
+    ],
+    "product_count": 1
+  },
+  {
+    "url": "https://www.theralytics.net/ehiexport",
+    "developers": [
+      "Theralytics"
+    ],
+    "products": [
+      "Practice Management and Data Collection Software"
+    ],
+    "chpl_ids": [
+      11716
+    ],
+    "product_count": 1
+  },
+  {
+    "url": "https://www.urgentchart.com/export.html",
+    "developers": [
+      "Urgent Chart LLC"
+    ],
+    "products": [
+      "UrgentChart"
+    ],
+    "chpl_ids": [
+      11718
+    ],
+    "product_count": 1
+  },
+  {
+    "url": "https://ritten.notion.site/Ritten-EHI-Export-2a91c7de7e3a80bf88e1d7d4984d9b8d",
+    "developers": [
+      "Ritten, Inc."
+    ],
+    "products": [
+      "Ritten"
+    ],
+    "chpl_ids": [
+      11721
+    ],
+    "product_count": 1
+  },
+  {
+    "url": "https://www.experityhealth.com/onc-certification/",
+    "developers": [
+      "Experity"
+    ],
+    "products": [
+      "Experity EMR"
+    ],
+    "chpl_ids": [
+      11704
+    ],
+    "product_count": 1
+  },
+  {
+    "url": "https://www.ehrez.com/",
+    "developers": [
+      "E-Health Partners, Inc."
+    ],
+    "products": [
+      "EHRez"
+    ],
+    "chpl_ids": [
+      11726
+    ],
+    "product_count": 1
+  },
+  {
+    "url": "https://minglehealth.com/ecqm-ehi-export-format/",
+    "developers": [
+      "Mingle Healthcare Solutions, Inc."
+    ],
+    "products": [
+      "eCQM Solutions"
+    ],
+    "chpl_ids": [
+      11728
+    ],
+    "product_count": 1
+  },
+  {
+    "url": "https://8759937.fs1.hubspotusercontent-na1.net/hubfs/8759937/Perform%2B_Regulatory_Certificate/PERFORM%2B_B10_Certification_Workflow_V1.2.pdf",
+    "developers": [
+      "CitiusTech, Inc."
+    ],
+    "products": [
+      "Perform+"
+    ],
+    "chpl_ids": [
+      11705
+    ],
+    "product_count": 1
+  },
+  {
+    "url": "https://app.box.com/s/rxi2lmsrjfhrb80o68a9dpdo6usys8ms",
+    "developers": [
+      "Curis Partners LLC"
+    ],
+    "products": [
+      "HousecallOS"
+    ],
+    "chpl_ids": [
+      11744
+    ],
+    "product_count": 1
+  },
+  {
+    "url": "https://www.medplum.com/docs/api/fhir/operations/patient-everything",
+    "developers": [
+      "Medplum"
+    ],
+    "products": [
+      "Medplum"
+    ],
+    "chpl_ids": [
+      11745
+    ],
+    "product_count": 1
+  },
+  {
+    "url": "https://blucygnus.ai/product/NQ==",
+    "developers": [
+      "Intellix Solutions, LLC."
+    ],
+    "products": [
+      "BluKnox"
+    ],
+    "chpl_ids": [
+      11746
+    ],
+    "product_count": 1
+  },
+  {
+    "url": "https://objectivemedicalsystems.com/wp-content/uploads/2025/09/EHI-Export-Data-Format.pdf",
+    "developers": [
+      "Objective Medical Systems, LLC"
+    ],
+    "products": [
+      "OMS EHR"
+    ],
+    "chpl_ids": [
+      11751
+    ],
+    "product_count": 1
+  },
+  {
+    "url": "https://woundally.com/ehi-export.php",
+    "developers": [
+      "WoundAlly"
+    ],
+    "products": [
+      "WoundAlly"
+    ],
+    "chpl_ids": [
+      11752
+    ],
+    "product_count": 1
+  },
+  {
+    "url": "https://cursahealth.com/document/B10-Electronic-Health-information-Export.pdf",
+    "developers": [
+      "CursaHealth LLC"
+    ],
+    "products": [
+      "CursaHealth EHR"
+    ],
+    "chpl_ids": [
+      11735
+    ],
+    "product_count": 1
+  },
+  {
+    "url": "https://www.virtusa.com/solutions/clinical-quality-measures-reporting/carediscovery-electronic-quality-measures-cdeqm",
+    "developers": [
+      "Virtusa Corporation"
+    ],
+    "products": [
+      "CareDiscovery Electronic Quality Measures"
+    ],
+    "chpl_ids": [
+      11706
+    ],
+    "product_count": 1
+  },
+  {
+    "url": "https://portal.assertus.com/wp-content/uploads/2023/10/MedicusEHR-170-315-b-10.pdf",
+    "developers": [
+      "Medicus Clinical, LLC"
+    ],
+    "products": [
+      "MedicusEHR"
+    ],
+    "chpl_ids": [
+      11725
+    ],
+    "product_count": 1
+  },
+  {
+    "url": "https://www.medhost.com/about-us/regulatory-and-compliance/",
+    "developers": [
+      "MEDHOST"
+    ],
+    "products": [
+      "MEDHOST Business Intelligence"
+    ],
+    "chpl_ids": [
+      11736
+    ],
+    "product_count": 1
+  },
+  {
+    "url": "https://www.atipt.com/ehi-export-information/",
+    "developers": [
+      "ATI Holdings LLC, DBA ATI Physical Therapy"
+    ],
+    "products": [
+      "ATI EHR"
+    ],
+    "chpl_ids": [
+      11740
+    ],
+    "product_count": 1
+  },
+  {
+    "url": "https://docs.kodjin.com/onc-bulk-data-export/",
+    "developers": [
+      "EDENLAB O\u00dc"
+    ],
+    "products": [
+      "Kodjin FHIR Server"
+    ],
+    "chpl_ids": [
+      11749
+    ],
+    "product_count": 1
+  },
+  {
+    "url": "https://vigiboss.com/md4front/onccertification/ElectronicHealthInformation.html",
+    "developers": [
+      "Vigiboss Inc."
+    ],
+    "products": [
+      "MD4Front"
+    ],
+    "chpl_ids": [
+      11750
+    ],
+    "product_count": 1
+  },
+  {
+    "url": "https://portal.inmediata.com/2023/(b)%20(10)%20EHI%20Export_PrognoCIS%20Support_Self%20Attestation%20Document_final_Inmediata_Rev.pdf",
+    "developers": [
+      "Inmediata Health Group LLC"
+    ],
+    "products": [
+      "SecureEMR+"
+    ],
+    "chpl_ids": [
+      11753
+    ],
+    "product_count": 1
+  },
+  {
+    "url": "https://www.alterahealth.com/download/204/ehi-documentation/11975/ehiexportreferenceguide_dbmotion.pdf",
+    "developers": [
+      "Altera Digital Health Inc."
+    ],
+    "products": [
+      "dbMotion"
+    ],
+    "chpl_ids": [
+      11741
+    ],
+    "product_count": 1
+  },
+  {
+    "url": "https://www.ankhos.com/s/EHIExportFormatSpecification.pdf",
+    "developers": [
+      "Ankhos Oncology Software"
+    ],
+    "products": [
+      "Ankhos"
+    ],
+    "chpl_ids": [
+      11754
+    ],
+    "product_count": 1
+  },
+  {
+    "url": "https://new.webedoctor.com/certification/",
+    "developers": [
+      "WEBeDoctor, Inc."
+    ],
+    "products": [
+      "WEBeDoctor Physician Office"
+    ],
+    "chpl_ids": [
+      11748
+    ],
+    "product_count": 1
+  },
+  {
+    "url": "https://www.kipuhealth.com/wp-content/uploads/2025/12/ONC_EHI_Export_Documentation_v1.1.pdf",
+    "developers": [
+      "Kipu Health"
+    ],
+    "products": [
+      "Kipu"
+    ],
+    "chpl_ids": [
+      11755
+    ],
+    "product_count": 1
+  },
+  {
+    "url": "https://healthycampus.com/policies/ehi-export-policy/",
+    "developers": [
+      "Healthy Campus, LLC"
+    ],
+    "products": [
+      "Healthy Campus Platform"
+    ],
+    "chpl_ids": [
+      11760
+    ],
+    "product_count": 1
+  },
+  {
+    "url": "https://github.com/Medaxion/open_api_resources/wiki/Electronic-Health-Information-Export-Format",
+    "developers": [
+      "Medaxion, Inc."
+    ],
+    "products": [
+      "Medaxion Pulse"
+    ],
+    "chpl_ids": [
+      11762
+    ],
+    "product_count": 1
+  },
+  {
+    "url": "https://healthmonix.com/onc-certification-details/",
+    "developers": [
+      "Healthmonix"
+    ],
+    "products": [
+      "Prism"
+    ],
+    "chpl_ids": [
+      11765
+    ],
+    "product_count": 1
+  },
+  {
+    "url": "https://iatric.com/meaningful-use/ptaccess-product-certification/",
+    "developers": [
+      "Iatric Systems, Inc"
+    ],
+    "products": [
+      "PtAccess"
+    ],
+    "chpl_ids": [
+      11766
+    ],
+    "product_count": 1
+  },
+  {
+    "url": "https://unityhealth360.com/onc-certification",
+    "developers": [
+      "Unity Health"
+    ],
+    "products": [
+      "Cinch Health"
+    ],
+    "chpl_ids": [
+      11710
+    ],
+    "product_count": 1
+  },
+  {
+    "url": "https://medinsight.com/healthcare-data-analytics-about/onc-certification-details/",
+    "developers": [
+      "Milliman MedInsight"
+    ],
+    "products": [
+      "MedInsight eCQM"
+    ],
+    "chpl_ids": [
+      11739
+    ],
+    "product_count": 1
+  },
+  {
+    "url": "https://www.modmed.com/asc-onc-certification/",
+    "developers": [
+      "Modernizing Medicine Inc."
+    ],
+    "products": [
+      "ModMed ASC"
+    ],
+    "chpl_ids": [
+      11701
+    ],
+    "product_count": 1
+  },
+  {
+    "url": "https://ehr.escribe.com/ehr/api/ehi-export/doc",
+    "developers": [
+      "Lille Group, Inc."
+    ],
+    "products": [
+      "escribeHOST"
+    ],
+    "chpl_ids": [
+      10830
+    ],
+    "product_count": 1
+  },
+  {
+    "url": "https://www.nexusclinical.com/costs-and-limitations/",
+    "developers": [
+      "Nexus Clinical LLC"
+    ],
+    "products": [
+      "Nexus EHR"
+    ],
+    "chpl_ids": [
+      11130
+    ],
+    "product_count": 1
+  },
+  {
+    "url": "https://hospicemd.com/export.aspx",
+    "developers": [
+      "HospiceMD, Inc."
+    ],
+    "products": [
+      "HospiceMD"
+    ],
+    "chpl_ids": [
+      11473
+    ],
+    "product_count": 1
+  },
+  {
+    "url": "https://fhir.pcisgold.com/ehiexport/",
+    "developers": [
+      "PCIS GOLD"
+    ],
+    "products": [
+      "PCIS GOLD EHR"
+    ],
+    "chpl_ids": [
+      11137
+    ],
+    "product_count": 1
+  },
+  {
+    "url": "https://cloudcraftsoftware.com/certification/B10.html",
+    "developers": [
+      "CloudCraft, LLC"
+    ],
+    "products": [
+      "CloudCraft Software"
+    ],
+    "chpl_ids": [
+      11150
+    ],
+    "product_count": 1
+  },
+  {
+    "url": "https://ulrichmedicalconcepts.com/home/the-ehr/meaningful-use/cost-disclosure-and-transparency/",
+    "developers": [
+      "Ulrich Medical Concepts"
+    ],
+    "products": [
+      "Team Chart Concept"
+    ],
+    "chpl_ids": [
+      10227
+    ],
+    "product_count": 1
+  },
+  {
+    "url": "https://icanotes-ehr.na1.teamsupport.com/knowledgeBase/33770009",
+    "developers": [
+      "ICANotes LLC"
+    ],
+    "products": [
+      "ICANotes EHR/EMR for Behavioral Health"
+    ],
+    "chpl_ids": [
+      11127
+    ],
+    "product_count": 1
+  },
+  {
+    "url": "https://cantatahealth.com/wp-content/uploads/2024/12/Arize-Mandatory-Disclosures-1.pdf",
+    "developers": [
+      "Cantata Health Solutions"
+    ],
+    "products": [
+      "Arize"
+    ],
+    "chpl_ids": [
+      11258
+    ],
+    "product_count": 1
+  },
+  {
+    "url": "https://www.skilledwoundcare.com/ehiexport",
+    "developers": [
+      "Skilled Wound Care"
+    ],
+    "products": [
+      "Treasure EHR"
+    ],
+    "chpl_ids": [
+      11266
+    ],
+    "product_count": 1
+  },
+  {
+    "url": "https://drfirst.com/privacy-policy/ehi-export/",
+    "developers": [
+      "DrFirst"
+    ],
+    "products": [
+      "Rcopia"
+    ],
+    "chpl_ids": [
+      9207
+    ],
+    "product_count": 1
+  },
+  {
+    "url": "https://apps.medicscloud.com/B10_MedicsDocAssistant.html",
+    "developers": [
+      "Advanced Data Systems Corporation"
+    ],
+    "products": [
+      "MedicsDocAssistant"
+    ],
+    "chpl_ids": [
+      10785
+    ],
+    "product_count": 1
+  },
+  {
+    "url": "http://medi-ehr.com/compliance",
+    "developers": [
+      "Medi-EHR, LLC"
+    ],
+    "products": [
+      "Medi-EHR"
+    ],
+    "chpl_ids": [
+      10831
+    ],
+    "product_count": 1
+  },
+  {
+    "url": "https://www.epowerdoc.com/compliance-and-roi/b10-solution",
+    "developers": [
+      "EPOWERdoc, Inc."
+    ],
+    "products": [
+      "EMRdoc"
+    ],
+    "chpl_ids": [
+      10781
+    ],
+    "product_count": 1
+  },
+  {
+    "url": "https://21149294.fs1.hubspotusercontent-na1.net/hubfs/21149294/Electronic%20Health%20Information%20Export.pdf",
+    "developers": [
+      "Exym"
+    ],
+    "products": [
+      "Exym"
+    ],
+    "chpl_ids": [
+      10898
+    ],
+    "product_count": 1
+  },
+  {
+    "url": "https://fhir.ederm.io:9443/fhir-server/api/v4/metadata",
+    "developers": [
+      "eDerm Systems LLC"
+    ],
+    "products": [
+      "eDerm Systems"
+    ],
+    "chpl_ids": [
+      10149
+    ],
+    "product_count": 1
+  },
+  {
+    "url": "https://www.ethizo.com/electronic-health-information-export/",
+    "developers": [
+      "DocToMe, Inc."
+    ],
+    "products": [
+      "ethizo EHR"
+    ],
+    "chpl_ids": [
+      10265
+    ],
+    "product_count": 1
+  },
+  {
+    "url": "http://epromedical.com/ehi-export-b10/",
+    "developers": [
+      "Eprosystem Inc."
+    ],
+    "products": [
+      "EproMedical"
+    ],
+    "chpl_ids": [
+      11012
+    ],
+    "product_count": 1
+  },
+  {
+    "url": "https://www.spacinternational.com/SPAC-Export.pdf",
+    "developers": [
+      "Sargas Pharmaceutical Adherence and Compliance International"
+    ],
+    "products": [
+      "Sargas International's Chronic Care Management Cloud dba hru2day"
+    ],
+    "chpl_ids": [
+      10702
+    ],
+    "product_count": 1
+  },
+  {
+    "url": "https://www.correctek.com/cost-disclosure-and-transparency/",
+    "developers": [
+      "CorrecTek"
+    ],
+    "products": [
+      "Spark"
+    ],
+    "chpl_ids": [
+      10274
+    ],
+    "product_count": 1
+  },
+  {
+    "url": "http://www.media.geniussolutions.com/ehrTHOMAS/ehrWebApi/Help/html/ElectronicHealthInformationExport.html",
+    "developers": [
+      "Genius Solutions Inc."
+    ],
+    "products": [
+      "ehrTHOMAS"
+    ],
+    "chpl_ids": [
+      9585
+    ],
+    "product_count": 1
+  },
+  {
+    "url": "https://www.nortecehr.com/export-ehi.html",
+    "developers": [
+      "Nortec Software Inc."
+    ],
+    "products": [
+      "Nortec EHR"
+    ],
+    "chpl_ids": [
+      10734
+    ],
+    "product_count": 1
+  },
+  {
+    "url": "https://www.wrshealth.com/onc-certification-and-costs",
+    "developers": [
+      "WRS Health"
+    ],
+    "products": [
+      "WRS Health Web EHR and Practice Management System"
+    ],
+    "chpl_ids": [
+      10750
+    ],
+    "product_count": 1
+  },
+  {
+    "url": "https://www.iorion.com/downloads/layoutdefinitionehi.pdf",
+    "developers": [
+      "OrionNet Systems, LLC"
+    ],
+    "products": [
+      "ThinkHealth - Practice Management Software (EHR)"
+    ],
+    "chpl_ids": [
+      10693
+    ],
+    "product_count": 1
+  },
+  {
+    "url": "https://www.curemd.com/ehi-export.asp",
+    "developers": [
+      "CureMD.com, Inc."
+    ],
+    "products": [
+      "CureMD SMART Cloud"
+    ],
+    "chpl_ids": [
+      11246
+    ],
+    "product_count": 1
+  },
+  {
+    "url": "https://vertexdr.com",
+    "developers": [
+      "Meridian Medical Management"
+    ],
+    "products": [
+      "VertexDr"
+    ],
+    "chpl_ids": [
+      11002
+    ],
+    "product_count": 1
+  },
+  {
+    "url": "https://www.qsmartcare.com/ehi-template.html",
+    "developers": [
+      "Magilen Enterprises Inc"
+    ],
+    "products": [
+      "QSmartCare"
+    ],
+    "chpl_ids": [
+      10803
+    ],
+    "product_count": 1
+  },
+  {
+    "url": "https://claimocity.com/onc-certification",
+    "developers": [
+      "Claimocity, Inc."
+    ],
+    "products": [
+      "Claimocity"
+    ],
+    "chpl_ids": [
+      11359
+    ],
+    "product_count": 1
+  },
+  {
+    "url": "https://www.officepracticum.com/op/population-health/onc-certification#onccert",
+    "developers": [
+      "Office Practicum"
+    ],
+    "products": [
+      "Office Practicum"
+    ],
+    "chpl_ids": [
+      11049
+    ],
+    "product_count": 1
+  },
+  {
+    "url": "https://welligent.com/wp-content/uploads/2025/07/B10-Documentation.pdf",
+    "developers": [
+      "Welligent, Part of the ContinuumCloud"
+    ],
+    "products": [
+      "Welligent"
+    ],
+    "chpl_ids": [
+      10811
+    ],
+    "product_count": 1
+  },
+  {
+    "url": "https://www.fa-management.com/mu-disclosure/",
+    "developers": [
+      "F&A Management"
+    ],
+    "products": [
+      "RoverMD"
+    ],
+    "chpl_ids": [
+      11061
+    ],
+    "product_count": 1
+  },
+  {
+    "url": "https://clinicomp.com/ehr-data-export-details/",
+    "developers": [
+      "CliniComp, Intl."
+    ],
+    "products": [
+      "CliniComp|EHR"
+    ],
+    "chpl_ids": [
+      10998
+    ],
+    "product_count": 1
+  },
+  {
+    "url": "https://s3.amazonaws.com/novoclinical.miscellaneous/Novoclinical+Data+Export+Format.pdf",
+    "developers": [
+      "NovoMedici, LLC"
+    ],
+    "products": [
+      "NovoClinical"
+    ],
+    "chpl_ids": [
+      10805
+    ],
+    "product_count": 1
+  },
+  {
+    "url": "https://redwoodemr.com/s/PatientExportInfo-v1.txt",
+    "developers": [
+      "FannoTek, Inc."
+    ],
+    "products": [
+      "Redwood EMR"
+    ],
+    "chpl_ids": [
+      11039
+    ],
+    "product_count": 1
+  },
+  {
+    "url": "https://www.holyname.org/Policy/ehi-export-file-format.aspx",
+    "developers": [
+      "Holy Name Medical Center"
+    ],
+    "products": [
+      "WebHIS"
+    ],
+    "chpl_ids": [
+      11224
+    ],
+    "product_count": 1
+  },
+  {
+    "url": "https://help.youruprise.com/m/72283/l/1745699-data-export",
+    "developers": [
+      "VisionWeb"
+    ],
+    "products": [
+      "Uprise"
+    ],
+    "chpl_ids": [
+      11069
+    ],
+    "product_count": 1
+  },
+  {
+    "url": "https://his.medvantage.tech/static/media/ElectronicHealthInformationExport(Cures)Documentation.611db6cc4e7ae051986f.pdf",
+    "developers": [
+      "CRITERION TECH PRIVATE LIMITED"
+    ],
+    "products": [
+      "Medvantage"
+    ],
+    "chpl_ids": [
+      11369
+    ],
+    "product_count": 1
+  },
+  {
+    "url": "https://www.consensus.com/products/conductor/",
+    "developers": [
+      "Consensus Cloud Solutions"
+    ],
+    "products": [
+      "Conductor"
+    ],
+    "chpl_ids": [
+      11363
+    ],
+    "product_count": 1
+  },
+  {
+    "url": "https://nextservices.com/enki-ehr-certification-details/",
+    "developers": [
+      "NextServices, Inc."
+    ],
+    "products": [
+      "enki EHR"
+    ],
+    "chpl_ids": [
+      11372
+    ],
+    "product_count": 1
+  },
+  {
+    "url": "https://gohealthsolutions.org/disclosures/",
+    "developers": [
+      "CREOKS GoHealth Solutions"
+    ],
+    "products": [
+      "GoHealth Solutions"
+    ],
+    "chpl_ids": [
+      11035
+    ],
+    "product_count": 1
+  },
+  {
+    "url": "https://www.dawsystems.com/eprescribing.html",
+    "developers": [
+      "DAW SYSTEMS, INC."
+    ],
+    "products": [
+      "ScriptSure Cloud"
+    ],
+    "chpl_ids": [
+      11366
+    ],
+    "product_count": 1
+  },
+  {
+    "url": "https://www.navigatingcancer.com/requirements-incentives/",
+    "developers": [
+      "Navigating Cancer, LLC"
+    ],
+    "products": [
+      "Navigating Care"
+    ],
+    "chpl_ids": [
+      11068
+    ],
+    "product_count": 1
+  },
+  {
+    "url": "https://www.morris-systems.com/ccda_specifications.html",
+    "developers": [
+      "Morris Systems, Inc. d/b/a M-Systems, Inc."
+    ],
+    "products": [
+      "MHS"
+    ],
+    "chpl_ids": [
+      11367
+    ],
+    "product_count": 1
+  },
+  {
+    "url": "https://carecloud.box.com/s/hbcwnjut45ck1gp99so3v4p7tjncmxo4",
+    "developers": [
+      "CareCloud Health, Inc."
+    ],
+    "products": [
+      "CareCloud Charts"
+    ],
+    "chpl_ids": [
+      11173
+    ],
+    "product_count": 1
+  },
+  {
+    "url": "https://www.myeyedata.com/Certification/",
+    "developers": [
+      "Ocuco Limited"
+    ],
+    "products": [
+      "Acuitas activEHR"
+    ],
+    "chpl_ids": [
+      11083
+    ],
+    "product_count": 1
+  },
+  {
+    "url": "https://www.writepad.com/_files/ugd/50126f_4343a04939f24a6f8cb83696bf9a948d.pdf",
+    "developers": [
+      "Addison Health Systems, Inc."
+    ],
+    "products": [
+      "WritePad EHR"
+    ],
+    "chpl_ids": [
+      11084
+    ],
+    "product_count": 1
+  },
+  {
+    "url": "https://ebiometronics.com/data-export/",
+    "developers": [
+      "EBIO-METRONICS"
+    ],
+    "products": [
+      "EBIO-METRONICS"
+    ],
+    "chpl_ids": [
+      11087
+    ],
+    "product_count": 1
+  },
+  {
+    "url": "https://www.nablemd.com/certification2015.html",
+    "developers": [
+      "Nth Technologies, Inc."
+    ],
+    "products": [
+      "nAbleMD"
+    ],
+    "chpl_ids": [
+      11118
+    ],
+    "product_count": 1
+  },
+  {
+    "url": "https://www.medirec.us/products",
+    "developers": [
+      "MediRec, Inc."
+    ],
+    "products": [
+      "abcEHR V"
+    ],
+    "chpl_ids": [
+      11117
+    ],
+    "product_count": 1
+  },
+  {
+    "url": "https://documentation.qualifacts.com/ehi-export/platform/insync/insync-ehi-export.html",
+    "developers": [
+      "Qualifacts Systems, LLC"
+    ],
+    "products": [
+      "Insync EMR/PM"
+    ],
+    "chpl_ids": [
+      10858
+    ],
+    "product_count": 1
+  },
+  {
+    "url": "https://www.axeium.com/EHI",
+    "developers": [
+      "Brilogy Corporation"
+    ],
+    "products": [
+      "AXEIUM"
+    ],
+    "chpl_ids": [
+      11086
+    ],
+    "product_count": 1
+  },
+  {
+    "url": "https://astronautehr.com/index.php/disclosures/export-format-documentation/",
+    "developers": [
+      "Astronaut, LLC"
+    ],
+    "products": [
+      "Astronaut"
+    ],
+    "chpl_ids": [
+      10809
+    ],
+    "product_count": 1
+  },
+  {
+    "url": "https://www.patientfirst.com/mandatory-disclosure-for-ehr",
+    "developers": [
+      "Patient First"
+    ],
+    "products": [
+      "PAS"
+    ],
+    "chpl_ids": [
+      11065
+    ],
+    "product_count": 1
+  },
+  {
+    "url": "https://www.braintreehealth.com/braintree-onc-certification-btree/",
+    "developers": [
+      "Braintree Health"
+    ],
+    "products": [
+      "BRAINTREE"
+    ],
+    "chpl_ids": [
+      10727
+    ],
+    "product_count": 1
+  },
+  {
+    "url": "https://healthendeavors.com/onc-certification/",
+    "developers": [
+      "Health Endeavors"
+    ],
+    "products": [
+      "Health Endeavors Registry"
+    ],
+    "chpl_ids": [
+      11402
+    ],
+    "product_count": 1
+  },
+  {
+    "url": "https://www.mirketa.com/patient-ehi-export/",
+    "developers": [
+      "Mirketa Inc"
+    ],
+    "products": [
+      "Elixir"
+    ],
+    "chpl_ids": [
+      11323
+    ],
+    "product_count": 1
+  },
+  {
+    "url": "https://sisoft.com.tr/en/170.315.b10-Electronic.Health.Information.Export.pdf",
+    "developers": [
+      "Sisoft Healthcare Information Systems"
+    ],
+    "products": [
+      "SisoHis"
+    ],
+    "chpl_ids": [
+      9462
+    ],
+    "product_count": 1
+  },
+  {
+    "url": "https://modulemd.com/wp-content/uploads/2023/11/B10-Data-Export-Process-Flow-Document_compressed.pdf",
+    "developers": [
+      "ModuleMD"
+    ],
+    "products": [
+      "ModuleMD WISE\u2122"
+    ],
+    "chpl_ids": [
+      11092
+    ],
+    "product_count": 1
+  },
+  {
+    "url": "https://www.ironbridgecorp.com/onc-certification",
+    "developers": [
+      "Iron Bridge Integration, Inc."
+    ],
+    "products": [
+      "Pub Hub"
+    ],
+    "chpl_ids": [
+      8562
+    ],
+    "product_count": 1
+  },
+  {
+    "url": "https://usmon.com/ExportProcess.jsp",
+    "developers": [
+      "US Monitoring, Inc."
+    ],
+    "products": [
+      "USMON Database"
+    ],
+    "chpl_ids": [
+      11096
+    ],
+    "product_count": 1
+  },
+  {
+    "url": "https://www.ntst.com/lp/certifications/ehi-all-data-gehrimed",
+    "developers": [
+      "Netsmart Technologies"
+    ],
+    "products": [
+      "GEHRIMED"
+    ],
+    "chpl_ids": [
+      11136
+    ],
+    "product_count": 1
+  },
+  {
+    "url": "https://www.zoommd.com/company-certifications-awards/",
+    "developers": [
+      "Metasolutions Inc"
+    ],
+    "products": [
+      "ZoomMD"
+    ],
+    "chpl_ids": [
+      11182
+    ],
+    "product_count": 1
+  },
+  {
+    "url": "https://broadstreetcare.com/docs/ehi-export",
+    "developers": [
+      "BroadStreet Health LLC"
+    ],
+    "products": [
+      "BroadStreet"
+    ],
+    "chpl_ids": [
+      11410
+    ],
+    "product_count": 1
+  },
+  {
+    "url": "https://onc.chntechsolutions.com/integrated-care-ehr-electronic-health-information-export-cures/",
+    "developers": [
+      "CHN Tech Solutions LLC"
+    ],
+    "products": [
+      "Integrated Care EHR"
+    ],
+    "chpl_ids": [
+      11067
+    ],
+    "product_count": 1
+  },
+  {
+    "url": "https://acplus.com/technology/acplus/",
+    "developers": [
+      "Accelerated Care Plus"
+    ],
+    "products": [
+      "ACPlus\u2122"
+    ],
+    "chpl_ids": [
+      11412
+    ],
+    "product_count": 1
+  },
+  {
+    "url": "https://www.medonehp.com/wp-content/uploads/2023/11/Export.pdf",
+    "developers": [
+      "MedOne Healthcare Partners"
+    ],
+    "products": [
+      "OneConnect"
+    ],
+    "chpl_ids": [
+      11426
+    ],
+    "product_count": 1
+  },
+  {
+    "url": "https://www.willowgladetechnologies.com/requirements",
+    "developers": [
+      "Willowglade Technologies Corporation"
+    ],
+    "products": [
+      "Personal Health Navigator"
+    ],
+    "chpl_ids": [
+      11411
+    ],
+    "product_count": 1
+  },
+  {
+    "url": "https://royalsolutionsprod.blob.core.windows.net/public/publicimages/certification/DocumentationB10FormatExport.pdf",
+    "developers": [
+      "Royal Health, Inc."
+    ],
+    "products": [
+      "Royal Solutions"
+    ],
+    "chpl_ids": [
+      10770
+    ],
+    "product_count": 1
+  },
+  {
+    "url": "https://ensorahealth.com/onc/teneleven/",
+    "developers": [
+      "TenEleven Group"
+    ],
+    "products": [
+      "electronic Clinical Record (eCR)"
+    ],
+    "chpl_ids": [
+      11200
+    ],
+    "product_count": 1
+  },
+  {
+    "url": "https://sophrona.com/products/certifications/",
+    "developers": [
+      "Sophrona Solutions, Inc."
+    ],
+    "products": [
+      "Sophrona e2015 Portal Technology"
+    ],
+    "chpl_ids": [
+      11421
+    ],
+    "product_count": 1
+  },
+  {
+    "url": "https://www.sequelmed.com/data-export/",
+    "developers": [
+      "Sequel Systems, Inc."
+    ],
+    "products": [
+      "SequelMed EHR"
+    ],
+    "chpl_ids": [
+      11143
+    ],
+    "product_count": 1
+  },
+  {
+    "url": "https://www.healthviewx.com/wp-content/uploads/2023/12/EHI-Export-Documentation-V1.0.pdf",
+    "developers": [
+      "Payoda Technology Inc."
+    ],
+    "products": [
+      "HealthViewX"
+    ],
+    "chpl_ids": [
+      11415
+    ],
+    "product_count": 1
+  },
+  {
+    "url": "https://www.ezcaretech.com/english/onc/b.10_EHI_Export_BESTCare2.0G.pdf",
+    "developers": [
+      "ezCaretech Co., Ltd."
+    ],
+    "products": [
+      "BESTCare"
+    ],
+    "chpl_ids": [
+      11161
+    ],
+    "product_count": 1
+  },
+  {
+    "url": "https://www.cybermedcorp.com/Products/EHR.html",
+    "developers": [
+      "CyberMed Corporation"
+    ],
+    "products": [
+      "CyberMed EHR"
+    ],
+    "chpl_ids": [
+      11154
+    ],
+    "product_count": 1
+  },
+  {
+    "url": "https://lightningstep.com/onc-certification",
+    "developers": [
+      "Lightning Step Technologies"
+    ],
+    "products": [
+      "Lightning Step"
+    ],
+    "chpl_ids": [
+      11427
+    ],
+    "product_count": 1
+  },
+  {
+    "url": "https://imatsolutions.com/index.php/ecqm/",
+    "developers": [
+      "IMAT Solutions"
+    ],
+    "products": [
+      "IMAT Solutions"
+    ],
+    "chpl_ids": [
+      11188
+    ],
+    "product_count": 1
+  },
+  {
+    "url": "https://dexter-solutions.com/certification",
+    "developers": [
+      "Dexter Solutions Inc"
+    ],
+    "products": [
+      "eZDocs"
+    ],
+    "chpl_ids": [
+      11432
+    ],
+    "product_count": 1
+  },
+  {
+    "url": "https://documentation.qualifacts.com/ehi-export",
+    "developers": [
+      "Qualifacts Systems, LLC"
+    ],
+    "products": [
+      "Credible Behavioral Health"
+    ],
+    "chpl_ids": [
+      11183
+    ],
+    "product_count": 1
+  },
+  {
+    "url": "https://ppm.fhcsd.org/assets/EHIExportFormat.pdf",
+    "developers": [
+      "Family Health Centers of San Diego, Inc."
+    ],
+    "products": [
+      "CMIS Medical EHR"
+    ],
+    "chpl_ids": [
+      11231
+    ],
+    "product_count": 1
+  },
+  {
+    "url": "https://www.claimpowerehr.com/curesUpdate/CCDA_Export.PDF",
+    "developers": [
+      "Claimpower, Inc."
+    ],
+    "products": [
+      "Claimpower Mobile EMR"
+    ],
+    "chpl_ids": [
+      11209
+    ],
+    "product_count": 1
+  },
+  {
+    "url": "https://penn-clinical.com/ehi-export",
+    "developers": [
+      "Perk Medical Systems LLC (PCB Apps LLC)"
+    ],
+    "products": [
+      "ezPractice"
+    ],
+    "chpl_ids": [
+      11237
+    ],
+    "product_count": 1
+  },
+  {
+    "url": "https://ablehealth.elevio.help/en/articles/111633",
+    "developers": [
+      "Health Catalyst, Inc."
+    ],
+    "products": [
+      "MeasureAble"
+    ],
+    "chpl_ids": [
+      11444
+    ],
+    "product_count": 1
+  },
+  {
+    "url": "https://www.intrinsiq.com/-/media/assets/intrinsiq/pdf/PHI_Data_Extract.pdf",
+    "developers": [
+      "IntrinsiQ Specialty Solutions, Inc. FBO Healthtronics Information Technology Solutions Inc."
+    ],
+    "products": [
+      "UroChart EHR"
+    ],
+    "chpl_ids": [
+      11138
+    ],
+    "product_count": 1
+  },
+  {
+    "url": "https://www.mdflow.com/EHIExport.pdf",
+    "developers": [
+      "MDFlow EHR, LLC DBA: MDFlow Systems"
+    ],
+    "products": [
+      "MDFlow EHR and Patient Care Workflow Management System"
+    ],
+    "chpl_ids": [
+      11459
+    ],
+    "product_count": 1
+  },
+  {
+    "url": "https://www.enliv.com/ehi-export",
+    "developers": [
+      "Thinkhat Software Inc"
+    ],
+    "products": [
+      "ENLIV"
+    ],
+    "chpl_ids": [
+      11461
+    ],
+    "product_count": 1
+  },
+  {
+    "url": "https://patagoniahealth.com/onc-certified-hit",
+    "developers": [
+      "Patagonia Health"
+    ],
+    "products": [
+      "Patagonia Health EHR"
+    ],
+    "chpl_ids": [
+      11147
+    ],
+    "product_count": 1
+  },
+  {
+    "url": "https://www.hcsinc.net/meaningful-use/",
+    "developers": [
+      "Health Care Systems, Inc."
+    ],
+    "products": [
+      "HCS eMR"
+    ],
+    "chpl_ids": [
+      11416
+    ],
+    "product_count": 1
+  },
+  {
+    "url": "https://www.solidpractice.com/doc/SolidPractice-b10-exportable-data-content.pdf",
+    "developers": [
+      "SolidPractice Technologies, LLC"
+    ],
+    "products": [
+      "SolidPractice"
+    ],
+    "chpl_ids": [
+      10763
+    ],
+    "product_count": 1
+  },
+  {
+    "url": "https://myriad.health/terms",
+    "developers": [
+      "Myriad Systems"
+    ],
+    "products": [
+      "Myriad Health"
+    ],
+    "chpl_ids": [
+      11452
+    ],
+    "product_count": 1
+  },
+  {
+    "url": "https://portal.inmediata.com/2023/SEMR%20B-10%20Final_Rv%20by%20FL.pdf",
+    "developers": [
+      "Inmediata Health Group LLC"
+    ],
+    "products": [
+      "SecureEMR"
+    ],
+    "chpl_ids": [
+      11162
+    ],
+    "product_count": 1
+  },
+  {
+    "url": "https://trinitashealth.com/FEHR-EHI/ehr-ehi-export-documentation_Trinitas/index.html",
+    "developers": [
+      "Trinitas LLC"
+    ],
+    "products": [
+      "FEHR"
+    ],
+    "chpl_ids": [
+      11454
+    ],
+    "product_count": 1
+  },
+  {
+    "url": "https://www.accumedic.com/onc-disclosure/",
+    "developers": [
+      "Accumedic Computer Systems, Inc."
+    ],
+    "products": [
+      "AccuMed EHR"
+    ],
+    "chpl_ids": [
+      11470
+    ],
+    "product_count": 1
+  },
+  {
+    "url": "https://learn.pcc.com/help/export-single-patient-record/",
+    "developers": [
+      "Physician's Computer Company"
+    ],
+    "products": [
+      "PCC EHR"
+    ],
+    "chpl_ids": [
+      11472
+    ],
+    "product_count": 1
+  },
+  {
+    "url": "https://withregard.com/certification/",
+    "developers": [
+      "Regard Technologies"
+    ],
+    "products": [
+      "Regard SaaS Solution"
+    ],
+    "chpl_ids": [
+      11467
+    ],
+    "product_count": 1
+  },
+  {
+    "url": "https://allegiancemd.com/ehi-export-documentation",
+    "developers": [
+      "AllegianceMD Software, Inc."
+    ],
+    "products": [
+      "Veracity"
+    ],
+    "chpl_ids": [
+      10794
+    ],
+    "product_count": 1
+  },
+  {
+    "url": "https://devportal.techcareehr.com/EHIExport",
+    "developers": [
+      "NaphCare, Inc."
+    ],
+    "products": [
+      "TechCare\u00ae"
+    ],
+    "chpl_ids": [
+      10207
+    ],
+    "product_count": 1
+  },
+  {
+    "url": "https://app.zoobooksystems.com/EHIexportDocumentation",
+    "developers": [
+      "Zoobook Systems LLC"
+    ],
+    "products": [
+      "Zoobook EHR"
+    ],
+    "chpl_ids": [
+      9268
+    ],
+    "product_count": 1
+  },
+  {
+    "url": "https://www.inovalon.com/ehi-export/?src=vigilanz",
+    "developers": [
+      "VigiLanz Corporation"
+    ],
+    "products": [
+      "VigiLanz Corporation"
+    ],
+    "chpl_ids": [
+      11319
+    ],
+    "product_count": 1
+  },
+  {
+    "url": "https://www.practicefusion.com/ehi-export-documentation/",
+    "developers": [
+      "Practice Fusion"
+    ],
+    "products": [
+      "Practice Fusion EHR"
+    ],
+    "chpl_ids": [
+      11507
+    ],
+    "product_count": 1
+  },
+  {
+    "url": "https://www.rwhc.com/Services/Quality-Programs/RWHC-Electronic-Clinical-Quality-Measures",
+    "developers": [
+      "Rural Wisconsin Health Cooperative"
+    ],
+    "products": [
+      "RWHC eCQM QI Program"
+    ],
+    "chpl_ids": [
+      11506
+    ],
+    "product_count": 1
+  },
+  {
+    "url": "https://www.careficient.com/ehi-export/",
+    "developers": [
+      "Careficient Inc"
+    ],
+    "products": [
+      "Careficient"
+    ],
+    "chpl_ids": [
+      11514
+    ],
+    "product_count": 1
+  },
+  {
+    "url": "https://pulseinc.com/terms-conditions-certification-costs-and-limitations/",
+    "developers": [
+      "Pulse Systems, Inc"
+    ],
+    "products": [
+      "Pulse EHR"
+    ],
+    "chpl_ids": [
+      11500
+    ],
+    "product_count": 1
+  },
+  {
+    "url": "https://www.carecloud.com/cc-prime/",
+    "developers": [
+      "CareCloud, Inc."
+    ],
+    "products": [
+      "CareCloud Prime"
+    ],
+    "chpl_ids": [
+      11504
+    ],
+    "product_count": 1
+  },
+  {
+    "url": "https://iatric.com/meaningful-use/analytics-on-demand-product-certification/",
+    "developers": [
+      "Iatric Systems, Inc"
+    ],
+    "products": [
+      "Analytics on Demand"
+    ],
+    "chpl_ids": [
+      11501
+    ],
+    "product_count": 1
+  },
+  {
+    "url": "https://discover.webpt.com/docs/webpt-emr-cehrt-certification",
+    "developers": [
+      "WebPT"
+    ],
+    "products": [
+      "WebPT"
+    ],
+    "chpl_ids": [
+      11515
+    ],
+    "product_count": 1
+  },
+  {
+    "url": "https://www.sapphire-health.com/disclosure",
+    "developers": [
+      "Sapphire Health"
+    ],
+    "products": [
+      "Sapphire EHR"
+    ],
+    "chpl_ids": [
+      11228
+    ],
+    "product_count": 1
+  },
+  {
+    "url": "https://provider.ehiehr.com/EHI_DATA_EXPort_GUIDE.pdf",
+    "developers": [
+      "Enable Healthcare Inc."
+    ],
+    "products": [
+      "MDnet"
+    ],
+    "chpl_ids": [
+      10247
+    ],
+    "product_count": 1
+  },
+  {
+    "url": "https://www.micromd.com/micromd-emr-certified/",
+    "developers": [
+      "MicroMD, LLC"
+    ],
+    "products": [
+      "MicroMD EMR"
+    ],
+    "chpl_ids": [
+      11281
+    ],
+    "product_count": 1
+  },
+  {
+    "url": "https://mediwareinc.github.io/consolo.interop-api-docs/",
+    "developers": [
+      "Wellsky"
+    ],
+    "products": [
+      "WellSky Hospice & Palliative"
+    ],
+    "chpl_ids": [
+      11198
+    ],
+    "product_count": 1
+  },
+  {
+    "url": "https://mraemr.com:47102/api/DataExportGuidance.asp",
+    "developers": [
+      "MD Charts, LLC"
+    ],
+    "products": [
+      "Physician's Solution"
+    ],
+    "chpl_ids": [
+      11214
+    ],
+    "product_count": 1
+  },
+  {
+    "url": "https://hstspot.com/help-documents.php",
+    "developers": [
+      "Health Systems Technology, Inc."
+    ],
+    "products": [
+      "MedPointe"
+    ],
+    "chpl_ids": [
+      11238
+    ],
+    "product_count": 1
+  },
+  {
+    "url": "https://medaz.com/certificationinfo.html",
+    "developers": [
+      "MedAZ.Net, LLC"
+    ],
+    "products": [
+      "Med A-Z"
+    ],
+    "chpl_ids": [
+      11300
+    ],
+    "product_count": 1
+  },
+  {
+    "url": "https://www.clinicaldata.org/mandatory-disclosures/",
+    "developers": [
+      "Clinical Data Solutions"
+    ],
+    "products": [
+      "The Clinical Manager"
+    ],
+    "chpl_ids": [
+      11280
+    ],
+    "product_count": 1
+  },
+  {
+    "url": "https://www.communitycarelink.com/data-extract",
+    "developers": [
+      "First Call Technologies, LLC DBA Community CareLink"
+    ],
+    "products": [
+      "Community CareLink"
+    ],
+    "chpl_ids": [
+      9281
+    ],
+    "product_count": 1
+  },
+  {
+    "url": "https://alteahc.com/wp-content/uploads/2023/11/Aarista_EHI_Export-.pdf",
+    "developers": [
+      "Aarista Technology LLC"
+    ],
+    "products": [
+      "Aarista"
+    ],
+    "chpl_ids": [
+      11329
+    ],
+    "product_count": 1
+  },
+  {
+    "url": "https://www.doxemr.com/b10doc",
+    "developers": [
+      "DOX EMR"
+    ],
+    "products": [
+      "DOX EMR"
+    ],
+    "chpl_ids": [
+      10806
+    ],
+    "product_count": 1
+  },
+  {
+    "url": "https://www.cedaron.com/wp-content/uploads/CONNECT-Patient-EHI-Export.pdf",
+    "developers": [
+      "Cedaron Medical, Inc."
+    ],
+    "products": [
+      "Connect"
+    ],
+    "chpl_ids": [
+      10804
+    ],
+    "product_count": 1
+  },
+  {
+    "url": "http://www.holtsystems.com/b10documentation_Intro.html",
+    "developers": [
+      "Holt Systems, Inc."
+    ],
+    "products": [
+      "eMedRec"
+    ],
+    "chpl_ids": [
+      10852
+    ],
+    "product_count": 1
+  },
+  {
+    "url": "https://amsemr.com/services/",
+    "developers": [
+      "American Medical Solutions, Inc."
+    ],
+    "products": [
+      "Helios"
+    ],
+    "chpl_ids": [
+      10834
+    ],
+    "product_count": 1
+  },
+  {
+    "url": "https://wellsky.com/behavioral-health-software/",
+    "developers": [
+      "Wellsky"
+    ],
+    "products": [
+      "WellSky Specialty Care"
+    ],
+    "chpl_ids": [
+      10884
+    ],
+    "product_count": 1
+  },
+  {
+    "url": "https://corp.cozeva.com/ehi-export/",
+    "developers": [
+      "Applied Research Works, Inc."
+    ],
+    "products": [
+      "Cozeva"
+    ],
+    "chpl_ids": [
+      11139
+    ],
+    "product_count": 1
+  },
+  {
+    "url": "http://www.inpracsys.com/disclosure",
+    "developers": [
+      "InPracSys"
+    ],
+    "products": [
+      "InPracSys EHR"
+    ],
+    "chpl_ids": [
+      10194
+    ],
+    "product_count": 1
+  },
+  {
+    "url": "https://criterions.com/cures-disclosures-2022/",
+    "developers": [
+      "Criterions Software Inc"
+    ],
+    "products": [
+      "Criterions EHR"
+    ],
+    "chpl_ids": [
+      10171
+    ],
+    "product_count": 1
+  },
+  {
+    "url": "https://www.doctorhelper.com/electronichealthinformationexport",
+    "developers": [
+      "PartnerHelper"
+    ],
+    "products": [
+      "DoctorHelper"
+    ],
+    "chpl_ids": [
+      10953
+    ],
+    "product_count": 1
+  },
+  {
+    "url": "https://support.drchrono.com/home/20260096536987-ehi-export-overview",
+    "developers": [
+      "drchrono Inc."
+    ],
+    "products": [
+      "drchrono EHR"
+    ],
+    "chpl_ids": [
+      10910
+    ],
+    "product_count": 1
+  },
+  {
+    "url": "https://westcare.com/electronic-health-record/",
+    "developers": [
+      "WestCare Foundation, Inc."
+    ],
+    "products": [
+      "Clinical Data System"
+    ],
+    "chpl_ids": [
+      10249
+    ],
+    "product_count": 1
+  },
+  {
+    "url": "https://www.yourdrs.com/Home/EHI_Export_Documentation",
+    "developers": [
+      "YOURDRS Services LLC"
+    ],
+    "products": [
+      "YOURDRS"
+    ],
+    "chpl_ids": [
+      10475
+    ],
+    "product_count": 1
+  },
+  {
+    "url": "https://officeemr.knowledgeowl.com/help/ehi-export",
+    "developers": [
+      "iSALUS Healthcare"
+    ],
+    "products": [
+      "OfficeEMR"
+    ],
+    "chpl_ids": [
+      10914
+    ],
+    "product_count": 1
+  },
+  {
+    "url": "https://www.logicoy.com/onc-b10-format/",
+    "developers": [
+      "LogiCoy Inc"
+    ],
+    "products": [
+      "LogiCoy eRx"
+    ],
+    "chpl_ids": [
+      10944
+    ],
+    "product_count": 1
+  },
+  {
+    "url": "https://www.medicasoft.com/compliance",
+    "developers": [
+      "MedicaSoft, LLC"
+    ],
+    "products": [
+      "ehr.NXT HealthCenter"
+    ],
+    "chpl_ids": [
+      11141
+    ],
+    "product_count": 1
+  },
+  {
+    "url": "https://www.dosespot.com/ehi-export",
+    "developers": [
+      "PRN Software (DoseSpot)"
+    ],
+    "products": [
+      "DoseSpot"
+    ],
+    "chpl_ids": [
+      10919
+    ],
+    "product_count": 1
+  },
+  {
+    "url": "https://www.practiceehr.com/data-export",
+    "developers": [
+      "Practice EHR LLC"
+    ],
+    "products": [
+      "Practice EHR"
+    ],
+    "chpl_ids": [
+      10923
+    ],
+    "product_count": 1
+  },
+  {
+    "url": "https://streamlinehealthcare.com/electronic-health-information-export/",
+    "developers": [
+      "Streamline Healthcare Solutions"
+    ],
+    "products": [
+      "SmartCare"
+    ],
+    "chpl_ids": [
+      10987
+    ],
+    "product_count": 1
+  },
+  {
+    "url": "https://portal.medgenehr.com/Medgenweb/MedgenBackupUtility.pdf",
+    "developers": [
+      "Comtron Inc."
+    ],
+    "products": [
+      "Medgen EHR"
+    ],
+    "chpl_ids": [
+      10986
+    ],
+    "product_count": 1
+  },
+  {
+    "url": "https://www.hc2000inc.com/Pages/MDVita_EHR_EHI_DataFormat.pdf",
+    "developers": [
+      "Health Care 2000, Inc."
+    ],
+    "products": [
+      "MDVita"
+    ],
+    "chpl_ids": [
+      11000
+    ],
+    "product_count": 1
+  },
+  {
+    "url": "https://www.crystalpm.com/21stCenturyCuresActB10AllDataExportUserDocumentation2.pdf",
+    "developers": [
+      "Abeo Solutions, Inc"
+    ],
+    "products": [
+      "Crystal Practice Management"
+    ],
+    "chpl_ids": [
+      10996
+    ],
+    "product_count": 1
+  },
+  {
+    "url": "https://github.com/omniwound/ehi-template",
+    "developers": [
+      "OMNIWOUND LLC"
+    ],
+    "products": [
+      "OmniEMR"
+    ],
+    "chpl_ids": [
+      11017
+    ],
+    "product_count": 1
+  },
+  {
+    "url": "https://www.eyemdemr.com/compliance/fhir/",
+    "developers": [
+      "EyeMD EMR Healthcare Systems, Inc."
+    ],
+    "products": [
+      "EyeMD Electronic Medical Records"
+    ],
+    "chpl_ids": [
+      9988
+    ],
+    "product_count": 1
+  },
+  {
+    "url": "https://iatric.com/meaningful-use/haystack-is-product-certification/",
+    "developers": [
+      "Iatric Systems, Inc"
+    ],
+    "products": [
+      "Haystack iS"
+    ],
+    "chpl_ids": [
+      10614
+    ],
+    "product_count": 1
+  },
+  {
+    "url": "https://www.geniusdoc.com/DataExport/GeniusDoc_Data_Export.pdf",
+    "developers": [
+      "GeniusDoc, Inc."
+    ],
+    "products": [
+      "GeniusDoc"
+    ],
+    "chpl_ids": [
+      10745
+    ],
+    "product_count": 1
+  },
+  {
+    "url": "https://cantatahealth.com/certifications/",
+    "developers": [
+      "Cantata Health Solutions"
+    ],
+    "products": [
+      "Convergence Care"
+    ],
+    "chpl_ids": [
+      10741
+    ],
+    "product_count": 1
+  },
+  {
+    "url": "https://orthoplex.mkoss.com/UserContent/Healthinformationexport.html",
+    "developers": [
+      "Mendelson Kornblum Orthopedic & Spine Specialists"
+    ],
+    "products": [
+      "OrthoplexEMR"
+    ],
+    "chpl_ids": [
+      9349
+    ],
+    "product_count": 1
+  },
+  {
+    "url": "https://harriscaretracker.com/wp-content/uploads/2024/02/CareTracker-EHI-Export-Documentation-V1_0-1-1.pdf",
+    "developers": [
+      "Harris CareTracker, Inc"
+    ],
+    "products": [
+      "Harris CareTracker"
+    ],
+    "chpl_ids": [
+      9589
+    ],
+    "product_count": 1
+  },
+  {
+    "url": "https://www.ezcaretech.com/english/onc/b.10_EHI_Export.pdf",
+    "developers": [
+      "ezCaretech Co., Ltd."
+    ],
+    "products": [
+      "BESTCare"
+    ],
+    "chpl_ids": [
+      9665
+    ],
+    "product_count": 1
+  },
+  {
+    "url": "https://infomedika.com/certifications/",
+    "developers": [
+      "Infomedika, Inc."
+    ],
+    "products": [
+      "Evolution EHR"
+    ],
+    "chpl_ids": [
+      9815
+    ],
+    "product_count": 1
+  },
+  {
+    "url": "https://mdland.net/iClinicEHR/ehiexport/",
+    "developers": [
+      "MDLAND"
+    ],
+    "products": [
+      "iClinic"
+    ],
+    "chpl_ids": [
+      9814
+    ],
+    "product_count": 1
+  },
+  {
+    "url": "https://www.intellicureehr.com/Support/Documents/EhiExport",
+    "developers": [
+      "Intellicure, LLC"
+    ],
+    "products": [
+      "IntellicureEHR"
+    ],
+    "chpl_ids": [
+      9858
+    ],
+    "product_count": 1
+  },
+  {
+    "url": "https://www.ehana.com/certification-documentation",
+    "developers": [
+      "eHana"
+    ],
+    "products": [
+      "eHana EHR"
+    ],
+    "chpl_ids": [
+      10200
+    ],
+    "product_count": 1
+  },
+  {
+    "url": "http://radysans.com/Radysans/ONCcertification.html",
+    "developers": [
+      "Radysans, Inc"
+    ],
+    "products": [
+      "Radysans EHR"
+    ],
+    "chpl_ids": [
+      10253
+    ],
+    "product_count": 1
+  },
+  {
+    "url": "https://www.ehr1.com/Disclosure",
+    "developers": [
+      "EHR1, LLC"
+    ],
+    "products": [
+      "EHR1"
+    ],
+    "chpl_ids": [
+      10277
+    ],
+    "product_count": 1
+  },
+  {
+    "url": "https://icare.com/developers/ehi_export/",
+    "developers": [
+      "iCare.com, Inc."
+    ],
+    "products": [
+      "iCare EHR"
+    ],
+    "chpl_ids": [
+      10314
+    ],
+    "product_count": 1
+  },
+  {
+    "url": "https://axiomehr.com/ehiexport/",
+    "developers": [
+      "Health Information Management Systems, LLC"
+    ],
+    "products": [
+      "Axiom"
+    ],
+    "chpl_ids": [
+      10512
+    ],
+    "product_count": 1
+  },
+  {
+    "url": "https://azzly.com/wp-content/uploads/2023/09/Data-Extraction-Instructions-AZZLY-Rize-v1.0.pdf",
+    "developers": [
+      "AZZLY, Inc."
+    ],
+    "products": [
+      "AZZLY Rize"
+    ],
+    "chpl_ids": [
+      11073
+    ],
+    "product_count": 1
+  },
+  {
+    "url": "https://www.pointandclicksolutions.com/fhir-record-export",
+    "developers": [
+      "Point and Click Solutions, Inc."
+    ],
+    "products": [
+      "PNC Suite"
+    ],
+    "chpl_ids": [
+      11249
+    ],
+    "product_count": 1
+  },
+  {
+    "url": "https://wellpathcare.com/wp-content/uploads/2024/05/Wellpath-ERMA-Export-Format.pdf",
+    "developers": [
+      "Wellpath"
+    ],
+    "products": [
+      "ERMA"
+    ],
+    "chpl_ids": [
+      10464
+    ],
+    "product_count": 1
+  },
+  {
+    "url": "https://saisystems.com/health/pacehr-ehi/",
+    "developers": [
+      "Sai Systems Digital LLC"
+    ],
+    "products": [
+      "PacEHR"
+    ],
+    "chpl_ids": [
+      11177
+    ],
+    "product_count": 1
+  },
+  {
+    "url": "https://rojihealthintel.com/costs-and-limitations/",
+    "developers": [
+      "Roji Health Intelligence LLC"
+    ],
+    "products": [
+      "Roji Clinical Data Registry"
+    ],
+    "chpl_ids": [
+      8332
+    ],
+    "product_count": 1
+  },
+  {
+    "url": "https://www.mediportal.com/export/",
+    "developers": [
+      "Mediportal"
+    ],
+    "products": [
+      "M-Power"
+    ],
+    "chpl_ids": [
+      11272
+    ],
+    "product_count": 1
+  },
+  {
+    "url": "https://8759937.fs1.hubspotusercontent-na1.net/hubfs/8759937/assets/pdfs/PERFORM+Connect_FHIR_API_Document_V_22_01_02.pdf",
+    "developers": [
+      "CitiusTech, Inc."
+    ],
+    "products": [
+      "PERFORM+ Connect"
+    ],
+    "chpl_ids": [
+      11282
+    ],
+    "product_count": 1
+  },
+  {
+    "url": "https://www.itrust.io/b10/",
+    "developers": [
+      "iTRUST"
+    ],
+    "products": [
+      "iTRUST"
+    ],
+    "chpl_ids": [
+      11324
+    ],
+    "product_count": 1
+  },
+  {
+    "url": "https://www.intelichart.com/regulatory-and-compliance-requirements",
+    "developers": [
+      "InteliChart LLC"
+    ],
+    "products": [
+      "InteliChart Patient Portal"
+    ],
+    "chpl_ids": [
+      8854
+    ],
+    "product_count": 1
+  },
+  {
+    "url": "https://support.clinigence.com/support/solutions/articles/3000123715-patient-record-export/",
+    "developers": [
+      "Clinigence Health"
+    ],
+    "products": [
+      "Clinigence Value Improvement Platform (VIP)"
+    ],
+    "chpl_ids": [
+      9843
+    ],
+    "product_count": 1
+  },
+  {
+    "url": "https://medisolv.com/certifications",
+    "developers": [
+      "Medisolv, Inc."
+    ],
+    "products": [
+      "ENCOR-e"
+    ],
+    "chpl_ids": [
+      10137
+    ],
+    "product_count": 1
+  },
+  {
+    "url": "https://support.kbhmaine.org/neo-faq/client-export",
+    "developers": [
+      "Kennebec Behavioral Health"
+    ],
+    "products": [
+      "Neo"
+    ],
+    "chpl_ids": [
+      10971
+    ],
+    "product_count": 1
+  },
+  {
+    "url": "https://www.ecp123.com/exporting-electronic-health-information-ehi?hs_preview=FslteQVE-143661230087",
+    "developers": [
+      "Extended Care Professional, LLC"
+    ],
+    "products": [
+      "ECP"
+    ],
+    "chpl_ids": [
+      10619
+    ],
+    "product_count": 1
+  },
+  {
+    "url": "https://orionhealth.com/global/certifications/onc-hit-certification-communicate/",
+    "developers": [
+      "Orion Health"
+    ],
+    "products": [
+      "Communicate"
+    ],
+    "chpl_ids": [
+      10590
+    ],
+    "product_count": 1
+  },
+  {
+    "url": "https://reportingmd.com/ehi-export-specifications/",
+    "developers": [
+      "ReportingMD, Inc."
+    ],
+    "products": [
+      "Total Outcomes Management (TOM)"
+    ],
+    "chpl_ids": [
+      10692
+    ],
+    "product_count": 1
+  },
+  {
+    "url": "https://mdinteractive.com/ecqm",
+    "developers": [
+      "MDinteractive"
+    ],
+    "products": [
+      "MDinteractive"
+    ],
+    "chpl_ids": [
+      10691
+    ],
+    "product_count": 1
+  },
+  {
+    "url": "https://azaracdn.blob.core.windows.net/documentation/DRVS_Export_Formats.pdf",
+    "developers": [
+      "Azara Healthcare, LLC"
+    ],
+    "products": [
+      "Azara DRVS"
+    ],
+    "chpl_ids": [
+      10733
+    ],
+    "product_count": 1
+  },
+  {
+    "url": "https://www.agilonhealth.com/wp-content/uploads/2025/01/Mphrx-EHI-export-documentation.pdf",
+    "developers": [
+      "agilon health inc."
+    ],
+    "products": [
+      "Minerva"
+    ],
+    "chpl_ids": [
+      10649
+    ],
+    "product_count": 1
+  }
+]
