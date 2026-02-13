@@ -1,0 +1,3791 @@
+[
+  {
+    "name": "Epic Systems Corporation",
+    "count": 73,
+    "ids": [
+      11290,
+      11483,
+      11510,
+      11571,
+      11683,
+      11711,
+      11251,
+      11334,
+      11422,
+      11446,
+      11597,
+      11643,
+      11252,
+      11335,
+      11423,
+      11447,
+      11484,
+      11511,
+      11570,
+      11596,
+      11644,
+      11684,
+      11291,
+      11712,
+      11250,
+      11305,
+      11370,
+      11448,
+      11336,
+      11340,
+      11455,
+      11509,
+      11552,
+      11604,
+      11731,
+      11120,
+      11262,
+      11303,
+      11437,
+      11487,
+      11654,
+      11687,
+      11263,
+      11553,
+      11119,
+      11304,
+      11341,
+      11438,
+      11453,
+      11488,
+      11513,
+      11603,
+      11653,
+      11686,
+      11730,
+      11255,
+      11294,
+      11337,
+      11569,
+      11641,
+      11425,
+      11449,
+      11485,
+      11512,
+      11595,
+      11685,
+      11713,
+      11293,
+      11253,
+      11339,
+      11292,
+      11338,
+      11254
+    ]
+  },
+  {
+    "name": "Medical Information Technology, Inc. (MEDITECH)",
+    "count": 45,
+    "ids": [
+      10972,
+      10973,
+      10975,
+      10937,
+      11743,
+      10931,
+      10935,
+      10933,
+      9095,
+      9091,
+      9092,
+      10982,
+      10984,
+      10983,
+      10985,
+      10934,
+      10977,
+      10976,
+      10928,
+      11742,
+      10929,
+      10924,
+      10925,
+      10926,
+      10927,
+      10932,
+      10930,
+      10979,
+      10981,
+      11018,
+      10980,
+      10978,
+      10988,
+      10993,
+      10994,
+      10995,
+      9101,
+      9238,
+      9265,
+      9103,
+      9107,
+      9108,
+      9162,
+      9258,
+      9109
+    ]
+  },
+  {
+    "name": "Altera Digital Health Inc.",
+    "count": 27,
+    "ids": [
+      11401,
+      11398,
+      11589,
+      11761,
+      11539,
+      11397,
+      11567,
+      11385,
+      11647,
+      11707,
+      11566,
+      11708,
+      11386,
+      11649,
+      11384,
+      11709,
+      11568,
+      11648,
+      11469,
+      11532,
+      11048,
+      11383,
+      11675,
+      11081,
+      11741,
+      11382,
+      11574
+    ]
+  },
+  {
+    "name": "Oracle Health",
+    "count": 25,
+    "ids": [
+      11556,
+      11276,
+      9582,
+      11637,
+      11671,
+      11702,
+      11669,
+      10878,
+      11505,
+      11522,
+      11670,
+      11015,
+      10876,
+      11520,
+      11668,
+      10879,
+      11519,
+      11667,
+      11498,
+      11435,
+      11674,
+      10594,
+      9581,
+      10604,
+      9584
+    ]
+  },
+  {
+    "name": "MEDHOST",
+    "count": 19,
+    "ids": [
+      10664,
+      10823,
+      11153,
+      11378,
+      11573,
+      11736,
+      10943,
+      11296,
+      10871,
+      11377,
+      11651,
+      10820,
+      11374,
+      11678,
+      10822,
+      11375,
+      11655,
+      10821,
+      11376
+    ]
+  },
+  {
+    "name": "InterSystems Corporation",
+    "count": 13,
+    "ids": [
+      11157,
+      11160,
+      11630,
+      11639,
+      11156,
+      11158,
+      11159,
+      10772,
+      10774,
+      10775,
+      10776,
+      10773,
+      11076
+    ]
+  },
+  {
+    "name": "athenahealth, Inc.",
+    "count": 13,
+    "ids": [
+      11259,
+      11462,
+      11614,
+      11714,
+      11260,
+      11482,
+      11613,
+      11270,
+      11663,
+      11561,
+      11629,
+      11271,
+      11560
+    ]
+  },
+  {
+    "name": "Greenway Health, LLC",
+    "count": 12,
+    "ids": [
+      11550,
+      11727,
+      11521,
+      11419,
+      11418,
+      11350,
+      11715,
+      11352,
+      11681,
+      11351,
+      11682,
+      11235
+    ]
+  },
+  {
+    "name": "Nextech",
+    "count": 11,
+    "ids": [
+      11724,
+      11027,
+      11028,
+      11478,
+      11659,
+      11722,
+      11029,
+      11477,
+      11658,
+      11723,
+      11040
+    ]
+  },
+  {
+    "name": "Veradigm",
+    "count": 10,
+    "ids": [
+      11463,
+      11547,
+      11380,
+      11763,
+      11609,
+      11342,
+      11460,
+      11697,
+      11632,
+      11205
+    ]
+  },
+  {
+    "name": "Dynamic Health IT, Inc",
+    "count": 9,
+    "ids": [
+      11584,
+      11733,
+      11165,
+      11373,
+      10748,
+      10477,
+      10759,
+      10697,
+      11662
+    ]
+  },
+  {
+    "name": "Netsmart Technologies",
+    "count": 9,
+    "ids": [
+      11518,
+      11136,
+      11493,
+      11575,
+      11387,
+      11131,
+      10769,
+      11409,
+      11287
+    ]
+  },
+  {
+    "name": "NextGen Healthcare",
+    "count": 9,
+    "ids": [
+      11612,
+      11758,
+      11396,
+      11451,
+      10673,
+      11302,
+      10861,
+      11645,
+      9372
+    ]
+  },
+  {
+    "name": "CareCloud, Inc.",
+    "count": 8,
+    "ids": [
+      11504,
+      11121,
+      11202,
+      11108,
+      8830,
+      10771,
+      9546,
+      9799
+    ]
+  },
+  {
+    "name": "Eye Care Leaders, LLC",
+    "count": 8,
+    "ids": [
+      11197,
+      11172,
+      11464,
+      11106,
+      11105,
+      11181,
+      11100,
+      11094
+    ]
+  },
+  {
+    "name": "Juno Health",
+    "count": 8,
+    "ids": [
+      10961,
+      10962,
+      11283,
+      11301,
+      11497,
+      10864,
+      11475,
+      10348
+    ]
+  },
+  {
+    "name": "TruBridge, Inc.",
+    "count": 8,
+    "ids": [
+      10965,
+      10959,
+      10960,
+      10125,
+      10957,
+      11541,
+      10958,
+      11540
+    ]
+  },
+  {
+    "name": "Varian Medical Systems",
+    "count": 7,
+    "ids": [
+      11558,
+      11626,
+      11719,
+      11003,
+      11004,
+      11747,
+      11420
+    ]
+  },
+  {
+    "name": "Clinisys Inc.",
+    "count": 6,
+    "ids": [
+      11285,
+      11581,
+      11206,
+      11207,
+      11490,
+      11634
+    ]
+  },
+  {
+    "name": "CompuGroup Medical US",
+    "count": 6,
+    "ids": [
+      11167,
+      10240,
+      10238,
+      11499,
+      11343,
+      11133
+    ]
+  },
+  {
+    "name": "Imprivata",
+    "count": 6,
+    "ids": [
+      11666,
+      11445,
+      10829,
+      10828,
+      10838,
+      11225
+    ]
+  },
+  {
+    "name": "SCC Soft Computer",
+    "count": 6,
+    "ids": [
+      11240,
+      11243,
+      11239,
+      11241,
+      11242,
+      11295
+    ]
+  },
+  {
+    "name": "AdvancedMD",
+    "count": 5,
+    "ids": [
+      11406,
+      11551,
+      11732,
+      11407,
+      11734
+    ]
+  },
+  {
+    "name": "CareTracker, Inc.",
+    "count": 5,
+    "ids": [
+      11365,
+      11492,
+      11608,
+      11646,
+      11720
+    ]
+  },
+  {
+    "name": "Clinisys, Inc.",
+    "count": 5,
+    "ids": [
+      11600,
+      10701,
+      11038,
+      9726,
+      9734
+    ]
+  },
+  {
+    "name": "Elekta Inc.",
+    "count": 5,
+    "ids": [
+      11479,
+      10703,
+      11097,
+      11480,
+      11605
+    ]
+  },
+  {
+    "name": "Iatric Systems, Inc",
+    "count": 5,
+    "ids": [
+      9360,
+      11501,
+      10614,
+      9358,
+      11766
+    ]
+  },
+  {
+    "name": "CitiusTech, Inc.",
+    "count": 4,
+    "ids": [
+      11282,
+      11517,
+      11389,
+      11705
+    ]
+  },
+  {
+    "name": "GEMMS",
+    "count": 4,
+    "ids": [
+      11468,
+      11601,
+      11602,
+      10714
+    ]
+  },
+  {
+    "name": "MedInformatix",
+    "count": 4,
+    "ids": [
+      10683,
+      11371,
+      11587,
+      11588
+    ]
+  },
+  {
+    "name": "Medplum",
+    "count": 4,
+    "ids": [
+      11256,
+      11496,
+      11676,
+      11745
+    ]
+  },
+  {
+    "name": "NeoDeck Holdings",
+    "count": 4,
+    "ids": [
+      11192,
+      11564,
+      11191,
+      11563
+    ]
+  },
+  {
+    "name": "Objective Medical Systems, LLC",
+    "count": 4,
+    "ids": [
+      11751,
+      11381,
+      11580,
+      11688
+    ]
+  },
+  {
+    "name": "Virtusa Corporation",
+    "count": 4,
+    "ids": [
+      11348,
+      11491,
+      11516,
+      11706
+    ]
+  },
+  {
+    "name": "eClinicalWorks, LLC",
+    "count": 4,
+    "ids": [
+      11021,
+      11062,
+      11299,
+      11456
+    ]
+  },
+  {
+    "name": "AssureCare LLC",
+    "count": 3,
+    "ids": [
+      8970,
+      11103,
+      11286
+    ]
+  },
+  {
+    "name": "Azalea Health",
+    "count": 3,
+    "ids": [
+      11151,
+      11140,
+      11070
+    ]
+  },
+  {
+    "name": "Cantata Health Solutions",
+    "count": 3,
+    "ids": [
+      11258,
+      10741,
+      11635
+    ]
+  },
+  {
+    "name": "Equicare Health Incorporated",
+    "count": 3,
+    "ids": [
+      11390,
+      11494,
+      11633
+    ]
+  },
+  {
+    "name": "Experity",
+    "count": 3,
+    "ids": [
+      11112,
+      11704,
+      11408
+    ]
+  },
+  {
+    "name": "Healthfully Inc.",
+    "count": 3,
+    "ids": [
+      10999,
+      10508,
+      10527
+    ]
+  },
+  {
+    "name": "Infinx Solutions, LLC",
+    "count": 3,
+    "ids": [
+      11413,
+      11759,
+      11554
+    ]
+  },
+  {
+    "name": "Inmediata Health Group LLC",
+    "count": 3,
+    "ids": [
+      11162,
+      10615,
+      11753
+    ]
+  },
+  {
+    "name": "Qualifacts Systems, LLC",
+    "count": 3,
+    "ids": [
+      9807,
+      11183,
+      10858
+    ]
+  },
+  {
+    "name": "Smile CDR Inc. (doing business as Smile Digital Health)",
+    "count": 3,
+    "ids": [
+      11622,
+      11368,
+      11534
+    ]
+  },
+  {
+    "name": "1Life Healthcare, Inc",
+    "count": 2,
+    "ids": [
+      10964,
+      10974
+    ]
+  },
+  {
+    "name": "Advanced Data Systems Corporation",
+    "count": 2,
+    "ids": [
+      10786,
+      10785
+    ]
+  },
+  {
+    "name": "Agastha, Inc.",
+    "count": 2,
+    "ids": [
+      11152,
+      11616
+    ]
+  },
+  {
+    "name": "Ankhos Oncology Software",
+    "count": 2,
+    "ids": [
+      10528,
+      11754
+    ]
+  },
+  {
+    "name": "Axxess",
+    "count": 2,
+    "ids": [
+      11620,
+      11434
+    ]
+  },
+  {
+    "name": "Bizmatics Inc.",
+    "count": 2,
+    "ids": [
+      8856,
+      11738
+    ]
+  },
+  {
+    "name": "BroadStreet Health LLC",
+    "count": 2,
+    "ids": [
+      11410,
+      11316
+    ]
+  },
+  {
+    "name": "Carbon Health Technologies, Inc.",
+    "count": 2,
+    "ids": [
+      11700,
+      11590
+    ]
+  },
+  {
+    "name": "Cyfluent",
+    "count": 2,
+    "ids": [
+      10072,
+      11546
+    ]
+  },
+  {
+    "name": "DAW SYSTEMS, INC.",
+    "count": 2,
+    "ids": [
+      11366,
+      10881
+    ]
+  },
+  {
+    "name": "Darena Solutions LLC dba Darena Health",
+    "count": 2,
+    "ids": [
+      10435,
+      10726
+    ]
+  },
+  {
+    "name": "DataLink, LLC",
+    "count": 2,
+    "ids": [
+      11537,
+      11110
+    ]
+  },
+  {
+    "name": "DigiDMS, Inc.",
+    "count": 2,
+    "ids": [
+      11433,
+      11549
+    ]
+  },
+  {
+    "name": "Doc-tor.com",
+    "count": 2,
+    "ids": [
+      11399,
+      11652
+    ]
+  },
+  {
+    "name": "Doctornow Inc.",
+    "count": 2,
+    "ids": [
+      11756,
+      10963
+    ]
+  },
+  {
+    "name": "Doctorsoft Corporation",
+    "count": 2,
+    "ids": [
+      11171,
+      11474
+    ]
+  },
+  {
+    "name": "E*HealthLine.com, Inc.",
+    "count": 2,
+    "ids": [
+      10833,
+      10832
+    ]
+  },
+  {
+    "name": "E-Health Partners, Inc.",
+    "count": 2,
+    "ids": [
+      11037,
+      11726
+    ]
+  },
+  {
+    "name": "EDENLAB OÜ",
+    "count": 2,
+    "ids": [
+      11265,
+      11749
+    ]
+  },
+  {
+    "name": "EndoSoft, LLC",
+    "count": 2,
+    "ids": [
+      10854,
+      10855
+    ]
+  },
+  {
+    "name": "Ennoble Technologies LLC",
+    "count": 2,
+    "ids": [
+      11111,
+      11764
+    ]
+  },
+  {
+    "name": "Eyefinity, Inc.",
+    "count": 2,
+    "ids": [
+      11088,
+      10566
+    ]
+  },
+  {
+    "name": "Firely USA Inc.",
+    "count": 2,
+    "ids": [
+      11631,
+      11234
+    ]
+  },
+  {
+    "name": "Garage Solutions LLC",
+    "count": 2,
+    "ids": [
+      11690,
+      11429
+    ]
+  },
+  {
+    "name": "Helixbeat",
+    "count": 2,
+    "ids": [
+      11544,
+      11545
+    ]
+  },
+  {
+    "name": "HospiceMD, Inc.",
+    "count": 2,
+    "ids": [
+      11591,
+      11473
+    ]
+  },
+  {
+    "name": "Imprivata Inc. (FKA Maize Analytics, Inc.)",
+    "count": 2,
+    "ids": [
+      9829,
+      11677
+    ]
+  },
+  {
+    "name": "Indian Health Service",
+    "count": 2,
+    "ids": [
+      11717,
+      10848
+    ]
+  },
+  {
+    "name": "Innovaccer Inc",
+    "count": 2,
+    "ids": [
+      11618,
+      11502
+    ]
+  },
+  {
+    "name": "Intellix Solutions, LLC.",
+    "count": 2,
+    "ids": [
+      11746,
+      11623
+    ]
+  },
+  {
+    "name": "MD Logic, Inc.",
+    "count": 2,
+    "ids": [
+      11403,
+      11056
+    ]
+  },
+  {
+    "name": "MD Office, LLC",
+    "count": 2,
+    "ids": [
+      11528,
+      11577
+    ]
+  },
+  {
+    "name": "MDOfficeManager",
+    "count": 2,
+    "ids": [
+      11104,
+      11586
+    ]
+  },
+  {
+    "name": "MEDHOST Cloud Services, Inc.",
+    "count": 2,
+    "ids": [
+      10739,
+      10738
+    ]
+  },
+  {
+    "name": "Management Plus EHR, LLC",
+    "count": 2,
+    "ids": [
+      11526,
+      11606
+    ]
+  },
+  {
+    "name": "Mayo Clinic Labs",
+    "count": 2,
+    "ids": [
+      11466,
+      11598
+    ]
+  },
+  {
+    "name": "Medaxion, Inc.",
+    "count": 2,
+    "ids": [
+      10743,
+      11762
+    ]
+  },
+  {
+    "name": "Medflow EHR, LLC",
+    "count": 2,
+    "ids": [
+      11527,
+      11583
+    ]
+  },
+  {
+    "name": "Medicus Clinical, LLC",
+    "count": 2,
+    "ids": [
+      10164,
+      11725
+    ]
+  },
+  {
+    "name": "Modernizing Medicine Inc.",
+    "count": 2,
+    "ids": [
+      11032,
+      11701
+    ]
+  },
+  {
+    "name": "Networking Technology Inc., dba RXNT",
+    "count": 2,
+    "ids": [
+      11767,
+      11148
+    ]
+  },
+  {
+    "name": "Nuance Communications, Inc.",
+    "count": 2,
+    "ids": [
+      11592,
+      11404
+    ]
+  },
+  {
+    "name": "OT EMR, Inc.",
+    "count": 2,
+    "ids": [
+      9396,
+      11599
+    ]
+  },
+  {
+    "name": "Office Ally, LLC",
+    "count": 2,
+    "ids": [
+      11431,
+      11572
+    ]
+  },
+  {
+    "name": "OmniMD Inc.",
+    "count": 2,
+    "ids": [
+      10784,
+      11354
+    ]
+  },
+  {
+    "name": "OpenEMR Foundation",
+    "count": 2,
+    "ids": [
+      10938,
+      11757
+    ]
+  },
+  {
+    "name": "Persivia",
+    "count": 2,
+    "ids": [
+      11149,
+      10918
+    ]
+  },
+  {
+    "name": "Picis PulseCheck",
+    "count": 2,
+    "ids": [
+      10761,
+      10762
+    ]
+  },
+  {
+    "name": "PointClickCare Technologies Inc.",
+    "count": 2,
+    "ids": [
+      11729,
+      10246
+    ]
+  },
+  {
+    "name": "Practice Fusion",
+    "count": 2,
+    "ids": [
+      9833,
+      11507
+    ]
+  },
+  {
+    "name": "PracticeSuite, Inc.",
+    "count": 2,
+    "ids": [
+      10789,
+      10788
+    ]
+  },
+  {
+    "name": "Pulse Systems, Inc",
+    "count": 2,
+    "ids": [
+      11391,
+      11500
+    ]
+  },
+  {
+    "name": "Rural Wisconsin Health Cooperative",
+    "count": 2,
+    "ids": [
+      11506,
+      11318
+    ]
+  },
+  {
+    "name": "Sabiamed Corporation",
+    "count": 2,
+    "ids": [
+      9737,
+      11579
+    ]
+  },
+  {
+    "name": "Sightview EHR Holdings, LLC",
+    "count": 2,
+    "ids": [
+      11582,
+      11529
+    ]
+  },
+  {
+    "name": "Synapse Medicine Inc.",
+    "count": 2,
+    "ids": [
+      11328,
+      11638
+    ]
+  },
+  {
+    "name": "Systemedx Inc",
+    "count": 2,
+    "ids": [
+      11536,
+      11075
+    ]
+  },
+  {
+    "name": "Tebra Technologies, Inc.",
+    "count": 2,
+    "ids": [
+      11557,
+      11090
+    ]
+  },
+  {
+    "name": "Theoria Medical, PLLC",
+    "count": 2,
+    "ids": [
+      10712,
+      11542
+    ]
+  },
+  {
+    "name": "TriMed Technologies",
+    "count": 2,
+    "ids": [
+      10076,
+      9849
+    ]
+  },
+  {
+    "name": "Universal Research Solutions, LLC",
+    "count": 2,
+    "ids": [
+      11208,
+      11576
+    ]
+  },
+  {
+    "name": "Updox",
+    "count": 2,
+    "ids": [
+      11195,
+      11194
+    ]
+  },
+  {
+    "name": "VSS Medical Technologies, Inc",
+    "count": 2,
+    "ids": [
+      11325,
+      11538
+    ]
+  },
+  {
+    "name": "VieCure, Inc.",
+    "count": 2,
+    "ids": [
+      11077,
+      11548
+    ]
+  },
+  {
+    "name": "Vision Infonet Inc",
+    "count": 2,
+    "ids": [
+      11184,
+      11650
+    ]
+  },
+  {
+    "name": "WEBeDoctor, Inc.",
+    "count": 2,
+    "ids": [
+      11748,
+      11388
+    ]
+  },
+  {
+    "name": "Wellsky",
+    "count": 2,
+    "ids": [
+      11198,
+      10884
+    ]
+  },
+  {
+    "name": "Wolters Kluwer",
+    "count": 2,
+    "ids": [
+      11123,
+      11288
+    ]
+  },
+  {
+    "name": "ezCaretech Co., Ltd.",
+    "count": 2,
+    "ids": [
+      9665,
+      11161
+    ]
+  },
+  {
+    "name": "iMedicWare, LLC",
+    "count": 2,
+    "ids": [
+      11531,
+      11607
+    ]
+  },
+  {
+    "name": "5E Analytics, LLC",
+    "count": 1,
+    "ids": [
+      11611
+    ]
+  },
+  {
+    "name": "ASP.MD Inc.",
+    "count": 1,
+    "ids": [
+      10818
+    ]
+  },
+  {
+    "name": "ATI Holdings LLC, DBA ATI Physical Therapy",
+    "count": 1,
+    "ids": [
+      11740
+    ]
+  },
+  {
+    "name": "AZZLY, Inc.",
+    "count": 1,
+    "ids": [
+      11073
+    ]
+  },
+  {
+    "name": "AaNeel Infotech",
+    "count": 1,
+    "ids": [
+      11268
+    ]
+  },
+  {
+    "name": "Aarista Technology LLC",
+    "count": 1,
+    "ids": [
+      11329
+    ]
+  },
+  {
+    "name": "Abeo Solutions, Inc",
+    "count": 1,
+    "ids": [
+      10996
+    ]
+  },
+  {
+    "name": "Accelerated Care Plus",
+    "count": 1,
+    "ids": [
+      11412
+    ]
+  },
+  {
+    "name": "Accumedic Computer Systems, Inc.",
+    "count": 1,
+    "ids": [
+      11470
+    ]
+  },
+  {
+    "name": "Acurus Solutions, Inc.",
+    "count": 1,
+    "ids": [
+      10807
+    ]
+  },
+  {
+    "name": "Adaptamed, LLC",
+    "count": 1,
+    "ids": [
+      10757
+    ]
+  },
+  {
+    "name": "Addison Health Systems, Inc.",
+    "count": 1,
+    "ids": [
+      11084
+    ]
+  },
+  {
+    "name": "Advanced Technologies Group, LLC",
+    "count": 1,
+    "ids": [
+      10796
+    ]
+  },
+  {
+    "name": "Aente Inc",
+    "count": 1,
+    "ids": [
+      11578
+    ]
+  },
+  {
+    "name": "AiTmed Inc.",
+    "count": 1,
+    "ids": [
+      11036
+    ]
+  },
+  {
+    "name": "Aline",
+    "count": 1,
+    "ids": [
+      10902
+    ]
+  },
+  {
+    "name": "AllegianceMD Software, Inc.",
+    "count": 1,
+    "ids": [
+      10794
+    ]
+  },
+  {
+    "name": "Alleva",
+    "count": 1,
+    "ids": [
+      11696
+    ]
+  },
+  {
+    "name": "Alpha II, LLC",
+    "count": 1,
+    "ids": [
+      10793
+    ]
+  },
+  {
+    "name": "American Medical Software",
+    "count": 1,
+    "ids": [
+      11116
+    ]
+  },
+  {
+    "name": "American Medical Solutions, Inc.",
+    "count": 1,
+    "ids": [
+      10834
+    ]
+  },
+  {
+    "name": "Amrita Ventures, LLC",
+    "count": 1,
+    "ids": [
+      11169
+    ]
+  },
+  {
+    "name": "Anagen Systems",
+    "count": 1,
+    "ids": [
+      9683
+    ]
+  },
+  {
+    "name": "Apollo 360 Health",
+    "count": 1,
+    "ids": [
+      11619
+    ]
+  },
+  {
+    "name": "Applied Research Works, Inc.",
+    "count": 1,
+    "ids": [
+      11139
+    ]
+  },
+  {
+    "name": "Asolva, Inc.",
+    "count": 1,
+    "ids": [
+      11321
+    ]
+  },
+  {
+    "name": "Astronaut, LLC",
+    "count": 1,
+    "ids": [
+      10809
+    ]
+  },
+  {
+    "name": "AutoMedical LLC",
+    "count": 1,
+    "ids": [
+      9404
+    ]
+  },
+  {
+    "name": "Avon Health",
+    "count": 1,
+    "ids": [
+      11636
+    ]
+  },
+  {
+    "name": "Azara Healthcare, LLC",
+    "count": 1,
+    "ids": [
+      10733
+    ]
+  },
+  {
+    "name": "BINSERA CORPORATION",
+    "count": 1,
+    "ids": [
+      11624
+    ]
+  },
+  {
+    "name": "Becton Dickinson and Company",
+    "count": 1,
+    "ids": [
+      10802
+    ]
+  },
+  {
+    "name": "Benchmark Systems",
+    "count": 1,
+    "ids": [
+      9098
+    ]
+  },
+  {
+    "name": "Best Practices Academy",
+    "count": 1,
+    "ids": [
+      9371
+    ]
+  },
+  {
+    "name": "Beth Israel Deaconess Medical Center",
+    "count": 1,
+    "ids": [
+      11227
+    ]
+  },
+  {
+    "name": "Beyond Essential Systems",
+    "count": 1,
+    "ids": [
+      10617
+    ]
+  },
+  {
+    "name": "Braintree Health",
+    "count": 1,
+    "ids": [
+      10727
+    ]
+  },
+  {
+    "name": "Bridge Patient Portal Inc.",
+    "count": 1,
+    "ids": [
+      9540
+    ]
+  },
+  {
+    "name": "Brilogy Corporation",
+    "count": 1,
+    "ids": [
+      11086
+    ]
+  },
+  {
+    "name": "CHN Tech Solutions LLC",
+    "count": 1,
+    "ids": [
+      11067
+    ]
+  },
+  {
+    "name": "CHSPSC, LLC",
+    "count": 1,
+    "ids": [
+      11218
+    ]
+  },
+  {
+    "name": "CPS",
+    "count": 1,
+    "ids": [
+      11428
+    ]
+  },
+  {
+    "name": "CREOKS GoHealth Solutions",
+    "count": 1,
+    "ids": [
+      11035
+    ]
+  },
+  {
+    "name": "CRITERION TECH PRIVATE LIMITED",
+    "count": 1,
+    "ids": [
+      11369
+    ]
+  },
+  {
+    "name": "California Medical Systems",
+    "count": 1,
+    "ids": [
+      9856
+    ]
+  },
+  {
+    "name": "Callibra, Inc.",
+    "count": 1,
+    "ids": [
+      10754
+    ]
+  },
+  {
+    "name": "Canvas Medical, Inc.",
+    "count": 1,
+    "ids": [
+      10904
+    ]
+  },
+  {
+    "name": "Care Eco Corp",
+    "count": 1,
+    "ids": [
+      11349
+    ]
+  },
+  {
+    "name": "CareCloud Health, Inc.",
+    "count": 1,
+    "ids": [
+      11173
+    ]
+  },
+  {
+    "name": "CareSpan USA,Inc.",
+    "count": 1,
+    "ids": [
+      10665
+    ]
+  },
+  {
+    "name": "Careexpand LLC",
+    "count": 1,
+    "ids": [
+      11625
+    ]
+  },
+  {
+    "name": "Careficient Inc",
+    "count": 1,
+    "ids": [
+      11514
+    ]
+  },
+  {
+    "name": "Caremerge",
+    "count": 1,
+    "ids": [
+      10899
+    ]
+  },
+  {
+    "name": "Carepaths Inc",
+    "count": 1,
+    "ids": [
+      10607
+    ]
+  },
+  {
+    "name": "Cedaron Medical, Inc.",
+    "count": 1,
+    "ids": [
+      10804
+    ]
+  },
+  {
+    "name": "ChartPath, LLC",
+    "count": 1,
+    "ids": [
+      10258
+    ]
+  },
+  {
+    "name": "ChartPerfect, Inc.",
+    "count": 1,
+    "ids": [
+      11565
+    ]
+  },
+  {
+    "name": "Claimocity, Inc.",
+    "count": 1,
+    "ids": [
+      11359
+    ]
+  },
+  {
+    "name": "Claimpower, Inc.",
+    "count": 1,
+    "ids": [
+      11209
+    ]
+  },
+  {
+    "name": "ClickMedix, LLC",
+    "count": 1,
+    "ids": [
+      11615
+    ]
+  },
+  {
+    "name": "CliniComp, Intl.",
+    "count": 1,
+    "ids": [
+      10998
+    ]
+  },
+  {
+    "name": "Clinical Data Solutions",
+    "count": 1,
+    "ids": [
+      11280
+    ]
+  },
+  {
+    "name": "Clinicmind Inc.",
+    "count": 1,
+    "ids": [
+      11185
+    ]
+  },
+  {
+    "name": "Clinigence Health",
+    "count": 1,
+    "ids": [
+      9843
+    ]
+  },
+  {
+    "name": "CloudCraft, LLC",
+    "count": 1,
+    "ids": [
+      11150
+    ]
+  },
+  {
+    "name": "Commure",
+    "count": 1,
+    "ids": [
+      10291
+    ]
+  },
+  {
+    "name": "Complete Healthcare Solutions, Inc.",
+    "count": 1,
+    "ids": [
+      11047
+    ]
+  },
+  {
+    "name": "Compulink Healthcare Solutions",
+    "count": 1,
+    "ids": [
+      8873
+    ]
+  },
+  {
+    "name": "Comtron Inc.",
+    "count": 1,
+    "ids": [
+      10986
+    ]
+  },
+  {
+    "name": "Consensus Cloud Solutions",
+    "count": 1,
+    "ids": [
+      11363
+    ]
+  },
+  {
+    "name": "Core Solutions Inc",
+    "count": 1,
+    "ids": [
+      9168
+    ]
+  },
+  {
+    "name": "CorrecTek",
+    "count": 1,
+    "ids": [
+      10274
+    ]
+  },
+  {
+    "name": "Criterions Software Inc",
+    "count": 1,
+    "ids": [
+      10171
+    ]
+  },
+  {
+    "name": "Curantis Solutions, LLC",
+    "count": 1,
+    "ids": [
+      11660
+    ]
+  },
+  {
+    "name": "CureMD.com, Inc.",
+    "count": 1,
+    "ids": [
+      11246
+    ]
+  },
+  {
+    "name": "Curis Partners LLC",
+    "count": 1,
+    "ids": [
+      11744
+    ]
+  },
+  {
+    "name": "CursaHealth LLC",
+    "count": 1,
+    "ids": [
+      11735
+    ]
+  },
+  {
+    "name": "CyberMed Corporation",
+    "count": 1,
+    "ids": [
+      11154
+    ]
+  },
+  {
+    "name": "DOX EMR",
+    "count": 1,
+    "ids": [
+      10806
+    ]
+  },
+  {
+    "name": "Develo",
+    "count": 1,
+    "ids": [
+      11593
+    ]
+  },
+  {
+    "name": "Dexter Solutions Inc",
+    "count": 1,
+    "ids": [
+      11432
+    ]
+  },
+  {
+    "name": "Diagnostic Laboratory Services, Inc.",
+    "count": 1,
+    "ids": [
+      11657
+    ]
+  },
+  {
+    "name": "Divine Family Care",
+    "count": 1,
+    "ids": [
+      11680
+    ]
+  },
+  {
+    "name": "DocToMe, Inc.",
+    "count": 1,
+    "ids": [
+      10265
+    ]
+  },
+  {
+    "name": "Dr. Know, LLC",
+    "count": 1,
+    "ids": [
+      11559
+    ]
+  },
+  {
+    "name": "DrFirst",
+    "count": 1,
+    "ids": [
+      9207
+    ]
+  },
+  {
+    "name": "EBIO-METRONICS",
+    "count": 1,
+    "ids": [
+      11087
+    ]
+  },
+  {
+    "name": "EHNOTE,INC",
+    "count": 1,
+    "ids": [
+      11356
+    ]
+  },
+  {
+    "name": "EHR1, LLC",
+    "count": 1,
+    "ids": [
+      10277
+    ]
+  },
+  {
+    "name": "EPOWERdoc, Inc.",
+    "count": 1,
+    "ids": [
+      10781
+    ]
+  },
+  {
+    "name": "EZDERM, LLC",
+    "count": 1,
+    "ids": [
+      11071
+    ]
+  },
+  {
+    "name": "Edvak Technologies Inc",
+    "count": 1,
+    "ids": [
+      11656
+    ]
+  },
+  {
+    "name": "Elation Health, Inc.",
+    "count": 1,
+    "ids": [
+      9876
+    ]
+  },
+  {
+    "name": "Empower Systems",
+    "count": 1,
+    "ids": [
+      11326
+    ]
+  },
+  {
+    "name": "EnSoftek, Inc",
+    "count": 1,
+    "ids": [
+      10835
+    ]
+  },
+  {
+    "name": "Enable Healthcare Inc.",
+    "count": 1,
+    "ids": [
+      10247
+    ]
+  },
+  {
+    "name": "EnableDoc LLC",
+    "count": 1,
+    "ids": [
+      10795
+    ]
+  },
+  {
+    "name": "Encite, Inc.",
+    "count": 1,
+    "ids": [
+      10446
+    ]
+  },
+  {
+    "name": "Ensora Health",
+    "count": 1,
+    "ids": [
+      11122
+    ]
+  },
+  {
+    "name": "Epividian, Inc.",
+    "count": 1,
+    "ids": [
+      11264
+    ]
+  },
+  {
+    "name": "Eprosystem Inc.",
+    "count": 1,
+    "ids": [
+      11012
+    ]
+  },
+  {
+    "name": "Exscribe, LLC",
+    "count": 1,
+    "ids": [
+      11145
+    ]
+  },
+  {
+    "name": "Extended Care Professional, LLC",
+    "count": 1,
+    "ids": [
+      10619
+    ]
+  },
+  {
+    "name": "Exym",
+    "count": 1,
+    "ids": [
+      10898
+    ]
+  },
+  {
+    "name": "EyeCare Partners, LLC",
+    "count": 1,
+    "ids": [
+      11170
+    ]
+  },
+  {
+    "name": "EyeMD EMR Healthcare Systems, Inc.",
+    "count": 1,
+    "ids": [
+      9988
+    ]
+  },
+  {
+    "name": "F&A Management",
+    "count": 1,
+    "ids": [
+      11061
+    ]
+  },
+  {
+    "name": "FEI Systems",
+    "count": 1,
+    "ids": [
+      11124
+    ]
+  },
+  {
+    "name": "FIGmd Inc. (an MRO Company)",
+    "count": 1,
+    "ids": [
+      10800
+    ]
+  },
+  {
+    "name": "Family Health Centers of San Diego, Inc.",
+    "count": 1,
+    "ids": [
+      11231
+    ]
+  },
+  {
+    "name": "FannoTek, Inc.",
+    "count": 1,
+    "ids": [
+      11039
+    ]
+  },
+  {
+    "name": "First Call Technologies, LLC DBA Community CareLink",
+    "count": 1,
+    "ids": [
+      9281
+    ]
+  },
+  {
+    "name": "First Insight Corporation",
+    "count": 1,
+    "ids": [
+      10470
+    ]
+  },
+  {
+    "name": "FlagShipMD LLC",
+    "count": 1,
+    "ids": [
+      10220
+    ]
+  },
+  {
+    "name": "Flatiron Health",
+    "count": 1,
+    "ids": [
+      11115
+    ]
+  },
+  {
+    "name": "Florida Department of Health",
+    "count": 1,
+    "ids": [
+      10047
+    ]
+  },
+  {
+    "name": "Foothold Technology, Inc.",
+    "count": 1,
+    "ids": [
+      9267
+    ]
+  },
+  {
+    "name": "Galaxy",
+    "count": 1,
+    "ids": [
+      11440
+    ]
+  },
+  {
+    "name": "Genensys LLC",
+    "count": 1,
+    "ids": [
+      10317
+    ]
+  },
+  {
+    "name": "Genius Solutions Inc.",
+    "count": 1,
+    "ids": [
+      9585
+    ]
+  },
+  {
+    "name": "GeniusDoc, Inc.",
+    "count": 1,
+    "ids": [
+      10745
+    ]
+  },
+  {
+    "name": "Glenwood Systems LLC",
+    "count": 1,
+    "ids": [
+      9559
+    ]
+  },
+  {
+    "name": "Global Support Systems",
+    "count": 1,
+    "ids": [
+      11610
+    ]
+  },
+  {
+    "name": "Goodx Inc.",
+    "count": 1,
+    "ids": [
+      11703
+    ]
+  },
+  {
+    "name": "HCA Healthcare - Information Technology Group",
+    "count": 1,
+    "ids": [
+      9279
+    ]
+  },
+  {
+    "name": "HFWL Company",
+    "count": 1,
+    "ids": [
+      11443
+    ]
+  },
+  {
+    "name": "Harris CareTracker, Inc",
+    "count": 1,
+    "ids": [
+      9589
+    ]
+  },
+  {
+    "name": "Healogics, Inc.",
+    "count": 1,
+    "ids": [
+      10140
+    ]
+  },
+  {
+    "name": "Health Care 2000, Inc.",
+    "count": 1,
+    "ids": [
+      11000
+    ]
+  },
+  {
+    "name": "Health Care Systems, Inc.",
+    "count": 1,
+    "ids": [
+      11416
+    ]
+  },
+  {
+    "name": "Health Catalyst, Inc.",
+    "count": 1,
+    "ids": [
+      11444
+    ]
+  },
+  {
+    "name": "Health Endeavors",
+    "count": 1,
+    "ids": [
+      11402
+    ]
+  },
+  {
+    "name": "Health Information Management Systems, LLC",
+    "count": 1,
+    "ids": [
+      10512
+    ]
+  },
+  {
+    "name": "Health Innovation Technologies, Inc.",
+    "count": 1,
+    "ids": [
+      9923
+    ]
+  },
+  {
+    "name": "Health Samurai, Inc.",
+    "count": 1,
+    "ids": [
+      11204
+    ]
+  },
+  {
+    "name": "Health Systems Technology, Inc.",
+    "count": 1,
+    "ids": [
+      11238
+    ]
+  },
+  {
+    "name": "HealthAdvanta",
+    "count": 1,
+    "ids": [
+      11441
+    ]
+  },
+  {
+    "name": "Healthie",
+    "count": 1,
+    "ids": [
+      11055
+    ]
+  },
+  {
+    "name": "Healthmonix",
+    "count": 1,
+    "ids": [
+      11765
+    ]
+  },
+  {
+    "name": "Healthy Campus, LLC",
+    "count": 1,
+    "ids": [
+      11760
+    ]
+  },
+  {
+    "name": "Henry Schein One",
+    "count": 1,
+    "ids": [
+      11430
+    ]
+  },
+  {
+    "name": "Holt Systems, Inc.",
+    "count": 1,
+    "ids": [
+      10852
+    ]
+  },
+  {
+    "name": "Holy Name Medical Center",
+    "count": 1,
+    "ids": [
+      11224
+    ]
+  },
+  {
+    "name": "ICANotes LLC",
+    "count": 1,
+    "ids": [
+      11127
+    ]
+  },
+  {
+    "name": "IDC Telemed",
+    "count": 1,
+    "ids": [
+      11362
+    ]
+  },
+  {
+    "name": "IMA Systems LLC",
+    "count": 1,
+    "ids": [
+      10554
+    ]
+  },
+  {
+    "name": "IMAT Solutions",
+    "count": 1,
+    "ids": [
+      11188
+    ]
+  },
+  {
+    "name": "InPracSys",
+    "count": 1,
+    "ids": [
+      10194
+    ]
+  },
+  {
+    "name": "Indiana Health Information Exchange",
+    "count": 1,
+    "ids": [
+      11261
+    ]
+  },
+  {
+    "name": "InfoCare Healthcare Systems (Ireland) Limited",
+    "count": 1,
+    "ids": [
+      10532
+    ]
+  },
+  {
+    "name": "Infomedika, Inc.",
+    "count": 1,
+    "ids": [
+      9815
+    ]
+  },
+  {
+    "name": "Infor-Med Medical Information Systems Inc.",
+    "count": 1,
+    "ids": [
+      10853
+    ]
+  },
+  {
+    "name": "Integra Connect Newco, LLC",
+    "count": 1,
+    "ids": [
+      11025
+    ]
+  },
+  {
+    "name": "InteliChart LLC",
+    "count": 1,
+    "ids": [
+      8854
+    ]
+  },
+  {
+    "name": "Intellicure, LLC",
+    "count": 1,
+    "ids": [
+      9858
+    ]
+  },
+  {
+    "name": "IntrinsiQ Specialty Solutions, Inc. FBO Healthtronics Information Technology Solutions Inc.",
+    "count": 1,
+    "ids": [
+      11138
+    ]
+  },
+  {
+    "name": "Iron Bridge Integration, Inc.",
+    "count": 1,
+    "ids": [
+      8562
+    ]
+  },
+  {
+    "name": "KaZee, Inc.",
+    "count": 1,
+    "ids": [
+      9861
+    ]
+  },
+  {
+    "name": "Kanrad Technologies Inc",
+    "count": 1,
+    "ids": [
+      11219
+    ]
+  },
+  {
+    "name": "Keiser Computers, Inc.",
+    "count": 1,
+    "ids": [
+      11072
+    ]
+  },
+  {
+    "name": "Kennebec Behavioral Health",
+    "count": 1,
+    "ids": [
+      10971
+    ]
+  },
+  {
+    "name": "Kesz1 Technologies",
+    "count": 1,
+    "ids": [
+      11033
+    ]
+  },
+  {
+    "name": "Kipu Health",
+    "count": 1,
+    "ids": [
+      11755
+    ]
+  },
+  {
+    "name": "Lancman Solutions LLC",
+    "count": 1,
+    "ids": [
+      11125
+    ]
+  },
+  {
+    "name": "Landmark Health, LLC",
+    "count": 1,
+    "ids": [
+      10824
+    ]
+  },
+  {
+    "name": "Lightning Step Technologies",
+    "count": 1,
+    "ids": [
+      11427
+    ]
+  },
+  {
+    "name": "Lille Group, Inc.",
+    "count": 1,
+    "ids": [
+      10830
+    ]
+  },
+  {
+    "name": "Liquid Medical Office, Inc.",
+    "count": 1,
+    "ids": [
+      10620
+    ]
+  },
+  {
+    "name": "LogiCoy Inc",
+    "count": 1,
+    "ids": [
+      10944
+    ]
+  },
+  {
+    "name": "Lunar Systems, Inc.",
+    "count": 1,
+    "ids": [
+      11698
+    ]
+  },
+  {
+    "name": "MD Charts, LLC",
+    "count": 1,
+    "ids": [
+      11214
+    ]
+  },
+  {
+    "name": "MD Synergy Solutions, LLC",
+    "count": 1,
+    "ids": [
+      11046
+    ]
+  },
+  {
+    "name": "MD1, Inc.",
+    "count": 1,
+    "ids": [
+      11030
+    ]
+  },
+  {
+    "name": "MDFlow EHR, LLC DBA: MDFlow Systems",
+    "count": 1,
+    "ids": [
+      11459
+    ]
+  },
+  {
+    "name": "MDLAND",
+    "count": 1,
+    "ids": [
+      9814
+    ]
+  },
+  {
+    "name": "MDOps Corporation",
+    "count": 1,
+    "ids": [
+      10792
+    ]
+  },
+  {
+    "name": "MDToolbox",
+    "count": 1,
+    "ids": [
+      10710
+    ]
+  },
+  {
+    "name": "MDinteractive",
+    "count": 1,
+    "ids": [
+      10691
+    ]
+  },
+  {
+    "name": "MPN Software Systems, Inc.",
+    "count": 1,
+    "ids": [
+      11144
+    ]
+  },
+  {
+    "name": "Magilen Enterprises Inc",
+    "count": 1,
+    "ids": [
+      10803
+    ]
+  },
+  {
+    "name": "Marquis Software Development, Inc.",
+    "count": 1,
+    "ids": [
+      9457
+    ]
+  },
+  {
+    "name": "MassLight",
+    "count": 1,
+    "ids": [
+      11489
+    ]
+  },
+  {
+    "name": "MaxRemind Inc",
+    "count": 1,
+    "ids": [
+      11360
+    ]
+  },
+  {
+    "name": "McKesson Specialty Health Technology Products LLC (Ontada)",
+    "count": 1,
+    "ids": [
+      9580
+    ]
+  },
+  {
+    "name": "MedAZ.Net, LLC",
+    "count": 1,
+    "ids": [
+      11300
+    ]
+  },
+  {
+    "name": "MedConnect, Inc.",
+    "count": 1,
+    "ids": [
+      9183
+    ]
+  },
+  {
+    "name": "MedNet Medical Solutions",
+    "count": 1,
+    "ids": [
+      10214
+    ]
+  },
+  {
+    "name": "MedOne Healthcare Partners",
+    "count": 1,
+    "ids": [
+      11426
+    ]
+  },
+  {
+    "name": "MedOne Systems, LLC",
+    "count": 1,
+    "ids": [
+      10730
+    ]
+  },
+  {
+    "name": "MedPharm Services LLC",
+    "count": 1,
+    "ids": [
+      9739
+    ]
+  },
+  {
+    "name": "MedTrio, Inc.",
+    "count": 1,
+    "ids": [
+      11298
+    ]
+  },
+  {
+    "name": "Medcare MSO",
+    "count": 1,
+    "ids": [
+      11495
+    ]
+  },
+  {
+    "name": "Medi-EHR, LLC",
+    "count": 1,
+    "ids": [
+      10831
+    ]
+  },
+  {
+    "name": "MediFusion, LLC",
+    "count": 1,
+    "ids": [
+      10845
+    ]
+  },
+  {
+    "name": "MediRec, Inc.",
+    "count": 1,
+    "ids": [
+      11117
+    ]
+  },
+  {
+    "name": "MedicaSoft, LLC",
+    "count": 1,
+    "ids": [
+      11141
+    ]
+  },
+  {
+    "name": "Medical Informatics Engineering",
+    "count": 1,
+    "ids": [
+      11022
+    ]
+  },
+  {
+    "name": "Medical Office Force, LLC.",
+    "count": 1,
+    "ids": [
+      11617
+    ]
+  },
+  {
+    "name": "Medical Office Online",
+    "count": 1,
+    "ids": [
+      10846
+    ]
+  },
+  {
+    "name": "Medical Office Technologies, Inc.",
+    "count": 1,
+    "ids": [
+      9663
+    ]
+  },
+  {
+    "name": "MedicalMine Inc.",
+    "count": 1,
+    "ids": [
+      9741
+    ]
+  },
+  {
+    "name": "Mediportal",
+    "count": 1,
+    "ids": [
+      11272
+    ]
+  },
+  {
+    "name": "Medisolv, Inc.",
+    "count": 1,
+    "ids": [
+      10137
+    ]
+  },
+  {
+    "name": "Medsphere Systems Corporation",
+    "count": 1,
+    "ids": [
+      10139
+    ]
+  },
+  {
+    "name": "Mendelson Kornblum Orthopedic & Spine Specialists",
+    "count": 1,
+    "ids": [
+      9349
+    ]
+  },
+  {
+    "name": "Meridian Medical Management",
+    "count": 1,
+    "ids": [
+      11002
+    ]
+  },
+  {
+    "name": "Metasolutions Inc",
+    "count": 1,
+    "ids": [
+      11182
+    ]
+  },
+  {
+    "name": "MicroFour, Inc.",
+    "count": 1,
+    "ids": [
+      9590
+    ]
+  },
+  {
+    "name": "MicroMD, LLC",
+    "count": 1,
+    "ids": [
+      11281
+    ]
+  },
+  {
+    "name": "Milliman MedInsight",
+    "count": 1,
+    "ids": [
+      11739
+    ]
+  },
+  {
+    "name": "Mingle Healthcare Solutions, Inc.",
+    "count": 1,
+    "ids": [
+      11728
+    ]
+  },
+  {
+    "name": "Mirketa Inc",
+    "count": 1,
+    "ids": [
+      11323
+    ]
+  },
+  {
+    "name": "Mobile MediClaim",
+    "count": 1,
+    "ids": [
+      11220
+    ]
+  },
+  {
+    "name": "Modernizing Medicine Gastroenterology, LLC",
+    "count": 1,
+    "ids": [
+      11054
+    ]
+  },
+  {
+    "name": "ModuleMD",
+    "count": 1,
+    "ids": [
+      11092
+    ]
+  },
+  {
+    "name": "Morris Systems, Inc. d/b/a M-Systems, Inc.",
+    "count": 1,
+    "ids": [
+      11367
+    ]
+  },
+  {
+    "name": "Moyae, Inc.",
+    "count": 1,
+    "ids": [
+      11331
+    ]
+  },
+  {
+    "name": "My Vision Express, LLC",
+    "count": 1,
+    "ids": [
+      11525
+    ]
+  },
+  {
+    "name": "Myriad Systems",
+    "count": 1,
+    "ids": [
+      11452
+    ]
+  },
+  {
+    "name": "NaphCare, Inc.",
+    "count": 1,
+    "ids": [
+      10207
+    ]
+  },
+  {
+    "name": "Navigating Cancer, LLC",
+    "count": 1,
+    "ids": [
+      11068
+    ]
+  },
+  {
+    "name": "Net Health",
+    "count": 1,
+    "ids": [
+      9836
+    ]
+  },
+  {
+    "name": "NextServices, Inc.",
+    "count": 1,
+    "ids": [
+      11372
+    ]
+  },
+  {
+    "name": "NextStep Solutions",
+    "count": 1,
+    "ids": [
+      11013
+    ]
+  },
+  {
+    "name": "Nexus Clinical LLC",
+    "count": 1,
+    "ids": [
+      11130
+    ]
+  },
+  {
+    "name": "Nortec Software Inc.",
+    "count": 1,
+    "ids": [
+      10734
+    ]
+  },
+  {
+    "name": "NovoMedici, LLC",
+    "count": 1,
+    "ids": [
+      10805
+    ]
+  },
+  {
+    "name": "Nth Technologies, Inc.",
+    "count": 1,
+    "ids": [
+      11118
+    ]
+  },
+  {
+    "name": "OMNIWOUND LLC",
+    "count": 1,
+    "ids": [
+      11017
+    ]
+  },
+  {
+    "name": "Ocuco Limited",
+    "count": 1,
+    "ids": [
+      11083
+    ]
+  },
+  {
+    "name": "Office Practicum",
+    "count": 1,
+    "ids": [
+      11049
+    ]
+  },
+  {
+    "name": "Omnivers-AI Inc",
+    "count": 1,
+    "ids": [
+      11642
+    ]
+  },
+  {
+    "name": "OnCall Health",
+    "count": 1,
+    "ids": [
+      11216
+    ]
+  },
+  {
+    "name": "OneOncology, LLC",
+    "count": 1,
+    "ids": [
+      11640
+    ]
+  },
+  {
+    "name": "Orion Health",
+    "count": 1,
+    "ids": [
+      10590
+    ]
+  },
+  {
+    "name": "OrionNet Systems, LLC",
+    "count": 1,
+    "ids": [
+      10693
+    ]
+  },
+  {
+    "name": "Osler, Inc.",
+    "count": 1,
+    "ids": [
+      11317
+    ]
+  },
+  {
+    "name": "PAIX Technologies",
+    "count": 1,
+    "ids": [
+      11562
+    ]
+  },
+  {
+    "name": "PCE Systems",
+    "count": 1,
+    "ids": [
+      11045
+    ]
+  },
+  {
+    "name": "PCIS GOLD",
+    "count": 1,
+    "ids": [
+      11137
+    ]
+  },
+  {
+    "name": "PRN Software (DoseSpot)",
+    "count": 1,
+    "ids": [
+      10919
+    ]
+  },
+  {
+    "name": "PartnerHelper",
+    "count": 1,
+    "ids": [
+      10953
+    ]
+  },
+  {
+    "name": "Patagonia Health",
+    "count": 1,
+    "ids": [
+      11147
+    ]
+  },
+  {
+    "name": "Patient First",
+    "count": 1,
+    "ids": [
+      11065
+    ]
+  },
+  {
+    "name": "PatientClick, Inc.",
+    "count": 1,
+    "ids": [
+      10856
+    ]
+  },
+  {
+    "name": "Payoda Technology Inc.",
+    "count": 1,
+    "ids": [
+      11415
+    ]
+  },
+  {
+    "name": "Perk Medical Systems LLC (PCB Apps LLC)",
+    "count": 1,
+    "ids": [
+      11237
+    ]
+  },
+  {
+    "name": "Phoenix Ortho, LLC",
+    "count": 1,
+    "ids": [
+      11163
+    ]
+  },
+  {
+    "name": "Physician's Computer Company",
+    "count": 1,
+    "ids": [
+      11472
+    ]
+  },
+  {
+    "name": "PhysicianXpress, Inc.",
+    "count": 1,
+    "ids": [
+      11010
+    ]
+  },
+  {
+    "name": "Physicians EMR, LLC",
+    "count": 1,
+    "ids": [
+      10278
+    ]
+  },
+  {
+    "name": "Picis Clinical Solutions, Inc",
+    "count": 1,
+    "ids": [
+      10952
+    ]
+  },
+  {
+    "name": "PipelineRx",
+    "count": 1,
+    "ids": [
+      11417
+    ]
+  },
+  {
+    "name": "Point and Click Solutions, Inc.",
+    "count": 1,
+    "ids": [
+      11249
+    ]
+  },
+  {
+    "name": "Practice Alternatives, Inc.",
+    "count": 1,
+    "ids": [
+      11128
+    ]
+  },
+  {
+    "name": "Practice Compass, LLC",
+    "count": 1,
+    "ids": [
+      11232
+    ]
+  },
+  {
+    "name": "Practice EHR LLC",
+    "count": 1,
+    "ids": [
+      10923
+    ]
+  },
+  {
+    "name": "Press Ganey Associates",
+    "count": 1,
+    "ids": [
+      9902
+    ]
+  },
+  {
+    "name": "Prime Clinical Systems, Inc.",
+    "count": 1,
+    "ids": [
+      10791
+    ]
+  },
+  {
+    "name": "Prime DataQ Health, LLC",
+    "count": 1,
+    "ids": [
+      11689
+    ]
+  },
+  {
+    "name": "Procentive",
+    "count": 1,
+    "ids": [
+      11155
+    ]
+  },
+  {
+    "name": "Professional Imaging, LLC",
+    "count": 1,
+    "ids": [
+      11358
+    ]
+  },
+  {
+    "name": "Progression Systems, LLC",
+    "count": 1,
+    "ids": [
+      8218
+    ]
+  },
+  {
+    "name": "Providers Management, Inc.",
+    "count": 1,
+    "ids": [
+      11199
+    ]
+  },
+  {
+    "name": "Pure EHR LLC",
+    "count": 1,
+    "ids": [
+      11213
+    ]
+  },
+  {
+    "name": "QRS, Inc.",
+    "count": 1,
+    "ids": [
+      11142
+    ]
+  },
+  {
+    "name": "Radysans, Inc",
+    "count": 1,
+    "ids": [
+      10253
+    ]
+  },
+  {
+    "name": "Raintree Systems, Inc.",
+    "count": 1,
+    "ids": [
+      11050
+    ]
+  },
+  {
+    "name": "ReLi Med Solutions, LLC",
+    "count": 1,
+    "ids": [
+      11024
+    ]
+  },
+  {
+    "name": "Regard Technologies",
+    "count": 1,
+    "ids": [
+      11467
+    ]
+  },
+  {
+    "name": "Renvio",
+    "count": 1,
+    "ids": [
+      11345
+    ]
+  },
+  {
+    "name": "ReportingMD, Inc.",
+    "count": 1,
+    "ids": [
+      10692
+    ]
+  },
+  {
+    "name": "RestorixHealth",
+    "count": 1,
+    "ids": [
+      10234
+    ]
+  },
+  {
+    "name": "Ritten, Inc.",
+    "count": 1,
+    "ids": [
+      11721
+    ]
+  },
+  {
+    "name": "Roji Health Intelligence LLC",
+    "count": 1,
+    "ids": [
+      8332
+    ]
+  },
+  {
+    "name": "Royal Health, Inc.",
+    "count": 1,
+    "ids": [
+      10770
+    ]
+  },
+  {
+    "name": "SIMPLEASY HEALTHCARE SOLUTIONS, LLC",
+    "count": 1,
+    "ids": [
+      11400
+    ]
+  },
+  {
+    "name": "SMARTMD Technologies, Inc.",
+    "count": 1,
+    "ids": [
+      11476
+    ]
+  },
+  {
+    "name": "SPRY Therapeutics, Inc",
+    "count": 1,
+    "ids": [
+      11699
+    ]
+  },
+  {
+    "name": "Sai Systems Digital LLC",
+    "count": 1,
+    "ids": [
+      11177
+    ]
+  },
+  {
+    "name": "Sapphire Health",
+    "count": 1,
+    "ids": [
+      11228
+    ]
+  },
+  {
+    "name": "Sargas Pharmaceutical Adherence and Compliance International",
+    "count": 1,
+    "ids": [
+      10702
+    ]
+  },
+  {
+    "name": "Savas Solutions LLC",
+    "count": 1,
+    "ids": [
+      11621
+    ]
+  },
+  {
+    "name": "Sequel Systems, Inc.",
+    "count": 1,
+    "ids": [
+      11143
+    ]
+  },
+  {
+    "name": "Sevocity, a division of Conceptual MindWorks, Inc",
+    "count": 1,
+    "ids": [
+      11187
+    ]
+  },
+  {
+    "name": "Sisoft Healthcare Information Systems",
+    "count": 1,
+    "ids": [
+      9462
+    ]
+  },
+  {
+    "name": "Skilled Wound Care",
+    "count": 1,
+    "ids": [
+      11266
+    ]
+  },
+  {
+    "name": "Smoky Mountain Information Systems, LLC",
+    "count": 1,
+    "ids": [
+      11392
+    ]
+  },
+  {
+    "name": "Softbir, Inc.",
+    "count": 1,
+    "ids": [
+      10282
+    ]
+  },
+  {
+    "name": "SolidPractice Technologies, LLC",
+    "count": 1,
+    "ids": [
+      10763
+    ]
+  },
+  {
+    "name": "Sophrona Solutions, Inc.",
+    "count": 1,
+    "ids": [
+      11421
+    ]
+  },
+  {
+    "name": "SpectraMedix",
+    "count": 1,
+    "ids": [
+      11248
+    ]
+  },
+  {
+    "name": "Sri Laxmi Kravia Techlabs Private Limited",
+    "count": 1,
+    "ids": [
+      11414
+    ]
+  },
+  {
+    "name": "Strateq Health, Inc.",
+    "count": 1,
+    "ids": [
+      10778
+    ]
+  },
+  {
+    "name": "Streamline Healthcare Solutions",
+    "count": 1,
+    "ids": [
+      10987
+    ]
+  },
+  {
+    "name": "StreamlineMD, LLC",
+    "count": 1,
+    "ids": [
+      9974
+    ]
+  },
+  {
+    "name": "SunwaveHealth",
+    "count": 1,
+    "ids": [
+      11661
+    ]
+  },
+  {
+    "name": "Syntellis Performance Solutions, LLC",
+    "count": 1,
+    "ids": [
+      11114
+    ]
+  },
+  {
+    "name": "TRIARQ Practice Services",
+    "count": 1,
+    "ids": [
+      10709
+    ]
+  },
+  {
+    "name": "TechSoft, Inc.",
+    "count": 1,
+    "ids": [
+      9797
+    ]
+  },
+  {
+    "name": "Tecurologic",
+    "count": 1,
+    "ids": [
+      8846
+    ]
+  },
+  {
+    "name": "TenEleven Group",
+    "count": 1,
+    "ids": [
+      11200
+    ]
+  },
+  {
+    "name": "Tenzing Medical LLC",
+    "count": 1,
+    "ids": [
+      10799
+    ]
+  },
+  {
+    "name": "The Echo Group",
+    "count": 1,
+    "ids": [
+      11129
+    ]
+  },
+  {
+    "name": "The Montrose Center",
+    "count": 1,
+    "ids": [
+      11269
+    ]
+  },
+  {
+    "name": "The Shams Group",
+    "count": 1,
+    "ids": [
+      10165
+    ]
+  },
+  {
+    "name": "Theralytics",
+    "count": 1,
+    "ids": [
+      11716
+    ]
+  },
+  {
+    "name": "Thinkhat Software Inc",
+    "count": 1,
+    "ids": [
+      11461
+    ]
+  },
+  {
+    "name": "TiaTech USA, Inc.",
+    "count": 1,
+    "ids": [
+      11665
+    ]
+  },
+  {
+    "name": "Trinitas LLC",
+    "count": 1,
+    "ids": [
+      11454
+    ]
+  },
+  {
+    "name": "TronsHealth LLC",
+    "count": 1,
+    "ids": [
+      11543
+    ]
+  },
+  {
+    "name": "True RCM",
+    "count": 1,
+    "ids": [
+      11691
+    ]
+  },
+  {
+    "name": "US Monitoring, Inc.",
+    "count": 1,
+    "ids": [
+      11096
+    ]
+  },
+  {
+    "name": "Udoc Technologies, LLC",
+    "count": 1,
+    "ids": [
+      11236
+    ]
+  },
+  {
+    "name": "Ulrich Medical Concepts",
+    "count": 1,
+    "ids": [
+      10227
+    ]
+  },
+  {
+    "name": "UnisLink",
+    "count": 1,
+    "ids": [
+      10699
+    ]
+  },
+  {
+    "name": "Unity Health",
+    "count": 1,
+    "ids": [
+      11710
+    ]
+  },
+  {
+    "name": "Universal EHR, Inc.",
+    "count": 1,
+    "ids": [
+      9333
+    ]
+  },
+  {
+    "name": "Urgent Chart LLC",
+    "count": 1,
+    "ids": [
+      11718
+    ]
+  },
+  {
+    "name": "VIPA Health Solutions, LLC",
+    "count": 1,
+    "ids": [
+      11079
+    ]
+  },
+  {
+    "name": "Vecna Technologies, Inc.",
+    "count": 1,
+    "ids": [
+      11533
+    ]
+  },
+  {
+    "name": "Verana Health",
+    "count": 1,
+    "ids": [
+      11215
+    ]
+  },
+  {
+    "name": "VersaSuite",
+    "count": 1,
+    "ids": [
+      10299
+    ]
+  },
+  {
+    "name": "VigiLanz Corporation",
+    "count": 1,
+    "ids": [
+      11319
+    ]
+  },
+  {
+    "name": "Vigiboss Inc.",
+    "count": 1,
+    "ids": [
+      11750
+    ]
+  },
+  {
+    "name": "Vision Works, Inc.",
+    "count": 1,
+    "ids": [
+      10954
+    ]
+  },
+  {
+    "name": "VisionTree Software, Inc.",
+    "count": 1,
+    "ids": [
+      9969
+    ]
+  },
+  {
+    "name": "VisionWeb",
+    "count": 1,
+    "ids": [
+      11069
+    ]
+  },
+  {
+    "name": "Vohra Wound Physicians Management, LLC",
+    "count": 1,
+    "ids": [
+      9887
+    ]
+  },
+  {
+    "name": "WCH Service Bureau, Inc.",
+    "count": 1,
+    "ids": [
+      11058
+    ]
+  },
+  {
+    "name": "WRS Health",
+    "count": 1,
+    "ids": [
+      10750
+    ]
+  },
+  {
+    "name": "WebPT",
+    "count": 1,
+    "ids": [
+      11515
+    ]
+  },
+  {
+    "name": "WellStack, INC",
+    "count": 1,
+    "ids": [
+      11190
+    ]
+  },
+  {
+    "name": "Welligent, Part of the ContinuumCloud",
+    "count": 1,
+    "ids": [
+      10811
+    ]
+  },
+  {
+    "name": "Wellpath",
+    "count": 1,
+    "ids": [
+      10464
+    ]
+  },
+  {
+    "name": "WestCare Foundation, Inc.",
+    "count": 1,
+    "ids": [
+      10249
+    ]
+  },
+  {
+    "name": "Willowglade Technologies Corporation",
+    "count": 1,
+    "ids": [
+      11411
+    ]
+  },
+  {
+    "name": "Winnebago County Wisconsin",
+    "count": 1,
+    "ids": [
+      11530
+    ]
+  },
+  {
+    "name": "Wound Technology Network, Inc. d/b/a Woundtech",
+    "count": 1,
+    "ids": [
+      11694
+    ]
+  },
+  {
+    "name": "Wound Therapeutics, LLC",
+    "count": 1,
+    "ids": [
+      11692
+    ]
+  },
+  {
+    "name": "WoundAlly",
+    "count": 1,
+    "ids": [
+      11752
+    ]
+  },
+  {
+    "name": "YOURDRS Services LLC",
+    "count": 1,
+    "ids": [
+      10475
+    ]
+  },
+  {
+    "name": "Yasasii Solutions America LLC",
+    "count": 1,
+    "ids": [
+      11442
+    ]
+  },
+  {
+    "name": "ZH Healthcare, Inc.",
+    "count": 1,
+    "ids": [
+      10797
+    ]
+  },
+  {
+    "name": "Zoobook Systems LLC",
+    "count": 1,
+    "ids": [
+      9268
+    ]
+  },
+  {
+    "name": "agilon health inc.",
+    "count": 1,
+    "ids": [
+      10649
+    ]
+  },
+  {
+    "name": "drchrono Inc.",
+    "count": 1,
+    "ids": [
+      10910
+    ]
+  },
+  {
+    "name": "eDerm Systems LLC",
+    "count": 1,
+    "ids": [
+      10149
+    ]
+  },
+  {
+    "name": "eHana",
+    "count": 1,
+    "ids": [
+      10200
+    ]
+  },
+  {
+    "name": "eMedPractice LLC",
+    "count": 1,
+    "ids": [
+      10787
+    ]
+  },
+  {
+    "name": "ePH Solutions, Inc",
+    "count": 1,
+    "ids": [
+      10909
+    ]
+  },
+  {
+    "name": "eRAD, Inc.",
+    "count": 1,
+    "ids": [
+      11085
+    ]
+  },
+  {
+    "name": "ezEMRx Inc",
+    "count": 1,
+    "ids": [
+      10779
+    ]
+  },
+  {
+    "name": "i2i Population Health",
+    "count": 1,
+    "ids": [
+      11405
+    ]
+  },
+  {
+    "name": "iCare.com, Inc.",
+    "count": 1,
+    "ids": [
+      10314
+    ]
+  },
+  {
+    "name": "iSALUS Healthcare",
+    "count": 1,
+    "ids": [
+      10914
+    ]
+  },
+  {
+    "name": "iTRUST",
+    "count": 1,
+    "ids": [
+      11324
+    ]
+  },
+  {
+    "name": "iTreatMD",
+    "count": 1,
+    "ids": [
+      11364
+    ]
+  },
+  {
+    "name": "inteliMD PLLC",
+    "count": 1,
+    "ids": [
+      11555
+    ]
+  },
+  {
+    "name": "medent - Community Computer Service, Inc.",
+    "count": 1,
+    "ids": [
+      11347
+    ]
+  },
+  {
+    "name": "myElth Inc",
+    "count": 1,
+    "ids": [
+      10836
+    ]
+  },
+  {
+    "name": "myhELO, Inc.",
+    "count": 1,
+    "ids": [
+      9930
+    ]
+  }
+]

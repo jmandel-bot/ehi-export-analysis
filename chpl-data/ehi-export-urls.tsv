@@ -1,0 +1,17 @@
+id	developer	product	category	export_documentation_url
+11730	Epic Systems Corporation	EpicCare Inpatient Base	inpatient	https://open.epic.com/EHITables
+10926	Medical Information Technology, Inc. (MEDITECH)	MEDITECH Expanse 2.2 Core HCIS	inpatient	https://home.meditech.com/en/d/restapiresources/pages/ehiexport.htm
+11670	Oracle Health	Oracle Health Millennium (Clinical)	inpatient	https://www.oracle.com/health/regulatory/certified-health-it/
+11707	Altera Digital Health Inc.	Sunrise Acute Care	inpatient	https://www.alterahealth.com/legal/onc-reg-compliance/
+11678	MEDHOST	MEDHOST Enterprise - Clinicals	inpatient	https://www.medhost.com/ehr/interoperability/
+11731	Epic Systems Corporation	EpicCare Ambulatory Base	outpatient	https://open.epic.com/EHITables
+11714	athenahealth, Inc.	athenaClinicals	outpatient	https://docs.athenahealth.com/athenaone-dataexports/
+11645	NextGen Healthcare	NextGen Enterprise EHR	outpatient	https://www.nextgen.com/sldkjljieo0935jljsrnfkl
+11682	Greenway Health, LLC	Intergy EHR	outpatient	https://ehi.greenwayhealth.com/Intergy/IntergyEHIExport.html
+11763	Veradigm	Veradigm EHR	outpatient	https://veradigm.com/legal/onc-reg-compliance/
+11732	AdvancedMD	AdvancedMD	outpatient	https://www.advancedmd.com/medical-office-software/data-export/
+11724	Nextech	Nextech EHR (ICP)	longtail	https://www.nextech.com/compliance/ehi-export-documentation
+11575	Netsmart Technologies	myAvatar Certified Edition	longtail	https://www.ntst.com/lp/certifications
+9799	CareCloud, Inc.	talkEHR	longtail	https://www.talkehr.com/cost-and-fees-information
+11541	TruBridge, Inc.	TruBridge EHR	longtail	https://ehi-export.plt.trubridge.com/
+11197	Eye Care Leaders, LLC	MDoffice	longtail	https://sightview.com/about-sightview/onc-certification/

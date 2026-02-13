@@ -1,0 +1,82 @@
+[
+  {
+    "id": 11730,
+    "developer": "Epic Systems Corporation",
+    "product": "EpicCare Inpatient Base"
+  },
+  {
+    "id": 10926,
+    "developer": "Medical Information Technology, Inc. (MEDITECH)",
+    "product": "MEDITECH Expanse 2.2 Core HCIS"
+  },
+  {
+    "id": 11670,
+    "developer": "Oracle Health",
+    "product": "Oracle Health Millennium (Clinical)"
+  },
+  {
+    "id": 11707,
+    "developer": "Altera Digital Health Inc.",
+    "product": "Sunrise Acute Care"
+  },
+  {
+    "id": 11678,
+    "developer": "MEDHOST",
+    "product": "MEDHOST Enterprise - Clinicals"
+  },
+  {
+    "id": 11731,
+    "developer": "Epic Systems Corporation",
+    "product": "EpicCare Ambulatory Base"
+  },
+  {
+    "id": 11714,
+    "developer": "athenahealth, Inc.",
+    "product": "athenaClinicals"
+  },
+  {
+    "id": 11645,
+    "developer": "NextGen Healthcare",
+    "product": "NextGen Enterprise EHR"
+  },
+  {
+    "id": 11682,
+    "developer": "Greenway Health, LLC",
+    "product": "Intergy EHR"
+  },
+  {
+    "id": 11763,
+    "developer": "Veradigm",
+    "product": "Veradigm EHR"
+  },
+  {
+    "id": 11732,
+    "developer": "AdvancedMD",
+    "product": "AdvancedMD"
+  },
+  {
+    "id": 11724,
+    "developer": "Nextech",
+    "product": "Nextech EHR (ICP)"
+  },
+  {
+    "id": 11575,
+    "developer": "Netsmart Technologies",
+    "product": "myAvatar Certified Edition"
+  },
+  {
+    "id": 9799,
+    "developer": "CareCloud, Inc.",
+    "product": "talkEHR"
+  },
+  {
+    "id": 11541,
+    "developer": "TruBridge, Inc.",
+    "product": "TruBridge EHR"
+  },
+  {
+    "id": 11197,
+    "developer": "Eye Care Leaders, LLC",
+    "product": "MDoffice"
+  }
+]
