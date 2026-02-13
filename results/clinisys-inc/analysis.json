@@ -1,113 +1,114 @@
 {
-  "vendor": "Clinisys, Inc.",
-  "products": ["SQ Lab", "Sunquest Laboratory"],
-  "chpl_ids": [9726, 9734, 10701, 11038, 11600],
-  "export_documentation_url": "https://www.clinisys.com/us/en/onc-disclosure/",
+  "vendor": "Clinisys Inc.",
+  "products": ["Clinisys Harvest", "Clinisys Orchard"],
+  "chpl_ids": [11285, 11490, 11581, 11634],
+  "export_documentation_url": "https://www.clinisys.com/uk/en/history/orchard/",
   "collection_date": "2026-02-13",
 
   "access": {
-    "description": "The registered URL returned HTTP 200 directly with no redirects. The page is a WordPress site hosted on Kinsta behind Cloudflare. Content is fully server-rendered HTML — no SPA or JavaScript rendering needed. The page is titled 'Costs and Disclosures' and serves as a compliance hub covering ONC certification for multiple product versions (SQ Lab v2024, Sunquest Laboratory v7, v8, v10, v11). The two EHI export specification PDFs are linked near the bottom of the page as 'Individual Patient Export Specification' and 'Patient Population Export Specification'. No accordions, tabs, or expandable sections were needed — just scrolling. A OneTrust cookie consent banner overlays the page in the browser but doesn't block content.",
-    "final_url": "https://www.clinisys.com/us/en/onc-disclosure/",
+    "description": "The registered URL returns a WordPress-hosted product/compliance hub page for the Orchard product line. The page loads as standard HTML (no SPA framework) behind Cloudflare CDN. It contains an 'ONC Health IT Certification' section with multiple accordion panels. The EHI export documentation is in the 'Export Specifications' accordion, which is the 6th of 7 accordion items on the page. Accordion content is rendered server-side using CSS checkbox toggles, so it's accessible via curl/grep without JavaScript. No anti-bot protection or special headers needed. Two PDF links are inside the accordion: one for Orchard Enterprise, one for Orchard Harvest.",
+    "final_url": "https://www.clinisys.com/uk/en/history/orchard/",
     "status": "found",
     "requires_browser": false,
     "anti_bot_protection": "none",
-    "navigation_complexity": "direct_link"
+    "navigation_complexity": "accordion"
   },
 
   "product_context": {
-    "description": "Clinisys (formerly Sunquest Information Systems) is a laboratory information system (LIS) vendor — not an EHR. The certified products (SQ Lab, Sunquest Laboratory) are clinical laboratory information systems designed for multi-disciplinary labs. They manage lab workflows including specimen tracking, order management, result reporting, and instrument interfacing. The broader Clinisys product portfolio includes SQ Blood Bank, PowerPath/CoPathPlus (anatomic pathology), Orchard Enterprise/Harvest (additional LIS products), and Atlas (middleware). None of these products include patient portal, billing/revenue cycle, appointment scheduling, clinical documentation, medication management, or other full-EHR capabilities. SQ Lab integrates with external HIS/EHR systems via HL7 interfaces (2,000+ application interfaces and 11,000 instrument interfaces). Because this is a departmental lab system rather than a full EHR, the scope of 'all EHI that can be stored by the product' is legitimately limited to lab-related data: orders, results, specimens, blood bank, and patient demographics as stored in the LIS.",
-    "tags": ["laboratory-information-system", "departmental-system", "not-full-ehr", "no-patient-portal", "no-billing", "no-scheduling", "integrates-with-external-ehr", "multi-product-portfolio"],
-    "certified_module_name": "Sunquest Laboratory / SQ Lab",
-    "broader_product_name": "Clinisys SQ Lab (with SQ Blood Bank integration)",
-    "product_url": "https://www.clinisys.com/us/en/products/clinisys-sq-lab/"
+    "description": "Clinisys (formerly Orchard Software Corporation) is a standalone laboratory information system (LIS) vendor — not an EHR. Clinisys Harvest and Clinisys Orchard (Enterprise) are laboratory information systems used by clinical labs, public health labs, toxicology labs, and anatomic pathology labs. They manage lab orders, specimen tracking, test processing, result verification, and result delivery. The products integrate WITH external EHRs (Epic, Cerner, etc.) via HL7 interfaces but do not replace them. Orchard Enterprise is the current flagship product; Harvest is the predecessor being sunsetted. The products also include: a patient portal (lab results only), a provider web portal (Orchard Outreach for order entry/results), billing code generation (CPT codes sent to external billing systems), quality control tracking, audit event logging, and public health reporting. There is no patient scheduling, no clinical notes, no medication management, no problem lists — these are purely lab-focused systems. The certified module IS essentially the whole product (the LIS), not a component of something larger.",
+    "tags": ["laboratory-information-system", "lis", "standalone-lis", "not-an-ehr", "has-patient-portal-lab-results-only", "has-provider-portal", "generates-billing-codes", "has-audit-trails", "has-specimen-tracking", "integrates-with-external-ehrs"],
+    "certified_module_name": "Clinisys Harvest / Clinisys Orchard",
+    "broader_product_name": "Clinisys Orchard product suite",
+    "product_url": "https://www.clinisys.com/uk/en/history/orchard/"
   },
 
   "export_approach": {
-    "description": "Clinisys provides two export mechanisms. The Individual Patient Export uses a proprietary pipe-delimited flat file format with numbered record types (Type 10-66) covering demographics, blood bank data, lab orders, accessions, order codes, test components, blood bank reactions, and historical results. This is a native database export using the system's internal data structures. The Patient Population Export is fundamentally different — it's an HL7 v2.3/v2.5.1 interface that sends historical lab results as HL7 messages over TCP/IP to an external receiving system. This is not a file-based export but rather a real-time message interface requiring VPN tunnel, TCP/IP port configuration, and a receiving system. The population export re-uses the format of the site's existing HL7 results interface, and requires a results interface license. The individual patient export appears to be a self-contained extraction; the population export requires significant infrastructure setup.",
-    "tags": ["pipe-delimited-flat-file", "hl7-v2-messages", "native-database-export", "dual-mechanism", "individual-vs-population", "population-requires-interface-license", "numbered-record-types"],
-    "primary_format": "pipe-delimited-text",
-    "file_types": ["txt", "hl7"],
+    "description": "The export is documented as HL7 v2.3 ORU^R01 messages (unsolicited observation results). This is essentially an HL7 interface specification for transmitting lab results to an external system, not a database dump or file-based export. The HL7 messages contain: message headers (MSH), patient identification (PID with demographics), patient visit info (PV1), common order segments (ORC with ordering provider, draw dates), observation requests (OBR with lab orders, specimen info, CPT codes), and observation results (OBX with test results, units, ranges, abnormal flags). The export uses standard HL7 v2.3 segment/field structure with pipe delimiters. This approach covers lab results data comprehensively but is narrowly scoped to 'results export' — it does not appear to cover the full range of data the LIS stores (specimen tracking workflow events, quality control data, audit logs, pathology reports, instrument data, etc.). Notably, the sister Sunquest product line has a much more comprehensive native data export (pipe-delimited flat file covering demographics, blood bank data, orders, accessions, test components, results, and historical data), but no equivalent is documented for Orchard/Harvest.",
+    "tags": ["hl7-v2.3", "oru-r01-messages", "results-only-export", "interface-specification-not-data-dictionary", "no-native-database-export-documented"],
+    "primary_format": "hl7",
+    "file_types": ["hl7"],
     "container": "none"
   },
 
   "documentation_quality": {
-    "description": "The Individual Patient Export Specification is a concise 5-page document that defines a pipe-delimited flat file format with 14 record types (Type 0 through Type 66). Each record type lists numbered field positions with descriptions. The documentation is field-level but sparse — it gives field names and positions but does not include data types, maximum lengths, value sets, or example records. Some fields note sub-delimiters (# and !) but don't enumerate possible values. One field explicitly notes 'will need translation' (specimen code). No foreign key relationships are documented beyond implicit references (ORDX links type 20→30→40→50→60→65/66). The Population Export Specification is a 14-page interface implementation document — mostly a fill-in-the-blank worksheet for configuring HL7 TCP/IP connectivity. It contains no data dictionary content; it assumes you already have a working HL7 results interface and just describes how to run historical data through it. Neither document provides LOINC mapping tables, result interpretation guides, or sample output. A developer reading these docs could understand the basic structure of the individual patient export but would need vendor support for many fields.",
-    "tags": ["field-level-positions", "no-data-types", "no-value-sets", "no-examples", "concise", "population-doc-is-implementation-worksheet", "sparse-documentation"],
+    "description": "The documentation consists of two HL7 interface specification PDFs (15 pages for Enterprise, 13 pages for Harvest). Each document provides field-level detail for every HL7 segment used: segment name, field number, field name, Orchard-specific field name, field length, and comments explaining content/format. Data types are implicit from HL7 v2.3 standard. The documentation includes example messages showing actual field formatting. However, the documentation is narrowly scoped to the HL7 results export interface only — it does not document the full LIS data model, database schema, or any data categories beyond what flows through the results interface. There are no value set definitions beyond basic codes (M/F for sex, I/O for patient class). No relationships between entities are documented beyond the parent-child structure inherent in the HL7 message hierarchy. The documents were revised in 2021 (Enterprise) and 2023 (Harvest), predating some of the ONC EHI requirements timeline.",
+    "tags": ["field-level-detail", "hl7-segment-specs", "includes-examples", "narrowly-scoped-to-results", "no-full-data-model", "no-value-sets", "dated-documentation"],
     "schema_documented": true,
     "field_level_detail": true,
     "value_sets_documented": false,
     "relationships_documented": false,
-    "examples_provided": false,
-    "table_or_resource_count": 14,
+    "examples_provided": true,
+    "table_or_resource_count": 7,
     "documentation_format": "pdf",
-    "documentation_version": "v1.0",
-    "documentation_last_updated": "2023-11"
+    "documentation_version": "v2.3",
+    "documentation_last_updated": "2023-04-28"
   },
 
   "ehi_coverage": {
-    "overall_assessment": "Because Clinisys SQ Lab / Sunquest Laboratory is a laboratory information system — not a full EHR — the relevant EHI scope is narrow by design. The individual patient export covers the core data the system stores: patient demographics (limited to lab context), lab orders with ordering physician and diagnosis, accession/specimen data, test components with LOINC codes, result history with technologist attribution, and blood bank data (antigens/antibodies, transfusions, reactions). This is a reasonable representation of what a LIS actually stores. However, even within the LIS domain, the export documentation is notably thin — only 14 record types in 5 pages for a system that has been in production for decades. There may be internal data (QC records, instrument logs, reference range tables, configuration data) that isn't represented. The population export adds no new data categories — it just re-formats the same results as HL7 messages. Most EHI categories (messaging, billing, scheduling, documents) are legitimately not applicable because the product doesn't store that data.",
+    "overall_assessment": "The export documentation covers only lab results transmitted via HL7 ORU messages. This is a very narrow slice of the data a laboratory information system stores. The LIS is not an EHR, so many traditional EHI categories (clinical notes, medications, problem lists) are not applicable — the system genuinely doesn't store them. However, even within the LIS domain, the export documentation appears to miss significant data categories that the product DOES store: specimen tracking workflow events, quality control data, instrument interface data, pathology reports (anatomic pathology module), audit trails (the product is certified for d(2) auditable events), patient portal access logs, and provider portal activity. The billing code generation capability is partially covered (CPT codes appear in OBR fields), but the full billing workflow isn't documented. The product has audit trail capabilities (certified under d(2) and d(3)), but audit data is not covered in the export. Given that this is a standalone LIS, many categories are legitimately N/A, but the export still appears incomplete for the data the system actually stores.",
     "clinical": {
       "present": true,
-      "evidence": "Core strength. Type 20 (orders with physician, diagnosis, location), Type 30 (accessions with specimen and collection data), Type 40 (order codes with LOINC, CPT, lab department), Type 50 (test components with LOINC), Types 55/56 (blood bank reactions), Types 60/65/66 (historical results including numeric, comment, freetext, and micro susceptibility). Also patient demographics (Type 10) and blood bank administrative data (Types 11-14 with antigens, antibodies, problems, transfusion attributes)."
+      "evidence": "Lab results are the primary content of the export. The HL7 ORU messages contain: PID (patient demographics including name, DOB, sex, SSN, race, address, phone), PV1 (patient visit with admit/discharge dates, attending/referring physicians, patient class), ORC (common order with ordering provider, draw dates), OBR (observation requests with lab orders, specimen source, collection dates, CPT codes, ordering provider), OBX (observation results with test codes, values, units, reference ranges, abnormal flags, LOINC codes). Also supports embedded PDF results for microbiology and AP reports. Diagnoses are captured in the ordering context. However, the export only covers lab-domain clinical data — no medications, problem lists, allergies, vitals, or clinical notes (which the LIS doesn't store anyway)."
     },
     "secure_messages": {
       "present": false,
-      "evidence": "Not applicable. SQ Lab is a laboratory information system with no patient portal or messaging capability. No messaging data exists in the system to export."
+      "evidence": "No messaging content in the HL7 result export specification. The product has a patient portal for lab results access and an Orchard Outreach provider portal, but any communications through these portals are not covered in the export documentation. Searched for: message, inbox, communication, chat, portal, correspondence — none found in the export specs."
     },
     "billing_financial": {
       "present": false,
-      "evidence": "Minimal billing-adjacent data exists: Type 20 includes 'Special Billing Code' and 'Patient Account', and Type 40 includes CPT codes. However, there are no charge amounts, claim records, payment data, or financial transaction tables. This is expected — SQ Lab is not a billing system. Billing is handled by the integrated HIS/EHR."
+      "evidence": "CPT codes appear in OBR fields (OBR-45 Procedure Code Modifier and billing-related fields), and ORC-20 contains an 'Advance Beneficiary Notice Code' field. There is also a 'Billing ID' field and 'Financial Class' in PV1. However, there are no actual dollar amounts, charges, claims, payments, or transaction records in the export. The product generates billing codes for integration with external billing systems — the export includes the CPT code assignments but not the full billing data. Harvest Pathology explicitly mentions 'automated billing processes' as a product feature, but this data is not represented in the export."
     },
     "insurance_coverage": {
       "present": false,
-      "evidence": "No insurance, coverage, eligibility, or authorization data in the export. Not applicable — SQ Lab does not store insurance information."
+      "evidence": "No insurance, coverage, eligibility, authorization, or payer information in the export documentation. The HL7 message structure does not include IN1 (Insurance) or IN2 segments, though these exist in the HL7 v2.3 standard. PV1 has a 'Financial Class' field which is the closest proxy, but no actual insurance data."
     },
     "appointments_scheduling": {
       "present": false,
-      "evidence": "No appointment or scheduling data. Type 30 has 'Scheduled Collect' (collection scheduling) but this is specimen collection timing, not patient appointment scheduling. Not applicable for a departmental LIS."
+      "evidence": "No appointment or scheduling data in the export. The LIS does not appear to have patient scheduling functionality — it tracks specimen collection events (OBR-7 Observation Date/Time, OBR-14 Specimen Received Date/Time) but these are lab workflow timestamps, not appointments. The product does not have a scheduling module."
     },
     "documents_images": {
-      "present": false,
-      "evidence": "No document, image, or attachment types in the export specification. The LIS may store some documents internally (e.g., scanned requisitions) but these are not represented in the export format."
+      "present": true,
+      "evidence": "The OBX segment supports embedded PDF documents. The Harvest spec notes: 'Result messages may be output containing embedded PDF files. See Encoded PDF Document notes following the OBX segment specification.' The Enterprise spec also documents OBX-5 as supporting 'ED' (embedded document) value type with Base64-encoded PDF content. This covers pathology reports and microbiology formatted reports. However, other document types that the LIS may store (scanned requisitions, uploaded images, faxed results) are not documented in the export."
     },
     "audit_trails": {
       "present": false,
-      "evidence": "No explicit audit trail records in the export. However, there is significant operational attribution data embedded in other record types: technologist codes/names and timestamps on collection, receiving, answering, and result events (Types 30, 40, 50, 60). The ONC disclosure page separately certifies 170.315(d)(2) Auditable Events and 170.315(d)(3) Audit Reports, noting audit reports require Microsoft Excel. These audit capabilities exist in the product but are not part of the EHI export."
+      "evidence": "No audit trail data in the HL7 result export specification. Critically, the product IS certified for 170.315(d)(2) 'Auditable Events and Tamper-Resistance' and 170.315(d)(3) 'Audit Report(s)' — the certification page states these create 'logs of events related to disclosure of PHI' viewable in Microsoft Excel. This audit data exists in the system but is not included in the EHI export documentation. This is a notable gap: the product stores audit data (per its own certification) but the export doesn't cover it."
     }
   },
 
   "issues": [
-    "The patient population export requires a results interface license that 'could incur an additional license fee' — charging extra for a component needed to export all EHI raises compliance questions under b(10).",
-    "The population export is an HL7 TCP/IP interface, not a file-based export — it requires VPN tunnel setup, a receiving system, and interface configuration, making it operationally complex and inaccessible without infrastructure.",
-    "Documentation is dated November 2023 (v1.0) and appears unchanged since initial creation — no evidence of updates as the product evolves.",
-    "The individual patient export has only 14 record types across 5 pages for a mature LIS product — the export may not cover all data the system stores (e.g., QC data, instrument logs, reference ranges, configuration).",
-    "One field is flagged as 'will need translation' (specimen code in Type 30) without providing the translation table, suggesting the export may produce codes that receivers cannot interpret.",
-    "Audit trail data is explicitly certified under 170.315(d)(2)/(d)(3) but is not included in the EHI export — the audit reports are a separate function requiring Microsoft Excel.",
-    "No LOINC mapping table is provided despite the export referencing LOINC codes in Types 40 and 50, and local test codes that may differ from LOINC."
+    "The export documentation describes an HL7 v2.3 results interface specification, not a comprehensive EHI data export — it covers only lab results flowing through the ORU message, not all data stored by the LIS.",
+    "The product is certified for 170.315(d)(2) auditable events and 170.315(d)(3) audit reports, confirming audit data exists in the system, but no audit data is included in the export documentation.",
+    "The product has a patient portal and provider portal (Orchard Outreach), but no portal activity, access logs, or communications are covered in the export.",
+    "Specimen tracking workflow data (collection, routing, processing, aliquoting events with timestamps and technician IDs) is a core LIS function but only partially captured via OBR timestamp fields — the full workflow history is not exported.",
+    "Quality control data, instrument interface data, and competency records stored by the LIS are not represented in the export documentation.",
+    "The Orchard/Harvest export documentation is significantly less comprehensive than the Sunquest SQ Lab export documentation (Patient-Data-Export-Specification) available on the US ONC disclosure page for a different Clinisys product line, suggesting the vendor has the capability to provide more complete export documentation but hasn't done so for Orchard/Harvest.",
+    "The Enterprise export specification was last revised in 2021, predating the ONC's October 2022 EHI export information blocking compliance date, raising questions about whether the documentation has been updated for the Cures Act requirement.",
+    "The documentation title 'HL7 Result Export' and scope statement 'export of Results from Orchard Enterprise Products' explicitly limits the scope to results only, not all EHI."
   ],
 
   "downloaded_files": [
     {
-      "local_path": "downloads/Patient-Data-Export-Specification.pdf",
-      "source_url": "https://www.clinisys.com/app/uploads/2023/11/Patient-Data-Export-Specification.pdf",
-      "size_bytes": 87155,
+      "local_path": "downloads/orchard-enterprise-results-export-specification.pdf",
+      "source_url": "https://www.clinisys.com/app/uploads/2025/11/Orchard-Enterprise-Results-Export-Specification.pdf",
+      "size_bytes": 976077,
       "type": "pdf",
       "is_ehi_documentation": true,
-      "description": "Individual Patient Export Specification — defines the pipe-delimited flat file format with 14 record types (Types 0-66) covering patient demographics, blood bank data, lab orders, accessions, test components, reactions, and historical results. Version 1.0, November 2023.",
-      "curl_command": "curl -L -H 'User-Agent: Mozilla/5.0' -o Patient-Data-Export-Specification.pdf 'https://www.clinisys.com/app/uploads/2023/11/Patient-Data-Export-Specification.pdf'"
+      "description": "HL7 v2.3 ORU^R01 result export specification for Orchard Enterprise Lab. 15 pages covering MSH, PID, NTE, PV1, ORC, OBR, OBX segments with field-level detail, lengths, and example messages. Revised 2021.",
+      "curl_command": "curl -L -H 'User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36' -o orchard-enterprise-results-export-specification.pdf 'https://www.clinisys.com/app/uploads/2025/11/Orchard-Enterprise-Results-Export-Specification.pdf'"
     },
     {
-      "local_path": "downloads/Patient-Population-Export-Specification.pdf",
-      "source_url": "https://www.clinisys.com/app/uploads/2023/11/Patient-Population-Export-Specification.pdf",
-      "size_bytes": 337133,
+      "local_path": "downloads/orchard-harvest-results-export-specification.pdf",
+      "source_url": "https://www.clinisys.com/app/uploads/2025/11/Orchard-Harvest-Results-Export-Specification.pdf",
+      "size_bytes": 1009269,
       "type": "pdf",
       "is_ehi_documentation": true,
-      "description": "Patient Population Export Specification — HL7 v2.3/v2.5.1 interface configuration document for bulk historical lab data export. Primarily an implementation worksheet (CPU config, TCP/IP setup, date range selection) rather than a data dictionary. Reuses the format of the site's existing HL7 results interface.",
-      "curl_command": "curl -L -H 'User-Agent: Mozilla/5.0' -o Patient-Population-Export-Specification.pdf 'https://www.clinisys.com/app/uploads/2023/11/Patient-Population-Export-Specification.pdf'"
+      "description": "HL7 v2.3 ORU^R01 result export specification for Orchard Harvest LIS. 13 pages covering MSH, PID, NTE, PV1, ORC, OBR, OBX segments with field-level detail. Revised 2023. Notes support for embedded PDF results for microbiology and AP reports.",
+      "curl_command": "curl -L -H 'User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36' -o orchard-harvest-results-export-specification.pdf 'https://www.clinisys.com/app/uploads/2025/11/Orchard-Harvest-Results-Export-Specification.pdf'"
     }
   ],
 
-  "summary": "Clinisys SQ Lab / Sunquest Laboratory is a laboratory information system, not a full EHR, so its EHI scope is legitimately narrow — lab orders, results, specimens, blood bank data, and minimal demographics. The individual patient export uses a compact pipe-delimited format with 14 record types that covers core lab data adequately. The population export is an HL7 interface requiring significant infrastructure setup and potentially an additional license fee. Documentation is sparse (5 pages for the actual data dictionary) and may not represent all data the mature LIS stores. The biggest concern is the additional fee for population export and the operational complexity of HL7-based bulk export.",
+  "summary": "Clinisys Harvest and Orchard are standalone laboratory information systems (not EHRs) with EHI export documentation limited to HL7 v2.3 results interface specifications. The export covers lab results, patient demographics, and basic ordering data via standard HL7 ORU messages, but omits significant LIS data categories including audit trails (which the product is certified to maintain), specimen tracking workflow data, quality control data, patient/provider portal activity, and pathology-specific data beyond embedded PDFs. The documentation is well-structured at the field level for what it covers, but its scope is explicitly limited to 'Results export' — a narrow interpretation of 'all EHI' for a system that stores considerably more data than just results.",
 
-  "notes": "Clinisys was formerly Sunquest Information Systems, Inc. — the CHPL certifications still reference the Sunquest name. The product portfolio also includes CoPathPlus (anatomic pathology) which is referenced in the population export spec ('If historical CoPath results are required, please contact your Sales Account Manager for a CoPath Data export quote'), suggesting pathology data requires separate, potentially costly arrangements. The ONC disclosure page covers five separate CHPL certifications (SQ Lab v2024, Sunquest Laboratory v7/v8/v10/v11) but the export specifications appear to be shared across all versions."
+  "notes": "Clinisys also operates the Sunquest Laboratory product line with separate CHPL listings and a more comprehensive native data export specification (Patient-Data-Export-Specification.pdf) available at https://www.clinisys.com/us/en/onc-disclosure/. The Sunquest export covers patient demographics, blood bank data, ordering data, accession data, order codes with CPT codes, test components, reaction results, and historical results in a pipe-delimited native format — significantly more comprehensive than the Orchard/Harvest HL7-only export. This suggests Clinisys has the capability to provide more thorough EHI export documentation but has not done so for the Orchard/Harvest product line. The registered URL path (/uk/en/history/orchard/) notably uses the UK English locale, though the content is US-focused ONC certification material."
 }
