@@ -1,0 +1,23 @@
+{
+  "url": "https://udoc.com/",
+  "developer": {
+    "name": "Udoc Technologies, LLC",
+    "website": "https://www.udoc.com"
+  },
+  "products": [
+    {
+      "chpl_id": 11236,
+      "chpl_product_number": "15.07.04.3132.Udoc.01.01.0.230213",
+      "product_name": "Udoc",
+      "version": "Version 1",
+      "certification_date": "2023-02-13",
+      "certification_status": "Active",
+      "practice_type": null,
+      "certified_criteria": [
+        "170.315 (b)(10)",
+        "170.315 (g)(4)",
+        "170.315 (g)(5)"
+      ]
+    }
+  ]
+}

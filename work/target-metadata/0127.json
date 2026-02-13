@@ -1,0 +1,40 @@
+{
+  "url": "https://mamemr.com/etcetera/disclosure.html",
+  "developer": {
+    "name": "AutoMedical LLC",
+    "website": "https://mamemr.com"
+  },
+  "products": [
+    {
+      "chpl_id": 9404,
+      "chpl_product_number": "15.05.05.3016.RMSC.01.00.1.180517",
+      "product_name": "Med-A-Morphosis",
+      "version": "V3",
+      "certification_date": "2018-05-17",
+      "certification_status": "Active",
+      "practice_type": null,
+      "certified_criteria": [
+        "170.315 (a)(1)",
+        "170.315 (a)(11)",
+        "170.315 (a)(14)",
+        "170.315 (a)(5)",
+        "170.315 (a)(6)",
+        "170.315 (a)(7)",
+        "170.315 (a)(8)",
+        "170.315 (b)(10)",
+        "170.315 (d)(1)",
+        "170.315 (d)(12)",
+        "170.315 (d)(13)",
+        "170.315 (d)(2)",
+        "170.315 (d)(3)",
+        "170.315 (d)(4)",
+        "170.315 (d)(5)",
+        "170.315 (d)(6)",
+        "170.315 (d)(7)",
+        "170.315 (g)(3)",
+        "170.315 (g)(4)",
+        "170.315 (g)(5)"
+      ]
+    }
+  ]
+}

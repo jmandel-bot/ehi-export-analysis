@@ -1,0 +1,39 @@
+{
+  "url": "https://www.ezaccessmot.com/",
+  "developer": {
+    "name": "Medical Office Technologies, Inc.",
+    "website": "https://www.ezaccessmot.com/"
+  },
+  "products": [
+    {
+      "chpl_id": 9663,
+      "chpl_product_number": "15.04.04.1942.ezAc.04.00.1.171219",
+      "product_name": "ezAccess Portal",
+      "version": "4.0",
+      "certification_date": "2017-12-19",
+      "certification_status": "Active",
+      "practice_type": null,
+      "certified_criteria": [
+        "170.315 (b)(1)",
+        "170.315 (b)(10)",
+        "170.315 (d)(1)",
+        "170.315 (d)(12)",
+        "170.315 (d)(13)",
+        "170.315 (d)(2)",
+        "170.315 (d)(3)",
+        "170.315 (d)(5)",
+        "170.315 (d)(6)",
+        "170.315 (d)(7)",
+        "170.315 (d)(8)",
+        "170.315 (d)(9)",
+        "170.315 (e)(1)",
+        "170.315 (e)(3)",
+        "170.315 (g)(1)",
+        "170.315 (g)(4)",
+        "170.315 (g)(5)",
+        "170.315 (g)(6)",
+        "170.315 (h)(1)"
+      ]
+    }
+  ]
+}

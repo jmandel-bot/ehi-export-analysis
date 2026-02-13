@@ -1,0 +1,31 @@
+{
+  "url": "https://healthendeavors.com/onc-certification/",
+  "developer": {
+    "name": "Health Endeavors",
+    "website": "https://healthendeavors.com/"
+  },
+  "products": [
+    {
+      "chpl_id": 11402,
+      "chpl_product_number": "15.04.04.3178.Heal.01.00.0.231206",
+      "product_name": "Health Endeavors Registry",
+      "version": "1.0",
+      "certification_date": "2023-12-06",
+      "certification_status": "Active",
+      "practice_type": null,
+      "certified_criteria": [
+        "170.315 (b)(10)",
+        "170.315 (c)(2)",
+        "170.315 (c)(3)",
+        "170.315 (d)(1)",
+        "170.315 (d)(12)",
+        "170.315 (d)(13)",
+        "170.315 (d)(2)",
+        "170.315 (d)(3)",
+        "170.315 (d)(5)",
+        "170.315 (g)(4)",
+        "170.315 (g)(5)"
+      ]
+    }
+  ]
+}

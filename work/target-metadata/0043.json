@@ -1,0 +1,67 @@
+{
+  "url": "https://www.intersystems.com/healthcare-standards-certifications/",
+  "developer": {
+    "name": "InterSystems Corporation",
+    "website": "https://www.intersystems.com"
+  },
+  "products": [
+    {
+      "chpl_id": 11630,
+      "chpl_product_number": "15.04.04.2988.Heal.19.00.1.250430",
+      "product_name": "HealthShare Personal Community",
+      "version": "2019.1",
+      "certification_date": "2025-04-30",
+      "certification_status": "Active",
+      "practice_type": null,
+      "certified_criteria": [
+        "170.315 (b)(10)",
+        "170.315 (d)(1)",
+        "170.315 (d)(12)",
+        "170.315 (d)(13)",
+        "170.315 (d)(2)",
+        "170.315 (d)(3)",
+        "170.315 (d)(5)",
+        "170.315 (d)(6)",
+        "170.315 (d)(7)",
+        "170.315 (d)(9)",
+        "170.315 (e)(1)",
+        "170.315 (e)(3)",
+        "170.315 (g)(1)",
+        "170.315 (g)(4)",
+        "170.315 (g)(5)",
+        "170.315 (g)(6)",
+        "170.315 (g)(7)",
+        "170.315 (g)(9)"
+      ]
+    },
+    {
+      "chpl_id": 11639,
+      "chpl_product_number": "15.04.04.2988.Heal.21.01.1.250515",
+      "product_name": "HealthShare Personal Community",
+      "version": "2021.2",
+      "certification_date": "2025-05-15",
+      "certification_status": "Active",
+      "practice_type": null,
+      "certified_criteria": [
+        "170.315 (b)(10)",
+        "170.315 (d)(1)",
+        "170.315 (d)(12)",
+        "170.315 (d)(13)",
+        "170.315 (d)(2)",
+        "170.315 (d)(3)",
+        "170.315 (d)(5)",
+        "170.315 (d)(6)",
+        "170.315 (d)(7)",
+        "170.315 (d)(9)",
+        "170.315 (e)(1)",
+        "170.315 (e)(3)",
+        "170.315 (g)(1)",
+        "170.315 (g)(4)",
+        "170.315 (g)(5)",
+        "170.315 (g)(6)",
+        "170.315 (g)(7)",
+        "170.315 (g)(9)"
+      ]
+    }
+  ]
+}

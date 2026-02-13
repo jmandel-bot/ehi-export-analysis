@@ -1,0 +1,42 @@
+{
+  "url": "https://pkdemo6.patientkeeper.com/api-docs/v0/api/index.html",
+  "developer": {
+    "name": "Commure",
+    "website": "http://commure.com"
+  },
+  "products": [
+    {
+      "chpl_id": 10291,
+      "chpl_product_number": "15.04.04.2142.Pati.92.01.0.200129",
+      "product_name": "PatientKeeper",
+      "version": "9.2",
+      "certification_date": "2020-01-29",
+      "certification_status": "Active",
+      "practice_type": null,
+      "certified_criteria": [
+        "170.315 (a)(1)",
+        "170.315 (a)(2)",
+        "170.315 (a)(3)",
+        "170.315 (a)(4)",
+        "170.315 (b)(10)",
+        "170.315 (b)(2)",
+        "170.315 (b)(3)",
+        "170.315 (d)(1)",
+        "170.315 (d)(12)",
+        "170.315 (d)(13)",
+        "170.315 (d)(2)",
+        "170.315 (d)(3)",
+        "170.315 (d)(4)",
+        "170.315 (d)(5)",
+        "170.315 (d)(6)",
+        "170.315 (d)(7)",
+        "170.315 (d)(8)",
+        "170.315 (g)(1)",
+        "170.315 (g)(3)",
+        "170.315 (g)(4)",
+        "170.315 (g)(5)",
+        "170.315 (g)(6)"
+      ]
+    }
+  ]
+}

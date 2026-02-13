@@ -1,0 +1,29 @@
+{
+  "url": "https://savassoftware.com/support_ehi_export/",
+  "developer": {
+    "name": "Savas Solutions LLC",
+    "website": "https://www.savassoftware.com"
+  },
+  "products": [
+    {
+      "chpl_id": 11621,
+      "chpl_product_number": "15.04.04.3223.Sava.01.00.1.250414",
+      "product_name": "Savas Software",
+      "version": "1.0",
+      "certification_date": "2025-04-14",
+      "certification_status": "Active",
+      "practice_type": null,
+      "certified_criteria": [
+        "170.315 (b)(10)",
+        "170.315 (d)(1)",
+        "170.315 (d)(12)",
+        "170.315 (d)(5)",
+        "170.315 (d)(7)",
+        "170.315 (d)(8)",
+        "170.315 (d)(9)",
+        "170.315 (g)(4)",
+        "170.315 (g)(5)"
+      ]
+    }
+  ]
+}

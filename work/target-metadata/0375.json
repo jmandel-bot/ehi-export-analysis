@@ -1,0 +1,30 @@
+{
+  "url": "https://www.inovalon.com/ehi-export/?src=vigilanz",
+  "developer": {
+    "name": "VigiLanz Corporation",
+    "website": "https://www.inovalon.com/"
+  },
+  "products": [
+    {
+      "chpl_id": 11319,
+      "chpl_product_number": "15.04.04.2953.Dyna.17.01.0.230623",
+      "product_name": "VigiLanz Corporation",
+      "version": "2020",
+      "certification_date": "2023-06-23",
+      "certification_status": "Active",
+      "practice_type": null,
+      "certified_criteria": [
+        "170.315 (b)(10)",
+        "170.315 (d)(1)",
+        "170.315 (d)(12)",
+        "170.315 (d)(13)",
+        "170.315 (d)(2)",
+        "170.315 (d)(3)",
+        "170.315 (d)(7)",
+        "170.315 (f)(6)",
+        "170.315 (g)(4)",
+        "170.315 (g)(5)"
+      ]
+    }
+  ]
+}

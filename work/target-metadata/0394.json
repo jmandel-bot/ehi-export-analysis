@@ -1,0 +1,35 @@
+{
+  "url": "https://www.cedaron.com/wp-content/uploads/CONNECT-Patient-EHI-Export.pdf",
+  "developer": {
+    "name": "Cedaron Medical, Inc.",
+    "website": "https://www.cedaron.com/"
+  },
+  "products": [
+    {
+      "chpl_id": 10804,
+      "chpl_product_number": "15.04.04.2970.Conn.42.01.0.220128",
+      "product_name": "Connect",
+      "version": "4.2",
+      "certification_date": "2022-01-28",
+      "certification_status": "Active",
+      "practice_type": null,
+      "certified_criteria": [
+        "170.315 (a)(5)",
+        "170.315 (b)(10)",
+        "170.315 (d)(1)",
+        "170.315 (d)(11)",
+        "170.315 (d)(12)",
+        "170.315 (d)(13)",
+        "170.315 (d)(2)",
+        "170.315 (d)(3)",
+        "170.315 (d)(4)",
+        "170.315 (d)(5)",
+        "170.315 (d)(6)",
+        "170.315 (d)(7)",
+        "170.315 (g)(3)",
+        "170.315 (g)(4)",
+        "170.315 (g)(5)"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,51 @@
+{
+  "url": "https://www.darenasolutions.com/bluebuttonpro-onc-hti1-certification/#b10-EHI-Export-Documentation",
+  "developer": {
+    "name": "Professional Imaging, LLC",
+    "website": "https://www.proimagetx.com/"
+  },
+  "products": [
+    {
+      "chpl_id": 11358,
+      "chpl_product_number": "15.07.05.2835.PROI.01.01.1.231027",
+      "product_name": "PI EMR",
+      "version": "2",
+      "certification_date": "2023-10-27",
+      "certification_status": "Active",
+      "practice_type": null,
+      "certified_criteria": [
+        "170.315 (a)(1)",
+        "170.315 (a)(2)",
+        "170.315 (a)(3)",
+        "170.315 (a)(4)",
+        "170.315 (a)(5)",
+        "170.315 (a)(9)",
+        "170.315 (b)(1)",
+        "170.315 (b)(10)",
+        "170.315 (b)(2)",
+        "170.315 (d)(1)",
+        "170.315 (d)(11)",
+        "170.315 (d)(12)",
+        "170.315 (d)(13)",
+        "170.315 (d)(2)",
+        "170.315 (d)(3)",
+        "170.315 (d)(4)",
+        "170.315 (d)(5)",
+        "170.315 (d)(6)",
+        "170.315 (d)(7)",
+        "170.315 (d)(8)",
+        "170.315 (d)(9)",
+        "170.315 (e)(1)",
+        "170.315 (e)(3)",
+        "170.315 (f)(2)",
+        "170.315 (f)(7)",
+        "170.315 (g)(3)",
+        "170.315 (g)(4)",
+        "170.315 (g)(5)",
+        "170.315 (g)(6)",
+        "170.315 (g)(9)",
+        "170.315 (h)(1)"
+      ]
+    }
+  ]
+}

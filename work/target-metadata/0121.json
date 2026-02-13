@@ -1,0 +1,30 @@
+{
+  "url": "https://vecnahealthcare.com/features/clinical-surveillance/",
+  "developer": {
+    "name": "Vecna Technologies, Inc.",
+    "website": "https://b-inc.com/healthcare/"
+  },
+  "products": [
+    {
+      "chpl_id": 11533,
+      "chpl_product_number": "15.04.04.2497.Path.17.00.1.241107",
+      "product_name": "PathFinder Infection Control",
+      "version": "Version 17",
+      "certification_date": "2024-11-07",
+      "certification_status": "Active",
+      "practice_type": null,
+      "certified_criteria": [
+        "170.315 (b)(10)",
+        "170.315 (d)(1)",
+        "170.315 (d)(12)",
+        "170.315 (d)(13)",
+        "170.315 (d)(2)",
+        "170.315 (d)(3)",
+        "170.315 (d)(7)",
+        "170.315 (f)(6)",
+        "170.315 (g)(4)",
+        "170.315 (g)(5)"
+      ]
+    }
+  ]
+}

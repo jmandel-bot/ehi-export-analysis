@@ -1,0 +1,39 @@
+{
+  "url": "https://www.navigatingcancer.com/requirements-incentives/",
+  "developer": {
+    "name": "Navigating Cancer, LLC",
+    "website": "http://www.navigatingcancer.com/"
+  },
+  "products": [
+    {
+      "chpl_id": 11068,
+      "chpl_product_number": "15.04.04.2034.Navi.07.01.1.221213",
+      "product_name": "Navigating Care",
+      "version": "7.0",
+      "certification_date": "2022-12-13",
+      "certification_status": "Active",
+      "practice_type": null,
+      "certified_criteria": [
+        "170.315 (b)(10)",
+        "170.315 (d)(1)",
+        "170.315 (d)(12)",
+        "170.315 (d)(13)",
+        "170.315 (d)(2)",
+        "170.315 (d)(3)",
+        "170.315 (d)(4)",
+        "170.315 (d)(5)",
+        "170.315 (d)(6)",
+        "170.315 (d)(7)",
+        "170.315 (d)(9)",
+        "170.315 (e)(1)",
+        "170.315 (g)(1)",
+        "170.315 (g)(10)",
+        "170.315 (g)(4)",
+        "170.315 (g)(5)",
+        "170.315 (g)(6)",
+        "170.315 (g)(7)",
+        "170.315 (g)(9)"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "url": "https://turbopt.com/export_info.php",
+  "developer": {
+    "name": "Global Support Systems",
+    "website": "https://www.turbopt.com"
+  },
+  "products": [
+    {
+      "chpl_id": 11610,
+      "chpl_product_number": "15.04.04.3218.Turb.02.00.0.250320",
+      "product_name": "TurboPT",
+      "version": "2.1",
+      "certification_date": "2025-03-20",
+      "certification_status": "Active",
+      "practice_type": null,
+      "certified_criteria": [
+        "170.315 (b)(10)",
+        "170.315 (d)(1)",
+        "170.315 (d)(12)",
+        "170.315 (d)(13)",
+        "170.315 (d)(7)",
+        "170.315 (g)(4)",
+        "170.315 (g)(5)"
+      ]
+    }
+  ]
+}

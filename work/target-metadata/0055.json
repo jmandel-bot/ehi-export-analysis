@@ -1,0 +1,61 @@
+{
+  "url": "https://darena.health/onc-hti1-certified",
+  "developer": {
+    "name": "Darena Solutions LLC dba Darena Health",
+    "website": "https://darena.health"
+  },
+  "products": [
+    {
+      "chpl_id": 10435,
+      "chpl_product_number": "15.04.04.1322.Blue.02.00.0.200807",
+      "product_name": "Darena Health",
+      "version": "Version 2.0",
+      "certification_date": "2020-08-07",
+      "certification_status": "Active",
+      "practice_type": null,
+      "certified_criteria": [
+        "170.315 (b)(10)",
+        "170.315 (b)(11)",
+        "170.315 (d)(1)",
+        "170.315 (d)(12)",
+        "170.315 (d)(13)",
+        "170.315 (d)(2)",
+        "170.315 (d)(3)",
+        "170.315 (d)(7)",
+        "170.315 (d)(9)",
+        "170.315 (g)(1)",
+        "170.315 (g)(10)",
+        "170.315 (g)(3)",
+        "170.315 (g)(4)",
+        "170.315 (g)(5)",
+        "170.315 (g)(6)",
+        "170.315 (g)(7)",
+        "170.315 (g)(9)"
+      ]
+    },
+    {
+      "chpl_id": 10726,
+      "chpl_product_number": "15.02.05.1322.DARE.01.01.1.211119",
+      "product_name": "MyMipsScore",
+      "version": "2018",
+      "certification_date": "2021-11-19",
+      "certification_status": "Active",
+      "practice_type": null,
+      "certified_criteria": [
+        "170.315 (b)(10)",
+        "170.315 (c)(1)",
+        "170.315 (c)(2)",
+        "170.315 (c)(3)",
+        "170.315 (c)(4)",
+        "170.315 (d)(1)",
+        "170.315 (d)(12)",
+        "170.315 (d)(13)",
+        "170.315 (d)(2)",
+        "170.315 (d)(3)",
+        "170.315 (d)(5)",
+        "170.315 (g)(4)",
+        "170.315 (g)(5)"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "url": "https://cantatahealth.com/certifications/",
+  "developer": {
+    "name": "Cantata Health Solutions",
+    "website": "https://www.cantatahealth.com"
+  },
+  "products": [
+    {
+      "chpl_id": 10741,
+      "chpl_product_number": "15.02.05.2022.CONT.01.00.1.211207",
+      "product_name": "Convergence Care",
+      "version": "7",
+      "certification_date": "2021-12-07",
+      "certification_status": "Active",
+      "practice_type": null,
+      "certified_criteria": [
+        "170.315 (a)(1)",
+        "170.315 (a)(10)",
+        "170.315 (a)(15)",
+        "170.315 (a)(2)",
+        "170.315 (a)(4)",
+        "170.315 (a)(5)",
+        "170.315 (a)(9)",
+        "170.315 (b)(1)",
+        "170.315 (b)(10)",
+        "170.315 (b)(2)",
+        "170.315 (b)(7)",
+        "170.315 (b)(8)",
+        "170.315 (b)(9)",
+        "170.315 (d)(1)",
+        "170.315 (d)(12)",
+        "170.315 (d)(13)",
+        "170.315 (d)(2)",
+        "170.315 (d)(3)",
+        "170.315 (d)(4)",
+        "170.315 (d)(5)",
+        "170.315 (d)(6)",
+        "170.315 (d)(7)",
+        "170.315 (d)(8)",
+        "170.315 (g)(3)",
+        "170.315 (g)(4)",
+        "170.315 (g)(5)",
+        "170.315 (g)(6)"
+      ]
+    }
+  ]
+}

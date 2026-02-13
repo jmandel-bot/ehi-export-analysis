@@ -1,0 +1,31 @@
+{
+  "url": "https://storage.googleapis.com/staging-incrowd/pdf/EHI%20Export%20Document/1724146814781/file.pdf",
+  "developer": {
+    "name": "Innovaccer Inc",
+    "website": "https://innovaccer.com/"
+  },
+  "products": [
+    {
+      "chpl_id": 11618,
+      "chpl_product_number": "15.04.04.3198.InGr.01.01.0.250401",
+      "product_name": "InGraph",
+      "version": "1.5",
+      "certification_date": "2025-04-01",
+      "certification_status": "Active",
+      "practice_type": null,
+      "certified_criteria": [
+        "170.315 (b)(10)",
+        "170.315 (c)(2)",
+        "170.315 (c)(3)",
+        "170.315 (d)(1)",
+        "170.315 (d)(12)",
+        "170.315 (d)(13)",
+        "170.315 (d)(2)",
+        "170.315 (d)(3)",
+        "170.315 (d)(5)",
+        "170.315 (g)(4)",
+        "170.315 (g)(5)"
+      ]
+    }
+  ]
+}

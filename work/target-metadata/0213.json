@@ -1,0 +1,33 @@
+{
+  "url": "http://www.imasys.com/certifications",
+  "developer": {
+    "name": "Cantata Health Solutions",
+    "website": "https://www.cantatahealth.com"
+  },
+  "products": [
+    {
+      "chpl_id": 11635,
+      "chpl_product_number": "15.05.05.2022.IMAS.02.01.1.250514",
+      "product_name": "imaServe",
+      "version": "3",
+      "certification_date": "2025-05-14",
+      "certification_status": "Active",
+      "practice_type": null,
+      "certified_criteria": [
+        "170.315 (b)(10)",
+        "170.315 (d)(1)",
+        "170.315 (d)(12)",
+        "170.315 (d)(13)",
+        "170.315 (d)(2)",
+        "170.315 (d)(3)",
+        "170.315 (d)(4)",
+        "170.315 (d)(5)",
+        "170.315 (d)(6)",
+        "170.315 (d)(7)",
+        "170.315 (d)(8)",
+        "170.315 (g)(4)",
+        "170.315 (g)(5)"
+      ]
+    }
+  ]
+}

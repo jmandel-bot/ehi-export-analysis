@@ -1,0 +1,23 @@
+{
+  "url": "https://ritten.notion.site/Ritten-EHI-Export-2a91c7de7e3a80bf88e1d7d4984d9b8d",
+  "developer": {
+    "name": "Ritten, Inc.",
+    "website": "https://www.ritten.io"
+  },
+  "products": [
+    {
+      "chpl_id": 11721,
+      "chpl_product_number": "15.04.04.3247.Ritt.01.00.0.251202",
+      "product_name": "Ritten",
+      "version": "v1.0",
+      "certification_date": "2025-12-02",
+      "certification_status": "Active",
+      "practice_type": null,
+      "certified_criteria": [
+        "170.315 (b)(10)",
+        "170.315 (g)(4)",
+        "170.315 (g)(5)"
+      ]
+    }
+  ]
+}

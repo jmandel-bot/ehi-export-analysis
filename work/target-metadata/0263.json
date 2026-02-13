@@ -1,0 +1,33 @@
+{
+  "url": "https://www.medhost.com/about-us/regulatory-and-compliance/",
+  "developer": {
+    "name": "MEDHOST",
+    "website": "https://www.medhost.com"
+  },
+  "products": [
+    {
+      "chpl_id": 11736,
+      "chpl_product_number": "15.04.04.2788.MEDH.06.17.0.251219",
+      "product_name": "MEDHOST Business Intelligence",
+      "version": "v6.7",
+      "certification_date": "2025-12-19",
+      "certification_status": "Active",
+      "practice_type": null,
+      "certified_criteria": [
+        "170.315 (b)(10)",
+        "170.315 (c)(1)",
+        "170.315 (c)(2)",
+        "170.315 (c)(3)",
+        "170.315 (d)(1)",
+        "170.315 (d)(12)",
+        "170.315 (d)(13)",
+        "170.315 (d)(2)",
+        "170.315 (d)(3)",
+        "170.315 (d)(5)",
+        "170.315 (g)(2)",
+        "170.315 (g)(4)",
+        "170.315 (g)(5)"
+      ]
+    }
+  ]
+}

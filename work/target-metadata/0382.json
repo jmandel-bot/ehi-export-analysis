@@ -1,0 +1,32 @@
+{
+  "url": "https://discover.webpt.com/docs/webpt-emr-cehrt-certification",
+  "developer": {
+    "name": "WebPT",
+    "website": "https://www.webpt.com/"
+  },
+  "products": [
+    {
+      "chpl_id": 11515,
+      "chpl_product_number": "15.04.04.3200.Webp.01.00.1.240916",
+      "product_name": "WebPT",
+      "version": "1.478",
+      "certification_date": "2024-09-16",
+      "certification_status": "Active",
+      "practice_type": null,
+      "certified_criteria": [
+        "170.315 (b)(10)",
+        "170.315 (d)(1)",
+        "170.315 (d)(12)",
+        "170.315 (d)(13)",
+        "170.315 (d)(2)",
+        "170.315 (d)(3)",
+        "170.315 (d)(4)",
+        "170.315 (d)(5)",
+        "170.315 (d)(6)",
+        "170.315 (d)(7)",
+        "170.315 (g)(4)",
+        "170.315 (g)(5)"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "url": "https://www.cgm.com/usa_en/products/electronic-health-records/mips-dashboard/cgm-measures.html",
+  "developer": {
+    "name": "CompuGroup Medical US",
+    "website": "https://www.cgm.com/us"
+  },
+  "products": [
+    {
+      "chpl_id": 11343,
+      "chpl_product_number": "15.02.04.2700.MEAS.23.02.1.230911",
+      "product_name": "CGM MEASURES",
+      "version": "2023.1",
+      "certification_date": "2023-09-11",
+      "certification_status": "Active",
+      "practice_type": null,
+      "certified_criteria": [
+        "170.315 (b)(10)",
+        "170.315 (c)(1)",
+        "170.315 (c)(2)",
+        "170.315 (c)(3)",
+        "170.315 (d)(1)",
+        "170.315 (d)(12)",
+        "170.315 (d)(13)",
+        "170.315 (d)(2)",
+        "170.315 (d)(3)",
+        "170.315 (d)(5)",
+        "170.315 (g)(4)",
+        "170.315 (g)(5)"
+      ]
+    }
+  ]
+}

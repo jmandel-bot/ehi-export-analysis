@@ -1,0 +1,43 @@
+{
+  "url": "https://www.epowerdoc.com/compliance-and-roi/b10-solution",
+  "developer": {
+    "name": "EPOWERdoc, Inc.",
+    "website": "https://www.epowerdoc.com"
+  },
+  "products": [
+    {
+      "chpl_id": 10781,
+      "chpl_product_number": "15.04.04.1407.Emrd.03.00.1.220105",
+      "product_name": "EMRdoc",
+      "version": "3.1.5",
+      "certification_date": "2022-01-05",
+      "certification_status": "Active",
+      "practice_type": null,
+      "certified_criteria": [
+        "170.315 (a)(1)",
+        "170.315 (a)(12)",
+        "170.315 (a)(14)",
+        "170.315 (a)(2)",
+        "170.315 (a)(3)",
+        "170.315 (a)(4)",
+        "170.315 (a)(5)",
+        "170.315 (b)(10)",
+        "170.315 (c)(1)",
+        "170.315 (d)(1)",
+        "170.315 (d)(12)",
+        "170.315 (d)(13)",
+        "170.315 (d)(2)",
+        "170.315 (d)(3)",
+        "170.315 (d)(4)",
+        "170.315 (d)(5)",
+        "170.315 (d)(6)",
+        "170.315 (d)(7)",
+        "170.315 (d)(8)",
+        "170.315 (d)(9)",
+        "170.315 (g)(3)",
+        "170.315 (g)(4)",
+        "170.315 (g)(5)"
+      ]
+    }
+  ]
+}

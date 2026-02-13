@@ -1,0 +1,23 @@
+{
+  "url": "https://ppm.fhcsd.org/assets/EHIExportFormat.pdf",
+  "developer": {
+    "name": "Family Health Centers of San Diego, Inc.",
+    "website": "https://www.fhcsd.org"
+  },
+  "products": [
+    {
+      "chpl_id": 11231,
+      "chpl_product_number": "15.07.05.2728.FHCS.01.00.0.230203",
+      "product_name": "CMIS Medical EHR",
+      "version": "2.0",
+      "certification_date": "2023-02-03",
+      "certification_status": "Active",
+      "practice_type": null,
+      "certified_criteria": [
+        "170.315 (b)(10)",
+        "170.315 (g)(4)",
+        "170.315 (g)(5)"
+      ]
+    }
+  ]
+}

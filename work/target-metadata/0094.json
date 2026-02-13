@@ -1,0 +1,33 @@
+{
+  "url": "https://www.aaneel.com/aaneel-onc-ehr-certification-techspecs",
+  "developer": {
+    "name": "AaNeel Infotech",
+    "website": "https://www.aaneel.com/"
+  },
+  "products": [
+    {
+      "chpl_id": 11268,
+      "chpl_product_number": "15.07.05.3107.AANE.01.00.0.230403",
+      "product_name": "My Health EHR - By AaNeelCare",
+      "version": "11",
+      "certification_date": "2023-04-03",
+      "certification_status": "Active",
+      "practice_type": null,
+      "certified_criteria": [
+        "170.315 (b)(10)",
+        "170.315 (c)(1)",
+        "170.315 (c)(2)",
+        "170.315 (c)(3)",
+        "170.315 (c)(4)",
+        "170.315 (d)(1)",
+        "170.315 (d)(12)",
+        "170.315 (d)(13)",
+        "170.315 (d)(2)",
+        "170.315 (d)(3)",
+        "170.315 (d)(5)",
+        "170.315 (g)(4)",
+        "170.315 (g)(5)"
+      ]
+    }
+  ]
+}

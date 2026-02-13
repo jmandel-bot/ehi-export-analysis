@@ -1,0 +1,26 @@
+{
+  "url": "https://www.imprivata.com/onc-certification-disclosures-ebas",
+  "developer": {
+    "name": "Imprivata Inc. (FKA Maize Analytics, Inc.)",
+    "website": "https://www.imprivata.com/"
+  },
+  "products": [
+    {
+      "chpl_id": 11677,
+      "chpl_product_number": "15.05.05.2967.EBAS.01.00.0.250731",
+      "product_name": "Explanation Based Auditing System",
+      "version": "1.04",
+      "certification_date": "2025-07-31",
+      "certification_status": "Active",
+      "practice_type": null,
+      "certified_criteria": [
+        "170.315 (b)(10)",
+        "170.315 (d)(1)",
+        "170.315 (d)(3)",
+        "170.315 (d)(5)",
+        "170.315 (g)(4)",
+        "170.315 (g)(5)"
+      ]
+    }
+  ]
+}

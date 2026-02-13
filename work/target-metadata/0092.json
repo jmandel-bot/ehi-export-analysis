@@ -1,0 +1,33 @@
+{
+  "url": "https://www.spectramedix.com/onc-certified-health-it-mandatory-disclosure-information",
+  "developer": {
+    "name": "SpectraMedix",
+    "website": "https://www.spectramedix.com"
+  },
+  "products": [
+    {
+      "chpl_id": 11248,
+      "chpl_product_number": "15.07.05.2359.SPEC.01.00.1.230309",
+      "product_name": "VBP Performance Suite",
+      "version": "11",
+      "certification_date": "2023-03-09",
+      "certification_status": "Active",
+      "practice_type": null,
+      "certified_criteria": [
+        "170.315 (b)(10)",
+        "170.315 (c)(1)",
+        "170.315 (c)(2)",
+        "170.315 (c)(3)",
+        "170.315 (c)(4)",
+        "170.315 (d)(1)",
+        "170.315 (d)(12)",
+        "170.315 (d)(13)",
+        "170.315 (d)(2)",
+        "170.315 (d)(3)",
+        "170.315 (d)(5)",
+        "170.315 (g)(4)",
+        "170.315 (g)(5)"
+      ]
+    }
+  ]
+}

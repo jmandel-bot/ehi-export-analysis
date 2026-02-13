@@ -1,0 +1,31 @@
+{
+  "url": "https://8759937.fs1.hubspotusercontent-na1.net/hubfs/8759937/Perform%2B_Regulatory_Certificate/PERFORM%2B_B10_Certification_Workflow_V1.2.pdf",
+  "developer": {
+    "name": "CitiusTech, Inc.",
+    "website": "https://www.citiustech.com/"
+  },
+  "products": [
+    {
+      "chpl_id": 11705,
+      "chpl_product_number": "15.04.04.2694.BICL.25.11.0.251010",
+      "product_name": "Perform+",
+      "version": "25.3",
+      "certification_date": "2025-10-10",
+      "certification_status": "Active",
+      "practice_type": null,
+      "certified_criteria": [
+        "170.315 (b)(10)",
+        "170.315 (c)(2)",
+        "170.315 (c)(3)",
+        "170.315 (d)(1)",
+        "170.315 (d)(12)",
+        "170.315 (d)(13)",
+        "170.315 (d)(2)",
+        "170.315 (d)(3)",
+        "170.315 (d)(5)",
+        "170.315 (g)(4)",
+        "170.315 (g)(5)"
+      ]
+    }
+  ]
+}

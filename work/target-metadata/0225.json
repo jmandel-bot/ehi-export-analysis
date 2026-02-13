@@ -1,0 +1,28 @@
+{
+  "url": "https://curantissolutions.com/wp-content/uploads/2025/06/ONC-170.315b10-Electronic-Health-Information-Export.pdf",
+  "developer": {
+    "name": "Curantis Solutions, LLC",
+    "website": "https://www.curantissolutions.com"
+  },
+  "products": [
+    {
+      "chpl_id": 11660,
+      "chpl_product_number": "15.04.04.3232.Cura.02.00.0.250630",
+      "product_name": "Curantis Solutions Hospice & Palliative",
+      "version": "2.0",
+      "certification_date": "2025-06-30",
+      "certification_status": "Active",
+      "practice_type": null,
+      "certified_criteria": [
+        "170.315 (b)(10)",
+        "170.315 (d)(1)",
+        "170.315 (d)(12)",
+        "170.315 (d)(13)",
+        "170.315 (d)(4)",
+        "170.315 (d)(5)",
+        "170.315 (g)(4)",
+        "170.315 (g)(5)"
+      ]
+    }
+  ]
+}

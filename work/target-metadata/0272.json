@@ -1,0 +1,27 @@
+{
+  "url": "https://healthycampus.com/policies/ehi-export-policy/",
+  "developer": {
+    "name": "Healthy Campus, LLC",
+    "website": "https://www.healthycampus.com"
+  },
+  "products": [
+    {
+      "chpl_id": 11760,
+      "chpl_product_number": "15.04.04.3255.Heal.01.00.0.260128",
+      "product_name": "Healthy Campus Platform",
+      "version": "1.0",
+      "certification_date": "2026-01-28",
+      "certification_status": "Active",
+      "practice_type": null,
+      "certified_criteria": [
+        "170.315 (b)(10)",
+        "170.315 (d)(12)",
+        "170.315 (d)(13)",
+        "170.315 (d)(4)",
+        "170.315 (d)(7)",
+        "170.315 (g)(4)",
+        "170.315 (g)(5)"
+      ]
+    }
+  ]
+}

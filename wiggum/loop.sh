@@ -180,6 +180,12 @@ launch_one() {
 
   mkdir -p "$output_dir/downloads"
 
+  # Copy CHPL metadata for this target into the output dir
+  local meta_file="$ROOT/work/target-metadata/$(printf '%04d' "$idx").json"
+  if [[ -f "$meta_file" ]]; then
+    cp "$meta_file" "$output_dir/chpl-metadata.json"
+  fi
+
   # Build prompt from template
   local prompt
   prompt=$(sed \

@@ -1,0 +1,34 @@
+{
+  "url": "https://ablehealth.elevio.help/en/articles/111633",
+  "developer": {
+    "name": "Health Catalyst, Inc.",
+    "website": "http://www.healthcatalyst.com"
+  },
+  "products": [
+    {
+      "chpl_id": 11444,
+      "chpl_product_number": "15.04.04.3034.Meas.01.00.0.240122",
+      "product_name": "MeasureAble",
+      "version": "1.0.0",
+      "certification_date": "2024-01-22",
+      "certification_status": "Active",
+      "practice_type": null,
+      "certified_criteria": [
+        "170.315 (b)(10)",
+        "170.315 (c)(1)",
+        "170.315 (c)(2)",
+        "170.315 (c)(3)",
+        "170.315 (d)(1)",
+        "170.315 (d)(12)",
+        "170.315 (d)(13)",
+        "170.315 (d)(2)",
+        "170.315 (d)(3)",
+        "170.315 (d)(5)",
+        "170.315 (d)(7)",
+        "170.315 (d)(9)",
+        "170.315 (g)(4)",
+        "170.315 (g)(5)"
+      ]
+    }
+  ]
+}

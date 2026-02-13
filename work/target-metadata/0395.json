@@ -1,0 +1,44 @@
+{
+  "url": "http://www.holtsystems.com/b10documentation_Intro.html",
+  "developer": {
+    "name": "Holt Systems, Inc.",
+    "website": "http://www.holtsystems.com"
+  },
+  "products": [
+    {
+      "chpl_id": 10852,
+      "chpl_product_number": "15.02.04.1631.A108.09.01.1.220308",
+      "product_name": "eMedRec",
+      "version": "9.1",
+      "certification_date": "2022-03-08",
+      "certification_status": "Active",
+      "practice_type": null,
+      "certified_criteria": [
+        "170.315 (a)(1)",
+        "170.315 (a)(12)",
+        "170.315 (a)(14)",
+        "170.315 (a)(2)",
+        "170.315 (a)(3)",
+        "170.315 (a)(4)",
+        "170.315 (a)(5)",
+        "170.315 (a)(9)",
+        "170.315 (b)(10)",
+        "170.315 (d)(1)",
+        "170.315 (d)(12)",
+        "170.315 (d)(13)",
+        "170.315 (d)(2)",
+        "170.315 (d)(3)",
+        "170.315 (d)(4)",
+        "170.315 (d)(5)",
+        "170.315 (d)(6)",
+        "170.315 (d)(7)",
+        "170.315 (d)(8)",
+        "170.315 (d)(9)",
+        "170.315 (e)(3)",
+        "170.315 (g)(3)",
+        "170.315 (g)(4)",
+        "170.315 (g)(5)"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "url": "https://wellsky.com/behavioral-health-software/",
+  "developer": {
+    "name": "Wellsky",
+    "website": "https://wellsky.com/"
+  },
+  "products": [
+    {
+      "chpl_id": 10884,
+      "chpl_product_number": "15.04.04.1164.Well.12.00.0.220429",
+      "product_name": "WellSky Specialty Care",
+      "version": "v12",
+      "certification_date": "2022-04-29",
+      "certification_status": "Active",
+      "practice_type": null,
+      "certified_criteria": [
+        "170.315 (a)(1)",
+        "170.315 (a)(12)",
+        "170.315 (a)(14)",
+        "170.315 (a)(5)",
+        "170.315 (b)(10)",
+        "170.315 (d)(1)",
+        "170.315 (d)(12)",
+        "170.315 (d)(13)",
+        "170.315 (d)(2)",
+        "170.315 (d)(3)",
+        "170.315 (d)(4)",
+        "170.315 (d)(5)",
+        "170.315 (d)(6)",
+        "170.315 (d)(7)",
+        "170.315 (d)(8)",
+        "170.315 (g)(3)",
+        "170.315 (g)(4)",
+        "170.315 (g)(5)"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "url": "https://github.com/GoodXSoftware/patient_export/blob/master/README.md",
+  "developer": {
+    "name": "Goodx Inc.",
+    "website": "https://goodx.us/"
+  },
+  "products": [
+    {
+      "chpl_id": 11703,
+      "chpl_product_number": "15.11.09.3243.GOOD.01.00.1.251031",
+      "product_name": "Goodx",
+      "version": "1",
+      "certification_date": "2025-10-31",
+      "certification_status": "Active",
+      "practice_type": null,
+      "certified_criteria": [
+        "170.315 (a)(12)",
+        "170.315 (b)(10)",
+        "170.315 (d)(1)",
+        "170.315 (d)(11)",
+        "170.315 (d)(12)",
+        "170.315 (d)(13)",
+        "170.315 (d)(2)",
+        "170.315 (d)(3)",
+        "170.315 (d)(4)",
+        "170.315 (d)(5)",
+        "170.315 (d)(6)",
+        "170.315 (d)(7)",
+        "170.315 (d)(9)",
+        "170.315 (e)(3)",
+        "170.315 (g)(4)",
+        "170.315 (g)(5)"
+      ]
+    }
+  ]
+}

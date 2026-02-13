@@ -1,0 +1,37 @@
+{
+  "url": "https://www.willowgladetechnologies.com/requirements",
+  "developer": {
+    "name": "Willowglade Technologies Corporation",
+    "website": "https://willowgladetechnologies.com"
+  },
+  "products": [
+    {
+      "chpl_id": 11411,
+      "chpl_product_number": "15.11.09.3179.PHN0.06.00.1.231222",
+      "product_name": "Personal Health Navigator",
+      "version": "6.0",
+      "certification_date": "2023-12-22",
+      "certification_status": "Active",
+      "practice_type": null,
+      "certified_criteria": [
+        "170.315 (b)(10)",
+        "170.315 (d)(1)",
+        "170.315 (d)(12)",
+        "170.315 (d)(13)",
+        "170.315 (d)(2)",
+        "170.315 (d)(3)",
+        "170.315 (d)(5)",
+        "170.315 (d)(7)",
+        "170.315 (d)(9)",
+        "170.315 (e)(1)",
+        "170.315 (g)(1)",
+        "170.315 (g)(10)",
+        "170.315 (g)(4)",
+        "170.315 (g)(5)",
+        "170.315 (g)(6)",
+        "170.315 (g)(7)",
+        "170.315 (g)(9)"
+      ]
+    }
+  ]
+}

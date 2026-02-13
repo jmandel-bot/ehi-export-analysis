@@ -1,0 +1,44 @@
+{
+  "url": "https://portal.inmediata.com/2023/SEMR%20B-10%20Final_Rv%20by%20FL.pdf",
+  "developer": {
+    "name": "Inmediata Health Group LLC",
+    "website": "https://www.inmediata.com"
+  },
+  "products": [
+    {
+      "chpl_id": 11162,
+      "chpl_product_number": "15.07.04.2769.SE01.05.01.1.221228",
+      "product_name": "SecureEMR",
+      "version": "5",
+      "certification_date": "2022-12-28",
+      "certification_status": "Active",
+      "practice_type": null,
+      "certified_criteria": [
+        "170.315 (a)(1)",
+        "170.315 (a)(12)",
+        "170.315 (a)(14)",
+        "170.315 (a)(2)",
+        "170.315 (a)(3)",
+        "170.315 (a)(4)",
+        "170.315 (a)(5)",
+        "170.315 (b)(10)",
+        "170.315 (b)(3)",
+        "170.315 (d)(1)",
+        "170.315 (d)(12)",
+        "170.315 (d)(13)",
+        "170.315 (d)(2)",
+        "170.315 (d)(3)",
+        "170.315 (d)(4)",
+        "170.315 (d)(5)",
+        "170.315 (d)(6)",
+        "170.315 (d)(7)",
+        "170.315 (d)(8)",
+        "170.315 (d)(9)",
+        "170.315 (e)(3)",
+        "170.315 (g)(3)",
+        "170.315 (g)(4)",
+        "170.315 (g)(5)"
+      ]
+    }
+  ]
+}

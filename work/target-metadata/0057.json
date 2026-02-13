@@ -1,0 +1,62 @@
+{
+  "url": "https://developer.chbase.com/EHIExport",
+  "developer": {
+    "name": "TruBridge, Inc.",
+    "website": "https://trubridge.com/"
+  },
+  "products": [
+    {
+      "chpl_id": 10125,
+      "chpl_product_number": "15.04.04.3104.Inst.20.02.1.190916",
+      "product_name": "InstantPHR\u00ae CEHRT Edition",
+      "version": "20",
+      "certification_date": "2019-09-16",
+      "certification_status": "Active",
+      "practice_type": null,
+      "certified_criteria": [
+        "170.315 (b)(10)",
+        "170.315 (d)(1)",
+        "170.315 (d)(12)",
+        "170.315 (d)(13)",
+        "170.315 (d)(2)",
+        "170.315 (d)(3)",
+        "170.315 (d)(5)",
+        "170.315 (d)(6)",
+        "170.315 (d)(7)",
+        "170.315 (d)(9)",
+        "170.315 (e)(1)",
+        "170.315 (e)(3)",
+        "170.315 (g)(1)",
+        "170.315 (g)(4)",
+        "170.315 (g)(5)",
+        "170.315 (g)(6)"
+      ]
+    },
+    {
+      "chpl_id": 10965,
+      "chpl_product_number": "15.04.04.3104.CHBa.20.03.0.220819",
+      "product_name": "CHBase\u2122 CEHRT Edition",
+      "version": "20",
+      "certification_date": "2022-08-19",
+      "certification_status": "Active",
+      "practice_type": null,
+      "certified_criteria": [
+        "170.315 (b)(10)",
+        "170.315 (d)(1)",
+        "170.315 (d)(12)",
+        "170.315 (d)(13)",
+        "170.315 (d)(2)",
+        "170.315 (d)(3)",
+        "170.315 (d)(5)",
+        "170.315 (d)(9)",
+        "170.315 (g)(1)",
+        "170.315 (g)(10)",
+        "170.315 (g)(4)",
+        "170.315 (g)(5)",
+        "170.315 (g)(6)",
+        "170.315 (g)(7)",
+        "170.315 (g)(9)"
+      ]
+    }
+  ]
+}

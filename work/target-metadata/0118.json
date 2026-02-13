@@ -1,0 +1,25 @@
+{
+  "url": "https://documentation.qualifacts.com/ehi-export/",
+  "developer": {
+    "name": "OnCall Health",
+    "website": "https://oncallhealth.com"
+  },
+  "products": [
+    {
+      "chpl_id": 11216,
+      "chpl_product_number": "15.07.04.3122.ONCA.01.01.1.230117",
+      "product_name": "OnCall Health",
+      "version": "v1",
+      "certification_date": "2023-01-17",
+      "certification_status": "Active",
+      "practice_type": null,
+      "certified_criteria": [
+        "170.315 (b)(10)",
+        "170.315 (d)(12)",
+        "170.315 (d)(13)",
+        "170.315 (g)(4)",
+        "170.315 (g)(5)"
+      ]
+    }
+  ]
+}

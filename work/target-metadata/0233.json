@@ -1,0 +1,25 @@
+{
+  "url": "https://www.woundcharts.net/documents/data_dictionary_and_export_file_formats.pdf",
+  "developer": {
+    "name": "Wound Therapeutics, LLC",
+    "website": "https://woundcharts.com/"
+  },
+  "products": [
+    {
+      "chpl_id": 11692,
+      "chpl_product_number": "15.11.09.3238.WDCH.03.00.1.250908",
+      "product_name": "Wound Charts",
+      "version": "3",
+      "certification_date": "2025-09-08",
+      "certification_status": "Active",
+      "practice_type": null,
+      "certified_criteria": [
+        "170.315 (b)(10)",
+        "170.315 (d)(12)",
+        "170.315 (d)(13)",
+        "170.315 (g)(4)",
+        "170.315 (g)(5)"
+      ]
+    }
+  ]
+}

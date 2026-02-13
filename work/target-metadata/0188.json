@@ -1,0 +1,32 @@
+{
+  "url": "https://www.microsoft.com/en-us/health-solutions/revenue-integrity/quality-measures/cures-act-real-world-testing",
+  "developer": {
+    "name": "Nuance Communications, Inc.",
+    "website": "https://qualitymeasures.nuancehealthcare.com"
+  },
+  "products": [
+    {
+      "chpl_id": 11592,
+      "chpl_product_number": "15.04.04.2071.Nuan.24.06.1.250204",
+      "product_name": "Nuance Electronic Quality Measures",
+      "version": "24.1",
+      "certification_date": "2025-02-04",
+      "certification_status": "Active",
+      "practice_type": null,
+      "certified_criteria": [
+        "170.315 (b)(10)",
+        "170.315 (c)(1)",
+        "170.315 (c)(2)",
+        "170.315 (c)(3)",
+        "170.315 (d)(1)",
+        "170.315 (d)(12)",
+        "170.315 (d)(13)",
+        "170.315 (d)(2)",
+        "170.315 (d)(3)",
+        "170.315 (d)(5)",
+        "170.315 (g)(4)",
+        "170.315 (g)(5)"
+      ]
+    }
+  ]
+}

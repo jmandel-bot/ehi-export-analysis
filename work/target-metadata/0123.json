@@ -1,0 +1,31 @@
+{
+  "url": "https://mobilemediclaim.com/licenses-certifications/",
+  "developer": {
+    "name": "Mobile MediClaim",
+    "website": "https://www.mobilemediclaim.com"
+  },
+  "products": [
+    {
+      "chpl_id": 11220,
+      "chpl_product_number": "15.07.09.3088.MO03.03.01.1.230120",
+      "product_name": "Mobile MediClaim",
+      "version": "3.5",
+      "certification_date": "2023-01-20",
+      "certification_status": "Active",
+      "practice_type": null,
+      "certified_criteria": [
+        "170.315 (b)(10)",
+        "170.315 (d)(1)",
+        "170.315 (d)(12)",
+        "170.315 (d)(13)",
+        "170.315 (d)(2)",
+        "170.315 (d)(3)",
+        "170.315 (d)(4)",
+        "170.315 (d)(5)",
+        "170.315 (d)(7)",
+        "170.315 (g)(4)",
+        "170.315 (g)(5)"
+      ]
+    }
+  ]
+}

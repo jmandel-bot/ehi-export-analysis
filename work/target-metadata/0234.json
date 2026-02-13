@@ -1,0 +1,23 @@
+{
+  "url": "https://truercm.com/about-us/ehi-export",
+  "developer": {
+    "name": "True RCM",
+    "website": "https://www.truercm.com"
+  },
+  "products": [
+    {
+      "chpl_id": 11691,
+      "chpl_product_number": "15.04.04.3237.True.01.00.0.250902",
+      "product_name": "TrueRCM EHR",
+      "version": "v1.0",
+      "certification_date": "2025-09-02",
+      "certification_status": "Active",
+      "practice_type": null,
+      "certified_criteria": [
+        "170.315 (b)(10)",
+        "170.315 (g)(4)",
+        "170.315 (g)(5)"
+      ]
+    }
+  ]
+}

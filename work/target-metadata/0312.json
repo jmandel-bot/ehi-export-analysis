@@ -1,0 +1,46 @@
+{
+  "url": "https://www.holyname.org/Policy/ehi-export-file-format.aspx",
+  "developer": {
+    "name": "Holy Name Medical Center",
+    "website": "https://www.holyname.org"
+  },
+  "products": [
+    {
+      "chpl_id": 11224,
+      "chpl_product_number": "15.99.09.1632.WE01.01.02.1.230127",
+      "product_name": "WebHIS",
+      "version": "1.2",
+      "certification_date": "2023-01-27",
+      "certification_status": "Active",
+      "practice_type": null,
+      "certified_criteria": [
+        "170.315 (a)(1)",
+        "170.315 (a)(12)",
+        "170.315 (a)(14)",
+        "170.315 (a)(2)",
+        "170.315 (a)(3)",
+        "170.315 (a)(4)",
+        "170.315 (a)(5)",
+        "170.315 (b)(1)",
+        "170.315 (b)(10)",
+        "170.315 (b)(11)",
+        "170.315 (b)(2)",
+        "170.315 (d)(1)",
+        "170.315 (d)(12)",
+        "170.315 (d)(13)",
+        "170.315 (d)(2)",
+        "170.315 (d)(3)",
+        "170.315 (d)(4)",
+        "170.315 (d)(5)",
+        "170.315 (d)(6)",
+        "170.315 (d)(7)",
+        "170.315 (d)(8)",
+        "170.315 (g)(2)",
+        "170.315 (g)(3)",
+        "170.315 (g)(4)",
+        "170.315 (g)(5)",
+        "170.315 (g)(6)"
+      ]
+    }
+  ]
+}

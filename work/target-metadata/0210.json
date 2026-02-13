@@ -1,0 +1,33 @@
+{
+  "url": "https://binsera.com/ehi-export",
+  "developer": {
+    "name": "BINSERA CORPORATION",
+    "website": "https://binsera.com"
+  },
+  "products": [
+    {
+      "chpl_id": 11624,
+      "chpl_product_number": "15.05.05.3225.BINS.01.00.0.250423",
+      "product_name": "BINSERA EHR",
+      "version": "1",
+      "certification_date": "2025-04-23",
+      "certification_status": "Active",
+      "practice_type": null,
+      "certified_criteria": [
+        "170.315 (b)(10)",
+        "170.315 (d)(1)",
+        "170.315 (d)(12)",
+        "170.315 (d)(13)",
+        "170.315 (d)(2)",
+        "170.315 (d)(3)",
+        "170.315 (d)(5)",
+        "170.315 (d)(6)",
+        "170.315 (d)(9)",
+        "170.315 (e)(3)",
+        "170.315 (g)(4)",
+        "170.315 (g)(5)",
+        "170.315 (g)(7)"
+      ]
+    }
+  ]
+}

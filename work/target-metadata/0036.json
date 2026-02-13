@@ -1,0 +1,54 @@
+{
+  "url": "https://ehi.greenwayhealth.com/default.htm",
+  "developer": {
+    "name": "Greenway Health, LLC",
+    "website": "https://www.greenwayhealth.com/"
+  },
+  "products": [
+    {
+      "chpl_id": 11550,
+      "chpl_product_number": "15.04.04.2913.Gree.01.00.1.241217",
+      "product_name": "Greenway Electronic Case Reporting",
+      "version": "v1",
+      "certification_date": "2024-12-17",
+      "certification_status": "Active",
+      "practice_type": null,
+      "certified_criteria": [
+        "170.315 (b)(10)",
+        "170.315 (d)(1)",
+        "170.315 (d)(12)",
+        "170.315 (d)(13)",
+        "170.315 (d)(2)",
+        "170.315 (d)(3)",
+        "170.315 (d)(7)",
+        "170.315 (f)(5)",
+        "170.315 (g)(4)",
+        "170.315 (g)(5)"
+      ]
+    },
+    {
+      "chpl_id": 11715,
+      "chpl_product_number": "15.04.04.2913.GWPP.22.01.1.251105",
+      "product_name": "Greenway Patient Portal",
+      "version": "v22",
+      "certification_date": "2025-11-05",
+      "certification_status": "Active",
+      "practice_type": null,
+      "certified_criteria": [
+        "170.315 (b)(10)",
+        "170.315 (d)(1)",
+        "170.315 (d)(12)",
+        "170.315 (d)(13)",
+        "170.315 (d)(2)",
+        "170.315 (d)(3)",
+        "170.315 (d)(5)",
+        "170.315 (d)(7)",
+        "170.315 (d)(9)",
+        "170.315 (e)(1)",
+        "170.315 (g)(4)",
+        "170.315 (g)(5)",
+        "170.315 (g)(6)"
+      ]
+    }
+  ]
+}

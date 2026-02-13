@@ -1,0 +1,33 @@
+{
+  "url": "https://www.figmd.com/pdf/ONC_Certification_Disclosures_and_Costs_21-May-2025.pdf",
+  "developer": {
+    "name": "FIGmd Inc. (an MRO Company)",
+    "website": "https://figmd.com/"
+  },
+  "products": [
+    {
+      "chpl_id": 10800,
+      "chpl_product_number": "15.02.05.2726.FIGM.01.01.0.220124",
+      "product_name": "FIGmd - Pegasus Quality Platform",
+      "version": "2.0",
+      "certification_date": "2022-01-24",
+      "certification_status": "Active",
+      "practice_type": null,
+      "certified_criteria": [
+        "170.315 (b)(10)",
+        "170.315 (c)(1)",
+        "170.315 (c)(2)",
+        "170.315 (c)(3)",
+        "170.315 (d)(1)",
+        "170.315 (d)(12)",
+        "170.315 (d)(13)",
+        "170.315 (d)(2)",
+        "170.315 (d)(3)",
+        "170.315 (d)(5)",
+        "170.315 (d)(7)",
+        "170.315 (g)(4)",
+        "170.315 (g)(5)"
+      ]
+    }
+  ]
+}

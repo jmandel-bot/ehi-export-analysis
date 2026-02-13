@@ -1,0 +1,33 @@
+{
+  "url": "https://complete.md/onc-b10-certification/",
+  "developer": {
+    "name": "Anagen Systems",
+    "website": "http://www.anagensystems.com"
+  },
+  "products": [
+    {
+      "chpl_id": 9683,
+      "chpl_product_number": "15.04.04.3025.Comp.01.00.0.181014",
+      "product_name": "Complete. MD Patient Web Portal",
+      "version": "v1.0",
+      "certification_date": "2018-10-14",
+      "certification_status": "Active",
+      "practice_type": null,
+      "certified_criteria": [
+        "170.315 (b)(10)",
+        "170.315 (d)(1)",
+        "170.315 (d)(12)",
+        "170.315 (d)(13)",
+        "170.315 (d)(2)",
+        "170.315 (d)(3)",
+        "170.315 (d)(5)",
+        "170.315 (d)(7)",
+        "170.315 (d)(9)",
+        "170.315 (e)(1)",
+        "170.315 (g)(4)",
+        "170.315 (g)(5)",
+        "170.315 (g)(6)"
+      ]
+    }
+  ]
+}

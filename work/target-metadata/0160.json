@@ -1,0 +1,47 @@
+{
+  "url": "https://www.liquidemr.com/data-export-specification-2/",
+  "developer": {
+    "name": "Liquid Medical Office, Inc.",
+    "website": "https://www.liquidemr.com"
+  },
+  "products": [
+    {
+      "chpl_id": 10620,
+      "chpl_product_number": "15.05.05.1802.LIQ1.01.00.0.210514",
+      "product_name": "Liquid EMR",
+      "version": "3.0",
+      "certification_date": "2021-05-14",
+      "certification_status": "Active",
+      "practice_type": null,
+      "certified_criteria": [
+        "170.315 (a)(1)",
+        "170.315 (a)(10)",
+        "170.315 (a)(12)",
+        "170.315 (a)(13)",
+        "170.315 (a)(14)",
+        "170.315 (a)(2)",
+        "170.315 (a)(3)",
+        "170.315 (a)(4)",
+        "170.315 (a)(5)",
+        "170.315 (a)(9)",
+        "170.315 (b)(10)",
+        "170.315 (d)(1)",
+        "170.315 (d)(12)",
+        "170.315 (d)(13)",
+        "170.315 (d)(2)",
+        "170.315 (d)(3)",
+        "170.315 (d)(4)",
+        "170.315 (d)(5)",
+        "170.315 (d)(6)",
+        "170.315 (d)(7)",
+        "170.315 (d)(8)",
+        "170.315 (d)(9)",
+        "170.315 (e)(2)",
+        "170.315 (e)(3)",
+        "170.315 (g)(3)",
+        "170.315 (g)(4)",
+        "170.315 (g)(5)"
+      ]
+    }
+  ]
+}

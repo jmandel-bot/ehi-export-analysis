@@ -1,0 +1,32 @@
+{
+  "url": "https://www.rwhc.com/Services/Quality-Programs/RWHC-Electronic-Clinical-Quality-Measures",
+  "developer": {
+    "name": "Rural Wisconsin Health Cooperative",
+    "website": "http://www.rwhc.com"
+  },
+  "products": [
+    {
+      "chpl_id": 11506,
+      "chpl_product_number": "15.04.04.2281.RWHC.08.02.0.240828",
+      "product_name": "RWHC eCQM QI Program",
+      "version": "Version 8",
+      "certification_date": "2024-08-28",
+      "certification_status": "Active",
+      "practice_type": null,
+      "certified_criteria": [
+        "170.315 (b)(10)",
+        "170.315 (c)(1)",
+        "170.315 (c)(2)",
+        "170.315 (c)(3)",
+        "170.315 (d)(1)",
+        "170.315 (d)(12)",
+        "170.315 (d)(13)",
+        "170.315 (d)(2)",
+        "170.315 (d)(3)",
+        "170.315 (d)(5)",
+        "170.315 (g)(4)",
+        "170.315 (g)(5)"
+      ]
+    }
+  ]
+}

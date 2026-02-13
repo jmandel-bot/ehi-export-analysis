@@ -1,0 +1,38 @@
+{
+  "url": "https://a-t-g.com/offender-management-suite/electronic-health-records/",
+  "developer": {
+    "name": "Advanced Technologies Group, LLC",
+    "website": "https://www.a-t-g.com"
+  },
+  "products": [
+    {
+      "chpl_id": 10796,
+      "chpl_product_number": "15.02.05.2670.ADTG.01.02.1.220118",
+      "product_name": "ATG EHR",
+      "version": "10",
+      "certification_date": "2022-01-18",
+      "certification_status": "Active",
+      "practice_type": null,
+      "certified_criteria": [
+        "170.315 (a)(1)",
+        "170.315 (a)(2)",
+        "170.315 (a)(3)",
+        "170.315 (a)(4)",
+        "170.315 (a)(5)",
+        "170.315 (b)(10)",
+        "170.315 (d)(1)",
+        "170.315 (d)(12)",
+        "170.315 (d)(13)",
+        "170.315 (d)(2)",
+        "170.315 (d)(3)",
+        "170.315 (d)(4)",
+        "170.315 (d)(5)",
+        "170.315 (d)(6)",
+        "170.315 (d)(7)",
+        "170.315 (g)(3)",
+        "170.315 (g)(4)",
+        "170.315 (g)(5)"
+      ]
+    }
+  ]
+}

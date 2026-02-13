@@ -1,0 +1,38 @@
+{
+  "url": "https://www.marquisware.com/eomis/onc-cost-and-limitations-2015/",
+  "developer": {
+    "name": "Marquis Software Development, Inc.",
+    "website": "http://www.Marquisware.com"
+  },
+  "products": [
+    {
+      "chpl_id": 9457,
+      "chpl_product_number": "15.04.04.2791.eOMI.15.00.1.180319",
+      "product_name": "eOMIS Healthcare Management",
+      "version": "2015.1",
+      "certification_date": "2018-03-19",
+      "certification_status": "Active",
+      "practice_type": null,
+      "certified_criteria": [
+        "170.315 (a)(1)",
+        "170.315 (a)(2)",
+        "170.315 (a)(3)",
+        "170.315 (a)(9)",
+        "170.315 (b)(10)",
+        "170.315 (d)(1)",
+        "170.315 (d)(12)",
+        "170.315 (d)(13)",
+        "170.315 (d)(2)",
+        "170.315 (d)(3)",
+        "170.315 (d)(4)",
+        "170.315 (d)(5)",
+        "170.315 (d)(6)",
+        "170.315 (d)(7)",
+        "170.315 (d)(8)",
+        "170.315 (g)(3)",
+        "170.315 (g)(4)",
+        "170.315 (g)(5)"
+      ]
+    }
+  ]
+}

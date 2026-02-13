@@ -1,0 +1,35 @@
+{
+  "url": "https://visiontree.com/macra-mips",
+  "developer": {
+    "name": "VisionTree Software, Inc.",
+    "website": "https://www.visiontree.com/"
+  },
+  "products": [
+    {
+      "chpl_id": 9969,
+      "chpl_product_number": "15.04.04.2513.Visi.05.00.1.190326",
+      "product_name": "VisionTree Optimal Care\u2122 (VTOC)",
+      "version": "5.0",
+      "certification_date": "2019-03-26",
+      "certification_status": "Active",
+      "practice_type": null,
+      "certified_criteria": [
+        "170.315 (b)(10)",
+        "170.315 (d)(1)",
+        "170.315 (d)(12)",
+        "170.315 (d)(13)",
+        "170.315 (d)(2)",
+        "170.315 (d)(3)",
+        "170.315 (d)(5)",
+        "170.315 (d)(7)",
+        "170.315 (d)(9)",
+        "170.315 (e)(1)",
+        "170.315 (e)(3)",
+        "170.315 (g)(1)",
+        "170.315 (g)(4)",
+        "170.315 (g)(5)",
+        "170.315 (g)(6)"
+      ]
+    }
+  ]
+}

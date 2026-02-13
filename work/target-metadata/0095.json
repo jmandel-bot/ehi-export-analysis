@@ -1,0 +1,33 @@
+{
+  "url": "https://unislinka366.blob.core.windows.net/unislink-file-repo/ehi/ehi_export_model_v1.html",
+  "developer": {
+    "name": "UnisLink",
+    "website": "http://www.unislink.com"
+  },
+  "products": [
+    {
+      "chpl_id": 10699,
+      "chpl_product_number": "15.02.05.2942.UNIL.01.02.0.211008",
+      "product_name": "UnisLink iCMS (Intelligent Care Management Suite)",
+      "version": "3",
+      "certification_date": "2021-10-08",
+      "certification_status": "Active",
+      "practice_type": null,
+      "certified_criteria": [
+        "170.315 (b)(10)",
+        "170.315 (c)(1)",
+        "170.315 (c)(2)",
+        "170.315 (c)(3)",
+        "170.315 (c)(4)",
+        "170.315 (d)(1)",
+        "170.315 (d)(12)",
+        "170.315 (d)(13)",
+        "170.315 (d)(2)",
+        "170.315 (d)(3)",
+        "170.315 (d)(5)",
+        "170.315 (g)(4)",
+        "170.315 (g)(5)"
+      ]
+    }
+  ]
+}

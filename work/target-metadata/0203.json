@@ -1,0 +1,45 @@
+{
+  "url": "https://emr.medicalofficeforce.co/content/ccda_export",
+  "developer": {
+    "name": "Medical Office Force, LLC.",
+    "website": "https://www.medicalofficeforce.com/"
+  },
+  "products": [
+    {
+      "chpl_id": 11617,
+      "chpl_product_number": "15.11.09.3221.MDOF.01.00.1.250401",
+      "product_name": "Medical Office Force",
+      "version": "1.0",
+      "certification_date": "2025-04-01",
+      "certification_status": "Active",
+      "practice_type": null,
+      "certified_criteria": [
+        "170.315 (a)(1)",
+        "170.315 (a)(12)",
+        "170.315 (a)(14)",
+        "170.315 (a)(15)",
+        "170.315 (a)(2)",
+        "170.315 (a)(3)",
+        "170.315 (a)(4)",
+        "170.315 (a)(5)",
+        "170.315 (b)(10)",
+        "170.315 (d)(1)",
+        "170.315 (d)(11)",
+        "170.315 (d)(12)",
+        "170.315 (d)(13)",
+        "170.315 (d)(2)",
+        "170.315 (d)(3)",
+        "170.315 (d)(4)",
+        "170.315 (d)(5)",
+        "170.315 (d)(6)",
+        "170.315 (d)(7)",
+        "170.315 (d)(8)",
+        "170.315 (d)(9)",
+        "170.315 (g)(3)",
+        "170.315 (g)(4)",
+        "170.315 (g)(5)",
+        "170.315 (g)(7)"
+      ]
+    }
+  ]
+}

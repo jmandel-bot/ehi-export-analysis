@@ -1,0 +1,32 @@
+{
+  "url": "https://www.pressganey.com/platform/core-measures/quality-performer-certification/",
+  "developer": {
+    "name": "Press Ganey Associates",
+    "website": "http://www.pressganey.com"
+  },
+  "products": [
+    {
+      "chpl_id": 9902,
+      "chpl_product_number": "15.04.04.2834.Qual.15.00.0.181231",
+      "product_name": "Quality Performer Hospital eMeasures",
+      "version": "Version 1.5",
+      "certification_date": "2018-12-31",
+      "certification_status": "Active",
+      "practice_type": null,
+      "certified_criteria": [
+        "170.315 (b)(10)",
+        "170.315 (c)(1)",
+        "170.315 (c)(2)",
+        "170.315 (c)(3)",
+        "170.315 (d)(1)",
+        "170.315 (d)(12)",
+        "170.315 (d)(13)",
+        "170.315 (d)(2)",
+        "170.315 (d)(3)",
+        "170.315 (d)(5)",
+        "170.315 (g)(4)",
+        "170.315 (g)(5)"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "url": "https://blucygnus.ai/product/NQ==",
+  "developer": {
+    "name": "Intellix Solutions, LLC.",
+    "website": "https://www.intellixs.com/"
+  },
+  "products": [
+    {
+      "chpl_id": 11746,
+      "chpl_product_number": "15.11.09.3224.BluK.02.01.1.260109",
+      "product_name": "BluKnox",
+      "version": "2.1.0",
+      "certification_date": "2026-01-09",
+      "certification_status": "Active",
+      "practice_type": null,
+      "certified_criteria": [
+        "170.315 (b)(10)",
+        "170.315 (d)(1)",
+        "170.315 (d)(10)",
+        "170.315 (d)(12)",
+        "170.315 (d)(13)",
+        "170.315 (d)(2)",
+        "170.315 (d)(3)",
+        "170.315 (d)(4)",
+        "170.315 (d)(5)",
+        "170.315 (d)(7)",
+        "170.315 (d)(8)",
+        "170.315 (g)(4)",
+        "170.315 (g)(5)"
+      ]
+    }
+  ]
+}
