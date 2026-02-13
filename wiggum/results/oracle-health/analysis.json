@@ -1,76 +1,80 @@
 {
   "vendor": "Oracle Health",
   "products": [
-    "Oracle Health Millennium (CQMs)",
-    "Oracle Health Millennium (Clinical)",
-    "Oracle Health Millennium (Health Care Surveys)",
-    "Oracle Health Millennium (Immunizations)",
-    "Oracle Health Patient Portal",
-    "Oracle Health PowerChart Touch"
+    "Oracle Health Data Intelligence: PI Functional Reports",
+    "Oracle Health Data Intelligence: eCQMs",
+    "Oracle Health EHR"
   ],
-  "chpl_ids": [10594, 11505, 11519, 11520, 11522, 11667, 11668, 11669, 11670, 11674],
-  "export_documentation_url": "https://www.oracle.com/health/regulatory/certified-health-it/",
-  "final_resolved_url": "https://www.oracle.com/health/certified-health-it/",
+  "chpl_ids": [11637, 11671, 11702],
+  "export_documentation_url": "https://www.oracle.com/health/regulatory/certified-health-it/#ehi-export-lnk",
   "access": {
     "status": "found",
     "requires_browser": false,
     "anti_bot_protection": "user_agent_required",
     "navigation_complexity": "accordion",
-    "notes": "Registered URL 301-redirects to /health/certified-health-it/. EHI section visible on page, but download links are inside a collapsed accordion labeled 'Read more about EHI Export'. Content is in the HTML source (not lazy-loaded), so curl+grep works without a browser."
+    "notes": "Registered URL 301-redirects from /health/regulatory/certified-health-it/ to /health/certified-health-it/. Accordion 'Read more about EHI Export' must be expanded to reveal download links. Content is in the DOM (curl + grep works), but hidden by CSS."
   },
   "export_format": {
     "primary_format": "sql_dump",
-    "file_types": ["sql", "ndjson", "json", "dcm", "bin", "csv", "pdf", "various_native"],
+    "file_types": ["sql", "json", "xml", "pdf", "dicom", "various_media"],
     "container": "zip",
-    "description": "Millennium exports produce SQL dump files (DDL + INSERT statements) for loading into an empty MySQL or Oracle database. The export also includes multimedia files in their native formats (DICOM, audio, video, images, PDFs), NDJSON files for Longitudinal Plan data, and document imaging binary files. For single-tenant population exports, a full encrypted database copy is shipped on physical media. The HDI (HealtheIntent) product exports JSON files via REST API, delivered as tar.gz via the Data Syndication API."
+    "description": "Millennium EHR: SQL dump files (DDL + data) for MySQL or Oracle DB, packaged as ZIP. Multimedia Storage: original media files (DICOM, audio, video, images, PDFs). Document Imaging: scanned documents with XML annotation metadata (AxAnnotations.xsd). Longitudinal Plan: JSON files (5 files per patient covering health concerns, goals, activities, strengths, care plans). HDI: JSON based on Avro schemas via bulk extract API, downloaded through Data Syndication API."
   },
   "documentation": {
     "format": "mixed",
-    "format_detail": "PDFs for overviews/instructions + ZIP of HTML files for data model (1,456 HTML pages per data model). HDI specs are a single large PDF with Avro schema definitions.",
+    "formats_detail": {
+      "millennium_schema": "zip_of_html",
+      "overview_instructions": "pdf",
+      "hdi_format_specs": "pdf",
+      "document_imaging_schema": "pdf",
+      "multimedia_specs": "pdf",
+      "annotation_schema": "xsd"
+    },
     "field_level_detail": true,
     "data_types_included": true,
-    "nullable_included": true,
-    "column_definitions_included": true,
-    "table_or_resource_count": 6587,
-    "table_or_resource_count_note": "6,587 unique tables in the Millennium data model (v2025.4.01) across 267 domain areas. Additionally, ~123 Avro entity types in the HDI Longitudinal Record format.",
-    "domain_area_count": 267,
+    "table_or_resource_count": 6604,
+    "table_count_detail": {
+      "millennium_database_tables": 6604,
+      "hdi_avro_entity_types": 124,
+      "data_model_domain_sections": 242
+    },
     "downloadable": true,
     "total_download_size_bytes": 29997219,
-    "total_extracted_size_bytes": 197132288
+    "total_extracted_size_description": "~165 MB extracted (three copies of 1,456 HTML data model reports plus PDFs and XSD)"
   },
   "ehi_coverage": {
     "clinical": {
       "present": true,
-      "evidence": "Extensive: clinical_events, charting, clinical_reporting, clinical_trials, structured_clinical, problem, allergy (Allergy entity in HDI), immunization, medication (Medication entity in HDI), condition, result, vital signs, bedside_care, womens_health, behavioral_health, rehabilitation, and many more clinical domains. 39 encounter-related HTML files."
+      "evidence": "Extensive coverage: clinical_events, charting, problem, clinical_reporting, clinical_trials, surginet, radnet, pathnet, womens_health, behavioral_health, social_history, structured_clinical domain sections. HDI entities include Condition, Procedure, Observation, MedicationAdministration, Allergy, Immunization, etc."
     },
     "secure_messages": {
       "present": true,
-      "evidence": "message_center domain (3 HTML files with tables like EMAIL_INFO, MESSAGE_TYPE_TEMPLATE_RELTN, MSG_DOC_FAVORITES, MSG_FYI_ASSIGNMENT, MSG_FYI_FILTER), msvc_messaging domain (3 HTML files). Patient Portal is a certified module."
+      "evidence": "message_center domain with EMAIL_INFO, MSG_DOC_FAVORITES, MSG_FYI_ASSIGNMENT, MSG_FYI_FILTER, TASK_INTENDED_RECIPIENT, TASK_PUBLISH_QUEUE tables. Community (patient portal) domain with 17 pages of tables. SI_DIRECT_MESSAGE in system_integration."
     },
     "billing_financial": {
       "present": true,
-      "evidence": "charge_services domain (11 HTML files with tables like BCE_EVENT_BILL_MOD_RELTN, BCE_EVENT_LOG, BILL_ITEM, BILL_ITEM_MODIFIER), revenue_cycle_config, revenue_cycle_core, collections (8 HTML files), visit_coding. HDI includes BillingStatus, Claim, ClaimDiagnosis, ClaimStatus, RelatedClaim, Drg entities."
+      "evidence": "charge_services (11 pages), revenue_cycle_core, revenue_cycle_config, collections (8 pages), scm_accounting, scm_contract, scm_purchasing, scm_transaction domain sections. Tables include CHARGE, CLAIM related tables. HDI entities include Claim, ClaimDiagnosis, ClaimStatus, BillingStatus."
     },
     "insurance_coverage": {
       "present": true,
-      "evidence": "authorization domain (4 HTML files), benefits domain (2 HTML files with BENEFIT, BENEFIT_DETAIL, EEM_BENEFIT, EEM_BENEFIT_ALLOC, EEM_BENEFIT_PLAN tables), enterprise_eligibility (4 HTML files). HDI includes BenefitPlan, BenefitPlanLite, Subscriber, Coverage entities."
+      "evidence": "authorization domain (4 pages), benefits domain, insurance-related tables throughout. HDI entities include BenefitPlan, BenefitPlanLite, Coverage-related entities."
     },
     "appointments_scheduling": {
       "present": true,
-      "evidence": "scheduling domain (40 HTML files with SCH_ACTION, SCH_ACTION_DATE, SCH_ACTION_LINK, SCH_ACTION_LOC tables), scheduling_build, scheduling_orders_in. HDI includes Appointment, Slot, FreeBusyType entities."
+      "evidence": "scheduling domain (15 pages), scheduling_build (23 pages), scheduling_orders_in (2 pages). SCH_ACTION, SCH_ACTION_DATE, SCH_ACTION_LINK, SCH_ACTION_LOC tables. HDI entity: Appointment."
     },
     "documents_images": {
       "present": true,
-      "evidence": "Four separate storage systems documented: (1) digital_media_services (2 HTML files), (2) Oracle Health Multimedia Storage (DICOM data structure PDF + non-DICOM column definitions PDF), (3) Oracle Health Document Imaging (7-page database schema PDF + AxAnnotations.xsd), (4) imaging_document domain (13+ HTML files). Export includes native multimedia files (DICOM .dcm, audio, video, images, PDFs) and document imaging binaries (.bin)."
+      "evidence": "Four dedicated storage systems: (1) Oracle Health Multimedia Storage with DICOM XML structure documented in dedicated PDF, non-DICOM column definitions in separate PDF; (2) Oracle Health Document Imaging with full database schema PDF and AxAnnotations.xsd for annotations; (3) Multimedia content exported in original format (DICOM, audio, video, images, PDFs). Explicit statement: 'data from the Oracle Health Multimedia Storage location is maintained and exported in the original format.'"
     },
     "audit_trails": {
       "present": true,
-      "evidence": "prologue domain (11 HTML files with audit-related tables including OMF_ABSTRACT_DATA_ST, OMF_ABSTRACT_DEF), patient_tracking (15+ HTML files), provenance_concepts domain. HDI includes Provenance entity."
+      "evidence": "prologue domain (11 pages of tables) — 'Prologue' is Cerner Millennium's audit trail system. OMF_ABSTRACT_DATA_ST and related audit/tracking tables. Additional audit references throughout bedside_care, charge_services, clinical_events domains."
     }
   },
   "sample_exports_available": false,
   "developer_guide_available": true,
-  "developer_guide_notes": "Single patient overview PDF includes step-by-step MySQL database creation instructions (download MySQL, create schema with latin1 charset, set max_packet_size 1GiB, disable FK checks, load DDL then data files in specific order). Population overview is 23 pages with detailed instructions for multi-tenant vs single-tenant scenarios, Document Imaging binary file interpretation, DICOM data handling. HDI overview describes REST API authentication (bearer token or OAuth 1.0a) and API endpoints for requesting and downloading exports.",
+  "developer_guide_notes": "The overview PDFs serve as developer/user instructions: Single Patient overview (4 pages) explains the ZIP structure, how to load SQL files into a MySQL database, and query the data. Patient Population overview (23 pages) covers all four storage systems in detail with appendices. HDI overview (3 pages) includes API authentication (bearer token / OAuth 1.0a), API endpoints for requesting and downloading exports. The Longitudinal Plan PDFs reference external docs at docs.healtheintent.com for JSON schema details.",
   "downloaded_files": [
     {
       "local_path": "downloads/cerner-corp-single-patient-ehi-export-data-overview.pdf",
@@ -78,16 +82,16 @@
       "size_bytes": 154866,
       "type": "pdf",
       "pages": 4,
-      "description": "Single patient EHI export overview and user instructions for Millennium platform",
-      "curl_command": "curl -L -H 'User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36' -o cerner-corp-single-patient-ehi-export-data-overview.pdf 'https://www.oracle.com/a/ocom/docs/industries/healthcare/cerner-corp-single-patient-ehi-export-data-overview.pdf'"
+      "description": "Single Patient EHI Export Data Overview and User Instructions — explains export process, ZIP structure, how to load SQL into MySQL",
+      "curl_command": "curl -L -H 'User-Agent: Mozilla/5.0' -o cerner-corp-single-patient-ehi-export-data-overview.pdf 'https://www.oracle.com/a/ocom/docs/industries/healthcare/cerner-corp-single-patient-ehi-export-data-overview.pdf'"
     },
     {
       "local_path": "downloads/single-patient-ehi-export-data-format-specifications.zip",
       "source_url": "https://www.oracle.com/a/ocom/docs/industries/healthcare/single-patient-ehi-export-data-format-specifications.zip",
       "size_bytes": 7656902,
       "type": "zip",
-      "description": "Single patient data format specs: contains Longitudinal Plan PDF + nested MySQL data model ZIP (1,456 HTML files documenting 6,587 tables)",
-      "curl_command": "curl -L -H 'User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36' -o single-patient-ehi-export-data-format-specifications.zip 'https://www.oracle.com/a/ocom/docs/industries/healthcare/single-patient-ehi-export-data-format-specifications.zip'"
+      "description": "Single Patient format specs — contains Longitudinal Plan PDF + nested MySQL Data Model ZIP (1,456 HTML files, Millennium v2025.4.01)",
+      "curl_command": "curl -L -H 'User-Agent: Mozilla/5.0' -o single-patient-ehi-export-data-format-specifications.zip 'https://www.oracle.com/a/ocom/docs/industries/healthcare/single-patient-ehi-export-data-format-specifications.zip'"
     },
     {
       "local_path": "downloads/cerner-corp-patient-population-ehi-export-data-overview.pdf",
@@ -95,16 +99,16 @@
       "size_bytes": 456977,
       "type": "pdf",
       "pages": 23,
-      "description": "Patient population EHI export overview and user instructions for Millennium platform. Covers single-tenant (physical media shipment) and multi-tenant (SQL dump) scenarios, plus Document Imaging and Multimedia Storage data handling.",
-      "curl_command": "curl -L -H 'User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36' -o cerner-corp-patient-population-ehi-export-data-overview.pdf 'https://www.oracle.com/a/ocom/docs/industries/healthcare/cerner-corp-patient-population-ehi-export-data-overview.pdf'"
+      "description": "Patient Population EHI Export Data Overview and User Instructions — covers all 4 storage systems, includes appendices for Multimedia Storage DICOM/non-DICOM and Document Imaging",
+      "curl_command": "curl -L -H 'User-Agent: Mozilla/5.0' -o cerner-corp-patient-population-ehi-export-data-overview.pdf 'https://www.oracle.com/a/ocom/docs/industries/healthcare/cerner-corp-patient-population-ehi-export-data-overview.pdf'"
     },
     {
       "local_path": "downloads/patient-population-ehi-export-data-format-specifications.zip",
       "source_url": "https://www.oracle.com/a/ocom/docs/industries/healthcare/patient-population-ehi-export-data-format-specifications.zip",
       "size_bytes": 15621689,
       "type": "zip",
-      "description": "Patient population data format specs: contains nested Oracle + MySQL data model ZIPs (1,456 HTML files each), Longitudinal Plan PDF, Document Imaging schema PDF, Multimedia Storage DICOM + non-DICOM PDFs, AxAnnotations.xsd",
-      "curl_command": "curl -L -H 'User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36' -o patient-population-ehi-export-data-format-specifications.zip 'https://www.oracle.com/a/ocom/docs/industries/healthcare/patient-population-ehi-export-data-format-specifications.zip'"
+      "description": "Patient Population format specs — contains Oracle DB Data Model ZIP + MySQL Data Model ZIP (1,456 HTML files each), plus Document Imaging schema PDF, Multimedia Storage DICOM/non-DICOM PDFs, AxAnnotations.xsd, Longitudinal Plan PDF",
+      "curl_command": "curl -L -H 'User-Agent: Mozilla/5.0' -o patient-population-ehi-export-data-format-specifications.zip 'https://www.oracle.com/a/ocom/docs/industries/healthcare/patient-population-ehi-export-data-format-specifications.zip'"
     },
     {
       "local_path": "downloads/health-data-intelligence-ehi-export-data-overview-user-instructions.pdf",
@@ -112,8 +116,8 @@
       "size_bytes": 172438,
       "type": "pdf",
       "pages": 3,
-      "description": "HDI (HealtheIntent) EHI export overview and user instructions. Describes REST API authentication, Longitudinal Record Bulk Extract API, and Data Syndication API for requesting and downloading exports.",
-      "curl_command": "curl -L -H 'User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36' -o health-data-intelligence-ehi-export-data-overview-user-instructions.pdf 'https://www.oracle.com/a/ocom/docs/industries/healthcare/health-data-intelligence-ehi-export-data-overview-user-instructions.pdf'"
+      "description": "HDI EHI Export Data Overview and User Instructions — covers API authentication (bearer token/OAuth 1.0a), Longitudinal Record Bulk Extract API, Data Syndication API for download",
+      "curl_command": "curl -L -H 'User-Agent: Mozilla/5.0' -o health-data-intelligence-ehi-export-data-overview-user-instructions.pdf 'https://www.oracle.com/a/ocom/docs/industries/healthcare/health-data-intelligence-ehi-export-data-overview-user-instructions.pdf'"
     },
     {
       "local_path": "downloads/health-data-intelligence-ehi-export-data-format-specifications.pdf",
@@ -121,19 +125,18 @@
       "size_bytes": 5934347,
       "type": "pdf",
       "pages": 8,
-      "description": "HDI Longitudinal Record format specifications. Defines ~123 Avro entity types (poprecord schema) with field names, types, and descriptions. Covers clinical, billing, insurance, scheduling, and administrative data.",
-      "curl_command": "curl -L -H 'User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36' -o health-data-intelligence-ehi-export-data-format-specifications.pdf 'https://www.oracle.com/a/ocom/docs/industries/healthcare/health-data-intelligence-ehi-export-data-format-specifications.pdf'"
+      "description": "HDI EHI Export Data Format Specifications — Avro schema documentation for 124 unique Poprecord entity types (com.cerner.pophealth.program.models.avro.poprecord namespace). Covers clinical, billing, insurance, scheduling, and other domains via JSON/Avro format.",
+      "curl_command": "curl -L -H 'User-Agent: Mozilla/5.0' -o health-data-intelligence-ehi-export-data-format-specifications.pdf 'https://www.oracle.com/a/ocom/docs/industries/healthcare/health-data-intelligence-ehi-export-data-format-specifications.pdf'"
     }
   ],
   "issues": [
-    "Registered URL redirects (301) from /health/regulatory/certified-health-it/ to /health/certified-health-it/ — the /regulatory/ path was removed",
-    "Download links hidden inside collapsed accordion requiring click to expand",
-    "Nested ZIP files require two levels of extraction",
-    "File names still carry 'cerner-corp' prefix despite Oracle rebranding",
-    "HDI format specs PDF is 8 pages but 5.7 MB (contains embedded images/fonts), appears to be generated from Avro schema with PDF rendering",
-    "Longitudinal Plan NDJSON format specs reference external docs.healtheintent.com URLs for detailed JSON field definitions rather than being self-contained",
-    "No sample export files or test data provided",
-    "Single-tenant population exports involve physical encrypted device shipment — not a self-service digital process"
+    "Registered URL uses old path /health/regulatory/ which 301-redirects to /health/ — link should be updated in CHPL",
+    "Download links hidden behind accordion — not immediately visible on page load",
+    "Nested ZIPs require two rounds of extraction",
+    "Legacy 'cerner-corp' naming in file paths despite Oracle Health branding",
+    "Single Patient ZIP only includes MySQL data model (no Oracle DB version); Patient Population ZIP includes both",
+    "HDI Longitudinal Plan PDFs reference external documentation at docs.healtheintent.com for detailed JSON schema — a dependency on an external site",
+    "The 8-page HDI format spec PDF is 5.7 MB — unusually large, possibly due to embedded vector graphics or Avro schema diagrams"
   ],
-  "summary": "Oracle Health provides exceptionally comprehensive EHI export documentation covering 6,587 database tables across 267 domain areas in the Millennium platform, plus ~123 Avro entity types for the HDI Longitudinal Record. This is a true database dump — the export produces SQL DDL and INSERT statements for loading into MySQL/Oracle, plus native multimedia files (DICOM, images, audio, documents). The documentation includes field-level detail (column names, data types, nullability, definitions) for every table. All major data categories are covered: clinical, billing, insurance, scheduling, messaging, documents/images, and audit trails. This is one of the most thorough EHI export documentation sets among certified EHR vendors."
+  "summary": "Oracle Health provides exceptionally comprehensive EHI export documentation covering two distinct product lines. The Millennium EHR export is a full SQL database dump (MySQL or Oracle DB) covering 6,604 tables across 242 data domains, with field-level documentation (column names, types, nullability, definitions) in 1,456 HTML report files. Four storage systems are documented: core relational DB, multimedia storage (DICOM/non-DICOM), document imaging, and longitudinal care plans. The HDI export uses JSON/Avro format with 124 entity types accessed via REST APIs. All major EHI categories are represented including clinical data, billing/charges, insurance, scheduling, secure messaging, documents/images, and audit trails (Prologue). This is a genuine database-level export, not a FHIR re-export — the data comes as-is from the Millennium production database schema."
 }

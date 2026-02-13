@@ -1,189 +1,195 @@
 # Oracle Health — EHI Export Documentation Collection Log
 
 ## Source
-- **CHPL IDs**: 10594, 11505, 11519, 11520, 11522, 11667, 11668, 11669, 11670, 11674
-- **Products**: Oracle Health Millennium (CQMs), Oracle Health Millennium (Clinical), Oracle Health Millennium (Health Care Surveys), Oracle Health Millennium (Immunizations), Oracle Health Patient Portal, Oracle Health PowerChart Touch
-- **Registered URL**: https://www.oracle.com/health/regulatory/certified-health-it/
+- **CHPL IDs**: 11637, 11671, 11702
+- **Products**: Oracle Health Data Intelligence: PI Functional Reports, Oracle Health Data Intelligence: eCQMs, Oracle Health EHR
+- **Registered URL**: https://www.oracle.com/health/regulatory/certified-health-it/#ehi-export-lnk
 
 ## Navigation Journal
 
 ### Step 1: Initial probe
 
 ```bash
-curl -sI -L "https://www.oracle.com/health/regulatory/certified-health-it/" \
-  -H 'User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36'
+curl -sI -L "https://www.oracle.com/health/regulatory/certified-health-it/#ehi-export-lnk" -H 'User-Agent: Mozilla/5.0'
 ```
 
-**Result**: HTTP 301 redirect from `/health/regulatory/certified-health-it/` → `/health/certified-health-it/`, then HTTP 200. The registered URL has been reorganized — the `/regulatory/` path component was removed. The redirect is transparent. Final URL: `https://www.oracle.com/health/certified-health-it/`. Content-Type: `text/html; charset=UTF-8`.
+**Result**: 301 redirect from `/health/regulatory/certified-health-it/` → `/health/certified-health-it/`, then 200 OK. The old path `/health/regulatory/` has been reorganized to `/health/`. Final URL: `https://www.oracle.com/health/certified-health-it/` (fragment `#ehi-export-lnk` preserved client-side). Content-Type: `text/html; charset=UTF-8`. Page size: 68,166 bytes.
 
-**Note**: Oracle requires a User-Agent header. Without one, the response may differ.
+**Note**: The registered URL uses the old path `/health/regulatory/certified-health-it/` which 301-redirects to `/health/certified-health-it/`. Both work. A User-Agent header is required (Oracle/Akamai CDN).
 
 ### Step 2: Page examination
 
 ```bash
-curl -sL "https://www.oracle.com/health/regulatory/certified-health-it/" \
-  -H 'User-Agent: Mozilla/5.0 ...' -o /tmp/oracle-page.html
-wc -c /tmp/oracle-page.html  # 68,166 bytes
+curl -sL "https://www.oracle.com/health/regulatory/certified-health-it/#ehi-export-lnk" \
+  -H 'User-Agent: Mozilla/5.0' -o /tmp/page.html
 ```
 
-The page is a **compliance hub** with a sidebar table of contents and multiple sections. It is static HTML served by Oracle's CMS — not a SPA. Content is fully available via curl. Title: "Certified Health IT | Oracle Health". The page description references "Cerner" (the pre-acquisition name).
-
-Sidebar navigation sections:
-1. ASTP/ONC Certified Health IT
-2. Costs and fees information
-3. Certified API technology fees
-4. Artificial Intelligence and Machine Learning Development Practices
-5. **Electronic Health Information (EHI) Export** ← target section
-6. Real World Testing
-7. Standards Version Advancement Process
-8. Multifactor authentication use cases
-9. Where to find more information about the Oracle Health certifications
+The page is a standard Oracle corporate compliance page (~68 KB HTML) with substantive content in the HTML source. It is NOT a JavaScript SPA — content is server-rendered and accessible via curl. The page is titled "Certified Health IT | Oracle Health" and covers multiple ONC certification topics with a left sidebar navigation.
 
 ### Step 3: Finding the EHI section
 
-The EHI Export section is anchored at `#ehi-export-lnk` on the page. The section header reads "Electronic Health Information (EHI) Export". Below the introductory text, there is an **accordion** labeled "Read more about EHI Export" (button `aria-controls="content-2"`, initially `aria-expanded="false"`).
+The page has a sidebar with the following sections:
+- ASTP/ONC Certified Health IT
+- Costs and fees information
+- Certified API technology fees
+- AI and Machine Learning Development Practices
+- **Electronic Health Information (EHI) Export** ← target section
+- Real World Testing
+- Standards Version Advancement Process
+- Multifactor authentication use cases
+- Where to find more information
 
-The accordion content is **in the HTML source** (not lazy-loaded). It was found via:
-```bash
-grep -oiE 'href="[^"]*"' /tmp/oracle-page.html | grep -iE 'ehi|export'
-```
+The `#ehi-export-lnk` anchor links directly to the EHI Export section heading. The section has an **accordion** labeled "Read more about EHI Export" (button with `id="accordion2"`) that must be expanded to reveal the download links.
 
-Inside the accordion, there are **two subsections**:
+In the HTML source, the accordion content is present in the DOM (not lazy-loaded), just hidden via CSS (`aria-expanded="false"`). So `grep` on the raw HTML finds the links even without JavaScript.
+
+### Step 4: Accordion content — two subsections
+
+After expanding the accordion (clicking "Read more about EHI Export"), two subsections appear:
 
 #### Subsection 1: Oracle Health EHR and Millennium Platform
-A table with two rows:
 
-| EHI Export Type | Data Overview and Instructions | Data Format Specifications |
+Covers: Oracle Health EHR, Oracle Health Millennium (Clinical), Millennium (CQMs), Millennium (Health Care Surveys), Millennium (Immunizations), PowerChart Touch, Patient Portal.
+
+Documentation for **four independent storage locations**:
+1. Core Millennium EHR database (relational DB)
+2. Oracle Health Multimedia Storage (DICOM, audio, video, images)
+3. Oracle Health Document Imaging (scanned documents)
+4. Oracle Health Longitudinal Plan (care planning data)
+
+| EHI Export Type | Data Overview | Data Format Specs |
 |---|---|---|
-| Single Patient Export | [Single Patient EHI Export Data Overview and User Instructions (PDF)](https://www.oracle.com/a/ocom/docs/industries/healthcare/cerner-corp-single-patient-ehi-export-data-overview.pdf) | [Single Patient EHI Export Data Format Specifications (ZIP)](https://www.oracle.com/a/ocom/docs/industries/healthcare/single-patient-ehi-export-data-format-specifications.zip) |
-| Patient Population Export | [Patient Population EHI Export Data Overview and User Instructions (PDF)](https://www.oracle.com/a/ocom/docs/industries/healthcare/cerner-corp-patient-population-ehi-export-data-overview.pdf) | [Patient Population EHI Export Data Format Specifications (ZIP)](https://www.oracle.com/a/ocom/docs/industries/healthcare/patient-population-ehi-export-data-format-specifications.zip) |
+| Single Patient Export | PDF | ZIP |
+| Patient Population Export | PDF | ZIP |
 
 #### Subsection 2: Oracle Health Data Intelligence (HDI)
-A table with one row:
 
-| EHI Export Type | Data Overview and Instructions | Data Format Specifications |
+Covers: Oracle Health Data Intelligence: eCQMs. The export supports all data for the HDI Longitudinal Record.
+
+| EHI Export Type | Data Overview | Data Format Specs |
 |---|---|---|
-| Single Patient and Patient Population Exports | [Oracle Health Data Intelligence EHI Export Data Overview and User Instructions (PDF)](https://www.oracle.com/a/ocom/docs/industries/healthcare/health-data-intelligence-ehi-export-data-overview-user-instructions.pdf) | [Oracle Health Data Intelligence EHI Export Data Format Specifications (PDF)](https://www.oracle.com/a/ocom/docs/industries/healthcare/health-data-intelligence-ehi-export-data-format-specifications.pdf) |
+| Single Patient and Patient Population Exports | PDF | PDF |
 
-### Step 4: Identified downloadable assets
+### Step 5: Identified downloadable assets
 
-Six files total:
+Six files found:
 
-1. `cerner-corp-single-patient-ehi-export-data-overview.pdf` — Single patient overview & instructions
-2. `single-patient-ehi-export-data-format-specifications.zip` — Single patient data model
-3. `cerner-corp-patient-population-ehi-export-data-overview.pdf` — Population export overview & instructions
-4. `patient-population-ehi-export-data-format-specifications.zip` — Population export data model
-5. `health-data-intelligence-ehi-export-data-overview-user-instructions.pdf` — HDI overview & instructions
-6. `health-data-intelligence-ehi-export-data-format-specifications.pdf` — HDI data format specs (Avro schema)
+1. `/a/ocom/docs/industries/healthcare/cerner-corp-single-patient-ehi-export-data-overview.pdf`
+2. `/a/ocom/docs/industries/healthcare/single-patient-ehi-export-data-format-specifications.zip`
+3. `/a/ocom/docs/industries/healthcare/cerner-corp-patient-population-ehi-export-data-overview.pdf`
+4. `/a/ocom/docs/industries/healthcare/patient-population-ehi-export-data-format-specifications.zip`
+5. `/a/ocom/docs/industries/healthcare/health-data-intelligence-ehi-export-data-overview-user-instructions.pdf`
+6. `/a/ocom/docs/industries/healthcare/health-data-intelligence-ehi-export-data-format-specifications.pdf`
+
+All links are relative paths on oracle.com, opening in new tabs (`target="_blank"`).
 
 ## Downloads
 
-All downloads used the same User-Agent header and base URL pattern:
-```
-BASE="https://www.oracle.com/a/ocom/docs/industries/healthcare"
-UA='User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36'
-```
+All downloaded on 2025-02-13. Base URL: `https://www.oracle.com`.
 
-### 1. cerner-corp-single-patient-ehi-export-data-overview.pdf (151 KB)
+### cerner-corp-single-patient-ehi-export-data-overview.pdf (151 KB)
 ```bash
-curl -L -H "$UA" \
+curl -L -H 'User-Agent: Mozilla/5.0' \
   -o downloads/cerner-corp-single-patient-ehi-export-data-overview.pdf \
-  "$BASE/cerner-corp-single-patient-ehi-export-data-overview.pdf"
+  'https://www.oracle.com/a/ocom/docs/industries/healthcare/cerner-corp-single-patient-ehi-export-data-overview.pdf'
 ```
 Verified: `PDF document, version 1.7, 4 page(s)` — 154,866 bytes
 
-### 2. single-patient-ehi-export-data-format-specifications.zip (7.3 MB)
+### single-patient-ehi-export-data-format-specifications.zip (7.3 MB)
 ```bash
-curl -L -H "$UA" \
+curl -L -H 'User-Agent: Mozilla/5.0' \
   -o downloads/single-patient-ehi-export-data-format-specifications.zip \
-  "$BASE/single-patient-ehi-export-data-format-specifications.zip"
+  'https://www.oracle.com/a/ocom/docs/industries/healthcare/single-patient-ehi-export-data-format-specifications.zip'
 ```
-Verified: `Zip archive data, at least v2.0 to extract` — 7,656,902 bytes
+Verified: `Zip archive data` — 7,656,902 bytes
 
-Contents (2 files):
-- `Longitudinal Plan EHI Export - Single Patient.pdf` — NDJSON export format for Longitudinal Plan
-- `EHI MYSQL DATA MODEL 2025401.zip` — **nested ZIP** containing 1,456 HTML files (55 MB extracted)
-  - `start_cerner_millennium_data_model_reports.html` — index page
-  - `html/` — 1,454 HTML files organized by domain (dms_*.html)
-  - `css/model.css`, `images/` — supporting assets
+Contents (nested):
+- `Longitudinal Plan EHI Export - Single Patient.pdf` — care planning schema reference
+- `EHI MYSQL DATA MODEL 2025401.zip` — nested ZIP containing **1,456 HTML files** (Millennium Data Model Reports v2025.4.01 for MySQL), organized by domain, with CSS and images. 55 MB extracted.
 
-### 3. cerner-corp-patient-population-ehi-export-data-overview.pdf (447 KB)
+### cerner-corp-patient-population-ehi-export-data-overview.pdf (447 KB)
 ```bash
-curl -L -H "$UA" \
+curl -L -H 'User-Agent: Mozilla/5.0' \
   -o downloads/cerner-corp-patient-population-ehi-export-data-overview.pdf \
-  "$BASE/cerner-corp-patient-population-ehi-export-data-overview.pdf"
+  'https://www.oracle.com/a/ocom/docs/industries/healthcare/cerner-corp-patient-population-ehi-export-data-overview.pdf'
 ```
 Verified: `PDF document, version 1.7, 23 page(s)` — 456,977 bytes
 
-### 4. patient-population-ehi-export-data-format-specifications.zip (14.9 MB)
+### patient-population-ehi-export-data-format-specifications.zip (14.9 MB)
 ```bash
-curl -L -H "$UA" \
+curl -L -H 'User-Agent: Mozilla/5.0' \
   -o downloads/patient-population-ehi-export-data-format-specifications.zip \
-  "$BASE/patient-population-ehi-export-data-format-specifications.zip"
+  'https://www.oracle.com/a/ocom/docs/industries/healthcare/patient-population-ehi-export-data-format-specifications.zip'
 ```
-Verified: `Zip archive data, at least v2.0 to extract` — 15,621,689 bytes
+Verified: `Zip archive data` — 15,621,689 bytes
 
-Contents (7 files):
-- `Longitudinal Plan EHI Export - Patient Population.pdf`
-- `EHI ORACLE DATA MODEL 2025401.zip` — nested ZIP, 1,456 HTML files (55 MB extracted, Oracle DB variant)
-- `EHI MYSQL DATA MODEL 2025401.zip` — nested ZIP, 1,456 HTML files (55 MB extracted, MySQL variant)
-- `Oracle Health Document Imaging Content Management Database Schema.pdf` (7 pages)
-- `Oracle Health Multimedia Storage DICOM Data Structure and Definitions.pdf`
-- `Oracle Health Multimedia Storage Non-DICOM Data Column Definitions.pdf` (1 page)
-- `Oracle Health Document Imaging AxAnnotations.xsd` (XML Schema for document annotations)
+Contents (nested):
+- `Longitudinal Plan EHI Export - Patient Population.pdf` — care planning schema reference
+- `Oracle Health Document Imaging Content Management Database Schema.pdf` — document imaging DB schema
+- `Oracle Health Multimedia Storage DICOM Data Structure and Definitions.pdf` — DICOM XML structure with sample
+- `Oracle Health Multimedia Storage Non-DICOM Data Column Definitions.pdf` — non-DICOM multimedia column definitions
+- `Oracle Health Document Imaging AxAnnotations.xsd` — XML Schema for document annotations
+- `EHI ORACLE DATA MODEL 2025401.zip` — nested ZIP, **1,456 HTML files** (Millennium Data Model Reports for Oracle DB). 55 MB extracted.
+- `EHI MYSQL DATA MODEL 2025401.zip` — nested ZIP, **1,456 HTML files** (same schema for MySQL). 55 MB extracted.
 
-### 5. health-data-intelligence-ehi-export-data-overview-user-instructions.pdf (168 KB)
+### health-data-intelligence-ehi-export-data-overview-user-instructions.pdf (168 KB)
 ```bash
-curl -L -H "$UA" \
+curl -L -H 'User-Agent: Mozilla/5.0' \
   -o downloads/health-data-intelligence-ehi-export-data-overview-user-instructions.pdf \
-  "$BASE/health-data-intelligence-ehi-export-data-overview-user-instructions.pdf"
+  'https://www.oracle.com/a/ocom/docs/industries/healthcare/health-data-intelligence-ehi-export-data-overview-user-instructions.pdf'
 ```
 Verified: `PDF document, version 1.7, 3 page(s)` — 172,438 bytes
 
-### 6. health-data-intelligence-ehi-export-data-format-specifications.pdf (5.7 MB)
+### health-data-intelligence-ehi-export-data-format-specifications.pdf (5.7 MB)
 ```bash
-curl -L -H "$UA" \
+curl -L -H 'User-Agent: Mozilla/5.0' \
   -o downloads/health-data-intelligence-ehi-export-data-format-specifications.pdf \
-  "$BASE/health-data-intelligence-ehi-export-data-format-specifications.pdf"
+  'https://www.oracle.com/a/ocom/docs/industries/healthcare/health-data-intelligence-ehi-export-data-format-specifications.pdf'
 ```
-Verified: `PDF document, version 1.7, 8 page(s)` — 5,934,347 bytes
+Verified: `PDF document, version 1.3, 8 page(s)` — 5,934,347 bytes (8 pages but 5.7 MB — very large; likely contains embedded content or dense Avro schema)
 
-### Extraction of nested ZIPs
+## ZIP Extraction Summary
 
-```bash
-# Single Patient MySQL Data Model
-unzip -o single-patient-ehi-export-data-format-specifications.zip -d extracted/single-patient/
-unzip -o "extracted/single-patient/.../EHI MYSQL DATA MODEL 2025401.zip" -d extracted/single-patient/mysql-data-model/
-# 1,456 files, 55 MB
+### Single Patient ZIP structure:
+```
+single-patient-ehi-export-data-format-specifications/
+├── Longitudinal Plan EHI Export - Single Patient.pdf
+└── EHI MYSQL DATA MODEL 2025401.zip
+    └── (1,456 HTML files + CSS + images — Millennium schema for MySQL)
+```
 
-# Patient Population Oracle Data Model
-unzip -o patient-population-ehi-export-data-format-specifications.zip -d extracted/patient-population/
-unzip -o "extracted/patient-population/.../EHI ORACLE DATA MODEL 2025401.zip" -d extracted/patient-population/oracle-data-model/
-# 1,456 files, 55 MB
-
-# Patient Population MySQL Data Model
-unzip -o "extracted/patient-population/.../EHI MYSQL DATA MODEL 2025401.zip" -d extracted/patient-population/mysql-data-model/
-# 1,456 files, 55 MB
+### Patient Population ZIP structure:
+```
+patient-population-ehi-export-data-format-specifications/
+├── Longitudinal Plan EHI Export - Patient Population.pdf
+├── Oracle Health Document Imaging Content Management Database Schema.pdf
+├── Oracle Health Multimedia Storage DICOM Data Structure and Definitions.pdf
+├── Oracle Health Multimedia Storage Non-DICOM Data Column Definitions.pdf
+├── Oracle Health Document Imaging AxAnnotations.xsd
+├── EHI ORACLE DATA MODEL 2025401.zip
+│   └── (1,456 HTML files — Millennium schema for Oracle DB)
+└── EHI MYSQL DATA MODEL 2025401.zip
+    └── (1,456 HTML files — Millennium schema for MySQL)
 ```
 
 ## Obstacles & Notes
 
-1. **301 redirect**: The registered URL `/health/regulatory/certified-health-it/` redirects to `/health/certified-health-it/`. The `/regulatory/` path component was removed at some point but the redirect works transparently.
+1. **URL redirect**: The CHPL-registered URL uses `/health/regulatory/certified-health-it/` which 301-redirects to `/health/certified-health-it/`. Both paths work.
 
-2. **Accordion**: EHI documentation links are inside a collapsed accordion ("Read more about EHI Export"). The content is present in the HTML source (not lazy-loaded), so curl/grep finds it without needing a browser. But a human user must click to expand it.
+2. **User-Agent required**: Oracle's Akamai CDN requires a User-Agent header or may return a redirect/block page.
 
-3. **User-Agent required**: Oracle's servers require a User-Agent header for proper content delivery.
+3. **Accordion**: The download links are hidden behind an expandable accordion ("Read more about EHI Export"). Content IS in the HTML DOM, just CSS-hidden, so curl + grep finds the links. But a human browsing the page must click to expand.
 
-4. **Nested ZIPs**: Both specification ZIPs contain nested ZIPs (the data model reports). Two levels of extraction are required.
+4. **Nested ZIPs**: The format specification ZIPs contain nested ZIPs (EHI ORACLE DATA MODEL / EHI MYSQL DATA MODEL) that must be extracted separately.
 
-5. **Dual database format**: The patient population specs include BOTH Oracle and MySQL data model variants (identical table/column structure, different SQL dialects). The single patient export only includes MySQL (since single-patient exports produce MySQL SQL dumps).
+5. **Legacy Cerner naming**: File names still use "cerner-corp" prefix (Oracle acquired Cerner in 2022). The data model reports are titled "Cerner Millennium Data Model Reports."
 
-6. **Data model version**: 2025.4.01, last updated January 16, 2025.
+6. **Four storage systems**: The Millennium export covers four independent data stores:
+   - Core Millennium EHR (relational database — SQL files for MySQL or Oracle DB dump)
+   - Multimedia Storage (DICOM and non-DICOM media files in original format)
+   - Document Imaging (scanned documents with annotation metadata)
+   - Longitudinal Plan (care planning data via HealtheIntent/HDI platform)
 
-7. **Legacy naming**: Files still carry "cerner-corp" prefixes (Oracle acquired Cerner in 2022). The data model HTML pages reference "Oracle_Cerner" branding.
+7. **HDI uses Avro/JSON**: The Health Data Intelligence export uses a completely different format (JSON based on Avro schemas) from the Millennium export (SQL database dump). The HDI PDF documents 124 unique Avro entity types in the `com.cerner.pophealth.program.models.avro.poprecord` namespace.
 
-8. **Four independent storage locations**: The Millennium documentation covers four distinct data stores:
-   - Core Millennium EHR database (relational, SQL)
-   - Oracle Health Multimedia Storage (DICOM and non-DICOM files)
-   - Oracle Health Document Imaging (document management system with its own schema)
-   - Longitudinal Plan (NDJSON, via HealtheIntent platform)
+8. **External documentation references**: The Longitudinal Plan PDFs reference external documentation at `docs.healtheintent.com` for detailed schema information (feed types, JSON structure, field definitions).
