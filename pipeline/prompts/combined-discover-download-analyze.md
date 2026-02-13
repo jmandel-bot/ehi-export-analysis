@@ -333,6 +333,48 @@ Structure: index.html at root, table definitions in HTML files organized by sche
 }
 ```
 
+## Analytical Lens: EHI Export vs FHIR/US Core APIs
+
+When characterizing what a vendor's EHI export contains, keep in mind why EHI
+export matters beyond what's available through FHIR APIs.
+
+**FHIR US Core** (the standard API that certified EHRs must support) looks
+comprehensive on paper — USCDI is up to v7 now — but in practice it only works
+as well as the customer's **terminology mapping**. A hospital using local charge
+codes, homegrown problem list entries, or non-standard medication descriptions
+won't surface that data through FHIR unless someone maps it to SNOMED, LOINC,
+RxNorm, etc. In the real world, much of the data simply doesn't appear over the
+API because the mapping hasn't been done.
+
+**EHI export** has a fundamentally different assumption: the data just flows,
+as-is, in whatever form the system stores it. No mapping required. You get local
+codes, free-text fields, internal identifiers, custom form data — everything.
+It's messier but far more complete.
+
+This means EHI export is often the **only practical way** to access:
+- **Billing line items with actual charge amounts** (not available in US Core)
+- **Insurance authorization details** (not in US Core)
+- **Patient-provider portal messages** (no standard FHIR mapping in most implementations)
+- **Custom/specialty-specific data** (ophthalmology measurements, behavioral health
+  assessments, nursing flowsheets, etc.)
+- **Local codes and free-text** that haven't been mapped to standard terminologies
+- **Administrative data** (scheduling, registration, consent tracking)
+- **Audit trails** (no FHIR API for this in most implementations)
+- **Historical data** that predates the FHIR implementation
+- **Data from acquired/legacy systems** that was migrated but never terminology-mapped
+
+When you see a vendor's export documentation, consider:
+- What data here would be **hard or impossible to get through US Core FHIR APIs**
+  as typically implemented? That's where the EHI export provides unique value.
+- Is the vendor just re-exporting their FHIR resources (in which case the export
+  adds little beyond what the API provides and probably has the same mapping gaps)?
+- Or is the vendor dumping their actual database (in which case the export
+  contains far more than FHIR could ever surface)?
+
+This isn't about bashing FHIR — it's about understanding that EHI export and
+FHIR APIs serve different purposes, and the export should capture data that
+the API cannot.
+
 ## Mindset
 
 - **Reproducibility is the goal.** Your collection log should be so detailed that
