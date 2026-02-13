@@ -1,5 +1,5 @@
 {
-  "vendor": "Darena Solutions LLC dba Darena Health (shared certification platform)",
+  "vendor": "Darena Solutions LLC dba Darena Health",
   "products": [
     "Amrita Hospital Information System",
     "Clinicmind",
@@ -15,10 +15,10 @@
   ],
   "chpl_ids": [11047, 11050, 11071, 11085, 11124, 11125, 11169, 11185, 11392, 11474, 11764],
   "export_documentation_url": "https://www.darenasolutions.com/meldrx-onc-hti1-certified#b10-EHI-Export-Documentation",
-  "collection_date": "2025-02-13",
+  "collection_date": "2026-02-13",
 
   "access": {
-    "description": "The registered URL at www.darenasolutions.com returns a 301 redirect to darena.health (domain rebranding), then the destination page contains a JavaScript redirect from /meldrx-onc-hti1-certified to /onc-hti1-certified. A browser is required to follow the JS redirect. Once loaded, the #b10-EHI-Export-Documentation anchor exists in the page and scrolls to the relevant section. A Squarespace newsletter popup must be dismissed. The EHI section is short — just two sentences pointing to the Swagger API docs and the FHIR Bulk Data standard.",
+    "description": "The registered URL at www.darenasolutions.com redirects (301) to darena.health/meldrx-onc-hti1-certified, which is a Squarespace page containing a JavaScript redirect to /onc-hti1-certified. Three hops total to reach the actual content. The EHI section is anchored at #b10-EHI-Export-Documentation and is visible in-page without expanding accordions. A newsletter popup overlay appears after ~10 seconds and must be dismissed. The swagger documentation link referenced in the EHI section (app.meldrx.com/swagger/index.html) is dead (404). Replacement API docs exist at docs.darena.health but are not referenced from the EHI section.",
     "final_url": "https://darena.health/onc-hti1-certified#b10-EHI-Export-Documentation",
     "status": "found",
     "requires_browser": true,
@@ -27,126 +27,135 @@
   },
 
   "product_context": {
-    "description": "Darena Health (formerly MeldRx, BlueButtonPRO) is NOT an EHR — it is a middleware FHIR API compliance platform. It provides pre-certified ONC modules that other EHR vendors integrate with to achieve certification. The platform is a multi-tenant cloud SaaS where EHR vendors push patient data into Darena's FHIR data store, and Darena handles certified API access and EHI export. Eleven different EHR products from eleven different developers all share this single Darena certification, covering a remarkable range of specialties: dermatology (EZDERM), behavioral health (PIMSY Platinum, Office Anywhere), physical therapy (Raintree), radiology (eRAD RIS), substance abuse treatment (WITS), epidemiology (Epi-Management), and general ambulatory (UnifiMD, Clinicmind, Doctorsoft, Amrita). Each of these downstream EHR products has its own native data stores with billing, scheduling, messaging, document management, and specialty-specific data. The critical issue is that the Darena-based EHI export can only export data that each EHR has mapped and pushed into the Darena FHIR platform — which is likely limited to clinical data needed for USCDI/FHIR compliance.",
+    "description": "Darena Health (formerly MeldRx, formerly BlueButtonPRO) is a FHIR middleware and compliance platform — NOT an EHR. It provides ONC-certified modules that EHR vendors integrate with to achieve certification. The platform handles FHIR API compliance (g10), EHI export (b10), clinical decision support (b11), and MIPS reporting. The 11 products listed in this certification are separate, independent EHR/practice management systems from 11 different developers that use Darena Health as their compliance layer. These products span radically different specialties: EZDERM (dermatology), PIMSY Platinum (behavioral health), eRAD RIS (radiology information), WITS (substance abuse treatment), Raintree (rehabilitation/therapy), Clinicmind (chiropractic/multi-specialty), Amrita (hospital information system), and others. Each of these products has its own patient portal, billing, scheduling, and specialty-specific functionality that stores data in its own database. Darena Health's FHIR layer only contains whatever data has been synchronized from those underlying systems — typically the USCDI-mapped clinical subset. This architecture means the EHI export almost certainly cannot access the full breadth of data stored by any of the 11 products.",
     "tags": [
-      "middleware-platform",
-      "fhir-api-service",
-      "shared-certification",
-      "multi-vendor",
+      "fhir-middleware",
+      "compliance-platform",
       "not-an-ehr",
-      "11-downstream-products",
-      "diverse-specialties",
-      "saas-model"
+      "shared-certification-11-products",
+      "multi-specialty",
+      "multi-developer",
+      "white-label-compliance"
     ],
     "certified_module_name": "Darena Health Version 2.0",
-    "broader_product_name": "Multiple products (Amrita HIS, Clinicmind, Doctorsoft EHR, EZDERM, Epi-Management, Office Anywhere, PIMSY Platinum, Raintree, UnifiMD, WITS, eRAD RIS)",
+    "broader_product_name": "Multiple independent products (Amrita HIS, Clinicmind, Doctorsoft EHR, EZDERM, Epi-Management, Office Anywhere, PIMSY Platinum, Raintree, UnifiMD, WITS, eRAD RIS)",
     "product_url": "https://darena.health/"
   },
 
   "export_approach": {
-    "description": "Darena's EHI export uses FHIR Bulk Export (HL7 FHIR Bulk Data STU1.0.1) for structured data, with DocumentReference resources as a catch-all for non-FHIR content including C-CDA documents. The export is API-based, not a traditional file download — users interact with the FHIR $Export operation via the API. The Swagger API shows an 'Export' operation in the FHIR operations enum. The internal data model (MyMipsScore.Core.Models) maps to approximately 60 models covering standard clinical FHIR resources: Patient, Allergy, Medication, Immunization, Observation, Procedure, CarePlan, CareTeam, Coverage, Communication, DiagnosticReport, Document, Goal, Device, ServiceRequest, Specimen, and related models. Notably absent from the internal data model are ANY billing/financial models, scheduling/appointment models, or audit trail models. This strongly suggests the export is limited to clinical FHIR resources and cannot include the full EHI that the downstream EHR products store.",
+    "description": "Darena Health's EHI export uses FHIR Bulk Data Export (HL7 FHIR Bulk Data STU 1.0.1). The export is initiated via a Group-level $export operation on the FHIR server, producing NDJSON files of FHIR resources. Non-FHIR data is exported as DocumentReference resources (which can wrap C-CDA documents or other files). This is a pure FHIR-based export — there is no native database dump. The export can only contain data that has been loaded into the Darena Health FHIR workspace from the underlying EHR system. This is a significant limitation: the export is bounded by what the EHR-to-FHIR mapping covers, not by what the underlying EHR actually stores. For 11 different products across 11 specialties, the FHIR mapping is almost certainly limited to standard USCDI clinical data.",
     "tags": [
-      "fhir-bulk-export",
+      "fhir-bulk-data-export",
+      "ndjson-format",
       "fhir-r4",
-      "ndjson-output",
-      "api-based-export",
-      "document-reference-catch-all",
-      "middleware-limited",
-      "no-native-database-export"
+      "group-level-export",
+      "document-reference-for-non-fhir",
+      "middleware-layer-only",
+      "bounded-by-fhir-mapping"
     ],
     "primary_format": "ndjson",
-    "file_types": ["ndjson", "ccda"],
-    "container": "none"
+    "file_types": ["ndjson", "json"],
+    "container": "fhir-bulk-data"
   },
 
   "documentation_quality": {
-    "description": "The EHI export documentation is extremely minimal — just two sentences on the ONC certification page, pointing to the Swagger API docs and the FHIR Bulk Data standard. The Swagger API spec (646 KB, OpenAPI 3.0) does provide schema-level and field-level detail for the 298 API components, including Darena's internal data models and FHIR types. However, there is no EHI-specific data dictionary, no documentation of what FHIR resource types are actually populated for any given EHR integration, no description of what data the export includes or excludes, and no product-specific documentation for any of the 11 downstream EHR products. A developer looking at this documentation would know the API structure but would have no idea what data to expect from a given product's EHI export.",
+    "description": "The EHI export documentation is extraordinarily minimal — two sentences on a web page. There is no data dictionary, no schema documentation, no list of exported FHIR resource types, no field-level detail, no sample exports, and no documentation of what data categories are included. The referenced swagger documentation link is dead (404). Alternative API documentation exists at docs.darena.health (Postman format) which documents the Bulk Export API endpoints (System App Token, Get Workspace Details, Get Groups, Start Bulk Export, Get Content), but even these only document API mechanics — not what data is exported. The swagger JSON (OpenAPI 3.0.1) provides endpoint definitions but no FHIR resource schemas specific to the export. A developer receiving this export would need to understand FHIR R4 resource schemas independently — the documentation provides zero guidance on what resources to expect or what fields they contain.",
     "tags": [
-      "minimal-ehi-documentation",
-      "swagger-api-spec",
+      "extremely-minimal",
       "no-data-dictionary",
-      "no-product-specific-docs",
-      "generic-fhir-endpoints",
-      "schema-available-via-api"
+      "no-schema-documentation",
+      "dead-swagger-link",
+      "two-sentences-only",
+      "api-mechanics-only",
+      "no-field-detail",
+      "no-sample-data"
     ],
-    "schema_documented": true,
-    "field_level_detail": true,
-    "value_sets_documented": true,
+    "schema_documented": false,
+    "field_level_detail": false,
+    "value_sets_documented": false,
     "relationships_documented": false,
     "examples_provided": false,
-    "table_or_resource_count": 60,
+    "table_or_resource_count": null,
     "documentation_format": "html",
-    "documentation_version": "v16 (Swagger version selector)",
+    "documentation_version": "Darena Health Version 2.0",
     "documentation_last_updated": null
   },
 
   "ehi_coverage": {
-    "overall_assessment": "The Darena Health EHI export is fundamentally limited by its middleware architecture. As a FHIR API platform that sits between EHRs and their users, Darena can only export data that has been pushed into it by the upstream EHR. Darena's internal data model covers standard clinical FHIR resources (approximately 60 models), plus Coverage and Communication. However, it has ZERO billing/financial models (no Claim, ChargeItem, Payment, Invoice), ZERO scheduling models (no Appointment, Schedule, Slot), and ZERO audit models (no AuditEvent, Provenance). The downstream EHR products — many of which are full practice management systems with billing, scheduling, and patient portals — almost certainly store data in these categories that cannot be exported through Darena. The DocumentReference catch-all could theoretically contain billing statements or other documents as attached files, but this would be PDF/binary content, not structured machine-readable data. This is a structural gap inherent to the middleware certification model: the certified module (Darena) doesn't have access to the full data stored by the product it's a part of.",
+    "overall_assessment": "Coverage is almost certainly severely incomplete for all 11 products. Darena Health is a FHIR middleware layer — it can only export data that has been mapped and synchronized from each underlying EHR into the FHIR workspace. Standard FHIR R4 resources cover clinical data reasonably well (diagnoses, medications, labs, allergies, vitals) but have significant gaps in billing detail, secure messaging, insurance authorization specifics, scheduling, audit trails, and specialty-specific data. Given that the 11 products span dermatology, behavioral health, radiology, substance abuse treatment, rehabilitation, and hospital settings, each with deep specialty-specific data models, the FHIR layer is almost certainly capturing only a fraction of each product's stored EHI. The documentation provides no list of exported resource types, making it impossible to verify coverage. The DocumentReference mechanism for non-FHIR data (e.g., C-CDA documents) provides a theoretical path for additional data but only if the underlying EHR has implemented that mapping — which is not documented.",
     "clinical": {
       "present": true,
-      "evidence": "Internal data models include: Allergy, Medication, MedicationSupply, Immunization, Observation, Procedure, Problem (Condition), CarePlan, CareTeam, Goal, DiagnosticReport, Device, Specimen, ServiceRequest. Enums include clinical status values, verification statuses, and coded value systems (ICD-10, RxNorm, SNOMED, LOINC via CodingSystem enum). This covers core USCDI clinical data classes."
+      "evidence": "FHIR Bulk Data Export will include standard FHIR R4 clinical resources (Patient, Condition, MedicationRequest, Observation, AllergyIntolerance, Immunization, Procedure, DiagnosticReport, etc.) to the extent they have been mapped from the underlying EHR. The G9 section of the API docs shows CCDA creation capability. However, no specific list of exported resource types is provided in the documentation."
     },
     "secure_messages": {
-      "present": true,
-      "evidence": "A Communication model exists with CommunicationType enum values of 'ProviderToProvider' and 'PatientToProvider', plus participants and status fields. However, this appears to be the FHIR Communication resource with minimal payload — it's unclear whether actual message content/body text is included, and whether this represents the full messaging history from downstream EHR patient portals."
+      "present": false,
+      "evidence": "No mention of Communication, messaging, portal messages, or inbox in any documentation. FHIR R4's Communication resource could theoretically carry messages, but there is no evidence it is included. Multiple underlying products (Clinicmind, Raintree, PIMSY Platinum, etc.) likely have patient portals with messaging, but this data would need explicit mapping to Darena's FHIR layer."
     },
     "billing_financial": {
       "present": false,
-      "evidence": "Searched all 298 schema names for charge, claim, payment, billing, invoice, transaction, revenue — NONE found. Darena's internal data model has no billing or financial models whatsoever. The FHIR ResourceType enum includes Claim, ChargeItem, Invoice, ExplanationOfBenefit, etc. (as part of the full FHIR R4 spec), but these don't appear in Darena's actual internal models, suggesting they are not implemented. Many downstream products (Clinicmind, Raintree, PIMSY, eRAD RIS) are practice management systems with extensive billing capabilities."
+      "evidence": "No mention of Claim, ExplanationOfBenefit, ChargeItem, Invoice, or any billing/financial FHIR resources in the documentation. The underlying products (especially full EHRs like Clinicmind, Raintree, Doctorsoft) have extensive billing/RCM capabilities. FHIR R4 has limited billing resources compared to what EHR billing modules actually store. No evidence of billing data mapping."
     },
     "insurance_coverage": {
-      "present": true,
-      "evidence": "Coverage model exists with memberId, subscriberId, status (CoverageStatus enum), relationship (CoverageRelationship enum), payor (CoveragePayor enum), and classes (CoverageClass enum). This covers basic insurance coverage data but likely lacks detailed authorization, eligibility, and benefits information."
+      "present": false,
+      "evidence": "No mention of Coverage, InsurancePlan, eligibility, or authorization resources. The underlying EHRs store detailed insurance information for claims processing, but there is no evidence this is mapped to Darena's FHIR layer."
     },
     "appointments_scheduling": {
       "present": false,
-      "evidence": "Searched all schema names for appointment, schedule, slot, booking — NONE found in Darena's internal models. The FHIR ResourceType enum includes Appointment, Schedule, and Slot but these are not reflected in Darena's data model. Downstream products like Raintree, Clinicmind, and PIMSY all have appointment scheduling features."
+      "evidence": "No mention of Appointment, Schedule, or Slot resources. All underlying EHR products have scheduling functionality, but there is no evidence appointment data is included in the FHIR workspace."
     },
     "documents_images": {
       "present": true,
-      "evidence": "Document model exists with DocumentType enum (DischargeSummary, ConsultNote, HistoryAndPhysicalNote, ProgressNote, ProcedureNote, DiagnosticImagingStudy, LaboratoryReport, PathologyStudy, SurgicalOperationNote, EmergencyDepartmentNote, SummaryOfEpisodeNote). DocumentReference FHIR resource is also supported as a catch-all for non-FHIR content including C-CDA. However, the document types are clinical notes — no scanned documents, faxes, or patient-uploaded content types."
+      "evidence": "The documentation explicitly mentions DocumentReference resource types for non-FHIR resources including CCDA. The G10 section includes 'Upload DocumentReference' and the G9 section includes 'Get CCDA DocumentReference'. However, this is limited to documents that have been explicitly uploaded to the Darena workspace — it's unclear whether scanned documents, images, or specialty-specific media (e.g., dermatology photos from EZDERM, radiology images from eRAD RIS) are included."
     },
     "audit_trails": {
       "present": false,
-      "evidence": "No audit-related models found in Darena's internal data model. No AuditEvent or Provenance models. While Darena is certified for (d)(2) Auditable Events and (d)(3) Audit Reports, these appear to be features of the Darena platform itself, not data exported to users."
+      "evidence": "No mention of AuditEvent, Provenance, or access logging in the export documentation. The certification includes 170.315(d)(2) 'Auditable Events and Tamper Resistance' and (d)(3) 'Audit Reports' but these appear to be about the Darena platform's own audit capabilities, not about exporting audit data from the underlying EHRs."
     }
   },
 
   "issues": [
-    "Darena Health is a middleware FHIR API platform, not an EHR — the EHI export can only contain data that upstream EHR vendors have pushed into the platform, which is almost certainly a subset of their full data.",
-    "Eleven different EHR products from eleven different developers all share this identical, minimal EHI export documentation with no product-specific information.",
-    "The EHI export documentation consists of only two sentences, with no data dictionary, no field definitions, and no description of what data categories are included or excluded.",
-    "Zero billing/financial data models exist in Darena's internal schema, despite many downstream products being full practice management systems with billing capabilities.",
-    "Zero scheduling/appointment data models exist, despite many downstream products having appointment scheduling features.",
-    "Zero audit trail models exist in the export, despite Darena being certified for auditable events and audit reports.",
-    "The registered URL requires a JavaScript redirect to reach the actual content — cannot be accessed via simple HTTP request.",
-    "The FHIR Bulk Export approach means the export is limited to data that fits FHIR R4 resource structures, which inherently excludes many types of EHR-specific data.",
-    "The DocumentReference catch-all for non-FHIR content is vaguely described and it's unclear what data actually flows through it for any given product.",
-    "There is a structural compliance concern: b(10) requires export of all EHI stored by 'the product, of which the Health IT Module is a part' — but the Darena module likely cannot access the full data stores of the downstream EHR products it is integrated with."
+    "The EHI export documentation consists of only two sentences — grossly insufficient for understanding what data is exported.",
+    "The swagger documentation link referenced in the b(10) section (app.meldrx.com/swagger/index.html) returns 404, leaving the primary reference dead.",
+    "Darena Health is a FHIR middleware platform, not an EHR — the export can only contain data that has been mapped and synchronized from 11 separate underlying EHR systems, which is almost certainly a small subset of each product's stored EHI.",
+    "11 different EHR products from 11 different developers across radically different specialties (dermatology, behavioral health, radiology, substance abuse, rehabilitation, hospital) all share this single 2-sentence EHI export documentation page.",
+    "No data dictionary, no list of exported FHIR resource types, no field-level documentation, and no sample exports are provided.",
+    "The FHIR Bulk Data Export approach inherently limits coverage to data that can be represented as standard FHIR R4 resources, which excludes most billing detail, insurance authorization specifics, scheduling data, secure messages, and specialty-specific data.",
+    "Specialty-specific data critical to the underlying products (e.g., dermatology images in EZDERM, behavioral health treatment plans in PIMSY, radiology reports in eRAD RIS, substance abuse treatment data in WITS) has no documented path to the FHIR export.",
+    "The registered URL requires three hops to reach content (301 redirect, JS redirect, then scroll to anchor) and the old domain (darenasolutions.com) is used in the CHPL registration.",
+    "No documentation of how non-FHIR data from underlying EHRs gets into the DocumentReference pathway — the mechanism exists in theory but its implementation for each of the 11 products is unknown."
   ],
 
   "downloaded_files": [
     {
-      "local_path": "downloads/darena-health-swagger-api-v16.json",
-      "source_url": "https://app.meldrx.com/swagger/v1/swagger.json",
-      "size_bytes": 646785,
-      "type": "json",
-      "is_ehi_documentation": true,
-      "description": "OpenAPI 3.0 specification for Darena Health APIs (v16). Contains 81 API paths and 298 schema components including Darena's internal data models (60 clinical models) and FHIR types. This is the primary technical documentation for understanding what data the EHI export can contain.",
-      "curl_command": "curl -sL 'https://app.meldrx.com/swagger/v1/swagger.json' -H 'User-Agent: Mozilla/5.0' -o downloads/darena-health-swagger-api-v16.json"
-    },
-    {
-      "local_path": "downloads/darena-health-onc-hti1-certified.html",
+      "local_path": "downloads/darena-health-onc-certified-page.html",
       "source_url": "https://darena.health/onc-hti1-certified",
       "size_bytes": 234237,
       "type": "html",
       "is_ehi_documentation": true,
-      "description": "ONC HTI-1 certification page containing the EHI Export Documentation section (two sentences), certified criteria list, cost transparency table, and real-world testing plan links.",
-      "curl_command": "curl -sL 'https://darena.health/onc-hti1-certified' -H 'User-Agent: Mozilla/5.0' -o downloads/darena-health-onc-hti1-certified.html"
+      "description": "ONC Certification page containing the b(10) EHI Export Documentation section (two sentences describing FHIR Bulk Export and DocumentReference approach)",
+      "curl_command": "curl -sL 'https://darena.health/onc-hti1-certified' -H 'User-Agent: Mozilla/5.0' -o darena-health-onc-certified-page.html"
+    },
+    {
+      "local_path": "downloads/darena-health-api-docs.html",
+      "source_url": "https://docs.darena.health/",
+      "size_bytes": 39942,
+      "type": "html",
+      "is_ehi_documentation": true,
+      "description": "Postman-hosted API documentation covering Bulk Export endpoints (System App Token, Get Workspace Details, Get Groups, Start Bulk Export, Get Content) and FHIR API endpoints. Requires JavaScript to render.",
+      "curl_command": "curl -sL 'https://docs.darena.health/' -H 'User-Agent: Mozilla/5.0' -o darena-health-api-docs.html"
+    },
+    {
+      "local_path": "downloads/darena-health-swagger-api-v16.json",
+      "source_url": "https://app.meldrx.com/swagger/v16/swagger.json",
+      "size_bytes": 646785,
+      "type": "json",
+      "is_ehi_documentation": true,
+      "description": "OpenAPI 3.0.1 specification for Darena Health APIs. Contains endpoint definitions for FHIR operations, bulk export, CCDA import/export, MIPS reporting, and data models. Previously downloaded; the swagger UI is now 404 but this JSON was captured when it was live.",
+      "curl_command": "curl -sL 'https://app.meldrx.com/swagger/v16/swagger.json' -H 'User-Agent: Mozilla/5.0' -o darena-health-swagger-api-v16.json"
     }
   ],
 
-  "summary": "Darena Health is a middleware FHIR API compliance platform — not an EHR — that 11 different EHR vendors use for ONC certification. The EHI export uses FHIR Bulk Export with DocumentReference as a catch-all for non-FHIR content. Darena's internal data model covers ~60 clinical models but has zero billing, scheduling, or audit trail models, creating significant coverage gaps for downstream products that are full practice management systems. The documentation is minimal (two sentences), with no product-specific data dictionary for any of the 11 certified products.",
+  "summary": "Darena Health is a FHIR middleware/compliance platform (not an EHR) that provides ONC-certified modules to 11 separate EHR products from 11 different developers across diverse specialties. Its b(10) EHI export documentation consists of just two sentences describing FHIR Bulk Data Export and DocumentReference-based non-FHIR export, with the referenced swagger link now dead (404). The FHIR-only export approach inherently limits coverage to data that has been mapped from each underlying EHR to the FHIR workspace, almost certainly missing billing, insurance, scheduling, secure messages, audit trails, and specialty-specific data that the underlying EHR products store.",
 
-  "notes": "This is a notable example of the 'shared certification' pattern, where a middleware vendor provides a pre-certified FHIR module that multiple EHR vendors embed. While this is efficient for certification, it creates a structural problem for b(10) compliance: the certified module (Darena) sits outside the EHR's native data store and can only export data that has been explicitly pushed to it. For the typical integration, this means USCDI-level clinical data gets exported, but billing, scheduling, messaging, audit trails, and specialty-specific data that lives only in the EHR's native database does not. The FHIR ResourceType enum in the Swagger spec includes the full FHIR R4 resource list (including Claim, Appointment, AuditEvent, etc.) but Darena's internal data model — which reflects what the platform actually stores — lacks models for these resource types. The DocumentType enum is limited to 11 clinical note types (DischargeSummary, ConsultNote, ProgressNote, etc.) with no billing documents, insurance forms, or administrative records. The Communication model exists and could theoretically represent portal messages, but it has minimal fields and it's unclear whether actual message content flows through it."
+  "notes": "This is a particularly problematic case for EHI completeness. The b(10) requirement covers 'all EHI stored by the product, of which the Health IT Module is a part.' The certified module (Darena Health) is a FHIR middleware layer that sits alongside — not inside — the actual EHR products. The products (Raintree, Clinicmind, EZDERM, etc.) are the systems that actually store patient data. Darena Health only sees what the EHR has pushed to it via FHIR/CCDA mappings. This creates a fundamental architectural gap: the certified module's export capability is limited to data that exists in the middleware layer, while the bulk of EHI remains in the underlying EHR databases that Darena Health has no direct access to. Each of the 11 products would need its own comprehensive data mapping to close this gap, and there is no documentation suggesting this has been done comprehensively for any of them."
 }

@@ -1,10 +1,10 @@
-# Darena Health (MeldRx) — EHI Export Documentation Collection Log
+# Darena Health (formerly MeldRx/BlueButtonPRO) — EHI Export Documentation Collection Log
 
 ## Source
-- **CHPL IDs**: 11047, 11050, 11071, 11085, 11124, 11125, 11169, 11185, 11392, 11474, 11764
-- **Developers**: Amrita Ventures, LLC; Clinicmind Inc.; Complete Healthcare Solutions, Inc.; Doctorsoft Corporation; EZDERM, LLC; Ennoble Technologies LLC; FEI Systems; Lancman Solutions LLC; Raintree Systems, Inc.; Smoky Mountain Information Systems, LLC; eRAD, Inc.
-- **Products**: Amrita Hospital Information System, Clinicmind, Doctorsoft EHR, EZDERM, Epi-Management, Office Anywhere, PIMSY Platinum, Raintree, UnifiMD, Web Infrastructure for Treatment Services (WITS), eRAD RIS
-- **Registered URL**: https://www.darenasolutions.com/meldrx-onc-hti1-certified#b10-EHI-Export-Documentation
+- CHPL IDs: 11047, 11050, 11071, 11085, 11124, 11125, 11169, 11185, 11392, 11474, 11764
+- Developers: Amrita Ventures, LLC; Clinicmind Inc.; Complete Healthcare Solutions, Inc.; Doctorsoft Corporation; EZDERM, LLC; Ennoble Technologies LLC; FEI Systems; Lancman Solutions LLC; Raintree Systems, Inc.; Smoky Mountain Information Systems, LLC; eRAD, Inc.
+- Products: Amrita Hospital Information System, Clinicmind, Doctorsoft EHR, EZDERM, Epi-Management, Office Anywhere, PIMSY Platinum, Raintree, UnifiMD, Web Infrastructure for Treatment Services (WITS), eRAD RIS
+- Registered URL: https://www.darenasolutions.com/meldrx-onc-hti1-certified#b10-EHI-Export-Documentation
 
 ## Navigation Journal
 
@@ -14,34 +14,32 @@
 curl -sI -L "https://www.darenasolutions.com/meldrx-onc-hti1-certified#b10-EHI-Export-Documentation" -H 'User-Agent: Mozilla/5.0'
 ```
 
-**Result**: Two-hop redirect chain:
-1. `HTTP/2 301` — `www.darenasolutions.com` redirects to `darena.health/meldrx-onc-hti1-certified` (domain rebranding from Darena Solutions to Darena Health)
-2. `HTTP/2 200` — Final page at `darena.health/meldrx-onc-hti1-certified`, Content-Type: `text/html;charset=utf-8`, Size: ~14KB (Squarespace-hosted)
+**Result:** 301 redirect from `www.darenasolutions.com/meldrx-onc-hti1-certified` to `darena.health/meldrx-onc-hti1-certified`, then 200 OK. Content-Type: `text/html;charset=utf-8`. The old `darenasolutions.com` domain redirects to the new `darena.health` domain (company rebranded from MeldRx to Darena Health).
 
 ### Step 2: Page examination
 
-```bash
-curl -sL "https://www.darenasolutions.com/meldrx-onc-hti1-certified#b10-EHI-Export-Documentation" -H 'User-Agent: Mozilla/5.0' -o /tmp/page.html
-wc -c /tmp/page.html
-```
-
-**Result**: 53,646 bytes of HTML. Squarespace-hosted page. The page title is "Darena Health — ONC Certified Redirect". Critically, the page body contains a JavaScript redirect:
-
+The page at `darena.health/meldrx-onc-hti1-certified` is a Squarespace-hosted page (14 KB) that contains a JavaScript redirect:
 ```javascript
 window.location.href = "/onc-hti1-certified";
 ```
 
-This means the registered URL at `/meldrx-onc-hti1-certified` is just a redirect stub that sends visitors to `/onc-hti1-certified`. The `#b10-EHI-Export-Documentation` fragment anchor exists on the destination page.
+So the actual content is at `https://darena.health/onc-hti1-certified` (234 KB, substantial HTML content served by Squarespace).
 
-### Step 3: Browser navigation required
+```bash
+curl -sL "https://darena.health/onc-hti1-certified" -H 'User-Agent: Mozilla/5.0' -o /tmp/page2.html
+wc -c /tmp/page2.html  # 234237 bytes
+```
 
-Used browser to navigate to the URL. The JavaScript redirect fired, sending us to `https://darena.health/onc-hti1-certified`. After the page loaded, the `#b10-EHI-Export-Documentation` anchor was present in the DOM and successfully scrolled into view.
+This page has real HTML content accessible via curl (not a JS SPA), though the JS redirect from the registered URL means you need to follow two hops.
 
-A newsletter signup popup appeared and had to be dismissed by clicking the X button.
+### Step 3: Finding the EHI section
 
-### Step 4: EHI Export Documentation section found
+The page has an anchor `#b10-EHI-Export-Documentation` corresponding to:
+```html
+<h2 id="b10-EHI-Export-Documentation">170.315 (b)(10) EHI Export Documentation</h2>
+```
 
-The section headed **"170.315 (b)(10) EHI Export Documentation"** contains the following content:
+The section contains two short paragraphs:
 
 > Darena Health supports the export of EHI as follows:
 >
@@ -49,108 +47,103 @@ The section headed **"170.315 (b)(10) EHI Export Documentation"** contains the f
 >
 > 2. For non-FHIR resources, Darena Health supports the export as [DocumentReference](https://www.hl7.org/fhir/documentreference.html) resource types. This resource can be used with any file, including CCDA.
 
-This is the **entirety** of the EHI export documentation on the page. There is no data dictionary, no table listing, no field-level documentation, no downloadable PDF or ZIP. The documentation consists of two sentences pointing to the Swagger API docs and the FHIR Bulk Data standard.
+That's the **entire** b(10) EHI export documentation — two sentences.
 
-### Step 5: Follow swagger documentation link
+### Step 4: Swagger documentation link (dead)
 
-Navigated to https://app.meldrx.com/swagger/index.html
-
-**Result**: Swagger UI page showing "Darena Health APIs v1" (OAS 3.0), version selector showing "v16". The API has 81 endpoints grouped into 18 sections:
-- Apps (CDS Hooks)
-- BulkSetup
-- CqmScoresProcessingInfo
-- Documents
-- Downloads
-- Encounters
-- Fhir (generic FHIR CRUD endpoints)
-- Import
-- ImprovementActivityScores
-- Invites
-- McpDiscovery
-- MeldRx.Account
-- MipsReports
-- Patients
-- PromotingInteroperabilityScores
-- QualityMeasureScores
-- Tools
-- WorkspaceExtensions
-
-The FHIR endpoint is generic (`/api/fhir/{ws-slug}/{resourceType}`) and supports an `$Export` operation. The API schema contains 298 components total.
-
-### Step 6: Downloaded Swagger JSON
-
+The swagger link referenced in the EHI section is dead:
 ```bash
-curl -sL "https://app.meldrx.com/swagger/v1/swagger.json" -H 'User-Agent: Mozilla/5.0' \
-  -o downloads/darena-health-swagger-api-v16.json
+curl -sI "https://app.meldrx.com/swagger/index.html" -H 'User-Agent: Mozilla/5.0'
+# HTTP/2 404
+
+curl -sI "https://app.meldrx.com/swagger" -H 'User-Agent: Mozilla/5.0'
+# HTTP/2 404
 ```
 
-646,785 bytes. JSON text data. Contains full OpenAPI 3.0 specification.
+Both the swagger index.html and the swagger root return 404.
+
+### Step 5: Alternative API documentation
+
+The page footer links to:
+- **Documentation**: https://docs.darena.health/ (Postman-hosted API docs)
+- **API reference**: https://app.meldrx.com/swagger (dead, 404)
+
+The Postman documentation at https://docs.darena.health/ is live and contains:
+- Introduction
+- Getting Started
+- Workspace Permissions
+- Darena Health Use Cases
+- **Darena Health APIs for Cures Act Compliance**
+  - **HTI-1 (g10 & b11)**
+    - Get Connected
+    - G10: Import(Upload) DH Schema, Import(Upload) CCDA, Import(Upload) CCDA Raw Body, Send Invite, Upload DocumentReference
+    - G9: Create CCDA from DH Schema, Validate CCDA, Get Patient, Get CCDA DocumentReference for date, Get CCDA DocumentReference for date range
+    - B11(DSI)
+    - Workspace Management
+    - **Bulk Export**: System App Token, Get Workspace Details, Get Groups, **Start Bulk Export**, Get Content
+    - Patient Connect
+  - MIPS API
+  - FHIR to MIPS
+  - Developer Account
+  - FHIR API: Get Patients, Get Patient by Identifier, Get Resource by Patient Id
+
+### Step 6: Swagger JSON (from previous collection)
+
+A Swagger JSON file (v16) was previously downloaded and is available at `downloads/darena-health-swagger-api-v16.json` (647 KB). It reveals:
+- The API is OpenAPI 3.0.1 titled "Darena Health APIs"
+- Bulk export endpoint: `GET /api/fhir/{ws-slug}/Group/{group_id}/$export`
+- Content retrieval: `GET /api/BackgroundJobs/{WORKSPACE_ID}/bulk-export/{job_id}`
+- Generic FHIR resource access: `GET /api/fhir/{ws-slug}/{resourceType}`
+- CCDA import/export
+- MIPS reporting APIs
+- DocumentReference upload
 
 ### Step 7: Identified downloadable assets
 
-| Asset | URL | Type | Relevance |
-|-------|-----|------|----------|
-| Swagger API specification | https://app.meldrx.com/swagger/v1/swagger.json | JSON (646 KB) | Primary EHI documentation |
-| ONC Certification page | https://darena.health/onc-hti1-certified | HTML (234 KB) | EHI section + cost transparency |
+1. ONC Certification page HTML (the EHI section) — `darena-health-onc-certified-page.html`
+2. Postman API documentation HTML — `darena-health-api-docs.html`
+3. Swagger JSON API specification — `darena-health-swagger-api-v16.json`
 
-No PDF, ZIP, or other downloadable data dictionary was found. The entire EHI export documentation is the two-sentence description on the ONC page plus the Swagger API docs.
+No PDF data dictionary, no ZIP export, no schema documentation. The entire EHI documentation consists of two sentences on a web page plus API endpoint docs.
 
 ## Downloads
 
-### darena-health-swagger-api-v16.json (646 KB)
+### darena-health-onc-certified-page.html (234 KB)
 ```bash
-curl -sL "https://app.meldrx.com/swagger/v1/swagger.json" -H 'User-Agent: Mozilla/5.0' \
-  -o downloads/darena-health-swagger-api-v16.json
+curl -sL "https://darena.health/onc-hti1-certified" -H 'User-Agent: Mozilla/5.0' -o darena-health-onc-certified-page.html
 ```
-Verified: `file` → JSON text data
-Contains: Full OpenAPI 3.0 spec with 81 paths, 298 schemas
-Saved to: downloads/darena-health-swagger-api-v16.json
+Verified: HTML document, 234,237 bytes
+Contains the b(10) EHI Export Documentation section with two bullet points.
 
-### darena-health-onc-hti1-certified.html (234 KB)
+### darena-health-api-docs.html (40 KB)
 ```bash
-curl -sL "https://darena.health/onc-hti1-certified" -H 'User-Agent: Mozilla/5.0' \
-  -o downloads/darena-health-onc-hti1-certified.html
+curl -sL "https://docs.darena.health/" -H 'User-Agent: Mozilla/5.0' -o darena-health-api-docs.html
 ```
-Verified: `file` → HTML document, UTF-8 text
-Contains: Full ONC certification page with EHI section, cost transparency table, certified criteria list
-Saved to: downloads/darena-health-onc-hti1-certified.html
+Verified: HTML document, 39,942 bytes
+Postman documentation — requires JavaScript to render fully. Content was explored via browser.
+
+### darena-health-swagger-api-v16.json (647 KB)
+Swagger/OpenAPI 3.0.1 specification for Darena Health APIs. Contains all API paths, parameters, and data models.
 
 ## Product Context
 
-### Darena Health (formerly MeldRx / BlueButtonPRO)
+**Darena Health (formerly MeldRx, formerly BlueButtonPRO) is NOT an EHR.** It is a FHIR middleware/compliance platform that provides certified modules to EHR vendors so they can achieve ONC certification. It is described as:
 
-Darena Health is **not an EHR**. It is a **middleware compliance platform** — a multi-tenant, cloud-based FHIR API service that other EHR vendors integrate with to achieve ONC certification. Darena provides pre-certified modules for criteria including (b)(10) EHI Export, (b)(11) DSI, (g)(10) Standardized API, and others.
+> "FHIR-first solutions that seamlessly integrate with EHRs, turning regulatory compliance into a pathway for improving patient outcomes."
 
-The platform's value proposition is that EHR vendors can "plug in" to Darena's pre-certified API rather than building their own FHIR infrastructure. The EHR pushes its data into Darena's FHIR data store, and Darena handles the certified API and export requirements.
+The platform provides:
+- **HTI-1 Certified Modules** — Cures Act compliance (g10, b10, b11, d criteria)
+- **MIPS Reporting** — Qualified registry, measure analysis, data submission
+- **Patient Connect** — Patient-mediated data exchange
+- **Custom FHIR Solutions** — White-label FHIR integration
 
-This creates a fundamental architectural question for b(10) compliance: **the EHI export can only export data that the upstream EHR has pushed into Darena**. If the EHR only sends clinical data to Darena (e.g., for USCDI compliance), then the Darena export will only contain clinical data — even though the EHR product stores billing, scheduling, messaging, and other data natively.
+**Critical implication for EHI export:** Darena Health's b(10) export only covers data that has been loaded into the Darena Health FHIR workspace. The actual patient data lives in the underlying EHR systems (Clinicmind, Raintree, EZDERM, etc.). The 11 products listed in CHPL are full-featured EHR/practice management systems in diverse specialties (dermatology, behavioral health, substance abuse treatment, radiology, etc.) that use Darena Health as their compliance middleware.
 
-### Downstream Products
-
-The 11 CHPL listings using Darena represent a diverse set of EHR products:
-
-- **Amrita Hospital Information System** — hospital information system (India-focused)
-- **Clinicmind** — practice management + EHR for behavioral health, chiropractic, and other specialties
-- **Doctorsoft EHR** — general-purpose EHR
-- **EZDERM** — dermatology-specific EHR
-- **Epi-Management** — epidemiology/public health management (FEI Systems)
-- **Office Anywhere** (Lancman Solutions) — mental health / behavioral health practice management
-- **PIMSY Platinum** — behavioral health EHR and practice management
-- **Raintree** — physical therapy / rehabilitation EHR and practice management
-- **UnifiMD** (Complete Healthcare Solutions) — ambulatory EHR
-- **WITS** (FEI Systems) — substance abuse treatment information system
-- **eRAD RIS** — radiology information system
-
-Many of these products have their own billing, scheduling, patient portal, and document management features. The Darena-based EHI export would only cover data that each EHR has mapped and pushed to the Darena FHIR platform.
+The EHI export can only export what has been synchronized to the Darena FHIR layer — which is typically USCDI clinical data mapped to FHIR resources. The bulk of each product's native data (billing, scheduling, secure messages, specialty-specific data, audit trails) likely remains in the underlying EHR database and is NOT accessible through Darena Health's export.
 
 ## Obstacles & Notes
 
-1. **Domain rebranding**: The registered URL uses `www.darenasolutions.com` which now redirects to `darena.health`. The page at the old domain is just a JavaScript redirect stub.
-
-2. **Double redirect**: Registered URL → 301 to `darena.health/meldrx-onc-hti1-certified` → JS redirect to `/onc-hti1-certified`. Requires browser (JavaScript) to reach the actual content.
-
-3. **Newsletter popup**: A Squarespace newsletter popup blocks the content and must be dismissed.
-
-4. **Minimal documentation**: The entire EHI export documentation is two sentences. No data dictionary, no field definitions, no schema documentation beyond the Swagger API spec.
-
-5. **Single documentation page for 11 products**: All 11 CHPL listings from different developers point to this same Darena page. There is no product-specific EHI export documentation for any of the individual EHR products.
+1. **Domain redirect chain**: `www.darenasolutions.com` → `darena.health/meldrx-onc-hti1-certified` → JS redirect to `/onc-hti1-certified`. Three hops to reach actual content.
+2. **Swagger link is dead**: The EHI section links to `app.meldrx.com/swagger/index.html` which returns 404. The replacement is `docs.darena.health` but this isn't referenced from the EHI section.
+3. **Newsletter popup overlay**: A newsletter signup popup obscures the EHI section content when viewing in a browser.
+4. **Shared certification across 11 products**: This is one of the most extreme cases of shared certification — 11 different EHR products from 11 different developers, serving specialties from dermatology to substance abuse to radiology, all sharing a single 2-sentence EHI export documentation page from a FHIR middleware vendor.
