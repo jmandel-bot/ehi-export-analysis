@@ -159,6 +159,28 @@ Record everything you tried.
   don't include it in the downloads. The documentation is supposed to be
   publicly accessible.
 
+### Examining PDFs
+PDFs are common for EHI export documentation. To understand what's in them:
+
+```bash
+# Basic info: page count, title, author
+pdfinfo filename.pdf
+
+# Extract text (works well for text-based PDFs)
+pdftotext filename.pdf - | head -100
+
+# Render a page as image (useful for complex layouts, tables, diagrams)
+pdftoppm -f 1 -l 1 -r 150 -png filename.pdf /tmp/page-preview
+# Then view the image with your image tools
+```
+
+Use `pdftotext` first. If the extracted text is garbled or missing structure
+(common with scanned documents or complex table layouts), render a few sample
+pages as images to understand the content visually.
+
+Note in the collection log what the PDF contains — a data dictionary with N
+tables? Export instructions? A schema diagram? This context helps Phase 3.
+
 ## Output
 
 Write `{{OUTPUT_DIR}}/collection-log.md`:
