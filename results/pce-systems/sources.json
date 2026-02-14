@@ -1,0 +1,80 @@
+{
+  "research_date": "2025-07-14",
+  "sources": [
+    {
+      "url": "https://www.pcesystems.com",
+      "type": "vendor-website",
+      "note": "Extremely minimal — logo, three nav links (Home, About, Location), About and Location pages return 404. No product information, features, or marketing content."
+    },
+    {
+      "url": "https://www.pcesystems.com/g10APIInfo.html",
+      "type": "vendor-website",
+      "note": "API and EHI Export landing page. Links to FHIR API documentation PDF and EHI export (b)(10) documentation PDF. Shows production FHIR endpoint at w3.pcesecure.com."
+    },
+    {
+      "url": "https://www.pcesystems.com/PIX_9_4_API_Documentation.pdf",
+      "type": "vendor-documentation",
+      "note": "87-page FHIR API documentation for PCE Care Management v9.4 (Jan 2025). Lists all FHIR resources (AllergyIntolerance, CarePlan, CareTeam, Claim, Condition, Coverage, Device, DiagnosticReport, DocumentReference, Encounter, Goal, HealthcareService, Immunization, Location, MedicationRequest, Observation, Organization, Patient, Practitioner, PractitionerRole, Procedure, Provenance). Also contains Message data element. Includes Terms of Use referencing 42 CFR Part 2 and HIPAA. Mentions patient portal as 'CEHR'. Marked 'For Agency internal use only'."
+    },
+    {
+      "url": "https://www.pcesystems.com/b10_documentation.pdf",
+      "type": "vendor-documentation",
+      "note": "3-page EHI Export (b)(10) documentation (Nov 2023). Describes export format (password-protected zip, NDJSON per resource, documentation.json for schema, Files subdirectory for scanned docs/PDFs). Does NOT enumerate specific data resources — those are embedded in the export's documentation.json."
+    },
+    {
+      "url": "https://www.prnewswire.com/news-releases/leading-michigan-behavioral-health-information-ehr-company-signs-up-for-data-sharing-through-michigan-health-information-network-186941191.html",
+      "type": "press-release",
+      "note": "MiHIN press release (Jan 2013). PCE becomes VQO for behavioral health data exchange. Key quotes: PCE is 'largest behavioral health EMR and provider management system vendor in Michigan' with 'clients encompassing over 70% of Michigan Medicaid mental health budget.' Based in Farmington Hills, MI. Jeff Chang identified as Project Manager."
+    },
+    {
+      "url": "https://mihin.org/wp-content/uploads/2022/07/MiHIN-Interoperable-Referrals-Pledge-Final-V2.pdf",
+      "type": "press-release",
+      "note": "MiHIN Interoperable Referrals Pledge (2022). PCE Systems signed alongside findhelp, Unite Us, WellSky, CareAdvisors, RiverStar. Updated About section: 'PCE provides comprehensive, integrated information systems for a variety of community-based behavioral health and social service organizations.'"
+    },
+    {
+      "url": "https://beta.healthit.gov/sites/default/files/playbook/pdf/brightspot-health-info-exchange-washtenaw-mi.pdf",
+      "type": "government-publication",
+      "note": "ONC Brightspot case study on Washtenaw County CMH. Describes PIX (Provider Information Exchange) — PCE's behavioral health HIE. Details eConsent Management System for 42 CFR Part 2 compliance. MI Care Connect portal for community partners. PIX enables searching patient records for care team, treatment plans, appointments, problem lists, medications, vitals, lab results, clinical documentation."
+    },
+    {
+      "url": "https://www.cmhpsm.org/ehr",
+      "type": "customer-website",
+      "note": "CMHPSM (Community Mental Health Partnership of Southeast Michigan) EHR page. Confirms PCE Systems as their EHR vendor. System branded as 'CRCT' (Confidential Record of Consumer Treatment). Used by PIHP, partner CMHSPs, and providers for claims submission, incident reporting, and service information."
+    },
+    {
+      "url": "https://www.oaklandchn.org/423/Data-Sharing-Interoperability-and-Patien",
+      "type": "customer-website",
+      "note": "Oakland Community Health Network interoperability page. Explicitly names PCE Systems as EHR vendor. References PCE API Access Request Form and Web Service API Documentation. OCHN serves ~30,000 citizens at 400+ service sites."
+    },
+    {
+      "url": "https://www.medicalrecords.com/mrcbase/emr/pce-systems-pce-care-management",
+      "type": "third-party-review",
+      "note": "MedicalRecords.com profile. 4.7/5 rating, 7 reviews. Describes PCE Care Management as behavioral health EMR covering intake, assessment, treatment planning, integrated health management, discharge, and billing. Specialties: Behavioral Health, Psychiatry, Psychology. Practice sizes: 1-100+ physicians."
+    },
+    {
+      "url": "https://tmgroupinc.com/addons/tmgpceintegration",
+      "type": "partner-website",
+      "note": "TMG PCE Integration for CMH — integration between Microsoft Dynamics 365 Business Central and PCE Systems for accounting/billing. Handles cost centers, AP transactions, vendor information. Confirms PCE handles billing but some customers use external accounting systems."
+    },
+    {
+      "url": "https://marketplace.microsoft.com/en-us/marketplace/consulting-services/thetmgroupinc1589858852862.tmg-cmh",
+      "type": "partner-website",
+      "note": "Microsoft Marketplace listing for TMG's PCE integration ($5,000). Detailed description of Business Central to PCE billing integration — cost centers, AP transactions, vendor synchronization. Confirms behavioral health organizations as target users."
+    },
+    {
+      "url": "https://sales.superagi.com/company/pce-systems",
+      "type": "business-intelligence",
+      "note": "SuperAGI company profile. Confirms 11-50 employees, privately held, Farmington Hills MI. CEO: Jeff Chang. Other staff: Nathan Gabrish (Sr. Project Manager), David DesNoyer (Sr. Systems Analyst). Competitors listed include DocuTrac and HealthTec Software."
+    },
+    {
+      "url": "https://www.healthdatamanagement.com/articles/michigan-hies-able-to-share-behavioral-health-data",
+      "type": "industry-publication",
+      "note": "Health Data Management article (Jan 2013). Brief coverage of PCE joining MiHIN for behavioral health data exchange. Mentions Upper Peninsula HIE pilot covering 16,400 sq mi, 900+ providers, 300,000 residents."
+    },
+    {
+      "url": "https://web.archive.org/web/2008/http://www.pcesystems.com/",
+      "type": "web-archive",
+      "note": "2008 Wayback Machine capture. Site was just an employee login portal with address: 28530 Orchard Lake Road, Suite 101, Farmington Hills, MI 48334. Phone 248.932.4888."
+    }
+  ]
+}
