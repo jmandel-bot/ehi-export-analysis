@@ -284,12 +284,6 @@ Also write `{{OUTPUT_DIR}}/download-manifest.json`:
   This information is as valuable as the docs themselves.
 - **Be proportionate.** Single PDF with clean link? 2 minutes. Complex multi-page
   site with buried docs? Take the time. The difficulty is itself a finding.
-- **Subagents** can parallelize downloads or explore multiple paths. But after
-  launching a subagent, **never message it again** — follow-up messages interrupt
-  the running agent. Tell each subagent to write output to a specific file, then
-  block with `inotifywait`:
-  ```bash
-  inotifywait -e create -e moved_to "$(dirname "$OUTPUT_FILE")" --include "$(basename "$OUTPUT_FILE")" --timeout 600
-  cat "$OUTPUT_FILE"
-  ```
-  Launch with `wait: false`, then inotifywait for each output file.
+- **Subagents** can parallelize downloads. If you use them, tell each subagent to
+  write its output to a specific file. **Don't message a subagent after launching
+  it** — that interrupts its work. Instead, wait for its output file to appear.

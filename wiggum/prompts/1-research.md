@@ -228,14 +228,6 @@ Capture whatever is distinctive about this product.
   guessing.
 - **Be efficient.** This is reconnaissance, not a deep investigation. Get the
   lay of the land and move on.
-- **Subagents** are great for parallelizing work (e.g., researching multiple
-  products simultaneously). But after launching a subagent, **never message it
-  again** — sending a follow-up message interrupts and derails the running agent.
-  Instead, tell each subagent to write its output to a specific file, then use
-  `inotifywait` to block until that file appears:
-  ```bash
-  # Wait for subagent output (blocks until file is created, no polling)
-  inotifywait -e create -e moved_to "$(dirname "$OUTPUT_FILE")" --include "$(basename "$OUTPUT_FILE")" --timeout 600
-  cat "$OUTPUT_FILE"
-  ```
-  Launch all subagents with `wait: false`, then inotifywait for each output file.
+- **Subagents** can parallelize work. If you use them, tell each subagent to
+  write its output to a specific file. **Don't message a subagent after launching
+  it** — that interrupts its work. Instead, wait for its output file to appear.
