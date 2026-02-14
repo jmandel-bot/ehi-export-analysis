@@ -324,21 +324,19 @@ that paints a picture of how well this vendor has approached EHI export.
 
 A manifest of everything you downloaded:
 
-```json
-{
-  "collection_date": "2025-07-14",
-  "url": "{{URL}}",
-  "final_url": "https://...",
-  "access_status": "found|dead|redirect_to_homepage|login_required",
-  "files": [
-    {
-      "path": "downloads/filename.pdf",
-      "source_url": "https://...",
-      "size_bytes": 12345,
-      "description": "Data dictionary covering 261 tables",
-      "curl_command": "curl -L -H 'User-Agent: Mozilla/5.0' -o filename.pdf 'https://...'"
-    }
-  ]
+```typescript
+interface FilesManifest {
+  collection_date: string;                   // ISO date
+  url: string;                               // registered URL from CHPL
+  final_url: string;                         // after redirects
+  access_status: "found" | "dead" | "redirect_to_homepage" | "login_required";
+  files: Array<{
+    path: string;                            // local path relative to output dir
+    source_url: string;                      // where it came from
+    size_bytes: number;
+    description: string;                     // what this file is and why it matters
+    curl_command: string | null;             // reproducible download command
+  }>;
 }
 ```
 

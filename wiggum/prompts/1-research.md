@@ -181,26 +181,14 @@ are different products.
 
 A manifest of everything you reviewed during research:
 
-```json
-{
-  "research_date": "2025-07-14",
-  "sources": [
-    {
-      "url": "https://www.vendor.com/product",
-      "type": "vendor-website",
-      "note": "main product page — feature list, screenshots, pricing tiers"
-    },
-    {
-      "url": "https://www.vendor.com/compliance",
-      "type": "mandatory-disclosures",
-      "note": "ONC disclosures — confirms product modules, lists certified criteria"
-    },
-    {
-      "url": "https://www.g2.com/products/...",
-      "type": "third-party-review",
-      "note": "user reviews — 4.2/5, 200 reviews, common praise for scheduling"
-    }
-  ]
+```typescript
+interface SourcesManifest {
+  research_date: string;          // ISO date
+  sources: Array<{
+    url: string;                   // what you visited
+    type: string;                  // e.g. vendor-website, third-party-review, mandatory-disclosures
+    note: string;                  // brief summary of what you found there
+  }>;
 }
 ```
 
