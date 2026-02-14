@@ -1,0 +1,80 @@
+{
+  "research_date": "2026-02-14",
+  "sources": [
+    {
+      "url": "https://proactivemgmt.com/disclosure/",
+      "type": "mandatory-disclosures",
+      "note": "ONC mandatory disclosures for OrthoplexEMR V1. Confirms it was developed by Proactive Technology Management for Mendelson Kornblum, no plans for sale. Lists required dependencies: MDToolbox, EMRDirect, e-IMO, SMTP. Lists all certified criteria and CQMs."
+    },
+    {
+      "url": "https://orthoplex.mkoss.com/UserContent/Healthinformationexport.html",
+      "type": "vendor-documentation",
+      "note": "EHI export documentation. Describes C-CDA-based export with 16 clinical data sections including demographics, encounters, medications, problems, allergies, vitals, care team, immunizations, social history, medical equipment, test results, procedures, goals, health concerns, and treatment plans."
+    },
+    {
+      "url": "https://synergyhealth.org/",
+      "type": "vendor-website",
+      "note": "Main website for Synergy Health Partners (formerly Mendelson Kornblum). mendelsonortho.com redirects here. Patient-facing marketing site describing musculoskeletal care services. No mention of EMR or technology."
+    },
+    {
+      "url": "https://synergyhealth.org/about-us/company-history/",
+      "type": "vendor-website",
+      "note": "Company history page. Founded 1963 by Dr. Herbert Mendelson, expanded into Synergy Health Partners as a vertically integrated musculoskeletal care system with clinics, MRI centers, ASCs, and PT/OT."
+    },
+    {
+      "url": "https://synergyhealth.org/about-us/",
+      "type": "vendor-website",
+      "note": "About page. Describes Synergy Health Partners as Michigan's only integrated musculoskeletal care provider. 20+ physicians, multiple locations across Southeast Michigan."
+    },
+    {
+      "url": "https://proactivemgmt.com/",
+      "type": "vendor-website",
+      "note": "Website for Proactive Technology Management, the company that built OrthoplexEMR. Small managed IT services company in Bingham Farms, MI serving SMBs. No mention of OrthoplexEMR on the main site."
+    },
+    {
+      "url": "https://proactivemgmt.com/medical/",
+      "type": "vendor-website",
+      "note": "Proactive's healthcare IT services page. Mentions HIPAA compliance, EMR/EHR support (for Epic, Allscripts, Meditech), medical device integration. No mention of OrthoplexEMR or custom EMR development."
+    },
+    {
+      "url": "https://www.benmayomd.com/about/mendelson-kornblum-orthopedics/",
+      "type": "third-party-reference",
+      "note": "Dr. Ben Mayo's practice page describing MKO. Confirms nearly 60 years of operation, multiple SE Michigan locations, services include orthopedics, PT, pain management, and MRI."
+    },
+    {
+      "url": "https://portal.mendelsonortho.com/Terms",
+      "type": "vendor-documentation",
+      "note": "Terms of use for patient portal. Confirms MKO owns the application. Minimal detail on portal features — mostly legal terms."
+    },
+    {
+      "url": "https://www.schechterwealth.com/team/michael-weinberger",
+      "type": "third-party-reference",
+      "note": "Bio of Michael Weinberger (co-founder of Proactive Technology Management). Confirms he built OrthoplexEMR for multi-specialty orthopedic groups and has expertise in medical billing, scheduling, and credentialing systems. Also CTO at both Synergy Health Partners MSO and Schechter Wealth."
+    },
+    {
+      "url": "https://www.zoominfo.com/p/Jurgen-Jansen/-1509161704",
+      "type": "third-party-reference",
+      "note": "ZoomInfo listing for Jurgen Jansen as IT Project Manager at SynergyHealth. He is the CHPL contact for OrthoplexEMR."
+    },
+    {
+      "url": "https://www.linkedin.com/company/mkoss",
+      "type": "third-party-reference",
+      "note": "LinkedIn page for Synergy Health Partners MSO, LLC (listed under MKOSS handle). Confirms organizational identity."
+    },
+    {
+      "url": "https://intake.mendelsonortho.com/",
+      "type": "vendor-website",
+      "note": "Patient intake portal for Mendelson Kornblum. Exists as a separate web application from the main OrthoplexEMR login, suggesting intake/registration may be a distinct system component."
+    },
+    {
+      "url": "https://orthoplex.mkoss.com/Account/Login",
+      "type": "vendor-website",
+      "note": "OrthoplexEMR login page. Confirms the EMR is web-accessible at orthoplex.mkoss.com."
+    },
+    {
+      "url": "https://www.trinityhealthmichigan.org/location/mendelson-kornblum-orthopedic-spine-specialists-4",
+      "type": "third-party-reference",
+      "note": "Trinity Health Michigan listing for MKO location, indicating some affiliation or referral relationship with the Trinity Health system."
+    }
+  ]
+}

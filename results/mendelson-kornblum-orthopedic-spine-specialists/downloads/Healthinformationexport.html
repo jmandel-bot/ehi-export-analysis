@@ -1,0 +1,163 @@
+<html>
+<head>
+</head>
+<body>
+<h1>Health Information Export</h1>
+<h2>Documentation</h2>
+<P><h3>Provider Export - Single Patient</h3></p>
+To generate a C-CDA document for a specific patient please complete the following steps.
+<p>
+<ol>
+<li>Log into the Orthoplex system using your provider credentials</li>
+<li>Search for the patient using the patient search screen (first page after login)</li>
+<li>Form patient tabs, go to the History -> CCDA </li>
+<li>You have three choices to generate a CCDA document
+<ol type="a">
+<li>	Download a Zip file with the CCDA document included
+<ul>
+<li>	It is recommended that you encrypt the download</li>
+</ul>
+</li>
+<li>	Send a secure email with the CCDA document included</li>
+<li>	Send a Direct Message with the CCDA document included<ul>
+<li>	Note you must enter a valid Direct mailbox for this to be received, this is not standard email address. </li>
+</ul>
+</li>
+</ol>
+</li>
+<li>The download will include the CCDA document, the format, and instructions for reading access the file. </li>
+</ol>
+</p>
+
+
+
+<P><h3>Provider Export - Patient Population</h3></p>
+To generate a C-CDA document for a set of patients please complete the following steps.
+<p>
+<ol>
+<li>Log into the Orthoplex system using your provider credentials</li>
+<li>From the Menu, go to the Utilities->CCDA</li>
+<li>Click "Add New Export" button</li>
+<li>First set the name of your export</li>
+<li>Second set the location you wish your export to be place on the shared server
+<ol type="a">
+<li>The shared server is accessible from the orthoplex scans icon on your desktop
+</ol></li>
+<li>You are now able to set up an export of the patient's currently in the Orthoplex system. You have multiple options for frequency, range, and type of export. 
+<ol type="a">
+<li>Frequency
+<ol type="i"></li>
+<li>Run Once</li>
+<li>Daily</li>
+<li>Weekly</li>
+<li>Monthly</li>
+<li>Yearly</li>
+</ol>
+<li>Range
+<ol type="i">
+<li>Date start</li>
+<li>	Date end</li>
+<li>Leave empty if you do not want set a boundary</li>
+</ol></li>
+<li>Type
+<ol type="i">
+<li>All Patients</li>
+<li>Single Patient</li>
+</ol></li>
+</ol></li>
+<li>Once you have setup your criteria for export, click the save button</li>
+<li>The system will queue your request for CCDA export</li>
+<li>Once your export is complete you CCDA file will be placed in the location you indicated on the shared server
+<ol type="a">
+<li>Note you must be in the MKO network to access this shared server or have connected through the Syngeryhealth VPN</li>
+</ol></li>
+<li>The download will include the CCDA documents, the format, and instructions for reading access the file. </li>
+</ol>
+</p>
+
+<div>
+<h3>Structure of Export</h3>
+<a target="_blank" href="http://www.hl7.org/ccdasearch/templates/2.16.840.1.113883.10.20.22.1.2.html">C-CDA Format</a>
+<p>
+<br />
+<h3>CCDA Data</h3>
+<b>Demographics</b><br />
+Elements<br />
+Patient (First Name LastName), Date of Birth, Sex, Race, Preferred language, Ethnicity (primary), Ethnicity (secondary), Contact Information, Patient ID.
+<br /><br />
+<b>Document</b><br />
+Elements<br />
+Document ID, Document Created Date, Author, Contact Info
+<br /><br />
+<b>Encounter</b><br />
+Elements<br />
+Encounter ID, Encounter Date, Responsible Party, Contact Info
+<br /><br />
+<b>Document Meta</b><br />
+Elements<br />
+Document maintained by, Contact Info
+<br /><br />
+<b>Medications</b><br />
+Elements<br />
+Medication, Code, Type, Strength, Dose, Route, Frequency, Date Started, Status
+<br /><br />
+<b>Problems</b><br />
+Elements<br />
+Problem Code, Patient Problem, Status, Date Diagnosed
+<br /><br />
+<b>Allergies, Adverse Reactions, Alerts</b><br />
+Elements<br />
+Allergy Code, Substance, Medication/Agent Allergy, Reaction, Date Entered
+<br /><br />
+<b>Vital Signs</b><br />
+Elements<br />
+Date/Time, Heigh, Weight, Blood Pressure, Pulse, Temp, Resp, Pulse Ox, 02 % BldC Ox, Inhaled Ox Conc
+<br /><br />
+<b>Care Team Information</b><br />
+Elements<br />
+Name, Position, Email
+<br /><br />
+<b>Immunizations</b><br />
+Elements<br />
+Empty (Immunizations not provided at clinics)
+<br /><br />
+<b>Social History (smoking)</b><br />
+Elements<br />
+Smoking Code, Smoking Status, from / to
+<br /><br />
+<b>Medical Equipment</b><br />
+Elements<br />
+Description, Date and Time, status
+<br /><br />
+<b>Results (Tests)</b><br />
+Elements<br />
+Code, Code System, Name, Date, Result, Lab, Provider 
+<br /><br />
+<b>Procedures</b><br />
+Elements<br />
+Description, Date and Time, status
+<br /><br />
+<b>Goals</b><br />
+Elements<br />
+(free form)
+<br /><br />
+<b>Health Concerns</b><br />
+Elements<br />
+(free form)
+<br /><br />
+<b>Plan of Treatment</b><br />
+Elements<br />
+Plan of Treatment, Assessment
+<br /><br />
+<b>Reason for referral</b><br />
+Elements<br />
+(free form)
+</p>
+
+<P><h3>Patient Download</h3></p>
+To download your patient data: <Br/><a href='https://portal.mendelsonortho.com/'>log into the customer portal</a> and go to the "Patient Summary for Transistion of Care" page. <br /> 
+From here you can download your patient summary. 
+<br /><br />
+</div>
+</body>
+</html>

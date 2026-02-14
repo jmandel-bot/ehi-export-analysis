@@ -1,0 +1,22 @@
+{
+  "collection_date": "2026-02-14",
+  "url": "https://orthoplex.mkoss.com/UserContent/Healthinformationexport.html",
+  "final_url": "https://orthoplex.mkoss.com/UserContent/Healthinformationexport.html",
+  "access_status": "found",
+  "files": [
+    {
+      "path": "downloads/Healthinformationexport.html",
+      "source_url": "https://orthoplex.mkoss.com/UserContent/Healthinformationexport.html",
+      "size_bytes": 5200,
+      "description": "The complete EHI export documentation page. Contains export instructions (single patient and population), a data dictionary listing C-CDA sections and their fields, and patient self-service download instructions. This is the entirety of the vendor's EHI export documentation — no other files are linked.",
+      "curl_command": "curl -sL 'https://orthoplex.mkoss.com/UserContent/Healthinformationexport.html' -H 'User-Agent: Mozilla/5.0' -o Healthinformationexport.html"
+    },
+    {
+      "path": "downloads/screenshot-ehi-export-page.png",
+      "source_url": "https://orthoplex.mkoss.com/UserContent/Healthinformationexport.html",
+      "size_bytes": 425516,
+      "description": "Full-page screenshot of the EHI export documentation page rendered in Chrome browser, showing the unstyled HTML with export instructions and data dictionary.",
+      "curl_command": null
+    }
+  ]
+}
