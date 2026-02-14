@@ -36,6 +36,9 @@ SHELLEY_USER="${SHELLEY_USER:-wiggum}"
 # Gemini settings
 GEMINI_MODEL="${GEMINI_MODEL:-gemini-3-pro-preview}"
 
+# When set to any non-empty value, prompts discourage subagent use
+DISCOURAGE_SUBAGENTS="${DISCOURAGE_SUBAGENTS:-}"
+
 # Phase configuration
 declare -A PHASE_PROMPT PHASE_MARKER PHASE_NAME
 PHASE_PROMPT[1]="$ROOT/wiggum/prompts/1-research.md"
@@ -211,6 +214,10 @@ run_target() {
       -e "s|{{CHPL_IDS}}|${chpl_ids}|g" \
       -e "s|{{OUTPUT_DIR}}|${output_dir}|g" \
       "$template")
+
+    if [[ -n "$DISCOURAGE_SUBAGENTS" ]]; then
+      prompt+=$'\n\n> **Note:** Avoid using subagents for this task. Work sequentially in a single conversation.\n'
+    fi
 
     local log_file="$output_dir/phase${phase}-log.txt"
 

@@ -215,4 +215,3 @@ Keep it simple — just URL, type, and a brief note on what you found there.
   guessing.
 - **Be efficient.** This is reconnaissance, not a deep investigation. Get the
   lay of the land and move on.
-- **Use subagents** if you have them — e.g., research multiple products in parallel.

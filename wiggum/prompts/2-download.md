@@ -360,4 +360,3 @@ Include everything you saved: docs, screenshots, evidence of dead pages.
   site with buried docs? Take the time. Dead URL? Check Wayback Machine,
   try a few obvious alternative paths, do a web search, and move on — don't
   exhaustively probe every subdomain and sitemap. The difficulty is itself a finding.
-- **Use subagents** if available to parallelize downloads or explore multiple paths.
