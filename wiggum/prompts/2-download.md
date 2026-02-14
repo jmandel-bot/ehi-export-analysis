@@ -34,20 +34,10 @@ Everything at the registered URL that documents the EHI export. This includes:
 
 - **External standards documentation** — don't follow links to hl7.org, fhir.org,
   build.fhir.org, uscdi.healthit.gov, etc. We already understand those standards.
-- **FHIR API documentation that describes the vendor's (g)(7)–(g)(10) API** —
-  this is a *different* ONC criterion from b(10) EHI export. Many vendors have
-  both a FHIR API (for app access) and a separate EHI export (for bulk file
-  export). We want the EHI export docs, not the FHIR API docs. However, if the
-  vendor uses FHIR Bulk Data *as* their b(10) export mechanism, then those docs
-  ARE relevant — use your judgment.
 - **Marketing materials** — unless they contain substantive EHI export information
 - **Compliance certificates** — unless they contain technical export details
 - **Unrelated regulatory documents** — real-world testing plans, SVAP notices, etc.
   unless they describe the export mechanism
-- **Prose descriptions of standard FHIR resources** — if a vendor's FHIR portal
-  has pages describing what Patient, Condition, etc. resources contain, skip those.
-  We already know. Only download vendor-specific documentation (custom profiles,
-  extensions, proprietary export formats, data dictionaries).
 
 ### Follow vendor-internal links
 
@@ -70,6 +60,25 @@ When a document is available in multiple formats, prefer the most computable:
 
 If a ZIP contains structured files (HTML data dictionary, CSV exports, etc.),
 download and extract it.
+
+### Always look for the underlying data
+
+When navigating a vendor's documentation site — especially custom-built doc
+portals, wikis, or SPA-based sites — don't just scrape the rendered text from
+web pages. Look for ways to download the underlying structured data:
+
+- **Downloadable files**: CSV, JSON, XML, XLSX, ZIP, YAML, XSD, OpenAPI specs
+- **FHIR endpoints**: if the vendor exposes a FHIR server, grab machine-readable
+  artifacts like CapabilityStatement, StructureDefinitions (custom profiles),
+  ImplementationGuide packages — not prose descriptions of standard resources
+- **API endpoints**: if the doc site has an API or data endpoint behind it,
+  prefer that over scraping rendered HTML
+- **Export/download buttons**: many doc sites have "Download as PDF", "Export
+  data dictionary", or "Download ZIP" options — use those
+
+The goal is computable artifacts, not screenshots and text extractions of
+web pages. A JSON schema is worth more than a text scrape of the page that
+describes the same schema.
 
 ## How To Navigate
 
