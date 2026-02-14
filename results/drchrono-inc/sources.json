@@ -1,0 +1,75 @@
+{
+  "research_date": "2026-02-14",
+  "sources": [
+    {
+      "url": "https://www.drchrono.com",
+      "type": "vendor-website",
+      "note": "Main website. Describes drchrono as all-in-one cloud-based EHR with EMR, telehealth, practice management, billing/RCM, mobile EHR. Lists 20+ specialties, awards (Black Book #1 Mobile EHR 2013-2022), Apple Mobility Partner status."
+    },
+    {
+      "url": "https://www.drchrono.com/meaningful-use-ehr/",
+      "type": "mandatory-disclosures",
+      "note": "ONC mandatory disclosures page. Confirms drchrono EHR v11.0 certified by Drummond Group on 2022-05-31. Lists CMS EHR Certification ID 0015E0PHQ1JGR1Q. Mentions OnPatient patient portal, eRx/EPCS, integrated payments."
+    },
+    {
+      "url": "https://www.drchrono.com/ehr-emr/features/",
+      "type": "vendor-website",
+      "note": "Detailed features page. Lists clinical templates, speech-to-text, medical drawing tools, custom vitals, lab integrations, eRx/EPCS, prior auth, scheduling profiles, automated reminders, patient flags, task management, group chat, kiosk mode, billing codes, HCFA 1500, claims submission, ERA, denial analysis, OnPatient portal, telehealth video visits."
+    },
+    {
+      "url": "https://www.drchrono.com/about/",
+      "type": "vendor-website",
+      "note": "About page. Founded 2009 by Daniel Kivatinos and Michael Nusimow. Tens of thousands of physicians, 17M+ patients, 69M+ appointments, $11B+ in billings. Based in Sunnyvale, CA. Now operating as 'drchrono by EverHealth'."
+    },
+    {
+      "url": "https://www.drchrono.com/patient-portal/",
+      "type": "vendor-website",
+      "note": "Patient portal (OnPatient) page. Portal provides health record access, secure messaging, intake/consent forms, appointment scheduling, payments, video visits, automated patient education materials."
+    },
+    {
+      "url": "https://app.drchrono.com/api-docs-old/",
+      "type": "vendor-documentation",
+      "note": "API v4 documentation. Extremely detailed — lists all API endpoints exposing the full data model: patients, custom demographics, appointments, clinical notes, allergies, medications, problems, procedures, amendments, lab orders/results/documents, billing profiles, fee schedules, transactions, line items, patient payments, insurance, eligibility checks, consent forms, messages (internal, patient, prescription), communication logs, tasks, care plans, risk assessments, physical exams, interventions, implantable devices, vaccine records, inventory, offices, doctors, users, user groups, C-CDA export, yellow notepad, and more."
+    },
+    {
+      "url": "https://drchrono.com/blog/2021/11/evercommerce-completes-acquisition-of-drchrono/",
+      "type": "vendor-blog",
+      "note": "Announcement of EverCommerce completing acquisition of drchrono in November 2021 for ~$180M. drchrono reported 4,600+ practices and 13,000+ providers at acquisition time."
+    },
+    {
+      "url": "https://www.globenewswire.com/news-release/2021/11/18/2337900/0/en/EverCommerce-Completes-Acquisition-of-DrChrono-Leading-Cloud-based-SaaS-Practice-Management-and-EHR-Solution.html",
+      "type": "press-release",
+      "note": "GlobeNewsWire press release on EverCommerce acquisition of drchrono. Describes drchrono as 'leading cloud-based SaaS practice management and EHR solution'."
+    },
+    {
+      "url": "https://www.ehrinpractice.com/drchrono-ehr-software-profile.html",
+      "type": "third-party-review",
+      "note": "Third-party EHR review site. Describes drchrono as all-in-one EHR, practice management, and billing solution. Four pricing tiers (Prometheus, Hippocrates, Apollo, Apollo Plus). Pay-per-provider model starting at $20/provider/month for add-ons. Supports ICD-10 and CPT coding."
+    },
+    {
+      "url": "https://enlyft.com/tech/products/drchrono",
+      "type": "third-party-review",
+      "note": "Market share data. drchrono has ~0.3% market share in healthcare EHR. Customer breakdown: 63% small orgs (<50 employees), 25% mid-size, 9% large."
+    },
+    {
+      "url": "https://support.drchrono.com/home/fax-documents",
+      "type": "vendor-documentation",
+      "note": "Support article on fax functionality. eFax integrated into EHR with HIPAA-compliant inbox and audit trail. Can fax uploaded documents, signed consent forms, outbound referrals, lab results, and amendments."
+    },
+    {
+      "url": "https://support.drchrono.com/home/228343667-An-Introduction-to-OnPatient-Core-Features-Capabilities",
+      "type": "vendor-documentation",
+      "note": "OnPatient portal overview. Core features include appointment scheduling, intake/consent forms, health record access, clinical summaries with medications/allergies/lab results, automated patient education, secure messaging, payments, video visits."
+    },
+    {
+      "url": "https://support.drchrono.com/home/api-bulk-endpoints",
+      "type": "vendor-documentation",
+      "note": "API bulk endpoints page. Describes bulk data access with up to 1000 results per request vs normal 250 page size limit."
+    },
+    {
+      "url": "https://www.drchrono.com/api/",
+      "type": "vendor-website",
+      "note": "API/developer platform overview. Open REST API with 27+ endpoints. Supports third-party app development on the drchrono platform. OAuth 2.0 authentication."
+    }
+  ]
+}

@@ -1,0 +1,183 @@
+{
+  "collection_date": "2026-02-14",
+  "url": "https://support.drchrono.com/home/20260096536987-ehi-export-overview",
+  "final_url": "https://support.drchrono.com/home/20260096536987-ehi-export-overview",
+  "access_status": "found",
+  "files": [
+    {
+      "path": "downloads/ehi-export-overview.html",
+      "source_url": "https://support.drchrono.com/home/20260096536987-ehi-export-overview",
+      "size_bytes": 653057,
+      "description": "EHI Export Overview — main landing page describing the self-service EHI export feature and its benefits.",
+      "curl_command": "curl -sL 'https://support.drchrono.com/home/20260096536987-ehi-export-overview' -H 'User-Agent: Mozilla/5.0' -o ehi-export-overview.html"
+    },
+    {
+      "path": "downloads/creating-a-new-request.html",
+      "source_url": "https://support.drchrono.com/home/20708475397787-creating-a-new-request-ehi-export",
+      "size_bytes": 660686,
+      "description": "User guide for creating single-patient and bulk EHI export requests, including permissions setup and step-by-step instructions.",
+      "curl_command": "curl -sL 'https://support.drchrono.com/home/20708475397787-creating-a-new-request-ehi-export' -H 'User-Agent: Mozilla/5.0' -o creating-a-new-request.html"
+    },
+    {
+      "path": "downloads/reference-guide-v1.html",
+      "source_url": "https://support.drchrono.com/home/20791421208091-drchrono-ehi-export-reference-guide-v1",
+      "size_bytes": 679235,
+      "description": "EHI Export Reference Guide v1 — technical reference covering file naming conventions, directory structure, data export process, security model, and data element listing.",
+      "curl_command": "curl -sL 'https://support.drchrono.com/home/20791421208091-drchrono-ehi-export-reference-guide-v1' -H 'User-Agent: Mozilla/5.0' -o reference-guide-v1.html"
+    },
+    {
+      "path": "downloads/reference-guide-v4.html",
+      "source_url": "https://support.drchrono.com/home/drchrono-ehi-export-reference-guide-v4",
+      "size_bytes": 682390,
+      "description": "EHI Export Reference Guide v4 (latest, effective 10/21/2025) — updated technical reference with current file structure, exporters, and data categories.",
+      "curl_command": "curl -sL 'https://support.drchrono.com/home/drchrono-ehi-export-reference-guide-v4' -H 'User-Agent: Mozilla/5.0' -o reference-guide-v4.html"
+    },
+    {
+      "path": "downloads/reference-guide-v4.pdf",
+      "source_url": "https://support.drchrono.com/home/pdfexport/id/68f64979dde343c690083cdd",
+      "size_bytes": 428137,
+      "description": "PDF export of Reference Guide v4 — 5-page PDF with file structure diagrams, export process, and data element categories.",
+      "curl_command": "curl -sL 'https://support.drchrono.com/home/pdfexport/id/68f64979dde343c690083cdd' -H 'User-Agent: Mozilla/5.0' -o reference-guide-v4.pdf"
+    },
+    {
+      "path": "downloads/glossary-data-elements-v5.html",
+      "source_url": "https://support.drchrono.com/home/glossary-data-elements-ehi-export-v5",
+      "size_bytes": 662233,
+      "description": "Glossary: Data Elements v5 (latest, effective 1/28/2026) — web-based field-level glossary organized by exporter type (Doctor, Patient, Practice Group, Media, ReadMe).",
+      "curl_command": "curl -sL 'https://support.drchrono.com/home/glossary-data-elements-ehi-export-v5' -H 'User-Agent: Mozilla/5.0' -o glossary-data-elements-v5.html"
+    },
+    {
+      "path": "downloads/glossary-data-elements-v5.pdf",
+      "source_url": "https://support.drchrono.com/home/pdfexport/id/6973c8d831cb75bf9b0c6224",
+      "size_bytes": 75303,
+      "description": "PDF export of Glossary Data Elements v5 — 3-page PDF listing all data categories and file descriptions.",
+      "curl_command": "curl -sL 'https://support.drchrono.com/home/pdfexport/id/6973c8d831cb75bf9b0c6224' -H 'User-Agent: Mozilla/5.0' -o glossary-data-elements-v5.pdf"
+    },
+    {
+      "path": "downloads/ehi-export-faq.html",
+      "source_url": "https://support.drchrono.com/home/21368739016859-ehi-export-faq",
+      "size_bytes": 651656,
+      "description": "EHI Export FAQ — covers processing time (up to 14 business days), export sizes (200+ GB), file types, technical requirements, blank CSV explanations, and field interpretation.",
+      "curl_command": "curl -sL 'https://support.drchrono.com/home/21368739016859-ehi-export-faq' -H 'User-Agent: Mozilla/5.0' -o ehi-export-faq.html"
+    },
+    {
+      "path": "downloads/folder-contents.html",
+      "source_url": "https://support.drchrono.com/home/21412174060443-single-patient-and-bulk-export-file-folder-contents-ehi-export",
+      "size_bytes": 650293,
+      "description": "Single Patient and Bulk Export File/Folder Contents — hub page linking to all 8 versioned XLSX data dictionaries (v1.0 through v1.8).",
+      "curl_command": "curl -sL 'https://support.drchrono.com/home/21412174060443-single-patient-and-bulk-export-file-folder-contents-ehi-export' -H 'User-Agent: Mozilla/5.0' -o folder-contents.html"
+    },
+    {
+      "path": "downloads/data-mapping-v2.html",
+      "source_url": "https://support.drchrono.com/home/understanding-ehi-data-mapping-in-exported-files-v2",
+      "size_bytes": 691506,
+      "description": "Data Mapping Guide v2 (effective 2/19/2025) — instructions for tracing patient data and media files across CSV exports using foreign key relationships.",
+      "curl_command": "curl -sL 'https://support.drchrono.com/home/understanding-ehi-data-mapping-in-exported-files-v2' -H 'User-Agent: Mozilla/5.0' -o data-mapping-v2.html"
+    },
+    {
+      "path": "downloads/unpacking-export-files.html",
+      "source_url": "https://support.drchrono.com/home/19380725414299-unpacking-your-drchrono-export-files",
+      "size_bytes": 649311,
+      "description": "Instructions for unpacking .7z multi-part archive exports, including recommended extraction software for Mac and Windows.",
+      "curl_command": "curl -sL 'https://support.drchrono.com/home/19380725414299-unpacking-your-drchrono-export-files' -H 'User-Agent: Mozilla/5.0' -o unpacking-export-files.html"
+    },
+    {
+      "path": "downloads/drchrono-ehi-export-documentation-v18.xlsx",
+      "source_url": "https://dyzz9obi78pm5.cloudfront.net/app/image/id/6973ea26e257319ba90d046a/n/drchrono-ehi-export-documentation-v18.xlsx",
+      "size_bytes": 169881,
+      "description": "XLSX data dictionary v1.8 (latest) — two sheets (Single Patient Export: 1,587 rows; Bulk Patient Export: 1,796 rows) with Export Name, Field, and Description columns for every field in every CSV file.",
+      "curl_command": "curl -sL 'https://dyzz9obi78pm5.cloudfront.net/app/image/id/6973ea26e257319ba90d046a/n/drchrono-ehi-export-documentation-v18.xlsx' -H 'User-Agent: Mozilla/5.0' -o drchrono-ehi-export-documentation-v18.xlsx"
+    },
+    {
+      "path": "downloads/drchrono-ehi-export-documentation-v17.xlsx",
+      "source_url": "https://dyzz9obi78pm5.cloudfront.net/app/image/id/68fa5c15d78fa4833907f4b4/n/drchrono-ehi-export-documentation-v17-45f973.xlsx",
+      "size_bytes": 137620,
+      "description": "XLSX data dictionary v1.7 — prior version of the field-level data dictionary.",
+      "curl_command": "curl -sL 'https://dyzz9obi78pm5.cloudfront.net/app/image/id/68fa5c15d78fa4833907f4b4/n/drchrono-ehi-export-documentation-v17-45f973.xlsx' -H 'User-Agent: Mozilla/5.0' -o drchrono-ehi-export-documentation-v17.xlsx"
+    },
+    {
+      "path": "downloads/drchrono-ehi-export-documentation-v16.xlsx",
+      "source_url": "https://dyzz9obi78pm5.cloudfront.net/app/image/id/68f64018d2b5f84f4407a506/n/drchrono-ehi-export-documentation-v16.xlsx",
+      "size_bytes": 134849,
+      "description": "XLSX data dictionary v1.6.",
+      "curl_command": "curl -sL 'https://dyzz9obi78pm5.cloudfront.net/app/image/id/68f64018d2b5f84f4407a506/n/drchrono-ehi-export-documentation-v16.xlsx' -H 'User-Agent: Mozilla/5.0' -o drchrono-ehi-export-documentation-v16.xlsx"
+    },
+    {
+      "path": "downloads/drchrono-ehi-export-documentation-v15.xlsx",
+      "source_url": "https://dyzz9obi78pm5.cloudfront.net/app/image/id/68d3246e09593b389c02965d/n/drchrono-ehi-export-documentation-v15.xlsx",
+      "size_bytes": 126164,
+      "description": "XLSX data dictionary v1.5.",
+      "curl_command": "curl -sL 'https://dyzz9obi78pm5.cloudfront.net/app/image/id/68d3246e09593b389c02965d/n/drchrono-ehi-export-documentation-v15.xlsx' -H 'User-Agent: Mozilla/5.0' -o drchrono-ehi-export-documentation-v15.xlsx"
+    },
+    {
+      "path": "downloads/drchrono-ehi-export-documentation-v14.xlsx",
+      "source_url": "https://dyzz9obi78pm5.cloudfront.net/app/image/id/67b6766affc9cc1aeb0fdd19/n/drchrono-ehi-export-documentation-v14.xlsx",
+      "size_bytes": 119977,
+      "description": "XLSX data dictionary v1.4.",
+      "curl_command": "curl -sL 'https://dyzz9obi78pm5.cloudfront.net/app/image/id/67b6766affc9cc1aeb0fdd19/n/drchrono-ehi-export-documentation-v14.xlsx' -H 'User-Agent: Mozilla/5.0' -o drchrono-ehi-export-documentation-v14.xlsx"
+    },
+    {
+      "path": "downloads/drchrono-ehi-export-documentation-v13.xlsx",
+      "source_url": "https://dyzz9obi78pm5.cloudfront.net/app/image/id/672d288eaabd05caec022ac2/n/drchrono-ehi-export-documentation-v13-22724-1.xlsx",
+      "size_bytes": 119533,
+      "description": "XLSX data dictionary v1.3.",
+      "curl_command": "curl -sL 'https://dyzz9obi78pm5.cloudfront.net/app/image/id/672d288eaabd05caec022ac2/n/drchrono-ehi-export-documentation-v13-22724-1.xlsx' -H 'User-Agent: Mozilla/5.0' -o drchrono-ehi-export-documentation-v13.xlsx"
+    },
+    {
+      "path": "downloads/drchrono-ehi-export-documentation-v12.xlsx",
+      "source_url": "https://dyzz9obi78pm5.cloudfront.net/app/image/id/672d28631b28d2a27f01290f/n/drchrono-ehi-export-documentation-v12-11824-4.xlsx",
+      "size_bytes": 127904,
+      "description": "XLSX data dictionary v1.2.",
+      "curl_command": "curl -sL 'https://dyzz9obi78pm5.cloudfront.net/app/image/id/672d28631b28d2a27f01290f/n/drchrono-ehi-export-documentation-v12-11824-4.xlsx' -H 'User-Agent: Mozilla/5.0' -o drchrono-ehi-export-documentation-v12.xlsx"
+    },
+    {
+      "path": "downloads/drchrono-ehi-export-documentation-v10.xlsx",
+      "source_url": "https://dyzz9obi78pm5.cloudfront.net/app/image/id/672d28040df927865f0d5b72/n/drchrono-ehi-export-documentation-v1-1.xlsx",
+      "size_bytes": 118682,
+      "description": "XLSX data dictionary v1.0 (earliest version).",
+      "curl_command": "curl -sL 'https://dyzz9obi78pm5.cloudfront.net/app/image/id/672d28040df927865f0d5b72/n/drchrono-ehi-export-documentation-v1-1.xlsx' -H 'User-Agent: Mozilla/5.0' -o drchrono-ehi-export-documentation-v10.xlsx"
+    },
+    {
+      "path": "downloads/screenshot-ehi-overview.png",
+      "source_url": "https://support.drchrono.com/home/20260096536987-ehi-export-overview",
+      "size_bytes": 193869,
+      "description": "Browser screenshot of the EHI Export Overview page (viewport).",
+      "curl_command": null
+    },
+    {
+      "path": "downloads/screenshot-ehi-overview-full.png",
+      "source_url": "https://support.drchrono.com/home/20260096536987-ehi-export-overview",
+      "size_bytes": 261490,
+      "description": "Full-page browser screenshot of the EHI Export Overview page.",
+      "curl_command": null
+    },
+    {
+      "path": "downloads/screenshot-folder-contents.png",
+      "source_url": "https://support.drchrono.com/home/21412174060443-single-patient-and-bulk-export-file-folder-contents-ehi-export",
+      "size_bytes": 166438,
+      "description": "Full-page screenshot of the folder contents page showing links to all XLSX data dictionary versions.",
+      "curl_command": null
+    },
+    {
+      "path": "downloads/screenshot-glossary-v5.png",
+      "source_url": "https://support.drchrono.com/home/glossary-data-elements-ehi-export-v5",
+      "size_bytes": 828954,
+      "description": "Full-page screenshot of the Glossary Data Elements v5 page showing all data categories and file descriptions.",
+      "curl_command": null
+    },
+    {
+      "path": "downloads/screenshot-reference-guide-v4.png",
+      "source_url": "https://support.drchrono.com/home/drchrono-ehi-export-reference-guide-v4",
+      "size_bytes": 1539050,
+      "description": "Full-page screenshot of the Reference Guide v4 page showing file structure, export process, and data element listing.",
+      "curl_command": null
+    },
+    {
+      "path": "downloads/screenshot-data-mapping-v2.png",
+      "source_url": "https://support.drchrono.com/home/understanding-ehi-data-mapping-in-exported-files-v2",
+      "size_bytes": 2301772,
+      "description": "Full-page screenshot of the Data Mapping Guide v2 showing how to trace patient data and media files across CSV exports.",
+      "curl_command": null
+    }
+  ]
+}
