@@ -1,0 +1,5 @@
+﻿NAME,URL
+Test FHIR Server Endpoint,https://fhirserver-test.ehana.com:9443/fhir-server/api/v4/
+Test Authentication Server Endpoint, https://authserver-test.ehana.com/
+Prod FHIR Server Endpoint,available upon request
+Prod Authentication Server Endpoint,available upon request

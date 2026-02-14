@@ -1,0 +1,36 @@
+{
+  "collection_date": "2026-02-14",
+  "url": "https://www.ehana.com/certification-documentation",
+  "final_url": "https://www.ehana.com/certification-documentation",
+  "access_status": "found",
+  "files": [
+    {
+      "path": "downloads/EHI_Export.pdf",
+      "source_url": "https://www.ehana.com/s/EHI_Export.pdf",
+      "size_bytes": 1479253,
+      "description": "The sole EHI export documentation — a 15-page PDF describing the C-CDA XML export format with 18 clinical data sections, each showing UI screenshots and XML element examples with sample data. Created 2023-05-10.",
+      "curl_command": "curl -sL 'https://www.ehana.com/s/EHI_Export.pdf' -H 'User-Agent: Mozilla/5.0' -o EHI_Export.pdf"
+    },
+    {
+      "path": "downloads/SmartOnFHIR-API-Doc.pdf",
+      "source_url": "https://www.ehana.com/s/SmartOnFHIR-API-Doc-8p53.pdf",
+      "size_bytes": 703074,
+      "description": "68-page SMART on FHIR API documentation for the (g)(10) FHIR API — separate from the (b)(10) EHI export. Documents OAuth2/SMART App Launch and FHIR R4 resource access for standard US Core resources. Downloaded for context.",
+      "curl_command": "curl -sL 'https://www.ehana.com/s/SmartOnFHIR-API-Doc-8p53.pdf' -H 'User-Agent: Mozilla/5.0' -o SmartOnFHIR-API-Doc.pdf"
+    },
+    {
+      "path": "downloads/fhir-base-urls.csv",
+      "source_url": "https://www.ehana.com/s/fhir-base-urls.csv",
+      "size_bytes": 282,
+      "description": "CSV listing FHIR server and authentication server endpoints (test and production). Related to (g)(10) API, not (b)(10) export. Downloaded for completeness.",
+      "curl_command": "curl -sL 'https://www.ehana.com/s/fhir-base-urls.csv' -H 'User-Agent: Mozilla/5.0' -o fhir-base-urls.csv"
+    },
+    {
+      "path": "downloads/screenshot-certification-page.png",
+      "source_url": "https://www.ehana.com/certification-documentation",
+      "size_bytes": 516913,
+      "description": "Full-page screenshot of the certification documentation page showing the page layout, all sections (Costs, Real World Testing, SAML, Additional Certification Documentation), and the EHI Export link at the bottom.",
+      "curl_command": null
+    }
+  ]
+}

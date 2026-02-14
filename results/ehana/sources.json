@@ -1,0 +1,65 @@
+{
+  "research_date": "2026-02-14",
+  "sources": [
+    {
+      "url": "https://www.ehana.com/",
+      "type": "vendor-website",
+      "note": "Main homepage — identifies eHana as cloud-based behavioral health EHR, 10,000 users, 150,000 clients. Key customers listed."
+    },
+    {
+      "url": "https://www.ehana.com/meaningful-use/disclosures",
+      "type": "mandatory-disclosures",
+      "note": "Minimal disclosures page — confirms vendor name, product version v2019-MU, ambulatory scope, certification date. No pricing or detailed limitations listed."
+    },
+    {
+      "url": "https://www.ehana.com/ehana-ehr",
+      "type": "vendor-website",
+      "note": "EHR features page — detailed feature list: clinical records, e-prescribing, scheduling, billing (837/835), staff management, document management with OCR, compliance/QA tools, role-based dashboards. HL7/HIPAA EDI/DIRECT interoperability. IBM-managed cloud hosting."
+    },
+    {
+      "url": "https://www.ehana.com/cbhc",
+      "type": "vendor-website",
+      "note": "Massachusetts CBHC hub — 10,000+ monthly active users, 600,000+ documents/month, 250,000+ enrollments. Integrated e-prescribing with PDMP/EPCS, lab integration, zero-paid/bundled claims, care coordination tools."
+    },
+    {
+      "url": "https://www.ehana.com/about-ehana",
+      "type": "vendor-website",
+      "note": "About page — founded September 2000 in Honolulu, now in Boston. 100% independent and founder-owned. Startup-like culture."
+    },
+    {
+      "url": "https://www.ehana.com/news",
+      "type": "vendor-website",
+      "note": "News page — Care Management platform launch, ACO integration, ACCS module, CANS integration, Collective Medical integration, MSDP recertification. Serves 23/27 MA Community Partners, 56% ACCS clients. Giving program for nonprofits."
+    },
+    {
+      "url": "https://www.ehana.com/certification-documentation",
+      "type": "vendor-website",
+      "note": "Certification docs page — EHI export in XML/C-CDA format, FHIR endpoints (test/production), SMART on FHIR API docs, SAML 2.0 SSO, Real World Testing plans/results 2022-2025."
+    },
+    {
+      "url": "https://softwarefinder.com/emr-software/ehana-ehr",
+      "type": "third-party-review",
+      "note": "Software Finder listing — confirms 5 main functional areas (operational tools, clinical record, billing/finance, staff tracking, document management). Notes lack of dedicated mobile app."
+    },
+    {
+      "url": "https://www.capterra.com/p/101446/eHana-EHR/",
+      "type": "third-party-review",
+      "note": "Capterra listing — 60% satisfaction from 2 reviews. Pros: organized records, good documentation. Cons: limited customization, no recurring appointments, slow loading. (403 error on direct fetch, info from search snippets.)"
+    },
+    {
+      "url": "https://www.selecthub.com/p/mental-health-software/ehana/",
+      "type": "third-party-review",
+      "note": "SelectHub listing — confirms integrated telehealth, client portal, customizable templates, billing tools. Suggests best for larger orgs. (403 error on direct fetch, info from search snippets.)"
+    },
+    {
+      "url": "https://rocketreach.co/ehana-profile_b5d7907cf42e3da3",
+      "type": "third-party-directory",
+      "note": "RocketReach company profile — 28 employees, $6.1M revenue estimate. (Info from search snippet, not fetched directly.)"
+    },
+    {
+      "url": "https://www.abhmass.org/membership/associate-members.html",
+      "type": "third-party-directory",
+      "note": "Association for Behavioral Healthcare — confirms eHana as associate member. (Info from search results.)"
+    }
+  ]
+}
