@@ -1,0 +1,22 @@
+{
+  "collection_date": "2026-02-14",
+  "url": "https://www.practiceehr.com/data-export",
+  "final_url": "https://www.practiceehr.com/data-export",
+  "access_status": "found",
+  "files": [
+    {
+      "path": "downloads/Practice-EHR-B10-Electronic-Health-Information-Export.pdf",
+      "source_url": "https://www.practiceehr.com/hubfs/PracticeEHR-2023/Practice%20EHR%20B10-Electronic%20Health%20Information%20Export.pdf",
+      "size_bytes": 116552,
+      "description": "The sole EHI export documentation artifact. A 4-page PDF (cover + 3 pages) describing the export structure: a ZIP per patient containing a C-CDA XML file (clinical data), a documents folder (scanned/uploaded files in original formats), and a Patient Documents Detail.xls index file. Version 1.0, dated November 2023. No data dictionary, schema, or field-level documentation. Created with Microsoft Word.",
+      "curl_command": "curl -sL 'https://www.practiceehr.com/hubfs/PracticeEHR-2023/Practice%20EHR%20B10-Electronic%20Health%20Information%20Export.pdf' -H 'User-Agent: Mozilla/5.0' -o Practice-EHR-B10-Electronic-Health-Information-Export.pdf"
+    },
+    {
+      "path": "downloads/data-export-page.png",
+      "source_url": "https://www.practiceehr.com/data-export",
+      "size_bytes": 256660,
+      "description": "Screenshot of the data-export landing page showing the 'Data Export' banner heading and a single link labeled 'Electronic Health Information Export Documentation' pointing to the PDF. No other content on the page.",
+      "curl_command": null
+    }
+  ]
+}

@@ -1,0 +1,95 @@
+{
+  "research_date": "2026-02-14",
+  "sources": [
+    {
+      "url": "https://www.practiceehr.com",
+      "type": "vendor-website",
+      "note": "Main marketing page. Describes Practice EHR as cloud-based all-in-one EHR/PM/RCM for medical practices. Lists core features: EHR, PM, RCM, e-prescribing, patient portal, kiosk, telehealth, mobile app. Mentions 23+ specialties."
+    },
+    {
+      "url": "https://www.practiceehr.com/press-releases/onc-acb-2015-meaningful-use-certification",
+      "type": "mandatory-disclosures",
+      "note": "ONC certification disclosure page for Practice EHR V12. Certified 2022-06-28 under 2015 Edition Cures Act. Notes Open API R4 and DataMotion dependencies. Mentions integration fees for immunization registries and lab interfaces."
+    },
+    {
+      "url": "https://www.practiceehr.com/about-us",
+      "type": "vendor-website",
+      "note": "Company info. Plano, TX headquarters. Claims 20+ years helping practices. No specific customer count or employee number disclosed. Mentions Capterra and Software Advice awards."
+    },
+    {
+      "url": "https://www.practiceehr.com/practice-management",
+      "type": "vendor-website",
+      "note": "Practice management feature page. Scheduling for multiple providers/locations, automated reminders, electronic superbills, claim scrubbing (98% clean rate), claim submission to 16,000+ payers, ERA processing, eligibility verification, patient statements, KPI dashboards."
+    },
+    {
+      "url": "https://www.practiceehr.com/medical-billing",
+      "type": "vendor-website",
+      "note": "Medical billing and RCM page. Integrated clearinghouse, denial/appeals management, payment posting, staffed RCM services with certified billers/coders. Emphasizes transparency and financial dashboards."
+    },
+    {
+      "url": "https://www.practiceehr.com/features/charting",
+      "type": "vendor-website",
+      "note": "Charting feature page. Template library by specialty, point-and-click/free text/dictation, lab ordering/receipt, clinical decision support, clinical alerts, auto-population of encounter forms from templates."
+    },
+    {
+      "url": "https://www.practiceehr.com/features/patient-portal/",
+      "type": "vendor-website",
+      "note": "Patient portal feature page. Patients access medical history, prescriptions, lab results, immunizations, diagnoses. Can request appointments, refills, view statements, make payments, send secure messages."
+    },
+    {
+      "url": "https://www.practiceehr.com/features/e-prescribing",
+      "type": "vendor-website",
+      "note": "E-prescribing feature page. EPCS-certified, Surescripts-certified. Medication history access, formulary/eligibility/benefits checking, drug interaction checking, renewal automation."
+    },
+    {
+      "url": "https://www.practiceehr.com/features/patient-check-in-kiosk",
+      "type": "vendor-website",
+      "note": "Kiosk feature page. iPad-based self-service check-in. Patients enter demographics, family/social history, insurance, consent forms. Customizable by specialty. Data syncs to patient chart."
+    },
+    {
+      "url": "https://www.practiceehr.com/en/specialty-specific-ehr-solution",
+      "type": "vendor-website",
+      "note": "Specialty page listing 23 supported specialties from bariatric to urology. Emphasizes universal capabilities (scheduling, documentation, billing) applicable across all specialties."
+    },
+    {
+      "url": "https://www.practiceehr.com/marketplace",
+      "type": "vendor-website",
+      "note": "Integration marketplace. Partners include Surescripts, Exostar (EPCS auth), TigerView (imaging), Quest/Labcorp/regional labs, ELLKAY (data integration), TokBox (video), RevSpring (statements), DataMotion (secure messaging), Alpha II (MIPS), Global Payments, PointClickCare, and multiple billing service partners."
+    },
+    {
+      "url": "https://www.practiceehr.com/enterprise",
+      "type": "vendor-website",
+      "note": "Enterprise features. Multi-client/multi-location management, roll-up reporting, batch processing, extensive claim scrubbing, document management with archiving/indexing. Claims support for tens of thousands of users."
+    },
+    {
+      "url": "https://www.practiceehr.com/clearinghouse",
+      "type": "vendor-website",
+      "note": "Integrated clearinghouse page. Connected to 16,000+ payers. Automates billing processes."
+    },
+    {
+      "url": "https://www.practiceehr.com/blog/practiceehr-earns-spot-on-capterra-shortlist-2026-for-electronic-medical-records",
+      "type": "vendor-website",
+      "note": "2026 blog post. Mentions new AI suite launch for reducing admin workload and optimizing RCM. COO Taha Mughal quoted. Capterra Shortlist 2026 recognition based on verified reviews."
+    },
+    {
+      "url": "https://www.findemr.com/practice-ehr-software",
+      "type": "third-party-review",
+      "note": "Third-party review aggregator. 59 reviews, 4/5 stars, 85% satisfaction. Pricing from $179/provider/month. Features listed: charting, e-prescribing, scheduling, portal, telemedicine, billing. Users praise ease of use; criticize excessive clicking and billing issues post-updates."
+    },
+    {
+      "url": "https://www.capterra.com/p/159036/Practice-EHR/reviews/",
+      "type": "third-party-review",
+      "note": "Capterra review page (accessed via search results). Users highlight tailored templates, automated claim scrubbing, scheduling ease, and e-prescribing convenience. Concerns about support responsiveness and note-taking workflow."
+    },
+    {
+      "url": "https://www.zoominfo.com/c/practice-ehr-llc/374784638",
+      "type": "third-party-review",
+      "note": "ZoomInfo company profile (accessed via search). Reports ~$17M revenue, 51-200 employees, Plano TX headquarters. Founded 2014."
+    },
+    {
+      "url": "https://www.konaequity.com/company/practice-ehr-llc-4397983733/",
+      "type": "third-party-review",
+      "note": "Kona Equity company profile (via search). Lists $17M revenue estimate for Practice EHR LLC."
+    }
+  ]
+}
