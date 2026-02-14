@@ -55,9 +55,9 @@ Start by reading `chpl-metadata.json`. It has several useful starting points:
 Do NOT query the CHPL API or visit chpl.healthit.gov — everything you need
 from CHPL is already in this file.
 
-Then explore. The goal is to understand what this product *is* and what data
-it likely stores — so we can later assess whether the EHI export covers
-everything. Every product is different, so use your judgment about what matters.
+Then explore. The goal is to understand what this product *is* and what it
+does — so we can later assess whether the EHI export covers everything.
+Every product is different, so use your judgment about what matters.
 
 Here are some **starting points** — but these are examples, not a checklist.
 Follow whatever threads are interesting for this particular vendor:
@@ -69,34 +69,23 @@ Follow whatever threads are interesting for this particular vendor:
 - Are there multiple distinct product platforms sharing this certification?
   (e.g., MEDITECH Expanse vs MAGIC — same company, different architectures)
 
-### Data the Product Stores
+### Modules, Features, and Data
 
-The common categories for a general-purpose EHR include things like clinical
-data, patient portal messaging, billing, scheduling, document management. But
-many products are specialized — a behavioral health platform stores assessment
-instruments and treatment plans; a dental system stores charting and imaging;
-an oncology system stores treatment protocols and tumor registries; a lab
-system stores specimen tracking and instrument results.
+**Follow the product, not a generic checklist.** Different products do very
+different things. Report what you actually find described in vendor materials,
+reviews, documentation, and feature lists.
 
-**Follow the product, not a generic checklist.** If this is a long-term care
-EHR, the interesting question is what long-term-care-specific data it stores
-(MDS assessments? care plans? ADL tracking? medication administration records?).
-If it's a revenue cycle platform, the interesting question is how deep the
-financial data goes. If it's a patient engagement tool, explore what
-communication and portal features it has.
+The kinds of things to look for (adapt to the product):
+- What modules and features does the vendor describe?
+- What workflows does the product support?
+- What integrations and data exchange does it do?
+- What's specialty-specific about it?
+- What do users say about it in reviews?
 
-Some examples of data domains to look for (adapt to the product):
-- Clinical data (diagnoses, meds, labs, notes, vitals — the obvious stuff)
-- Patient portal / messaging
-- Billing / revenue cycle / claims
-- Scheduling / appointments
-- Document management (scans, faxes, uploads)
-- Specialty-specific data (whatever is unique to this product's domain)
-- Custom forms / flowsheets / configurable data capture
-- Orders and results
-- Care coordination / referrals
-- Population health / analytics / reporting data
-- Any other data the product manages that you discover
+Don't speculate about what data it "probably" stores. If the vendor's feature
+page describes integrated billing with claim scrubbing, report that. If the
+website doesn't mention billing at all, report that absence. Evidence over
+inference.
 
 ### Market Position & Users
 - How big is this vendor? Startup? Mid-size? Enterprise? Publicly traded?
@@ -124,7 +113,7 @@ Some examples of data domains to look for (adapt to the product):
 ### Don't Over-Research
 - A few minutes per product is enough
 - If the vendor website is sparse or unhelpful, say so and move on
-- Don't try to find definitive answers — educated guesses are fine
+- Report what you found, not what you imagine. Note gaps in your research.
 - If you can't tell whether billing is built-in or separate, say "unclear"
 - But DO follow interesting threads — if you discover something surprising
   about what the product stores, that's exactly what we want to know
@@ -162,17 +151,21 @@ the whole product or part of something larger?)
 (who uses this product day-to-day? what settings? how many customers?
 any notable deployments or case studies?)
 
-### Data It Likely Stores
-(what kinds of data this product would have, based on your research.
-be specific where you can, honest about uncertainty where you can't.
-this section is critical — it's what we'll later compare against the
-EHI export to assess completeness. think through every data domain:
-clinical, administrative, financial, operational, patient-generated.
-for specialty products, think about what's unique to that specialty.)
+### Modules & Functionality
+(what does the product actually do? what modules, features, and workflows
+did you find described in vendor materials, reviews, and documentation?
+report what you found, not what you imagine. cite where you learned it.
+this section is critical — it establishes what the product does so we
+can later assess whether the EHI export covers it all.)
 
-### Notable Features Relevant to EHI
-(patient portal? messaging? billing? custom forms? anything that implies
-data that might or might not appear in an EHI export)
+### Data & Content
+(what data, records, and content does the product manage, based on what
+you found? e.g., if the vendor's feature page says "integrated billing
+with claim scrubbing", that tells us it stores claims data. if a review
+says "we use it for patient messaging", that tells us it stores messages.
+report the evidence, not guesses. note where information was thin or
+ambiguous — "the website doesn't mention billing" is more useful than
+"it probably stores billing data".)
 
 ---
 
