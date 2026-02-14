@@ -2645,3 +2645,145 @@ Now let me commit:
 {
   "command": "cd /home/exedev/EHI\ngit add results/flatiron-health-and-others-29/\ngit status"
 }
+[RESULT: On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+	new file:   results/flatiron-health-and-others-29/collection-log.md
+	new file:   results/flatiron-health-and-others-29/download-manifest.json
+	new file:   results/flatiron-health-and-others-29/downloads/EHI_Data_Dictionary.pdf
+	new file:   results/flatiron-health-and-others-29/downloads/certification-page-ehi-section.png
+	new file:   results/flatiron-health-and-others-29/downloads/certification-page.html
+	new file:   results/flatiron-health-and-others-29/downloads/fhir-api-overview.txt
+	new file:   results/flatiron-health-and-others-29/downloads/fhir-api-portal-screenshot.png
+	new file:   results/flatiron-health-and-others-29/downloads/fhir-api-pricing.txt
+	new file:   results/flatiron-health-and-others-29/downloads/fhir-api-terms.txt
+	new file:   results/flatiron-health-and-others-29/downloads/fhir-capability-statement.json
+	new file:   results/flatiron-health-and-others-29/downloads/fhir-faqs.txt
+	new file:   results/flatiron-health-and-others-29/downloads/fhir-home-page.txt
+	new file:   results/flatiron-health-and-others-29/downloads/fhir-resources-index.json
+	new file:   results/flatiron-health-and-others-29/downloads/fhir-resources-profiles.txt
+	new file:   results/flatiron-health-and-others-29/downloads/fhir-service-base-url.json
+	new file:   results/flatiron-health-and-others-29/downloads/resource-allergyintolerance.txt
+	new file:   results/flatiron-health-and-others-29/downloads/resource-condition-encounter-diagnosis.txt
+	new file:   results/flatiron-health-and-others-29/downloads/resource-patient.txt
+	new file:   results/flatiron-health-and-others-29/phase2-log.txt
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	modified:   results/oracle-health/chpl-metadata.json
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	docs/
+	research/
+	results/advancedmd/
+	results/agastha-inc/
+	results/altera-digital-health-inc-and-others-4/
+	results/amrita-ventures-llc-and-others-2/
+	results/assurecare-llc/
+	results/athenahealth-inc/
+	results/azalea-health/
+	results/bizmatics-inc/
+	results/carbon-health-technologies-inc/
+	results/carecloud-inc/
+	results/caretracker-inc/
+	results/clinisys-inc/
+	results/compugroup-medical-us/
+	results/cyfluent/
+	results/darena-solutions-llc-dba-darena-health/
+	results/doctornow-inc/
+	results/dynamic-health-it-inc/
+	results/e-healthline-com-inc/
+	results/eclinicalworks-llc/
+	results/equicare-health-incorporated/
+	results/gemms-and-others-15/
+	results/greenway-health-llc/
+	results/helixbeat/
+	results/imprivata/
+	results/infinx-solutions-llc/
+	results/intersystems-corporation/
+	results/juno-health/
+	results/md-logic-inc/
+	results/md-office-llc-and-others-5/
+	results/medhost-and-others-11/
+	results/neodeck-holdings/
+	results/net-health-and-others-28/
+	results/netsmart-technologies/
+	results/networking-technology-inc-dba-rxnt/
+	results/nextgen-healthcare/
+	results/omnimd-inc/
+	results/openemr-foundation/
+	results/pointclickcare-technologies-inc/
+	results/practicesuite-inc/
+	results/scc-soft-computer/
+	results/updox/
+	results/varian-medical-systems/
+	results/veradigm/
+	results/wolters-kluwer/
+	work/carecloud-product-research.md
+
+]
+
+[TOOL: bash]
+{
+  "command": "cd /home/exedev/EHI\ngit commit -m \"Flatiron Health EHI export documentation collection\n\nCollected from https://flatiron.com/certification for CHPL IDs 11115, 11640.\n\nPrimary artifact: 63-page EHI Data Dictionary PDF covering ~97 database tables\nwith column definitions, types, nullability, and descriptions. Export format is\nCSV (single patient) and Parquet (population exports).\n\nAlso captured:\n- FHIR CapabilityStatement JSON (32 resource types, FHIR R4)\n- FHIR service base URL bundle (2.4 MB)\n- FHIR API overview, pricing, FAQs, terms from Salesforce portal\n- Index of 38 FHIR resource documentation articles\n- 3 representative resource articles (Patient, AllergyIntolerance, Condition)\n- Screenshots of certification page and FHIR portal\""
+}
+[RESULT: [main 095201b] Flatiron Health EHI export documentation collection
+ Committer: exe.dev user <exedev@wiggum.exe.xyz>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly:
+
+    git config --global user.name "Your Name"
+    git config --global user.email you@example.com
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 19 files changed, 5360 insertions(+)
+ create mode 100644 results/flatiron-health-and-others-29/collection-log.md
+ create mode 100644 results/flatiron-health-and-others-29/download-manifest.json
+ create mode 100644 results/flatiron-health-and-others-29/downloads/EHI_Data_Dictionary.pdf
+ create mode 100644 results/flatiron-health-and-others-29/downloads/certification-page-ehi-section.png
+ create mode 100644 results/flatiron-health-and-others-29/downloads/certification-page.html
+ create mode 100644 results/flatiron-health-and-others-29/downloads/fhir-api-overview.txt
+ create mode 100644 results/flatiron-health-and-others-29/downloads/fhir-api-portal-screenshot.png
+ create mode 100644 results/flatiron-health-and-others-29/downloads/fhir-api-pricing.txt
+ create mode 100644 results/flatiron-health-and-others-29/downloads/fhir-api-terms.txt
+ create mode 100644 results/flatiron-health-and-others-29/downloads/fhir-capability-statement.json
+ create mode 100644 results/flatiron-health-and-others-29/downloads/fhir-faqs.txt
+ create mode 100644 results/flatiron-health-and-others-29/downloads/fhir-home-page.txt
+ create mode 100644 results/flatiron-health-and-others-29/downloads/fhir-resources-index.json
+ create mode 100644 results/flatiron-health-and-others-29/downloads/fhir-resources-profiles.txt
+ create mode 100644 results/flatiron-health-and-others-29/downloads/fhir-service-base-url.json
+ create mode 100644 results/flatiron-health-and-others-29/downloads/resource-allergyintolerance.txt
+ create mode 100644 results/flatiron-health-and-others-29/downloads/resource-condition-encounter-diagnosis.txt
+ create mode 100644 results/flatiron-health-and-others-29/downloads/resource-patient.txt
+ create mode 100644 results/flatiron-health-and-others-29/phase2-log.txt
+]
+Collection complete. Here's a summary of what was found and downloaded:
+
+## Results
+
+**Flatiron Health's EHI export documentation is well-organized and comprehensive.** The registered URL (`https://flatiron.com/certification`) is live and contains direct links to all documentation.
+
+### Key Artifacts Downloaded (18 files, ~3.2 MB total):
+
+| File | Size | Description |
+|---|---|---|
+| **EHI_Data_Dictionary.pdf** | 391 KB | **Primary artifact** — 63-page data dictionary covering ~97 database tables with column names, types, nullability, and descriptions |
+| **fhir-capability-statement.json** | 12 KB | Machine-readable FHIR R4 CapabilityStatement (32 resource types) |
+| **fhir-service-base-url.json** | 2.4 MB | FHIR endpoint/organization bundle |
+| **fhir-api-overview.txt** | 10 KB | Technical API overview (OAuth2, launch mechanisms, etc.) |
+| + 14 more files | | FHIR resource docs, FAQs, pricing, terms, screenshots, HTML |
+
+### Key Technical Findings:
+- **EHI Export format**: CSV (single patient), Parquet (population), plus XML/JPEG/PNG/TIFF/PDF for human-readable content
+- **Access method**: Self-service via OncoEMR UI; large exports via SFTP
+- **FHIR API**: R4 v4.0.1 with US Core STU 6.1.0, 38 documented resources, OAuth2/SMART-on-FHIR
+- **Infrastructure**: Snowflake, AWS Aurora PostgreSQL, AWS S3, AWS EMR
+- **No login required** to access any documentation
