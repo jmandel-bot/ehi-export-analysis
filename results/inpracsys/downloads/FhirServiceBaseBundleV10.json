@@ -1,0 +1,146 @@
+{
+  "resourceType": "Bundle",
+  "type": "collection",
+  "entry": [
+    {
+	  "fullUrl": "https://sfp-proxy23604.azurewebsites.net/Endpoint/ips-base-endpoint-1", 
+      "resource": {
+        "resourceType": "Endpoint",
+        "id": "ips-base-endpoint-1",
+        "status": "active",
+        "connectionType": {
+          "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+          "code": "hl7-fhir-rest"
+        },
+        "name": "ips-base endpoint",
+        "payloadType": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/v3-HL7DocumentFormatCodes",
+                "code": "urn:hl7-org:sdwg:ccda-structuredBody:1.1"
+              }
+            ]
+          }
+        ],
+        "payloadMimeType": [
+          "application/fhir+json"
+        ],
+        "address": "https://sfp-proxy23604.azurewebsites.net/fhir"
+      }
+    },
+    {
+      "fullUrl": "https://sfp-proxy23604.azurewebsites.net/fhir/R4/Organization/00212ea0-c29f-4094-b872-4336f2b43fed",
+      "resource": {
+        "resourceType": "Organization",
+        "id": "00212ea0-c29f-4094-b872-4336f2b43fed",
+        "identifier": [
+          {
+            "_system": {
+              "extension": [
+                {
+                  "url": "http://hl7.org/fhir/StructureDefinition/data-absent-reason",
+                  "valueCode": "unknown"
+                }
+              ]
+            },
+            "_value": {
+              "extension": [
+                {
+                  "url": "http://hl7.org/fhir/StructureDefinition/data-absent-reason",
+                  "valueCode": "unknown"
+                }
+              ]
+            }
+          }
+        ],
+        "active": true,
+        "name": "Health Clinic 1",
+        "alias": [
+          "Health Clinic 1"
+        ],
+        "telecom": [
+          {
+            "system": "phone",
+            "value": "9998887777"
+          },
+          {
+            "system": "fax",
+            "value": "9998886666"
+          }
+        ],
+        "address": [
+          {
+            "line": [
+              "999 West Beverly ST"
+            ],
+            "city": "MY CITY",
+            "state": "CA",
+            "postalCode": "55405",
+            "country": "USA"
+          }
+        ],
+        "endpoint": [
+          {
+            "reference": "Endpoint/ips-base-endpoint-1"
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "https://sfp-proxy23604.azurewebsites.net/fhir/R4/Organization/003f3324-0406-4f4d-8362-ab5a36c70810",
+      "resource": {
+        "resourceType": "Organization",
+        "id": "003f3324-0406-4f4d-8362-ab5a36c70810",
+        "identifier": [
+          {
+            "_system": {
+              "extension": [
+                {
+                  "url": "http://hl7.org/fhir/StructureDefinition/data-absent-reason",
+                  "valueCode": "unknown"
+                }
+              ]
+            },
+            "_value": {
+              "extension": [
+                {
+                  "url": "http://hl7.org/fhir/StructureDefinition/data-absent-reason",
+                  "valueCode": "unknown"
+                }
+              ]
+            }
+          }
+        ],
+        "active": true,
+        "name": "Health Clinic 2",
+        "alias": [
+          "Health Clinic 2 LLC"
+        ],
+        "telecom": [
+          {
+            "system": "phone",
+            "value": "8887776666"
+          }
+        ],
+        "address": [
+          {
+            "line": [
+              "777 Holland ST"
+            ],
+            "city": "MY City",
+            "state": "NH",
+            "postalCode": "55405",
+            "country": "USA"
+          }
+        ],
+        "endpoint": [
+          {
+            "reference": "Endpoint/ips-base-endpoint-1"
+          }
+        ]
+      }
+    }
+	]
+	}
+	

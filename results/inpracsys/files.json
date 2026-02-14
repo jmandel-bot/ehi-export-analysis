@@ -1,0 +1,50 @@
+{
+  "collection_date": "2026-02-14",
+  "url": "http://www.inpracsys.com/disclosure",
+  "final_url": "https://inpracsys.com/disclosure/",
+  "access_status": "found",
+  "files": [
+    {
+      "path": "downloads/Disclosure-EHR-Inpracsys_NewV6.1.pdf",
+      "source_url": "https://inpracsys.com/wp-content/uploads/2025/12/Disclosure-EHR-Inpracsys_NewV6.1.pdf",
+      "size_bytes": 192354,
+      "description": "3-page mandatory disclosure PDF containing cost disclosures, certified criteria list, and the b(10) EHI export disclosure statement. The b(10) section states the export produces ZIP files containing XML files and links to the FHIR page for format details.",
+      "curl_command": "curl -sL 'https://inpracsys.com/wp-content/uploads/2025/12/Disclosure-EHR-Inpracsys_NewV6.1.pdf' -H 'User-Agent: Mozilla/5.0' -o Disclosure-EHR-Inpracsys_NewV6.1.pdf"
+    },
+    {
+      "path": "downloads/FhirServiceBaseBundleV10.json",
+      "source_url": "https://inpracsys.com/wp-content/uploads/2024/12/FhirServiceBaseBundleV10.json",
+      "size_bytes": 3982,
+      "description": "FHIR Bundle (collection) containing one Endpoint resource and two Organization resources. The Endpoint points to sfp-proxy23604.azurewebsites.net/fhir as the FHIR API base URL. Organizations contain placeholder/sample clinic data.",
+      "curl_command": "curl -sL 'https://inpracsys.com/wp-content/uploads/2024/12/FhirServiceBaseBundleV10.json' -H 'User-Agent: Mozilla/5.0' -o FhirServiceBaseBundleV10.json"
+    },
+    {
+      "path": "downloads/fhir-api-documentation-page.html",
+      "source_url": "https://inpracsys.com/fhir/",
+      "size_bytes": 691442,
+      "description": "Full HTML of the FHIR API documentation page, which is linked from the disclosure page as the 'EHI export format' documentation. Documents 15 FHIR resource type endpoints (Patient, SmokingStatus, Condition, Medication, AllergyIntolerance, LabOrders, DiagnosticOrder, Observation/Vitals, Procedures, Practitioner/CareTeam, Immunization, Device, CarePlan, Goal, HealthcareService/HealthConcerns) with field definitions, cardinality, data types, and sample JSON output.",
+      "curl_command": "curl -sL 'https://inpracsys.com/fhir/' -H 'User-Agent: Mozilla/5.0' -o fhir-api-documentation-page.html"
+    },
+    {
+      "path": "downloads/screenshot-disclosure-page.png",
+      "source_url": "https://inpracsys.com/disclosure/",
+      "size_bytes": 259436,
+      "description": "Screenshot of the disclosure page showing the embedded PDF viewer displaying the mandatory disclosure document.",
+      "curl_command": null
+    },
+    {
+      "path": "downloads/screenshot-disclosure-bottom.png",
+      "source_url": "https://inpracsys.com/disclosure/",
+      "size_bytes": 191134,
+      "description": "Screenshot of the bottom of the disclosure page showing the two download links: 'Download EHI export format here' (linking to /fhir) and 'Download Service URL Bundle here' (linking to the JSON file).",
+      "curl_command": null
+    },
+    {
+      "path": "downloads/screenshot-fhir-page.png",
+      "source_url": "https://inpracsys.com/fhir/",
+      "size_bytes": 305450,
+      "description": "Screenshot of the FHIR API documentation page showing the left navigation with resource types and the introduction section stating the EHI export produces ZIP files with XML.",
+      "curl_command": null
+    }
+  ]
+}

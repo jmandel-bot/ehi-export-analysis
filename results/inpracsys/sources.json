@@ -1,0 +1,85 @@
+{
+  "research_date": "2026-02-14",
+  "sources": [
+    {
+      "url": "https://www.inpracsys.com",
+      "type": "vendor-website",
+      "note": "Homepage with company description, product overview, module list, partner logos (SureScripts, DoseSpot, Dragon). Urology-focused EHR."
+    },
+    {
+      "url": "https://inpracsys.com/disclosure/",
+      "type": "mandatory-disclosures",
+      "note": "ONC certification statement, EHI export download link, FHIR service bundle link. Standard compliance page."
+    },
+    {
+      "url": "https://inpracsys.com/ehr-it-services/",
+      "type": "vendor-website",
+      "note": "Detailed module descriptions including MyEMR, Care Pathways, Risk Management, Data Mining, Clinical Trials, Billing. Urology focus emphasized."
+    },
+    {
+      "url": "https://inpracsys.com/ehr/",
+      "type": "vendor-website",
+      "note": "EHR feature page: point-and-click interface, FastCharting (30-second renal stone consult), urology templates, mobile access, voice dictation."
+    },
+    {
+      "url": "https://inpracsys.com/about-us/",
+      "type": "vendor-website",
+      "note": "Founder Dr. Ashu Kataria, company mission/philosophy. 'Built by urologists, with urologists in mind.'"
+    },
+    {
+      "url": "https://inpracsys.com/integration/",
+      "type": "vendor-website",
+      "note": "Integration details: lab interfaces, hospital interfaces, SureScripts, existing PM systems. FHIR API documentation link."
+    },
+    {
+      "url": "https://inpracsys.com/care-pathways/",
+      "type": "vendor-website",
+      "note": "PRACTICE iQ stepped therapy module. Manages drug program qualification, pre-authorization, billing. Claims $2,500-$7,500/patient revenue."
+    },
+    {
+      "url": "https://inpracsys.com/risk-management/",
+      "type": "vendor-website",
+      "note": "Clinical risk alerts for urology (stent tracking, missed ultrasounds). Available standalone for clinics using other EHRs. Related to RiskAssistMD."
+    },
+    {
+      "url": "https://inpracsys.com/meaningful-use/",
+      "type": "vendor-website",
+      "note": "MU attestation dashboard, CQM/PQRS support, automated reporting capabilities."
+    },
+    {
+      "url": "https://inpracsys.com/real-world-testing/",
+      "type": "vendor-website",
+      "note": "RWT results: tested at urology clinics, sample size n=10, 99% benchmark. Some criteria tested in InPracSys Lab (not at live clinic sites)."
+    },
+    {
+      "url": "https://inpracsys.com/rwt/",
+      "type": "vendor-website",
+      "note": "2023-2026 RWT plans/results. All criteria passed with 0 errors on n=10. Confirms very small deployment footprint."
+    },
+    {
+      "url": "https://inpracsys.com/demo-page/",
+      "type": "vendor-website",
+      "note": "Patient portal demo for Comprehensive Urologic Care, S.C. (Lake Barrington, IL). Reveals real customer name and portal URL."
+    },
+    {
+      "url": "https://inpracsys.com/resources/",
+      "type": "vendor-website",
+      "note": "Educational articles only (ICD-10, HIPAA, EHR tips). No case studies or customer testimonials found."
+    },
+    {
+      "url": "https://www.buzzfile.com/business/Inpracsys-612-455-6789",
+      "type": "business-directory",
+      "note": "Legal name Innovative Practice Systems, Inc. Founded 2003. ~25 employees, ~$820K revenue. Minneapolis, MN. SIC codes for computer services."
+    },
+    {
+      "url": "https://www.medicalrecords.com/mrcbase/emr/inpracsys-ehr-by-inpracsys",
+      "type": "third-party-listing",
+      "note": "Product listed but no substantive review content or user ratings found."
+    },
+    {
+      "url": "https://www.g2.com/search?utf8=%E2%9C%93&query=InPracSys",
+      "type": "third-party-review",
+      "note": "No G2 listing found for InPracSys. No reviews on any major review platform (also checked Capterra, Software Advice)."
+    }
+  ]
+}
