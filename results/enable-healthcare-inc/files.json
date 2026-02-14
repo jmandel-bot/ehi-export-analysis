@@ -1,0 +1,36 @@
+{
+  "collection_date": "2026-02-14",
+  "url": "https://provider.ehiehr.com/EHI_DATA_EXPort_GUIDE.pdf",
+  "final_url": "https://provider.ehiehr.com/EHI_DATA_EXPort_GUIDE.pdf",
+  "access_status": "found",
+  "files": [
+    {
+      "path": "downloads/EHI_DATA_EXPort_GUIDE.pdf",
+      "source_url": "https://provider.ehiehr.com/EHI_DATA_EXPort_GUIDE.pdf",
+      "size_bytes": 904203,
+      "description": "Main EHI export documentation PDF (9 pages). Describes scope of EHI export (health and financial data), eight export methods (FHIR API, C-CDA R2.1, CSV, HL7 v2 ADT/SIU/DFT, JSON for scanned documents, EDI 837P/835), and an optional incremental C-CDA data exchange service. Created December 2023.",
+      "curl_command": "curl -sk -L 'https://provider.ehiehr.com/EHI_DATA_EXPort_GUIDE.pdf' -H 'User-Agent: Mozilla/5.0' -o EHI_DATA_EXPort_GUIDE.pdf"
+    },
+    {
+      "path": "downloads/fhir-portal-landing.png",
+      "source_url": "https://fhir.ehiconnect.com/ehifhirportal/",
+      "size_bytes": 140865,
+      "description": "Screenshot of the Enable Healthcare FHIR portal landing page at fhir.ehiconnect.com/ehifhirportal/. Shows three cards: Testing Sandbox, Registration, and Documentation. This is the (g)(10) FHIR API portal referenced in the EHI export guide.",
+      "curl_command": null
+    },
+    {
+      "path": "downloads/fhir-api-documentation-page.png",
+      "source_url": "https://ehifire.ehiconnect.com/ehi/basepractice/r4/Home/ApiDocumentation",
+      "size_bytes": 348511,
+      "description": "Screenshot of the FHIR API documentation page (Dynamic FHIR branded). Shows standard FHIR R4 API documentation with SMART on FHIR authorization, resource endpoints, and Bulk Export client configuration. This is the (g)(10) Standardized API documentation, not a dedicated (b)(10) export mechanism.",
+      "curl_command": null
+    },
+    {
+      "path": "downloads/fhir-capability-statement.json",
+      "source_url": "https://ehifire.ehiconnect.com/fhir/ehi/basepractice/r4/metadata",
+      "size_bytes": 24771,
+      "description": "FHIR R4 CapabilityStatement from the Enable Healthcare FHIR server. Lists 27 supported resource types (standard US Core set: Patient, Condition, Procedure, Observation, DiagnosticReport, Goal, Immunization, CarePlan, CareTeam, MedicationRequest, AllergyIntolerance, Device, DocumentReference, etc.). Confirms this is a standard (g)(10) FHIR API.",
+      "curl_command": "curl -sk 'https://ehifire.ehiconnect.com/fhir/ehi/basepractice/r4/metadata' -H 'Accept: application/fhir+json' -o fhir-capability-statement.json"
+    }
+  ]
+}

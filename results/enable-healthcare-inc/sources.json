@@ -1,0 +1,75 @@
+{
+  "research_date": "2026-02-14",
+  "sources": [
+    {
+      "url": "https://www.ehiehr.com/",
+      "type": "vendor-website",
+      "note": "Main vendor website. Wix-based, client-side rendered — could not scrape content directly. Search engine snippets reveal positioning as EMR, medical billing services, and practice management company. Title references 'Top Electronic Medical Record & Medical Billing services.'"
+    },
+    {
+      "url": "https://www.ehiehr.com/homev2",
+      "type": "vendor-website",
+      "note": "Alternate homepage (2026 version). Same rendering issues. Search snippets mention ariaone AI platform, Lumina, revQ, and integrated EHR/PM/RCM solutions."
+    },
+    {
+      "url": "https://www.ehiehr.com/medical-billing-system",
+      "type": "vendor-website",
+      "note": "Medical billing system page. Could not render content. URL confirms dedicated billing product/service offering."
+    },
+    {
+      "url": "https://www.ehiehr.com/medical-billing-new-jersey",
+      "type": "vendor-website",
+      "note": "NJ-specific medical billing services page. Confirms Enable Healthcare markets billing services regionally."
+    },
+    {
+      "url": "https://www.findemr.com/mdnet-ehr",
+      "type": "third-party-review",
+      "note": "Comprehensive MDnet overview: cloud-based EHR, pricing tiers ($250-$550/month plus bundles), features including e-prescribing, patient portal, CCM, billing, scheduling, document management. Supported specialties: cardiology, OBGYN, pediatrics, behavioral health, internal medicine. User sentiment mixed — good on support and ease of use, negative on billing issues and customization."
+    },
+    {
+      "url": "https://www.softwareadvice.com/medical/enable-healthcare-ehr-profile/",
+      "type": "third-party-review",
+      "note": "Software Advice profile. MDnet described as comprehensive integrated EHR platform for 15+ years. Mentions AI-powered charting (EnableAssist), web-based, ONC-certified. Pricing from $250/provider/month."
+    },
+    {
+      "url": "https://www.capterra.com/p/10009831/Enable-Healthcare-EHR/",
+      "type": "third-party-review",
+      "note": "Capterra listing for MDnet EHR. Pricing and feature overview consistent with other sources."
+    },
+    {
+      "url": "https://www.getapp.com/healthcare-pharmaceuticals-software/a/enable-healthcare-ehr/",
+      "type": "third-party-review",
+      "note": "GetApp listing. Confirms features and pricing. Notes API availability."
+    },
+    {
+      "url": "https://apps.apple.com/us/app/mdnet/id1507223787",
+      "type": "app-store",
+      "note": "iOS App Store listing for MDNet app by Enable Healthcare Inc. Key details: touch-based EHR, voice recognition, telehealth, e-prescribing, electronic lab results, real-time analytics, multi-site/multi-specialty support, integrated chat. Version 1.2.4. Developer links to ehiconnect.com."
+    },
+    {
+      "url": "https://www.medicalrecords.com/mrcbase/emr/enable-healthcare-inc-mdnet-e-h-r",
+      "type": "third-party-directory",
+      "note": "MedicalRecords.com listing. Minimal content extractable due to rendering."
+    },
+    {
+      "url": "https://loinc.org/adopters/enable-healthcare-inc/",
+      "type": "standards-organization",
+      "note": "LOINC adopter listing — confirms Enable Healthcare uses LOINC coding standards."
+    },
+    {
+      "url": "https://www.linkedin.com/company/enable-healthcare-inc/",
+      "type": "company-profile",
+      "note": "LinkedIn profile. Reports 501-1000 employees, founded 2008, East Hanover NJ."
+    },
+    {
+      "url": "https://pitchbook.com/profiles/company/86347-81",
+      "type": "company-profile",
+      "note": "PitchBook profile. Reports 194 employees, founded 2006. Private company."
+    },
+    {
+      "url": "https://www.bbb.org/us/nj/east-hanover/profile/healthcare-management/enable-healthcare-inc-0221-90208692",
+      "type": "company-profile",
+      "note": "BBB listing. Confirms East Hanover, NJ location. Healthcare management category."
+    }
+  ]
+}
