@@ -1,0 +1,48 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "description": "",
+  "type": "array",
+  "items": {
+    "description": "",
+    "type": "object",
+    "properties": {
+      "fileId": {
+      "description": "",
+        "type": "number"
+      },
+      "healthExchangeId": {
+        "description": "",
+        "type": "number"
+      },
+      "patientId": {
+        "description": "",
+        "type": "number"
+      },
+      "exchangeName": {
+        "description": "",
+        "type": ["string", "null"]
+      },
+      "firstOrder": {
+        "description": "",
+        "type": ["string", "null"]
+      },
+      "location": {
+       "description": "",
+        "type": ["string", "null"]
+      },
+      "messageType": {
+        "description": "",
+        "type": ["string", "null"]
+      },
+      "hl7Data": {
+        "description": "",
+        "type": ["string", "null"]
+      },
+      "messageDateUtc": {
+       "description": "",
+        "type": ["string", "null"]
+      }
+    },
+    "required": ["fileId", "healthExchangeId", "patientId"]
+  }
+}

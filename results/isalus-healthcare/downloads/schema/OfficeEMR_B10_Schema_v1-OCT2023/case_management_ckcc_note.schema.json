@@ -1,0 +1,35 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "description": "",
+  "type": "array",
+  "items": {
+    "description": "",
+    "type": "object",
+    "properties": {
+      "noteId": {
+        "description": "",
+        "type": "number"
+      },
+      "caseManagementId": {
+        "description": "",
+        "type": "number"
+      },
+      "patientId": {
+        "description": "",
+        "type": "number"
+      },
+      "note": {
+        "description": "",
+        "type": "string"
+      },
+      "authorUserId": {
+        "description": "",
+        "type": "string"
+      },
+      "authorLogDateUtc": {
+        "description": "",
+        "type": "string"
+      }
+    }
+  }
+}

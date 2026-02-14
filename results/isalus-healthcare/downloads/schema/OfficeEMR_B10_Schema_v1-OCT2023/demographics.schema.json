@@ -1,0 +1,175 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "description": "",
+  "type": "array",
+  "items": {
+    "description": "",
+    "type": "object",
+    "properties": {
+      "patientId": {
+        "description": "",
+        "type": "number"
+      },
+      "firstName": {
+        "description": "",
+        "type": "string"
+      },
+      "middleName": {
+        "description": "",
+        "type": "string"
+      },
+      "lastName": {
+        "description": "",
+        "type": "string"
+      },
+      "nameSuffix": {
+        "description": "",
+        "type": "string"
+      },
+      "birthDate": {
+        "description": "",
+        "type": "string"
+      },
+      "deathDate": {
+        "description": "",
+        "type": "object"
+      },
+      "email": {
+        "description": "",
+        "type": "string"
+      },
+      "address1": {
+        "description": "",
+        "type": "string"
+      },
+      "address2": {
+        "description": "",
+        "type": "string"
+      },
+      "city": {
+        "description": "",
+        "type": "string"
+      },
+      "state": {
+        "description": "",
+        "type": "string"
+      },
+      "zipCode": {
+        "description": "",
+        "type": "string"
+      },
+      "countryCode": {
+        "description": "",
+        "type": "string"
+      },
+      "homePhone": {
+        "description": "",
+        "type": "string"
+      },
+      "homePhoneExt": {
+        "description": "",
+        "type": "object"
+      },
+      "workPhone": {
+        "description": "",
+        "type": "string"
+      },
+      "workPhoneExt": {
+        "description": "",
+        "type": "object"
+      },
+      "otherPhone": {
+        "description": "",
+        "type": "string"
+      },
+      "otherPhoneExt": {
+        "description": "",
+        "type": "object"
+      },
+      "signatureOnFileDate": {
+        "description": "",
+        "type": "string"
+      },
+      "primaryIdType": {
+        "description": "",
+        "type": "string"
+      },
+      "primaryIdValue": {
+        "description": "",
+        "type": "string"
+      },
+      "secondaryIdType": {
+        "description": "",
+        "type": "string"
+      },
+      "secondaryIdValue": {
+        "description": "",
+        "type": "string"
+      },
+      "gender": {
+        "description": "",
+        "type": "string"
+      },
+      "maritalStatus": {
+        "description": "",
+        "type": "string"
+      },
+      "student": {
+        "description": "",
+        "type": "string"
+      },
+      "employmentStatus": {
+        "description": "",
+        "type": "string"
+      },
+      "employer": {
+        "description": "",
+        "type": "string"
+      },
+      "ethnicity": {
+        "description": "",
+        "type": "string"
+      },
+      "raceList": {
+        "description": "",
+        "type": "string"
+      },
+      "language": {
+        "description": "",
+        "type": "string"
+      },
+      "reminderPreferred": {
+        "description": "",
+        "type": "object"
+      },
+      "doctorName": {
+        "description": "",
+        "type": "string"
+      },
+      "primaryCarePhysicianName": {
+        "description": "",
+        "type": "string"
+      },
+      "referringName": {
+        "description": "",
+        "type": "string"
+      },
+      "rxHistoryConsent": {
+        "description": "",
+        "type": "string"
+      },
+      "oldPatientId": {
+        "description": "",
+        "type": "string"
+      },
+      "oldPatientId1": {
+        "description": "",
+        "type": "object"
+      },
+      "oldPatientId2": {
+        "description": "",
+        "type": "object"
+      }
+    }
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "description": "",
+  "type": "array",
+  "items": {
+    "description": "",
+    "type": "object",
+    "properties": {
+      "rowIdentifier": {
+        "description": "",
+        "type": "number"
+      },
+      "patientId": {
+        "description": "",
+        "type": "number"
+      },
+      "subject": {
+        "description": "",
+        "type": "string"
+      },
+      "messageFrom": {
+        "description": "",
+        "type": "string"
+      },
+      "messageTo": {
+        "description": "",
+        "type": "string"
+      },
+      "message": {
+        "description": "",
+        "type": "string"
+      },
+      "status": {
+        "description": "",
+        "type": "string"
+      },
+      "responseFrom": {
+        "description": "",
+        "type": "string"
+      },
+      "responseMessage": {
+        "description": "",
+        "type": "string"
+      },
+      "messageDateUtc": {
+        "description": "",
+        "type": "string"
+      },
+      "responseDateUtc": {
+        "description": "",
+        "type": "string"
+      },
+      "providerName": {
+        "description": "",
+        "type": "object"
+      }
+    }
+  }
+}

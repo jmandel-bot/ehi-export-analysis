@@ -1,0 +1,35 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "description": "",
+  "type": "array",
+  "items": {
+    "description": "",
+    "type": "object",
+    "properties": {
+      "patientLetterId": {
+        "description": "",
+        "type": "number"
+      },
+      "patientId": {
+        "description": "",
+        "type": "number"
+      },
+      "letterName": {
+        "description": "",
+        "type": "string"
+      },
+      "status": {
+        "description": "",
+        "type": "string"
+      },
+      "letterData": {
+        "description": "",
+        "type": "string"
+      },
+      "created": {
+        "description": "",
+        "type": "string"
+      }
+    }
+  }
+}

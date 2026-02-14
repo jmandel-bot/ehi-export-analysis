@@ -1,0 +1,56 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+   "description": "",
+  "type": "array",
+  "items": {
+     "description": "",
+    "type": "object",
+    "properties": {
+      "rowIdentifier": {
+         "description": "",
+        "type": "number"
+      },
+      "patientId": {
+         "description": "",
+        "type": "number"
+      },
+      "slidingFeeId": {
+         "description": "",
+        "type": "number"
+      },
+      "householdSize": {
+         "description": "",
+        "type": ["number", "null"]
+      },
+      "yearlyIncome": {
+         "description": "",
+        "type": ["string", "null"]
+      },
+      "startingDate": {
+         "description": "",
+        "type": ["string", "null"]
+      },
+      "endingDate": {
+         "description": "",
+        "type": ["string", "null"]
+      },
+      "groupName": {
+         "description": "",
+        "type": ["string", "null"]
+      },
+      "chargePercent": {
+         "description": "",
+        "type": ["number", "null"]
+      },
+      "authorUserId": {
+         "description": "",
+        "type": ["string", "null"]
+      },
+      "authorLogDateUtc": {
+         "description": "",
+        "type": ["string", "null"]
+      }
+    },
+    "required": ["rowIdentifier", "patientId", "slidingFeeId"]
+  }
+}

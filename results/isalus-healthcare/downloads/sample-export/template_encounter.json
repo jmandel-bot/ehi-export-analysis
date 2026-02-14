@@ -1,0 +1,1434 @@
+﻿[
+  {
+    "encounterId": 4980,
+    "patientId": 311322,
+    "encounterDate": "20150302",
+    "templateType": "Orders",
+    "authorUserId": "!blake",
+    "authorLogDateUtc": "20150302143307-0400"
+  },
+  {
+    "encounterId": 4981,
+    "patientId": 311322,
+    "encounterDate": "20150302",
+    "templateType": "Orders",
+    "authorUserId": "!blake",
+    "authorLogDateUtc": "20150302143316-0400"
+  },
+  {
+    "encounterId": 4983,
+    "patientId": 311322,
+    "encounterDate": "20150302",
+    "templateType": "Exams",
+    "authorUserId": "!blake",
+    "authorLogDateUtc": "20150302144817-0400"
+  },
+  {
+    "encounterId": 5598,
+    "patientId": 311322,
+    "encounterDate": "20170109",
+    "templateType": "Treatment Plans",
+    "authorUserId": "!adam",
+    "authorLogDateUtc": "20170109181628-0400"
+  },
+  {
+    "encounterId": 5599,
+    "patientId": 311322,
+    "encounterDate": "20170111",
+    "templateType": "Exams",
+    "authorUserId": "!dlaitala",
+    "authorLogDateUtc": "20170111095407-0400"
+  },
+  {
+    "encounterId": 5602,
+    "patientId": 311322,
+    "encounterDate": "20170112",
+    "templateType": "Exams",
+    "authorUserId": "!adam",
+    "authorLogDateUtc": "20170112141500-0400"
+  },
+  {
+    "encounterId": 5681,
+    "patientId": 311322,
+    "encounterDate": "20170320",
+    "templateType": "Exams",
+    "authorUserId": "!blake",
+    "authorLogDateUtc": "20170320095824-0400"
+  },
+  {
+    "encounterId": 5688,
+    "patientId": 311322,
+    "encounterDate": "20170405",
+    "templateType": "Orders",
+    "authorUserId": "!adam",
+    "authorLogDateUtc": "20170405140445-0400"
+  },
+  {
+    "encounterId": 5690,
+    "patientId": 311322,
+    "encounterDate": "20170405",
+    "templateType": "Orders",
+    "authorUserId": "!adam",
+    "authorLogDateUtc": "20170405174303-0400"
+  },
+  {
+    "encounterId": 6175,
+    "patientId": 311322,
+    "encounterDate": "20180813",
+    "templateType": "Orders",
+    "authorUserId": "cdaoud",
+    "authorLogDateUtc": "20180813115751-0400"
+  },
+  {
+    "encounterId": 6476,
+    "patientId": 311322,
+    "encounterDate": "20181203",
+    "templateType": "Orders",
+    "authorUserId": "!dlaitala",
+    "authorLogDateUtc": "20181203105818-0400"
+  },
+  {
+    "encounterId": 6477,
+    "patientId": 311322,
+    "encounterDate": "20181203",
+    "templateType": "Orders",
+    "authorUserId": "!dlaitala",
+    "authorLogDateUtc": "20181203105830-0400"
+  },
+  {
+    "encounterId": 6700,
+    "patientId": 311322,
+    "encounterDate": "20190305",
+    "templateType": "Exams",
+    "authorUserId": "cdaoud",
+    "authorLogDateUtc": "20190305091835-0400"
+  },
+  {
+    "encounterId": 6883,
+    "patientId": 311322,
+    "encounterDate": "20190328",
+    "templateType": "Orders",
+    "authorUserId": "!dlaitala",
+    "authorLogDateUtc": "20190328113131-0400"
+  },
+  {
+    "encounterId": 6992,
+    "patientId": 311322,
+    "encounterDate": "20190416",
+    "templateType": "Orders",
+    "authorUserId": "!dlaitala",
+    "authorLogDateUtc": "20190416141047-0400"
+  },
+  {
+    "encounterId": 7068,
+    "patientId": 311322,
+    "encounterDate": "20190507",
+    "templateType": "Treatment Plans",
+    "authorUserId": "!awade",
+    "authorLogDateUtc": "20190507133645-0400"
+  },
+  {
+    "encounterId": 7172,
+    "patientId": 311322,
+    "encounterDate": "20190613",
+    "templateType": "Orders",
+    "authorUserId": "cdaoud",
+    "authorLogDateUtc": "20190613075513-0400"
+  },
+  {
+    "encounterId": 7173,
+    "patientId": 311322,
+    "encounterDate": "20190613",
+    "templateType": "Exams",
+    "authorUserId": "cdaoud",
+    "authorLogDateUtc": "20190613075524-0400"
+  },
+  {
+    "encounterId": 7174,
+    "patientId": 311322,
+    "encounterDate": "20190613",
+    "templateType": "Exams",
+    "authorUserId": "cdaoud",
+    "authorLogDateUtc": "20190613075536-0400"
+  },
+  {
+    "encounterId": 8318,
+    "patientId": 311322,
+    "encounterDate": "20200520",
+    "templateType": "Exams",
+    "authorUserId": "brad",
+    "authorLogDateUtc": "20200520094023-0400"
+  },
+  {
+    "encounterId": 8319,
+    "patientId": 311322,
+    "encounterDate": "20200520",
+    "templateType": "Exams",
+    "authorUserId": "!cdaoud",
+    "authorLogDateUtc": "20200520161255-0400"
+  },
+  {
+    "encounterId": 8329,
+    "patientId": 311322,
+    "encounterDate": "20200520",
+    "templateType": "Exams",
+    "authorUserId": "!cdaoud",
+    "authorLogDateUtc": "20200521100140-0400"
+  },
+  {
+    "encounterId": 8330,
+    "patientId": 311322,
+    "encounterDate": "20200925",
+    "templateType": "Patient History",
+    "authorUserId": "!cdaoud",
+    "authorLogDateUtc": "20200925142444-0400"
+  },
+  {
+    "encounterId": 8331,
+    "patientId": 311322,
+    "encounterDate": "20200520",
+    "templateType": "History of Present Illness",
+    "authorUserId": "!cdaoud",
+    "authorLogDateUtc": "20200521100254-0400"
+  },
+  {
+    "encounterId": 8332,
+    "patientId": 311322,
+    "encounterDate": "20200520",
+    "templateType": "Treatment Plans",
+    "authorUserId": "!cdaoud",
+    "authorLogDateUtc": "20200521100316-0400"
+  },
+  {
+    "encounterId": 8333,
+    "patientId": 311322,
+    "encounterDate": "20200520",
+    "templateType": "Exams",
+    "authorUserId": "!cdaoud",
+    "authorLogDateUtc": "20200521100739-0400"
+  },
+  {
+    "encounterId": 8334,
+    "patientId": 311322,
+    "encounterDate": "20200520",
+    "templateType": "Exams",
+    "authorUserId": "!cdaoud",
+    "authorLogDateUtc": "20200521100747-0400"
+  },
+  {
+    "encounterId": 8335,
+    "patientId": 311322,
+    "encounterDate": "20200520",
+    "templateType": "Exams",
+    "authorUserId": "!cdaoud",
+    "authorLogDateUtc": "20200521100823-0400"
+  },
+  {
+    "encounterId": 8336,
+    "patientId": 311322,
+    "encounterDate": "20200520",
+    "templateType": "Exams",
+    "authorUserId": "!cdaoud",
+    "authorLogDateUtc": "20200521101016-0400"
+  },
+  {
+    "encounterId": 8337,
+    "patientId": 311322,
+    "encounterDate": "20200520",
+    "templateType": "Exams",
+    "authorUserId": "!cdaoud",
+    "authorLogDateUtc": "20200521101111-0400"
+  },
+  {
+    "encounterId": 8338,
+    "patientId": 311322,
+    "encounterDate": "20200521",
+    "templateType": "Exams",
+    "authorUserId": "!cdaoud",
+    "authorLogDateUtc": "20200521101915-0400"
+  },
+  {
+    "encounterId": 8339,
+    "patientId": 311322,
+    "encounterDate": "20200521",
+    "templateType": "Exams",
+    "authorUserId": "!cdaoud",
+    "authorLogDateUtc": "20200521101915-0400"
+  },
+  {
+    "encounterId": 8340,
+    "patientId": 311322,
+    "encounterDate": "20200521",
+    "templateType": "Exams",
+    "authorUserId": "!cdaoud",
+    "authorLogDateUtc": "20200521101915-0400"
+  },
+  {
+    "encounterId": 8341,
+    "patientId": 311322,
+    "encounterDate": "20200521",
+    "templateType": "Exams",
+    "authorUserId": "!cdaoud",
+    "authorLogDateUtc": "20200521101915-0400"
+  },
+  {
+    "encounterId": 8342,
+    "patientId": 311322,
+    "encounterDate": "20200521",
+    "templateType": "Exams",
+    "authorUserId": "!cdaoud",
+    "authorLogDateUtc": "20200521101915-0400"
+  },
+  {
+    "encounterId": 8343,
+    "patientId": 311322,
+    "encounterDate": "20200521",
+    "templateType": "Exams",
+    "authorUserId": "!cdaoud",
+    "authorLogDateUtc": "20200521101915-0400"
+  },
+  {
+    "encounterId": 8344,
+    "patientId": 311322,
+    "encounterDate": "20200521",
+    "templateType": "Exams",
+    "authorUserId": "!cdaoud",
+    "authorLogDateUtc": "20200521101915-0400"
+  },
+  {
+    "encounterId": 8345,
+    "patientId": 311322,
+    "encounterDate": "20200521",
+    "templateType": "History of Present Illness",
+    "authorUserId": "!cdaoud",
+    "authorLogDateUtc": "20200521101915-0400"
+  },
+  {
+    "encounterId": 8346,
+    "patientId": 311322,
+    "encounterDate": "20200521",
+    "templateType": "Treatment Plans",
+    "authorUserId": "!cdaoud",
+    "authorLogDateUtc": "20200521101915-0400"
+  },
+  {
+    "encounterId": 8347,
+    "patientId": 311322,
+    "encounterDate": "20200521",
+    "templateType": "Exams",
+    "authorUserId": "!cdaoud",
+    "authorLogDateUtc": "20200521102315-0400"
+  },
+  {
+    "encounterId": 8348,
+    "patientId": 311322,
+    "encounterDate": "20200521",
+    "templateType": "Exams",
+    "authorUserId": "!cdaoud",
+    "authorLogDateUtc": "20200521102347-0400"
+  },
+  {
+    "encounterId": 8349,
+    "patientId": 311322,
+    "encounterDate": "20200510",
+    "templateType": "Exams",
+    "authorUserId": "!cdaoud",
+    "authorLogDateUtc": "20200521102858-0400"
+  },
+  {
+    "encounterId": 8350,
+    "patientId": 311322,
+    "encounterDate": "20200510",
+    "templateType": "Exams",
+    "authorUserId": "!cdaoud",
+    "authorLogDateUtc": "20200521102858-0400"
+  },
+  {
+    "encounterId": 8351,
+    "patientId": 311322,
+    "encounterDate": "20200510",
+    "templateType": "Exams",
+    "authorUserId": "!cdaoud",
+    "authorLogDateUtc": "20200521102858-0400"
+  },
+  {
+    "encounterId": 8352,
+    "patientId": 311322,
+    "encounterDate": "20200510",
+    "templateType": "Exams",
+    "authorUserId": "!cdaoud",
+    "authorLogDateUtc": "20200521102858-0400"
+  },
+  {
+    "encounterId": 8353,
+    "patientId": 311322,
+    "encounterDate": "20200510",
+    "templateType": "Exams",
+    "authorUserId": "!cdaoud",
+    "authorLogDateUtc": "20200521102858-0400"
+  },
+  {
+    "encounterId": 8354,
+    "patientId": 311322,
+    "encounterDate": "20200510",
+    "templateType": "Exams",
+    "authorUserId": "!cdaoud",
+    "authorLogDateUtc": "20200521102858-0400"
+  },
+  {
+    "encounterId": 8355,
+    "patientId": 311322,
+    "encounterDate": "20200510",
+    "templateType": "Exams",
+    "authorUserId": "!cdaoud",
+    "authorLogDateUtc": "20200521102858-0400"
+  },
+  {
+    "encounterId": 8356,
+    "patientId": 311322,
+    "encounterDate": "20200510",
+    "templateType": "Exams",
+    "authorUserId": "!cdaoud",
+    "authorLogDateUtc": "20200521102858-0400"
+  },
+  {
+    "encounterId": 8357,
+    "patientId": 311322,
+    "encounterDate": "20200510",
+    "templateType": "History of Present Illness",
+    "authorUserId": "!cdaoud",
+    "authorLogDateUtc": "20200521102858-0400"
+  },
+  {
+    "encounterId": 8358,
+    "patientId": 311322,
+    "encounterDate": "20200510",
+    "templateType": "Treatment Plans",
+    "authorUserId": "!cdaoud",
+    "authorLogDateUtc": "20200521102858-0400"
+  },
+  {
+    "encounterId": 8359,
+    "patientId": 311322,
+    "encounterDate": "20200511",
+    "templateType": "Exams",
+    "authorUserId": "!cdaoud",
+    "authorLogDateUtc": "20200521103108-0400"
+  },
+  {
+    "encounterId": 8360,
+    "patientId": 311322,
+    "encounterDate": "20200511",
+    "templateType": "Exams",
+    "authorUserId": "!cdaoud",
+    "authorLogDateUtc": "20200521103108-0400"
+  },
+  {
+    "encounterId": 8361,
+    "patientId": 311322,
+    "encounterDate": "20200511",
+    "templateType": "Exams",
+    "authorUserId": "!cdaoud",
+    "authorLogDateUtc": "20200521103108-0400"
+  },
+  {
+    "encounterId": 8362,
+    "patientId": 311322,
+    "encounterDate": "20200511",
+    "templateType": "Exams",
+    "authorUserId": "!cdaoud",
+    "authorLogDateUtc": "20200521103108-0400"
+  },
+  {
+    "encounterId": 8363,
+    "patientId": 311322,
+    "encounterDate": "20200511",
+    "templateType": "Exams",
+    "authorUserId": "!cdaoud",
+    "authorLogDateUtc": "20200521103108-0400"
+  },
+  {
+    "encounterId": 8364,
+    "patientId": 311322,
+    "encounterDate": "20200511",
+    "templateType": "Exams",
+    "authorUserId": "!cdaoud",
+    "authorLogDateUtc": "20200521103108-0400"
+  },
+  {
+    "encounterId": 8365,
+    "patientId": 311322,
+    "encounterDate": "20200511",
+    "templateType": "Exams",
+    "authorUserId": "!cdaoud",
+    "authorLogDateUtc": "20200521103108-0400"
+  },
+  {
+    "encounterId": 8366,
+    "patientId": 311322,
+    "encounterDate": "20200511",
+    "templateType": "Exams",
+    "authorUserId": "!cdaoud",
+    "authorLogDateUtc": "20200521103108-0400"
+  },
+  {
+    "encounterId": 8367,
+    "patientId": 311322,
+    "encounterDate": "20200511",
+    "templateType": "History of Present Illness",
+    "authorUserId": "!cdaoud",
+    "authorLogDateUtc": "20200521103108-0400"
+  },
+  {
+    "encounterId": 8368,
+    "patientId": 311322,
+    "encounterDate": "20200511",
+    "templateType": "Treatment Plans",
+    "authorUserId": "!cdaoud",
+    "authorLogDateUtc": "20200521103108-0400"
+  },
+  {
+    "encounterId": 8369,
+    "patientId": 311322,
+    "encounterDate": "20200521",
+    "templateType": "Exams",
+    "authorUserId": "admin",
+    "authorLogDateUtc": "20200521103644-0400"
+  },
+  {
+    "encounterId": 8370,
+    "patientId": 311322,
+    "encounterDate": "20200521",
+    "templateType": "Review of Systems",
+    "authorUserId": "admin",
+    "authorLogDateUtc": "20200521104402-0400"
+  },
+  {
+    "encounterId": 8371,
+    "patientId": 311322,
+    "encounterDate": "20200521",
+    "templateType": "Exams",
+    "authorUserId": "admin",
+    "authorLogDateUtc": "20200521104402-0400"
+  },
+  {
+    "encounterId": 8372,
+    "patientId": 311322,
+    "encounterDate": "20200521",
+    "templateType": "Exams",
+    "authorUserId": "admin",
+    "authorLogDateUtc": "20200521104740-0400"
+  },
+  {
+    "encounterId": 8373,
+    "patientId": 311322,
+    "encounterDate": "20200522",
+    "templateType": "Exams",
+    "authorUserId": "!cdaoud",
+    "authorLogDateUtc": "20200521104900-0400"
+  },
+  {
+    "encounterId": 8374,
+    "patientId": 311322,
+    "encounterDate": "20200522",
+    "templateType": "Exams",
+    "authorUserId": "!cdaoud",
+    "authorLogDateUtc": "20200521104911-0400"
+  },
+  {
+    "encounterId": 8384,
+    "patientId": 311322,
+    "encounterDate": "20200602",
+    "templateType": "Exams",
+    "authorUserId": "cdaoud",
+    "authorLogDateUtc": "20200602110218-0400"
+  },
+  {
+    "encounterId": 8385,
+    "patientId": 311322,
+    "encounterDate": "20200602",
+    "templateType": "Exams",
+    "authorUserId": "cdaoud",
+    "authorLogDateUtc": "20200602113653-0400"
+  },
+  {
+    "encounterId": 8521,
+    "patientId": 311322,
+    "encounterDate": "20200728",
+    "templateType": "Orders",
+    "authorUserId": "!wcassady",
+    "authorLogDateUtc": "20200728155416-0400"
+  },
+  {
+    "encounterId": 8523,
+    "patientId": 311322,
+    "encounterDate": "20200729",
+    "templateType": "Orders",
+    "authorUserId": "!cdaoud",
+    "authorLogDateUtc": "20200729114003-0400"
+  },
+  {
+    "encounterId": 8591,
+    "patientId": 311322,
+    "encounterDate": "20200824",
+    "templateType": "Exams",
+    "authorUserId": "!cdaoud",
+    "authorLogDateUtc": "20200824165332-0400"
+  },
+  {
+    "encounterId": 8592,
+    "patientId": 311322,
+    "encounterDate": "20200825",
+    "templateType": "History of Present Illness",
+    "authorUserId": "!wcassady",
+    "authorLogDateUtc": "20200910103047-0400"
+  },
+  {
+    "encounterId": 8593,
+    "patientId": 311322,
+    "encounterDate": "20200825",
+    "templateType": "Review of Systems",
+    "authorUserId": "!cdaoud",
+    "authorLogDateUtc": "20200825084128-0400"
+  },
+  {
+    "encounterId": 8594,
+    "patientId": 311322,
+    "encounterDate": "20200825",
+    "templateType": "Exams",
+    "authorUserId": "!cdaoud",
+    "authorLogDateUtc": "20200825084313-0400"
+  },
+  {
+    "encounterId": 8606,
+    "patientId": 311322,
+    "encounterDate": "20200828",
+    "templateType": "Assessment",
+    "authorUserId": "!cdaoud",
+    "authorLogDateUtc": "20200828150350-0400"
+  },
+  {
+    "encounterId": 8617,
+    "patientId": 311322,
+    "encounterDate": "20200904",
+    "templateType": "Orders",
+    "authorUserId": "!cdaoud",
+    "authorLogDateUtc": "20200904144916-0400"
+  },
+  {
+    "encounterId": 8619,
+    "patientId": 311322,
+    "encounterDate": "20200908",
+    "templateType": "Orders",
+    "authorUserId": "!cdaoud",
+    "authorLogDateUtc": "20200908090853-0400"
+  },
+  {
+    "encounterId": 8622,
+    "patientId": 311322,
+    "encounterDate": "20200908",
+    "templateType": "Orders",
+    "authorUserId": "!cdaoud",
+    "authorLogDateUtc": "20200908092152-0400"
+  },
+  {
+    "encounterId": 8623,
+    "patientId": 311322,
+    "encounterDate": "20200908",
+    "templateType": "Orders",
+    "authorUserId": "!cdaoud",
+    "authorLogDateUtc": "20200908092409-0400"
+  },
+  {
+    "encounterId": 8624,
+    "patientId": 311322,
+    "encounterDate": "20200908",
+    "templateType": "Orders",
+    "authorUserId": "!cdaoud",
+    "authorLogDateUtc": "20200908092500-0400"
+  },
+  {
+    "encounterId": 8626,
+    "patientId": 311322,
+    "encounterDate": "20200908",
+    "templateType": "Orders",
+    "authorUserId": "!cdaoud",
+    "authorLogDateUtc": "20200908092940-0400"
+  },
+  {
+    "encounterId": 8631,
+    "patientId": 311322,
+    "encounterDate": "20200909",
+    "templateType": "Orders",
+    "authorUserId": "!dlaitala",
+    "authorLogDateUtc": "20200909125611-0400"
+  },
+  {
+    "encounterId": 8654,
+    "patientId": 311322,
+    "encounterDate": "20200924",
+    "templateType": "Orders",
+    "authorUserId": "!wcassady",
+    "authorLogDateUtc": "20200924110540-0400"
+  },
+  {
+    "encounterId": 8655,
+    "patientId": 311322,
+    "encounterDate": "20200924",
+    "templateType": "Order Fulfillment",
+    "authorUserId": "!wcassady",
+    "authorLogDateUtc": "20200924110540-0400"
+  },
+  {
+    "encounterId": 8656,
+    "patientId": 311322,
+    "encounterDate": "20200924",
+    "templateType": "Orders",
+    "authorUserId": "!wcassady",
+    "authorLogDateUtc": "20200924161727-0400"
+  },
+  {
+    "encounterId": 8657,
+    "patientId": 311322,
+    "encounterDate": "20200924",
+    "templateType": "Orders",
+    "authorUserId": "!wcassady",
+    "authorLogDateUtc": "20200924162456-0400"
+  },
+  {
+    "encounterId": 8661,
+    "patientId": 311322,
+    "encounterDate": "20200925",
+    "templateType": "Orders",
+    "authorUserId": "!cdaoud",
+    "authorLogDateUtc": "20200925113154-0400"
+  },
+  {
+    "encounterId": 8662,
+    "patientId": 311322,
+    "encounterDate": "20200925",
+    "templateType": "Orders",
+    "authorUserId": "!cdaoud",
+    "authorLogDateUtc": "20200925113220-0400"
+  },
+  {
+    "encounterId": 8666,
+    "patientId": 311322,
+    "encounterDate": "20200925",
+    "templateType": "Orders",
+    "authorUserId": "brad",
+    "authorLogDateUtc": "20200925141635-0400"
+  },
+  {
+    "encounterId": 8667,
+    "patientId": 311322,
+    "encounterDate": "20200925",
+    "templateType": "Order Fulfillment",
+    "authorUserId": "brad",
+    "authorLogDateUtc": "20200925141635-0400"
+  },
+  {
+    "encounterId": 8668,
+    "patientId": 311322,
+    "encounterDate": "20200925",
+    "templateType": "Orders",
+    "authorUserId": "!cdaoud",
+    "authorLogDateUtc": "20200925143740-0400"
+  },
+  {
+    "encounterId": 8669,
+    "patientId": 311322,
+    "encounterDate": "20200925",
+    "templateType": "Orders",
+    "authorUserId": "!cdaoud",
+    "authorLogDateUtc": "20200925145146-0400"
+  },
+  {
+    "encounterId": 8670,
+    "patientId": 311322,
+    "encounterDate": "20200925",
+    "templateType": "Orders",
+    "authorUserId": "!cdaoud",
+    "authorLogDateUtc": "20200925150058-0400"
+  },
+  {
+    "encounterId": 8672,
+    "patientId": 311322,
+    "encounterDate": "20200925",
+    "templateType": "Orders",
+    "authorUserId": "!cdaoud",
+    "authorLogDateUtc": "20200925165555-0400"
+  },
+  {
+    "encounterId": 8695,
+    "patientId": 311322,
+    "encounterDate": "20201007",
+    "templateType": "Orders",
+    "authorUserId": "!cdaoud",
+    "authorLogDateUtc": "20201007095203-0400"
+  },
+  {
+    "encounterId": 8696,
+    "patientId": 311322,
+    "encounterDate": "20201007",
+    "templateType": "Orders",
+    "authorUserId": "!cdaoud",
+    "authorLogDateUtc": "20201007161439-0400"
+  },
+  {
+    "encounterId": 8697,
+    "patientId": 311322,
+    "encounterDate": "20201007",
+    "templateType": "Orders",
+    "authorUserId": "!cdaoud",
+    "authorLogDateUtc": "20201007163129-0400"
+  },
+  {
+    "encounterId": 8698,
+    "patientId": 311322,
+    "encounterDate": "20201007",
+    "templateType": "Orders",
+    "authorUserId": "!cdaoud",
+    "authorLogDateUtc": "20201007163549-0400"
+  },
+  {
+    "encounterId": 8710,
+    "patientId": 311322,
+    "encounterDate": "20201008",
+    "templateType": "Orders",
+    "authorUserId": "!cdaoud",
+    "authorLogDateUtc": "20201008140926-0400"
+  },
+  {
+    "encounterId": 8711,
+    "patientId": 311322,
+    "encounterDate": "20201008",
+    "templateType": "Orders",
+    "authorUserId": "!cdaoud",
+    "authorLogDateUtc": "20201008140944-0400"
+  },
+  {
+    "encounterId": 8736,
+    "patientId": 311322,
+    "encounterDate": "20201009",
+    "templateType": "Exams",
+    "authorUserId": "!cdaoud",
+    "authorLogDateUtc": "20201009155214-0400"
+  },
+  {
+    "encounterId": 8745,
+    "patientId": 311322,
+    "encounterDate": "20201022",
+    "templateType": "Orders",
+    "authorUserId": "!cdaoud",
+    "authorLogDateUtc": "20201022090854-0400"
+  },
+  {
+    "encounterId": 8746,
+    "patientId": 311322,
+    "encounterDate": "20201022",
+    "templateType": "Order Fulfillment",
+    "authorUserId": "!cdaoud",
+    "authorLogDateUtc": "20201022090854-0400"
+  },
+  {
+    "encounterId": 8747,
+    "patientId": 311322,
+    "encounterDate": "20201022",
+    "templateType": "Order Fulfillment",
+    "authorUserId": "cdaoud",
+    "authorLogDateUtc": "20210201140832-0400"
+  },
+  {
+    "encounterId": 8769,
+    "patientId": 311322,
+    "encounterDate": "20201103",
+    "templateType": "Orders",
+    "authorUserId": "!cdaoud",
+    "authorLogDateUtc": "20201104105141-0400"
+  },
+  {
+    "encounterId": 8770,
+    "patientId": 311322,
+    "encounterDate": "20201103",
+    "templateType": "Orders",
+    "authorUserId": "!cdaoud",
+    "authorLogDateUtc": "20201104105649-0400"
+  },
+  {
+    "encounterId": 8817,
+    "patientId": 311322,
+    "encounterDate": "20210201",
+    "templateType": "Orders",
+    "authorUserId": "cdaoud",
+    "authorLogDateUtc": "20210201140634-0400"
+  },
+  {
+    "encounterId": 9239,
+    "patientId": 311322,
+    "encounterDate": "20210628",
+    "templateType": "Orders",
+    "authorUserId": "!bevans",
+    "authorLogDateUtc": "20210628115820-0400"
+  },
+  {
+    "encounterId": 9281,
+    "patientId": 311322,
+    "encounterDate": "20210810",
+    "templateType": "Orders",
+    "authorUserId": "cdaoud",
+    "authorLogDateUtc": "20210810081607-0400"
+  },
+  {
+    "encounterId": 9283,
+    "patientId": 311322,
+    "encounterDate": "20210810",
+    "templateType": "Orders",
+    "authorUserId": "wcassady",
+    "authorLogDateUtc": "20210810114608-0400"
+  },
+  {
+    "encounterId": 9286,
+    "patientId": 311322,
+    "encounterDate": "20210812",
+    "templateType": "History of Present Illness",
+    "authorUserId": "cdaoud",
+    "authorLogDateUtc": "20210812110404-0400"
+  },
+  {
+    "encounterId": 9311,
+    "patientId": 311322,
+    "encounterDate": "20210902",
+    "templateType": "Orders",
+    "authorUserId": "cdaoud",
+    "authorLogDateUtc": "20210902095238-0400"
+  },
+  {
+    "encounterId": 9312,
+    "patientId": 311322,
+    "encounterDate": "20210902",
+    "templateType": "Orders",
+    "authorUserId": "cdaoud",
+    "authorLogDateUtc": "20210902095315-0400"
+  },
+  {
+    "encounterId": 9313,
+    "patientId": 311322,
+    "encounterDate": "20210902",
+    "templateType": "Orders",
+    "authorUserId": "cdaoud",
+    "authorLogDateUtc": "20210902095452-0400"
+  },
+  {
+    "encounterId": 9315,
+    "patientId": 311322,
+    "encounterDate": "20210902",
+    "templateType": "Orders",
+    "authorUserId": "cdaoud",
+    "authorLogDateUtc": "20210902143349-0400"
+  },
+  {
+    "encounterId": 9316,
+    "patientId": 311322,
+    "encounterDate": "20210902",
+    "templateType": "Orders",
+    "authorUserId": "cdaoud",
+    "authorLogDateUtc": "20210902143504-0400"
+  },
+  {
+    "encounterId": 9318,
+    "patientId": 311322,
+    "encounterDate": "20210903",
+    "templateType": "Orders",
+    "authorUserId": "cdaoud",
+    "authorLogDateUtc": "20210903152720-0400"
+  },
+  {
+    "encounterId": 9329,
+    "patientId": 311322,
+    "encounterDate": "20210913",
+    "templateType": "Orders",
+    "authorUserId": "cdaoud",
+    "authorLogDateUtc": "20210913102502-0400"
+  },
+  {
+    "encounterId": 9331,
+    "patientId": 311322,
+    "encounterDate": "20210913",
+    "templateType": "Orders",
+    "authorUserId": "cdaoud",
+    "authorLogDateUtc": "20210913103148-0400"
+  },
+  {
+    "encounterId": 9332,
+    "patientId": 311322,
+    "encounterDate": "20210913",
+    "templateType": "Orders",
+    "authorUserId": "cdaoud",
+    "authorLogDateUtc": "20210913103305-0400"
+  },
+  {
+    "encounterId": 9339,
+    "patientId": 311322,
+    "encounterDate": "20210915",
+    "templateType": "Orders",
+    "authorUserId": "!carly",
+    "authorLogDateUtc": "20210915112147-0400"
+  },
+  {
+    "encounterId": 9457,
+    "patientId": 311322,
+    "encounterDate": "20211108",
+    "templateType": "Exams",
+    "authorUserId": "cdaoud",
+    "authorLogDateUtc": "20211108154943-0400"
+  },
+  {
+    "encounterId": 9459,
+    "patientId": 311322,
+    "encounterDate": "20211109",
+    "templateType": "Exams",
+    "authorUserId": "brad",
+    "authorLogDateUtc": "20211109102049-0400"
+  },
+  {
+    "encounterId": 9460,
+    "patientId": 311322,
+    "encounterDate": "20211109",
+    "templateType": "Exams",
+    "authorUserId": "brad",
+    "authorLogDateUtc": "20211109114508-0400"
+  },
+  {
+    "encounterId": 9485,
+    "patientId": 311322,
+    "encounterDate": "20211201",
+    "templateType": "History of Present Illness",
+    "authorUserId": "!cdaoud",
+    "authorLogDateUtc": "20211201145854-0400"
+  },
+  {
+    "encounterId": 9486,
+    "patientId": 311322,
+    "encounterDate": "20211201",
+    "templateType": "Review of Systems",
+    "authorUserId": "!cdaoud",
+    "authorLogDateUtc": "20211201145854-0400"
+  },
+  {
+    "encounterId": 9487,
+    "patientId": 311322,
+    "encounterDate": "20211201",
+    "templateType": "Exams",
+    "authorUserId": "!cdaoud",
+    "authorLogDateUtc": "20211201145854-0400"
+  },
+  {
+    "encounterId": 9488,
+    "patientId": 311322,
+    "encounterDate": "20211201",
+    "templateType": "Exams",
+    "authorUserId": "!cdaoud",
+    "authorLogDateUtc": "20211201145855-0400"
+  },
+  {
+    "encounterId": 9489,
+    "patientId": 311322,
+    "encounterDate": "20211201",
+    "templateType": "Exams",
+    "authorUserId": "!cdaoud",
+    "authorLogDateUtc": "20211201145855-0400"
+  },
+  {
+    "encounterId": 9490,
+    "patientId": 311322,
+    "encounterDate": "20211201",
+    "templateType": "Exams",
+    "authorUserId": "!cdaoud",
+    "authorLogDateUtc": "20211201145855-0400"
+  },
+  {
+    "encounterId": 9491,
+    "patientId": 311322,
+    "encounterDate": "20211201",
+    "templateType": "Exams",
+    "authorUserId": "!cdaoud",
+    "authorLogDateUtc": "20211201145855-0400"
+  },
+  {
+    "encounterId": 9492,
+    "patientId": 311322,
+    "encounterDate": "20211201",
+    "templateType": "Exams",
+    "authorUserId": "!cdaoud",
+    "authorLogDateUtc": "20211201145855-0400"
+  },
+  {
+    "encounterId": 9493,
+    "patientId": 311322,
+    "encounterDate": "20211201",
+    "templateType": "Exams",
+    "authorUserId": "!cdaoud",
+    "authorLogDateUtc": "20211201145855-0400"
+  },
+  {
+    "encounterId": 9494,
+    "patientId": 311322,
+    "encounterDate": "20211201",
+    "templateType": "Exams",
+    "authorUserId": "!cdaoud",
+    "authorLogDateUtc": "20211201145855-0400"
+  },
+  {
+    "encounterId": 9495,
+    "patientId": 311322,
+    "encounterDate": "20211201",
+    "templateType": "Exams",
+    "authorUserId": "!cdaoud",
+    "authorLogDateUtc": "20211201145855-0400"
+  },
+  {
+    "encounterId": 9496,
+    "patientId": 311322,
+    "encounterDate": "20211201",
+    "templateType": "Exams",
+    "authorUserId": "!cdaoud",
+    "authorLogDateUtc": "20211201145855-0400"
+  },
+  {
+    "encounterId": 9497,
+    "patientId": 311322,
+    "encounterDate": "20211201",
+    "templateType": "Exams",
+    "authorUserId": "!cdaoud",
+    "authorLogDateUtc": "20211201145855-0400"
+  },
+  {
+    "encounterId": 9498,
+    "patientId": 311322,
+    "encounterDate": "20211201",
+    "templateType": "Exams",
+    "authorUserId": "!cdaoud",
+    "authorLogDateUtc": "20211201145855-0400"
+  },
+  {
+    "encounterId": 9499,
+    "patientId": 311322,
+    "encounterDate": "20211201",
+    "templateType": "Treatment Plans",
+    "authorUserId": "!cdaoud",
+    "authorLogDateUtc": "20211201145855-0400"
+  },
+  {
+    "encounterId": 9526,
+    "patientId": 311322,
+    "encounterDate": "20211213",
+    "templateType": "Exams",
+    "authorUserId": "mlong",
+    "authorLogDateUtc": "20211213164102-0400"
+  },
+  {
+    "encounterId": 9527,
+    "patientId": 311322,
+    "encounterDate": "20211213",
+    "templateType": "Exams",
+    "authorUserId": "mlong",
+    "authorLogDateUtc": "20211213164146-0400"
+  },
+  {
+    "encounterId": 9528,
+    "patientId": 311322,
+    "encounterDate": "20211214",
+    "templateType": "Exams",
+    "authorUserId": "!cdaoud",
+    "authorLogDateUtc": "20211214090509-0400"
+  },
+  {
+    "encounterId": 9529,
+    "patientId": 311322,
+    "encounterDate": "20211214",
+    "templateType": "Exams",
+    "authorUserId": "!cdaoud",
+    "authorLogDateUtc": "20211214090509-0400"
+  },
+  {
+    "encounterId": 9575,
+    "patientId": 311322,
+    "encounterDate": "20220418",
+    "templateType": "Exams",
+    "authorUserId": "!chandler",
+    "authorLogDateUtc": "20220418143258-0400"
+  },
+  {
+    "encounterId": 9586,
+    "patientId": 311322,
+    "encounterDate": "20220520",
+    "templateType": "Exams",
+    "authorUserId": "!chandler",
+    "authorLogDateUtc": "20220520162804-0400"
+  },
+  {
+    "encounterId": 9687,
+    "patientId": 311322,
+    "encounterDate": "20220819",
+    "templateType": "Exams",
+    "authorUserId": "!cdaoud",
+    "authorLogDateUtc": "20220819113013-0400"
+  },
+  {
+    "encounterId": 9688,
+    "patientId": 311322,
+    "encounterDate": "20220819",
+    "templateType": "Manual Lab Results",
+    "authorUserId": "!cdaoud",
+    "authorLogDateUtc": "20220819113013-0400"
+  },
+  {
+    "encounterId": 9689,
+    "patientId": 311322,
+    "encounterDate": "20220819",
+    "templateType": "Patient History",
+    "authorUserId": "!cdaoud",
+    "authorLogDateUtc": "20220819113330-0400"
+  },
+  {
+    "encounterId": 9690,
+    "patientId": 311322,
+    "encounterDate": "20220819",
+    "templateType": "Review of Systems",
+    "authorUserId": "!cdaoud",
+    "authorLogDateUtc": "20220819113613-0400"
+  },
+  {
+    "encounterId": 9691,
+    "patientId": 311322,
+    "encounterDate": "20220819",
+    "templateType": "Exams",
+    "authorUserId": "!cdaoud",
+    "authorLogDateUtc": "20220819113629-0400"
+  },
+  {
+    "encounterId": 9692,
+    "patientId": 311322,
+    "encounterDate": "20220819",
+    "templateType": "Orders",
+    "authorUserId": "cdaoud",
+    "authorLogDateUtc": "20220819114737-0400"
+  },
+  {
+    "encounterId": 9693,
+    "patientId": 311322,
+    "encounterDate": "20220822",
+    "templateType": "Review of Systems",
+    "authorUserId": "admin",
+    "authorLogDateUtc": "20220822111206-0400"
+  },
+  {
+    "encounterId": 9694,
+    "patientId": 311322,
+    "encounterDate": "20220822",
+    "templateType": "Review of Systems",
+    "authorUserId": "admin",
+    "authorLogDateUtc": "20220822111206-0400"
+  },
+  {
+    "encounterId": 9695,
+    "patientId": 311322,
+    "encounterDate": "20220822",
+    "templateType": "Assessment",
+    "authorUserId": "admin",
+    "authorLogDateUtc": "20220822111206-0400"
+  },
+  {
+    "encounterId": 9696,
+    "patientId": 311322,
+    "encounterDate": "20230516",
+    "templateType": "Patient History",
+    "authorUserId": "!cdaoud",
+    "authorLogDateUtc": "20230516140909-0400"
+  },
+  {
+    "encounterId": 9697,
+    "patientId": 311322,
+    "encounterDate": "20220822",
+    "templateType": "Review of Systems",
+    "authorUserId": "!cdaoud",
+    "authorLogDateUtc": "20220822111710-0400"
+  },
+  {
+    "encounterId": 9698,
+    "patientId": 311322,
+    "encounterDate": "20220822",
+    "templateType": "Review of Systems",
+    "authorUserId": "admin",
+    "authorLogDateUtc": "20220822140044-0400"
+  },
+  {
+    "encounterId": 9699,
+    "patientId": 311322,
+    "encounterDate": "20220822",
+    "templateType": "Review of Systems",
+    "authorUserId": "admin",
+    "authorLogDateUtc": "20220822140044-0400"
+  },
+  {
+    "encounterId": 9700,
+    "patientId": 311322,
+    "encounterDate": "20220822",
+    "templateType": "Assessment",
+    "authorUserId": "admin",
+    "authorLogDateUtc": "20220822140044-0400"
+  },
+  {
+    "encounterId": 9715,
+    "patientId": 311322,
+    "encounterDate": "20221025",
+    "templateType": "Assessment",
+    "authorUserId": "!chandler",
+    "authorLogDateUtc": "20221025120446-0400"
+  },
+  {
+    "encounterId": 9811,
+    "patientId": 311322,
+    "encounterDate": "20230106",
+    "templateType": "Assessment",
+    "authorUserId": "admin",
+    "authorLogDateUtc": "20230106102105-0400"
+  },
+  {
+    "encounterId": 9817,
+    "patientId": 311322,
+    "encounterDate": "20230112",
+    "templateType": "Assessment",
+    "authorUserId": "admin",
+    "authorLogDateUtc": "20230112125943-0400"
+  },
+  {
+    "encounterId": 9827,
+    "patientId": 311322,
+    "encounterDate": "20230306",
+    "templateType": "Orders",
+    "authorUserId": "!gferrer",
+    "authorLogDateUtc": "20230404200102-0400"
+  },
+  {
+    "encounterId": 9828,
+    "patientId": 311322,
+    "encounterDate": "20230306",
+    "templateType": "Orders",
+    "authorUserId": "!gferrer",
+    "authorLogDateUtc": "20230404200215-0400"
+  },
+  {
+    "encounterId": 9840,
+    "patientId": 311322,
+    "encounterDate": "20230516",
+    "templateType": "Orders",
+    "authorUserId": "!cdaoud",
+    "authorLogDateUtc": "20230516140717-0400"
+  },
+  {
+    "encounterId": 9844,
+    "patientId": 311322,
+    "encounterDate": "20230517",
+    "templateType": "History of Present Illness",
+    "authorUserId": "!cdaoud",
+    "authorLogDateUtc": "20230517142844-0400"
+  },
+  {
+    "encounterId": 9858,
+    "patientId": 311322,
+    "encounterDate": "20230626",
+    "templateType": "History of Present Illness",
+    "authorUserId": "!gferrer",
+    "authorLogDateUtc": "20230626082826-0400"
+  },
+  {
+    "encounterId": 9859,
+    "patientId": 311322,
+    "encounterDate": "20230626",
+    "templateType": "Exams",
+    "authorUserId": "!gferrer",
+    "authorLogDateUtc": "20230626082924-0400"
+  },
+  {
+    "encounterId": 9860,
+    "patientId": 311322,
+    "encounterDate": "20230707",
+    "templateType": "Exams",
+    "authorUserId": "!jterry",
+    "authorLogDateUtc": "20230707143255-0400"
+  },
+  {
+    "encounterId": 9861,
+    "patientId": 311322,
+    "encounterDate": "20230707",
+    "templateType": "Exams",
+    "authorUserId": "!jterry",
+    "authorLogDateUtc": "20230707145818-0400"
+  },
+  {
+    "encounterId": 9862,
+    "patientId": 311322,
+    "encounterDate": "20230707",
+    "templateType": "Exams",
+    "authorUserId": "!jterry",
+    "authorLogDateUtc": "20230707143412-0400"
+  },
+  {
+    "encounterId": 9863,
+    "patientId": 311322,
+    "encounterDate": "20230707",
+    "templateType": "Exams",
+    "authorUserId": "!jterry",
+    "authorLogDateUtc": "20230707143413-0400"
+  },
+  {
+    "encounterId": 9864,
+    "patientId": 311322,
+    "encounterDate": "20230707",
+    "templateType": "Exams",
+    "authorUserId": "!jterry",
+    "authorLogDateUtc": "20230707143414-0400"
+  },
+  {
+    "encounterId": 9865,
+    "patientId": 311322,
+    "encounterDate": "20230707",
+    "templateType": "Exams",
+    "authorUserId": "!jterry",
+    "authorLogDateUtc": "20230707153423-0400"
+  },
+  {
+    "encounterId": 9866,
+    "patientId": 311322,
+    "encounterDate": "20230707",
+    "templateType": "Exams",
+    "authorUserId": "!jterry",
+    "authorLogDateUtc": "20230707153640-0400"
+  },
+  {
+    "encounterId": 9927,
+    "patientId": 311322,
+    "encounterDate": "20230711",
+    "templateType": "Exams",
+    "authorUserId": "!jterry",
+    "authorLogDateUtc": "20230711094503-0400"
+  },
+  {
+    "encounterId": 9928,
+    "patientId": 311322,
+    "encounterDate": "20230711",
+    "templateType": "Exams",
+    "authorUserId": "!jterry",
+    "authorLogDateUtc": "20230711094523-0400"
+  },
+  {
+    "encounterId": 9977,
+    "patientId": 311322,
+    "encounterDate": "20231027",
+    "templateType": "Orders",
+    "authorUserId": "!gferrer",
+    "authorLogDateUtc": "20231027074951-0400"
+  }
+]

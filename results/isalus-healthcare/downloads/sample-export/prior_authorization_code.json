@@ -1,0 +1,29 @@
+﻿[
+  {
+    "rowIdentifier": 1,
+    "authorizationId": 63,
+    "patientId": 311322,
+    "codeType": "CPT",
+    "code": "99203",
+    "codeDescription": "NEW PATIENT OFFICE VISIT",
+    "sortOrder": 2
+  },
+  {
+    "rowIdentifier": 2,
+    "authorizationId": 63,
+    "patientId": 311322,
+    "codeType": "CPT",
+    "code": "99213",
+    "codeDescription": "ESTABLISHED OFFICE VISIT Test",
+    "sortOrder": 1
+  },
+  {
+    "rowIdentifier": 3,
+    "authorizationId": 63,
+    "patientId": 311322,
+    "codeType": "ICD10",
+    "code": "R97.20",
+    "codeDescription": "Elevated prostate specific antigen [PSA]",
+    "sortOrder": 1
+  }
+]

@@ -1,0 +1,63 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "description": "",
+  "type": "array",
+  "items": {
+    "description": "",
+    "type": "object",
+    "properties": {
+      "patientid": {
+        "description": "",
+        "type": "number"
+      },
+      "phoneConsent": {
+        "description": "",
+        "type": "string"
+      },
+      "phoneType": {
+        "description": "",
+        "type": "string"
+      },
+      "phone": {
+        "description": "",
+        "type": "string"
+      },
+      "textConsent": {
+        "description": "",
+        "type": "string"
+      },
+      "textType": {
+        "description": "",
+        "type": "string"
+      },
+      "text": {
+        "description": "",
+        "type": "string"
+      },
+      "emailConsent": {
+        "description": "",
+        "type": "string"
+      },
+      "emailType": {
+        "description": "",
+        "type": "string"
+      },
+      "email": {
+        "description": "",
+        "type": "string"
+      },
+      "prescriptionEducationTextConsent": {
+        "description": "",
+        "type": "string"
+      },
+      "hieConsent": {
+        "description": "",
+        "type": "string"
+      },
+      "hieConsentDate": {
+        "description": "",
+        "type": "string"
+      }
+    }
+  }
+}

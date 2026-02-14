@@ -1,0 +1,93 @@
+﻿[
+  {
+    "rowIdentifier": 1,
+    "patientId": 311322,
+    "internalAllergenId": 58191,
+    "allergenName": "No Known Drug Allergies",
+    "comment": null,
+    "severity": null,
+    "snomedCtValue": null,
+    "snomedDescription": null,
+    "rxNormId": 900590,
+    "active": false,
+    "authorLogDateUtc": "20230331195135-0400"
+  },
+  {
+    "rowIdentifier": 2,
+    "patientId": 311322,
+    "internalAllergenId": 58191,
+    "allergenName": "No Known Drug Allergies",
+    "comment": "",
+    "severity": null,
+    "snomedCtValue": null,
+    "snomedDescription": null,
+    "rxNormId": 900590,
+    "active": true,
+    "authorLogDateUtc": "20230920111926-0400"
+  },
+  {
+    "rowIdentifier": 3,
+    "patientId": 311322,
+    "internalAllergenId": 58191,
+    "allergenName": "No Known Drug Allergies",
+    "comment": null,
+    "severity": null,
+    "snomedCtValue": null,
+    "snomedDescription": null,
+    "rxNormId": 900590,
+    "active": false,
+    "authorLogDateUtc": "20191211073903-0400"
+  },
+  {
+    "rowIdentifier": 4,
+    "patientId": 311322,
+    "internalAllergenId": 58352,
+    "allergenName": "Acetaminophen",
+    "comment": null,
+    "severity": null,
+    "snomedCtValue": "387517004",
+    "snomedDescription": "Acetaminophen (substance)",
+    "rxNormId": 1605,
+    "active": false,
+    "authorLogDateUtc": "20220822111647-0400"
+  },
+  {
+    "rowIdentifier": 5,
+    "patientId": 311322,
+    "internalAllergenId": 58352,
+    "allergenName": "Acetaminophen",
+    "comment": null,
+    "severity": null,
+    "snomedCtValue": "387517004",
+    "snomedDescription": "Acetaminophen (substance)",
+    "rxNormId": 1605,
+    "active": true,
+    "authorLogDateUtc": "20230331195135-0400"
+  },
+  {
+    "rowIdentifier": 6,
+    "patientId": 311322,
+    "internalAllergenId": 276975,
+    "allergenName": "prednisone",
+    "comment": "test 2",
+    "severity": null,
+    "snomedCtValue": null,
+    "snomedDescription": null,
+    "rxNormId": 2164,
+    "active": true,
+    "authorLogDateUtc": "20191211073903-0400"
+  },
+  {
+    "rowIdentifier": 7,
+    "patientId": 311322,
+    "internalAllergenId": 277002,
+    "allergenName": "bee venom protein (honey bee)",
+    "comment": null,
+    "severity": null,
+    "snomedCtValue": null,
+    "snomedDescription": null,
+    "rxNormId": null,
+    "active": false,
+    "authorLogDateUtc": "20220822111647-0400"
+  }
+]

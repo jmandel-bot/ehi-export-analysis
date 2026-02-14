@@ -1,0 +1,72 @@
+﻿[
+  {
+    "rowIdentifier": 74163,
+    "patientId": 311322,
+    "comment": "new comments",
+    "alert": false,
+    "alertEffectiveDate": null,
+    "alertExpirationDate": null,
+    "authorUserId": "denver",
+    "authorLogDateUtc": "20140603092956-0400"
+  },
+  {
+    "rowIdentifier": 76421,
+    "patientId": 311322,
+    "comment": "Comment with an alert (dfjhbdv dvfdvd dfvdfvdvdf dvfdvdfv dvdfv dfv dv df dvd fvdfv dfvd vdfv dfv dfv dfv d gjbgkjbg  bghbgsc vdfvdfd acddvf acfdv  dfbvd a a fvff bg gb)",
+    "alert": true,
+    "alertEffectiveDate": "20230103",
+    "alertExpirationDate": "20230111",
+    "authorUserId": "!paul",
+    "authorLogDateUtc": "20230103130135-0400"
+  },
+  {
+    "rowIdentifier": 76422,
+    "patientId": 311322,
+    "comment": "Newer alert",
+    "alert": true,
+    "alertEffectiveDate": "20230102",
+    "alertExpirationDate": null,
+    "authorUserId": "!paul",
+    "authorLogDateUtc": "20230103131649-0400"
+  },
+  {
+    "rowIdentifier": 76430,
+    "patientId": 311322,
+    "comment": "Patient Comment: Without alert",
+    "alert": false,
+    "alertEffectiveDate": "20230107",
+    "alertExpirationDate": null,
+    "authorUserId": "!paul",
+    "authorLogDateUtc": "20230107085401-0400"
+  },
+  {
+    "rowIdentifier": 76431,
+    "patientId": 311322,
+    "comment": "Comment with simple alert",
+    "alert": true,
+    "alertEffectiveDate": "20230107",
+    "alertExpirationDate": null,
+    "authorUserId": "!paul",
+    "authorLogDateUtc": "20230107091529-0400"
+  },
+  {
+    "rowIdentifier": 76432,
+    "patientId": 311322,
+    "comment": "Comment with billing alert (Jan 7-14)",
+    "alert": true,
+    "alertEffectiveDate": "20230107",
+    "alertExpirationDate": "20230114",
+    "authorUserId": "!paul",
+    "authorLogDateUtc": "20230107135337-0400"
+  },
+  {
+    "rowIdentifier": 76531,
+    "patientId": 311322,
+    "comment": "test comment",
+    "alert": false,
+    "alertEffectiveDate": null,
+    "alertExpirationDate": null,
+    "authorUserId": "!binman",
+    "authorLogDateUtc": "20230317123802-0400"
+  }
+]

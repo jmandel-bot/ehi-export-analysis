@@ -1,0 +1,37 @@
+﻿[
+  {
+    "imageXrefId": 2244,
+    "documentId": 356,
+    "patientId": 311322,
+    "documentName": "AnywhereCare",
+    "pageCount": 1
+  },
+  {
+    "imageXrefId": 3468,
+    "documentId": 401,
+    "patientId": 311322,
+    "documentName": "AnywhereCare",
+    "pageCount": 3
+  },
+  {
+    "imageXrefId": 3469,
+    "documentId": 401,
+    "patientId": 311322,
+    "documentName": "AnywhereCare",
+    "pageCount": 3
+  },
+  {
+    "imageXrefId": 3470,
+    "documentId": 401,
+    "patientId": 311322,
+    "documentName": "AnywhereCare",
+    "pageCount": 3
+  },
+  {
+    "imageXrefId": 3471,
+    "documentId": 402,
+    "patientId": 311322,
+    "documentName": "AnywhereCare",
+    "pageCount": 1
+  }
+]

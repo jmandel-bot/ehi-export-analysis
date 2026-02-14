@@ -1,0 +1,35 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "description": "",
+  "type": "array",
+  "items": {
+    "description": "",
+    "type": "object",
+    "properties": {
+      "patientId": {
+        "description": "",
+        "type": "number"
+      },
+      "stacId": {
+        "description": "",
+        "type": "string"
+      },
+      "disability": {
+        "description": "",
+        "type": "string"
+      },
+      "residenceCounty": {
+        "description": "",
+        "type": "string"
+      },
+      "fosterCareCounty": {
+        "description": "",
+        "type": "string"
+      },
+      "cpseDistrict": {
+        "description": "",
+        "type": "string"
+      }
+    }
+  }
+}

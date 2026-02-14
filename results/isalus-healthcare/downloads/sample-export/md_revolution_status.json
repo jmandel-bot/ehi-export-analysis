@@ -1,0 +1,9 @@
+﻿[
+  {
+    "patientId": 311322,
+    "ccmStatus": "Disenrolled",
+    "ccmDate": "20230901",
+    "rpmStatus": "Opted-Out",
+    "rpmDate": "20230302"
+  }
+]

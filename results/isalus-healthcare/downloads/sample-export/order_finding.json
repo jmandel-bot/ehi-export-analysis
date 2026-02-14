@@ -1,0 +1,34 @@
+﻿[
+  {
+    "orderFindingId": 165,
+    "patientId": 311322,
+    "labRequisitionId": 1678,
+    "finding": "test",
+    "authorUserId": "!blake",
+    "authorLogDateUtc": "20180227143052-0400"
+  },
+  {
+    "orderFindingId": 166,
+    "patientId": 311322,
+    "labRequisitionId": 1678,
+    "finding": "test",
+    "authorUserId": "!blake",
+    "authorLogDateUtc": "20180227143053-0400"
+  },
+  {
+    "orderFindingId": 167,
+    "patientId": 311322,
+    "labRequisitionId": 1678,
+    "finding": "test2",
+    "authorUserId": "!blake",
+    "authorLogDateUtc": "20180227143056-0400"
+  },
+  {
+    "orderFindingId": 345,
+    "patientId": 311322,
+    "labRequisitionId": 7227,
+    "finding": "new findings",
+    "authorUserId": "!cdaoud",
+    "authorLogDateUtc": "20220819115927-0400"
+  }
+]

@@ -1,0 +1,57 @@
+{
+  "collection_date": "2026-02-14",
+  "url": "https://officeemr.knowledgeowl.com/help/ehi-export",
+  "final_url": "https://officeemr.knowledgeowl.com/help/ehi-export",
+  "access_status": "found",
+  "files": [
+    {
+      "path": "downloads/officeemr-b10-schema-v1-oct2023.zip",
+      "source_url": "https://dyzz9obi78pm5.cloudfront.net/app/image/id/6581f345834514735d5985a7/n/officeemr-b10-schema-v1-oct2023.zip",
+      "size_bytes": 38488,
+      "description": "JSON Schema definitions (JSON Schema draft-07) for all 80 EHI export entity types. Each file defines the field structure and types for one export entity. Descriptions are empty but field names and types are present.",
+      "curl_command": "curl -sL 'https://dyzz9obi78pm5.cloudfront.net/app/image/id/6581f345834514735d5985a7/n/officeemr-b10-schema-v1-oct2023.zip' -o officeemr-b10-schema-v1-oct2023.zip"
+    },
+    {
+      "path": "downloads/isalus-ehi-export-data-elements-version1-oct2023.zip",
+      "source_url": "https://dyzz9obi78pm5.cloudfront.net/app/image/id/6581f2ad80a15e0a045fe3c2/n/isalus-ehi-export-data-elements-version1-oct2023.zip",
+      "size_bytes": 96766,
+      "description": "Excel data dictionary (XLSX) with field-level definitions including descriptions for all EHI export data elements. Contains one file: iSalus_EHI_ExportDataElements_published_version1_Oct2023_pristine.xlsx (102KB).",
+      "curl_command": "curl -sL 'https://dyzz9obi78pm5.cloudfront.net/app/image/id/6581f2ad80a15e0a045fe3c2/n/isalus-ehi-export-data-elements-version1-oct2023.zip' -o isalus-ehi-export-data-elements-version1-oct2023.zip"
+    },
+    {
+      "path": "downloads/export-311322-voct2023.zip",
+      "source_url": "https://dyzz9obi78pm5.cloudfront.net/app/image/id/65661563c203e87cf17f980d/n/export-311322-voct2023.zip",
+      "size_bytes": 7732277,
+      "description": "Complete sample single-patient EHI export for test patient ID 311322. Contains 58 JSON data files covering clinical and practice management data — a working example of the export output with realistic test data.",
+      "curl_command": "curl -sL 'https://dyzz9obi78pm5.cloudfront.net/app/image/id/65661563c203e87cf17f980d/n/export-311322-voct2023.zip' -o export-311322-voct2023.zip"
+    },
+    {
+      "path": "downloads/ehi-export-page.pdf",
+      "source_url": "https://officeemr.knowledgeowl.com/help/pdfexport/id/6565f0bfbc5664102d34b052",
+      "size_bytes": 3977174,
+      "description": "56-page PDF export of the full EHI Export knowledge base article with all accordion sections expanded. Contains: overview, purpose, what's included, export settings, access instructions, single-patient export instructions, all-patient export instructions, process information, complete data dictionary (Clinical Data Exports and Practice Management Data Exports with field-level descriptions), and export references.",
+      "curl_command": "curl -sL 'https://officeemr.knowledgeowl.com/help/pdfexport/id/6565f0bfbc5664102d34b052' -H 'User-Agent: Mozilla/5.0' -o ehi-export-page.pdf"
+    },
+    {
+      "path": "downloads/screenshot-main-ehi-page.png",
+      "source_url": "https://officeemr.knowledgeowl.com/help/ehi-export",
+      "size_bytes": 184707,
+      "description": "Screenshot of the main EHI Export page showing accordion section titles (collapsed). Shows 10 expandable sections and related articles.",
+      "curl_command": null
+    },
+    {
+      "path": "downloads/screenshot-main-ehi-expanded.png",
+      "source_url": "https://officeemr.knowledgeowl.com/help/ehi-export",
+      "size_bytes": 16790394,
+      "description": "Full-page screenshot of the main EHI Export page with all accordion sections expanded, showing the complete documentation content in the browser.",
+      "curl_command": null
+    },
+    {
+      "path": "downloads/screenshot-ht1-b10-updates.png",
+      "source_url": "https://officeemr.knowledgeowl.com/help/hti-1-2026-certification-updates#ht1-ehi-b10-export-updates",
+      "size_bytes": 371591,
+      "description": "Screenshot of the HTI-1 2026 Certification Updates page showing upcoming EHI Export additions for USCDIv3 compliance: Demographics (Tribal Affiliation, Occupation, Industry), Allergies (Verification), Problems (Verification). Marked as coming Q1 2026.",
+      "curl_command": null
+    }
+  ]
+}

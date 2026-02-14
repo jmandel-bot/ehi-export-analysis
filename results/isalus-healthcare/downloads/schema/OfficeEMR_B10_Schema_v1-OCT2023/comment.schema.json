@@ -1,0 +1,43 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "description": "",
+  "type": "array",
+  "items": {
+    "description": "",
+    "type": "object",
+    "properties": {
+      "rowIdentifier": {
+        "description": "",
+        "type": "number"
+      },
+      "patientId": {
+        "description": "",
+        "type": "number"
+      },
+      "comment": {
+        "description": "",
+        "type": "string"
+      },
+      "alert": {
+        "description": "",
+        "type": "boolean"
+      },
+      "alertEffectiveDate": {
+        "description": "",
+        "type": "string"
+      },
+      "alertExpirationDate": {
+        "description": "",
+        "type": "object"
+      },
+      "authorUserId": {
+        "description": "",
+        "type": "string"
+      },
+      "authorLogDateUtc": {
+        "description": "",
+        "type": "string"
+      }
+    }
+  }
+}

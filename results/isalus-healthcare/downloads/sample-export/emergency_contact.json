@@ -1,0 +1,38 @@
+﻿[
+  {
+    "rowIdentifier": 1,
+    "patientId": 311322,
+    "contactNumber": 1,
+    "contactName": "testt",
+    "homePhone": "(555) 555-5555",
+    "homePhoneExt": "",
+    "workPhone": "",
+    "workPhoneExt": "",
+    "otherPhone": "",
+    "otherPhoneExt": "",
+    "email": "g@g.com",
+    "relationship": "Grandchild",
+    "phiAccess": "N",
+    "pickUpMeds": "N",
+    "phiExclusions": null,
+    "comments": null
+  },
+  {
+    "rowIdentifier": 2,
+    "patientId": 311322,
+    "contactNumber": 2,
+    "contactName": "test2",
+    "homePhone": "",
+    "homePhoneExt": "",
+    "workPhone": "",
+    "workPhoneExt": "",
+    "otherPhone": "",
+    "otherPhoneExt": "",
+    "email": null,
+    "relationship": null,
+    "phiAccess": "N",
+    "pickUpMeds": "N",
+    "phiExclusions": null,
+    "comments": null
+  }
+]

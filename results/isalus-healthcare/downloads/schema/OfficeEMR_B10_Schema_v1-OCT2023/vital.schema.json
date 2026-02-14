@@ -1,0 +1,187 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "description": "",
+  "type": "array",
+  "items": {
+    "description": "",
+    "type": "object",
+    "properties": {
+      "vitalsId": {
+        "description": "",
+        "type": "number"
+      },
+      "patientId": {
+        "description": "",
+        "type": "number"
+      },
+      "vitalDate": {
+        "description": "",
+        "type": "string"
+      },
+      "units": {
+        "description": "",
+        "type": "string"
+      },
+      "heightPrimary": {
+        "description": "",
+        "type": "number"
+      },
+      "heightSecondary": {
+        "description": "",
+        "type": "string"
+      },
+      "weightPrimary": {
+        "description": "",
+        "type": "number"
+      },
+      "weightSecondary": {
+        "description": "",
+        "type": "object"
+      },
+      "temperatureMethod": {
+        "description": "",
+        "type": "string"
+      },
+      "temperature": {
+        "description": "",
+        "type": "object"
+      },
+      "respirations": {
+        "description": "",
+        "type": "object"
+      },
+      "comment": {
+        "description": "",
+        "type": "string"
+      },
+      "headCircumference": {
+        "description": "",
+        "type": "object"
+      },
+      "pain": {
+        "description": "",
+        "type": "object"
+      },
+      "glucoseUnits": {
+        "description": "",
+        "type": "string"
+      },
+      "glucose": {
+        "description": "",
+        "type": "object"
+      },
+      "neckCircumference": {
+        "description": "",
+        "type": "object"
+      },
+      "waistCircumference": {
+        "description": "",
+        "type": "object"
+      },
+      "hipCircumference": {
+        "description": "",
+        "type": "object"
+      },
+      "bodyFat": {
+        "description": "",
+        "type": "object"
+      },
+      "headCircumferencePercentile": {
+        "description": "",
+        "type": "object"
+      },
+      "weightLengthPercentile": {
+        "description": "",
+        "type": "object"
+      },
+      "bmiPercentile": {
+        "description": "",
+        "type": "object"
+      },
+      "sittingPulse": {
+        "description": "",
+        "type": "object"
+      },
+      "sittingRhythm": {
+        "description": "",
+        "type": "string"
+      },
+      "sittingSystolic": {
+        "description": "",
+        "type": "number"
+      },
+      "sittingDiastolic": {
+        "description": "",
+        "type": "number"
+      },
+      "sittingExtremity": {
+        "description": "",
+        "type": "object"
+      },
+      "standingPulse": {
+        "description": "",
+        "type": "object"
+      },
+      "standingRhythm": {
+        "description": "",
+        "type": "object"
+      },
+      "standingSystolic": {
+        "description": "",
+        "type": "number"
+      },
+      "standingDiastolic": {
+        "description": "",
+        "type": "number"
+      },
+      "standingExtremity": {
+        "description": "",
+        "type": "object"
+      },
+      "supinePulse": {
+        "description": "",
+        "type": "object"
+      },
+      "supineRhythm": {
+        "description": "",
+        "type": "object"
+      },
+      "supineSystolic": {
+        "description": "",
+        "type": "object"
+      },
+      "supineDiastolic": {
+        "description": "",
+        "type": "object"
+      },
+      "supineExtremity": {
+        "description": "",
+        "type": "object"
+      },
+      "heartRate": {
+        "description": "",
+        "type": "object"
+      },
+      "o2Saturation": {
+        "description": "",
+        "type": "object"
+      },
+      "fiO2": {
+        "description": "",
+        "type": "object"
+      },
+      "litersPerMinute": {
+        "description": "",
+        "type": "object"
+      },
+      "pulseOxExtremity": {
+        "description": "",
+        "type": "object"
+      },
+      "pulseOxDeliveryMethod": {
+        "description": "",
+        "type": "object"
+      }
+    }
+  }
+}

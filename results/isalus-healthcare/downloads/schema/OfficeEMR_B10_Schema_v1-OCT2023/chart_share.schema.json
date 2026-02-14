@@ -1,0 +1,39 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "description": "",
+  "type": "array",
+  "items": {
+    "description": "",
+    "type": "object",
+    "properties": {
+      "chartShareId": {
+        "description": "",
+        "type": "number"
+      },
+      "patientId": {
+        "description": "",
+        "type": "number"
+      },
+      "sharedWith": {
+        "description": "",
+        "type": "string"
+      },
+      "shareExpiration": {
+        "description": "",
+        "type": "string"
+      },
+      "status": {
+        "description": "",
+        "type": "string"
+      },
+      "authorUserId": {
+        "description": "",
+        "type": "string"
+      },
+      "authorLogDateUtc": {
+        "description": "",
+        "type": "string"
+      }
+    }
+  }
+}

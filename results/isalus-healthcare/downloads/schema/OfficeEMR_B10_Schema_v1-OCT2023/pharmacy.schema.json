@@ -1,0 +1,43 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "description": "",
+  "type": "array",
+  "items": {
+    "description": "",
+    "type": "object",
+    "properties": {
+      "rowIdentifier": {
+        "description": "",
+        "type": "number"
+      },
+      "patientId": {
+        "description": "",
+        "type": "number"
+      },
+      "pharmacy": {
+        "description": "",
+        "type": "string"
+      },
+      "address": {
+        "description": "",
+        "type": "string"
+      },
+      "city": {
+        "description": "",
+        "type": "string"
+      },
+      "state": {
+        "description": "",
+        "type": "string"
+      },
+      "zip": {
+        "description": "",
+        "type": "string"
+      },
+      "phone": {
+        "description": "",
+        "type": "string"
+      }
+    }
+  }
+}

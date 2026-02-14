@@ -1,0 +1,35 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "description": "",
+  "type": "array",
+  "items": {
+    "description": "",
+    "type": "object",
+    "properties": {
+      "commentId": {
+        "description": "",
+        "type": "number"
+      },
+      "goalId": {
+        "description": "",
+        "type": "number"
+      },
+      "patientId": {
+        "description": "",
+        "type": "number"
+      },
+      "comment": {
+        "description": "",
+        "type": "string"
+      },
+      "authorUserId": {
+        "description": "",
+        "type": "string"
+      },
+      "authorLogDateUtc": {
+        "description": "",
+        "type": "string"
+      }
+    }
+  }
+}

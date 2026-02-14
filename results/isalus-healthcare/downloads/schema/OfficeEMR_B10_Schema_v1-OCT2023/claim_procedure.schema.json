@@ -1,0 +1,131 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "description": "",
+  "type": "array",
+  "items": {
+    "description": "",
+    "type": "object",
+    "properties": {
+      "diagnosisId": {
+        "description": "",
+        "type": "number"
+      },
+      "claimId": {
+        "description": "",
+        "type": "number"
+      },
+      "patientId": {
+        "description": "",
+        "type": "number"
+      },
+      "fromDate": {
+        "description": "",
+        "type": "string"
+      },
+      "toDate": {
+        "description": "",
+        "type": "string"
+      },
+      "procedureCode": {
+        "description": "",
+        "type": "string"
+      },
+      "diagnosisCode1": {
+        "description": "",
+        "type": "string"
+      },
+      "diagnosisCode2": {
+        "description": "",
+        "type": "string"
+      },
+      "diagnosisCode3": {
+        "description": "",
+        "type": "object"
+      },
+      "diagnosisCode4": {
+        "description": "",
+        "type": "object"
+      },
+      "diagnosisCode5": {
+        "description": "",
+        "type": "object"
+      },
+      "diagnosisCode6": {
+        "description": "",
+        "type": "object"
+      },
+      "diagnosisCode7": {
+        "description": "",
+        "type": "object"
+      },
+      "diagnosisCode8": {
+        "description": "",
+        "type": "object"
+      },
+      "diagnosisCode9": {
+        "description": "",
+        "type": "object"
+      },
+      "diagnosisCode10": {
+        "description": "",
+        "type": "object"
+      },
+      "diagnosisCode11": {
+        "description": "",
+        "type": "object"
+      },
+      "diagnosisCode12": {
+        "description": "",
+        "type": "object"
+      },
+      "modifier1": {
+        "description": "",
+        "type": "string"
+      },
+      "modifier2": {
+        "description": "",
+        "type": "object"
+      },
+      "modifier3": {
+        "description": "",
+        "type": "object"
+      },
+      "modifier4": {
+        "description": "",
+        "type": "object"
+      },
+      "pos": {
+        "description": "",
+        "type": "string"
+      },
+      "tos": {
+        "description": "",
+        "type": "string"
+      },
+      "units": {
+        "description": "",
+        "type": "string"
+      },
+      "unitCharge": {
+        "description": "",
+        "type": "string"
+      },
+      "amount": {
+        "description": "",
+        "type": "string"
+      },
+      "sortOrder": {
+        "description": "",
+        "type": "number"
+      },
+      "authorUserId": {
+        "description": "",
+        "type": "string"
+      },
+      "authorLogDateUtc": {
+        "description": "",
+        "type": "string"
+      }
+    }
+  }
+}

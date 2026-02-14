@@ -1,0 +1,80 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "description": "",
+  "type": "array",
+  "items": {
+    "description": "",
+    "type": "object",
+    "properties": {
+      "labResultId": {
+        "description": "",
+        "type": "number"
+      },
+      "patientId": {
+         "description": "",
+        "type": "number"
+      },
+      "orderDateUtc": {
+         "description": "",
+        "type": ["string", "null"]
+      },
+      "resultDateUtc": {
+         "description": "",
+        "type": ["string", "null"]
+      },
+      "orderResultDescription": {
+       "description": "",
+        "type": ["string", "null"]
+      },
+      "orderResultValue": {
+         "description": "",
+        "type": ["string", "null"]
+      },
+      "orderItemCode": {
+         "description": "",
+        "type": ["string", "null"]
+      },
+      "orderItemDescription": {
+         "description": "",
+        "type": ["string", "null"]
+      },
+      "loincCode": {
+         "description": "",
+        "type": ["string", "null"]
+      },
+      "loincDescription": {
+         "description": "",
+        "type": ["string", "null"]
+      },
+      "unitOfMeasure": {
+         "description": "",
+        "type": ["string", "null"]
+      },
+      "resultRange": {
+        "description": "",
+        "type": ["string", "null"]
+      },
+      "abnormalFlags": {
+        "description": "",
+        "type": ["string", "null"]
+      },
+      "labName": {
+         "description": "",
+        "type": ["string", "null"]
+      },
+      "labAddress": {
+         "description": "",
+        "type": ["string", "null"]
+      },
+      "labPhone": {
+         "description": "",
+        "type": ["string", "null"]
+      },
+      "labRequisitionId": {
+         "description": "",
+        "type": ["number", "null"]
+      }
+    },
+    "required": ["labResultId", "patientId"]
+  }
+}

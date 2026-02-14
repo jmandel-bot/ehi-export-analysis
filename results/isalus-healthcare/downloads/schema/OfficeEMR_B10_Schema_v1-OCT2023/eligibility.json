@@ -1,0 +1,28 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "description": "",
+  "type": "array",
+  "items": {
+    "description": "",
+    "type": "object",
+    "properties": {
+      "patientId": {
+        "description": "",
+        "type": "number"
+      },
+      "transactionResponse": {
+        "description": "",
+        "type": ["string", "null"]
+      },
+      "authorUserId": {
+        "description": "",
+        "type": ["string", "null"]
+      },
+      "authorLogDate": {
+        "description": "",
+        "type": ["string", "null"]
+      }
+    },
+    "required": ["patientId"]
+  }
+}

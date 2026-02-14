@@ -1,0 +1,116 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+   "description": "",
+  "type": "array",
+  "items": {
+     "description": "",
+    "type": "object",
+    "properties": {
+      "rowIdentifier": {
+         "description": "",
+        "type": "integer"
+      },
+      "patientId": {
+         "description": "",
+        "type": "number"
+      },
+      "statementId": {
+         "description": "",
+        "type": "number"
+      },
+      "statementDateUtc": {
+         "description": "",
+        "type": "string"
+      },
+      "statementDueDate": {
+         "description": "",
+        "type": ["string", "null"]
+      },
+      "balanceTotal": {
+         "description": "",
+        "type": ["string", "null"]
+      },
+      "respPartyFirstName": {
+         "description": "",
+        "type": ["string", "null"]
+      },
+      "respPartyMiddleName": {
+         "description": "",
+        "type": ["string", "null"]
+      },
+      "respPartyLastName": {
+         "description": "",
+        "type": ["string", "null"]
+      },
+      "respPartyAddress1": {
+         "description": "",
+        "type": ["string", "null"]
+      },
+      "respPartyAddress2": {
+         "description": "",
+        "type": ["string", "null"]
+      },
+      "respPartyCity": {
+         "description": "",,
+        "type": ["string", "null"]
+      },
+      "respPartyState": {
+         "description": "",
+        "type": ["string", "null"]
+      },
+      "respPartyZip": {
+         "description": "",
+        "type": ["string", "null"]
+      },
+      "aging_0_30": {
+         "description": "",
+        "type": ["string", "null"]
+      },
+      "aging_31_60": {
+         "description": "",
+        "type": ["string", "null"]
+      },
+      "aging_61_90": {
+         "description": "",
+        "type": ["string", "null"]
+      },
+      "aging_91_120": {
+         "description": "",
+        "type": ["string", "null"]
+      },
+      "aging_121_150": {
+         "description": "",
+        "type": ["string", "null"]
+      },
+      "aging_150_over": {
+         "description": "",
+        "type": ["string", "null"]
+      },
+      "claimId": {
+         "description": "",
+        "type": ["number", "null"]
+      },
+      "serviceDate": {
+         "description": "",
+        "type": ["string", "null"]
+      },
+      "charges": {
+        "description": "",
+        "type": ["string", "null"]
+      },
+      "procedureBalance": {
+         "description": "",
+        "type": ["string", "null"]
+      },
+      "paymentAmount": {
+         "description": "",
+        "type": ["string", "null"]
+      },
+      "adjustmentAmount": {
+         "description": "",
+        "type": ["string", "null"]
+      }
+    },
+    "required": ["rowIdentifier", "patientId", "statementId", "statementDateUtc"]
+  }
+}

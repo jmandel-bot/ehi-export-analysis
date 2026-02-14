@@ -1,0 +1,58 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "description": "",
+  "type": "array",
+  "items": {
+  "description": "",
+    "type": "object",
+    "properties": {
+      "estimationId": {
+		"description": "",
+        "type": "number"
+      },
+      "dateOfService": {
+ 		"description": "",
+        "type": "string",
+        "pattern": "^[0-9]{8}$"
+      },
+      "payer": {
+ 		"description": "",
+        "type": "string"
+      },
+      "provider": {
+		"description": "",
+        "type": "string"
+      },
+      "serviceLocation": {
+		"description": "",
+        "type": "string"
+      },
+      "patientCostInNetwork": {
+ 		"description": "",
+        "type": ["number", "null"]
+      },
+      "patientCostOutNetwork": {
+		"description": "",
+        "type": ["number", "null"]
+      },
+      "insuranceCostInNetwork": {
+		"description": "",
+        "type": ["number", "null"]
+      },
+      "insuranceCostOutNetwork": {
+		"description": "",
+        "type": ["number", "null"]
+      },
+      "authorUserId": {
+		"description": "",
+        "type": "string"
+      },
+      "authorLogDateUtc": {
+		"description": "",
+        "type": "string",
+        "pattern": "^[0-9]{14}\\-\\d{4}$"
+      }
+    },
+    "required": ["estimationId", "dateOfService", "payer", "provider", "serviceLocation", "authorUserId", "authorLogDateUtc"]
+  }
+}

@@ -1,0 +1,17 @@
+﻿[
+  {
+    "patientid": 311322,
+    "phoneConsent": "Y",
+    "phoneType": "Work",
+    "phone": "(847) 275-6951",
+    "textConsent": "N",
+    "textType": "Home",
+    "text": "(317) 449-0408",
+    "emailConsent": "N",
+    "emailType": "Override",
+    "email": "test@test.com",
+    "prescriptionEducationTextConsent": "Y",
+    "hieConsent": "Granted",
+    "hieConsentDate": "20230901"
+  }
+]

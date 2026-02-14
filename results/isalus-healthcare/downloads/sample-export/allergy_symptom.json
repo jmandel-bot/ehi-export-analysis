@@ -1,0 +1,22 @@
+﻿[
+  {
+    "rowIdentifier": 1,
+    "patientId": 311322,
+    "internalAllergenId": 58352,
+    "allergenName": "Acetaminophen",
+    "symptomName": "Hives",
+    "snomedCtValue": "247472004",
+    "snomedDescription": "Weal (disorder)",
+    "active": false
+  },
+  {
+    "rowIdentifier": 2,
+    "patientId": 311322,
+    "internalAllergenId": 58352,
+    "allergenName": "Acetaminophen",
+    "symptomName": "redness",
+    "snomedCtValue": null,
+    "snomedDescription": null,
+    "active": true
+  }
+]

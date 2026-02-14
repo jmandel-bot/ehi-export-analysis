@@ -1,0 +1,155 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "description": "",
+  "type": "array",
+  "items": {
+    "description": "",
+    "type": "object",
+    "properties": {
+      "claimId": {
+        "description": "",
+        "type": "number"
+      },
+      "patientId": {
+        "description": "",
+        "type": "number"
+      },
+      "claimStatus": {
+        "description": "",
+        "type": "string"
+      },
+      "claimSubStatus": {
+        "description": "",
+        "type": "object"
+      },
+      "submissionDate": {
+        "description": "",
+        "type": "object"
+      },
+      "dos": {
+        "description": "",
+        "type": "string"
+      },
+      "billing": {
+        "description": "",
+        "type": "string"
+      },
+      "level": {
+        "description": "",
+        "type": "string"
+      },
+      "charge": {
+        "description": "",
+        "type": "string"
+      },
+      "balance": {
+        "description": "",
+        "type": "string"
+      },
+      "admissionDate": {
+        "description": "",
+        "type": "string"
+      },
+      "dischargeDate": {
+        "description": "",
+        "type": "object"
+      },
+      "onsetDate": {
+        "description": "",
+        "type": "object"
+      },
+      "menstrualDate": {
+        "description": "",
+        "type": "object"
+      },
+      "accidentDate": {
+        "description": "",
+        "type": "object"
+      },
+      "accidentState": {
+        "description": "",
+        "type": "object"
+      },
+      "accidentCountry": {
+        "description": "",
+        "type": "object"
+      },
+      "narrative": {
+        "description": "",
+        "type": "string"
+      },
+      "narrativeType": {
+        "description": "",
+        "type": "object"
+      },
+      "serviceLocation": {
+        "description": "",
+        "type": "string"
+      },
+      "patientLocation": {
+        "description": "",
+        "type": "object"
+      },
+      "alternate": {
+        "description": "",
+        "type": "object"
+      },
+      "attending": {
+        "description": "",
+        "type": "object"
+      },
+      "ordering": {
+        "description": "",
+        "type": "object"
+      },
+      "referring": {
+        "description": "",
+        "type": "string"
+      },
+      "rendering": {
+        "description": "",
+        "type": "string"
+      },
+      "supervising": {
+        "description": "",
+        "type": "object"
+      },
+      "payerPrimary": {
+        "description": "",
+        "type": "object"
+      },
+      "payerSecondary": {
+        "description": "",
+        "type": "object"
+      },
+      "payerTertiary": {
+        "description": "",
+        "type": "object"
+      },
+      "reponsibleParty": {
+        "description": "",
+        "type": "string"
+      },
+      "agingDate": {
+        "description": "",
+        "type": "string"
+      },
+      "agingType": {
+        "description": "",
+        "type": "string"
+      },
+      "agingDays": {
+        "description": "",
+        "type": "number"
+      },
+      "authorUserId": {
+        "description": "",
+        "type": "string"
+      },
+      "authorLogDateUtc": {
+        "description": "",
+        "type": "string"
+      }
+    }
+  }
+}

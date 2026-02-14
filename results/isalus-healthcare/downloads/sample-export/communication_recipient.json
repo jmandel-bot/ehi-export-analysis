@@ -1,0 +1,429 @@
+﻿[
+  {
+    "rowIdentifier": 1,
+    "communicationId": 2217,
+    "patientId": 311322,
+    "recipientType": "User",
+    "recipientId": "carly"
+  },
+  {
+    "rowIdentifier": 2,
+    "communicationId": 2217,
+    "patientId": 311322,
+    "recipientType": "User",
+    "recipientId": "chilln"
+  },
+  {
+    "rowIdentifier": 3,
+    "communicationId": 2217,
+    "patientId": 311322,
+    "recipientType": "User",
+    "recipientId": "chilln10"
+  },
+  {
+    "rowIdentifier": 4,
+    "communicationId": 2217,
+    "patientId": 311322,
+    "recipientType": "User",
+    "recipientId": "chilln100"
+  },
+  {
+    "rowIdentifier": 5,
+    "communicationId": 2241,
+    "patientId": 311322,
+    "recipientType": "User",
+    "recipientId": "bheyman"
+  },
+  {
+    "rowIdentifier": 6,
+    "communicationId": 2246,
+    "patientId": 311322,
+    "recipientType": "User",
+    "recipientId": "mpark"
+  },
+  {
+    "rowIdentifier": 7,
+    "communicationId": 2391,
+    "patientId": 311322,
+    "recipientType": "User",
+    "recipientId": "!blake"
+  },
+  {
+    "rowIdentifier": 8,
+    "communicationId": 2391,
+    "patientId": 311322,
+    "recipientType": "User",
+    "recipientId": "bhead4"
+  },
+  {
+    "rowIdentifier": 9,
+    "communicationId": 2391,
+    "patientId": 311322,
+    "recipientType": "User",
+    "recipientId": "bhead5"
+  },
+  {
+    "rowIdentifier": 10,
+    "communicationId": 2405,
+    "patientId": 311322,
+    "recipientType": "User",
+    "recipientId": "!austin"
+  },
+  {
+    "rowIdentifier": 11,
+    "communicationId": 2406,
+    "patientId": 311322,
+    "recipientType": "User",
+    "recipientId": "!austin"
+  },
+  {
+    "rowIdentifier": 12,
+    "communicationId": 2409,
+    "patientId": 311322,
+    "recipientType": "User",
+    "recipientId": "!austin"
+  },
+  {
+    "rowIdentifier": 13,
+    "communicationId": 2595,
+    "patientId": 311322,
+    "recipientType": "User",
+    "recipientId": "wcassady"
+  },
+  {
+    "rowIdentifier": 14,
+    "communicationId": 2596,
+    "patientId": 311322,
+    "recipientType": "User",
+    "recipientId": "wcassady"
+  },
+  {
+    "rowIdentifier": 15,
+    "communicationId": 2597,
+    "patientId": 311322,
+    "recipientType": "User",
+    "recipientId": "wcassady"
+  },
+  {
+    "rowIdentifier": 16,
+    "communicationId": 2599,
+    "patientId": 311322,
+    "recipientType": "User",
+    "recipientId": "!cdaoud"
+  },
+  {
+    "rowIdentifier": 17,
+    "communicationId": 2600,
+    "patientId": 311322,
+    "recipientType": "User",
+    "recipientId": "!cdaoud"
+  },
+  {
+    "rowIdentifier": 18,
+    "communicationId": 2601,
+    "patientId": 311322,
+    "recipientType": "User",
+    "recipientId": "!cdaoud"
+  },
+  {
+    "rowIdentifier": 19,
+    "communicationId": 2602,
+    "patientId": 311322,
+    "recipientType": "User",
+    "recipientId": "!cdaoud"
+  },
+  {
+    "rowIdentifier": 20,
+    "communicationId": 2616,
+    "patientId": 311322,
+    "recipientType": "User",
+    "recipientId": "!blake"
+  },
+  {
+    "rowIdentifier": 21,
+    "communicationId": 2616,
+    "patientId": 311322,
+    "recipientType": "User",
+    "recipientId": "bhead4"
+  },
+  {
+    "rowIdentifier": 22,
+    "communicationId": 2616,
+    "patientId": 311322,
+    "recipientType": "User",
+    "recipientId": "bhead5"
+  },
+  {
+    "rowIdentifier": 23,
+    "communicationId": 2709,
+    "patientId": 311322,
+    "recipientType": "User",
+    "recipientId": "brad"
+  },
+  {
+    "rowIdentifier": 24,
+    "communicationId": 2821,
+    "patientId": 311322,
+    "recipientType": "User",
+    "recipientId": "cdaoud"
+  },
+  {
+    "rowIdentifier": 25,
+    "communicationId": 2822,
+    "patientId": 311322,
+    "recipientType": "User",
+    "recipientId": "cdaoud"
+  },
+  {
+    "rowIdentifier": 26,
+    "communicationId": 2823,
+    "patientId": 311322,
+    "recipientType": "User",
+    "recipientId": "wcassady"
+  },
+  {
+    "rowIdentifier": 27,
+    "communicationId": 2824,
+    "patientId": 311322,
+    "recipientType": "User",
+    "recipientId": "cdaoud"
+  },
+  {
+    "rowIdentifier": 28,
+    "communicationId": 2826,
+    "patientId": 311322,
+    "recipientType": "User",
+    "recipientId": "cdaoud"
+  },
+  {
+    "rowIdentifier": 29,
+    "communicationId": 2830,
+    "patientId": 311322,
+    "recipientType": "User",
+    "recipientId": "cdaoud"
+  },
+  {
+    "rowIdentifier": 30,
+    "communicationId": 2844,
+    "patientId": 311322,
+    "recipientType": "User",
+    "recipientId": "cdaoud"
+  },
+  {
+    "rowIdentifier": 31,
+    "communicationId": 2864,
+    "patientId": 311322,
+    "recipientType": "User",
+    "recipientId": "cdaoud"
+  },
+  {
+    "rowIdentifier": 32,
+    "communicationId": 2907,
+    "patientId": 311322,
+    "recipientType": "User",
+    "recipientId": "!chandler"
+  },
+  {
+    "rowIdentifier": 33,
+    "communicationId": 2929,
+    "patientId": 311322,
+    "recipientType": "User",
+    "recipientId": "chead"
+  },
+  {
+    "rowIdentifier": 34,
+    "communicationId": 2930,
+    "patientId": 311322,
+    "recipientType": "User",
+    "recipientId": "!chandler"
+  },
+  {
+    "rowIdentifier": 35,
+    "communicationId": 2949,
+    "patientId": 311322,
+    "recipientType": "User",
+    "recipientId": "bhahn"
+  },
+  {
+    "rowIdentifier": 36,
+    "communicationId": 2949,
+    "patientId": 311322,
+    "recipientType": "User",
+    "recipientId": "brad"
+  },
+  {
+    "rowIdentifier": 37,
+    "communicationId": 2949,
+    "patientId": 311322,
+    "recipientType": "User",
+    "recipientId": "caron"
+  },
+  {
+    "rowIdentifier": 38,
+    "communicationId": 2949,
+    "patientId": 311322,
+    "recipientType": "User",
+    "recipientId": "cdaoud"
+  },
+  {
+    "rowIdentifier": 39,
+    "communicationId": 2949,
+    "patientId": 311322,
+    "recipientType": "User",
+    "recipientId": "chead"
+  },
+  {
+    "rowIdentifier": 40,
+    "communicationId": 2949,
+    "patientId": 311322,
+    "recipientType": "User",
+    "recipientId": "chrisn"
+  },
+  {
+    "rowIdentifier": 41,
+    "communicationId": 2949,
+    "patientId": 311322,
+    "recipientType": "User",
+    "recipientId": "dhodson"
+  },
+  {
+    "rowIdentifier": 42,
+    "communicationId": 2949,
+    "patientId": 311322,
+    "recipientType": "User",
+    "recipientId": "jterry"
+  },
+  {
+    "rowIdentifier": 43,
+    "communicationId": 2949,
+    "patientId": 311322,
+    "recipientType": "User",
+    "recipientId": "nimrich"
+  },
+  {
+    "rowIdentifier": 44,
+    "communicationId": 2949,
+    "patientId": 311322,
+    "recipientType": "User",
+    "recipientId": "pwolf"
+  },
+  {
+    "rowIdentifier": 45,
+    "communicationId": 2949,
+    "patientId": 311322,
+    "recipientType": "User",
+    "recipientId": "wcassady"
+  },
+  {
+    "rowIdentifier": 46,
+    "communicationId": 2949,
+    "patientId": 311322,
+    "recipientType": "User",
+    "recipientId": "wcassady2"
+  },
+  {
+    "rowIdentifier": 47,
+    "communicationId": 2950,
+    "patientId": 311322,
+    "recipientType": "User",
+    "recipientId": "bhahn"
+  },
+  {
+    "rowIdentifier": 48,
+    "communicationId": 2950,
+    "patientId": 311322,
+    "recipientType": "User",
+    "recipientId": "brad"
+  },
+  {
+    "rowIdentifier": 49,
+    "communicationId": 2950,
+    "patientId": 311322,
+    "recipientType": "User",
+    "recipientId": "caron"
+  },
+  {
+    "rowIdentifier": 50,
+    "communicationId": 2950,
+    "patientId": 311322,
+    "recipientType": "User",
+    "recipientId": "cdaoud"
+  },
+  {
+    "rowIdentifier": 51,
+    "communicationId": 2950,
+    "patientId": 311322,
+    "recipientType": "User",
+    "recipientId": "chead"
+  },
+  {
+    "rowIdentifier": 52,
+    "communicationId": 2950,
+    "patientId": 311322,
+    "recipientType": "User",
+    "recipientId": "chrisn"
+  },
+  {
+    "rowIdentifier": 53,
+    "communicationId": 2950,
+    "patientId": 311322,
+    "recipientType": "User",
+    "recipientId": "dhodson"
+  },
+  {
+    "rowIdentifier": 54,
+    "communicationId": 2950,
+    "patientId": 311322,
+    "recipientType": "User",
+    "recipientId": "jterry"
+  },
+  {
+    "rowIdentifier": 55,
+    "communicationId": 2950,
+    "patientId": 311322,
+    "recipientType": "User",
+    "recipientId": "nimrich"
+  },
+  {
+    "rowIdentifier": 56,
+    "communicationId": 2950,
+    "patientId": 311322,
+    "recipientType": "User",
+    "recipientId": "pwolf"
+  },
+  {
+    "rowIdentifier": 57,
+    "communicationId": 2950,
+    "patientId": 311322,
+    "recipientType": "User",
+    "recipientId": "wcassady"
+  },
+  {
+    "rowIdentifier": 58,
+    "communicationId": 2950,
+    "patientId": 311322,
+    "recipientType": "User",
+    "recipientId": "wcassady2"
+  },
+  {
+    "rowIdentifier": 59,
+    "communicationId": 2951,
+    "patientId": 311322,
+    "recipientType": "User",
+    "recipientId": "!kevin"
+  },
+  {
+    "rowIdentifier": 60,
+    "communicationId": 2966,
+    "patientId": 311322,
+    "recipientType": "User",
+    "recipientId": "!gferrer"
+  },
+  {
+    "rowIdentifier": 61,
+    "communicationId": 2967,
+    "patientId": 311322,
+    "recipientType": "User",
+    "recipientId": "!cdaoud"
+  }
+]

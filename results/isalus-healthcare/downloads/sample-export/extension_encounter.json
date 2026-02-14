@@ -1,0 +1,24 @@
+﻿[
+  {
+    "encounterId": 173,
+    "patientId": 311322,
+    "encounterDate": "20200522",
+    "templateGroup": "Bob",
+    "templateId": 175,
+    "templateName": "Discharge Test",
+    "appointmentId": null,
+    "authorUserId": "!cdaoud",
+    "authorLogDateUtc": "20200521104928-0400"
+  },
+  {
+    "encounterId": 178,
+    "patientId": 311322,
+    "encounterDate": "20200828",
+    "templateGroup": "Bob",
+    "templateId": 349,
+    "templateName": "Dave Test Template",
+    "appointmentId": null,
+    "authorUserId": "!cdaoud",
+    "authorLogDateUtc": "20200828150051-0400"
+  }
+]

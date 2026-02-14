@@ -1,0 +1,47 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "description": "",
+  "type": "array",
+  "items": {
+    "description": "",
+    "type": "object",
+    "properties": {
+      "goalId": {
+        "description": "",
+        "type": "number"
+      },
+      "patientId": {
+        "description": "",
+        "type": "number"
+      },
+      "goal": {
+        "description": "",
+        "type": "string"
+      },
+      "status": {
+        "description": "",
+        "type": "string"
+      },
+      "priority": {
+        "description": "",
+        "type": "string"
+      },
+      "encounterDate": {
+        "description": "",
+        "type": "string"
+      },
+      "createDate": {
+        "description": "",
+        "type": "string"
+      },
+      "longTermGoal": {
+        "description": "",
+        "type": "string"
+      },
+      "userId": {
+        "description": "",
+        "type": "string"
+      }
+    }
+  }
+}

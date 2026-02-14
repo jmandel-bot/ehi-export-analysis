@@ -1,0 +1,28 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "description": "",
+  "type": "array",
+  "items": {
+    "description": "",
+    "type": "object",
+    "properties": {
+      "prescriptionId": {
+        "description": "Unique identifier for the prescription",
+        "type": "number"
+      },
+      "patientId": {
+       "description": "",
+        "type": "number"
+      },
+      "epaTaskStatus": {
+       "description": "",
+        "type": ["string", "null"]
+      },
+      "postDateUtc": {
+       "description": "",
+        "type": ["string", "null"]
+      }
+    },
+    "required": ["prescriptionId", "patientId"]
+  }
+}

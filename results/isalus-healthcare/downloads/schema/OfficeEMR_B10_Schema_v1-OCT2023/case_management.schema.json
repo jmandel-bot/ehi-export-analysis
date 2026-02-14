@@ -1,0 +1,131 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "description": "",
+  "type": "array",
+  "items": {
+    "description": "",
+    "type": "object",
+    "properties": {
+      "caseManagementId": {
+        "description": "",
+        "type": "number"
+      },
+      "patientId": {
+        "description": "",
+        "type": "number"
+      },
+      "status": {
+        "description": "",
+        "type": "string"
+      },
+      "dischargeDate": {
+        "description": "",
+        "type": "object"
+      },
+      "caseManagerId": {
+        "description": "",
+        "type": "object"
+      },
+      "program": {
+        "description": "",
+        "type": "string"
+      },
+      "careStartDate": {
+        "description": "",
+        "type": "string"
+      },
+      "lastEvaluationDate": {
+        "description": "",
+        "type": "string"
+      },
+      "lengthOfStay": {
+        "description": "",
+        "type": "number"
+      },
+      "nextEvaluationDate": {
+        "description": "",
+        "type": "string"
+      },
+      "payerName": {
+        "description": "",
+        "type": "object"
+      },
+      "primaryDoctorName": {
+        "description": "",
+        "type": "object"
+      },
+      "source": {
+        "description": "",
+        "type": "object"
+      },
+      "referralDate": {
+        "description": "",
+        "type": "string"
+      },
+      "postedDate": {
+        "description": "",
+        "type": "string"
+      },
+      "usersId": {
+        "description": "",
+        "type": "string"
+      },
+      "dischargeReason": {
+        "description": "",
+        "type": "object"
+      },
+      "firstContactDate": {
+        "description": "",
+        "type": "object"
+      },
+      "packetSentDate": {
+        "description": "",
+        "type": "object"
+      },
+      "careCoordinateDate": {
+        "description": "",
+        "type": "object"
+      },
+      "dischargeUsersId": {
+        "description": "",
+        "type": "object"
+      },
+      "ckccStatus": {
+        "description": "",
+        "type": "object"
+      },
+      "ckcc1Label": {
+        "description": "",
+        "type": "string"
+      },
+      "ckcc1Value": {
+        "description": "",
+        "type": "object"
+      },
+      "ckcc2Label": {
+        "description": "",
+        "type": "string"
+      },
+      "ckcc2Value": {
+        "description": "",
+        "type": "object"
+      },
+      "ckcc3Label": {
+        "description": "",
+        "type": "string"
+      },
+      "ckcc3Value": {
+        "description": "",
+        "type": "object"
+      },
+      "ckcc4Label": {
+        "description": "",
+        "type": "string"
+      },
+      "ckcc4Value": {
+        "description": "",
+        "type": "object"
+      }
+    }
+  }
+}

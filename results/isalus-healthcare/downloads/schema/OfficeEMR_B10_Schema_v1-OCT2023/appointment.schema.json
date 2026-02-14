@@ -1,0 +1,91 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "description": "",
+  "type": "array",
+  "items": {
+    "description": "",
+    "type": "object",
+    "properties": {
+      "appointmentId": {
+        "description": "",
+        "type": "number"
+      },
+      "patientId": {
+        "description": "",
+        "type": "number"
+      },
+      "startDate": {
+        "description": "",
+        "type": "string"
+      },
+      "endDate": {
+        "description": "",
+        "type": "string"
+      },
+      "resourceName": {
+        "description": "",
+        "type": "string"
+      },
+      "description": {
+        "description": "",
+        "type": "string"
+      },
+      "status": {
+        "description": "",
+        "type": "string"
+      },
+      "insertUserId": {
+        "description": "",
+        "type": "string"
+      },
+      "insertDate": {
+        "description": "",
+        "type": "string"
+      },
+      "updateUserId": {
+        "description": "",
+        "type": "string"
+      },
+      "updateDate": {
+        "description": "",
+        "type": "string"
+      },
+      "comments": {
+        "description": "",
+        "type": "object"
+      },
+      "referralNumber": {
+        "description": "",
+        "type": "object"
+      },
+      "chiefComplaint": {
+        "description": "",
+        "type": "object"
+      },
+      "claimId": {
+        "description": "",
+        "type": "object"
+      },
+      "type": {
+        "description": "",
+        "type": "string"
+      },
+      "cancelComment": {
+        "description": "",
+        "type": "object"
+      },
+      "walkIn": {
+        "description": "",
+        "type": "object"
+      },
+      "serviceLocationName": {
+        "description": "",
+        "type": "string"
+      },
+      "referringName": {
+        "description": "",
+        "type": "string"
+      }
+    }
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "description": "",
+  "type": "array",
+  "items": {
+    "description": "",
+    "type": "object",
+    "properties": {
+      "rowIdentifier": {
+        "description": "",
+        "type": "number"
+      },
+      "encounterId": {
+        "description": "",
+        "type": "number"
+      },
+      "patientId": {
+        "description": "",
+        "type": "number"
+      },
+      "globalEntityId": {
+        "description": "",
+        "type": "number"
+      },
+      "controlType": {
+        "description": "",
+        "type": "string"
+      },
+      "encounterValue": {
+        "description": "",
+        "type": "string"
+      },
+      "alias": {
+        "description": "",
+        "type": "string"
+      },
+      "globalDescription": {
+        "description": "",
+        "type": "string"
+      },
+      "additionalData": {
+        "description": "",
+        "type": "object"
+      },
+      "snomedCtValue": {
+        "description": "",
+        "type": "string"
+      },
+      "snomedDescription": {
+        "description": "",
+        "type": "string"
+      }
+    }
+  }
+}

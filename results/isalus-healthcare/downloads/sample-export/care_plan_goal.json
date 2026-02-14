@@ -1,0 +1,62 @@
+﻿[
+  {
+    "rowIdentifier": 1,
+    "encounterId": 8332,
+    "patientId": 311322,
+    "encounterDate": "20200520",
+    "controlType": "Checkbox",
+    "encounterValue": "Y",
+    "alias": "Smoking Cessation",
+    "globalDescription": "Care Plan - Goal - Smoking cessation",
+    "authorUserId": "!cdaoud",
+    "authorLogDateUtc": "20200521100316-0400"
+  },
+  {
+    "rowIdentifier": 2,
+    "encounterId": 8346,
+    "patientId": 311322,
+    "encounterDate": "20200521",
+    "controlType": "Checkbox",
+    "encounterValue": "Y",
+    "alias": "Smoking Cessation",
+    "globalDescription": "Care Plan - Goal - Smoking cessation",
+    "authorUserId": "!cdaoud",
+    "authorLogDateUtc": "20200521101915-0400"
+  },
+  {
+    "rowIdentifier": 3,
+    "encounterId": 8358,
+    "patientId": 311322,
+    "encounterDate": "20200510",
+    "controlType": "Checkbox",
+    "encounterValue": "Y",
+    "alias": "Smoking Cessation",
+    "globalDescription": "Care Plan - Goal - Smoking cessation",
+    "authorUserId": "!cdaoud",
+    "authorLogDateUtc": "20200521102858-0400"
+  },
+  {
+    "rowIdentifier": 4,
+    "encounterId": 8368,
+    "patientId": 311322,
+    "encounterDate": "20200511",
+    "controlType": "Checkbox",
+    "encounterValue": "Y",
+    "alias": "Smoking Cessation",
+    "globalDescription": "Care Plan - Goal - Smoking cessation",
+    "authorUserId": "!cdaoud",
+    "authorLogDateUtc": "20200521103108-0400"
+  },
+  {
+    "rowIdentifier": 5,
+    "encounterId": 9499,
+    "patientId": 311322,
+    "encounterDate": "20211201",
+    "controlType": "Checkbox",
+    "encounterValue": "Y",
+    "alias": "Smoking Cessation",
+    "globalDescription": "Care Plan - Goal - Smoking cessation",
+    "authorUserId": "!cdaoud",
+    "authorLogDateUtc": "20211201145855-0400"
+  }
+]

@@ -1,0 +1,87 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "description": "",
+  "type": "array",
+  "items": {
+    "description": "",
+    "type": "object",
+    "properties": {
+      "patientId": {
+        "description": "",
+        "type": "number"
+      },
+      "offerDate": {
+        "description": "",
+        "type": "string"
+      },
+      "verbalConsentDate": {
+        "description": "",
+        "type": "object"
+      },
+      "writtenConsentDate": {
+        "description": "",
+        "type": "object"
+      },
+      "discontinuationDate": {
+        "description": "",
+        "type": "string"
+      },
+      "contact": {
+        "description": "",
+        "type": "object"
+      },
+      "phone": {
+        "description": "",
+        "type": "object"
+      },
+      "relationship": {
+        "description": "",
+        "type": "object"
+      },
+      "contactTime": {
+        "description": "",
+        "type": "string"
+      },
+      "contactSunday": {
+        "description": "",
+        "type": "string"
+      },
+      "contactMonday": {
+        "description": "",
+        "type": "string"
+      },
+      "contactTuesday": {
+        "description": "",
+        "type": "string"
+      },
+      "contactWednesday": {
+        "description": "",
+        "type": "string"
+      },
+      "contactThursday": {
+        "description": "",
+        "type": "string"
+      },
+      "contactFriday": {
+        "description": "",
+        "type": "string"
+      },
+      "contactSaturday": {
+        "description": "",
+        "type": "string"
+      },
+      "newsLetter": {
+        "description": "",
+        "type": "string"
+      },
+      "hasSecondary": {
+        "description": "",
+        "type": "string"
+      },
+      "insuranceList": {
+        "description": "",
+        "type": "object"
+      }
+    }
+  }
+}

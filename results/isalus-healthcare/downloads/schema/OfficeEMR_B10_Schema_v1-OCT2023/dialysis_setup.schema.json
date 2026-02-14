@@ -1,0 +1,87 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "description": "",
+  "type": "array",
+  "items": {
+    "description": "",
+    "type": "object",
+    "properties": {
+      "dialysisSetupId": {
+        "description": "",
+        "type": "number"
+      },
+      "patientId": {
+        "description": "",
+        "type": "number"
+      },
+      "startDate": {
+        "description": "",
+        "type": "string"
+      },
+      "endDate": {
+        "description": "",
+        "type": "string"
+      },
+      "eventName": {
+        "description": "",
+        "type": "string"
+      },
+      "modality": {
+        "description": "",
+        "type": "string"
+      },
+      "scheduleSunday": {
+        "description": "",
+        "type": "string"
+      },
+      "scheduleMonday": {
+        "description": "",
+        "type": "string"
+      },
+      "scheduleTuesday": {
+        "description": "",
+        "type": "string"
+      },
+      "scheduleWednesday": {
+        "description": "",
+        "type": "string"
+      },
+      "scheduleThursday": {
+        "description": "",
+        "type": "string"
+      },
+      "scheduleFriday": {
+        "description": "",
+        "type": "string"
+      },
+      "scheduleSaturday": {
+        "description": "",
+        "type": "string"
+      },
+      "serviceLocation": {
+        "description": "",
+        "type": "string"
+      },
+      "shiftId": {
+        "description": "",
+        "type": "number"
+      },
+      "usersId": {
+        "description": "",
+        "type": "string"
+      },
+      "changeDate": {
+        "description": "",
+        "type": "string"
+      },
+      "excludeFromEligibilityCheck": {
+        "description": "",
+        "type": "string"
+      },
+      "lastEligibilityCheck": {
+        "description": "",
+        "type": "string"
+      }
+    }
+  }
+}

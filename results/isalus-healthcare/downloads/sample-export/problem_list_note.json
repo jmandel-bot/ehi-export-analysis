@@ -1,0 +1,234 @@
+﻿[
+  {
+    "problemListNoteIdentifier": 1091,
+    "problemListIdentifier": 1324,
+    "patientId": 311322,
+    "note": "THIS IS A TEST\n\nThis is absolutely just a test. \n\nDon\u0027t panic. PAN - ic. \n\nLike the flute guy. ",
+    "creationDateUtc": "20190109000000-0400",
+    "createdBy": "Daoud, Cliff"
+  },
+  {
+    "problemListNoteIdentifier": 1092,
+    "problemListIdentifier": 1517,
+    "patientId": 311322,
+    "note": "Removed",
+    "creationDateUtc": "20190109090346-0400",
+    "createdBy": "Daoud, Cliff"
+  },
+  {
+    "problemListNoteIdentifier": 1093,
+    "problemListIdentifier": 1518,
+    "patientId": 311322,
+    "note": "Removed",
+    "creationDateUtc": "20190109090415-0400",
+    "createdBy": "Daoud, Cliff"
+  },
+  {
+    "problemListNoteIdentifier": 1094,
+    "problemListIdentifier": 1644,
+    "patientId": 311322,
+    "note": "Resolved",
+    "creationDateUtc": "20190109090415-0400",
+    "createdBy": "Daoud, Cliff"
+  },
+  {
+    "problemListNoteIdentifier": 1209,
+    "problemListIdentifier": 1940,
+    "patientId": 311322,
+    "note": "Removed",
+    "creationDateUtc": "20200730091144-0400",
+    "createdBy": "Daoud, Cliff"
+  },
+  {
+    "problemListNoteIdentifier": 1210,
+    "problemListIdentifier": 1982,
+    "patientId": 311322,
+    "note": "Still seeing overlap. Check this out. Still seeing overlap. Check this out. Still seeing overlap. Check this out. Still seeing overlap. Check this out. Still seeing overlap. Check this out. Still seeing overlap. Check this out. Still seeing overlap. Check this out. Still seeing overlap. Check this out. Still seeing overlap. Check this out. Still seeing overlap. Check this out. Still seeing overlap. Check this out. Still seeing overlap. Check this out. ",
+    "creationDateUtc": "20200730000000-0400",
+    "createdBy": "Daoud, Cliff"
+  },
+  {
+    "problemListNoteIdentifier": 1211,
+    "problemListIdentifier": 1940,
+    "patientId": 311322,
+    "note": "Activated",
+    "creationDateUtc": "20200730091253-0400",
+    "createdBy": "Daoud, Cliff"
+  },
+  {
+    "problemListNoteIdentifier": 1212,
+    "problemListIdentifier": 1324,
+    "patientId": 311322,
+    "note": "Resolved",
+    "creationDateUtc": "20200730091728-0400",
+    "createdBy": "Daoud, Cliff"
+  },
+  {
+    "problemListNoteIdentifier": 1213,
+    "problemListIdentifier": 1982,
+    "patientId": 311322,
+    "note": "This is a new note. ",
+    "creationDateUtc": "20200730000000-0400",
+    "createdBy": "Daoud, Cliff"
+  },
+  {
+    "problemListNoteIdentifier": 1214,
+    "problemListIdentifier": 1940,
+    "patientId": 311322,
+    "note": "Inactivated",
+    "creationDateUtc": "20200730113605-0400",
+    "createdBy": "Daoud, Cliff"
+  },
+  {
+    "problemListNoteIdentifier": 1215,
+    "problemListIdentifier": 1987,
+    "patientId": 311322,
+    "note": "test note test notetest notetest notetest notetest notetest notetest notetest notetest notetest notetest notetest notetest notetest notetest notetest notetest notetest notetest notetest notetest notetest notetest notetest notetest notetest notetest notetest notetest notetest notetest notetest notetest notetest notetest notetest notetest notetest notetest notetest notetest notetest notetest notetest notetest notetest notetest notetest notetest notetest notetest notetest notetest notetest notetest notetest notetest notetest notetest notetest notetest notetest notetest notetest notetest notetest notetest notetest notetest notetest notetest notetest notetest notetest notetest notetest notetest notetest notetest notetest notetest notetest notetest notetest notetest notetest notetest notetest notetest notetest notetest notetest notetest notetest notetest notetest notetest notetest notetest notetest notetest notetest notetest notetest notetest note",
+    "creationDateUtc": "20200730000000-0400",
+    "createdBy": "Daoud, Cliff"
+  },
+  {
+    "problemListNoteIdentifier": 1216,
+    "problemListIdentifier": 1940,
+    "patientId": 311322,
+    "note": "Activated",
+    "creationDateUtc": "20200730113839-0400",
+    "createdBy": "Daoud, Cliff"
+  },
+  {
+    "problemListNoteIdentifier": 1218,
+    "problemListIdentifier": 1653,
+    "patientId": 311322,
+    "note": "test",
+    "creationDateUtc": "20200908000000-0400",
+    "createdBy": "Daoud, Cliff"
+  },
+  {
+    "problemListNoteIdentifier": 1295,
+    "problemListIdentifier": 2026,
+    "patientId": 311322,
+    "note": "Inactivated",
+    "creationDateUtc": "20230416174222-0400",
+    "createdBy": "Ferrer, Ginnie"
+  },
+  {
+    "problemListNoteIdentifier": 1296,
+    "problemListIdentifier": 2026,
+    "patientId": 311322,
+    "note": "Activated",
+    "creationDateUtc": "20230416174341-0400",
+    "createdBy": "Ferrer, Ginnie"
+  },
+  {
+    "problemListNoteIdentifier": 1297,
+    "problemListIdentifier": 2026,
+    "patientId": 311322,
+    "note": "Modified inactive to active",
+    "creationDateUtc": "20230416000000-0400",
+    "createdBy": "Ferrer, Ginnie"
+  },
+  {
+    "problemListNoteIdentifier": 1298,
+    "problemListIdentifier": 1982,
+    "patientId": 311322,
+    "note": "Inactivated",
+    "creationDateUtc": "20230416175827-0400",
+    "createdBy": "Ferrer, Ginnie"
+  },
+  {
+    "problemListNoteIdentifier": 1299,
+    "problemListIdentifier": 2235,
+    "patientId": 311322,
+    "note": "Inactivated",
+    "creationDateUtc": "20230416175937-0400",
+    "createdBy": "Ferrer, Ginnie"
+  },
+  {
+    "problemListNoteIdentifier": 1300,
+    "problemListIdentifier": 2235,
+    "patientId": 311322,
+    "note": "Activated",
+    "creationDateUtc": "20230416175951-0400",
+    "createdBy": "Ferrer, Ginnie"
+  },
+  {
+    "problemListNoteIdentifier": 1301,
+    "problemListIdentifier": 2235,
+    "patientId": 311322,
+    "note": "New note after changing from inactive to active, then saving, then re-opening and adding note. ",
+    "creationDateUtc": "20230416000000-0400",
+    "createdBy": "Ferrer, Ginnie"
+  },
+  {
+    "problemListNoteIdentifier": 1306,
+    "problemListIdentifier": 1982,
+    "patientId": 311322,
+    "note": "Activated",
+    "creationDateUtc": "20230523132330-0400",
+    "createdBy": "kirschling, YoYo\u0027Ma"
+  },
+  {
+    "problemListNoteIdentifier": 1307,
+    "problemListIdentifier": 1982,
+    "patientId": 311322,
+    "note": "This is a new note",
+    "creationDateUtc": "20230523000000-0400",
+    "createdBy": "kirschling, YoYo\u0027Ma"
+  },
+  {
+    "problemListNoteIdentifier": 1308,
+    "problemListIdentifier": 1778,
+    "patientId": 311322,
+    "note": "Inactivated",
+    "creationDateUtc": "20230602081128-0400",
+    "createdBy": "kirschling, YoYo\u0027Ma"
+  },
+  {
+    "problemListNoteIdentifier": 1309,
+    "problemListIdentifier": 1778,
+    "patientId": 311322,
+    "note": "Activated",
+    "creationDateUtc": "20230602081205-0400",
+    "createdBy": "kirschling, YoYo\u0027Ma"
+  },
+  {
+    "problemListNoteIdentifier": 1310,
+    "problemListIdentifier": 1778,
+    "patientId": 311322,
+    "note": "This is a new note",
+    "creationDateUtc": "20230602000000-0400",
+    "createdBy": "kirschling, YoYo\u0027Ma"
+  },
+  {
+    "problemListNoteIdentifier": 1311,
+    "problemListIdentifier": 1518,
+    "patientId": 311322,
+    "note": "Activated",
+    "creationDateUtc": "20230602090526-0400",
+    "createdBy": "kirschling, YoYo\u0027Ma"
+  },
+  {
+    "problemListNoteIdentifier": 1312,
+    "problemListIdentifier": 1518,
+    "patientId": 311322,
+    "note": "bsk this is a new note",
+    "creationDateUtc": "20230602000000-0400",
+    "createdBy": "kirschling, YoYo\u0027Ma"
+  },
+  {
+    "problemListNoteIdentifier": 1324,
+    "problemListIdentifier": 1324,
+    "patientId": 311322,
+    "note": "Activated",
+    "creationDateUtc": "20230725084625-0400",
+    "createdBy": "Ferrer, Ginnie"
+  },
+  {
+    "problemListNoteIdentifier": 1325,
+    "problemListIdentifier": 1324,
+    "patientId": 311322,
+    "note": "Made to active on 7/25 - then added note for SOAP Note testing - then clicked OK - then hit SAVE for problem list screen to save all changes.",
+    "creationDateUtc": "20230725000000-0400",
+    "createdBy": "Ferrer, Ginnie"
+  }
+]

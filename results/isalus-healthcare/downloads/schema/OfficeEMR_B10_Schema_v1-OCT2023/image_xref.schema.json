@@ -1,0 +1,79 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "description": "",
+  "type": "array",
+  "items": {
+    "description": "",
+    "type": "object",
+    "properties": {
+      "imageXrefId": {
+        "description": "",
+        "type": "number"
+      },
+      "patientId": {
+        "description": "",
+        "type": "number"
+      },
+      "imageId": {
+        "description": "",
+        "type": "number"
+      },
+      "menuPath": {
+        "description": "",
+        "type": "string"
+      },
+      "fileName": {
+        "description": "",
+        "type": "string"
+      },
+      "comment": {
+        "description": "",
+        "type": "object"
+      },
+      "noteLeft": {
+        "description": "",
+        "type": "object"
+      },
+      "noteTop": {
+        "description": "",
+        "type": "object"
+      },
+      "note": {
+        "description": "",
+        "type": "object"
+      },
+      "fileSize": {
+        "description": "",
+        "type": "string"
+      },
+      "receivedDate": {
+        "description": "",
+        "type": "object"
+      },
+      "documentTypeDescription": {
+        "description": "",
+        "type": "object"
+      },
+      "documentTypeLoincCode": {
+        "description": "",
+        "type": "object"
+      },
+      "documentId": {
+        "description": "",
+        "type": "object"
+      },
+      "documentPage": {
+        "description": "",
+        "type": "object"
+      },
+      "authorUserId": {
+        "description": "",
+        "type": "string"
+      },
+      "authorLogDateUtc": {
+        "description": "",
+        "type": "string"
+      }
+    }
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "description": "",
+  "type": "array",
+  "items": {
+    "description": "",
+    "type": "object",
+    "properties": {
+      "visitId": {
+        "description": "",
+        "type": "number"
+      },
+      "patientId": {
+        "description": "",
+        "type": "number"
+      },
+      "visitDate": {
+        "description": "",
+        "type": "string"
+      },
+      "modality": {
+        "description": "",
+        "type": "string"
+      },
+      "claimId": {
+        "description": "",
+        "type": "object"
+      },
+      "providerName": {
+        "description": "",
+        "type": "string"
+      },
+      "locationName": {
+        "description": "",
+        "type": "string"
+      },
+      "comprehensive": {
+        "description": "",
+        "type": "boolean"
+      },
+      "comment": {
+        "description": "",
+        "type": "string"
+      },
+      "telemedicine": {
+        "description": "",
+        "type": "boolean"
+      },
+      "encounterId": {
+        "description": "",
+        "type": "number"
+      }
+    }
+  }
+}

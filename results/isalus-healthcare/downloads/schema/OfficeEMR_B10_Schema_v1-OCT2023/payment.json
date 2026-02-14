@@ -1,0 +1,96 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+   "description": "",
+  "type": "array",
+  "items": {
+    "description": "",
+    "type": "object",
+    "properties": {
+      "paymentId": {
+        "description": "",
+        "type": "number"
+      },
+      "claimId": {
+         "description": "",
+        "type": "number"
+      },
+      "diagnosisId": {
+        "description": "",
+        "type": "number"
+      },
+      "patientId": {
+        "description": "",
+        "type": "number"
+      },
+      "paymentDate": {
+        "description": "",
+        "type": ["string", "null"]
+      },
+      "paidAmount": {
+        "description": "",
+        "type": ["string", "null"]
+      },
+      "adjustAmount": {
+         "description": "",
+        "type": ["string", "null"]
+      },
+      "method": {
+        "description": "",
+        "type": ["string", "null"]
+      },
+      "type": {
+         "description": "",
+        "type": ["string", "null"]
+      },
+      "idNumber": {
+         "description": "",
+        "type": ["string", "null"]
+      },
+      "paidBy": {
+         "description": "",
+        "type": ["string", "null"]
+      },
+      "primaryPayer": {
+         "description": "",
+        "type": ["string", "null"]
+      },
+      "primaryFinancialClass": {
+         "description": "",
+        "type": ["string", "null"]
+      },
+      "secondaryPayer": {
+         "description": "",
+        "type": ["string", "null"]
+      },
+      "secondaryFinancialClass": {
+         "description": "",
+        "type": ["string", "null"]
+      },
+      "tertiaryPayer": {
+         "description": "",
+        "type": ["string", "null"]
+      },
+      "tertiaryFinancialClass": {
+         "description": "",
+        "type": ["string", "null"]
+      },
+      "serviceLocation": {
+         "description": "",,
+        "type": ["string", "null"]
+      },
+      "provider": {
+         "description": "",
+        "type": ["string", "null"]
+      },
+      "authorUserId": {
+         "description": "",
+        "type": ["string", "null"]
+      },
+      "authorLogDateUtc": {
+         "description": "",
+        "type": ["string", "null"]
+      }
+    },
+    "required": ["paymentId", "claimId", "diagnosisId", "patientId"]
+  }
+}

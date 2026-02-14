@@ -1,0 +1,23 @@
+﻿[
+  {
+    "patientId": 311322,
+    "offerDate": null,
+    "verbalConsentDate": "20230601",
+    "writtenConsentDate": "20230630",
+    "discontinuationDate": null,
+    "contact": "Test SR",
+    "phone": "(305) 324-8811",
+    "relationship": "Self",
+    "contactTime": null,
+    "contactSunday": "N",
+    "contactMonday": "Y",
+    "contactTuesday": "N",
+    "contactWednesday": "Y",
+    "contactThursday": "N",
+    "contactFriday": "Y",
+    "contactSaturday": "N",
+    "newsLetter": "Email",
+    "hasSecondary": "Y",
+    "insuranceList": null
+  }
+]

@@ -1,0 +1,162 @@
+﻿[
+  {
+    "rowIdentifier": 1,
+    "patientId": 9353,
+    "pharmacy": "BRANDED NAME MORE THANSEVENTY CHARACTERS FOR DEFECTFIX VALIDATI #51124",
+    "address": "1000 Lakeside Dr",
+    "city": "Bannockburn",
+    "state": "IL",
+    "zip": "600151225",
+    "phone": "(847) 914-8479"
+  },
+  {
+    "rowIdentifier": 2,
+    "patientId": 10496,
+    "pharmacy": "CVS Pharmacy # 3880",
+    "address": "309 E Cornwallis Dr",
+    "city": "Greensboro",
+    "state": "NC",
+    "zip": "274085103",
+    "phone": "(336) 273-7127"
+  },
+  {
+    "rowIdentifier": 3,
+    "patientId": 10496,
+    "pharmacy": "CVS Pharmacy # 5206",
+    "address": "3280 E State Road 32",
+    "city": "Westfield",
+    "state": "IN",
+    "zip": "460748731",
+    "phone": "(317) 896-7087"
+  },
+  {
+    "rowIdentifier": 4,
+    "patientId": 311322,
+    "pharmacy": "KROGER CENTRAL 864",
+    "address": "2200 Independence Dr",
+    "city": "Greenwood",
+    "state": "IN",
+    "zip": "461433400",
+    "phone": "(317) 883-4145"
+  },
+  {
+    "rowIdentifier": 5,
+    "patientId": 311322,
+    "pharmacy": "WIRS Store 12236",
+    "address": "1425 Lake Cook Rd",
+    "city": "Deerfield",
+    "state": "IL",
+    "zip": "60076",
+    "phone": "(847) 888-8888"
+  },
+  {
+    "rowIdentifier": 6,
+    "patientId": 311786,
+    "pharmacy": "CVS Pharmacy # 3418",
+    "address": "400 Royal Palm Beach Blvd",
+    "city": "Royal Palm Beach",
+    "state": "FL",
+    "zip": "334117605",
+    "phone": "(561) 793-4981"
+  },
+  {
+    "rowIdentifier": 7,
+    "patientId": 311786,
+    "pharmacy": "CVS Pharmacy # 4468",
+    "address": "7915 S Emerson Ave",
+    "city": "Indianapolis",
+    "state": "IN",
+    "zip": "462378557",
+    "phone": "(317) 865-7596"
+  },
+  {
+    "rowIdentifier": 8,
+    "patientId": 311786,
+    "pharmacy": "KROGER CENTRAL 969",
+    "address": "11700 Olio Rd",
+    "city": "Fishers",
+    "state": "IN",
+    "zip": "460377618",
+    "phone": "(317) 598-8515"
+  },
+  {
+    "rowIdentifier": 9,
+    "patientId": 311993,
+    "pharmacy": "Bethesda City Hospital Pharmacy",
+    "address": "8600 Old Georgetown Rd",
+    "city": "Bethesda",
+    "state": "MD",
+    "zip": "208141422",
+    "phone": "(301) 896-4100 x30"
+  },
+  {
+    "rowIdentifier": 10,
+    "patientId": 311993,
+    "pharmacy": "Rapid-Rx Online Pharmacy",
+    "address": "52 Lukens Dr",
+    "city": "New Castle",
+    "state": "DE",
+    "zip": "197202700",
+    "phone": "(888) 424-1147"
+  },
+  {
+    "rowIdentifier": 11,
+    "patientId": 311994,
+    "pharmacy": "Shollenberger Pharmacy",
+    "address": "2002 S Mcdowell Boulevard Ext",
+    "city": "Petaluma",
+    "state": "CA",
+    "zip": "949546901",
+    "phone": "(707) 984-5571"
+  },
+  {
+    "rowIdentifier": 12,
+    "patientId": 312026,
+    "pharmacy": "AllianceRx Walgreens Prime #16287",
+    "address": "130 Enterprise Dr",
+    "city": "Pittsburgh",
+    "state": "PA",
+    "zip": "152751213",
+    "phone": "(412) 555-5555"
+  },
+  {
+    "rowIdentifier": 13,
+    "patientId": 312182,
+    "pharmacy": "OAKTON DRUG COMPANY",
+    "address": "8006 Lincoln Ave",
+    "city": "Skokie",
+    "state": "IL",
+    "zip": "600773693",
+    "phone": "(847) 673-2222"
+  },
+  {
+    "rowIdentifier": 14,
+    "patientId": 312182,
+    "pharmacy": "Bannockburn Pharmacy",
+    "address": "6798 Pyle Rd",
+    "city": "Bethesda",
+    "state": "MD",
+    "zip": "208175456",
+    "phone": "(301) 644-2418"
+  },
+  {
+    "rowIdentifier": 15,
+    "patientId": 312182,
+    "pharmacy": "Brooklyn @ Gates Pharmacy",
+    "address": "92 Gates Ave",
+    "city": "Brooklyn",
+    "state": "NY",
+    "zip": "112381846",
+    "phone": "(347) 425-1221"
+  },
+  {
+    "rowIdentifier": 16,
+    "patientId": 312343,
+    "pharmacy": "#004 Fairport NY Test UAT",
+    "address": "851 Fairport Rd",
+    "city": "East Rochester",
+    "state": "NY",
+    "zip": "144451909",
+    "phone": "(585) 239-2050"
+  }
+]

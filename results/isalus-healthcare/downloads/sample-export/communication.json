@@ -1,0 +1,322 @@
+﻿[
+  {
+    "communicationId": 2217,
+    "patientId": 311322,
+    "subject": "This is a test subject",
+    "message": "This is a test description",
+    "priority": "Normal",
+    "communicationReplyId": null,
+    "authorUserId": "!adam",
+    "authorLogDateUtc": "20170109181628-0400"
+  },
+  {
+    "communicationId": 2241,
+    "patientId": 311322,
+    "subject": "Mobile Dictation Loaded",
+    "message": "",
+    "priority": "Normal",
+    "communicationReplyId": null,
+    "authorUserId": "bheyman",
+    "authorLogDateUtc": "20170609010248-0400"
+  },
+  {
+    "communicationId": 2246,
+    "patientId": 311322,
+    "subject": "Mobile Dictation Loaded",
+    "message": "Comment here.",
+    "priority": "Normal",
+    "communicationReplyId": null,
+    "authorUserId": "mpark",
+    "authorLogDateUtc": "20170627143330-0400"
+  },
+  {
+    "communicationId": 2391,
+    "patientId": 311322,
+    "subject": "Hospital Round - Follow Up Request",
+    "message": "Follow up Type:  Test \nWhen: 1 Day(s)",
+    "priority": "Normal",
+    "communicationReplyId": null,
+    "authorUserId": "!blake",
+    "authorLogDateUtc": "20190123111935-0400"
+  },
+  {
+    "communicationId": 2405,
+    "patientId": 311322,
+    "subject": "meds",
+    "message": "Pt wants a medication refill",
+    "priority": "Normal",
+    "communicationReplyId": null,
+    "authorUserId": "!austin",
+    "authorLogDateUtc": "20190126111455-0400"
+  },
+  {
+    "communicationId": 2406,
+    "patientId": 311322,
+    "subject": "Medication ",
+    "message": "Patient is asking for amoxicillin 500. Ok to send? Or do you want to send something for the patient? ",
+    "priority": "Normal",
+    "communicationReplyId": null,
+    "authorUserId": "!austin",
+    "authorLogDateUtc": "20190126112146-0400"
+  },
+  {
+    "communicationId": 2409,
+    "patientId": 311322,
+    "subject": "RE: Medication ",
+    "message": "\nok to refill \nOn 01/26/2019 11:21AM, Myers, Austin wrote: \n\nPatient is asking for amoxicillin 500. Ok to send? Or do you want to send something for the patient? ",
+    "priority": "Normal",
+    "communicationReplyId": 2406,
+    "authorUserId": "!austin",
+    "authorLogDateUtc": "20190126121320-0400"
+  },
+  {
+    "communicationId": 2595,
+    "patientId": 311322,
+    "subject": "New Office Communication",
+    "message": "",
+    "priority": "Normal",
+    "communicationReplyId": null,
+    "authorUserId": "!cdaoud",
+    "authorLogDateUtc": "20200327104333-0400"
+  },
+  {
+    "communicationId": 2596,
+    "patientId": 311322,
+    "subject": "New Office Communication",
+    "message": "emr",
+    "priority": "Normal",
+    "communicationReplyId": null,
+    "authorUserId": "!cdaoud",
+    "authorLogDateUtc": "20200327104604-0400"
+  },
+  {
+    "communicationId": 2597,
+    "patientId": 311322,
+    "subject": "New Office Communication",
+    "message": "SOAP",
+    "priority": "Normal",
+    "communicationReplyId": null,
+    "authorUserId": "!cdaoud",
+    "authorLogDateUtc": "20200327104642-0400"
+  },
+  {
+    "communicationId": 2599,
+    "patientId": 311322,
+    "subject": "Chart",
+    "message": "Chart",
+    "priority": "Normal",
+    "communicationReplyId": null,
+    "authorUserId": "wcassady",
+    "authorLogDateUtc": "20200327104955-0400"
+  },
+  {
+    "communicationId": 2600,
+    "patientId": 311322,
+    "subject": "RE: New Office Communication",
+    "message": "Test<BR><BR><div class=\"mail_reply_header\" style=\"WIDTH: 100%; HEIGHT: 75px\"><span class=\"mail_reply_label\">From:\u0026nbsp;</span><span class=\"mail_reply_text\">Daoud, Cliff</span><br><span class=\"mail_reply_label\">Sent:\u0026nbsp;</span><span class=\"mail_reply_text\">Fri 03/27/2020 10:46AM</span><br><span class=\"mail_reply_label\">To:\u0026nbsp;</span><span class=\"mail_reply_text\">Cassady, Wes</span><br><span class=\"mail_reply_label\">Subject:\u0026nbsp;</span><span class=\"mail_reply_text\">New Office Communication</span></div><br>SOAP",
+    "priority": "Normal",
+    "communicationReplyId": 2597,
+    "authorUserId": "wcassady",
+    "authorLogDateUtc": "20200327105602-0400"
+  },
+  {
+    "communicationId": 2601,
+    "patientId": 311322,
+    "subject": "RE: New Office Communication",
+    "message": "Test All<BR><BR><div class=\"mail_reply_header\" style=\"WIDTH: 100%; HEIGHT: 75px\"><span class=\"mail_reply_label\">From:\u0026nbsp;</span><span class=\"mail_reply_text\">Daoud, Cliff</span><br><span class=\"mail_reply_label\">Sent:\u0026nbsp;</span><span class=\"mail_reply_text\">Fri 03/27/2020 10:46AM</span><br><span class=\"mail_reply_label\">To:\u0026nbsp;</span><span class=\"mail_reply_text\">Cassady, Wes</span><br><span class=\"mail_reply_label\">Subject:\u0026nbsp;</span><span class=\"mail_reply_text\">New Office Communication</span></div><br>SOAP",
+    "priority": "Normal",
+    "communicationReplyId": 2597,
+    "authorUserId": "wcassady",
+    "authorLogDateUtc": "20200327105611-0400"
+  },
+  {
+    "communicationId": 2602,
+    "patientId": 311322,
+    "subject": "FW: New Office Communication",
+    "message": "Forward<BR><BR><div class=\"mail_reply_header\" style=\"WIDTH: 100%; HEIGHT: 75px\"><span class=\"mail_reply_label\">From:\u0026nbsp;</span><span class=\"mail_reply_text\">Daoud, Cliff</span><br><span class=\"mail_reply_label\">Sent:\u0026nbsp;</span><span class=\"mail_reply_text\">Fri 03/27/2020 10:46AM</span><br><span class=\"mail_reply_label\">To:\u0026nbsp;</span><span class=\"mail_reply_text\">Cassady, Wes</span><br><span class=\"mail_reply_label\">Subject:\u0026nbsp;</span><span class=\"mail_reply_text\">New Office Communication</span></div><br>SOAP",
+    "priority": "Normal",
+    "communicationReplyId": 2597,
+    "authorUserId": "wcassady",
+    "authorLogDateUtc": "20200327105632-0400"
+  },
+  {
+    "communicationId": 2616,
+    "patientId": 311322,
+    "subject": "Hospital Round - Follow Up Request",
+    "message": "Follow up Type:  Test\nWhen: 2 Day(s)\nComment: Test",
+    "priority": "Normal",
+    "communicationReplyId": null,
+    "authorUserId": "!blake",
+    "authorLogDateUtc": "20200619131659-0400"
+  },
+  {
+    "communicationId": 2709,
+    "patientId": 311322,
+    "subject": "Notify Primary Care",
+    "message": "Please notify the primary care physician that the patient has seen me.",
+    "priority": "Normal",
+    "communicationReplyId": null,
+    "authorUserId": "!cdaoud",
+    "authorLogDateUtc": "20200828150324-0400"
+  },
+  {
+    "communicationId": 2821,
+    "patientId": 311322,
+    "subject": "Automated Fax Failure",
+    "message": "The automated faxing letter was not generated for the patient. Fax was not sent<p>Encounter Date: 07/26/2021<br>Soap Note Type: (Base)",
+    "priority": "High",
+    "communicationReplyId": null,
+    "authorUserId": "admin",
+    "authorLogDateUtc": "20210726144832-0400"
+  },
+  {
+    "communicationId": 2822,
+    "patientId": 311322,
+    "subject": "Automated Fax Failure",
+    "message": "The automated faxing letter was not generated for the patient. Fax was not sent<p>Encounter Date: 07/26/2021<br>Soap Note Type: 2nd Note",
+    "priority": "High",
+    "communicationReplyId": null,
+    "authorUserId": "admin",
+    "authorLogDateUtc": "20210726145121-0400"
+  },
+  {
+    "communicationId": 2823,
+    "patientId": 311322,
+    "subject": "Automated Fax Failure",
+    "message": "The automated faxing letter was not generated for the patient. Fax was not sent<p>Encounter Date: 07/26/2021<br>Soap Note Type: Basic Dialysis Note",
+    "priority": "High",
+    "communicationReplyId": null,
+    "authorUserId": "admin",
+    "authorLogDateUtc": "20210726145444-0400"
+  },
+  {
+    "communicationId": 2824,
+    "patientId": 311322,
+    "subject": "Automated Fax Failure",
+    "message": "The automated faxing letter was not generated for the patient. Fax was not sent<p>Encounter Date: 07/26/2021<br>Soap Note Type: Office Note",
+    "priority": "High",
+    "communicationReplyId": null,
+    "authorUserId": "admin",
+    "authorLogDateUtc": "20210726154810-0400"
+  },
+  {
+    "communicationId": 2826,
+    "patientId": 311322,
+    "subject": "Automated Fax Failure",
+    "message": "The automated faxing letter was not generated for the patient. Fax was not sent<p>Encounter Date: 07/27/2021<br>Soap Note Type: (Base)",
+    "priority": "High",
+    "communicationReplyId": null,
+    "authorUserId": "admin",
+    "authorLogDateUtc": "20210726155058-0400"
+  },
+  {
+    "communicationId": 2830,
+    "patientId": 311322,
+    "subject": "Automated Fax Failure",
+    "message": "The automated faxing letter was not generated for the patient. Fax was not sent<p>Encounter Date: 07/27/2021<br>Soap Note Type: 2nd Note",
+    "priority": "High",
+    "communicationReplyId": null,
+    "authorUserId": "admin",
+    "authorLogDateUtc": "20210727091111-0400"
+  },
+  {
+    "communicationId": 2844,
+    "patientId": 311322,
+    "subject": "Sent Fax",
+    "message": "",
+    "priority": "Normal",
+    "communicationReplyId": null,
+    "authorUserId": "cdaoud",
+    "authorLogDateUtc": "20210810083746-0400"
+  },
+  {
+    "communicationId": 2864,
+    "patientId": 311322,
+    "subject": "Sent Fax",
+    "message": "tl",
+    "priority": "Normal",
+    "communicationReplyId": null,
+    "authorUserId": "cdaoud",
+    "authorLogDateUtc": "20210811155650-0400"
+  },
+  {
+    "communicationId": 2907,
+    "patientId": 311322,
+    "subject": "Automated Fax Failure",
+    "message": "Failed to build the pdf<p>Encounter Date: 12/16/2021<br>Soap Note Type: PD Note",
+    "priority": "High",
+    "communicationReplyId": null,
+    "authorUserId": "admin",
+    "authorLogDateUtc": "20211216152700-0400"
+  },
+  {
+    "communicationId": 2929,
+    "patientId": 311322,
+    "subject": "New Office Communication",
+    "message": "",
+    "priority": "Normal",
+    "communicationReplyId": null,
+    "authorUserId": "!chandler",
+    "authorLogDateUtc": "20220331133000-0400"
+  },
+  {
+    "communicationId": 2930,
+    "patientId": 311322,
+    "subject": "New Office Communication",
+    "message": "test",
+    "priority": "Normal",
+    "communicationReplyId": null,
+    "authorUserId": "!chandler",
+    "authorLogDateUtc": "20220331133047-0400"
+  },
+  {
+    "communicationId": 2949,
+    "patientId": 311322,
+    "subject": "Received Fax",
+    "message": "",
+    "priority": "Normal",
+    "communicationReplyId": null,
+    "authorUserId": "!chandler",
+    "authorLogDateUtc": "20220602105458-0400"
+  },
+  {
+    "communicationId": 2950,
+    "patientId": 311322,
+    "subject": "Received Fax",
+    "message": "Test",
+    "priority": "Normal",
+    "communicationReplyId": null,
+    "authorUserId": "!chandler",
+    "authorLogDateUtc": "20220602105600-0400"
+  },
+  {
+    "communicationId": 2951,
+    "patientId": 311322,
+    "subject": "Received Fax",
+    "message": "test",
+    "priority": "Normal",
+    "communicationReplyId": null,
+    "authorUserId": "!chandler",
+    "authorLogDateUtc": "20220602105634-0400"
+  },
+  {
+    "communicationId": 2966,
+    "patientId": 311322,
+    "subject": "New Office Communication",
+    "message": "",
+    "priority": "Normal",
+    "communicationReplyId": null,
+    "authorUserId": "!gferrer",
+    "authorLogDateUtc": "20220816142718-0400"
+  },
+  {
+    "communicationId": 2967,
+    "patientId": 311322,
+    "subject": "New Office Communication",
+    "message": "tester",
+    "priority": "Normal",
+    "communicationReplyId": null,
+    "authorUserId": "!cdaoud",
+    "authorLogDateUtc": "20220819113110-0400"
+  }
+]

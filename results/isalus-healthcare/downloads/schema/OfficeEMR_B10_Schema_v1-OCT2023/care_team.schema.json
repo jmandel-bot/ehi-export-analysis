@@ -1,0 +1,107 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "description": "",
+  "type": "array",
+  "items": {
+    "description": "",
+    "type": "object",
+    "properties": {
+      "careTeamId": {
+        "description": "",
+        "type": "number"
+      },
+      "careTeamtype": {
+        "description": "",
+        "type": "string"
+      },
+      "patientId": {
+        "description": "",
+        "type": "number"
+      },
+      "firstName": {
+        "description": "",
+        "type": "string"
+      },
+      "middleName": {
+        "description": "",
+        "type": "string"
+      },
+      "lastName": {
+        "description": "",
+        "type": "string"
+      },
+      "suffix": {
+        "description": "",
+        "type": "string"
+      },
+      "fullName": {
+        "description": "",
+        "type": "string"
+      },
+      "address1": {
+        "description": "",
+        "type": "string"
+      },
+      "address2": {
+        "description": "",
+        "type": "string"
+      },
+      "city": {
+        "description": "",
+        "type": "string"
+      },
+      "state": {
+        "description": "",
+        "type": "string"
+      },
+      "zip": {
+        "description": "",
+        "type": "string"
+      },
+      "phoneWork": {
+        "description": "",
+        "type": "string"
+      },
+      "phoneWorkExt": {
+        "description": "",
+        "type": "string"
+      },
+      "otherPhone": {
+        "description": "",
+        "type": "string"
+      },
+      "otherPhoneExt": {
+        "description": "",
+        "type": "string"
+      },
+      "fax": {
+        "description": "",
+        "type": "string"
+      },
+      "email": {
+        "description": "",
+        "type": "string"
+      },
+      "directEmail": {
+        "description": "",
+        "type": "string"
+      },
+      "website": {
+        "description": "",
+        "type": "string"
+      },
+      "company": {
+        "description": "",
+        "type": "string"
+      },
+      "jobTitle": {
+        "description": "",
+        "type": "string"
+      },
+      "notes": {
+        "description": "",
+        "type": "string"
+      }
+    }
+  }
+}

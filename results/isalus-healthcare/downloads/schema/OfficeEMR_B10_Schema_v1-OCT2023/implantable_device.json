@@ -1,0 +1,80 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "description": "",
+  "type": "array",
+  "items": {
+    "description": "",
+    "type": "object",
+    "properties": {
+      "internalId": {
+       "description": "",
+        "type": "number"
+      },
+      "patientId": {
+        "description": "",
+        "type": "number"
+      },
+      "searchType": {
+        "description": "",
+        "type": ["string", "null"]
+      },
+      "searchValue": {
+       "description": "",
+        "type": ["string", "null"]
+      },
+      "deviceXml": {
+        "description": "",
+        "type": ["string", "null"]
+      },
+      "implantDate": {
+        "description": "",
+        "type": ["string", "null"]
+      },
+      "status": {
+        "description": "",
+        "type": "string"
+      },
+      "deviceName": {
+        "description": "",
+        "type": ["string", "null"]
+      },
+      "deviceDescription": {
+        "description": "",
+        "type": ["string", "null"]
+      },
+      "udi": {
+        "description": "",
+        "type": ["string", "null"]
+      },
+      "inactiveDate": {
+        "description": "",
+        "type": ["string", "null"]
+      },
+      "inactiveReason": {
+        "description": "",
+        "type": ["string", "null"]
+      },
+      "assignAuthority": {
+        "description": "",
+        "type": ["string", "null"]
+      },
+      "snomedIdentifier": {
+       "description": "",
+        "type": ["string", "null"]
+      },
+      "snomedDescription": {
+        "description": "",
+        "type": ["string", "null"]
+      },
+      "authorUserId": {
+       "description": "",
+        "type": "string"
+      },
+      "authorLogDateUtc": {
+        "description": "",
+        "type": "string"
+      }
+    },
+    "required": ["internalId", "patientId", "status", "authorUserId", "authorLogDateUtc"]
+  }
+}

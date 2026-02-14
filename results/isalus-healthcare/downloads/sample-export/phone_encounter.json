@@ -1,0 +1,14 @@
+﻿[
+  {
+    "rowIdentifier": 129,
+    "patientId": 311322,
+    "encounterType": "PatientCaseManagement",
+    "encounterId": 110,
+    "memo": "Call completed",
+    "phone_number": "(317) 449-0408",
+    "talkedWithPatient": "Y",
+    "messageType": "Call completed",
+    "authorUserId": "!gferrer",
+    "authorLogDateUtc": "20230626082656-0400"
+  }
+]

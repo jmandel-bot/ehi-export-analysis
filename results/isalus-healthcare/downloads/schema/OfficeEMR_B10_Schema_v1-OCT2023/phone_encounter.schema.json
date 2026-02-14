@@ -1,0 +1,51 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "description": "",
+  "type": "array",
+  "items": {
+    "description": "",
+    "type": "object",
+    "properties": {
+      "rowIdentifier": {
+        "description": "",
+        "type": "number"
+      },
+      "patientId": {
+        "description": "",
+        "type": "number"
+      },
+      "encounterType": {
+        "description": "",
+        "type": "string"
+      },
+      "encounterId": {
+        "description": "",
+        "type": "number"
+      },
+      "memo": {
+        "description": "",
+        "type": "string"
+      },
+      "phone_number": {
+        "description": "",
+        "type": "string"
+      },
+      "talkedWithPatient": {
+        "description": "",
+        "type": "string"
+      },
+      "messageType": {
+        "description": "",
+        "type": "string"
+      },
+      "authorUserId": {
+        "description": "",
+        "type": "string"
+      },
+      "authorLogDateUtc": {
+        "description": "",
+        "type": "string"
+      }
+    }
+  }
+}

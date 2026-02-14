@@ -1,0 +1,99 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "description": "",
+  "type": "array",
+  "items": {
+    "description": "",
+    "type": "object",
+    "properties": {
+      "pregnancyVisitId": {
+        "description": "",
+        "type": "number"
+      },
+      "pregnancyId": {
+        "description": "",
+        "type": "number"
+      },
+      "patientId": {
+        "description": "",
+        "type": "number"
+      },
+      "visitDate": {
+        "description": "",
+        "type": "string"
+      },
+      "gestationWeeks": {
+        "description": "",
+        "type": "string"
+      },
+      "fundalHeight": {
+        "description": "",
+        "type": "string"
+      },
+      "presentation": {
+        "description": "",
+        "type": "string"
+      },
+      "fhr": {
+        "description": "",
+        "type": "string"
+      },
+      "fetal_movement": {
+        "description": "",
+        "type": "string"
+      },
+      "pretermLabor": {
+        "description": "",
+        "type": "boolean"
+      },
+      "cervixExam": {
+        "description": "",
+        "type": "string"
+      },
+      "dialation": {
+        "description": "",
+        "type": "string"
+      },
+      "station": {
+        "description": "",
+        "type": "string"
+      },
+      "effaced": {
+        "description": "",
+        "type": "string"
+      },
+      "bloodPressureSystolic": {
+        "description": "",
+        "type": "number"
+      },
+      "bloodPressureDiastolic": {
+        "description": "",
+        "type": "number"
+      },
+      "weight": {
+        "description": "",
+        "type": "string"
+      },
+      "urineAlbumin": {
+        "description": "",
+        "type": "string"
+      },
+      "urineGlucose": {
+        "description": "",
+        "type": "string"
+      },
+      "edema": {
+        "description": "",
+        "type": "string"
+      },
+      "nextAppointment": {
+        "description": "",
+        "type": "string"
+      },
+      "comments": {
+        "description": "",
+        "type": "string"
+      }
+    }
+  }
+}

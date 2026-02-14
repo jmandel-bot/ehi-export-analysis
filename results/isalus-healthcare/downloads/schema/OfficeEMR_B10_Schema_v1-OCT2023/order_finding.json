@@ -1,0 +1,36 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+   "description": "",
+  "type": "array",
+  "items": {
+     "description": "",
+    "type": "object",
+    "properties": {
+      "orderFindingId": {
+         "description": "",
+        "type": "number"
+      },
+      "patientId": {
+        "description": "",
+        "type": "number"
+      },
+      "labRequisitionId": {
+        "description": "",
+        "type": "number"
+      },
+      "finding": {
+         "description": "",
+        "type": ["string", "null"]
+      },
+      "authorUserId": {
+       "description": "",
+        "type": ["string", "null"]
+      },
+      "authorLogDateUtc": {
+        "description": "",
+        "type": ["string", "null"]
+      }
+    },
+    "required": ["orderFindingId", "patientId", "labRequisitionId"]
+  }
+}

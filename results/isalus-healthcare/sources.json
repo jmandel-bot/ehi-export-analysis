@@ -1,0 +1,70 @@
+{
+  "research_date": "2026-02-14",
+  "sources": [
+    {
+      "url": "https://isalushealthcare.com",
+      "type": "vendor-website",
+      "note": "Main vendor homepage. Describes OfficeEMR as all-in-one cloud EHR/PM/billing platform. Lists core specialties (nephrology, urology, ENT, ortho, neurosurgery, pain management) plus 45+ additional specialties. Highlights 98.1% net collection rate, single-login platform, mobile app, 48-state reach."
+    },
+    {
+      "url": "https://officeemr.knowledgeowl.com/help/officeemr-2021-onc-costs-and-limitations",
+      "type": "mandatory-disclosures",
+      "note": "ONC mandatory disclosures page. Resolved to a navigation/table of contents page listing help documentation topics across billing, EMR, scheduling, prescriptions, telehealth, and compliance modules. No specific costs or limitations text visible — content appears in linked sub-articles."
+    },
+    {
+      "url": "https://officeemr.knowledgeowl.com/help/overview-of-ehi-export",
+      "type": "vendor-documentation",
+      "note": "EHI Export overview page in OfficeEMR help center. Lists export-related topics including single-patient and all-patient exports, export format definition, and references."
+    },
+    {
+      "url": "https://www.prnewswire.com/news-releases/evercommerce-to-integrate-allmeds-and-isalus-healthcare-300940603.html",
+      "type": "press-release",
+      "note": "October 2019 press release announcing EverCommerce's integration of AllMeds and iSALUS Healthcare. Describes acquisition history, ENTChoice product launch, and new Knoxville TN facility."
+    },
+    {
+      "url": "https://www.prnewswire.com/news-releases/evercommerce-selects-new-president-for-its-healthcare-technology-division-301137691.html",
+      "type": "press-release",
+      "note": "2020 announcement of Brent Michael as new president of EverCommerce's combined healthcare technology division (iSalus/AllMeds)."
+    },
+    {
+      "url": "https://www.evercommerce.com/software/isalus/",
+      "type": "vendor-website",
+      "note": "EverCommerce's page about iSalus. Confirms parent company relationship and EverHealth division placement."
+    },
+    {
+      "url": "https://www.ehrinpractice.com/officeemr-software-profile-388.html",
+      "type": "third-party-review",
+      "note": "Third-party EHR profile. Describes OfficeEMR as full EHR/PM/billing suite for small-medium practices. Lists tiered pricing, deployment details, specialty support, and key features."
+    },
+    {
+      "url": "https://www.findemr.com/officeemr-software",
+      "type": "third-party-review",
+      "note": "Third-party EHR directory listing. Shows 4/5 stars from 3 reviews. Lists features including eDocuments, iScheduler, Intelligent Intake, and specialty-specific modules."
+    },
+    {
+      "url": "https://www.capterra.com/p/234055/OfficeEMR/",
+      "type": "third-party-review",
+      "note": "Capterra listing showing 5.0/5.0 rating with limited reviews. Attempted access returned 403."
+    },
+    {
+      "url": "https://www.crunchbase.com/organization/isalus-healthcare",
+      "type": "third-party-reference",
+      "note": "Crunchbase profile. Company founded 2000, Indianapolis IN. Acquired by EverCommerce in 2018."
+    },
+    {
+      "url": "https://www.prnewswire.com/news-releases/st-vincent-health-partners-with-isalus-healthcare-to-provide-officeemr-an-electronic-medical-and-health-records-software-for-independent-physicians-169440746.html",
+      "type": "press-release",
+      "note": "2012 press release. St. Vincent Health (Indiana) partnered with iSALUS to offer OfficeEMR to independent physicians at discounted rate with 60-day go-live."
+    },
+    {
+      "url": "https://officeemr.knowledgeowl.com/help/ehi-export-references",
+      "type": "vendor-documentation",
+      "note": "EHI Export references page listing data categories included in export: demographics, insurance, responsible parties, appointments, authorizations, emergency contacts, patient comments, vitals, allergies, problem list, prescriptions, progress notes, letters, eDocument metadata, patient communications, payer, fee schedule, claims, claim procedure lines, payments."
+    },
+    {
+      "url": "https://officeemr.knowledgeowl.com/help/covermymeds-overview-of-optimizerx-integration",
+      "type": "vendor-documentation",
+      "note": "Help article describing CoverMyMeds integration for Real-Time Benefit Checks and Electronic Prior Authorization within e-prescribing."
+    }
+  ]
+}

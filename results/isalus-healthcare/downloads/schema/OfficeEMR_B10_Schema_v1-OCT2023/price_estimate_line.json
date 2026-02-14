@@ -1,0 +1,48 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+   "description": "",
+  "type": "array",
+  "items": {
+     "description": "",
+    "type": "object",
+    "properties": {
+      "estimationLineId": {
+         "description": "",
+        "type": "number"
+      },
+      "estimationId": {
+         "description": "",
+        "type": "number"
+      },
+      "patientId": {
+         "description": "",
+        "type": "number"
+      },
+      "procedureCode": {
+         "description": "",
+        "type": ["string", "null"]
+      },
+      "modifier": {
+         "description": "",
+        "type": ["string", "null"]
+      },
+      "diagnosisCode": {
+         "description": "",
+        "type": ["string", "null"]
+      },
+      "units": {
+         "description": "",
+        "type": ["number", "null"]
+      },
+      "chargeAmountPerUnit": {
+         "description": "",
+        "type": ["string", "null"]
+      },
+      "allowedAmountPerUnit": {
+         "description": "",
+        "type": ["string", "null"]
+      }
+    },
+    "required": ["estimationLineId", "estimationId", "patientId"]
+  }
+}

@@ -1,0 +1,54 @@
+﻿[
+  {
+    "rowIdentifier": 1038,
+    "patientId": 311322,
+    "claimId": 29975,
+    "payerName": "Aetna 1",
+    "eobDate": "20200204",
+    "eobModificationDateUtc": "20221216114435-0400",
+    "diagnosisId": 46064,
+    "groupCode": "PR",
+    "adjustmentCode": "2",
+    "adjustmentQuantity": "1.0000",
+    "adjustmentAmount": "23.08"
+  },
+  {
+    "rowIdentifier": 1039,
+    "patientId": 311322,
+    "claimId": 29975,
+    "payerName": "Aetna 1",
+    "eobDate": "20200204",
+    "eobModificationDateUtc": "20221216114435-0400",
+    "diagnosisId": 46064,
+    "groupCode": "CO",
+    "adjustmentCode": "253",
+    "adjustmentQuantity": "1.0000",
+    "adjustmentAmount": "1.85"
+  },
+  {
+    "rowIdentifier": 1040,
+    "patientId": 311322,
+    "claimId": 29975,
+    "payerName": "Aetna 1",
+    "eobDate": "20200204",
+    "eobModificationDateUtc": "20221216114435-0400",
+    "diagnosisId": 46064,
+    "groupCode": "CO",
+    "adjustmentCode": "45",
+    "adjustmentQuantity": "1.0000",
+    "adjustmentAmount": "629.61"
+  },
+  {
+    "rowIdentifier": 1041,
+    "patientId": 311322,
+    "claimId": 29975,
+    "payerName": "Aetna 1",
+    "eobDate": "20200204",
+    "eobModificationDateUtc": "20221216114435-0400",
+    "diagnosisId": 46064,
+    "groupCode": "XP",
+    "adjustmentCode": "253",
+    "adjustmentQuantity": "1.0000",
+    "adjustmentAmount": "12.00"
+  }
+]

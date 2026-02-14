@@ -1,0 +1,31 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "description": "",
+  "type": "array",
+  "items": {
+    "description": "",
+    "type": "object",
+    "properties": {
+      "imageXrefId": {
+        "description": "",
+        "type": "number"
+      },
+      "documentId": {
+        "description": "",
+        "type": "number"
+      },
+      "patientId": {
+        "description": "",
+        "type": "number"
+      },
+      "documentName": {
+        "description": "",
+        "type": "string"
+      },
+      "pageCount": {
+        "description": "",
+        "type": "number"
+      }
+    }
+  }
+}

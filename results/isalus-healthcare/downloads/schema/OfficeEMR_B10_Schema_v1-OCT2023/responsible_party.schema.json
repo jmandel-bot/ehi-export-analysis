@@ -1,0 +1,131 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "description": "",
+  "type": "array",
+  "items": {
+    "description": "",
+    "type": "object",
+    "properties": {
+      "responsiblePartyId": {
+        "description": "",
+        "type": "number"
+      },
+      "patientId": {
+        "description": "",
+        "type": "number"
+      },
+      "orderNumber": {
+        "description": "",
+        "type": "number"
+      },
+      "insured": {
+        "description": "",
+        "type": "string"
+      },
+      "firstName": {
+        "description": "",
+        "type": "string"
+      },
+      "middleName": {
+        "description": "",
+        "type": "string"
+      },
+      "lastName": {
+        "description": "",
+        "type": "string"
+      },
+      "nameSuffix": {
+        "description": "",
+        "type": "string"
+      },
+      "birthDate": {
+        "description": "",
+        "type": "string"
+      },
+      "email": {
+        "description": "",
+        "type": "string"
+      },
+      "address1": {
+        "description": "",
+        "type": "string"
+      },
+      "address2": {
+        "description": "",
+        "type": "string"
+      },
+      "city": {
+        "description": "",
+        "type": "string"
+      },
+      "state": {
+        "description": "",
+        "type": "string"
+      },
+      "zipCode": {
+        "description": "",
+        "type": "string"
+      },
+      "countryCode": {
+        "description": "",
+        "type": "string"
+      },
+      "homePhone": {
+        "description": "",
+        "type": "string"
+      },
+      "homePhoneExt": {
+        "description": "",
+        "type": "object"
+      },
+      "workPhone": {
+        "description": "",
+        "type": "string"
+      },
+      "workPhoneExt": {
+        "description": "",
+        "type": "object"
+      },
+      "otherPhone": {
+        "description": "",
+        "type": "string"
+      },
+      "otherPhoneExt": {
+        "description": "",
+        "type": "object"
+      },
+      "employer": {
+        "description": "",
+        "type": "object"
+      },
+      "relationship": {
+        "description": "",
+        "type": "string"
+      },
+      "gender": {
+        "description": "",
+        "type": "string"
+      },
+      "idType": {
+        "description": "",
+        "type": "object"
+      },
+      "idValue": {
+        "description": "",
+        "type": "object"
+      },
+      "emailStatements": {
+        "description": "",
+        "type": "string"
+      },
+      "securityType": {
+        "description": "",
+        "type": "object"
+      },
+      "securityData": {
+        "description": "",
+        "type": "string"
+      }
+    }
+  }
+}

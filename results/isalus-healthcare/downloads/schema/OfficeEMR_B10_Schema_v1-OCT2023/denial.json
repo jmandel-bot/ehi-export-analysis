@@ -1,0 +1,56 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "description": "Schema for a collection of claim-related records",
+  "type": "array",
+  "items": {
+    "description": "",
+    "type": "object",
+    "properties": {
+      "rowIdentifier": {
+        "description": "",
+        "type": "number"
+      },
+      "patientId": {
+        "description": "",
+        "type": "number"
+      },
+      "claimId": {
+        "description": "",
+        "type": "number"
+      },
+      "payerName": {
+        "description": "",
+        "type": ["string", "null"]
+      },
+      "eobDate": {
+        "description": "",
+        "type": ["string", "null"]
+      },
+      "eobModificationDateUtc": {
+        "description": "",
+        "type": ["string", "null"]
+      },
+      "diagnosisId": {
+        "description": "",
+        "type": ["number", "null"]
+      },
+      "groupCode": {
+        "description": "",
+        "type": ["string", "null"]
+      },
+      "adjustmentCode": {
+        "description": "",
+        "type": ["string", "null"]
+      },
+      "adjustmentQuantity": {
+        "description": "",
+        "type": ["string", "null"]
+      },
+      "adjustmentAmount": {
+        "description": "",
+        "type": ["string", "null"]
+      }
+    },
+    "required": ["rowIdentifier", "patientId", "claimId"]
+  }
+}

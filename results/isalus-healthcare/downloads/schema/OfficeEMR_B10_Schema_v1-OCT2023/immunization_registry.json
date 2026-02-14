@@ -1,0 +1,60 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "description": "",
+  "type": "array",
+  "items": {
+    "description": "",
+    "type": "object",
+    "properties": {
+      "patientId": {
+       "description": "",
+        "type": "number"
+      },
+      "mothersMaidenFirst": {
+        "description": "",
+        "type": ["string", "null"]
+      },
+      "mothersMaidenLast": {
+        "description": "",
+        "type": ["string", "null"]
+      },
+      "registryStatus": {
+        "description": "",
+        "type": ["string", "null"]
+      },
+      "recall": {
+       "description": "",
+        "type": ["string", "null"]
+      },
+      "protect": {
+        "description": "",
+        "type": ["string", "null"]
+      },
+      "multipleBirth": {
+       "description": "",
+        "type": ["string", "null"]
+      },
+      "multipleBirthOrder": {
+        "description": "",
+        "type": ["number", "null"]
+      },
+      "registryChangeDateUtc": {
+        "description": "",
+        "type": ["string", "null"]
+      },
+      "recallChangeDateUtc": {
+        "description": "",
+        "type": ["string", "null"]
+      },
+      "protectChangeDateUtc": {
+        "description": "",
+        "type": ["string", "null"]
+      },
+      "authorUserId": {
+        "description": "",
+        "type": ["string", "null"]
+      }
+    },
+    "required": ["patientId"]
+  }
+}

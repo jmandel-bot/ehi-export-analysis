@@ -1,0 +1,10 @@
+﻿[
+  {
+    "noteId": 24,
+    "caseManagementId": 80,
+    "patientId": 311322,
+    "note": "CKCC note under Case Management to display upon hover for CKCC kidney icon indicator. This field is limited but allows a good amount of content for quick display related to CKCC patient. It will displayed the MOST CURRENT note entered under CKCC.",
+    "authorUserId": "!gferrer",
+    "authorLogDateUtc": "20230227072609-0400"
+  }
+]

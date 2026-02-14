@@ -1,0 +1,123 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "description": "",
+  "type": "array",
+  "items": {
+    "description": "",
+    "type": "object",
+    "properties": {
+      "prescriptionId": {
+        "description": "",
+        "type": "number"
+      },
+      "patientId": {
+        "description": "",
+        "type": "number"
+      },
+      "renderingProvider": {
+        "description": "",
+        "type": "string"
+      },
+      "drugName": {
+        "description": "",
+        "type": "string"
+      },
+      "RxNorm": {
+        "description": "",
+        "type": "string"
+      },
+      "strength": {
+        "description": "",
+        "type": "object"
+      },
+      "strengthUom": {
+        "description": "",
+        "type": "object"
+      },
+      "sig": {
+        "description": "",
+        "type": "object"
+      },
+      "sigQuantity": {
+        "description": "",
+        "type": "object"
+      },
+      "sigDosage": {
+        "description": "",
+        "type": "object"
+      },
+      "sigRoute": {
+        "description": "",
+        "type": "object"
+      },
+      "sigFrequency": {
+        "description": "",
+        "type": "object"
+      },
+      "method": {
+        "description": "",
+        "type": "string"
+      },
+      "status": {
+        "description": "",
+        "type": "string"
+      },
+      "dispenseAsWritten": {
+        "description": "",
+        "type": "string"
+      },
+      "isSample": {
+        "description": "",
+        "type": "string"
+      },
+      "refill": {
+        "description": "",
+        "type": "object"
+      },
+      "alerts": {
+        "description": "",
+        "type": "string"
+      },
+      "interaction": {
+        "description": "",
+        "type": "object"
+      },
+      "prescribedBy": {
+        "description": "",
+        "type": "string"
+      },
+      "encounterDate": {
+        "description": "",
+        "type": "string"
+      },
+      "startDate": {
+        "description": "",
+        "type": "string"
+      },
+      "stopDate": {
+        "description": "",
+        "type": "string"
+      },
+      "voidAfterDate": {
+        "description": "",
+        "type": "object"
+      },
+      "writtenDate": {
+        "description": "",
+        "type": "string"
+      },
+      "ndc": {
+        "description": "",
+        "type": "object"
+      },
+      "authorUserId": {
+        "description": "",
+        "type": "string"
+      },
+      "authorLogDateUtc": {
+        "description": "",
+        "type": "string"
+      }
+    }
+  }
+}

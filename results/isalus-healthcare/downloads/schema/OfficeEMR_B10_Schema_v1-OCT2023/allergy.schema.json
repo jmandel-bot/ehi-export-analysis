@@ -1,0 +1,55 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "description": "",
+  "type": "array",
+  "items": {
+    "description": "",
+    "type": "object",
+    "properties": {
+      "rowIdentifier": {
+        "description": "",
+        "type": "number"
+      },
+      "patientId": {
+        "description": "",
+        "type": "number"
+      },
+      "internalAllergenId": {
+        "description": "",
+        "type": "number"
+      },
+      "allergenName": {
+        "description": "",
+        "type": "string"
+      },
+      "comment": {
+        "description": "",
+        "type": "object"
+      },
+      "severity": {
+        "description": "",
+        "type": "object"
+      },
+      "snomedCtValue": {
+        "description": "",
+        "type": "object"
+      },
+      "snomedDescription": {
+        "description": "",
+        "type": "object"
+      },
+      "rxNormId": {
+        "description": "",
+        "type": "object"
+      },
+      "active": {
+        "description": "",
+        "type": "boolean"
+      },
+      "authorLogDateUtc": {
+        "description": "",
+        "type": "string"
+      }
+    }
+  }
+}

@@ -1,0 +1,24 @@
+﻿[
+  {
+    "educationId": 231,
+    "patientId": 311322,
+    "encounter_date": "20211110",
+    "dataType": "url",
+    "educationName": "Abnormal head movements",
+    "dataValue": "https://connect.medlineplus.gov/application?mainSearchCriteria.v.cs=2.16.840.1.113883.6.90\u0026mainSearchCriteria.v.c=R25.0\u0026mainSearchCriteria.v.dn=Abnormal head movements\u0026informationRecipient.languageCode.c=en\u0026patientPerson.administrativeGenderCode.c=M\u0026age.v.v=119\u0026age.v.u=a",
+    "receivedDate": "20211110",
+    "authorUserId": "!cdaoud",
+    "authorLogDateUtc": "20211110144641-0400"
+  },
+  {
+    "educationId": 232,
+    "patientId": 311322,
+    "encounter_date": "20211110",
+    "dataType": "url",
+    "educationName": "Abnormalities of breathing",
+    "dataValue": "https://connect.medlineplus.gov/application?mainSearchCriteria.v.cs=2.16.840.1.113883.6.90\u0026mainSearchCriteria.v.c=R06\u0026mainSearchCriteria.v.dn=Abnormalities of breathing\u0026informationRecipient.languageCode.c=en\u0026patientPerson.administrativeGenderCode.c=M\u0026age.v.v=119\u0026age.v.u=a",
+    "receivedDate": "20211110",
+    "authorUserId": "!cdaoud",
+    "authorLogDateUtc": "20211110144641-0400"
+  }
+]

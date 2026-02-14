@@ -1,0 +1,67 @@
+﻿[
+  {
+    "rowIdentifier": 1,
+    "encounterId": 8606,
+    "patientId": 311322,
+    "globalEntityId": 56093,
+    "controlType": "Checkbox",
+    "encounterValue": "Y",
+    "alias": "Alcohol intoxication",
+    "globalDescription": "Alcohol intoxication (disorder)",
+    "additionalData": null,
+    "snomedCtValue": "25702006",
+    "snomedDescription": "Alcohol intoxication (disorder)"
+  },
+  {
+    "rowIdentifier": 2,
+    "encounterId": 8606,
+    "patientId": 311322,
+    "globalEntityId": 56094,
+    "controlType": "Checkbox",
+    "encounterValue": "Y",
+    "alias": "Physical aggression",
+    "globalDescription": "Physical aggression (finding)",
+    "additionalData": null,
+    "snomedCtValue": "248004009",
+    "snomedDescription": "Physical aggression (finding)"
+  },
+  {
+    "rowIdentifier": 3,
+    "encounterId": 8606,
+    "patientId": 311322,
+    "globalEntityId": 56095,
+    "controlType": "Checkbox",
+    "encounterValue": "Y",
+    "alias": "Unable to manage medication",
+    "globalDescription": "Unable to manage medication (finding)",
+    "additionalData": null,
+    "snomedCtValue": "285035003",
+    "snomedDescription": "Self care deficit for medication management"
+  },
+  {
+    "rowIdentifier": 4,
+    "encounterId": 8606,
+    "patientId": 311322,
+    "globalEntityId": 58067,
+    "controlType": "Checkbox",
+    "encounterValue": "Y",
+    "alias": "Hypertension",
+    "globalDescription": "Malignant hypertension",
+    "additionalData": null,
+    "snomedCtValue": "155301003",
+    "snomedDescription": "Malignant hypertension"
+  },
+  {
+    "rowIdentifier": 5,
+    "encounterId": 9715,
+    "patientId": 311322,
+    "globalEntityId": 278594,
+    "controlType": "Combobox",
+    "encounterValue": "1",
+    "alias": "Numeric Values 0-10",
+    "globalDescription": "Assessment - Card #14218 - Dropdown Value Showing Encoded - Combobox - Numeric Values 0-10",
+    "additionalData": null,
+    "snomedCtValue": null,
+    "snomedDescription": null
+  }
+]

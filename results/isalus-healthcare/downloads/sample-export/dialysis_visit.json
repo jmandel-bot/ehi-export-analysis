@@ -1,0 +1,54 @@
+﻿[
+  {
+    "visitId": 15250,
+    "patientId": 311322,
+    "visitDate": "20190823",
+    "modality": "In-Center Hemodialysis",
+    "claimId": null,
+    "providerName": "Adkins MD, Stanley",
+    "locationName": "iSALUS Healthcare",
+    "comprehensive": true,
+    "comment": "",
+    "telemedicine": false,
+    "encounterId": null
+  },
+  {
+    "visitId": 15276,
+    "patientId": 311322,
+    "visitDate": "20190913",
+    "modality": "In-Center Hemodialysis",
+    "claimId": null,
+    "providerName": "Adkins MD, Stanley",
+    "locationName": "iSALUS Healthcare",
+    "comprehensive": false,
+    "comment": "",
+    "telemedicine": false,
+    "encounterId": null
+  },
+  {
+    "visitId": 15402,
+    "patientId": 311322,
+    "visitDate": "20201019",
+    "modality": "In-Center Hemodialysis",
+    "claimId": null,
+    "providerName": "Andrew MD, Jones S.",
+    "locationName": "iSALUS Healthcare",
+    "comprehensive": false,
+    "comment": "",
+    "telemedicine": false,
+    "encounterId": null
+  },
+  {
+    "visitId": 15405,
+    "patientId": 311322,
+    "visitDate": "20201020",
+    "modality": "In-Center Hemodialysis",
+    "claimId": null,
+    "providerName": "Andrew MD, Jones S.",
+    "locationName": "iSALUS Healthcare",
+    "comprehensive": false,
+    "comment": "",
+    "telemedicine": false,
+    "encounterId": null
+  }
+]

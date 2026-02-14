@@ -1,0 +1,75 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "description": "",
+  "type": "array",
+  "items": {
+    "description": "",
+    "type": "object",
+    "properties": {
+      "rowIdentifier": {
+        "description": "",
+        "type": "number"
+      },
+      "patientId": {
+        "description": "",
+        "type": "number"
+      },
+      "contactNumber": {
+        "description": "",
+        "type": "number"
+      },
+      "contactName": {
+        "description": "",
+        "type": "string"
+      },
+      "homePhone": {
+        "description": "",
+        "type": "string"
+      },
+      "homePhoneExt": {
+        "description": "",
+        "type": "string"
+      },
+      "workPhone": {
+        "description": "",
+        "type": "string"
+      },
+      "workPhoneExt": {
+        "description": "",
+        "type": "string"
+      },
+      "otherPhone": {
+        "description": "",
+        "type": "string"
+      },
+      "otherPhoneExt": {
+        "description": "",
+        "type": "string"
+      },
+      "email": {
+        "description": "",
+        "type": "string"
+      },
+      "relationship": {
+        "description": "",
+        "type": "string"
+      },
+      "phiAccess": {
+        "description": "",
+        "type": "string"
+      },
+      "pickUpMeds": {
+        "description": "",
+        "type": "string"
+      },
+      "phiExclusions": {
+        "description": "",
+        "type": "string"
+      },
+      "comments": {
+        "description": "",
+        "type": "string"
+      }
+    }
+  }
+}

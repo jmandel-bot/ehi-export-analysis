@@ -1,0 +1,107 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "description": "",
+  "type": "array",
+  "items": {
+    "description": "",
+    "type": "object",
+    "properties": {
+      "pregnancyId": {
+        "description": "",
+        "type": "number"
+      },
+      "patientId": {
+        "description": "",
+        "type": "number"
+      },
+      "prePregnancyWeight": {
+        "description": "",
+        "type": "string"
+      },
+      "bloodTransfusion": {
+        "description": "",
+        "type": "boolean"
+      },
+      "anesthesiaConsult": {
+        "description": "",
+        "type": "boolean"
+      },
+      "confirmationLmp": {
+        "description": "",
+        "type": "string"
+      },
+      "confirmationInitialExam": {
+        "description": "",
+        "type": "string"
+      },
+      "confirmationInitialExamWeeks": {
+        "description": "",
+        "type": "string"
+      },
+      "confirmationUltrasound": {
+        "description": "",
+        "type": "string"
+      },
+      "confirmationUltrasoundWeeks": {
+        "description": "",
+        "type": "string"
+      },
+      "confirmationInitialEdd": {
+        "description": "",
+        "type": "string"
+      },
+      "confirmationLmpEdd": {
+        "description": "",
+        "type": "string"
+      },
+      "confirmationInitialExamEdd": {
+        "description": "",
+        "type": "string"
+      },
+      "confirmationUltrasoundEdd": {
+        "description": "",
+        "type": "string"
+      },
+      "updateQuickening": {
+        "description": "",
+        "type": "string"
+      },
+      "updateFundal": {
+        "description": "",
+        "type": "string"
+      },
+      "updateUltrasound": {
+        "description": "",
+        "type": "string"
+      },
+      "updateUltrasoundWeeks": {
+        "description": "",
+        "type": "string"
+      },
+      "updateFinalEdd": {
+        "description": "",
+        "type": "string"
+      },
+      "updateQuickeningEdd": {
+        "description": "",
+        "type": "string"
+      },
+      "updateFundalEdd": {
+        "description": "",
+        "type": "string"
+      },
+      "updateUltrasoundEdd": {
+        "description": "",
+        "type": "string"
+      },
+      "authorUserId": {
+        "description": "",
+        "type": "string"
+      },
+      "authorLogDateUtc": {
+        "description": "",
+        "type": "string"
+      }
+    }
+  }
+}

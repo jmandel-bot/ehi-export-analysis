@@ -1,0 +1,79 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "description": "",
+  "type": "array",
+  "items": {
+    "description": "",
+    "type": "object",
+    "properties": {
+      "rowIdentifier": {
+        "description": "",
+        "type": "number"
+      },
+      "patientId": {
+        "description": "",
+        "type": "number"
+      },
+      "description": {
+        "description": "",
+        "type": "string"
+      },
+      "accidentDate": {
+        "description": "",
+        "type": "string"
+      },
+      "treatmentDate": {
+        "description": "",
+        "type": "string"
+      },
+      "onsetIllnessDate": {
+        "description": "",
+        "type": "string"
+      },
+      "relatedCause1": {
+        "description": "",
+        "type": "string"
+      },
+      "relatedCause2": {
+        "description": "",
+        "type": "object"
+      },
+      "relatedCause3": {
+        "description": "",
+        "type": "object"
+      },
+      "accidentState": {
+        "description": "",
+        "type": "string"
+      },
+      "accidentCountry": {
+        "description": "",
+        "type": "string"
+      },
+      "comment": {
+        "description": "",
+        "type": "string"
+      },
+      "dosLastSeenInd": {
+        "description": "",
+        "type": "string"
+      },
+      "lastSeenDate": {
+        "description": "",
+        "type": "string"
+      },
+      "resolved": {
+        "description": "",
+        "type": "string"
+      },
+      "authorUserId": {
+        "description": "",
+        "type": "string"
+      },
+      "authorLogDateUtc": {
+        "description": "",
+        "type": "string"
+      }
+    }
+  }
+}

@@ -1,0 +1,15 @@
+﻿[
+  {
+    "estimationId": 83,
+    "dateOfService": "20230310",
+    "payer": "Aetna 1",
+    "provider": "Adkins MD, Stanley",
+    "serviceLocation": "iSALUS Healthcare",
+    "patientCostInNetwork": null,
+    "patientCostOutNetwork": null,
+    "insuranceCostInNetwork": null,
+    "insuranceCostOutNetwork": null,
+    "authorUserId": "!michell",
+    "authorLogDateUtc": "20230310124441-0400"
+  }
+]
