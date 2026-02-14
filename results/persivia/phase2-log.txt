@@ -620,3 +620,46 @@ Now let me get file sizes for the manifest and write the output files:
 {
   "command": "cd /home/exedev/EHI && git add results/persivia/ && git commit -m \"Persivia EHI export documentation collection\n\nCollected from https://persivia.com/meaningful-use-certification-language/\nCHPL IDs: 10918, 11149\n\nDownloaded:\n- Full certified products page HTML with inline EHI export docs\n- Mandatory disclosure letters for Platform 4.0 and 3.5\n- Full-page screenshot of both EHI sections\n\nKey findings:\n- Minimal documentation: entire EHI spec is a few paragraphs inline\n- Platform 4.0: XML export using QRDA Cat I format\n- Platform 3.5: XML-based CCD files, single and multi-patient export\n- No data dictionaries, schemas, sample files, or API docs provided\n- No additional EHI documentation found elsewhere on persivia.com\""
 }
+[RESULT: [main f294f0e] Persivia EHI export documentation collection
+ Committer: exe.dev user <exedev@wiggum.exe.xyz>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly:
+
+    git config --global user.name "Your Name"
+    git config --global user.email you@example.com
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 7 files changed, 1463 insertions(+)
+ create mode 100644 results/persivia/collection-log.md
+ create mode 100644 results/persivia/download-manifest.json
+ create mode 100644 results/persivia/downloads/3.5-Mandatory-Disclosures-Letter.pdf
+ create mode 100644 results/persivia/downloads/4.0-Mandatory-Disclosures-Letter.pdf
+ create mode 100644 results/persivia/downloads/certified-products-page.html
+ create mode 100644 results/persivia/downloads/screenshot-full-page.png
+ create mode 100644 results/persivia/phase2-log.txt
+]
+Done. Here's a summary:
+
+## Persivia EHI Export Documentation — Collection Complete
+
+**Status**: Found, but documentation is **extremely minimal**.
+
+### What was collected:
+| File | Size | Description |
+|------|------|-------------|
+| `certified-products-page.html` | 113 KB | Full page with inline EHI export text |
+| `4.0-Mandatory-Disclosures-Letter.pdf` | 831 KB | Disclosure letter, Platform 4.0 (2 pages) |
+| `3.5-Mandatory-Disclosures-Letter.pdf` | 844 KB | Disclosure letter, Platform 3.5 (2 pages) |
+| `screenshot-full-page.png` | 379 KB | Screenshot of both EHI sections |
+
+### Key findings:
+- **Platform 4.0**: Exports XML using QRDA Cat I format
+- **Platform 3.5**: Exports XML-based CCD files, supports single-patient and multi-patient (entire population, page, or checkbox-selected patients)
+- **No** data dictionaries, schemas, sample files, API docs, or detailed format specs
+- **No** additional EHI documentation found anywhere else on persivia.com (checked `/ehi/`, `/fhir/`, `/interoperability/`, `/api/`, `/certifications/`, etc.)
+
+This is one of the most minimal EHI export documentation pages — the entire technical specification is a few paragraphs of prose.
