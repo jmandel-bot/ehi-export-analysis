@@ -2234,3 +2234,49 @@ drwxr-xr-x 3 exedev exedev    4096 Feb 14 16:54 ..
 {
   "command": "cd /home/exedev/ehi-export-analysis\ngit add results/endosoft-llc/\ngit commit -m \"EndoSoft/Qlinical EHI export documentation collection\n\nDownloaded from https://qlinical.com/ephi/:\n- EHI export page (HTML) listing 23 exportable data sections\n- Two export methods: C-CDA 2.1 (single/multi patient) and FHIR bulk (NDJSON)\n- 138-page FHIR API PDF from endosoft.com with Bulk Data Access section\n  documenting 18 FHIR resource types with sample NDJSON responses\n- Screenshots of EHI page and FHIR landing page\n- Extracted text from PDF for analysis\n\nKey findings:\n- Export covers standard clinical data (allergies, meds, conditions, vitals,\n  labs, encounters, procedures, immunizations, etc.)\n- Missing: endoscopic images/video (core product value), detailed procedure\n  reports, nursing records, scheduling, billing, consent forms\n- C-CDA export has minimal documentation (no samples, no template specs)\n- FHIR bulk export well-documented with sample data but shared with EndoVault\""
 }
+[RESULT: [main c859bc4c] EndoSoft/Qlinical EHI export documentation collection
+ Committer: exe.dev user <exedev@ehi-research.exe.xyz>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly:
+
+    git config --global user.name "Your Name"
+    git config --global user.email you@example.com
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 11 files changed, 11130 insertions(+)
+ create mode 100644 results/endosoft-llc/chpl-metadata.json
+ create mode 100644 results/endosoft-llc/downloads/170.315-g10-Standardized-API-FHIR-2.pdf
+ create mode 100644 results/endosoft-llc/downloads/170.315-g10-Standardized-API-FHIR-2.txt
+ create mode 100644 results/endosoft-llc/downloads/ephi-page-bottom.png
+ create mode 100644 results/endosoft-llc/downloads/ephi-page-top.png
+ create mode 100644 results/endosoft-llc/downloads/ephi-page.html
+ create mode 100644 results/endosoft-llc/downloads/fhir-landing-page.png
+ create mode 100644 results/endosoft-llc/ehi-export-report.md
+ create mode 100644 results/endosoft-llc/files.json
+ create mode 100644 results/endosoft-llc/phase1-log.txt
+ create mode 100644 results/endosoft-llc/phase2-log.txt
+]
+Done. Here's a summary of what was found:
+
+## Collection Summary
+
+**URL Status:** ✅ Found and accessible at `https://qlinical.com/ephi/`
+
+**Files Downloaded:**
+1. **ephi-page.html** — Main EHI export page listing 23 exportable data sections and two export methods
+2. **170.315-g10-Standardized-API-FHIR-2.pdf** — 138-page FHIR API documentation with Bulk Data Access section (18 FHIR resource types as NDJSON, with sample responses)
+3. Screenshots (3) and extracted text from PDF
+
+**Key Findings:**
+
+- **Two export formats:** C-CDA 2.1 (single/multi patient XML) and FHIR R4 bulk export (NDJSON)
+- **23 selectable data sections** listed on the EHI page (allergies through service request)
+- **18 FHIR resource types** documented in the bulk export with sample NDJSON data
+- **Significant gaps for an endoscopy EHR:** No documentation of how endoscopic images/video, detailed procedure reports with findings, nursing records, scheduling, billing, consent forms, or quality metrics are exported — these are the core data of this specialty product
+- **C-CDA export is barely documented** — one sentence, a two-row table, no samples
+- **FHIR bulk export is well-documented** but the PDF is shared with the EndoVault product and dates to 2022
+- The documentation reads as a compliance minimum rather than comprehensive export guidance
