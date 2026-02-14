@@ -66,6 +66,20 @@ MAX_CONCURRENT=3 # env var, default 2 for both, 3 for single
   phase 2 starts for same target). Two separate agent conversations, but
   phase 2 can read phase 1's output files on disk.
 
+## Subagent Pattern
+
+Agents CAN use subagents for parallelism, but **must never message a subagent
+after launching it** — that sends a new user message which interrupts and derails
+the running agent. Instead:
+
+1. Tell subagent to write output to a known file path
+2. Launch with `wait: false`
+3. Block with `inotifywait -e create -e moved_to DIR --include FILENAME --timeout 600`
+4. Read the output file
+
+The loop script itself uses `inotifywait` on completion markers instead of
+sleep-polling.
+
 ## Dependencies
 
 - `bun` — for running shelley-prompt.ts (`curl -fsSL https://bun.sh/install | bash`)
