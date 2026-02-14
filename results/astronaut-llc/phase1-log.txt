@@ -1,0 +1,442 @@
+
+[TOOL: bash]
+{
+  "command": "cat /home/exedev/ehi-export-analysis/results/astronaut-llc/chpl-metadata.json"
+}
+[RESULT: {
+  "url": "https://astronautehr.com/index.php/disclosures/export-format-documentation/",
+  "developer": {
+    "name": "Astronaut, LLC",
+    "website": "https://astronautehr.com"
+  },
+  "mandatory_disclosures_url": "",
+  "sed_intended_user_description": null,
+  "products": [
+    {
+      "name": "Astronaut",
+      "version": "1709",
+      "chpl_id": 10809,
+      "chpl_product_number": "15.02.05.3099.ASTR.01.00.1.220201",
+      "certified_criteria": [
+        "170.315 (a)(1)",
+        "170.315 (a)(12)",
+        "170.315 (a)(14)",
+        "170.315 (a)(2)",
+        "170.315 (a)(3)",
+        "170.315 (a)(4)",
+        "170.315 (a)(5)",
+        "170.315 (b)(1)",
+        "170.315 (b)(10)",
+        "170.315 (b)(11)",
+        "170.315 (b)(3)",
+        "170.315 (c)(1)",
+        "170.315 (d)(1)",
+        "170.315 (d)(12)",
+        "170.315 (d)(13)",
+        "170.315 (d)(2)",
+        "170.315 (d)(3)",
+        "170.315 (d)(4)",
+        "170.315 (d)(5)",
+        "170.315 (d)(6)",
+        "170.315 (d)(7)",
+        "170.315 (d)(8)",
+        "170.315 (d)(9)",
+        "170.315 (e)(3)",
+        "170.315 (g)(10)",
+        "170.315 (g)(3)",
+        "170.315 (g)(4)",
+        "170.315 (g)(5)",
+        "170.315 (g)(6)",
+        "170.315 (g)(7)",
+        "170.315 (g)(9)",
+        "170.315 (h)(1)"
+      ]
+    }
+  ]
+}]
+Good — let me note what the criteria tell us. Certified for (a)(1)-(a)(5), (a)(12), (a)(14) — clinical data like CPOE, demographics, problem list, med list, med allergy, family health history, implantable device list. Also (b)(1) transitions of care, (b)(3) e-prescribing, (b)(10) EHI export, (b)(11) (care plan?), (c)(1) clinical quality measures, (e)(3) patient health info via API, (g)(7)-(g)(10) FHIR/APIs, (h)(1) direct messaging. Pretty broad clinical EHR certification.
+
+Let me research the vendor.
+[TOOL: browser_navigate]
+{
+  "url": "https://astronautehr.com"
+}
+[RESULT: done]
+
+[TOOL: browser_take_screenshot]
+{}
+[RESULT: Screenshot taken (saved as /tmp/shelley-screenshots/a1ffd53e-f1f9-427f-8443-3ab7fc5a32b7.png)]
+"Full-service EHR vendor, billers, developers, and programmers." Let me scroll down and explore the site.
+[TOOL: browser_eval]
+{
+  "expression": "window.scrollTo(0, 800); 'done'"
+}
+[RESULT: <javascript_result>"done"</javascript_result>]
+
+[TOOL: browser_take_screenshot]
+{}
+[RESULT: Screenshot taken (saved as /tmp/shelley-screenshots/15c590ef-8c46-421b-866a-57cdcfa7b705.png)]
+Cloud-based, browser-based EHR. CEO is Ignacio Valdes, MD, MS. Let me explore the "About Astronaut" and "Why Switch" pages.
+[TOOL: browser_navigate]
+{
+  "url": "https://astronautehr.com/index.php/about-astronaut/"
+}
+[RESULT: done]
+
+[TOOL: browser_take_screenshot]
+{}
+[RESULT: Screenshot taken (saved as /tmp/shelley-screenshots/da97b439-035d-4f1c-aae2-6039bbc32adc.png)]
+404. Let me check the dropdown menu links.
+[TOOL: browser_eval]
+{
+  "expression": "\n// Get all links in the nav\nconst links = Array.from(document.querySelectorAll('nav a, .menu a, header a'));\nlinks.map(a => ({text: a.textContent.trim(), href: a.href})).filter(l => l.text);\n"
+}
+[RESULT: JavaScript result (3439 bytes) written to: /tmp/shelley-console-logs/js_result_fc612050.json
+Use `cat /tmp/shelley-console-logs/js_result_fc612050.json` to view the full content.]
+
+[TOOL: bash]
+{
+  "command": "cat /tmp/shelley-console-logs/js_result_fc612050.json"
+}
+[RESULT: [{"href":"https://astronautehr.com/index.php/astronaut/","text":"About Astronaut"},{"href":"https://astronautehr.com/index.php/astronaut/","text":"About Astronaut"},{"href":"https://astronautehr.com/index.php/astronaut/#team","text":"Meet the Team"},{"href":"https://astronautehr.com/index.php/astronaut/careers/","text":"Careers"},{"href":"https://astronautehr.com/index.php/astronaut/#communitydiversity","text":"Community \u0026 Diversity"},{"href":"https://astronautehr.com/index.php/why-switch/","text":"Why Switch?"},{"href":"https://astronautehr.com/index.php/news/","text":"News"},{"href":"https://astronautehr.com/index.php/news/","text":"Astronaut News"},{"href":"https://astronautehr.com/index.php/join_form/","text":"Newsletter"},{"href":"https://astronautehr.com/index.php/disclosures/","text":"Disclosures/API/Costs"},{"href":"https://astronautehr.com/index.php/terms-of-service/","text":"Terms of Service"},{"href":"https://astronautehr.com/index.php/privacy-policy/","text":"Privacy Policy"},{"href":"https://astronautehr.com/index.php/real-world-test-plan/","text":"Real World Test Plan"},{"href":"https://astronautehr.com/index.php/real-world-test-results/","text":"Real World Test Results"},{"href":"https://astronautehr.com/index.php/170-315g10-apis/","text":"170.315(g)(10) APIs"},{"href":"https://astronautehr.com/index.php/fhir-base-urls/","text":"FHIR Base URLs"},{"href":"https://astronautehr.com/index.php/disclosures/export-format-documentation/","text":"Export Format Documentation"},{"href":"https://astronautehr.com/index.php/about-contact-old/","text":"Contact Us"},{"href":"https://astronautehr.com/index.php/api/","text":"API"},{"href":"https://astronautehr.com/index.php/about-contact-old/","text":"Click here to make the switch to Astronaut!"},{"href":"https://astronautehr.com/index.php/astronaut/","text":"About Astronaut"},{"href":"https://astronautehr.com/index.php/astronaut/","text":"About Astronaut"},{"href":"https://astronautehr.com/index.php/astronaut/#team","text":"Meet the Team"},{"href":"https://astronautehr.com/index.php/astronaut/careers/","text":"Careers"},{"href":"https://astronautehr.com/index.php/astronaut/#communitydiversity","text":"Community \u0026 Diversity"},{"href":"https://astronautehr.com/index.php/why-switch/","text":"Why Switch?"},{"href":"https://astronautehr.com/index.php/news/","text":"News"},{"href":"https://astronautehr.com/index.php/news/","text":"Astronaut News"},{"href":"https://astronautehr.com/index.php/join_form/","text":"Newsletter"},{"href":"https://astronautehr.com/index.php/disclosures/","text":"Disclosures/API/Costs"},{"href":"https://astronautehr.com/index.php/terms-of-service/","text":"Terms of Service"},{"href":"https://astronautehr.com/index.php/privacy-policy/","text":"Privacy Policy"},{"href":"https://astronautehr.com/index.php/real-world-test-plan/","text":"Real World Test Plan"},{"href":"https://astronautehr.com/index.php/real-world-test-results/","text":"Real World Test Results"},{"href":"https://astronautehr.com/index.php/170-315g10-apis/","text":"170.315(g)(10) APIs"},{"href":"https://astronautehr.com/index.php/fhir-base-urls/","text":"FHIR Base URLs"},{"href":"https://astronautehr.com/index.php/disclosures/export-format-documentation/","text":"Export Format Documentation"},{"href":"https://astronautehr.com/index.php/about-contact-old/","text":"Contact Us"},{"href":"https://astronautehr.com/index.php/api/","text":"API"}]]
+Good — the about page is at `/index.php/astronaut/`. Let me visit it plus a few other key pages.
+[TOOL: browser_navigate]
+{
+  "url": "https://astronautehr.com/index.php/astronaut/"
+}
+[RESULT: done]
+
+[TOOL: browser_eval]
+{
+  "expression": "document.body.innerText"
+}
+[RESULT: JavaScript result (7890 bytes) written to: /tmp/shelley-console-logs/js_result_09e92de1.json
+Use `cat /tmp/shelley-console-logs/js_result_09e92de1.json` to view the full content.]
+
+[TOOL: bash]
+{
+  "command": "cat /tmp/shelley-console-logs/js_result_09e92de1.json"
+}
+[RESULT: "About WordPress\nLog In\nSearch\nSkip to content\nClick here to make the switch to Astronaut!\nA smart EHR so you can focus on what is important, patient care.\n\t\nAbout Astronaut\nAbout Astronaut\nMeet the Team\nCareers\nCommunity \u0026 Diversity\nWhy Switch?\nNews\nAstronaut News\nNewsletter\nDisclosures/API/Costs\nTerms of Service\nPrivacy Policy\nReal World Test Plan\nReal World Test Results\n170.315(g)(10) APIs\nFHIR Base URLs\nExport Format Documentation\nContact Us\nAPI\n\t\nAn EHR Created by Medical Nerds for Medical Professionals\n\nOur mission is to serve our Astronaut customers so they can focus on what is important, serving their patients.\n\nAbout Astronaut EHR\nSince 2009, Astronaut LLC has served and perfected Astronaut Electronic Health Record (EHR).\n \nInpatient hospitals, outpatient clinics of all sizes, and Partial Hospitalization Programs (PHP) have all implemented Astronaut. The software and service it offers are reliable, proven, robust and backed by over 35 years of Health IT experience. Astronaut is an Electronic Health Record that is easy to implement, delivered through the browser, with NO NEED TO PLUG and play, JUST PLAY!\n \nThirty-four-thousand patient records already exist in the system.\n \nWe are employee owned, created by physicians for physicians. We are passionate about building, improving, and deploying a great Electronic Health Record.\n \nOur EHR is comprehensive, robust, tested and supports all disciplines but has a focus on Psychiatry.\n \nAstronaut™ is a trademark of Astronaut, LLC.\nThe Astronaut Name\n\nThe character Astronaut in Larry Niven and Brenda Cooper’s novel Building Harlequin’s Moon was the inspiration for our name. Astronaut was the Artificial Intelligence that ran an interstellar starship. Astronaut the character was constrained because the humans on board were afraid that it would grow too powerful. Our vision is Astronaut EHR is the Astronaut character, unrestrained.\n\nThe swoosh in our logo is a stylized version of the famous photograph ‘Earthrise’ taken by Apollo Astronauts. Astronauts also make the use of complex technology look easy and fun.\n\nFor all these reasons we named the company Astronaut, LLC and the product Astronaut EHR.\n\nMeet the Astronaut Team\nIgnacio H. Valdes, MD, MS | CEO/Managing Member\n\nBoard certified in Clinical Informatics by the American Board of Preventive Medicine (ABPM) in 2021. In 1987 Dr. Valdes attempted to computerize his Father’s surgical practice with primitive database technology. That first attempt resulted in a lifelong mission to improve patient care with computers. Dr. Valdes has had a distinguished career. He has worked for such companies as IBM both as a NASA contractor and private commercial contracting, Compaq, and other startup Health IT companies. He is an accomplished Bachelor of science computer science from Texas A\u0026M, Master of science computer science from the University of Houston. He programs in most popular computer languages. He is a practicing physician, board-certified Psychiatrist and Brain Imaging Fellow. He feels privileged to have served Veterans at the Michael E Debakey Veterans Affairs hospital in Houston, Texas.  He drove the entire Astronaut EHR ONC certification process resulting in a successful completion. He remains committed to serving patients effectively, efficiently, and safely through the use of software. He founded Astronaut, LLC in 2009.\n\nJanet Blazek Valdes | President, Managing Member\n\nMs. Valdes has a distinguished career as a trusted executive, operations officer, and human resources director. She brings over twenty years of experience in the financial services and legal industries, where she excelled in mid to large sized firms and built/grew emerging growth companies from good to great. With this depth of knowledge and experience, Janet joins Astronaut, LLC in Houston, Texas.\n\nRecently, Valdes was the Assistant Firm Administrator and Head of Human Resources of a premier, mid-sized litigation firm, Quilling, Selander, Lownds, Winslet and Moser in Dallas, Texas. Valdes was the Director of Operations and Director of Human Resources for Carter Advisory Services and Carter Financial Management: An Independent Registered Investment Advisor with $1.3 billion AUM.\n\nValdes was the Managing Director and Director of Human Resources for Integrated Financial Solutions Group where she and the CEO built the company from the ground up. As former Principal of Stonebridge Partners, Janet marketed funds for venture capital and global private equity firms. Janet was the Chief Operating Officer at Corbin \u0026 Company Capital Management.\n\nValdes began her career at Goldman Sachs in New York City as a financial analyst. She has a bachelor’s degree from Harvard University.\n\nAs a Board Member of The Catholic League for the Poor of Nigeria, Janet focuses on raising funds to build a hospital and mental health facility in Odepke Anambra State Nigeria. A Leadership Dallas/Fort Worth alumni, Janet is also a member of the Harvard Business School Club of Dallas and the Harvard Clubs of Dallas and Houston. She is the former founder of IvyPlus, an Ivy League networking group.\n\nGeorge Welch | Senior Software Engineer\n\nMr. Welch has a distinguished 25 year history with Veterans Affairs as well as numerous years in the private sector. He has worked on nearly every aspect of EHR software through the years including surgery, scheduling, billing, and more. Mr. Welch has worked with Astronaut since nearly its inception.\n\nEdward Hagood | Software Engineer\n\nMr. Hagood is an extraordinarily versatile and gifted software engineer who has worked with Dr. Valdes and Astronaut, LLC since its inception.\n\nIrmgard Wilcockson, PhD | Director of Training\n\nIrmgard Willcockson (Irmi) earned her BS in Biology from UCLA and her PhD in Molecular Physiology and Biophysics from Baylor College of Medicine. She is adjunct faculty at the University of Texas Health Science Center Houston’s School of Biomedical Informatics. Dr Willcockson has trained healthcare personnel for more than five years using Astronaut EHR software. She finds helping everyone work together for effective and efficient patient care rewarding.\n\nCommunity Service\nAstronaut’s CEO Ignacio Valdes and President Janet Blazek Valdes are board members of Catholic League for the Poor of Nigeria, Inc. (CLPN) a 501(c)(3) nonprofit corporation.\n \nCLPN’s mission is to Build a modern 130 bed medical, surgical, and mental health hospital in Anambra State, Nigeria. The facility will also host a US-Nigeria medical student exchange program.\nNigeria has only 8 mental health hospitals for its 213 million residents. In comparison, USA has 12,472 mental health hospitals for 334 million people. There are 8 mental health hospitals in Houston alone! \nIgnacio has been instrumental in the development and plans of the mental health facility.  Janet has been key in the fundraising for the hospital.\nDiversity \u0026 Inclusion\n\nOur people are our greatest asset.\n\nAstronaut strives to embrace diversity and inclusion in our business.\n\nWe create an environment of belonging where employees feel welcomed, supported, respected, and valued. We provide an environment that encourages them to contribute their best work.\n\nReady to switch? Have more questions? We're here.\n\nWe're ready to help you make the switch to a whole new Electronic Health Record. Astronaut EHR is enterprise-grade, fast, reliable, easy to use. We'd love to tell you more.\n\n Get in touch!\n© 2023 Astronaut Electronic Health Record | Luke 5:4 \"Put out into the deep water\" | Designed by Market Creativity | “SLI CERTIFIED® is a registered trademark of Gaming Laboratories International, LLC dba SLI Compliance.” and “ONC CERTIFIED HIT® is a registered trademark of HHS.”"]
+Very informative. Key findings:
+- Founded 2009, small company (4-5 named employees)
+- Serves inpatient hospitals, outpatient clinics, and Partial Hospitalization Programs (PHP)
+- **Focus on Psychiatry** 
+- 34,000 patient records in the system
+- Cloud-based, browser-based
+- CEO is a board-certified Psychiatrist and Clinical Informatics specialist
+- Employee-owned, based in Houston, TX
+- George Welch worked on "surgery, scheduling, billing" — confirming those modules exist
+
+Let me check the "Why Switch?" page and then the disclosures page.
+[TOOL: browser_navigate]
+{
+  "url": "https://astronautehr.com/index.php/why-switch/"
+}
+[RESULT: done]
+
+[TOOL: browser_eval]
+{
+  "expression": "document.body.innerText"
+}
+[RESULT: JavaScript result (2884 bytes) written to: /tmp/shelley-console-logs/js_result_5df13e39.json
+Use `cat /tmp/shelley-console-logs/js_result_5df13e39.json` to view the full content.]
+
+[TOOL: bash]
+{
+  "command": "cat /tmp/shelley-console-logs/js_result_5df13e39.json"
+}
+[RESULT: "About WordPress\nLog In\nSearch\nSkip to content\nClick here to make the switch to Astronaut!\nA smart EHR so you can focus on what is important, patient care.\n\t\nAbout Astronaut\nAbout Astronaut\nMeet the Team\nCareers\nCommunity \u0026 Diversity\nWhy Switch?\nNews\nAstronaut News\nNewsletter\nDisclosures/API/Costs\nTerms of Service\nPrivacy Policy\nReal World Test Plan\nReal World Test Results\n170.315(g)(10) APIs\nFHIR Base URLs\nExport Format Documentation\nContact Us\nAPI\n\t\nMake the switch to Astronaut EHR, the benefits are endless...\n\nExperience the difference that isn't skin deep. Astronaut has depth, is enterprise-grade, fast, reliable, easy to use. Productivity and quality is greatly improved. Take the busy work out of medicine so that you can focus on patient care.\n\nFinancial\n\t\nIncreases revenue, increased productivity and efficiency.\n\t\nEasy navigation/ Streamlined administrative tasks.\n\t\nMinimizes administrative and clinical errors.\nTraining\n\t\nThorough training included for small practices.\n\t\nComprehensive support services and live technical support.\n\t\nOur trainers and tech support are trained and well versed in everything Astronaut EHR.\nProductivity\n\t\nEfficient user interface packed with shortcuts, templates, Touch Note™, List Signaling™, Turbo Supervision™.\n\t\nDrastically reduces charting time.\n\t\nEfficient prescribing process.\n\t\nEasy navigation and organization.\n\t\nImproves medical quality.\n\t\nLowers physician burnout and protects from stress.\nTechnology\n\t\nProven, robust, advanced technology.\n\t\nCloud based system with easy to use dashboard.\n\t\nLibrary of customizable templates.\n\t\nProtects against HIPAA errors.\n\t\nIncreases efficiency in data entry.\n\t\nWell-organized interface allows for easy identification of alerts and tools.\n\t\nInteroperability.\n\t\nInformation security.\nWhat people say about Astronaut EHR\n\n\"I’ve used a lot of EHR’s in my career. Astronaut is the first EHR I have ever used that made me faster. I leave work and it is all done. I don’t have to chart again. Each appointment is done when they walk out of the room. I can’t tell you how fantastic that is. All of the other EHR’s I have used slowed me down. This one is amazing. It actually helps me see patients faster.”\n\nJennifer Lableu, NP\n\nReady to switch? Have more questions? We're here.\n\nWe're ready to help you make the switch to a whole new Electronic Health Record. Astronaut EHR is enterprise-grade, fast, reliable, easy to use. We'd love to tell you more.\n\n Get in touch!\n© 2023 Astronaut Electronic Health Record | Luke 5:4 \"Put out into the deep water\" | Designed by Market Creativity | “SLI CERTIFIED® is a registered trademark of Gaming Laboratories International, LLC dba SLI Compliance.” and “ONC CERTIFIED HIT® is a registered trademark of HHS.”"]
+Useful. Features mentioned: Touch Note™, List Signaling™, Turbo Supervision™, templates, prescribing, charting. Let me check the disclosures page and the API page.
+[TOOL: browser_navigate]
+{
+  "url": "https://astronautehr.com/index.php/disclosures/"
+}
+[RESULT: done]
+
+[TOOL: browser_eval]
+{
+  "expression": "document.body.innerText"
+}
+[RESULT: JavaScript result (176064 bytes) written to: /tmp/shelley-console-logs/js_result_6ad1ded1.json
+Use `cat /tmp/shelley-console-logs/js_result_6ad1ded1.json` to view the full content.]
+
+[TOOL: bash]
+{
+  "command": "head -300 /tmp/shelley-console-logs/js_result_6ad1ded1.json | head -5000c"
+}
+[RESULT: "About WordPress\nLog In\nSearch\nSkip to content\nClick here to make the switch to Astronaut!\nA smart EHR so you can focus on what is important, patient care.\n\t\nAbout Astronaut\nAbout Astronaut\nMeet the Team\nCareers\nCommunity \u0026 Diversity\nWhy Switch?\nNews\nAstronaut News\nNewsletter\nDisclosures/API/Costs\nTerms of Service\nPrivacy Policy\nReal World Test Plan\nReal World Test Results\n170.315(g)(10) APIs\nFHIR Base URLs\nExport Format Documentation\nContact Us\nAPI\n\t\nDisclosures/API/Costs\n\nDeveloper: Astronaut, LLC\n\nProduct Name: Astronaut\n\nVersion: 1709\n\nCertificate Number: 15.02.05.3099.ASTR.01.00.1.220201\n\nCertification Date: February 1, 2022\n\nCriteria Certified:\n\n170.315(a)(1) – Computerized Provider Order Entry – medications\n170.315(a)(2) – Computerized Provider Order Entry – laboratory\n170.315(a)(3) – Computerized Provider Order Entry – diagnostic imaging\n170.315(a)(4) – Drug-Drug, Drug-Allergy Interaction Checks for CPOE\n170.315(a)(5) – Demographics\n170.315(a)(12) – Family Health History\n170.315(a)(14) – Implantable Device List\n170.315(b)(1) – Transitions of Care\n170.315(b)(3) – Electronic Prescribing\n170.315(b)(10) – Electronic Health Information Export\n170.315(b)(11) – Decision Support Interventions\n170.315(c)(1) – Clinical Quality Measures – Record and Export\n170.315(d)(1) – Authentication, Access Control, and Authorization\n170.315(d)(2) – Auditable Events and Tamper-Resistance\n170.315(d)(3) – Audit Reports\n170.315(d)(4) – Amendments\n170.315(d)(5) – Automatic Access Time-out\n170.315(d)(6) – Emergency Access\n170.315(d)(7) – End-User Device Encryption\n170.315(d)(8) – Integrity\n170.315(d)(9) – Trusted Connection\n170.315(d)(12) – Encrypt Authentication Credentials\n170.315(d)(13) – Multi-factor Authentication\n170.315(e)(3) – Patient Health Information Capture\n170.315(g)(3) – Safety-Enhanced Design\n170.315(g)(4) – Quality Management System\n170.315(g)(5) – Accessibility-Centered Design\n170.315(g)(6) – Consolidated CDA Creation Performance\n170.315(g)(7) – Application access –Patient Selection\n170.315(g)(9) – Application Access – All Data Request\n170.315(g)(10) – Standardized API for Patient and Population Services\n170.315(h)(1) – Direct project\n\nCQM’s Certified\n\nCMS2v10\nCMS68v10\nCMS69v9\nCMS117v9\nCMS128v9\nCMS137v9\nCMS138v9\nCMS149v9\nCMS153v9\nCMS154v9\nCMS155v9\nCMS156v9\nCMS159v9\nCMS161v9\nCMS165v9\nCMS177v9\n\nAdditional Software:\n\nNewcrop\n\nDisclaimer\n\n“This Health IT Module is compliant with the ONC Certification Criteria for Health IT and has been certified by an ONC-ACB in accordance with the applicable certification criteria adopted by the Secretary of Health and Human Services. This certification does not represent an endorsement by the U.S. Department of Health and Human Services.”\n\nAdditional Types of Costs\n\nMonthly Newcrop and the Surescripts network charge. Hourly charge to assist training, preparing, and submitting QRDA to the government, if participating.\n\nMulti-Factor Authentication Use Cases\n\nMulti-factor authentication is required for Astro-CPRS clinical client, Scheduling, system administration, and ePrescribing.\n\nAPI\n\nRequired for Meaningful Use public Astronaut Application Programming Interface for\n\n170.315(g)(7) – Application Access –patient selection\n170.315(g)(9) – Application Access – all data request\n170.315(g)(10) – Standardized API for patient and population services\n\nTerms of Use: Application Access Terms of Use.\n\nAPI version: 18.01\n\nThis document can be found on the web at: https://astronautehr.com/index.php/terms-of-service/\n\nAPI documentation\n\nCCDA WEB API\n\nVersion 2021.12.19\n\nAll requests require a HTTP Basic authentication header. In order to authenticate with HTTP you must provide your username and password with an HTTP Basic authentication header.\n\nIn order to interact with the API, a user must be configured on the server and given a username and password. Also a client’s ip address must be added to a server ip whitelist.\n\nUsing the API is a two step process. First, demographic information is supplied to the system to get back a unique patient identifier. Next, this patient identifier can be used to query the system, which will return a relevant XML document.\n\n1) PATIENT QUERY – find patient id token.\n\nReturns the patient id or an empty value with an HTTP 404 response if no unique match is found.\n\nGET\n\nhttps://api.example.com/v1/patient?name=jones,bill\u0026dob=1947-05-21\u0026ssn=12345689\u0026gender=m\n\n\nParameters:\n\nname = last,first e.g. jones,bill (required)\n\ndob = YYYY-MM-DD e.g. 1947-05-21 (required)\n\nssn = 123456789 (optional)\n\ngender = m or f (optional)\n\nSuccess response: patient_identifier\n\ne.g. 123456\n\nFailure response:\n\nHTTP 404 code (with json http body)\n\n2) PATIENT DATA – request patient record data.\n\nReturns patient rec]
+Very useful — let me see the rest of the API documentation and the rest of this page.
+[TOOL: bash]
+{
+  "command": "python3 -c \"\ndata = open('/tmp/shelley-console-logs/js_result_6ad1ded1.json').read()\n# Show around positions 5000-15000\nprint(data[5000:15000])\n\""
+}
+[RESULT: f no results.\n\nGET\n\nhttps://api.example.com/v1/patient/1234567?date=may,2015:august,2015\u0026data=meds,ethnicity,procedures,immunizations\n\nIn this examplepatient idis1234567\n\ndate range May 2015 through August 2015 (inclusive)\n\ndata return med, ethnicity, procedures, immunization information\n\nParameters:\n\ndate optional. Format examples:\n\n2015 – return data only from 2015\n\nMay,2015 – return data only from May, 2015\n\n2015-05-21 – return data only from May 21, 2015\n\nMay,2015:2015-08-28 – return data from inclusive range of May,2015 through Aug 28,2015\n\nIf date contains “-”, then it will be treated as YYYY-MM-DD\n\nIf date contains “/”, then it will be treated as MM/DD/YYYY\n\ndata = comma delimited data values to return (optional, omit to return all fields)\n\n(see below for more detail)\n\nSupported Elements:\n\ndate = date[:end_date]\n\ne.g. 2015 select just 2015 encounter\n\ne.g. may,2015:august,2015 select date range (inclusive)\n\ne.g. 6/20/2015:7/1/2015 select date range (inclusive)\n\ndata = comma-delimited list of section(s) to include. OPTIONAL. If not provided, then all sections will be returned\n\nList of defined sections:\n\nallergies\n\ndocuments\nimmunizations\n\nencounters\n\nprocedures\n\nsocial\n\nmedications\n\nproblems\n\nlabs\n\nvitals\n\nEvaluations\n\nIn addition to the above, the user can specify a particular XML section be returned, using the extract parameter. NOTE: for an item to be extracted, it must be included in initial search.\n\n(e.g. to extract Smoking_Status, would have to have social in “data”\n\nso, if not already present, it will be forced (added to data node))\n\nGET\n\nhttps://api.example.com/v1/patient/1234567?extract=ethnicity\n\nIn this examplepatient idis1234567\n\nextract is returning only the ethnicity section\n\nSupported Elements:\n\nextract can except one of the following:\n\nName\n\nSex\n\nDOB\n\nRace\n\nEthnicity\n\nPreferred_Language\n\nSmoking_Status\n\nProblems\n\nMedications\n\nMedication_Allergies\n\nLab_Tests\n\nLab_Result\n\nVital_Signs\n\nProcedures\n\nImmunizations\n\nUnique_Device_Identifier\n\nAssessment\n\nPlan_of_Treatment\n\nGoals\n\nHealth_Concerns\n\nSuccess response: XML RESULT\n\nEXAMPLES:\n\n(To get sex only)\n\nhttps://api.example.com/v1/patient/13195?extract=sex\n\nReturns:\n\n\u003cadministrativeGenderCode xmlns=”urn:hl7-org:v3″ xmlns:sdtc=”urn:hl7-org:sdtc”\n\nxmlns:voc=”urn:hl7-org:v3/voc” xmlns:xsi=”http://www.w3.org/2001/XMLSchema-instance”\n\ncode=”F” codeSystem=”2.16.840.1.113883.5.1″ codeSystemName=”AdministrativeGender”\n\ndisplayName=”F”\n\n/\u003e\n\n(To get name only)\n\nhttps://api.example.com/v1/patient/13195?extract=name\n\nReturns:\n\n\u003cname xmlns=”urn:hl7-org:v3″ xmlns:sdtc=”urn:hl7-org:sdtc” xmlns:voc=”urn:hl7-org:v3/voc” xmlns:xsi=”http://www.w3.org/2001/XMLSchema-instance”\u003e\n\n\u003cfamily\u003eNEWMAN\u003c/family\u003e\n\n\u003cgiven\u003eALICE\u003c/given\u003e\n\n\u003cgiven\u003eJONES\u003c/given\u003e\n\n\u003c/name\u003e\n\n\u003cname xmlns=”urn:hl7-org:v3″ xmlns:sdtc=”urn:hl7-org:sdtc” xmlns:voc=”urn:hl7-org:v3/voc” xmlns:xsi=”http://www.w3.org/2001/XMLSchema-instance”\u003e\n\n\u003cgiven qualifier=”BR”\u003eALICIA\u003c/given\u003e\n\n\u003cfamily qualifier=”BR”\u003eNEWMAN\u003c/family\u003e\n\n\u003c/name\u003e\n\n(To get Smoking_Status only)\n\nhttps://api.example.com/v1/patient/13195?extract=Smoking_Status\n\nReturns:\n\n\u003ctd\u003eSmokes tobacco daily (finding)\u003c/td\u003e\n\n\u003cvalue code=”449868002″ codeSystem=”2.16.840.1.113883.6.96″\n\ncodeSystemName=”SNOMED” displayName=”Smokes tobacco daily (finding)” xsi:type=”CD”\n\n/\u003e\n\nFailure response:\n\nHTTP 404 code (with json response body)\n\nHTTP Basic authentication\n\nHTTP REQUEST HEADER:\n\nAuthorization: “Basic ”+Base64(username+”:”+password)\n\nTo generate an Authorization Header for\n\nusername: Aladdin\nPassword: open sesame\n\nBase64(“Aladdin:open sesame”) = QWxhZGRpbjpvcGVuIHNlc2FtZQ==\n\nHTTP HEADER\nAuthorization: Basic QWxhZGRpbjpvcGVuIHNlc2FtZQ==\n\ne.g.\n\nhttps://username:password@api.example.com/your_desired_path\n\ncurl -G https://api.example.com/Accounts -u ‘\u003cYOUR_ACCOUNT_SID\u003e:\u003cYOUR_AUTH_TOKEN\u003e’\n\nFailure responses\n\n400 Bad Request – The server could not understand the request due to invalid syntax.\n\n401 Unauthorized – “unauthenticated”. That is, the client must authenticate itself to get the requested response.\n\n500 Internal Server Error – The server has encountered a situation it does not know how to handle.\n\n404 Not Found – The server can not find the requested resource.\n\nWhen a record is not found.\n\nJSON\n\n{“apiVersion”:”1.0″,”error”:{“code”:404,”errors”:[{“message”:”Not Found”,”reason”:404}],”message”:”Not Found”,”request”:”GET \\/v1\\/patient?name=smith,john\u0026dob=1943-07-06″}}\n\n========================================================================\n\nADDENDUM\n\nJohn Wright 13196\n\ncurl -u username:password https://api.example.com/v1/patient/13196/?data=labs\n\n\u003c?xml version=”1.0″ encoding=”utf-8″ ?\u003e\n\n\u003c?xml-stylesheet type=”text/xsl” href=”/resources/css/CDA.xsl”?\u003e\n\n\u003cClinicalDocument classCode=”DOCCLIN” moodCode=”EVN” xmlns=”urn:hl7-org:v3″ xmlns:sdtc=”urn:hl7-org:sdtc” xmlns:voc=”urn:hl7-org:v3/voc” xmlns:xsi=”http://www.w3.org/2001/XMLSchema-instance” xsi:schemaLocation=”urn:hl7-org:v3 CDASchemas\\cda\\Schemas\\CDA.xsd”\u003e\n\n\u003crealmCode code=”US”\u003e\u003c/realmCode\u003e\n\n\u003ctypeId extension=”POCD_HD000040″ root=”2.16.840.1.113883.1.3″\u003e\u003c/typeId\u003e\n\n\u003c!– US Realm Header –\u003e\n\n\u003ctemplateId root=”2.16.840.1.113883.10.20.22.1.1″ extension=”2015-08-01″/\u003e\n\n\u003ctemplateId root=”2.16.840.1.113883.10.20.22.1.1″/\u003e\n\n\u003c!– CCD –\u003e\n\n\u003ctemplateId root=”2.16.840.1.113883.10.20.22.1.2″ extension=”2015-08-01″/\u003e\n\n\u003ctemplateId root=”2.16.840.1.113883.10.20.22.1.2″/\u003e\n\n\u003cid extension=”508cf0bd-b9c2-4cc8-9b8d-61256afe3f4c” root=”2.16.840.1.113883.5.83″\u003e\u003c/id\u003e\n\n\u003ccode code=”34133-9″ codeSystem=”2.16.840.1.113883.6.1″ codeSystemName=”LOINC” displayName=”Summarization of Episode Note”\u003e\u003c/code\u003e\n\n\u003ctitle\u003eTest Clinic Summarization of Episode Note\u003c/title\u003e\n\n\u003ceffectiveTime value=”20211220022816-0400″\u003e\u003c/effectiveTime\u003e\n\n\u003cconfidentialityCode code=”N” codeSystem=”2.16.840.1.113883.5.25″ codeSystemName=”Confidentiality” displayName=”Normal”\u003e\u003c/confidentialityCode\u003e\n\n\u003clanguageCode code=”en”\u003e\u003c/languageCode\u003e\n\n\u003crecordTarget contextControlCode=”OP” typeCode=”RCT”\u003e\n\n\u003cpatientRole classCode=”PAT”\u003e\n\n\u003cid extension=”UNK” root=”2.16.840.1.113883.5.83″\u003e\u003c/id\u003e\n\n\u003cid extension=”13196″ root=”2.16.840.1.113883.5.83.2.2″\u003e\u003c/id\u003e\n\n\u003caddr\u003e\n\n\u003ccountry\u003eUS\u003c/country\u003e\n\n\u003cstate\u003eOREGON\u003c/state\u003e\n\n\u003ccity\u003eBeaverton \u003c/city\u003e\n\n\u003cpostalCode\u003e97006\u003c/postalCode\u003e\n\n\u003cstreetAddressLine\u003e1357 Amber Rd.\u003c/streetAddressLine\u003e\n\n\u003c/addr\u003e\n\n\u003ctelecom use=”H” value=”tel:+1-(555)723-1544″/\u003e\u003ctelecom use=”MC” value=”tel:+1-(555)777-1234″/\u003e\n\n\u003cpatient classCode=”PSN” determinerCode=”INSTANCE”\u003e\n\n\u003cname\u003e\n\n\u003cfamily\u003eWRIGHT\u003c/family\u003e\n\n\u003cgiven\u003eJOHN\u003c/given\u003e\n\n\u003cgiven\u003eR\u003c/given\u003e\n\n\u003csuffix\u003eJR\u003c/suffix\u003e\n\n\u003c/name\u003e\n\n\u003cadministrativeGenderCode code=”M” codeSystem=”2.16.840.1.113883.5.1″ codeSystemName=”AdministrativeGender” displayName=”M”\u003e\u003c/administrativeGenderCode\u003e\n\n\u003cbirthTime value=”19800801″/\u003e\n\n\u003cmaritalStatusCode code=”M” displayName=”MARRIED” codeSystem=”2.16.840.1.113883.5.2″ codeSystemName=”MaritalStatus”/\u003e\n\n\u003creligiousAffiliationCode nullFlavor=”UNK” /\u003e\n\n\u003craceCode nullFlavor=”UNK” /\u003e\n\n\u003cethnicGroupCode nullFlavor=”UNK” /\u003e\n\n\u003clanguageCommunication\u003e\n\n\u003c!– CONF 5407: LanguageCode Code System 2.16.840.1.113883.1.11.11526 –\u003e\n\n\u003clanguageCode code=”en”/\u003e\n\n\u003cmodeCode code=”ESP” displayName=”Expressed spoken” codeSystem=”2.16.840.1.113883.5.60″ codeSystemName=”LanguageAbilityMode”/\u003e\n\n\u003c/languageCommunication\u003e\n\n\u003c/patient\u003e\n\n\u003c/patientRole\u003e\n\n\u003c/recordTarget\u003e\n\n\u003cauthor\u003e\n\n\u003ctime value=’20211220022816-0400′\u003e\u003c/time\u003e\n\n\u003cassignedAuthor classCode=”ASSIGNED”\u003e\n\n\u003cid nullFlavor=”NI”/\u003e\n\n\u003caddr\u003e\n\n\u003cstate\u003eTEXAS\u003c/state\u003e\n\n\u003ccity\u003eHOUSTON\u003c/city\u003e\n\n\u003cpostalCode\u003e77054\u003c/postalCode\u003e\n\n\u003cstreetAddressLine\u003e7505 Fannin 170\u003c/streetAddressLine\u003e\n\n\u003c/addr\u003e\n\n\u003ctelecom use=”WP” value=”tel:832-786-9141″\u003e\u003c/telecom\u003e\n\n\u003cassignedAuthoringDevice\u003e\n\n\u003cmanufacturerModelName\u003eWorldVistA\u003c/manufacturerModelName\u003e\n\n\u003csoftwareName\u003eOpensource CDA Documents Generator\u003c/softwareName\u003e\n\n\u003c/assignedAuthoringDevice\u003e\n\n\u003crepresentedOrganization\u003e\n\n\u003cid extension=”3″ root=”1.3.6.1.4.1.22812.11.99930.3″/\u003e\n\n\u003cname\u003eAstronaut Network\u003c/name\u003e\n\n\u003ctelecom use=”WP” value=”tel:832-786-9141″\u003e\u003c/telecom\u003e\n\n\u003caddr\u003e\n\n\u003cstate\u003eTEXAS\u003c/state\u003e\n\n\u003ccity\u003eHOUSTON\u003c/city\u003e\n\n\u003cpostalCode\u003e77054\u003c/postalCode\u003e\n\n\u003cstreetAddressLine\u003e7505 Fannin 170\u003c/streetAddressLine\u003e\n\n\u003c/addr\u003e\n\n\u003c/representedOrganization\u003e\n\n\u003c/assignedAuthor\u003e\n\n\u003c/author\u003e\n\n\u003ccustodian\u003e\n\n\u003cassignedCustodian classCode=”ASSIGNED”\u003e\n\n\u003crepresentedCustodianOrganization classCode=”ORG” determiner
+]
+Interesting — the CDA output is generated by "WorldVistA" / "Opensource CDA Documents Generator". This is a VistA-based system! Let me check the Real World Test Results and the news page for more context.
+[TOOL: browser_navigate]
+{
+  "url": "https://astronautehr.com/index.php/real-world-test-results/"
+}
+[RESULT: done]
+
+[TOOL: browser_eval]
+{
+  "expression": "document.body.innerText"
+}
+[RESULT: <javascript_result>"About WordPress\nLog In\nSearch\nSkip to content\nClick here to make the switch to Astronaut!\nA smart EHR so you can focus on what is important, patient care.\n\t\nAbout Astronaut\nAbout Astronaut\nMeet the Team\nCareers\nCommunity \u0026 Diversity\nWhy Switch?\nNews\nAstronaut News\nNewsletter\nDisclosures/API/Costs\nTerms of Service\nPrivacy Policy\nReal World Test Plan\nReal World Test Results\n170.315(g)(10) APIs\nFHIR Base URLs\nExport Format Documentation\nContact Us\nAPI\n\t\nReal World Test Results\nAstronaut-Real-World-Testing-Results-2023Download\nAstronaut Real World Testing Results 2024Download\nAstronaut Real World Testing Results 2025Download\n© 2023 Astronaut Electronic Health Record | Luke 5:4 \"Put out into the deep water\" | Designed by Market Creativity | “SLI CERTIFIED® is a registered trademark of Gaming Laboratories International, LLC dba SLI Compliance.” and “ONC CERTIFIED HIT® is a registered trademark of HHS.”"</javascript_result>]
+
+[TOOL: browser_navigate]
+{
+  "url": "https://astronautehr.com/index.php/real-world-test-plan/"
+}
+[RESULT: done]
+
+[TOOL: browser_eval]
+{
+  "expression": "document.body.innerText"
+}
+[RESULT: JavaScript result (1242 bytes) written to: /tmp/shelley-console-logs/js_result_a30556b7.json
+Use `cat /tmp/shelley-console-logs/js_result_a30556b7.json` to view the full content.]
+
+[TOOL: bash]
+{
+  "command": "cat /tmp/shelley-console-logs/js_result_a30556b7.json"
+}
+[RESULT: "About WordPress\nLog In\nSearch\nSkip to content\nClick here to make the switch to Astronaut!\nA smart EHR so you can focus on what is important, patient care.\n\t\nAbout Astronaut\nAbout Astronaut\nMeet the Team\nCareers\nCommunity \u0026 Diversity\nWhy Switch?\nNews\nAstronaut News\nNewsletter\nDisclosures/API/Costs\nTerms of Service\nPrivacy Policy\nReal World Test Plan\nReal World Test Results\n170.315(g)(10) APIs\nFHIR Base URLs\nExport Format Documentation\nContact Us\nAPI\n\t\nReal World Test Plan\n\nReal World Test Plan 2025\n\nAstronaut Real World Test Plan 2025Download\n\n————————————————————————————————–\n\nReal World Test Plan 2024\n\nAstronaut-Real-World-Test-Plan-2024Download\n\n————————————————————————————————–\n\nReal World Test Plan 2023\n\nAstronaut-Real-World-Test-Plan-202223Download\n© 2023 Astronaut Electronic Health Record | Luke 5:4 \"Put out into the deep water\" | Designed by Market Creativity | “SLI CERTIFIED® is a registered trademark of Gaming Laboratories International, LLC dba SLI Compliance.” and “ONC CERTIFIED HIT® is a registered trademark of HHS.”"]
+Let me check the news page to see what's been happening with the product.
+[TOOL: browser_navigate]
+{
+  "url": "https://astronautehr.com/index.php/news/"
+}
+[RESULT: done]
+
+[TOOL: browser_eval]
+{
+  "expression": "document.body.innerText"
+}
+[RESULT: JavaScript result (5295 bytes) written to: /tmp/shelley-console-logs/js_result_4233978a.json
+Use `cat /tmp/shelley-console-logs/js_result_4233978a.json` to view the full content.]
+
+[TOOL: bash]
+{
+  "command": "cat /tmp/shelley-console-logs/js_result_4233978a.json"
+}
+[RESULT: "About WordPress\nLog In\nSearch\nSkip to content\nClick here to make the switch to Astronaut!\nA smart EHR so you can focus on what is important, patient care.\n\t\nAbout Astronaut\nAbout Astronaut\nMeet the Team\nCareers\nCommunity \u0026 Diversity\nWhy Switch?\nNews\nAstronaut News\nNewsletter\nDisclosures/API/Costs\nTerms of Service\nPrivacy Policy\nReal World Test Plan\nReal World Test Results\n170.315(g)(10) APIs\nFHIR Base URLs\nExport Format Documentation\nContact Us\nAPI\n\t\nAstronaut EHR Now Meaningful Use Certified!\nBy admin | February 2, 2022 | 0 \n\nAstronaut, LLC has achieved Meaningful Use Macra/MIPS Certification for both inpatient and outpatient medical practice settings. Astronaut CEO Ignacio Valdes, MD, MS, D-ABPM, D-ABPN writes, “There are so many adjectives I could use to describe the process of getting this certification, but I will only use one: difficult. We are pleased that our customers and…\n\nRead More\nAstronaut, LLC CEO is now Board Certified in Clinical Informatics\nBy admin | February 24, 2021 | 0 \n\nAstronaut, LLC CEO Ignacio H Valdes, MD, MS, ABPN is surprised to find even more letters after his name. This time ABPM-CI which stands for American Board of Preventive Medicine — Clinical Informatics. “I am living the alphabet dream. As if it wasn’t enough to be MD, MS, ABPN’ed I woke up one day to…\n\nRead More\nAstronaut Integrated Billing Available\nBy admin | July 23, 2020 | 0 \n\nAstronaut now offers full integrated efficient medical billing for both inpatient and outpatient.\n\nRead More\nCOVID-19 ICD/CPT Codes Available\nBy admin | July 23, 2020 | 0 \n\nCOVID-19 ICD/CPT Codes are now available in Astronaut. If Positive use U07.1 as DX code.If negative or Testing only use appropriate Z CODE as DX code. Coding Rules for U07.1:U07.1 should only be used for confirmed cases of COVID-19 with positive or presumptive-positive test results.U07.1 should be sequenced first, followed by the appropriate codes for…\n\nRead More\nAstronaut Operational During Hurricane Harvey\nBy admin | September 2, 2017 | 0 \n\nThe Astronaut Electronic Health record experienced no downtime while continuing to serve patients during Hurricane Harvey. Astronaut EHR will continue to serve patients in the rebuilding effort.\n\nRead More\nIndependence Day! Astronaut VistA is now “Nothing to install, nothing to maintain”\nBy admin | July 4, 2017 | 0 \n\nHouston, Texas 07/04/2017 On this Independence Day Astronaut, LLC http://astronautvista.com announces the next level of freedom for Astronaut VistA: Full virtualization. All applications run in a browser. “Nothing to install, nothing to maintain. It just works. Our #1 rated application runs in any browser.” Says Astronaut, LLC CEO Ignacio Valdes, MD, MS. “Our users are…\n\nRead More\n“It actually helps me see patients faster.”\nBy admin | February 24, 2017 | 0 \n\nTestimonials “I’ve used a lot of EHR’s in my career. Astronaut is the first EHR I have ever used that made me faster. I leave work and it is all done. I don’t have to chart again. Each appointment is done when they walk out of the room. I can’t tell you how fantastic that…\n\nRead More\nFull set of standard PHP/CMHC templates available now.\nBy admin | February 21, 2017 | 0 \n\nAstronaut has a full set of standard Partial Hospitalization Program(PHP)/Community Mental Health Center(CMHC) templates available now. “This is as close to turn-key as you can get. With a full set of standard PHP/CMHC templates ready to go you can get up and running with Astronaut very quickly and easily.” Says Ignacio Valdes, MD, MS. “People…\n\nRead More\nIntegrated, single sign-on, appointment scheduling!\nBy admin | February 21, 2017 | 0 \n\nThe Astronaut team is proud to announce integrated, single sign-on appointment scheduling in CPRS! Astro–CPRS continues to make major staff and clinician efficiency gains with this release. The separate VistA Clinical Scheduling application while still useful is no longer necessary to make appointments. No more context switching or separate login necessary!\n\nRead More\nAstronaut Screenshots Advanced High Efficiency CPRS\nBy admin | December 12, 2016 | 0 \n\nAstronaut has circulated an advanced, high efficiency CPRS screenshot. Unprecedented in VistA history, this version of CPRS demonstrates how far the technology can go. “We’ve pushed the technology further than it has ever been before. With it we’ve seen more patients more efficiently and more accurately than ever before.” says Astronaut, LLC CEO Ignacio Valdes,…\n\nRead More\nOlder Posts »\nRecent Posts\nAstronaut EHR Now Meaningful Use Certified!\nAstronaut, LLC CEO is now Board Certified in Clinical Informatics\nAstronaut Integrated Billing Available\nCOVID-19 ICD/CPT Codes Available\nAstronaut Operational During Hurricane Harvey\nCategories\nNews\nRelease\nUncategorized\nMeta\nLog in\nEntries feed\nComments feed\nWordPress.org\nJoin the Astronaut Newsletter\n© 2023 Astronaut Electronic Health Record | Luke 5:4 \"Put out into the deep water\" | Designed by Market Creativity | “SLI CERTIFIED® is a registered trademark of Gaming Laboratories International, LLC dba SLI Compliance.” and “ONC CERTIFIED HIT® is a registered trademark of HHS.”"]
+Excellent! This is very revealing:
+
+1. **VistA-based** — news from 2017 says "Astronaut VistA" and references CPRS (Computerized Patient Record System — the classic VistA clinical interface)
+2. **Integrated billing added July 2020** — inpatient and outpatient
+3. **Integrated scheduling added Feb 2017** — integrated into CPRS
+4. **PHP/CMHC templates** — Partial Hospitalization Program / Community Mental Health Center
+5. **CPRS-based** — "Astro-CPRS" is their enhanced version of VistA's CPRS
+6. Previous domain was astronautvista.com
+
+Let me check the API page and then look for any third-party reviews.
+[TOOL: browser_navigate]
+{
+  "url": "https://astronautehr.com/index.php/api/"
+}
+[RESULT: done]
+
+[TOOL: browser_eval]
+{
+  "expression": "document.body.innerText.substring(0, 3000)"
+}
+[RESULT: <javascript_result>"About WordPress\nLog In\nSearch\nSkip to content\nClick here to make the switch to Astronaut!\nA smart EHR so you can focus on what is important, patient care.\n\t\nAbout Astronaut\nAbout Astronaut\nMeet the Team\nCareers\nCommunity \u0026 Diversity\nWhy Switch?\nNews\nAstronaut News\nNewsletter\nDisclosures/API/Costs\nTerms of Service\nPrivacy Policy\nReal World Test Plan\nReal World Test Results\n170.315(g)(10) APIs\nFHIR Base URLs\nExport Format Documentation\nContact Us\nAPI\n\t\nAPI\n\nMeaningful Use API Documentation is here: https://astronautehr.com/index.php/disclosures/\n\n© 2023 Astronaut Electronic Health Record | Luke 5:4 \"Put out into the deep water\" | Designed by Market Creativity | “SLI CERTIFIED® is a registered trademark of Gaming Laboratories International, LLC dba SLI Compliance.” and “ONC CERTIFIED HIT® is a registered trademark of HHS.”"</javascript_result>]
+Let me check the FHIR base URLs page to understand their deployment.
+[TOOL: browser_navigate]
+{
+  "url": "https://astronautehr.com/index.php/fhir-base-urls/"
+}
+[RESULT: done]
+
+[TOOL: browser_eval]
+{
+  "expression": "document.body.innerText"
+}
+[RESULT: <javascript_result>"About WordPress\nLog In\nSearch\nSkip to content\nClick here to make the switch to Astronaut!\nA smart EHR so you can focus on what is important, patient care.\n\t\nAbout Astronaut\nAbout Astronaut\nMeet the Team\nCareers\nCommunity \u0026 Diversity\nWhy Switch?\nNews\nAstronaut News\nNewsletter\nDisclosures/API/Costs\nTerms of Service\nPrivacy Policy\nReal World Test Plan\nReal World Test Results\n170.315(g)(10) APIs\nFHIR Base URLs\nExport Format Documentation\nContact Us\nAPI\n\t\nFHIR Base URLs\n\nURLs are available for download in CSV format below.\n\nAstronaut-fhir-base-urlsDownload\n© 2023 Astronaut Electronic Health Record | Luke 5:4 \"Put out into the deep water\" | Designed by Market Creativity | “SLI CERTIFIED® is a registered trademark of Gaming Laboratories International, LLC dba SLI Compliance.” and “ONC CERTIFIED HIT® is a registered trademark of HHS.”"</javascript_result>]
+Let me check for the g(10) APIs page.
+[TOOL: browser_navigate]
+{
+  "url": "https://astronautehr.com/index.php/170-315g10-apis/"
+}
+[RESULT: done]
+
+[TOOL: browser_eval]
+{
+  "expression": "document.body.innerText"
+}
+[RESULT: <javascript_result>"About WordPress\nLog In\nSearch\nSkip to content\nClick here to make the switch to Astronaut!\nA smart EHR so you can focus on what is important, patient care.\n\t\nAbout Astronaut\nAbout Astronaut\nMeet the Team\nCareers\nCommunity \u0026 Diversity\nWhy Switch?\nNews\nAstronaut News\nNewsletter\nDisclosures/API/Costs\nTerms of Service\nPrivacy Policy\nReal World Test Plan\nReal World Test Results\n170.315(g)(10) APIs\nFHIR Base URLs\nExport Format Documentation\nContact Us\nAPI\n\t\n170.315(g)(10) APIs\n(Astronaut) SmartOnFHIR API DocumentationDownload\n© 2023 Astronaut Electronic Health Record | Luke 5:4 \"Put out into the deep water\" | Designed by Market Creativity | “SLI CERTIFIED® is a registered trademark of Gaming Laboratories International, LLC dba SLI Compliance.” and “ONC CERTIFIED HIT® is a registered trademark of HHS.”"</javascript_result>]
+Now let me quickly look for third-party reviews. Let me try G2 and Capterra.
+[TOOL: browser_navigate]
+{
+  "url": "https://www.g2.com/products/astronaut-ehr/reviews"
+}
+[RESULT: done]
+
+[TOOL: browser_take_screenshot]
+{}
+[RESULT: Screenshot taken (saved as /tmp/shelley-screenshots/4f54931e-667f-4660-9ef5-49947cc48cac.png)]
+G2 is blocking. Let me try Capterra or search for reviews/info.
+[TOOL: browser_navigate]
+{
+  "url": "https://www.capterra.com/p/166757/Astronaut/"
+}
+[RESULT: done]
+
+[TOOL: browser_take_screenshot]
+{}
+[RESULT: Screenshot taken (saved as /tmp/shelley-screenshots/97aa8145-0d42-418b-9023-9cc5535d762e.png)]
+Both review sites blocked. Let me check if the old domain has anything and also look at the CQMs certified — those tell us a lot about the psychiatric focus.
+[TOOL: bash]
+{
+  "command": "# Look up the specific CQMs to understand the focus\n# CMS2 = Preventive Care and Screening: Screening for Depression\n# CMS68 = Documentation of Current Medications\n# CMS69 = Preventive Care and Screening: Body Mass Index\n# CMS117 = Childhood Immunization Status\n# CMS128 = Anti-Depressant Medication Management\n# CMS137 = Initiation and Engagement of Substance Use Disorder Treatment\n# CMS138 = Preventive Care and Screening: Tobacco Use\n# CMS149 = Dementia: Cognitive Assessment\n# CMS153 = Chlamydia Screening for Women\n# CMS154 = Appropriate Treatment for Upper Respiratory Infection\n# CMS155 = Weight Assessment and Counseling for Children/Adolescents\n# CMS156 = Use of High-Risk Medications in Older Adults\n# CMS159 = Depression Utilization of the PHQ-9 Tool\n# CMS161 = Adult Major Depressive Disorder: Suicide Risk Assessment\n# CMS165 = Controlling High Blood Pressure\n# CMS177 = Child and Adolescent Major Depressive Disorder: Suicide Risk Assessment\necho \"CQM analysis: Heavy psychiatric/behavioral health focus\"\necho \"CMS2 - Depression screening\"\necho \"CMS128 - Anti-depressant medication management\"\necho \"CMS137 - Substance use disorder treatment\"\necho \"CMS149 - Dementia cognitive assessment\"\necho \"CMS159 - Depression PHQ-9\"\necho \"CMS161 - Adult MDD suicide risk assessment\"\necho \"CMS177 - Child/adolescent MDD suicide risk assessment\"\necho \"\"\necho \"Also some general primary care measures (BMI, tobacco, blood pressure, immunizations)\"\n"
+}
+[RESULT: CQM analysis: Heavy psychiatric/behavioral health focus
+CMS2 - Depression screening
+CMS128 - Anti-depressant medication management
+CMS137 - Substance use disorder treatment
+CMS149 - Dementia cognitive assessment
+CMS159 - Depression PHQ-9
+CMS161 - Adult MDD suicide risk assessment
+CMS177 - Child/adolescent MDD suicide risk assessment
+
+Also some general primary care measures (BMI, tobacco, blood pressure, immunizations)
+]
+Let me check the export format documentation briefly (even though that's for Phase 2, it might reveal table/data names).
+[TOOL: browser_navigate]
+{
+  "url": "https://astronautehr.com/index.php/disclosures/export-format-documentation/"
+}
+[RESULT: done]
+
+[TOOL: browser_eval]
+{
+  "expression": "document.body.innerText.substring(0, 4000)"
+}
+[RESULT: <javascript_result>"About WordPress\nLog In\nSearch\nSkip to content\nClick here to make the switch to Astronaut!\nA smart EHR so you can focus on what is important, patient care.\n\t\nAbout Astronaut\nAbout Astronaut\nMeet the Team\nCareers\nCommunity \u0026 Diversity\nWhy Switch?\nNews\nAstronaut News\nNewsletter\nDisclosures/API/Costs\nTerms of Service\nPrivacy Policy\nReal World Test Plan\nReal World Test Results\n170.315(g)(10) APIs\nFHIR Base URLs\nExport Format Documentation\nContact Us\nAPI\n\t\nExport Format Documentation\nAstronaut EHR Export Format DocumentationDownload\n© 2023 Astronaut Electronic Health Record | Luke 5:4 \"Put out into the deep water\" | Designed by Market Creativity | “SLI CERTIFIED® is a registered trademark of Gaming Laboratories International, LLC dba SLI Compliance.” and “ONC CERTIFIED HIT® is a registered trademark of HHS.”"</javascript_result>]
+It's just a download link. That's for Phase 2. Let me also search to understand what VistA/CPRS is for context — and look at how "Astro-CPRS" relates to VistA.
+[TOOL: browser_navigate]
+{
+  "url": "https://astronautehr.com/index.php/news/?paged=2"
+}
+[RESULT: done]
+
+[TOOL: browser_eval]
+{
+  "expression": "document.body.innerText"
+}
+[RESULT: JavaScript result (6012 bytes) written to: /tmp/shelley-console-logs/js_result_e1d5339f.json
+Use `cat /tmp/shelley-console-logs/js_result_e1d5339f.json` to view the full content.]
+
+[TOOL: bash]
+{
+  "command": "cat /tmp/shelley-console-logs/js_result_e1d5339f.json"
+}
+[RESULT: "About WordPress\nLog In\nSearch\nSkip to content\nClick here to make the switch to Astronaut!\nA smart EHR so you can focus on what is important, patient care.\n\t\nAbout Astronaut\nAbout Astronaut\nMeet the Team\nCareers\nCommunity \u0026 Diversity\nWhy Switch?\nNews\nAstronaut News\nNewsletter\nDisclosures/API/Costs\nTerms of Service\nPrivacy Policy\nReal World Test Plan\nReal World Test Results\n170.315(g)(10) APIs\nFHIR Base URLs\nExport Format Documentation\nContact Us\nAPI\n\t\nSpeed Record.\nBy admin | November 13, 2016 | 0 \n\nAstronaut Electronic Health Record users set a new speed record this week. The most patients seen in a single day and one week high totals occurred. Office manager Jenny Salvador says: “We used to see half the patients in twice the time and effort before Astronaut. There is practically no friction in the system now.…\n\nRead More\nAstro-CPRS 11.01.2016 Introduces Rocket Note.\nBy admin | November 2, 2016 | 0 \n\nRocket Note™ Beta eliminates the approximately 11 step process of forwarding a clinical note for follow-up visits. This is a major efficiency improvement for busy clinicians. Along with Turbo Supervision™, Scheduling, and billing lists, Astro-CPRS is a very efficient, full-featured, power tool for modern clinical care. If you are a practicing clinician, entity owner or leader and…\n\nRead More\nAstronaut Networks Welcomes Washington County Behavioral Health\nBy admin | October 1, 2016 | 0 \n\n09/30/2016 Houston, Tx Astronaut welcomes Washington County Behavioral Health (WCBH) to its growing network. WCBH serves a wide geographic area both in-person and tele-medically. WCBH demonstrates Astronaut-Networks regional capability.\n\nRead More\nConsents Made Easy: Astronaut-CPRS 09.02.2016\nBy admin | September 10, 2016 | 0 \n\nAstronaut-CPRS 09.02.2016 The Astronaut team has made this release which improves the user interface for attachments to a Note and makes patient consent gathering much easier. https://sourceforge.net/projects/astronaut/files/Astronaut%20VistA%20Client%20Installers/BETA/astronaut_clients.BETA.16.09.02.exe/download Join our newsletter: https://groups.google.com/forum/?hl=en#!forum/astronaut-newsletter From the change log: 09/02/2016 Astronaut-CPRS ‘consents made easy.’      . Add an attachment icon to the Notes toolbar so that the user no…\n\nRead More\nBreakout! Astronaut Turbo Supervision ™ 2.0\nBy admin | August 9, 2016 | 0 \n\nThis is a ground-breaking release of Astronaut clinical client CPRS. It breaks CPRS out of its one window paradigm for the first time.  Displays are generally much larger now than when CPRS first began. Turbo Supervision ™ 2.0 takes advantage of larger displays. This release drastically reduces the amount of mouse clicking and user fatigue…\n\nRead More\nAstronaut CPRS 07.25.2016 Hiring, new features!\nBy admin | July 26, 2016 | 0 \n\nThe Astronaut team has created this release (download here) which adds many new features for the clinical user and continues to make workflow speed gains. This release makes Astro-CPRS scheduling perform much better in clinical settings. It greatly improves accuracy checks/workflow completion for billing lists. It is no longer difficult to copy a patients medication…\n\nRead More\nAstronaut Welcomes NP Care to its Comprehensive Mental Health Network\nBy admin | June 22, 2016 | 0 \n\n06/21/2016 Houston, Tx Astronaut welcomes NP Care to its network. Astronaut-networks ecosystem now includes services from PHP all the way to home mental health with the addition of NP Care. NP Care is dedicated to complex mental health care patients needing close outpatient supervision including recidivist, chronic care, and non-compliant mental health patients requiring in-home…\n\nRead More\nAstronaut welcomes Kinghaven Partial Hospitalization Program\nBy admin | June 22, 2016 | 0 \n\n06/02/2016 Houston, Tx Astronaut, LLC welcomes Kinghaven Partial Hospitalization Program (PHP) to its growing Electronic Health Record network. “Astronaut Electronic Health Record had us up and running in literally minutes. Their processes made our PHP program a highly efficient and effective organization overnight. With our clinical business growing to Enterprise scale Astronaut anticipated all of…\n\nRead More\nAstronaut Welcomes MSP-Healthcare To Its Growing Network\nBy admin | April 13, 2016 | 0 \n\n04/12/2016 For immediate release, Astronaut, LLC is proud to announce Arizona based MSP-Healthcare http://www.msp-healthcare.com/ is now a member of Astronaut Networks. MSP-Healthcare enjoys quality Electronic Prescribing of Controlled Substances (EPCS) solution on Astronauts Surescripts(tm) certified network.  Astronaut, LLC CEO Ignacio Valdes, MD, MS states “We will continue to execute our mission to bring unified and exponentially better Electronic…\n\nRead More\nAstronaut Activates Inpatient Billing Lists\nBy admin | January 22, 2016 | 0 \n\nAstronaut-CPRS now supports inpatient billing lists for clinicians. This means no billing list pieces of paper floating around your car.  No stuffing a wrinkled billing list into a fax machine, no having to record this on a spreadsheet for your biller.  The system keeps track of it for you. Easily exportable to your favorite billing…\n\nRead More\n« Newer Posts\nOlder Posts »\nRecent Posts\nAstronaut EHR Now Meaningful Use Certified!\nAstronaut, LLC CEO is now Board Certified in Clinical Informatics\nAstronaut Integrated Billing Available\nCOVID-19 ICD/CPT Codes Available\nAstronaut Operational During Hurricane Harvey\nCategories\nNews\nRelease\nUncategorized\nMeta\nLog in\nEntries feed\nComments feed\nWordPress.org\nJoin the Astronaut Newsletter\n© 2023 Astronaut Electronic Health Record | Luke 5:4 \"Put out into the deep water\" | Designed by Market Creativity | “SLI CERTIFIED® is a registered trademark of Gaming Laboratories International, LLC dba SLI Compliance.” and “ONC CERTIFIED HIT® is a registered trademark of HHS.”"]
+Excellent! Many more details. Let me also check one more older page of news.
+[TOOL: browser_navigate]
+{
+  "url": "https://astronautehr.com/index.php/news/?paged=3"
+}
+[RESULT: done]
+
+[TOOL: browser_eval]
+{
+  "expression": "document.body.innerText.substring(0, 4000)"
+}
+[RESULT: JavaScript result (4112 bytes) written to: /tmp/shelley-console-logs/js_result_68a16b8f.json
+Use `cat /tmp/shelley-console-logs/js_result_68a16b8f.json` to view the full content.]
+
+[TOOL: bash]
+{
+  "command": "cat /tmp/shelley-console-logs/js_result_68a16b8f.json"
+}
+[RESULT: "About WordPress\nLog In\nSearch\nSkip to content\nClick here to make the switch to Astronaut!\nA smart EHR so you can focus on what is important, patient care.\n\t\nAbout Astronaut\nAbout Astronaut\nMeet the Team\nCareers\nCommunity \u0026 Diversity\nWhy Switch?\nNews\nAstronaut News\nNewsletter\nDisclosures/API/Costs\nTerms of Service\nPrivacy Policy\nReal World Test Plan\nReal World Test Results\n170.315(g)(10) APIs\nFHIR Base URLs\nExport Format Documentation\nContact Us\nAPI\n\t\nAstroanut Welcomes Daystars PHP\nBy admin | January 8, 2016 | 0 \n\nDaystars Partial Hospitalization Program (PHP) in Stafford, Tx is the latest to join Astronaut Networks. Daystars PHP was brought up on Astronaut in less than 24 hours. Several of Daystars patients were already Astronaut network members already in system.  What this practically means for patients, clinicians, and business owners is better care in less time.\n\nRead More\nAstronaut Completes Migration to Support National eRx Network\nBy admin | December 21, 2015 | 0 \n\nAstronaut has just completed upgrading the original George Lilly/Newcrop/Oroville eRX system to be able to support a national network of Astronaut VistA ePrescribers.\n\nRead More\nAstronaut-CPRS Now With Turbo Supervision™\nBy admin | December 17, 2015 | 0 \n\nAstronaut pushes efficient Nurse Practitioner or Physician Assistant supervision even further with Turbo Supervision™ Turbo Supervision™ takes the already fast Nurse Practitioner or Physician Assistant supervision workflow in Astronaut-CPRS and makes it even faster with Next Patient/Previous patient advance on a clinical list. No more mental fatigue picking the next patient in a supervision list.…\n\nRead More\nAstronaut releases drag and drop patient registration, to lead industry effort\nBy admin | November 19, 2015 | 0 \n\nAstronaut has released Astronaut-CPRS with vCardDAV demographics support. The new client allows drag and drop patient demographic registration as well as vCardDAV export of patient demographic information.  Patients can send their information from a smartphone or email for quick and easy registration. Astronaut will lead an effort to make this interoperability industry-wide across, scheduling, billing,…\n\nRead More\nAstronaut Adds Telemed Support, More Powerful Supervision Tools\nBy admin | November 7, 2015 | 0 \n\nAstronaut has added new features to support telemedicine and more powerful practitioner supervision tools. . We’ve added patient skype-id, phone number, and email recording at patient registration to support multiple patient care modalities from the start.  Registration for DNA psychiatry medication efficacy cheek-swab test requires patient phone number entry. . Stay tuned for more support for…\n\nRead More\nAstronaut Supports ICD-10, Adds New Features, 1 Year of eRX\nBy admin | October 12, 2015 | 0 \n\nAstronaut now supports ICD-10.  Signing PIN reset into TMG-CPRS, 1 year of eRx including Electronic Prescribing of Controlled Substances (EPCS). Astronaut now supports ICD-10. We’ve also put changing document signing PIN into TMG-CPRS on the Tools menu so that the user does not have to go into the text-based interface to change their signing PIN.…\n\nRead More\nAstronaut has the Power Tools for PA and NP Supervision\nBy admin | August 8, 2015 | 0 \n\nBoth inpatient and outpatient, comprehensive paperless distance supervision with Astronaut has been clinically tested and optimized for performance and safety. With Astronauts addition to and performance tuning of Astronaut VistA, the work flow is optimized for both results and efficiency for supervision of Physician Assistants and Nurse Practitioners. From patient registration, note creation and monitoring,…\n\nRead More\nAstronaut Welcomes The State of Pennsylvania\nBy admin | June 18, 2015 | 0 \n\nAstronaut is now ready to support clinics, government agencies and chronic care management clinics, and hospitals in the state of Pennsylvania.\n\nRead More\nAstronaut begins operations in the state of Oregon, West Virginia\nBy admin | June 13, 2015 | 0 \n\nAstronaut "]
+Now I have a very good picture. Let me also quickly check if there's anything at the older domain.
+[TOOL: bash]
+{
+  "command": "curl -sI https://astronautvista.com 2>&1 | head -10"
+}
+[RESULT: HTTP/2 301 
+date: Sat, 14 Feb 2026 17:42:33 GMT
+content-type: text/html; charset=UTF-8
+location: https://astronautehr.com/
+server: cloudflare
+x-powered-by: PHP/8.3.27
+expires: Sat, 14 Feb 2026 18:42:33 GMT
+cache-control: max-age=3600
+x-redirect-by: redirection
+nel: {"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}
+]
+Redirects to astronautehr.com. Good. I have enough information. Let me now write the reports.
+[TOOL: bash]
+{
+  "command": "date -I"
+}
+[RESULT: 2026-02-14
+]
+
+[TOOL: patch]
+{
+  "path": "/home/exedev/ehi-export-analysis/results/astronaut-llc/product-research.md",
+  "patches": [
+    {
+      "operation": "overwrite",
+      "newText": "# Astronaut, LLC — Product Research\n\nResearched: 2026-02-14\nDeveloper website: https://astronautehr.com\n\n## Overview\n\nAstronaut, LLC is a very small, employee-owned EHR vendor based in Houston, Texas, founded in 2009 by Ignacio Valdes, MD, MS — a board-certified Psychiatrist and Clinical Informatics specialist. The company has approximately 4-5 named employees (CEO, President, two software engineers, Director of Training). Their product, Astronaut EHR, is built on top of **VistA** (the Veterans Affairs health information system) and uses a customized version of **CPRS** (Computerized Patient Record System) called **Astro-CPRS** as its clinical client.\n\nThe company serves inpatient hospitals, outpatient clinics, and Partial Hospitalization Programs (PHP) / Community Mental Health Centers (CMHC), with a strong focus on **Psychiatry and behavioral health**. The website reports approximately 34,000 patient records in the system. Astronaut operates as a cloud-hosted, multi-tenant network (\"Astronaut Networks\") where multiple clinics share infrastructure. The product was previously marketed as \"Astronaut VistA\" at astronautvista.com before rebranding to Astronaut EHR at astronautehr.com.\n\nThe company achieved ONC Meaningful Use MACRA/MIPS certification on February 1, 2022, for both inpatient and outpatient settings.\n\n## Product: Astronaut\n\nCHPL ID: 10809\nCHPL Product Number: 15.02.05.3099.ASTR.01.00.1.220201\nVersion: 1709\n\n### What It Is\n\nAstronaut is a **full-featured EHR built on top of VistA** (the open-source version of the VA's health information system), with a customized clinical client called **Astro-CPRS**. VistA is a comprehensive health information system with deep capabilities in clinical documentation, pharmacy, lab, scheduling, and more — Astronaut has adapted and extended it for the private-sector behavioral health market.\n\nThe product is cloud-hosted and browser-based (\"100% browser\" per the website; full virtualization announced July 2017). Prior to that, it appears a native Windows client installer was distributed (evidenced by SourceForge download links for `astronaut_clients.BETA.16.09.02.exe`). The product is described as \"enterprise-grade\" though it targets small to mid-size practices.\n\nThe certified module encompasses the entire Astronaut EHR product — there is no separate product platform. The certification covers both inpatient and outpatient settings.\n\n### Users & Market\n\n**Target users:** Psychiatrists, Nurse Practitioners, Physician Assistants, and their supervisors. Also used by clinical staff, billers, and office managers.\n\n**Clinical settings:**\n- Outpatient mental health / behavioral health clinics\n- Partial Hospitalization Programs (PHP)\n- Community Mental Health Centers (CMHC)\n- Inpatient psychiatric facilities\n- Some general outpatient clinics\n\n**Named customers** (from news releases):\n- Washington County Behavioral Health (geographic area, telemedicine) — October 2016\n- NP Care (home mental health, complex mental health patients) — June 2016\n- Kinghaven Partial Hospitalization Program — June 2016\n- Daystars PHP in Stafford, TX — January 2016\n- MSP-Healthcare (Arizona, EPCS-focused) — April 2016\n- Operations in Pennsylvania, Oregon, and West Virginia mentioned — 2015\n\n**Scale:** Very small. 34,000 patient records total is mentioned on the website. The vendor serves a niche market of behavioral health practices. No publicly available third-party review data was accessible (G2 and Capterra both returned bot-verification walls).\n\n**Testimonial user:** Jennifer Lableu, NP — praised the system for speed: \"Each appointment is done when they walk out of the room.\" Office manager Jenny Salvador also referenced in news.\n\n### Modules & Functionality\n\nBeing VistA-based, Astronaut inherits VistA's comprehensive architecture. The following modules and features are specifically described in vendor materials:\n\n**Clinical Documentation / Charting:**\n- Clinical notes with several proprietary efficiency features:\n  - **Touch Note™** — mentioned as a charting shortcut\n  - **Rocket Note™** — \"eliminates the approximately 11 step process of forwarding a clinical note for follow-up visits\" (Nov 2016)\n  - **Turbo Supervision™** — workflow for supervising NPs/PAs, with \"Next Patient/Previous patient advance on a clinical list\" (Dec 2015, upgraded Aug 2016)\n  - **List Signaling™** — mentioned as productivity feature\n- Customizable templates, including a \"full set of standard PHP/CMHC templates\" (Feb 2017)\n- Patient consent gathering integrated into notes (Sept 2016)\n- Attachments to notes\n\n**CPOE (Computerized Provider Order Entry):**\n- Certified for medications (a)(1), lab (a)(2), and diagnostic imaging (a)(3)\n- Drug-drug, drug-allergy interaction checks (a)(4)\n\n**Electronic Prescribing:**\n- Certified for (b)(3) e-prescribing\n- Uses **NewCrop** (DrFirst) for e-prescribing via the **Surescripts** network\n- **EPCS** (Electronic Prescribing of Controlled Substances) — highlighted since 2015, critical for psychiatry (controlled substance prescribing is core to psychiatric practice)\n- Original e-prescribing system was the \"George Lilly/Newcrop/Oroville eRx system,\" upgraded Dec 2015 for national network support\n\n**Scheduling:**\n- Integrated, single sign-on appointment scheduling in CPRS (Feb 2017)\n- Previously used separate VistA Clinical Scheduling application\n\n**Billing:**\n- **Inpatient billing lists** in Astro-CPRS (Jan 2016) — \"Easily exportable to your favorite billing software\"\n- **Full integrated billing** for both inpatient and outpatient announced July 2020 (\"Astronaut Integrated Billing Available\")\n- ICD-10 support added October 2015\n- COVID-19 ICD/CPT codes added July 2020\n- Billing lists with accuracy checks/workflow completion (July 2016)\n\n**Patient Demographics:**\n- Certified for (a)(5) demographics\n- vCardDAV demographics support for drag-and-drop patient registration (Nov 2015)\n- Demographic import from smartphone/email\n\n**Supervision & Multi-Provider Workflows:**\n- Turbo Supervision™ — a major differentiator, optimized for psychiatrist supervision of NPs and PAs\n- \"Comprehensive paperless distance supervision\" for both inpatient and outpatient (Aug 2015)\n\n**Telemedicine:**\n- Telemed support added November 2015\n- Patient Skype-ID, phone number, email recorded at registration\n- Washington County Behavioral Health uses it telemedically\n\n**Decision Support:**\n- Certified for (b)(11) Decision Support Interventions\n\n**Clinical Quality Measures:**\n- Certified for (c)(1) CQM Record and Export\n- 16 CQMs certified, heavily weighted toward behavioral health:\n  - Depression screening (CMS2), antidepressant management (CMS128), substance use disorder (CMS137), dementia cognitive assessment (CMS149), PHQ-9 depression tool (CMS159), adult suicide risk assessment (CMS161), child/adolescent suicide risk assessment (CMS177)\n  - Also general measures: BMI (CMS69), tobacco use (CMS138), blood pressure (CMS165), immunizations (CMS117), high-risk medications in elderly (CMS156)\n\n**Transitions of Care:**\n- Certified for (b)(1) — C-CDA generation\n- Uses **WorldVistA Opensource CDA Documents Generator** for C-CDA output\n\n**Interoperability:**\n- Direct messaging via (h)(1) Direct Project\n- FHIR API via (g)(10) — SMART on FHIR\n- Custom REST API for patient lookup and C-CDA retrieval\n\n**Security & Administration:**\n- Multi-factor authentication for Astro-CPRS, Scheduling, system administration, and ePrescribing\n- Audit logging, emergency access, encryption\n- Signing PIN for documents\n\n### Data & Content\n\nBased on the certified criteria, API documentation, and vendor materials, Astronaut stores:\n\n**Clinical Data (confirmed via API data sections and certification):**\n- Patient demographics (name, DOB, SSN, gender, race, ethnicity, language, address, phone, email, Skype ID, marital status, religious affiliation)\n- Allergies (medication allergies)\n- Problems / diagnoses (ICD-10)\n- Medications (active, historical)\n- Lab results / lab orders\n- Vital signs\n- Immunizations\n- Procedures\n- Social history (including smoking status)\n- Encounters\n- Assessments\n- Plan of treatment\n- Goals\n- Health concerns\n- Clinical documents/notes\n- Evaluations\n- Family health history (certified (a)(12))\n- Implantable device list (certified (a)(14))\n- Unique Device Identifiers\n\n**Operational Data:**\n- Scheduling / appointments\n- Billing lists (inpatient and outpatient) with ICD/CPT codes\n- Patient consents\n- Provider orders (medications, labs, imaging)\n- Clinical quality measure data\n- Audit logs\n\n**Prescription Data:**\n- E-prescribing records (via NewCrop/Surescripts)\n- Controlled substance prescriptions (EPCS)\n\n**As a VistA-based system**, the underlying database (likely a MUMPS/Caché/GT.M globals-based FileMan database) potentially stores significantly more data than is surfaced through the API or the website's feature descriptions. VistA systems typically maintain extensive data in hundreds of FileMan files covering radiology, surgery, pharmacy, laboratory, scheduling, billing, and many other domains. However, it is unclear how much of VistA's full data model Astronaut actually uses vs. what is dormant from the inherited codebase.\n\n**What's unclear:**\n- Whether there is a patient portal (no certification for (e)(1) View/Download/Transmit — the (e)(3) certification is for Patient Health Information Capture, suggesting some patient-facing data intake, but no full portal)\n- The depth of billing integration — the 2016 billing lists were \"exportable to your favorite billing software,\" but full integrated billing was announced in 2020. Whether this means claim submission, ERA processing, or just charge capture is unclear\n- Whether the system stores imaging data directly or only references/orders\n- Whether lab data is from integrated lab instruments or only manually entered or received results\n\n**Additional software dependency:** NewCrop (DrFirst) is listed as required additional software, with a monthly charge for NewCrop and Surescripts network access. This means some prescription data may live in both Astronaut and the NewCrop system.\n\n---\n\n## Key Observations for EHI Export Assessment\n\n1. **VistA heritage is critical.** As a VistA-based system, the underlying data model is far richer than what the small vendor's website reveals. VistA systems have hundreds of data files. The EHI export must cover not just the API-surfaced clinical data but all data stored in the VistA database.\n\n2. **Behavioral health focus means specific data types.** Psychiatric assessments, PHQ-9 scores, suicide risk assessments, substance use disorder treatment data, supervision records, and PHP/CMHC program data are core to this product.\n\n3. **Billing integration is relatively recent** (full integration 2020). The export should cover billing/claims data if it's stored in the system.\n\n4. **Small scale.** 34,000 patient records and a handful of named customers suggest a very small deployment footprint. This may mean the export tooling is simpler/less mature.\n\n5. **NewCrop dependency.** E-prescribing data flows through a third-party system (DrFirst/NewCrop). Whether the EHI export includes prescription data that lives in NewCrop vs. only what's stored locally in VistA is a question for Phase 2.\n"
+    }
+  ]
+}
+[RESULT: <patches_applied>all</patches_applied>
+]
+
+[TOOL: patch]
+{
+  "path": "/home/exedev/ehi-export-analysis/results/astronaut-llc/sources.json",
+  "patches": [
+    {
+      "operation": "overwrite",
+      "newText": "{\n  \"research_date\": \"2026-02-14\",\n  \"sources\": [\n    {\n      \"url\": \"https://astronautehr.com\",\n      \"type\": \"vendor-website\",\n      \"note\": \"Homepage — describes product as 'Full-service EHR vendor, billers, developers, and programmers'. Cloud-based, browser-based. CEO quote about browser-based operation. CEO: Ignacio Valdes, MD, MS.\"\n    },\n    {\n      \"url\": \"https://astronautehr.com/index.php/astronaut/\",\n      \"type\": \"vendor-website\",\n      \"note\": \"About page — founded 2009, serves inpatient/outpatient/PHP. Focus on psychiatry. 34K patient records. Employee-owned. 4-5 named staff. VistA heritage mentioned via team bios (George Welch worked on VistA surgery, scheduling, billing). Houston TX based.\"\n    },\n    {\n      \"url\": \"https://astronautehr.com/index.php/why-switch/\",\n      \"type\": \"vendor-website\",\n      \"note\": \"Why Switch page — lists features: Touch Note™, List Signaling™, Turbo Supervision™, templates, prescribing. Testimonial from Jennifer Lableu, NP. Financial/training/productivity/technology benefits.\"\n    },\n    {\n      \"url\": \"https://astronautehr.com/index.php/disclosures/\",\n      \"type\": \"mandatory-disclosures\",\n      \"note\": \"Full disclosures page with certified criteria list, CQM list, additional software (NewCrop), MFA use cases, and complete API documentation. API shows data sections: allergies, documents, immunizations, encounters, procedures, social, medications, problems, labs, vitals, evaluations. CDA generated by WorldVistA Opensource CDA Documents Generator. Reveals VistA/CPRS heritage.\"\n    },\n    {\n      \"url\": \"https://astronautehr.com/index.php/news/\",\n      \"type\": \"vendor-website\",\n      \"note\": \"News page 1 — Meaningful Use certification Feb 2022, board certification of CEO 2021, integrated billing announced July 2020, COVID-19 codes July 2020, Hurricane Harvey uptime Sept 2017, full virtualization July 2017 (formerly astronautvista.com), PHP/CMHC templates Feb 2017, integrated scheduling Feb 2017.\"\n    },\n    {\n      \"url\": \"https://astronautehr.com/index.php/news/?paged=2\",\n      \"type\": \"vendor-website\",\n      \"note\": \"News page 2 — Speed records Nov 2016, Rocket Note™ Nov 2016, Washington County Behavioral Health customer Oct 2016, consents feature Sept 2016, Turbo Supervision 2.0 Aug 2016, scheduling/billing improvements July 2016, NP Care customer June 2016, Kinghaven PHP customer June 2016, MSP-Healthcare (AZ) customer Apr 2016, inpatient billing lists Jan 2016.\"\n    },\n    {\n      \"url\": \"https://astronautehr.com/index.php/news/?paged=3\",\n      \"type\": \"vendor-website\",\n      \"note\": \"News page 3 — Daystars PHP customer Jan 2016, national eRx network migration Dec 2015 (George Lilly/Newcrop/Oroville), Turbo Supervision Dec 2015, vCardDAV demographics drag-and-drop Nov 2015, telemed support Nov 2015, ICD-10 support Oct 2015, PA/NP supervision workflows Aug 2015, Pennsylvania and Oregon operations 2015.\"\n    },\n    {\n      \"url\": \"https://astronautehr.com/index.php/fhir-base-urls/\",\n      \"type\": \"vendor-website\",\n      \"note\": \"FHIR Base URLs page — download link for CSV of FHIR base URLs.\"\n    },\n    {\n      \"url\": \"https://astronautehr.com/index.php/170-315g10-apis/\",\n      \"type\": \"vendor-website\",\n      \"note\": \"g(10) API page — download link for SMART on FHIR API documentation.\"\n    },\n    {\n      \"url\": \"https://astronautvista.com\",\n      \"type\": \"vendor-website\",\n      \"note\": \"Old domain — redirects 301 to astronautehr.com. Confirms the former branding as 'Astronaut VistA'.\"\n    },\n    {\n      \"url\": \"https://www.g2.com/products/astronaut-ehr/reviews\",\n      \"type\": \"third-party-review\",\n      \"note\": \"Attempted — G2 returned bot verification wall. Could not access reviews.\"\n    },\n    {\n      \"url\": \"https://www.capterra.com/p/166757/Astronaut/\",\n      \"type\": \"third-party-review\",\n      \"note\": \"Attempted — Capterra returned Cloudflare bot verification wall. Could not access reviews.\"\n    }\n  ]\n}\n"
+    }
+  ]
+}
+[RESULT: <patches_applied>all</patches_applied>
+]
+
+[TOOL: bash]
+{
+  "command": "cd /home/exedev/ehi-export-analysis && git add results/astronaut-llc/product-research.md results/astronaut-llc/sources.json && git commit -m \"Astronaut LLC product research: VistA-based behavioral health EHR\n\n- Small vendor (est. 2009, ~5 employees, Houston TX)\n- Built on VistA/CPRS (\\\"Astro-CPRS\\\"), formerly \\\"Astronaut VistA\\\"\n- Focus on psychiatry/behavioral health, PHP/CMHC programs\n- ~34K patient records across small customer base\n- Cloud-hosted, browser-based since 2017\n- Integrated billing (2020), scheduling (2017), e-prescribing (NewCrop/Surescripts)\n- Certified for 31 ONC criteria including clinical, e-prescribing, FHIR APIs\n- CQMs heavily weighted toward behavioral health measures\n- Key data: clinical notes, meds, labs, vitals, demographics, billing, scheduling\""
+}
+[RESULT: [main 83a3cb86] Astronaut LLC product research: VistA-based behavioral health EHR
+ Committer: exe.dev user <exedev@ehi-research.exe.xyz>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly:
+
+    git config --global user.name "Your Name"
+    git config --global user.email you@example.com
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 2 files changed, 247 insertions(+)
+ create mode 100644 results/astronaut-llc/product-research.md
+ create mode 100644 results/astronaut-llc/sources.json
+]
+Done. Here's a summary of the key findings:
+
+**Astronaut EHR** is a very small, VistA-based EHR with a **psychiatry/behavioral health focus**, built by a ~5-person company in Houston, TX.
+
+Key points for the EHI export assessment:
+
+1. **VistA heritage is the most important finding.** The product is built on VistA (the VA's open-source EHR), using a customized CPRS client called "Astro-CPRS." VistA's underlying MUMPS/FileMan database has hundreds of data files — far more than what the small vendor's website describes. The EHI export needs to cover all of this.
+
+2. **Behavioral health specialization** means psychiatric assessments, PHQ-9 scores, suicide risk assessments, substance use disorder data, supervision records, and PHP/CMHC program data are core data types.
+
+3. **Key modules confirmed:** Clinical notes (with proprietary features like Touch Note™, Rocket Note™, Turbo Supervision™), e-prescribing (via NewCrop/Surescripts including EPCS), scheduling, billing (integrated 2020), demographics, CPOE, labs, vitals, and CQMs.
+
+4. **Very small scale:** ~34,000 patient records, a handful of named behavioral health customers.
+
+5. **NewCrop dependency:** E-prescribing goes through DrFirst's NewCrop — some prescription data may live externally.

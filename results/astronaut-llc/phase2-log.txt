@@ -1,0 +1,890 @@
+
+[TOOL: bash]
+{
+  "command": "cat /home/exedev/ehi-export-analysis/results/astronaut-llc/product-research.md 2>/dev/null | head -200"
+}
+
+[TOOL: bash]
+{
+  "command": "cat /home/exedev/ehi-export-analysis/results/astronaut-llc/chpl-metadata.json 2>/dev/null | head -100"
+}
+[RESULT: # Astronaut, LLC — Product Research
+
+Researched: 2026-02-14
+Developer website: https://astronautehr.com
+
+## Overview
+
+Astronaut, LLC is a very small, employee-owned EHR vendor based in Houston, Texas, founded in 2009 by Ignacio Valdes, MD, MS — a board-certified Psychiatrist and Clinical Informatics specialist. The company has approximately 4-5 named employees (CEO, President, two software engineers, Director of Training). Their product, Astronaut EHR, is built on top of **VistA** (the Veterans Affairs health information system) and uses a customized version of **CPRS** (Computerized Patient Record System) called **Astro-CPRS** as its clinical client.
+
+The company serves inpatient hospitals, outpatient clinics, and Partial Hospitalization Programs (PHP) / Community Mental Health Centers (CMHC), with a strong focus on **Psychiatry and behavioral health**. The website reports approximately 34,000 patient records in the system. Astronaut operates as a cloud-hosted, multi-tenant network ("Astronaut Networks") where multiple clinics share infrastructure. The product was previously marketed as "Astronaut VistA" at astronautvista.com before rebranding to Astronaut EHR at astronautehr.com.
+
+The company achieved ONC Meaningful Use MACRA/MIPS certification on February 1, 2022, for both inpatient and outpatient settings.
+
+## Product: Astronaut
+
+CHPL ID: 10809
+CHPL Product Number: 15.02.05.3099.ASTR.01.00.1.220201
+Version: 1709
+
+### What It Is
+
+Astronaut is a **full-featured EHR built on top of VistA** (the open-source version of the VA's health information system), with a customized clinical client called **Astro-CPRS**. VistA is a comprehensive health information system with deep capabilities in clinical documentation, pharmacy, lab, scheduling, and more — Astronaut has adapted and extended it for the private-sector behavioral health market.
+
+The product is cloud-hosted and browser-based ("100% browser" per the website; full virtualization announced July 2017). Prior to that, it appears a native Windows client installer was distributed (evidenced by SourceForge download links for `astronaut_clients.BETA.16.09.02.exe`). The product is described as "enterprise-grade" though it targets small to mid-size practices.
+
+The certified module encompasses the entire Astronaut EHR product — there is no separate product platform. The certification covers both inpatient and outpatient settings.
+
+### Users & Market
+
+**Target users:** Psychiatrists, Nurse Practitioners, Physician Assistants, and their supervisors. Also used by clinical staff, billers, and office managers.
+
+**Clinical settings:**
+- Outpatient mental health / behavioral health clinics
+- Partial Hospitalization Programs (PHP)
+- Community Mental Health Centers (CMHC)
+- Inpatient psychiatric facilities
+- Some general outpatient clinics
+
+**Named customers** (from news releases):
+- Washington County Behavioral Health (geographic area, telemedicine) — October 2016
+- NP Care (home mental health, complex mental health patients) — June 2016
+- Kinghaven Partial Hospitalization Program — June 2016
+- Daystars PHP in Stafford, TX — January 2016
+- MSP-Healthcare (Arizona, EPCS-focused) — April 2016
+- Operations in Pennsylvania, Oregon, and West Virginia mentioned — 2015
+
+**Scale:** Very small. 34,000 patient records total is mentioned on the website. The vendor serves a niche market of behavioral health practices. No publicly available third-party review data was accessible (G2 and Capterra both returned bot-verification walls).
+
+**Testimonial user:** Jennifer Lableu, NP — praised the system for speed: "Each appointment is done when they walk out of the room." Office manager Jenny Salvador also referenced in news.
+
+### Modules & Functionality
+
+Being VistA-based, Astronaut inherits VistA's comprehensive architecture. The following modules and features are specifically described in vendor materials:
+
+**Clinical Documentation / Charting:**
+- Clinical notes with several proprietary efficiency features:
+  - **Touch Note™** — mentioned as a charting shortcut
+  - **Rocket Note™** — "eliminates the approximately 11 step process of forwarding a clinical note for follow-up visits" (Nov 2016)
+  - **Turbo Supervision™** — workflow for supervising NPs/PAs, with "Next Patient/Previous patient advance on a clinical list" (Dec 2015, upgraded Aug 2016)
+  - **List Signaling™** — mentioned as productivity feature
+- Customizable templates, including a "full set of standard PHP/CMHC templates" (Feb 2017)
+- Patient consent gathering integrated into notes (Sept 2016)
+- Attachments to notes
+
+**CPOE (Computerized Provider Order Entry):**
+- Certified for medications (a)(1), lab (a)(2), and diagnostic imaging (a)(3)
+- Drug-drug, drug-allergy interaction checks (a)(4)
+
+**Electronic Prescribing:**
+- Certified for (b)(3) e-prescribing
+- Uses **NewCrop** (DrFirst) for e-prescribing via the **Surescripts** network
+- **EPCS** (Electronic Prescribing of Controlled Substances) — highlighted since 2015, critical for psychiatry (controlled substance prescribing is core to psychiatric practice)
+- Original e-prescribing system was the "George Lilly/Newcrop/Oroville eRx system," upgraded Dec 2015 for national network support
+
+**Scheduling:**
+- Integrated, single sign-on appointment scheduling in CPRS (Feb 2017)
+- Previously used separate VistA Clinical Scheduling application
+
+**Billing:**
+- **Inpatient billing lists** in Astro-CPRS (Jan 2016) — "Easily exportable to your favorite billing software"
+- **Full integrated billing** for both inpatient and outpatient announced July 2020 ("Astronaut Integrated Billing Available")
+- ICD-10 support added October 2015
+- COVID-19 ICD/CPT codes added July 2020
+- Billing lists with accuracy checks/workflow completion (July 2016)
+
+**Patient Demographics:**
+- Certified for (a)(5) demographics
+- vCardDAV demographics support for drag-and-drop patient registration (Nov 2015)
+- Demographic import from smartphone/email
+
+**Supervision & Multi-Provider Workflows:**
+- Turbo Supervision™ — a major differentiator, optimized for psychiatrist supervision of NPs and PAs
+- "Comprehensive paperless distance supervision" for both inpatient and outpatient (Aug 2015)
+
+**Telemedicine:**
+- Telemed support added November 2015
+- Patient Skype-ID, phone number, email recorded at registration
+- Washington County Behavioral Health uses it telemedically
+
+**Decision Support:**
+- Certified for (b)(11) Decision Support Interventions
+
+**Clinical Quality Measures:**
+- Certified for (c)(1) CQM Record and Export
+- 16 CQMs certified, heavily weighted toward behavioral health:
+  - Depression screening (CMS2), antidepressant management (CMS128), substance use disorder (CMS137), dementia cognitive assessment (CMS149), PHQ-9 depression tool (CMS159), adult suicide risk assessment (CMS161), child/adolescent suicide risk assessment (CMS177)
+  - Also general measures: BMI (CMS69), tobacco use (CMS138), blood pressure (CMS165), immunizations (CMS117), high-risk medications in elderly (CMS156)
+
+**Transitions of Care:**
+- Certified for (b)(1) — C-CDA generation
+- Uses **WorldVistA Opensource CDA Documents Generator** for C-CDA output
+
+**Interoperability:**
+- Direct messaging via (h)(1) Direct Project
+- FHIR API via (g)(10) — SMART on FHIR
+- Custom REST API for patient lookup and C-CDA retrieval
+
+**Security & Administration:**
+- Multi-factor authentication for Astro-CPRS, Scheduling, system administration, and ePrescribing
+- Audit logging, emergency access, encryption
+- Signing PIN for documents
+
+### Data & Content
+
+Based on the certified criteria, API documentation, and vendor materials, Astronaut stores:
+
+**Clinical Data (confirmed via API data sections and certification):**
+- Patient demographics (name, DOB, SSN, gender, race, ethnicity, language, address, phone, email, Skype ID, marital status, religious affiliation)
+- Allergies (medication allergies)
+- Problems / diagnoses (ICD-10)
+- Medications (active, historical)
+- Lab results / lab orders
+- Vital signs
+- Immunizations
+- Procedures
+- Social history (including smoking status)
+- Encounters
+- Assessments
+- Plan of treatment
+- Goals
+- Health concerns
+- Clinical documents/notes
+- Evaluations
+- Family health history (certified (a)(12))
+- Implantable device list (certified (a)(14))
+- Unique Device Identifiers
+
+**Operational Data:**
+- Scheduling / appointments
+- Billing lists (inpatient and outpatient) with ICD/CPT codes
+- Patient consents
+- Provider orders (medications, labs, imaging)
+- Clinical quality measure data
+- Audit logs
+
+**Prescription Data:**
+- E-prescribing records (via NewCrop/Surescripts)
+- Controlled substance prescriptions (EPCS)
+
+**As a VistA-based system**, the underlying database (likely a MUMPS/Caché/GT.M globals-based FileMan database) potentially stores significantly more data than is surfaced through the API or the website's feature descriptions. VistA systems typically maintain extensive data in hundreds of FileMan files covering radiology, surgery, pharmacy, laboratory, scheduling, billing, and many other domains. However, it is unclear how much of VistA's full data model Astronaut actually uses vs. what is dormant from the inherited codebase.
+
+**What's unclear:**
+- Whether there is a patient portal (no certification for (e)(1) View/Download/Transmit — the (e)(3) certification is for Patient Health Information Capture, suggesting some patient-facing data intake, but no full portal)
+- The depth of billing integration — the 2016 billing lists were "exportable to your favorite billing software," but full integrated billing was announced in 2020. Whether this means claim submission, ERA processing, or just charge capture is unclear
+- Whether the system stores imaging data directly or only references/orders
+- Whether lab data is from integrated lab instruments or only manually entered or received results
+
+**Additional software dependency:** NewCrop (DrFirst) is listed as required additional software, with a monthly charge for NewCrop and Surescripts network access. This means some prescription data may live in both Astronaut and the NewCrop system.
+
+---
+
+## Key Observations for EHI Export Assessment
+
+1. **VistA heritage is critical.** As a VistA-based system, the underlying data model is far richer than what the small vendor's website reveals. VistA systems have hundreds of data files. The EHI export must cover not just the API-surfaced clinical data but all data stored in the VistA database.
+
+2. **Behavioral health focus means specific data types.** Psychiatric assessments, PHQ-9 scores, suicide risk assessments, substance use disorder treatment data, supervision records, and PHP/CMHC program data are core to this product.
+
+3. **Billing integration is relatively recent** (full integration 2020). The export should cover billing/claims data if it's stored in the system.
+
+4. **Small scale.** 34,000 patient records and a handful of named customers suggest a very small deployment footprint. This may mean the export tooling is simpler/less mature.
+
+5. **NewCrop dependency.** E-prescribing data flows through a third-party system (DrFirst/NewCrop). Whether the EHI export includes prescription data that lives in NewCrop vs. only what's stored locally in VistA is a question for Phase 2.
+]
+[RESULT: {
+  "url": "https://astronautehr.com/index.php/disclosures/export-format-documentation/",
+  "developer": {
+    "name": "Astronaut, LLC",
+    "website": "https://astronautehr.com"
+  },
+  "mandatory_disclosures_url": "",
+  "sed_intended_user_description": null,
+  "products": [
+    {
+      "name": "Astronaut",
+      "version": "1709",
+      "chpl_id": 10809,
+      "chpl_product_number": "15.02.05.3099.ASTR.01.00.1.220201",
+      "certified_criteria": [
+        "170.315 (a)(1)",
+        "170.315 (a)(12)",
+        "170.315 (a)(14)",
+        "170.315 (a)(2)",
+        "170.315 (a)(3)",
+        "170.315 (a)(4)",
+        "170.315 (a)(5)",
+        "170.315 (b)(1)",
+        "170.315 (b)(10)",
+        "170.315 (b)(11)",
+        "170.315 (b)(3)",
+        "170.315 (c)(1)",
+        "170.315 (d)(1)",
+        "170.315 (d)(12)",
+        "170.315 (d)(13)",
+        "170.315 (d)(2)",
+        "170.315 (d)(3)",
+        "170.315 (d)(4)",
+        "170.315 (d)(5)",
+        "170.315 (d)(6)",
+        "170.315 (d)(7)",
+        "170.315 (d)(8)",
+        "170.315 (d)(9)",
+        "170.315 (e)(3)",
+        "170.315 (g)(10)",
+        "170.315 (g)(3)",
+        "170.315 (g)(4)",
+        "170.315 (g)(5)",
+        "170.315 (g)(6)",
+        "170.315 (g)(7)",
+        "170.315 (g)(9)",
+        "170.315 (h)(1)"
+      ]
+    }
+  ]
+}]
+Good context. VistA-based behavioral health EHR, small vendor. Let me probe the URL now.
+[TOOL: bash]
+{
+  "command": "curl -sI -L \"https://astronautehr.com/index.php/disclosures/export-format-documentation/\" -H 'User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36' 2>&1"
+}
+[RESULT: HTTP/2 200 
+date: Sat, 14 Feb 2026 17:44:45 GMT
+content-type: text/html; charset=UTF-8
+server: cloudflare
+x-powered-by: PHP/8.3.27
+link: <https://astronautehr.com/index.php/wp-json/>; rel="https://api.w.org/", <https://astronautehr.com/index.php/wp-json/wp/v2/pages/905>; rel="alternate"; title="JSON"; type="application/json", <https://astronautehr.com/?p=905>; rel=shortlink
+nel: {"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}
+cf-cache-status: DYNAMIC
+report-to: {"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=CE5%2ByEvpc4WuMrjxtBeBnABl7%2BW2%2BmSW5d9DXayfLPmXcDA8CBjBei%2FCOQrueA0ryM1bhxlHp8m4YvlhTC%2BEWK48gcDU47Sopr9M5R6E"}]}
+cf-ray: 9cde600ead89fef0-PDX
+alt-svc: h3=":443"; ma=86400
+
+]
+WordPress site, page 905. Let me fetch the page content.
+[TOOL: bash]
+{
+  "command": "curl -sL \"https://astronautehr.com/index.php/disclosures/export-format-documentation/\" -H 'User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36' -o /tmp/page.html\nwc -c /tmp/page.html\necho \"---\"\ncat /tmp/page.html | sed 's/<[^>]*>/ /g' | tr -s ' \\n' | head -80"
+}
+[RESULT: 47355 /tmp/page.html
+---
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+	 
+	 Export Format Documentation - Astronaut Electronic Health Record 
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	 {"@context":"https://schema.org","@graph":[{"@type":"WebPage","@id":"https://astronautehr.com/index.php/disclosures/export-format-documentation/","url":"https://astronautehr.com/index.php/disclosures/export-format-documentation/","name":"Export Format Documentation - Astronaut Electronic Health Record","isPartOf":{"@id":"https://astronautehr.com/#website"},"datePublished":"2023-12-08T21:38:51+00:00","dateModified":"2025-08-14T21:56:00+00:00","breadcrumb":{"@id":"https://astronautehr.com/index.php/disclosures/export-format-documentation/#breadcrumb"},"inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https://astronautehr.com/index.php/disclosures/export-format-documentation/"]}]},{"@type":"BreadcrumbList","@id":"https://astronautehr.com/index.php/disclosures/export-format-documentation/#breadcrumb","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://astronautehr.com/"},{"@type":"ListItem","position":2,"name":"Disclosures/API/Costs","item":"https://astronautehr.com/index.php/disclosures/"},{"@type":"ListItem","position":3,"name":"Export Format Documentation"}]},{"@type":"WebSite","@id":"https://astronautehr.com/#website","url":"https://astronautehr.com/","name":"Astronaut Electronic Health Record","description":"For Astronaut EHR Customers and Community","potentialAction":[{"@type":"SearchAction","target":{"@type":"EntryPoint","urlTemplate":"https://astronautehr.com/?s={search_term_string}"},"query-input":{"@type":"PropertyValueSpecification","valueRequired":true,"valueName":"search_term_string"}}],"inLanguage":"en-US"}]} 
+	 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+img:is([sizes=auto i],[sizes^="auto," i]){contain-intrinsic-size:3000px 1500px}
+/*# sourceURL=wp-img-auto-sizes-contain-inline-css */
+ 
+ 
+ 
+ 
+		@media screen { html { margin-top: 32px !important; } }
+		@media screen and ( max-width: 782px ) { html { margin-top: 46px !important; } }
+	
+@media print { #wpadminbar { display:none; } }
+#wp-admin-bar-fl-builder-frontend-edit-link .ab-icon:before { content: "\f116" !important; top: 2px; margin-right: 3px; }
+/*# sourceURL=admin-bar-inline-css */
+ 
+ 
+	img.wp-smiley, img.emoji {
+		display: inline !important;
+		border: none !important;
+		box-shadow: none !important;
+		height: 1em !important;
+		width: 1em !important;
+		margin: 0 0.07em !important;
+		vertical-align: -0.1em !important;
+		background: none !important;
+		padding: 0 !important;
+	}
+/*# sourceURL=wp-emoji-styles-inline-css */
+ 
+ 
+:root{--wp-block-synced-color:#7a00df;--wp-block-synced-color--rgb:122,0,223;--wp-bound-block-color:var(--wp-block-synced-color);--wp-editor-canvas-background:#ddd;--wp-admin-theme-color:#007cba;--wp-admin-theme-color--rgb:0,124,186;--wp-admin-theme-color-darker-10:#006ba1;--wp-admin-theme-color-darker-10--rgb:0,107,160.5;--wp-admin-theme-color-darker-20:#005a87;--wp-admin-theme-color-darker-20--rgb:0,90,135;--wp-admin-border-width-focus:2px}@media (min-resolution:192dpi){:root{--wp-admin-border-width-focus:1.5px}}.wp-element-button{cursor:pointer}:root .has-very-light-gray-background-color{background-color:#eee}:root .has-very-dark-gray-background-color{background-color:#313131}:root .has-very-light-gray-color{color:#eee}:root .has-very-dark-gray-color{color:#313131}:root .has-vivid-green-cyan-to-vivid-cyan-blue-gradient-background{background:linear-gradient(135deg,#00d084,#0693e3)}:root .has-purple-crush-gradient-background{background:linear-gradient(135deg,#34e2e4,#4721fb 50%,#ab1dfe)}:root .has-hazy-dawn-gradient-background{background:linear-gradient(135deg,#faaca8,#dad0ec)}:root .has-subdued-olive-gradient-background{background:linear-gradient(135deg,#fafae1,#67a671)}:root .has-atomic-cream-gradient-background{background:linear-gradient(135deg,#fdd79a,#004a59)}:root .has-nightshade-gradient-background{background:linear-gradient(135deg,#330968,#31cdcf)}:root .has-midnight-gradient-background{background:linear-gradient(135deg,#020381,#2874fc)}:root{--wp--preset--font-size--normal:16px;--wp--preset--font-size--huge:42px}.has-regular-font-size{font-size:1em}.has-larger-font-size{font-size:2.625em}.has-normal-font-size{font-size:var(--wp--preset--font-size--normal)}.has-huge-font-size{font-size:var(--wp--preset--font-size--huge)}.has-text-align-center{text-align:center}.has-text-align-left{text-align:left}.has-text-align-right{text-align:right}.has-fit-text{white-space:nowrap!important}#end-resizable-editor-section{display:none}.aligncenter{clear:both}.items-justified-left{justify-content:flex-start}.items-justified-center{justify-content:center}.items-justified-right{justify-content:flex-end}.items-justified-space-between{justify-content:space-between}.screen-reader-text{border:0;clip-path:inset(50%);height:1px;margin:-1px;overflow:hidden;padding:0;position:absolute;width:1px;word-wrap:normal!important}.screen-reader-text:focus{background-color:#ddd;clip-path:none;color:#444;display:block;font-size:1em;height:auto;left:5px;line-height:normal;padding:15px 23px 14px;text-decoration:none;top:5px;width:auto;z-index:100000}html :where(.has-border-color){border-style:solid}html :where([style*=border-top-color]){border-top-style:solid}html :where([style*=border-right-color]){border-right-style:solid}html :where([style*=border-bottom-color]){border-bottom-style:solid}html :where([style*=border-left-color]){border-left-style:solid}html :where([style*=border-width]){border-style:solid}html :where([style*=border-top-width]){border-top-style:solid}html :where([style*=border-right-width]){border-right-style:solid}html :where([style*=border-bottom-width]){border-bottom-style:solid}html :where([style*=border-left-width]){border-left-style:solid}html :where(img[class*=wp-image-]){height:auto;max-width:100%}:where(figure){margin:0 0 1em}html :where(.is-position-sticky){--wp-admin--admin-bar--position-offset:var(--wp-admin--admin-bar--height,0px)}@media screen and (max-width:600px){html :where(.is-position-sticky){--wp-admin--admin-bar--position-offset:0px}}
+/*# sourceURL=wp-block-library-inline-css */
+ 
+ 
+.wp-block-file{box-sizing:border-box}.wp-block-file:not(.wp-element-button){font-size:.8em}.wp-block-file.aligncenter{text-align:center}.wp-block-file.alignright{text-align:right}.wp-block-file *+.wp-block-file__button{margin-left:.75em}:where(.wp-block-file){margin-bottom:1.5em}.wp-block-file__embed{margin-bottom:1em}:where(.wp-block-file__button){border-radius:2em;display:inline-block;padding:.5em 1em}:where(.wp-block-file__button):where(a):active,:where(.wp-block-file__button):where(a):focus,:where(.wp-block-file__button):where(a):hover,:where(.wp-block-file__button):where(a):visited{box-shadow:none;color:#fff;opacity:.85;text-decoration:none}
+/*# sourceURL=https://astronautehr.com/wp-includes/blocks/file/style.min.css */
+ 
+ 
+.wp-block-spacer{clear:both}
+/*# sourceURL=https://astronautehr.com/wp-includes/blocks/spacer/style.min.css */
+ 
+ 
+/*! This file is auto-generated */
+.wp-block-button__link{color:#fff;background-color:#32373c;border-radius:9999px;box-shadow:none;text-decoration:none;padding:calc(.667em + 2px) calc(1.333em + 2px);font-size:1.125em}.wp-block-file__button{background:#32373c;color:#fff;text-decoration:none}
+/*# sourceURL=/wp-includes/css/classic-themes.min.css */
+ 
+ 
+:root{--wp--preset--aspect-ratio--square: 1;--wp--preset--aspect-ratio--4-3: 4/3;--wp--preset--aspect-ratio--3-4: 3/4;--wp--preset--aspect-ratio--3-2: 3/2;--wp--preset--aspect-ratio--2-3: 2/3;--wp--preset--aspect-ratio--16-9: 16/9;--wp--preset--aspect-ratio--9-16: 9/16;--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: #abb8c3;--wp--preset--color--white: #ffffff;--wp--preset--color--pale-pink: #f78da7;--wp--preset--color--vivid-red: #cf2e2e;--wp--preset--color--luminous-vivid-orange: #ff6900;--wp--preset--color--luminous-vivid-amber: #fcb900;--wp--preset--color--light-green-cyan: #7bdcb5;--wp--preset--color--vivid-green-cyan: #00d084;--wp--preset--color--pale-cyan-blue: #8ed1fc;--wp--preset--color--vivid-cyan-blue: #0693e3;--wp--preset--color--vivid-purple: #9b51e0;--wp--preset--color--fl-heading-text: #333333;--wp--preset--color--fl-body-bg: #f2f2f2;--wp--preset--color--fl-body-text: #757575;--wp--preset--color--fl-accent: #006298;--wp--preset--color--fl-accent-hover: #758eb7;--wp--preset--color--fl-topbar-bg: #000000;--wp--preset--color--fl-topbar-text: #ffffff;--wp--preset--color--fl-topbar-link: #4ea3c8;--wp--preset--color--fl-topbar-hover: #4ea3c8;--wp--preset--color--fl-header-bg: #ffffff;--wp--preset--color--fl-header-text: #000000;--wp--preset--color--fl-header-link: #428bca;--wp--preset--color--fl-header-hover: #428bca;--wp--preset--color--fl-nav-bg: #ffffff;--wp--preset--color--fl-nav-link: #006298;--wp--preset--color--fl-nav-hover: #4ea3c8;--wp--preset--color--fl-content-bg: #ffffff;--wp--preset--color--fl-footer-widgets-bg: #ffffff;--wp--preset--color--fl-footer-widgets-text: #000000;--wp--preset--color--fl-footer-widgets-link: #428bca;--wp--preset--color--fl-footer-widgets-hover: #428bca;--wp--preset--color--fl-footer-bg: #ffffff;--wp--preset--color--fl-footer-text: #000000;--wp--preset--color--fl-footer-link: #428bca;--wp--preset--color--fl-footer-hover: #428bca;--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple: linear-gradient(135deg,rgb(6,147,227) 0%,rgb(155,81,224) 100%);--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan: linear-gradient(135deg,rgb(122,220,180) 0%,rgb(0,208,130) 100%);--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange: linear-gradient(135deg,rgb(252,185,0) 0%,rgb(255,105,0) 100%);--wp--preset--gradient--luminous-vivid-orange-to-vivid-red: linear-gradient(135deg,rgb(255,105,0) 0%,rgb(207,46,46) 100%);--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray: linear-gradient(135deg,rgb(238,238,238) 0%,rgb(169,184,195) 100%);--wp--preset--gradient--cool-to-warm-spectrum: linear-gradient(135deg,rgb(74,234,220) 0%,rgb(151,120,209) 20%,rgb(207,42,186) 40%,rgb(238,44,130) 60%,rgb(251,105,98) 80%,rgb(254,248,76) 100%);--wp--preset--gradient--blush-light-purple: linear-gradient(135deg,rgb(255,206,236) 0%,rgb(152,150,240) 100%);--wp--preset--gradient--blush-bordeaux: linear-gradient(135deg,rgb(254,205,165) 0%,rgb(254,45,45) 50%,rgb(107,0,62) 100%);--wp--preset--gradient--luminous-dusk: linear-gradient(135deg,rgb(255,203,112) 0%,rgb(199,81,192) 50%,rgb(65,88,208) 100%);--wp--preset--gradient--pale-ocean: linear-gradient(135deg,rgb(255,245,203) 0%,rgb(182,227,212) 50%,rgb(51,167,181) 100%);--wp--preset--gradient--electric-grass: linear-gradient(135deg,rgb(202,248,128) 0%,rgb(113,206,126) 100%);--wp--preset--gradient--midnight: linear-gradient(135deg,rgb(2,3,129) 0%,rgb(40,116,252) 100%);--wp--preset--font-size--small: 13px;--wp--preset--font-size--medium: 20px;--wp--preset--font-size--large: 36px;--wp--preset--font-size--x-large: 42px;--wp--preset--spacing--20: 0.44rem;--wp--preset--spacing--30: 0.67rem;--wp--preset--spacing--40: 1rem;--wp--preset--spacing--50: 1.5rem;--wp--preset--spacing--60: 2.25rem;--wp--preset--spacing--70: 3.38rem;--wp--preset--spacing--80: 5.06rem;--wp--preset--shadow--natural: 6px 6px 9px rgba(0, 0, 0, 0.2);--wp--preset--shadow--deep: 12px 12px 50px rgba(0, 0, 0, 0.4);--wp--preset--shadow--sharp: 6px 6px 0px rgba(0, 0, 0, 0.2);--wp--preset--shadow--outlined: 6px 6px 0px -3px rgb(255, 255, 255), 6px 6px rgb(0, 0, 0);--wp--preset--shadow--crisp: 6px 6px 0px rgb(0, 0, 0);}:where(.is-layout-flex){gap: 0.5em;}:where(.is-layout-grid){gap: 0.5em;}body .is-layout-flex{display: flex;}.is-layout-flex{flex-wrap: wrap;align-items: center;}.is-layout-flex > :is(*, div){margin: 0;}body .is-layout-grid{display: grid;}.is-layout-grid > :is(*, div){margin: 0;}:where(.wp-block-columns.is-layout-flex){gap: 2em;}:where(.wp-block-columns.is-layout-grid){gap: 2em;}:where(.wp-block-post-template.is-layout-flex){gap: 1.25em;}:where(.wp-block-post-template.is-layout-grid){gap: 1.25em;}.has-black-color{color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-color{color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-color{color: var(--wp--preset--color--white) !important;}.has-pale-pink-color{color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-color{color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-color{color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-color{color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-color{color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-color{color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-color{color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-color{color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-color{color: var(--wp--preset--color--vivid-purple) !important;}.has-black-background-color{background-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-background-color{background-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-background-color{background-color: var(--wp--preset--color--white) !important;}.has-pale-pink-background-color{background-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-background-color{background-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-background-color{background-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-background-color{background-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-background-color{background-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-background-color{background-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-background-color{background-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-background-color{background-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-background-color{background-color: var(--wp--preset--color--vivid-purple) !important;}.has-black-border-color{border-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-border-color{border-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-border-color{border-color: var(--wp--preset--color--white) !important;}.has-pale-pink-border-color{border-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-border-color{border-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-border-color{border-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-border-color{border-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-border-color{border-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-border-color{border-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-border-color{border-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-border-color{border-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-border-color{border-color: var(--wp--preset--color--vivid-purple) !important;}.has-vivid-cyan-blue-to-vivid-purple-gradient-background{background: var(--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple) !important;}.has-light-green-cyan-to-vivid-green-cyan-gradient-background{background: var(--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan) !important;}.has-luminous-vivid-amber-to-luminous-vivid-orange-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange) !important;}.has-luminous-vivid-orange-to-vivid-red-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-orange-to-vivid-red) !important;}.has-very-light-gray-to-cyan-bluish-gray-gradient-background{background: var(--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray) !important;}.has-cool-to-warm-spectrum-gradient-background{background: var(--wp--preset--gradient--cool-to-warm-spectrum) !important;}.has-blush-light-purple-gradient-background{background: var(--wp--preset--gradient--blush-light-purple) !important;}.has-blush-bordeaux-gradient-background{background: var(--wp--preset--gradient--blush-bordeaux) !important;}.has-luminous-dusk-gradient-background{background: var(--wp--preset--gradient--luminous-dusk) !important;}.has-pale-ocean-gradient-background{background: var(--wp--preset--gradient--pale-ocean) !important;}.has-electric-grass-gradient-background{background: var(--wp--preset--gradient--electric-grass) !important;}.has-midnight-gradient-background{background: var(--wp--preset--gradient--midnight) !important;}.has-small-font-size{font-size: var(--wp--preset--font-size--small) !important;}.has-medium-font-size{font-size: var(--wp--preset--font-size--medium) !important;}.has-large-font-size{font-size: var(--wp--preset--font-size--large) !important;}.has-x-large-font-size{font-size: var(--wp--preset--font-size--x-large) !important;}
+/*# sourceURL=global-styles-inline-css */
+ 
+ 
+ 
+ 
+]
+Lots of CSS. Let me extract the actual content area:
+[TOOL: bash]
+{
+  "command": "# Find the main content, links, and downloadable files\ngrep -oiE 'href=\"[^\"]*\"' /tmp/page.html | head -60\necho \"=== File links ===\"\ngrep -oiE 'href=\"[^\"]*\\.(pdf|zip|xlsx|xls|csv|json|doc|docx|yaml|yml|xml)[^\"]*\"' /tmp/page.html\necho \"=== EHI/export links ===\"\ngrep -oiE 'href=\"[^\"]*\"' /tmp/page.html | grep -iE 'ehi|export|data|dictionary|b.10|bulk|format|download'"
+}
+[RESULT: href="https://gmpg.org/xfn/11"
+href="https://astronautehr.com/index.php/disclosures/export-format-documentation/"
+href="https://astronautehr.com/index.php/feed/"
+href="https://astronautehr.com/index.php/comments/feed/"
+href="https://astronautehr.com/index.php/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fastronautehr.com%2Findex.php%2Fdisclosures%2Fexport-format-documentation%2F"
+href="https://astronautehr.com/index.php/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fastronautehr.com%2Findex.php%2Fdisclosures%2Fexport-format-documentation%2F&#038;format=xml"
+href="https://astronautehr.com/index.php/wp-json/"
+href="https://astronautehr.com/index.php/wp-json/wp/v2/pages/905"
+href="https://astronautehr.com/xmlrpc.php?rsd"
+href="https://astronautehr.com/wp-content/uploads/2022/04/cropped-Astronaut-Favicon2-32x32.png"
+href="https://astronautehr.com/wp-content/uploads/2022/04/cropped-Astronaut-Favicon2-192x192.png"
+href="https://astronautehr.com/wp-content/uploads/2022/04/cropped-Astronaut-Favicon2-180x180.png"
+href="#fl-main-content"
+href="https://astronautehr.com/"
+href="https://astronautehr.com/index.php/astronaut/"
+href="https://astronautehr.com/index.php/astronaut/"
+href="https://astronautehr.com/index.php/astronaut/#team"
+href="https://astronautehr.com/index.php/astronaut/careers/"
+href="https://astronautehr.com/index.php/astronaut/#communitydiversity"
+href="https://astronautehr.com/index.php/why-switch/"
+href="https://astronautehr.com/index.php/news/"
+href="https://astronautehr.com/index.php/news/"
+href="https://astronautehr.com/index.php/join_form/"
+href="https://astronautehr.com/index.php/disclosures/"
+href="https://astronautehr.com/index.php/terms-of-service/"
+href="https://astronautehr.com/index.php/privacy-policy/"
+href="https://astronautehr.com/index.php/real-world-test-plan/"
+href="https://astronautehr.com/index.php/real-world-test-results/"
+href="https://astronautehr.com/index.php/170-315g10-apis/"
+href="https://astronautehr.com/index.php/fhir-base-urls/"
+href="https://astronautehr.com/index.php/disclosures/export-format-documentation/"
+href="https://astronautehr.com/index.php/about-contact-old/"
+href="https://astronautehr.com/index.php/api/"
+href="https://astronautehr.com/index.php/about-contact-old/"
+href="https://astronautehr.com/"
+href="https://astronautehr.com/index.php/astronaut/"
+href="https://astronautehr.com/index.php/astronaut/"
+href="https://astronautehr.com/index.php/astronaut/#team"
+href="https://astronautehr.com/index.php/astronaut/careers/"
+href="https://astronautehr.com/index.php/astronaut/#communitydiversity"
+href="https://astronautehr.com/index.php/why-switch/"
+href="https://astronautehr.com/index.php/news/"
+href="https://astronautehr.com/index.php/news/"
+href="https://astronautehr.com/index.php/join_form/"
+href="https://astronautehr.com/index.php/disclosures/"
+href="https://astronautehr.com/index.php/terms-of-service/"
+href="https://astronautehr.com/index.php/privacy-policy/"
+href="https://astronautehr.com/index.php/real-world-test-plan/"
+href="https://astronautehr.com/index.php/real-world-test-results/"
+href="https://astronautehr.com/index.php/170-315g10-apis/"
+href="https://astronautehr.com/index.php/fhir-base-urls/"
+href="https://astronautehr.com/index.php/disclosures/export-format-documentation/"
+href="https://astronautehr.com/index.php/about-contact-old/"
+href="https://astronautehr.com/index.php/api/"
+href="#"
+href="https://astronautehr.com/wp-content/uploads/2025/08/Astronaut-EHR-Export-Format-Documentation.pdf"
+href="https://astronautehr.com/wp-content/uploads/2025/08/Astronaut-EHR-Export-Format-Documentation.pdf"
+href="https://www.marketcreativity.com"
+href="https://astronautehr.com/wp-includes/js/dist/script-modules/interactivity/index.min.js?ver=66c613f68580994bb00a"
+=== File links ===
+href="https://astronautehr.com/wp-content/uploads/2025/08/Astronaut-EHR-Export-Format-Documentation.pdf"
+href="https://astronautehr.com/wp-content/uploads/2025/08/Astronaut-EHR-Export-Format-Documentation.pdf"
+=== EHI/export links ===
+href="https://astronautehr.com/index.php/disclosures/export-format-documentation/"
+href="https://astronautehr.com/index.php/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fastronautehr.com%2Findex.php%2Fdisclosures%2Fexport-format-documentation%2F"
+href="https://astronautehr.com/index.php/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fastronautehr.com%2Findex.php%2Fdisclosures%2Fexport-format-documentation%2F&#038;format=xml"
+href="https://astronautehr.com/index.php/disclosures/export-format-documentation/"
+href="https://astronautehr.com/index.php/disclosures/export-format-documentation/"
+href="https://astronautehr.com/wp-content/uploads/2025/08/Astronaut-EHR-Export-Format-Documentation.pdf"
+href="https://astronautehr.com/wp-content/uploads/2025/08/Astronaut-EHR-Export-Format-Documentation.pdf"
+]
+Found the PDF. Let me also extract the page content and download the PDF.
+[TOOL: bash]
+{
+  "command": "# Extract the body content between the main content tags\ngrep -oP '(?<=<div class=\"fl-page-content\").*?(?=<footer)' /tmp/page.html | sed 's/<[^>]*>/ /g' | tr -s ' \\n' | head -30"
+}
+
+[TOOL: bash]
+{
+  "command": "mkdir -p /home/exedev/ehi-export-analysis/results/astronaut-llc/downloads\ncurl -sL \"https://astronautehr.com/wp-content/uploads/2025/08/Astronaut-EHR-Export-Format-Documentation.pdf\" \\\n  -H 'User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36' \\\n  -o /home/exedev/ehi-export-analysis/results/astronaut-llc/downloads/Astronaut-EHR-Export-Format-Documentation.pdf\nfile /home/exedev/ehi-export-analysis/results/astronaut-llc/downloads/Astronaut-EHR-Export-Format-Documentation.pdf\nls -la /home/exedev/ehi-export-analysis/results/astronaut-llc/downloads/Astronaut-EHR-Export-Format-Documentation.pdf"
+}
+[RESULT: /home/exedev/ehi-export-analysis/results/astronaut-llc/downloads/Astronaut-EHR-Export-Format-Documentation.pdf: PDF document, version 1.4, 8 page(s)
+-rw-r--r-- 1 exedev exedev 222805 Feb 14 17:45 /home/exedev/ehi-export-analysis/results/astronaut-llc/downloads/Astronaut-EHR-Export-Format-Documentation.pdf
+]
+8-page PDF downloaded. Let me examine it.
+[TOOL: bash]
+{
+  "command": "pdfinfo /home/exedev/ehi-export-analysis/results/astronaut-llc/downloads/Astronaut-EHR-Export-Format-Documentation.pdf"
+}
+
+[TOOL: bash]
+{
+  "command": "pdftotext /home/exedev/ehi-export-analysis/results/astronaut-llc/downloads/Astronaut-EHR-Export-Format-Documentation.pdf -"
+}
+[RESULT: Title:           Astronaut EHR Export Format Documentation
+Producer:        Skia/PDF m141 Google Docs Renderer
+Custom Metadata: no
+Metadata Stream: no
+Tagged:          yes
+UserProperties:  no
+Suspects:        no
+Form:            none
+JavaScript:      no
+Pages:           10
+Encrypted:       no
+Page size:       612 x 792 pts (letter)
+Page rot:        0
+File size:       222805 bytes
+Optimized:       no
+PDF version:     1.4
+]
+[RESULT: Export Format
+Documentation
+
+Copyright 2023, Astronaut, LLC All Rights Reserved
+
+Table of Contents
+Purpose​
+Accessing Data​
+C-CDA Format Guide​
+C-CDA Sections​
+Allergies​
+Immunizations​
+Medications​
+Plan of Treatment​
+Goals​
+Problem(s)​
+Results (Lab)​
+Vitals​
+Procedures​
+Social History​
+Encounters​
+Functional Status​
+Medical Equipment​
+Assessments​
+Advanced Demographics and Remaining EHI​
+Acknowledgements​
+
+Copyright 2023, Astronaut, LLC All Rights Reserved
+2
+
+3
+3
+4
+5
+6
+6
+6
+6
+7
+7
+7
+7
+8
+8
+8
+8
+9
+9
+9
+10
+
+Purpose
+The purpose of this Export Documentation is to outline the structure and syntax
+specifications for the seamless exportation of Electronic Health Information (EHI) from
+our Electronic Health Record (EHR) system, Astronaut EHR. The outlined
+specifications herein aim to streamline the export process, enabling compatibility and
+consistency while preserving data integrity and confidentiality throughout the
+exportation of EHI from Astronaut EHR.
+Although we use the C-CDA (Consolidated Clinical Document Architecture) format for a
+majority of our EHI data, we also have some information that will be bundled within its
+own proprietary format and will be available alongside/within the C-CDA XML export
+file. This ensures adherence to industry protocols, allowing the authorized user to access
+the relevant information present in a patient’s chart (as designated in the record set
+defined in 45 CFR 164.502, excluding psychotherapy notes).
+
+Accessing Data
+Our data is stored in a FHIR (Fast Healthcare Interoperability Resources) server where
+patient information is consistently uploaded and updated. To access the server’s
+contents, one must be an authorized user and granted permission by Astronaut EHR’s
+IT staff. Our IT staff will walk an end-user through the process of how extracting data
+from the server works and will give the necessary permissions to do so.
+Authorized users will have the option to do a Single Patient Export and/or a Bulk
+Patient Export depending on their needs through the capabilities of our FHIR server.
+
+Copyright 2023, Astronaut, LLC All Rights Reserved
+3
+
+C-CDA Format Guide
+The Consolidated Clinical Document Architecture (C-CDA) utilizes XML (eXtensible
+Markup Language) to represent structured clinical information for healthcare data
+exchange. Understanding the XML format is essential for end-users to interpret and
+utilize the data effectively.
+C-CDA documents are structured hierarchically using XML tags and elements. The
+document follows a specific format, employing various sections and templates to
+organize clinical information.
+1.​ Header Section: Contains metadata such as patient demographics, author
+information, document type, and timestamps.
+<ClinicalDocument>
+<!-- Header Information -->
+<recordTarget>
+<!-- Patient Demographics -->
+</recordTarget>
+<author>
+<!-- Author Information -->
+</author>
+<!-- Other Metadata -->
+</ClinicalDocument>
+2.​ Body Sections: Comprise clinical content organized into discrete sections (e.g.,
+allergies, medications, procedures) using specific XML tags.
+<component>
+<!-- Allergies Section -->
+<section>
+<!-- Allergy Information -->
+</section>
+</component>
+<component>
+<!-- Medications Section -->
+<section>
+<!-- Medication Information -->
+Copyright 2023, Astronaut, LLC All Rights Reserved
+4
+
+</section>
+</component>
+<!-- Other Sections -->
+3.​ Clinical Data Elements: Each section contains data elements represented by
+XML tags, structured according to predefined templates.
+<entry>
+<!-- Allergy Entry -->
+<observation>
+<!-- Allergy Details -->
+</observation>
+</entry>
+<entry>
+<!-- Medication Entry -->
+<substanceAdministration>
+<!-- Medication Details -->
+</substanceAdministration>
+</entry>
+<!-- Other Data Elements →
+
+C-CDA Sections
+There are a variety of sections within our C-CDA that each detail different aspects of a
+patient’s chart. The specifics of each sections is present in HL7’s official C-CDA
+documentation found in the link below:
+C-CDA → FHIR Index - C-CDA on FHIR v2.0.0-ballot
+Below is a summary of each section and what each entails (paraphrased/quoted from
+FL7’s website). Through the format guidelines outlined in “C-CDA Format Guidelines”
+and the summary below, a user should be able to decipher the contents of the C-CDA
+XML appropriately. If a user needs to know certain specifics about the syntactic
+language then we recommend going to the website above.
+
+Copyright 2023, Astronaut, LLC All Rights Reserved
+5
+
+Allergies
+This section lists and describes any medication allergies, adverse reactions, idiosyncratic
+reactions, anaphylaxis/anaphylactoid reactions to food items, and metabolic variations
+or adverse reactions/allergies to other substances (such as latex, iodine, tape adhesives).
+Lists currently active and any relevant historical allergies and adverse reactions.
+
+Immunizations
+The Immunizations Section defines a patient's current immunization status and
+pertinent immunization history. The primary use case for the Immunization Section is
+to enable communication of a patient's immunization status. The section should include
+current immunization status, and may contain the entire immunization history that is
+relevant to the period of time being summarized.
+
+Medications
+The Medications Section contains a patient's current medications. This section describes
+a patient's prescriptions and information about intended drug monitoring. This section
+will indicate if the subject is not known to be on any medications; otherwise, the entries
+will summarize the subject's medications.
+
+Plan of Treatment
+This section contains data that define pending orders, interventions, encounters,
+services, and procedures for the patient. It is limited to prospective, unfulfilled, or
+incomplete orders and requests only. These are indicated by the @moodCode of the
+entries within this section (see HL7 website for more details). All active, incomplete, or
+pending orders, appointments, referrals, procedures, services, or any other pending
+event of clinical significance to the current care of the patient should be listed. Clinical
+reminders are placed here to provide prompts for disease prevention and management,
+patient safety, and healthcare quality improvements, including widely accepted
+performance measures. The plan may also indicate that patient education will be
+provided.
+
+Copyright 2023, Astronaut, LLC All Rights Reserved
+6
+
+Goals
+This section represents patient Goals. A goal is a defined outcome or condition to be
+achieved in the process of patient care. Goals include patient-defined overarching goals
+and health concern-specific or intervention-specific goals to achieve desired outcomes.
+
+Problem(s)
+This section lists and describes all relevant clinical problems at the time the document is
+generated. All pertinent current and historical problems are listed. The Problem(s)
+section includes diagnoses a patient has in their chart.
+
+Results (Lab)
+The Results Section contains observations of results generated by laboratories, imaging
+procedures, and other procedures. These coded result observations are contained within
+a Results Organizer in the Results Section. The scope includes observations such as
+hematology, chemistry, serology, virology, toxicology, microbiology, plain x-ray,
+ultrasound, CT, MRI, angiography, echocardiography, nuclear medicine, pathology, and
+procedure observations. The section often includes notable results such as abnormal
+values or relevant trends, and could contain all results for the period of time being
+documented.
+Laboratory results are typically generated by laboratories providing analytic services in
+areas such as chemistry, hematology, serology, histology, cytology, anatomic pathology,
+microbiology, and/or virology. These observations are based on analysis of specimens
+obtained from the patient and submitted to the laboratory. Imaging results are typically
+generated by a clinician reviewing the output of an imaging procedure, such as where a
+cardiologist reports the left ventricular ejection fraction based on the review of a cardiac
+echocardiogram.
+Procedure results are typically generated by a clinician to provide more granular
+information about component observations made during a procedure, such as where a
+gastroenterologist reports the size of a polyp observed during a colonoscopy.
+
+Vitals
+The Vital Signs Section contains relevant vital signs for the context and use case of the
+document type, such as blood pressure, heart rate, respiratory rate, height, weight, body
+Copyright 2023, Astronaut, LLC All Rights Reserved
+7
+
+mass index, head circumference, pulse oximetry, temperature, and body surface area.
+Vital signs are represented in the same way as other results, but are aggregated into
+their own section to follow clinical conventions.
+
+Procedures
+This section describes all interventional, surgical, diagnostic, or therapeutic procedures
+or treatments pertinent to the patient historically at the time the document is generated.
+The common notion of "procedure" is broader than that specified by the HL7 Version 3
+Reference Information Model (RIM), therefore this section contains procedure
+templates represented with three RIM classes: Act. Observation, and Procedure.
+Procedure act is for procedures that alter the physical condition of a patient (e.g.,
+splenectomy). Observation act is for procedures that result in new information about a
+patient but do not cause physical alteration (e.g., EEG). Act is for all other types of
+procedures (e.g., dressing change).
+
+Social History
+This section contains social history data that influence a patient's physical, psychological
+or emotional health (e.g., smoking status, pregnancy). Demographic data, such as
+marital status, race, ethnicity, and religious affiliation, is captured in the header.
+
+Encounters
+This section lists and describes any healthcare encounters pertinent to the patients
+current health status or historical health history. An encounter is an interaction,
+regardless of the setting, between a patient and a practitioner who is vested with
+primary responsibility for diagnosing, evaluating, or treating the patient's condition. It
+may include visits, appointments, or non-face-to-face interactions. It is also a contact
+between a patient and a practitioner who has primary responsibility (exercising
+independent judgment) for assessing and treating the patient.
+
+Functional Status
+The Functional Status Section contains observations and assessments of a patient's
+physical abilities. A patient’s functional status may include information regarding the
+patient’s ability to perform Activities of Daily Living (ADLs) in areas such as Mobility
+(e.g., ambulation), Self-Care (e.g., bathing, dressing, feeding, grooming) or Instrumental
+Copyright 2023, Astronaut, LLC All Rights Reserved
+8
+
+Activities of Daily Living (IADLs) (e.g., shopping, using a telephone, balancing a check
+book). Problems that impact function (e.g., dyspnea, dysphagia) can be contained in the
+section.
+
+Medical Equipment
+This section defines a patient's implanted and external health and medical devices and
+equipment. This section lists any pertinent durable medical equipment (DME) used to
+help maintain the patient's health status.
+
+Assessments
+This section represents the clinician’s conclusions and working assumptions that will
+guide treatment of the patient. The assessment may be a list of specific disease entities
+or a narrative block.
+
+Advanced Demographics and Remaining EHI
+Although the most important patient information is contained within the C-CDA, the
+advanced demographics and remaining EHI is bundled in a proprietary CSV
+(Comma-Separated Values) format. Due to the naming convention of our CSV,
+deciphering the data is fairly straightforward.
+The demographic will be named and its value will be in the next slot. After the value is
+the next demographic category. A fictional example below will help illustrate the
+process:
+Place of Birth, USA, Mother’s Maiden Name, Annabelle, Spouse’s Employer Name,
+Astronaut LLC, Date of Retirement, 10/31/2023…(etc)
+The way the remaining EHI data is bundled is optimized to be easy to understand while
+also excluding categories that have no data assigned to them. The user can rest assured
+that all available data will be present upon exportation.
+
+Copyright 2023, Astronaut, LLC All Rights Reserved
+9
+
+Acknowledgements
+We acknowledge the utilization of HL7 (Health Level Seven) standards as a fundamental
+framework for facilitating the exchange of healthcare information. We appreciate the
+information on their webpage that helps both users and developers understand the
+purpose and implementation of the different standards expected as a certified entity.
+Additionally, we recognize our adherence to SLI Compliance standards and appreciate
+their communicative approach and essential feedback. Our representatives have been
+instrumental in our success in adhering with the standards, and we appreciate their
+prompt and easy-to-understand responses when we have essential questions regarding
+our certification activities.
+Thank you.
+
+Copyright 2023, Astronaut, LLC All Rights Reserved
+10
+
+]
+I have the full PDF content. Let me also take a screenshot of the web page and check for any other related content.
+[TOOL: browser_navigate]
+{
+  "url": "https://astronautehr.com/index.php/disclosures/export-format-documentation/"
+}
+[RESULT: done]
+
+[TOOL: browser_take_screenshot]
+{}
+[RESULT: Screenshot taken (saved as /tmp/shelley-screenshots/26b30e84-14a5-4244-a43c-c5b704965681.png)]
+The page shows "Export Format Documentation" as the title and "Couldn't load plugin" — likely trying to embed the PDF. Let me scroll down to see if there's more content or a download link.
+[TOOL: browser_eval]
+{
+  "expression": "window.scrollTo(0, document.body.scrollHeight); await new Promise(r => setTimeout(r, 1000));"
+}
+[TOOL ERROR]
+[RESULT: exception "Uncaught" (0:48): SyntaxError: await is only valid in async functions and the top level bodies of modules]
+
+[TOOL: browser_eval]
+{
+  "expression": "window.scrollTo(0, document.body.scrollHeight);"
+}
+[RESULT: <javascript_result>null</javascript_result>]
+
+[TOOL: browser_take_screenshot]
+{}
+[RESULT: Screenshot taken (saved as /tmp/shelley-screenshots/43293e8e-1d0d-4e78-a93a-a8657fe4ef49.png)]
+Page is mostly empty below the failed plugin embed. Let me check the page source to see how the PDF is embedded and if there are any other links.
+[TOOL: bash]
+{
+  "command": "# Extract the content area of the page\ngrep -oP 'fl-page-content.*?</div>' /tmp/page.html | head -5\necho \"===\"\n# Look for embed/object/iframe tags\ngrep -oiE '<(embed|object|iframe)[^>]*>' /tmp/page.html\necho \"===\"\n# Look for wp-block-file which is how WordPress handles file downloads\ngrep -oiP '<div class=\"wp-block-file[^\"]*\"[^>]*>.*?</div>' /tmp/page.html"
+}
+[TOOL ERROR]
+[RESULT: [command failed: exit status 1]
+===
+<object data-wp-bind--hidden="!state.hasPdfPreview" hidden class="wp-block-file__embed" data="https://astronautehr.com/wp-content/uploads/2025/08/Astronaut-EHR-Export-Format-Documentation.pdf" type="application/pdf" style="width:100%;height:600px" aria-label="Embed of Astronaut EHR Export Format Documentation.">
+===
+]
+Good — the page embeds the PDF inline (which failed to load in the browser, showing "Couldn't load plugin") and has a download link. The PDF is the sole artifact. Let me also save the screenshot and check the Disclosures parent page and the API page for any additional EHI export documentation.
+[TOOL: bash]
+{
+  "command": "cp /tmp/shelley-screenshots/26b30e84-14a5-4244-a43c-c5b704965681.png /home/exedev/ehi-export-analysis/results/astronaut-llc/downloads/export-format-documentation-page.png"
+}
+
+[TOOL: bash]
+{
+  "command": "# Check the main disclosures page for any other EHI-related links\ncurl -sL \"https://astronautehr.com/index.php/disclosures/\" -H 'User-Agent: Mozilla/5.0' -o /tmp/disclosures.html\ncat /tmp/disclosures.html | sed 's/<[^>]*>/ /g' | tr -s ' \\n' | grep -iE 'ehi|export|b.10|data.dictionary|bulk' | head -20"
+}
+[RESULT: :root{--wp--preset--aspect-ratio--square: 1;--wp--preset--aspect-ratio--4-3: 4/3;--wp--preset--aspect-ratio--3-4: 3/4;--wp--preset--aspect-ratio--3-2: 3/2;--wp--preset--aspect-ratio--2-3: 2/3;--wp--preset--aspect-ratio--16-9: 16/9;--wp--preset--aspect-ratio--9-16: 9/16;--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: #abb8c3;--wp--preset--color--white: #ffffff;--wp--preset--color--pale-pink: #f78da7;--wp--preset--color--vivid-red: #cf2e2e;--wp--preset--color--luminous-vivid-orange: #ff6900;--wp--preset--color--luminous-vivid-amber: #fcb900;--wp--preset--color--light-green-cyan: #7bdcb5;--wp--preset--color--vivid-green-cyan: #00d084;--wp--preset--color--pale-cyan-blue: #8ed1fc;--wp--preset--color--vivid-cyan-blue: #0693e3;--wp--preset--color--vivid-purple: #9b51e0;--wp--preset--color--fl-heading-text: #333333;--wp--preset--color--fl-body-bg: #f2f2f2;--wp--preset--color--fl-body-text: #757575;--wp--preset--color--fl-accent: #006298;--wp--preset--color--fl-accent-hover: #758eb7;--wp--preset--color--fl-topbar-bg: #000000;--wp--preset--color--fl-topbar-text: #ffffff;--wp--preset--color--fl-topbar-link: #4ea3c8;--wp--preset--color--fl-topbar-hover: #4ea3c8;--wp--preset--color--fl-header-bg: #ffffff;--wp--preset--color--fl-header-text: #000000;--wp--preset--color--fl-header-link: #428bca;--wp--preset--color--fl-header-hover: #428bca;--wp--preset--color--fl-nav-bg: #ffffff;--wp--preset--color--fl-nav-link: #006298;--wp--preset--color--fl-nav-hover: #4ea3c8;--wp--preset--color--fl-content-bg: #ffffff;--wp--preset--color--fl-footer-widgets-bg: #ffffff;--wp--preset--color--fl-footer-widgets-text: #000000;--wp--preset--color--fl-footer-widgets-link: #428bca;--wp--preset--color--fl-footer-widgets-hover: #428bca;--wp--preset--color--fl-footer-bg: #ffffff;--wp--preset--color--fl-footer-text: #000000;--wp--preset--color--fl-footer-link: #428bca;--wp--preset--color--fl-footer-hover: #428bca;--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple: linear-gradient(135deg,rgb(6,147,227) 0%,rgb(155,81,224) 100%);--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan: linear-gradient(135deg,rgb(122,220,180) 0%,rgb(0,208,130) 100%);--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange: linear-gradient(135deg,rgb(252,185,0) 0%,rgb(255,105,0) 100%);--wp--preset--gradient--luminous-vivid-orange-to-vivid-red: linear-gradient(135deg,rgb(255,105,0) 0%,rgb(207,46,46) 100%);--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray: linear-gradient(135deg,rgb(238,238,238) 0%,rgb(169,184,195) 100%);--wp--preset--gradient--cool-to-warm-spectrum: linear-gradient(135deg,rgb(74,234,220) 0%,rgb(151,120,209) 20%,rgb(207,42,186) 40%,rgb(238,44,130) 60%,rgb(251,105,98) 80%,rgb(254,248,76) 100%);--wp--preset--gradient--blush-light-purple: linear-gradient(135deg,rgb(255,206,236) 0%,rgb(152,150,240) 100%);--wp--preset--gradient--blush-bordeaux: linear-gradient(135deg,rgb(254,205,165) 0%,rgb(254,45,45) 50%,rgb(107,0,62) 100%);--wp--preset--gradient--luminous-dusk: linear-gradient(135deg,rgb(255,203,112) 0%,rgb(199,81,192) 50%,rgb(65,88,208) 100%);--wp--preset--gradient--pale-ocean: linear-gradient(135deg,rgb(255,245,203) 0%,rgb(182,227,212) 50%,rgb(51,167,181) 100%);--wp--preset--gradient--electric-grass: linear-gradient(135deg,rgb(202,248,128) 0%,rgb(113,206,126) 100%);--wp--preset--gradient--midnight: linear-gradient(135deg,rgb(2,3,129) 0%,rgb(40,116,252) 100%);--wp--preset--font-size--small: 13px;--wp--preset--font-size--medium: 20px;--wp--preset--font-size--large: 36px;--wp--preset--font-size--x-large: 42px;--wp--preset--spacing--20: 0.44rem;--wp--preset--spacing--30: 0.67rem;--wp--preset--spacing--40: 1rem;--wp--preset--spacing--50: 1.5rem;--wp--preset--spacing--60: 2.25rem;--wp--preset--spacing--70: 3.38rem;--wp--preset--spacing--80: 5.06rem;--wp--preset--shadow--natural: 6px 6px 9px rgba(0, 0, 0, 0.2);--wp--preset--shadow--deep: 12px 12px 50px rgba(0, 0, 0, 0.4);--wp--preset--shadow--sharp: 6px 6px 0px rgba(0, 0, 0, 0.2);--wp--preset--shadow--outlined: 6px 6px 0px -3px rgb(255, 255, 255), 6px 6px rgb(0, 0, 0);--wp--preset--shadow--crisp: 6px 6px 0px rgb(0, 0, 0);}:where(.is-layout-flex){gap: 0.5em;}:where(.is-layout-grid){gap: 0.5em;}body .is-layout-flex{display: flex;}.is-layout-flex{flex-wrap: wrap;align-items: center;}.is-layout-flex > :is(*, div){margin: 0;}body .is-layout-grid{display: grid;}.is-layout-grid > :is(*, div){margin: 0;}:where(.wp-block-columns.is-layout-flex){gap: 2em;}:where(.wp-block-columns.is-layout-grid){gap: 2em;}:where(.wp-block-post-template.is-layout-flex){gap: 1.25em;}:where(.wp-block-post-template.is-layout-grid){gap: 1.25em;}.has-black-color{color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-color{color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-color{color: var(--wp--preset--color--white) !important;}.has-pale-pink-color{color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-color{color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-color{color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-color{color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-color{color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-color{color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-color{color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-color{color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-color{color: var(--wp--preset--color--vivid-purple) !important;}.has-black-background-color{background-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-background-color{background-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-background-color{background-color: var(--wp--preset--color--white) !important;}.has-pale-pink-background-color{background-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-background-color{background-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-background-color{background-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-background-color{background-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-background-color{background-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-background-color{background-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-background-color{background-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-background-color{background-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-background-color{background-color: var(--wp--preset--color--vivid-purple) !important;}.has-black-border-color{border-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-border-color{border-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-border-color{border-color: var(--wp--preset--color--white) !important;}.has-pale-pink-border-color{border-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-border-color{border-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-border-color{border-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-border-color{border-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-border-color{border-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-border-color{border-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-border-color{border-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-border-color{border-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-border-color{border-color: var(--wp--preset--color--vivid-purple) !important;}.has-vivid-cyan-blue-to-vivid-purple-gradient-background{background: var(--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple) !important;}.has-light-green-cyan-to-vivid-green-cyan-gradient-background{background: var(--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan) !important;}.has-luminous-vivid-amber-to-luminous-vivid-orange-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange) !important;}.has-luminous-vivid-orange-to-vivid-red-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-orange-to-vivid-red) !important;}.has-very-light-gray-to-cyan-bluish-gray-gradient-background{background: var(--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray) !important;}.has-cool-to-warm-spectrum-gradient-background{background: var(--wp--preset--gradient--cool-to-warm-spectrum) !important;}.has-blush-light-purple-gradient-background{background: var(--wp--preset--gradient--blush-light-purple) !important;}.has-blush-bordeaux-gradient-background{background: var(--wp--preset--gradient--blush-bordeaux) !important;}.has-luminous-dusk-gradient-background{background: var(--wp--preset--gradient--luminous-dusk) !important;}.has-pale-ocean-gradient-background{background: var(--wp--preset--gradient--pale-ocean) !important;}.has-electric-grass-gradient-background{background: var(--wp--preset--gradient--electric-grass) !important;}.has-midnight-gradient-background{background: var(--wp--preset--gradient--midnight) !important;}.has-small-font-size{font-size: var(--wp--preset--font-size--small) !important;}.has-medium-font-size{font-size: var(--wp--preset--font-size--medium) !important;}.has-large-font-size{font-size: var(--wp--preset--font-size--large) !important;}.has-x-large-font-size{font-size: var(--wp--preset--font-size--x-large) !important;}
+	 Export Format Documentation 
+	 Export Format Documentation 
+ 170.315(a)(1) – Computerized Provider Order Entry – medications 170.315(a)(2) – Computerized Provider Order Entry – laboratory 170.315(a)(3) – Computerized Provider Order Entry – diagnostic imaging 170.315(a)(4) – Drug-Drug, Drug-Allergy Interaction Checks for CPOE 170.315(a)(5) – Demographics 170.315(a)(12) – Family Health History 170.315(a)(14) – Implantable Device List 170.315(b)(1) – Transitions of Care 170.315(b)(3) – Electronic Prescribing 170.315(b)(10) – Electronic Health Information Export 170.315(b)(11) – Decision Support Interventions 170.315(c)(1) – Clinical Quality Measures – Record and Export 170.315(d)(1) – Authentication, Access Control, and Authorization 170.315(d)(2) – Auditable Events and Tamper-Resistance 170.315(d)(3) – Audit Reports 170.315(d)(4) – Amendments 170.315(d)(5) – Automatic Access Time-out 170.315(d)(6) – Emergency Access 170.315(d)(7) – End-User Device Encryption 170.315(d)(8) – Integrity 170.315(d)(9) – Trusted Connection 170.315(d)(12) – Encrypt Authentication Credentials 170.315(d)(13) – Multi-factor Authentication 170.315(e)(3) – Patient Health Information Capture 170.315(g)(3) – Safety-Enhanced Design 170.315(g)(4) – Quality Management System 170.315(g)(5) – Accessibility-Centered Design 170.315(g)(6) – Consolidated CDA Creation Performance 170.315(g)(7) – Application access –Patient Selection 170.315(g)(9) – Application Access – All Data Request 170.315(g)(10) – Standardized API for Patient and Population Services 170.315(h)(1) – Direct project 
+]
+The disclosures page just lists all certified criteria (including b)(10)) with the export format documentation link. No additional EHI-specific files. The PDF is the complete export documentation. Now let me render the PDF pages as images to verify the content visually, especially if there are any tables or diagrams that pdftotext might have missed.
+[TOOL: bash]
+{
+  "command": "pdftoppm -f 1 -l 2 -r 150 -png /home/exedev/ehi-export-analysis/results/astronaut-llc/downloads/Astronaut-EHR-Export-Format-Documentation.pdf /tmp/astro-preview"
+}
+
+[TOOL: read_image]
+{
+  "path": "/tmp/astro-preview-1.png"
+}
+
+[TOOL: read_image]
+{
+  "path": "/tmp/astro-preview-2.png"
+}
+[TOOL ERROR]
+[RESULT: image file not found: /tmp/astro-preview-1.png]
+[TOOL ERROR]
+[RESULT: image file not found: /tmp/astro-preview-2.png]
+
+[TOOL: bash]
+{
+  "command": "ls /tmp/astro-preview*"
+}
+[RESULT: /tmp/astro-preview-01.png
+/tmp/astro-preview-02.png
+]
+
+[TOOL: read_image]
+{
+  "path": "/tmp/astro-preview-01.png"
+}
+[RESULT: Image from /tmp/astro-preview-01.png (type: image/png)]
+Good — cover page. The text extraction was thorough. I have the complete document. Now let me write the report and manifest.
+[TOOL: bash]
+{
+  "command": "stat -c %s /home/exedev/ehi-export-analysis/results/astronaut-llc/downloads/Astronaut-EHR-Export-Format-Documentation.pdf\nstat -c %s /home/exedev/ehi-export-analysis/results/astronaut-llc/downloads/export-format-documentation-page.png"
+}
+[RESULT: 222805
+38924
+]
+
+[TOOL: patch]
+{
+  "path": "/home/exedev/ehi-export-analysis/results/astronaut-llc/ehi-export-report.md",
+  "patches": [
+    {
+      "operation": "overwrite",
+      "newText": "# Astronaut, LLC — EHI Export Documentation\n\nCollected: 2025-02-14\n\n## Source\n- Registered URL: https://astronautehr.com/index.php/disclosures/export-format-documentation/\n- CHPL ID: 10809\n- CHPL Product Number: 15.02.05.3099.ASTR.01.00.1.220201\n- Product: Astronaut EHR, Version 1709\n- Developer: Astronaut, LLC\n\n## Navigation Journal\n\n1. **HTTP probe** of the registered URL:\n   ```\n   curl -sI -L \"https://astronautehr.com/index.php/disclosures/export-format-documentation/\" -H 'User-Agent: Mozilla/5.0'\n   ```\n   Returned HTTP 200, `Content-Type: text/html; charset=UTF-8`. WordPress site behind Cloudflare. No redirect.\n\n2. **Fetched HTML page** and searched for downloadable files:\n   ```\n   curl -sL \"https://astronautehr.com/index.php/disclosures/export-format-documentation/\" -H 'User-Agent: Mozilla/5.0' -o /tmp/page.html\n   grep -oiE 'href=\"[^\"]*\\.(pdf|zip|xlsx|csv|json)[^\"]*\"' /tmp/page.html\n   ```\n   Found one PDF link: `https://astronautehr.com/wp-content/uploads/2025/08/Astronaut-EHR-Export-Format-Documentation.pdf`\n\n3. **Page structure**: The WordPress page titled \"Export Format Documentation\" embeds the PDF inline via an `<object>` tag (which fails to render in browsers without a PDF plugin, showing \"Couldn't load plugin.\") and provides a download link. No other documentation files are linked.\n\n4. **Downloaded the PDF**:\n   ```\n   curl -sL -H 'User-Agent: Mozilla/5.0' -o Astronaut-EHR-Export-Format-Documentation.pdf \\\n     'https://astronautehr.com/wp-content/uploads/2025/08/Astronaut-EHR-Export-Format-Documentation.pdf'\n   ```\n   Confirmed: PDF document, version 1.4, 10 pages, 222,805 bytes. Produced by \"Skia/PDF m141 Google Docs Renderer\" (i.e., created in Google Docs).\n\n5. **Checked parent disclosures page** (`/index.php/disclosures/`) — lists all certified criteria but contains no additional EHI export documentation files beyond the same link.\n\n6. **Took screenshot** of the export format documentation page for reference.\n\n## What Was Found\n\nThe sole artifact is a 10-page PDF titled \"Export Format Documentation\" (copyright 2023). It describes the EHI export mechanism for Astronaut EHR.\n\n### Export Format\n\nThe export uses a **dual-format approach**:\n\n1. **C-CDA (Consolidated Clinical Document Architecture) XML** — for the majority of clinical EHI data. The document describes 16 C-CDA sections that are included.\n\n2. **Proprietary CSV** — for \"advanced demographics and remaining EHI\" that doesn't fit into C-CDA. The CSV uses a simple name-value pair format: `Place of Birth, USA, Mother's Maiden Name, Annabelle, Spouse's Employer Name, Astronaut LLC, Date of Retirement, 10/31/2023…`\n\n### Access Method\n\nData is stored on a FHIR server. Authorized users must be granted permission by Astronaut EHR's IT staff, who walk them through the extraction process. Both **Single Patient Export** and **Bulk Patient Export** are available. Access requires authorization — it is not self-service.\n\n### C-CDA Sections Documented\n\nThe PDF describes these C-CDA sections (each with a paragraph-level summary paraphrased from HL7's C-CDA documentation):\n\n| # | Section | Content |\n|---|---------|----------|\n| 1 | Allergies | Medication allergies, adverse reactions, anaphylaxis |\n| 2 | Immunizations | Current status and relevant history |\n| 3 | Medications | Current prescriptions, drug monitoring |\n| 4 | Plan of Treatment | Pending orders, interventions, encounters |\n| 5 | Goals | Patient-defined and health concern-specific goals |\n| 6 | Problem(s) | Clinical problems and diagnoses |\n| 7 | Results (Lab) | Lab, imaging, and procedure results |\n| 8 | Vitals | Blood pressure, heart rate, respiratory rate, etc. |\n| 9 | Procedures | Surgical, diagnostic, therapeutic procedures |\n| 10 | Social History | Smoking status, pregnancy, etc. |\n| 11 | Encounters | Healthcare encounters |\n| 12 | Functional Status | ADLs, IADLs, functional abilities |\n| 13 | Medical Equipment | Implantable and external medical devices |\n| 14 | Assessments | Clinician conclusions and working assumptions |\n| 15 | Advanced Demographics | Via proprietary CSV (see below) |\n| 16 | Remaining EHI | Via proprietary CSV (see below) |\n\n### C-CDA Format Guide\n\nThe PDF includes a basic XML format guide showing the hierarchical structure of C-CDA documents (header with patient demographics and author info, body sections with entries). This is generic C-CDA structure explanation, not Astronaut-specific.\n\n### Proprietary CSV for Remaining Data\n\nThe \"Advanced Demographics and Remaining EHI\" section (page 9) explains that data not fitting into C-CDA is bundled in CSV format using a name-value pair convention. The example given:\n\n```\nPlace of Birth, USA, Mother's Maiden Name, Annabelle, Spouse's Employer Name, Astronaut LLC, Date of Retirement, 10/31/2023…\n```\n\nThe documentation states: \"The way the remaining EHI data is bundled is optimized to be easy to understand while also excluding categories that have no data assigned to them. The user can rest assured that all available data will be present upon exportation.\"\n\nNo schema, field list, or data dictionary for the CSV portion is provided.\n\n## Export Coverage Assessment\n\n### Data Domain Coverage\n\nAstronaut EHR is built on VistA, a comprehensive health information system with hundreds of FileMan data files, and targets behavioral health / psychiatry. The product research identified these key data domains:\n\n**Clearly covered by C-CDA sections:**\n- Patient demographics (C-CDA header + CSV for \"advanced\" demographics)\n- Allergies\n- Medications / prescriptions\n- Problems / diagnoses\n- Lab results\n- Vital signs\n- Immunizations\n- Procedures\n- Social history\n- Encounters\n- Goals\n- Plan of treatment\n- Assessments\n- Medical equipment / implantable devices\n- Functional status\n\n**Potentially covered by \"Remaining EHI\" CSV (but not enumerated):**\n- Billing data (inpatient and outpatient billing lists, ICD/CPT codes)\n- Scheduling / appointments\n- Clinical notes (Touch Note™, Rocket Note™, etc.)\n- Order entry (CPOE for medications, lab, imaging)\n- Decision support interventions\n- Audit logs\n- Patient consents\n- E-prescribing records (via NewCrop/Surescripts)\n- Supervision records (Turbo Supervision™)\n- Clinical quality measure data\n\n**Likely missing or unclear:**\n- **Psychiatric-specific assessments** — PHQ-9 scores, suicide risk assessments, substance use disorder treatment data. These are core to the product's behavioral health focus. It's unclear whether the generic \"Assessments\" C-CDA section captures these structured instruments or whether they're in the CSV catch-all.\n- **Clinical notes / documents** — Not mentioned as a C-CDA section. VistA-based systems have extensive clinical documentation. Where do full clinical notes go?\n- **E-prescribing records** — The product uses NewCrop (DrFirst) for e-prescribing. Whether locally-stored prescription transmission records are exported is unknown.\n- **Billing / claims data** — Astronaut added full integrated billing in 2020. No mention of billing data in the export documentation.\n- **Scheduling data** — Not mentioned.\n- **Audit logs** — Not mentioned.\n- **VistA FileMan data** — As a VistA-based system, the underlying database potentially contains data in hundreds of FileMan files. The export documentation gives no indication of how much of this data is captured.\n- **Psychotherapy notes** — Explicitly excluded per the PDF (\"excluding psychotherapy notes\" per 45 CFR 164.502), which is legally appropriate.\n\nThe fundamental problem is that the \"Remaining EHI\" CSV is described as a catch-all but **no enumeration of what it contains is provided**. The documentation says \"all available data will be present\" but gives no field list, no schema, and only one fictional demographic example. There is no way to verify coverage without actually running an export.\n\n### Export Format & Standards\n\n- **Primary format**: C-CDA XML — a recognized HL7 standard, well-suited for clinical data exchange\n- **Secondary format**: Proprietary CSV with name-value pairs — non-standard, ad-hoc\n- **Access**: Via FHIR server with IT-assisted authorization\n- **C-CDA version**: References \"C-CDA on FHIR v2.0.0-ballot\" but actual C-CDA profile constraints are not specified\n- **No FHIR resource mapping** — Despite data being stored on a FHIR server, the export itself is C-CDA + CSV, not FHIR NDJSON\n\nThe C-CDA portion covers standard clinical data well. The CSV portion is concerning — the name-value pair format (without headers, just alternating key/value in a flat list) is unusual and potentially difficult to parse programmatically, especially for complex or nested data.\n\nThe format choice is reasonable for a small vendor — C-CDA is appropriate for clinical data, and CSV is a pragmatic choice for the remainder. However, the lack of any schema or field documentation for the CSV portion significantly undermines its utility.\n\n### Documentation Quality\n\n**Poor.** This is a 10-page document that is more of a conceptual overview than actionable technical documentation:\n\n- **No data dictionary** — There is no field-level documentation for either the C-CDA sections or the CSV export. The C-CDA section descriptions are paragraph summaries paraphrased from HL7's website, not Astronaut-specific field mappings.\n- **No schema files** — No XSD, no sample C-CDA, no CSV schema\n- **No sample export files** — No examples of actual exported data\n- **No field definitions** — No column names, data types, value sets, or constraints\n- **No relationship documentation** — No description of how C-CDA and CSV files relate to each other in an export package\n- **No export instructions** — The \"Accessing Data\" section says IT staff will \"walk an end-user through the process\" but provides no actual steps\n- **Generic C-CDA explanation** — Three pages are spent explaining basic XML structure and C-CDA concepts that are standard HL7 knowledge, not Astronaut-specific\n- **No versioning or change history** — Copyright 2023, but the PDF was uploaded to the August 2025 directory, suggesting an update with no version tracking\n\nA developer attempting to import this data would have **no way to build an importer** from this documentation alone. They would need to: (1) obtain an actual export, (2) reverse-engineer the C-CDA profiles used, and (3) reverse-engineer the CSV format from sample data.\n\n### Structure & Completeness\n\n- **Granularity**: Section-level only (16 named C-CDA sections + vague CSV catch-all). No field-level detail.\n- **Coded fields**: Not documented. No value sets specified.\n- **Relationships**: Not documented. How the C-CDA file and CSV file(s) relate to each other is not described.\n- **Data types**: Not specified for any field.\n- **Cardinality**: Not specified.\n- **Completeness**: The document reads as a compliance checkbox rather than a genuine technical specification. The section descriptions are generic C-CDA prose, not Astronaut's implementation details.\n\n### (b)(10) vs (g)(10) Assessment\n\nThis is **not** a case of a vendor simply repackaging their FHIR/g(10) API as the b(10) export. Astronaut has attempted to address the broader EHI requirement by:\n1. Using C-CDA (not FHIR) as the primary export format\n2. Acknowledging that some data doesn't fit C-CDA and providing a CSV supplement\n3. Explicitly referencing the \"record set defined in 45 CFR 164.502\" (the designated record set)\n\nHowever, the execution is severely lacking. The CSV catch-all is undocumented, and the C-CDA portion only covers standard clinical data categories. For a VistA-based behavioral health system, the gap between what's described (standard C-CDA sections) and what the system likely stores (hundreds of VistA FileMan files, psychiatric-specific structured data, billing, scheduling, supervision records) is substantial.\n\n## Access Summary\n- Final URL (after redirects): https://astronautehr.com/index.php/disclosures/export-format-documentation/\n- Status: found\n- Required browser: no (direct PDF download link in page source)\n- Navigation complexity: direct_link\n- Anti-bot issues: none (Cloudflare present but no blocking)\n\n## Obstacles & Dead Ends\n\n- The PDF embed on the page fails to render in the browser (\"Couldn't load plugin\"), but the download link works fine via curl.\n- No other documentation files were found — the single PDF is the entirety of the export format documentation.\n- The disclosures parent page lists all certified criteria but links back to the same export documentation page for (b)(10).\n"
+    }
+  ]
+}
+[RESULT: <patches_applied>all</patches_applied>
+]
+
+[TOOL: patch]
+{
+  "path": "/home/exedev/ehi-export-analysis/results/astronaut-llc/files.json",
+  "patches": [
+    {
+      "operation": "overwrite",
+      "newText": "{\n  \"collection_date\": \"2025-02-14\",\n  \"url\": \"https://astronautehr.com/index.php/disclosures/export-format-documentation/\",\n  \"final_url\": \"https://astronautehr.com/index.php/disclosures/export-format-documentation/\",\n  \"access_status\": \"found\",\n  \"files\": [\n    {\n      \"path\": \"downloads/Astronaut-EHR-Export-Format-Documentation.pdf\",\n      \"source_url\": \"https://astronautehr.com/wp-content/uploads/2025/08/Astronaut-EHR-Export-Format-Documentation.pdf\",\n      \"size_bytes\": 222805,\n      \"description\": \"10-page PDF: Export Format Documentation. Describes C-CDA XML export (16 sections covering standard clinical data) plus a proprietary CSV format for advanced demographics and remaining EHI. No data dictionary, no field definitions, no sample files. Generic C-CDA explanations paraphrased from HL7. Copyright 2023, created in Google Docs.\",\n      \"curl_command\": \"curl -L -H 'User-Agent: Mozilla/5.0' -o Astronaut-EHR-Export-Format-Documentation.pdf 'https://astronautehr.com/wp-content/uploads/2025/08/Astronaut-EHR-Export-Format-Documentation.pdf'\"\n    },\n    {\n      \"path\": \"downloads/export-format-documentation-page.png\",\n      \"source_url\": \"https://astronautehr.com/index.php/disclosures/export-format-documentation/\",\n      \"size_bytes\": 38924,\n      \"description\": \"Screenshot of the Export Format Documentation web page. Shows page title and failed PDF embed ('Couldn't load plugin.').\",\n      \"curl_command\": null\n    }\n  ]\n}\n"
+    }
+  ]
+}
+[RESULT: <patches_applied>all</patches_applied>
+]
+
+[TOOL: bash]
+{
+  "command": "cd /home/exedev/ehi-export-analysis && git add results/astronaut-llc/ && git commit -m \"Astronaut LLC: EHI export documentation collection\n\nDownloaded export format documentation from registered URL.\nSingle artifact: 10-page PDF describing C-CDA XML export (16 sections)\nplus proprietary CSV for remaining EHI data.\n\nKey findings:\n- Dual format: C-CDA for clinical data + CSV for demographics/remainder\n- No data dictionary, schema, sample files, or field-level documentation\n- CSV format is undocumented name-value pairs with no enumeration\n- For a VistA-based behavioral health EHR, significant gap between\n  what's documented (standard C-CDA) and what the system stores\n- Documentation reads as compliance checkbox, not technical spec\""
+}
