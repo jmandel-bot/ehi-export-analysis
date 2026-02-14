@@ -1,0 +1,75 @@
+{
+  "research_date": "2026-02-14",
+  "sources": [
+    {
+      "url": "https://geniusdoc.com/",
+      "type": "vendor-website",
+      "note": "Main website. Describes GeniusDoc as EHR designed by physicians for physicians, focused on hematology/oncology. Lists modules including MIPS, public health reporting, CCM/OCM, mobile app."
+    },
+    {
+      "url": "https://www.geniusdoc.com/ONC_Certification_Costs.php",
+      "type": "mandatory-disclosures",
+      "note": "ONC mandatory disclosures page. Confirms GeniusDoc 12.0 is ambulatory practice management software, certified by SLI Compliance. Lists Surescripts and Best Sync as required dependencies."
+    },
+    {
+      "url": "https://www.geniusdoc.com/Chemo.html",
+      "type": "vendor-website",
+      "note": "Detailed chemotherapy module page. Describes regimen library, chemo ordering (BSA/AUC/ANC calculations), administration documentation, flowsheets, TNM staging, tumor marker graphing, treatment calendar with wave scheduling."
+    },
+    {
+      "url": "https://www.geniusdoc.com/pointofcare.html",
+      "type": "vendor-website",
+      "note": "Rich clinical features page. Describes SOAP charts, physical exam designer, disease management, prescription module with interaction screening, CPOE, lab integration, document management, image capture, telephone triage, correspondence templates."
+    },
+    {
+      "url": "https://www.geniusdoc.com/Billing.html",
+      "type": "vendor-website",
+      "note": "Billing module page. Describes integrated revenue cycle management, automated charge posting, claims generation, CPT/ICD coding, E&M code suggestions, EOB tracking, gastroenterology-specific code filtering."
+    },
+    {
+      "url": "https://www.geniusdoc.com/HealthcareEDI.html",
+      "type": "vendor-website",
+      "note": "EDI page describing Gateway EDI partnership. Electronic claims submission to 3,000+ payers, secondary claims processing, HIPAA compliance, EHNAC accreditation."
+    },
+    {
+      "url": "https://www.geniusdoc.com/MU1.html",
+      "type": "vendor-website",
+      "note": "Meaningful Use page. Lists 43 ambulatory clinical quality measures, general criteria including drug interaction checks, problem/medication/allergy lists, vital signs, smoking status, lab results, immunization registry, public health surveillance, security features."
+    },
+    {
+      "url": "https://www.geniusdoc.com/TechnicalRequierments.html",
+      "type": "vendor-website",
+      "note": "Technical requirements page. Windows Server/SQL Server architecture, specifications for 1-200 users, domain model required, remote access capabilities, Dragon voice recognition support, fax integration."
+    },
+    {
+      "url": "https://www.prweb.com/releases/updox_partners_with_geniusdoc_to_offer_integrated_communications_solution_to_leading_oncology_hematology_multi_specialty_practices/prweb13223497.htm",
+      "type": "press-release",
+      "note": "2016 press release about Updox partnership. Describes GeniusDoc as fully-integrated EHR and practice management for multiple specialties focusing on hematology/oncology. CEO Sunil Nemani quoted."
+    },
+    {
+      "url": "https://www.emrindustry.com/listings/geniusdoc-ehr/",
+      "type": "third-party-listing",
+      "note": "EMR Industry listing. Describes fully integrated EHR+PM+Patient Portal+RCM. Identifies B2B Software Technologies as developer (Mumbai Stock Exchange since 1998). Santa Monica CA primary operations. ONC-ATCB, Surescripts ERX Gold, Microsoft Gold certified. Ideal for smaller/midsize practices."
+    },
+    {
+      "url": "https://www.softwaresuggest.com/geniusdoc",
+      "type": "third-party-review",
+      "note": "SoftwareSuggest listing with 2 verified reviews (4.5/5 rating). Lists 20+ features including patient management, EMR, billing, telehealth, e-prescribing. Some metadata may be inaccurate (lists B2B Software Technologies as developer in Hyderabad)."
+    },
+    {
+      "url": "https://b2bsoftech.com/geniusdoc.html",
+      "type": "vendor-partner-website",
+      "note": "B2B Software Technologies page about GeniusDoc. Describes it as comprehensive practice management system with clinical documentation, ICD-10/CPT coding, scheduling, prescription management, security, and reporting. Browser-based access. Lists GeniusDoc as part of their healthcare suite."
+    },
+    {
+      "url": "http://www.geniusdoc.com/CCM.html",
+      "type": "vendor-website",
+      "note": "CCM/OCM page — nearly empty, contained only the company name with no substantive content."
+    },
+    {
+      "url": "https://www.medicalrecords.com/mrcbase/emr/geniusdoc-ehr-by-geniusdoc-inc",
+      "type": "third-party-listing",
+      "note": "MedicalRecords.com listing — essentially empty, no substantive product information."
+    }
+  ]
+}

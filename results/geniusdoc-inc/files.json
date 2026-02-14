@@ -1,0 +1,15 @@
+{
+  "collection_date": "2026-02-14",
+  "url": "https://www.geniusdoc.com/DataExport/GeniusDoc_Data_Export.pdf",
+  "final_url": "https://www.geniusdoc.com/DataExport/GeniusDoc_Data_Export.pdf",
+  "access_status": "found",
+  "files": [
+    {
+      "path": "downloads/GeniusDoc_Data_Export.pdf",
+      "source_url": "https://www.geniusdoc.com/DataExport/GeniusDoc_Data_Export.pdf",
+      "size_bytes": 159078,
+      "description": "The complete EHI export documentation for GeniusDoc. A 2-page PDF (page 2 blank) listing 6 export categories (demographics/insurance, medications/allergies, problems, lab results, visit summaries, documents) with brief one-sentence descriptions of each. No data dictionary, no field definitions, no schema, no sample data.",
+      "curl_command": "curl -sL 'https://www.geniusdoc.com/DataExport/GeniusDoc_Data_Export.pdf' -H 'User-Agent: Mozilla/5.0' -o GeniusDoc_Data_Export.pdf"
+    }
+  ]
+}
