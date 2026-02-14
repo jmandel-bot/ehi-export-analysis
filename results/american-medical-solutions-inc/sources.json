@@ -1,0 +1,80 @@
+{
+  "research_date": "2026-02-14",
+  "sources": [
+    {
+      "url": "https://www.americanmedicalsolutions.com",
+      "type": "vendor-website",
+      "note": "Main website redirects to amsemr.com, getaps.com, or amsconnects.com via JavaScript. No content on the page itself."
+    },
+    {
+      "url": "https://amsemr.com",
+      "type": "vendor-website",
+      "note": "Main landing page. Describes AMS as medical practice management firm in Tempe, AZ. Lists EHR, medical record retrieval, document scanning, ROI services. Emphasizes cloud-based, certified EHR with charting, inventory, scheduling."
+    },
+    {
+      "url": "https://amsemr.com/services/",
+      "type": "mandatory-disclosures",
+      "note": "ONC mandatory disclosures and services page. Lists Helios EHR/PMS, medical record retrieval, document scanning, ROI services. Has links to compliance certificate, export documentation, FHIR API docs, MFA use case, Real-World Testing Plans 2022-2025."
+    },
+    {
+      "url": "https://amsemr.com/about/",
+      "type": "vendor-website",
+      "note": "About page. Describes AMS as nationwide provider. Mentions HeliosMD and HeliosND (for naturopathic physicians). Claims physicians see 20% more patients. Lists ROI, record retrieval, document scanning, staffing services. Located in Tempe, AZ."
+    },
+    {
+      "url": "https://www.americanmedicalsolutions.com/AMS/HeliosMDEMRPracticeManagement.aspx",
+      "type": "vendor-website",
+      "note": "HeliosMD product page — returned 404. Page no longer exists."
+    },
+    {
+      "url": "https://www.datafied.com/technology/heliosmd-emr-and-practice-management-software/",
+      "type": "third-party-listing",
+      "note": "Datafied listing for HeliosMD. Most detailed feature description found: scheduling for multiple physicians, workflow manager, customizable encounter platform, lab portal, e-prescribing, billing with fee schedules/co-pay/reconciliation, patient statements, HIPAA compliance with role-based access."
+    },
+    {
+      "url": "https://www.datafied.com/technology/heliosnd-emr-and-practice-management-software/",
+      "type": "third-party-listing",
+      "note": "Datafied listing for HeliosND. Described as EMR for naturopathic physicians. Similar features to HeliosMD: workflow management, patient portal, scheduling, billing, e-prescribing, lab integration, HIPAA compliance."
+    },
+    {
+      "url": "https://slashdot.org/software/p/Helios-EHR/",
+      "type": "third-party-review",
+      "note": "Slashdot software listing. Lists features: appointment management, charting, e-prescribing, HIPAA compliance, patient portal, E/M coding, voice recognition, handwriting recognition, MIPS. Zero user reviews."
+    },
+    {
+      "url": "https://sourceforge.net/software/product/Helios-EHR/",
+      "type": "third-party-review",
+      "note": "SourceForge listing for Helios EHR. Similar feature list to Slashdot: clinical documentation, e-prescribing, scheduling, inventory, compliance, patient portal, telehealth. Zero user reviews, 0.0/5 stars."
+    },
+    {
+      "url": "https://softwarefinder.com/emr-software/helios-ehr",
+      "type": "third-party-review",
+      "note": "SoftwareFinder listing. Generic description mentioning FHIR server and Apache Cassandra — this may be conflating with a different Helios product (not AMS). Zero reviews. Custom pricing."
+    },
+    {
+      "url": "https://www.findemr.com/helios-ehr",
+      "type": "third-party-review",
+      "note": "FindEMR listing. Mentions telehealth, care planning, ML analytics — likely conflating with a different Helios product. Zero reviews."
+    },
+    {
+      "url": "https://www.findemr.com/ams-ultra-charts",
+      "type": "third-party-review",
+      "note": "FindEMR listing for AMS Ultra Charts — this is from American Medical Software (americanmedical.com), a DIFFERENT company from American Medical Solutions. Confirmed distinct vendors despite similar 'AMS' abbreviation."
+    },
+    {
+      "url": "https://www.bbb.org/us/az/phoenix/profile/computer-software/american-medical-solutions-1126-1000074445",
+      "type": "business-directory",
+      "note": "BBB profile. Not accredited, C+ rating. Founded 12/30/2004, 21 years in business. Corporation. Located at 2222 W Parkside Ln Ste 114, Phoenix AZ. 2 complaints total, 1 unanswered. Computer software and medical service organization category."
+    },
+    {
+      "url": "https://tech.aztechcouncil.org/list/member/american-medical-solutions-inc-tempe-77474",
+      "type": "business-directory",
+      "note": "Arizona Technology Council member listing. 'Nationwide provider of integrated physician services and solutions.' Medical and Biotechnology category. Tempe, AZ address."
+    },
+    {
+      "url": "https://getaps.com",
+      "type": "vendor-website",
+      "note": "Redirect page — routes to amsemr.com. 'APS' likely refers to Attending Physician Statement services, one of AMS's ancillary offerings."
+    }
+  ]
+}

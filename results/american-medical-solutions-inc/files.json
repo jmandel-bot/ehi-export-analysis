@@ -1,0 +1,29 @@
+{
+  "collection_date": "2026-02-14",
+  "url": "https://amsemr.com/services/",
+  "final_url": "https://amsemr.com/services/",
+  "access_status": "found",
+  "files": [
+    {
+      "path": "downloads/170.315b10-EHI-Export-Documentation.pdf",
+      "source_url": "https://amsemr.com/wp-content/uploads/2023/12/%C2%A7170.315b10-Electronic-Health-Information-Export-Documentation.pdf",
+      "size_bytes": 172908,
+      "description": "The sole EHI export documentation: a 10-page PDF containing the b(10) export data dictionary. Documents 15 CSV export sections (demographics, allergies, vitals, care team, immunizations, procedures, assessment/plan, labs, provenance, medications, smoking status, clinical notes, goals, health concerns, problems) with column names, data types, and minimal notes. Created June 2022, approved by Anthony Puglisi.",
+      "curl_command": "curl -sL 'https://amsemr.com/wp-content/uploads/2023/12/%C2%A7170.315b10-Electronic-Health-Information-Export-Documentation.pdf' -H 'User-Agent: Mozilla/5.0' -o 170.315b10-EHI-Export-Documentation.pdf"
+    },
+    {
+      "path": "downloads/services-page-certified-ehr-section.png",
+      "source_url": "https://amsemr.com/services/",
+      "size_bytes": 1012171,
+      "description": "Screenshot of the amsemr.com/services/ page showing the 'Certified EHR' section with the Export Documentation link and other compliance document links.",
+      "curl_command": null
+    },
+    {
+      "path": "downloads/services-page-top.png",
+      "source_url": "https://amsemr.com/services/",
+      "size_bytes": 691346,
+      "description": "Screenshot of the top of the amsemr.com/services/ page showing the AMS Services header and Practice Management System description.",
+      "curl_command": null
+    }
+  ]
+}
