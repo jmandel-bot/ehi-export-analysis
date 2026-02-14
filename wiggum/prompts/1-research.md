@@ -96,11 +96,28 @@ Some examples of data domains to look for (adapt to the product):
 - Population health / analytics / reporting data
 - Any other data the product manages that you discover
 
-### Product Ecosystem
+### Market Position & Users
+- How big is this vendor? Startup? Mid-size? Enterprise? Publicly traded?
+- How many customers / clinicians / sites use this product? (often on their
+  website or in press releases — rough numbers are fine)
+- What's their go-to-market? Direct sales? Channel partners? Part of a larger
+  health system vendor? Government contracts?
+- Who are the actual end users? Physicians? Nurses? Billing staff? Practice
+  managers? Patients? All of the above?
+- What clinical settings? Solo practices? Multi-site groups? Critical access
+  hospitals? Academic medical centers? FQHCs?
+- Any notable customers or case studies that reveal what the product does in
+  practice?
+
+### Product Ecosystem & Business Context
 - Does the vendor have multiple products that integrate? (e.g., separate billing
   module, separate patient portal, separate analytics platform)
 - Is this a white-label or resold product? (some small vendors resell larger platforms)
-- Any recent acquisitions or name changes that affect what product this really is?
+- Any recent acquisitions, mergers, or name changes that affect what product
+  this really is? (e.g., "formerly known as X", "acquired by Y in 2023")
+- Is the product cloud-hosted, on-premise, or hybrid? (affects data architecture)
+- Any partnerships or integrations that imply data exchange (e.g., "integrates
+  with Surescripts for e-prescribing" means prescription data flows through)
 
 ### Don't Over-Research
 - A few minutes per product is enough
@@ -121,7 +138,16 @@ Researched: {{date}}
 Developer website: {{url}}
 
 ## Overview
-(1-2 paragraphs: who is this vendor, what do they make, who are their customers)
+(1-2 paragraphs: who is this vendor, what do they make, who are their customers.
+how are they situated in the market — size, specialty, geography, customer base)
+
+## Key Sources
+(list the URLs you actually visited during research, with a brief note on what
+each contained. this is a bibliography for the research, not just a link dump)
+- https://www.vendor.com/ — main site, product overview and feature list
+- https://www.vendor.com/compliance/onc/ — mandatory disclosures, certification details
+- https://www.g2.com/products/vendorproduct — third-party reviews, user feedback
+- ...
 
 ## Product: {{Product Name A}}
 
@@ -130,6 +156,10 @@ CHPL IDs: ...
 ### What It Is
 (what the product is, who uses it, key capabilities)
 
+### Users & Market
+(who uses this product day-to-day? what settings? how many customers?
+any notable deployments or case studies?)
+
 ### Data It Likely Stores
 (what kinds of data this product would have, based on your research.
 be specific where you can, honest about uncertainty where you can't)
@@ -137,9 +167,6 @@ be specific where you can, honest about uncertainty where you can't)
 ### Notable Features Relevant to EHI
 (patient portal? messaging? billing? custom forms? anything that implies
 data that might or might not appear in an EHI export)
-
-### Sources
-(URLs you consulted — vendor pages, review sites, etc.)
 
 ---
 
@@ -172,9 +199,13 @@ Also write `{{OUTPUT_DIR}}/product-research.json`:
         "scheduling"
       ],
       "broader_product_name": "athenaOne (if the certified module is part of something larger)",
-      "notes": "anything else relevant",
-      "sources": ["https://..."]
+      "notes": "anything else relevant"
     }
+  ],
+  "sources": [
+    {"url": "https://www.vendor.com/product", "note": "main product page with feature list"},
+    {"url": "https://www.vendor.com/compliance", "note": "ONC mandatory disclosures"},
+    {"url": "https://www.g2.com/products/...", "note": "user reviews"}
   ],
   "notes": "vendor-level notes (e.g., recently acquired by X, product formerly known as Y)"
 }
