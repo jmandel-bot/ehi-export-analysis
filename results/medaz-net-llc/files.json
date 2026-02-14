@@ -1,0 +1,78 @@
+{
+  "collection_date": "2026-02-14",
+  "url": "https://medaz.com/certificationinfo.html",
+  "final_url": "https://medaz.com/certificationinfo.html",
+  "access_status": "found",
+  "files": [
+    {
+      "path": "downloads/certificationinfo.html",
+      "source_url": "https://medaz.com/certificationinfo.html",
+      "size_bytes": 15010,
+      "description": "Main certification information page. Contains disclaimer, certification details, cost disclosures, and the Data Exchange/Extraction section with links to FHIR API documentation. This is the registered (b)(10) URL.",
+      "curl_command": "curl -sL 'https://medaz.com/certificationinfo.html' -H 'User-Agent: Mozilla/5.0' -o certificationinfo.html"
+    },
+    {
+      "path": "downloads/swagger-single-patient.json",
+      "source_url": "https://fhirapi.mhealthaz.com/swagger/v2/swagger.json",
+      "size_bytes": 531447,
+      "description": "OpenAPI 3.0.1 specification for the single-patient FHIR API ('Med A-Z FHIR'). Documents 90 API paths covering CRUD, search, and pagination for 19 US Core resource types plus application registration endpoints. This is the machine-readable version of the Swagger UI at fhirapi.mhealthaz.com/swagger/index.html.",
+      "curl_command": "curl -sL 'https://fhirapi.mhealthaz.com/swagger/v2/swagger.json' -H 'User-Agent: Mozilla/5.0' -o swagger-single-patient.json"
+    },
+    {
+      "path": "downloads/swagger-bulk.json",
+      "source_url": "https://fhirbulk.mhealthaz.com/swagger/v2/swagger.json",
+      "size_bytes": 272311,
+      "description": "OpenAPI 3.0.1 specification for the bulk FHIR API ('Med A-Z FHIRBulk'). Documents 37 API paths including Group-level $export, export-poll-status, download, and individual resource endpoints. Implements FHIR Bulk Data Access specification.",
+      "curl_command": "curl -sL 'https://fhirbulk.mhealthaz.com/swagger/v2/swagger.json' -H 'User-Agent: Mozilla/5.0' -o swagger-bulk.json"
+    },
+    {
+      "path": "downloads/fhirsingle.xml",
+      "source_url": "https://fhir.mhealthaz.com/fhirsingle.xml",
+      "size_bytes": 29255,
+      "description": "FHIR Bundle containing Endpoint resources for the single-patient API. Lists 19 resource types (AllergyIntolerance through Provenance) with their API URLs and contact information. Service discovery document last modified September 21, 2022.",
+      "curl_command": "curl -sL 'https://fhir.mhealthaz.com/fhirsingle.xml' -H 'User-Agent: Mozilla/5.0' -o fhirsingle.xml"
+    },
+    {
+      "path": "downloads/fhirsystosys.xml",
+      "source_url": "https://fhir.mhealthaz.com/fhirsystosys.xml",
+      "size_bytes": 24840,
+      "description": "FHIR Bundle containing Endpoint resources for the bulk/system-to-system API. Lists the same 19 resource types as fhirsingle.xml. Service discovery document last modified September 21, 2022.",
+      "curl_command": "curl -sL 'https://fhir.mhealthaz.com/fhirsystosys.xml' -H 'User-Agent: Mozilla/5.0' -o fhirsystosys.xml"
+    },
+    {
+      "path": "downloads/fhir-capability-statement-single.json",
+      "source_url": "https://fhirapi.mhealthaz.com/metadata",
+      "size_bytes": 21892,
+      "description": "FHIR CapabilityStatement from the single-patient API. Confirms US Core IG v3.1.1, FHIR R4 (4.0.1), 20 resource types all using standard US Core profiles. No custom profiles or extensions defined.",
+      "curl_command": "curl -sL 'https://fhirapi.mhealthaz.com/metadata' -H 'User-Agent: Mozilla/5.0' -H 'Accept: application/fhir+json' -o fhir-capability-statement-single.json"
+    },
+    {
+      "path": "downloads/fhir-capability-statement-bulk.json",
+      "source_url": "https://fhirbulk.mhealthaz.com/metadata",
+      "size_bytes": 22073,
+      "description": "FHIR CapabilityStatement from the bulk API. Confirms US Core IG v3.1.1, FHIR R4 (4.0.1), 20 resource types all using standard US Core profiles. Implementation URL is fhirbulk.mhealthaz.com.",
+      "curl_command": "curl -sL 'https://fhirbulk.mhealthaz.com/metadata' -H 'User-Agent: Mozilla/5.0' -H 'Accept: application/fhir+json' -o fhir-capability-statement-bulk.json"
+    },
+    {
+      "path": "downloads/screenshot-certification-page.png",
+      "source_url": "https://medaz.com/certificationinfo.html",
+      "size_bytes": 587784,
+      "description": "Full-page screenshot of the certification information page showing all sections: Disclaimer, Certification Information, Costs, Data Exchange/Extraction, and Multifactor Authentication.",
+      "curl_command": null
+    },
+    {
+      "path": "downloads/screenshot-swagger-single-patient.png",
+      "source_url": "https://fhirapi.mhealthaz.com/swagger/index.html",
+      "size_bytes": 167213,
+      "description": "Screenshot of the Swagger UI for the single-patient FHIR API showing the 'Med A-Z FHIR' v2 OAS3 documentation with AllergyIntolerance and CarePlan endpoint groups visible.",
+      "curl_command": null
+    },
+    {
+      "path": "downloads/screenshot-swagger-bulk.png",
+      "source_url": "https://fhirbulk.mhealthaz.com/swagger/index.html",
+      "size_bytes": 143156,
+      "description": "Screenshot of the Swagger UI for the bulk FHIR API showing the 'Med A-Z FHIRBulk' v2 OAS3 documentation with BulkData, ContentLocation, and FhirAllergyIntolerance endpoint groups visible.",
+      "curl_command": null
+    }
+  ]
+}

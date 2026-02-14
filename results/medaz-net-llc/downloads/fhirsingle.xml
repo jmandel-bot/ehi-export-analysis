@@ -1,0 +1,853 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Bundle xmlns="http://hl7.org/fhir">
+  <id value="b0a5e4277-83c4-4adb-87e2-e3efe3369b6f"/> 
+  <meta> 
+    <lastUpdated value="2022-09-21T23:45:32Z"/>  
+  </meta>  
+  <type value="collection"/>  
+  <entry> 
+    <fullUrl value="https://fhirapi.mhealthaz.com"/> 
+    <resource> 
+      <Endpoint> 
+        <id value="01"/> 
+        <text> 
+          <status value="generated"/> 
+          <div xmlns="http://www.w3.org/1999/xhtml">
+			       AllergyIntolerance<br/>
+			      Address: https://fhirapi.mhealthaz.com/AllergyIntolerance?patient=
+		     </div> 
+        </text> 
+        <status value="active"/> 
+        <connectionType> 
+           <system value="http://terminology.hl7.org/CodeSystem/endpoint-connection-type"/> 
+           <code value="hl7-fhir-rest"/> 
+        </connectionType> 
+        <name value="AllergyIntolerance"/> 
+        <managingOrganization> 
+          <display value="Med A-Z"/> 
+        </managingOrganization> 
+        <!--  <method>
+          <system value="http://hl7.org/fhir/http-verb" />
+          <code value="POST" />
+        </method>  -->
+        <contact> 
+           <system value="email"/> 
+           <value value="medazhelpdesk@medaz.net"/> 
+           <use value="work"/> 
+       </contact> 
+       <period> 
+         <start value="2022-09-21"/> 
+       </period> 
+        <payloadType> 
+          <coding> 
+              <system value="http://hl7.org/fhir/resource-types" />  
+            <code value="AllergyIntolerance"/> 
+          </coding> 
+        </payloadType> 
+        <payloadMimeType value="application/fhir+xml"/> 
+        <address value="https://fhirapi.mhealthaz.com/Account/Login"/> 
+      </Endpoint> 
+    </resource> 
+  </entry>  
+  <entry> 
+    <fullUrl value="https://fhirapi.mhealthaz.com/Account/Login"/> 
+    <resource> 
+      <Endpoint> 
+        <id value="01"/> 
+        <text> 
+          <status value="generated"/> 
+          <div xmlns="http://www.w3.org/1999/xhtml">
+			  CarePlan<br/>
+			  Address: https://fhirapi.mhealthaz.com/CarePlan?patient=
+		  </div> 
+        </text> 
+        <status value="active"/> 
+        <connectionType> 
+           <system value="http://terminology.hl7.org/CodeSystem/endpoint-connection-type"/> 
+           <code value="hl7-fhir-rest"/> 
+        </connectionType> 
+        <name value="CarePlan"/> 
+        <managingOrganization> 
+          <display value="Med A-Z"/> 
+        </managingOrganization> 
+        <!--  <method>
+          <system value="http://hl7.org/fhir/http-verb" />
+          <code value="POST" />
+        </method>  -->
+         <contact> 
+           <system value="email"/> 
+           <value value="medazhelpdesk@medaz.net"/> 
+           <use value="work"/> 
+       </contact> 
+       <period> 
+         <start value="2022-09-21"/> 
+       </period> 
+        <payloadType> 
+          <coding> 
+              <system value="http://hl7.org/fhir/resource-types" /> 
+            <code value="CarePlan"/> 
+          </coding> 
+        </payloadType> 
+        <payloadMimeType value="application/fhir+xml"/> 
+        <address value="https://fhirapi.mhealthaz.com/Account/Login"/> 
+      </Endpoint> 
+    </resource> 
+  </entry>  
+  <entry> 
+    <fullUrl value="https://fhirapi.mhealthaz.com/Account/Login"/> 
+    <resource> 
+      <Endpoint> 
+        <id value="01"/> 
+        <text> 
+          <status value="generated"/> 
+          <div xmlns="http://www.w3.org/1999/xhtml">
+			  CareTeam<br/>
+			  Address: https://fhirapi.mhealthaz.com/CareTeam?patient=
+		  </div> 
+        </text> 
+        <status value="active"/> 
+        <connectionType> 
+           <system value="http://terminology.hl7.org/CodeSystem/endpoint-connection-type"/> 
+           <code value="hl7-fhir-rest"/> 
+        </connectionType> 
+        <name value="CareTeam"/> 
+        <managingOrganization> 
+          <display value="Med A-Z"/> 
+        </managingOrganization> 
+        <!--  <method>
+          <system value="http://hl7.org/fhir/http-verb" />
+          <code value="POST" />
+        </method>  -->
+         <contact> 
+           <system value="email"/> 
+           <value value="medazhelpdesk@medaz.net"/> 
+           <use value="work"/> 
+       </contact> 
+       <period> 
+         <start value="2022-09-21"/> 
+       </period> 
+        <payloadType> 
+          <coding> 
+              <system value="http://hl7.org/fhir/resource-types" /> 
+            <code value="CareTeam"/> 
+          </coding> 
+        </payloadType> 
+        <payloadMimeType value="application/fhir+xml"/> 
+        <address value="https://fhirapi.mhealthaz.com/Account/Login"/> 
+      </Endpoint> 
+    </resource> 
+  </entry>  
+  <entry> 
+    <fullUrl value="https://fhirapi.mhealthaz.com/Account/Login"/> 
+    <resource> 
+      <Endpoint> 
+        <id value="01"/> 
+        <text> 
+          <status value="generated"/> 
+          <div xmlns="http://www.w3.org/1999/xhtml">
+			  Condition<br/>
+			  Address: https://fhirapi.mhealthaz.com/Condition?patient=
+		  </div> 
+        </text> 
+        <status value="active"/> 
+        <connectionType> 
+           <system value="http://terminology.hl7.org/CodeSystem/endpoint-connection-type"/> 
+           <code value="hl7-fhir-rest"/> 
+        </connectionType> 
+        <name value="Condition"/> 
+        <managingOrganization> 
+          <display value="Med A-Z"/> 
+        </managingOrganization>
+         <contact> 
+           <system value="email"/> 
+           <value value="medazhelpdesk@medaz.net"/> 
+           <use value="work"/> 
+       </contact> 
+       <period> 
+         <start value="2022-09-21"/> 
+       </period> 
+        <!--  <method>
+          <system value="http://hl7.org/fhir/http-verb" />
+          <code value="POST" />
+        </method>  -->
+         <contact> 
+           <system value="email"/> 
+           <value value="medazhelpdesk@medaz.net"/> 
+           <use value="work"/> 
+       </contact> 
+       <period> 
+         <start value="2022-09-21"/> 
+       </period> 
+        <payloadType> 
+          <coding> 
+             <system value="http://hl7.org/fhir/resource-types" /> 
+            <code value="Condition"/> 
+          </coding> 
+        </payloadType> 
+        <payloadMimeType value="application/fhir+xml"/> 
+        <address value="https://fhirapi.mhealthaz.com/Account/Login"/> 
+      </Endpoint> 
+    </resource> 
+  </entry>  
+  <entry> 
+    <fullUrl value="https://fhirapi.mhealthaz.com/Account/Login"/> 
+    <resource> 
+      <Endpoint> 
+        <id value="01"/> 
+        <text> 
+          <status value="generated"/> 
+          <div xmlns="http://www.w3.org/1999/xhtml">
+			  Device<br/>
+			  Address: https://fhirapi.mhealthaz.com/Device?patient=
+		  </div> 
+        </text> 
+        <status value="active"/> 
+        <connectionType> 
+           <system value="http://terminology.hl7.org/CodeSystem/endpoint-connection-type"/> 
+           <code value="hl7-fhir-rest"/> 
+        </connectionType> 
+        <name value="Device"/> 
+        <managingOrganization> 
+          <display value="Med A-Z"/> 
+        </managingOrganization> 
+        <!--  <method>
+          <system value="http://hl7.org/fhir/http-verb" />
+          <code value="POST" />
+        </method>  -->
+         <contact> 
+           <system value="email"/> 
+           <value value="medazhelpdesk@medaz.net"/> 
+           <use value="work"/> 
+       </contact> 
+       <period> 
+         <start value="2022-09-21"/> 
+       </period> 
+        <payloadType> 
+          <coding> 
+              <system value="http://hl7.org/fhir/resource-types" />  
+            <code value="Device"/> 
+          </coding> 
+        </payloadType> 
+        <payloadMimeType value="application/fhir+xml"/> 
+        <address value="https://fhirapi.mhealthaz.com/Account/Login"/> 
+      </Endpoint> 
+    </resource> 
+  </entry>  
+  <entry> 
+    <fullUrl value="https://fhirapi.mhealthaz.com/Account/Login"/> 
+    <resource> 
+      <Endpoint> 
+        <id value="01"/> 
+        <text> 
+          <status value="generated"/> 
+          <div xmlns="http://www.w3.org/1999/xhtml">
+			  Diagnostic Report<br/>
+			  Address: https://fhirapi.mhealthaz.com/Diagnosticreport?patient=
+		  </div> 
+        </text> 
+        <status value="active"/> 
+        <connectionType> 
+           <system value="http://terminology.hl7.org/CodeSystem/endpoint-connection-type"/> 
+           <code value="hl7-fhir-rest"/> 
+        </connectionType> 
+        <name value="DiagnosticReport"/> 
+        <managingOrganization> 
+          <display value="Med A-Z"/> 
+        </managingOrganization> 
+        <!--  <method>
+          <system value="http://hl7.org/fhir/http-verb" />
+          <code value="POST" />
+        </method>  -->
+         <contact> 
+           <system value="email"/> 
+           <value value="medazhelpdesk@medaz.net"/> 
+           <use value="work"/> 
+       </contact> 
+       <period> 
+         <start value="2022-09-21"/> 
+       </period> 
+        <payloadType> 
+          <coding> 
+             <system value="http://hl7.org/fhir/resource-types"/>
+            <code value="DiagnosticReport"/> 
+          </coding> 
+        </payloadType> 
+        <payloadMimeType value="application/fhir+xml"/> 
+        <address value="https://fhirapi.mhealthaz.com/Account/Login"/> 
+      </Endpoint> 
+    </resource> 
+  </entry>  
+  <entry> 
+    <fullUrl value="https://fhirapi.mhealthaz.com/Account/Login"/> 
+    <resource> 
+      <Endpoint> 
+        <id value="01"/> 
+        <text> 
+          <status value="generated"/> 
+          <div xmlns="http://www.w3.org/1999/xhtml">
+			  Document Reference<br/>
+			  Address: https://fhirapi.mhealthaz.com/DocumentReference?patient=
+		  </div> 
+        </text> 
+        <status value="active"/> 
+        <connectionType> 
+           <system value="http://terminology.hl7.org/CodeSystem/endpoint-connection-type"/> 
+           <code value="hl7-fhir-rest"/> 
+        </connectionType> 
+        <name value="DocumentReference"/> 
+        <managingOrganization> 
+          <display value="Med A-Z"/> 
+        </managingOrganization> 
+        <!--  <method>
+          <system value="http://hl7.org/fhir/http-verb" />
+          <code value="POST" />
+        </method>  -->
+         <contact> 
+           <system value="email"/> 
+           <value value="medazhelpdesk@medaz.net"/> 
+           <use value="work"/> 
+       </contact> 
+       <period> 
+         <start value="2022-09-21"/> 
+       </period> 
+        <payloadType> 
+          <coding> 
+              <!--  <system value="http://hl7.org/fhir/resource-types" />  -->
+            <code value="DocumentReference"/> 
+          </coding> 
+        </payloadType> 
+        <payloadMimeType value="application/fhir+xml"/> 
+        <address value="https://fhirapi.mhealthaz.com/Account/Login"/> 
+      </Endpoint> 
+    </resource> 
+  </entry>  
+   <entry> 
+    <fullUrl value="https://fhirapi.mhealthaz.com/Account/Login"/> 
+    <resource> 
+      <Endpoint> 
+        <id value="01"/> 
+        <text> 
+          <status value="generated"/> 
+          <div xmlns="http://www.w3.org/1999/xhtml">
+			  Encounter<br/>
+			  Address: https://fhirapi.mhealthaz.com/Encounter?patient=
+		  </div> 
+        </text> 
+        <status value="active"/> 
+        <connectionType> 
+           <system value="http://terminology.hl7.org/CodeSystem/endpoint-connection-type"/> 
+           <code value="hl7-fhir-rest"/> 
+        </connectionType> 
+        <name value="Encounter"/> 
+        <managingOrganization> 
+          <display value="Med A-Z"/> 
+        </managingOrganization> 
+        <!--  <method>
+          <system value="http://hl7.org/fhir/http-verb" />
+          <code value="POST" />
+        </method>  -->
+         <contact> 
+           <system value="email"/> 
+           <value value="medazhelpdesk@medaz.net"/> 
+           <use value="work"/> 
+       </contact> 
+       <period> 
+         <start value="2022-09-21"/> 
+       </period> 
+        <payloadType> 
+          <coding> 
+              <!--  <system value="http://hl7.org/fhir/resource-types" />  -->
+            <code value="Encounter"/> 
+          </coding> 
+        </payloadType> 
+        <payloadMimeType value="application/fhir+xml"/> 
+        <address value="https://fhirapi.mhealthaz.com/Account/Login"/> 
+      </Endpoint> 
+    </resource> 
+  </entry>  
+  <entry> 
+    <fullUrl value="https://fhirapi.mhealthaz.com/Account/Login"/> 
+    <resource> 
+      <Endpoint> 
+        <id value="01"/> 
+        <text> 
+          <status value="generated"/> 
+          <div xmlns="http://www.w3.org/1999/xhtml">
+			  Goal<br/>
+			  Address: https://fhirapi.mhealthaz.com/Goal?patient=
+		  </div> 
+        </text> 
+        <status value="active"/> 
+        <connectionType> 
+           <system value="http://terminology.hl7.org/CodeSystem/endpoint-connection-type"/> 
+           <code value="hl7-fhir-rest"/> 
+        </connectionType> 
+        <name value="Goal"/> 
+        <managingOrganization> 
+          <display value="Med A-Z"/> 
+        </managingOrganization> 
+        <!--  <method>
+          <system value="http://hl7.org/fhir/http-verb" />
+          <code value="POST" />
+        </method>  -->
+         <contact> 
+           <system value="email"/> 
+           <value value="medazhelpdesk@medaz.net"/> 
+           <use value="work"/> 
+       </contact> 
+       <period> 
+         <start value="2022-09-21"/> 
+       </period> 
+        <payloadType> 
+          <coding> 
+              <system value="http://hl7.org/fhir/resource-types" />
+            <code value="Goal"/> 
+          </coding> 
+        </payloadType> 
+        <payloadMimeType value="application/fhir+xml"/> 
+        <address value="https://fhirapi.mhealthaz.com/Account/Login"/> 
+      </Endpoint> 
+    </resource> 
+  </entry>  
+  <entry> 
+    <fullUrl value="https://fhirapi.mhealthaz.com/Account/Login"/> 
+    <resource> 
+      <Endpoint> 
+        <id value="01"/> 
+        <text> 
+          <status value="generated"/> 
+          <div xmlns="http://www.w3.org/1999/xhtml">
+			  Immunization<br/>
+			  Address: https://fhirapi.mhealthaz.com/Immunization?patient=
+		  </div> 
+        </text> 
+        <status value="active"/> 
+        <connectionType> 
+           <system value="http://terminology.hl7.org/CodeSystem/endpoint-connection-type"/> 
+           <code value="hl7-fhir-rest"/> 
+        </connectionType> 
+        <name value="Immunization"/> 
+        <managingOrganization> 
+          <display value="Med A-Z"/> 
+        </managingOrganization> 
+        <!--  <method>
+          <system value="http://hl7.org/fhir/http-verb" />
+          <code value="POST" />
+        </method>  -->
+         <contact> 
+           <system value="email"/> 
+           <value value="medazhelpdesk@medaz.net"/> 
+           <use value="work"/> 
+       </contact> 
+       <period> 
+         <start value="2022-09-21"/> 
+       </period> 
+        <payloadType> 
+          <coding> 
+              <system value="http://hl7.org/fhir/resource-types" />  
+            <code value="Immunization"/> 
+          </coding> 
+        </payloadType> 
+        <payloadMimeType value="application/fhir+xml"/> 
+        <address value="https://fhirapi.mhealthaz.com/Account/Login"/> 
+      </Endpoint> 
+    </resource> 
+  </entry>  
+  <entry> 
+    <fullUrl value="https://fhirapi.mhealthaz.com/Account/Login"/> 
+    <resource> 
+      <Endpoint> 
+        <id value="01"/> 
+        <text> 
+          <status value="generated"/> 
+          <div xmlns="http://www.w3.org/1999/xhtml">
+			  Location<br/>
+			  Address: https://fhirapi.mhealthaz.com/Location?patient=
+		  </div> 
+        </text> 
+        <status value="active"/> 
+        <connectionType> 
+           <system value="http://terminology.hl7.org/CodeSystem/endpoint-connection-type"/> 
+           <code value="hl7-fhir-rest"/> 
+        </connectionType> 
+        <name value="Location"/> 
+        <managingOrganization> 
+          <display value="Med A-Z"/> 
+        </managingOrganization> 
+        <!--  <method>
+          <system value="http://hl7.org/fhir/http-verb" />
+          <code value="POST" />
+        </method>  -->
+         <contact> 
+           <system value="email"/> 
+           <value value="medazhelpdesk@medaz.net"/> 
+           <use value="work"/> 
+       </contact> 
+       <period> 
+         <start value="2022-09-21"/> 
+       </period> 
+        <payloadType> 
+          <coding> 
+              <system value="http://hl7.org/fhir/resource-types" />  
+            <code value="Location"/> 
+          </coding> 
+        </payloadType> 
+        <payloadMimeType value="application/fhir+xml"/> 
+        <address value="https://fhirapi.mhealthaz.com/Account/Login"/> 
+      </Endpoint> 
+    </resource> 
+  </entry>  
+  <entry> 
+    <fullUrl value="https://fhirapi.mhealthaz.com/Account/Login"/> 
+    <resource> 
+      <Endpoint> 
+        <id value="01"/> 
+        <text> 
+          <status value="generated"/> 
+          <div xmlns="http://www.w3.org/1999/xhtml">
+			  Medication<br/>
+			  Address: https://fhirapi.mhealthaz.com/Medication?patient=
+		  </div> 
+        </text> 
+        <status value="active"/> 
+        <connectionType> 
+           <system value="http://terminology.hl7.org/CodeSystem/endpoint-connection-type"/> 
+           <code value="hl7-fhir-rest"/> 
+        </connectionType> 
+        <name value="Medication"/> 
+        <managingOrganization> 
+          <display value="Med A-Z"/> 
+        </managingOrganization> 
+        <!--  <method>
+          <system value="http://hl7.org/fhir/http-verb" />
+          <code value="POST" />
+        </method>  -->
+         <contact> 
+           <system value="email"/> 
+           <value value="medazhelpdesk@medaz.net"/> 
+           <use value="work"/> 
+       </contact> 
+       <period> 
+         <start value="2022-09-21"/> 
+       </period> 
+        <payloadType> 
+          <coding> 
+             <system value="http://hl7.org/fhir/resource-types" />  
+            <code value="Medication"/> 
+          </coding> 
+        </payloadType> 
+        <payloadMimeType value="application/fhir+xml"/> 
+        <address value="https://fhirapi.mhealthaz.com/Account/Login"/> 
+      </Endpoint> 
+    </resource> 
+  </entry>  
+  <entry> 
+    <fullUrl value="https://fhirapi.mhealthaz.com/Account/Login"/> 
+    <resource> 
+      <Endpoint> 
+        <id value="01"/> 
+        <text> 
+          <status value="generated"/> 
+          <div xmlns="http://www.w3.org/1999/xhtml">
+			  Medication Request<br/>
+			  Address: https://fhirapi.mhealthaz.com/MedicationRequest?patient=
+		  </div> 
+        </text> 
+        <status value="active"/> 
+        <connectionType> 
+           <system value="http://terminology.hl7.org/CodeSystem/endpoint-connection-type"/> 
+           <code value="hl7-fhir-rest"/> 
+        </connectionType> 
+        <name value="MedicationRequest"/> 
+        <managingOrganization> 
+          <display value="Med A-Z"/> 
+        </managingOrganization> 
+        <!--  <method>
+          <system value="http://hl7.org/fhir/http-verb" />
+          <code value="POST" />
+        </method>  -->
+         <contact> 
+           <system value="email"/> 
+           <value value="medazhelpdesk@medaz.net"/> 
+           <use value="work"/> 
+       </contact> 
+       <period> 
+         <start value="2022-09-21"/> 
+       </period> 
+        <payloadType> 
+          <coding> 
+             <system value="http://hl7.org/fhir/resource-types" /> 
+            <code value="MedicationRequest"/> 
+          </coding> 
+        </payloadType> 
+        <payloadMimeType value="application/fhir+xml"/> 
+        <address value="https://fhirapi.mhealthaz.com/Account/Login"/> 
+      </Endpoint> 
+    </resource> 
+  </entry>  
+  <entry> 
+    <fullUrl value="https://fhirapi.mhealthaz.com/Account/Login"/> 
+    <resource> 
+      <Endpoint> 
+        <id value="01"/> 
+        <text> 
+          <status value="generated"/> 
+          <div xmlns="http://www.w3.org/1999/xhtml">
+			  Observation<br/>
+			  Address: https://fhirapi.mhealthaz.com/Observation?patient=
+		  </div> 
+        </text> 
+        <status value="active"/> 
+        <connectionType> 
+           <system value="http://terminology.hl7.org/CodeSystem/endpoint-connection-type"/> 
+           <code value="hl7-fhir-rest"/> 
+        </connectionType> 
+        <name value="Observation"/> 
+        <managingOrganization> 
+          <display value="Med A-Z"/> 
+        </managingOrganization> 
+         <contact> 
+           <system value="email"/> 
+           <value value="medazhelpdesk@medaz.net"/> 
+           <use value="work"/> 
+       </contact> 
+       <period> 
+         <start value="2022-09-21"/> 
+       </period> 
+        <!--  <method>
+          <system value="http://hl7.org/fhir/http-verb" />
+          <code value="POST" />
+        </method>  -->
+        <payloadType> 
+          <coding> 
+            <system value="http://hl7.org/fhir/resource-types" />
+            <code value="Observation"/> 
+          </coding> 
+        </payloadType> 
+        <payloadMimeType value="application/fhir+xml"/> 
+        <address value="https://fhirapi.mhealthaz.com/Account/Login"/> 
+      </Endpoint> 
+    </resource> 
+  </entry>  
+ <entry> 
+    <fullUrl value="https://fhirapi.mhealthaz.com/Account/Login"/> 
+    <resource> 
+      <Endpoint> 
+        <id value="01"/> 
+        <text> 
+          <status value="generated"/> 
+          <div xmlns="http://www.w3.org/1999/xhtml">
+			  Organization<br/>
+			  Address: https://fhirapi.mhealthaz.com/Organization?patient=
+		  </div> 
+        </text> 
+        <status value="active"/> 
+        <connectionType> 
+           <system value="http://terminology.hl7.org/CodeSystem/endpoint-connection-type"/> 
+           <code value="hl7-fhir-rest"/> 
+        </connectionType> 
+        <name value="Organization"/> 
+        <managingOrganization> 
+          <display value="Med A-Z"/> 
+        </managingOrganization> 
+         <contact> 
+           <system value="email"/> 
+           <value value="medazhelpdesk@medaz.net"/> 
+           <use value="work"/> 
+       </contact> 
+       <period> 
+         <start value="2022-09-21"/> 
+       </period> 
+        <!--  <method>
+          <system value="http://hl7.org/fhir/http-verb" />
+          <code value="POST" />
+        </method>  -->
+        <payloadType> 
+          <coding> 
+              <system value="http://hl7.org/fhir/resource-types" />  
+            <code value="Organization"/> 
+          </coding> 
+        </payloadType> 
+        <payloadMimeType value="application/fhir+xml"/> 
+        <address value="https://fhirapi.mhealthaz.com/Account/Login"/> 
+      </Endpoint> 
+    </resource> 
+  </entry>
+ <entry> 
+    <fullUrl value="https://fhirapi.mhealthaz.com/Account/Login"/> 
+    <resource> 
+      <Endpoint> 
+        <id value="01"/> 
+        <text> 
+          <status value="generated"/> 
+          <div xmlns="http://www.w3.org/1999/xhtml">
+			  Patient<br/>
+			  Address: https://fhirapi.mhealthaz.com/Patient?patient=
+		  </div> 
+        </text> 
+        <status value="active"/> 
+        <connectionType> 
+           <system value="http://terminology.hl7.org/CodeSystem/endpoint-connection-type"/> 
+           <code value="hl7-fhir-rest"/> 
+        </connectionType> 
+        <name value="Patient"/> 
+        <managingOrganization> 
+          <display value="Med A-Z"/> 
+        </managingOrganization> 
+        <!--  <method>
+          <system value="http://hl7.org/fhir/http-verb" />
+          <code value="POST" />
+        </method>  -->
+         <contact> 
+           <system value="email"/> 
+           <value value="medazhelpdesk@medaz.net"/> 
+           <use value="work"/> 
+       </contact> 
+       <period> 
+         <start value="2022-09-21"/> 
+       </period> 
+        <payloadType> 
+          <coding> 
+             <system value="http://hl7.org/fhir/resource-types" /> 
+            <code value="Patient"/> 
+          </coding> 
+        </payloadType> 
+        <payloadMimeType value="application/fhir+xml"/> 
+        <address value="https://fhirapi.mhealthaz.com/Account/Login"/> 
+      </Endpoint> 
+    </resource> 
+  </entry>
+<entry> 
+    <fullUrl value="https://fhirapi.mhealthaz.com/Account/Login"/> 
+    <resource> 
+      <Endpoint> 
+        <id value="01"/> 
+        <text> 
+          <status value="generated"/> 
+          <div xmlns="http://www.w3.org/1999/xhtml">
+			  Practitioner<br/>
+			  Address: https://fhirapi.mhealthaz.com/Practitioner?patient=
+		  </div> 
+        </text> 
+        <status value="active"/> 
+        <connectionType> 
+           <system value="http://terminology.hl7.org/CodeSystem/endpoint-connection-type"/> 
+           <code value="hl7-fhir-rest"/> 
+        </connectionType> 
+        <name value="Practitioner"/> 
+        <managingOrganization> 
+          <display value="Med A-Z"/> 
+        </managingOrganization> 
+        <!--  <method>
+          <system value="http://hl7.org/fhir/http-verb" />
+          <code value="POST" />
+        </method>  -->
+         <contact> 
+           <system value="email"/> 
+           <value value="medazhelpdesk@medaz.net"/> 
+           <use value="work"/> 
+       </contact> 
+       <period> 
+         <start value="2022-09-21"/> 
+       </period> 
+        <payloadType> 
+          <coding> 
+             <system value="http://hl7.org/fhir/resource-types" /> 
+            <code value="Practitioner"/> 
+          </coding> 
+        </payloadType> 
+        <payloadMimeType value="application/fhir+xml"/> 
+        <address value="https://fhirapi.mhealthaz.com/Account/Login"/> 
+      </Endpoint> 
+    </resource> 
+  </entry>
+<entry> 
+    <fullUrl value="https://fhirapi.mhealthaz.com/Account/Login"/> 
+    <resource> 
+      <Endpoint> 
+        <id value="01"/> 
+        <text> 
+          <status value="generated"/> 
+          <div xmlns="http://www.w3.org/1999/xhtml">
+			  Procedure<br/>
+			  Address: https://fhirapi.mhealthaz.com/Procedure?patient=
+		  </div> 
+        </text> 
+        <status value="active"/> 
+        <connectionType> 
+           <system value="http://terminology.hl7.org/CodeSystem/endpoint-connection-type"/> 
+           <code value="hl7-fhir-rest"/> 
+        </connectionType> 
+        <name value="Procedure"/> 
+        <managingOrganization> 
+          <display value="Med A-Z"/> 
+        </managingOrganization> 
+        <!--  <method>
+          <system value="http://hl7.org/fhir/http-verb" />
+          <code value="POST" />
+        </method>  -->
+         <contact> 
+           <system value="email"/> 
+           <value value="medazhelpdesk@medaz.net"/> 
+           <use value="work"/> 
+       </contact> 
+       <period> 
+         <start value="2022-09-21"/> 
+       </period> 
+        <payloadType> 
+          <coding> 
+             <system value="http://hl7.org/fhir/resource-types" /> 
+            <code value="Procedure"/> 
+          </coding> 
+        </payloadType> 
+        <payloadMimeType value="application/fhir+xml"/> 
+        <address value="https://fhirapi.mhealthaz.com/Account/Login"/> 
+      </Endpoint> 
+    </resource> 
+  </entry>
+<entry> 
+    <fullUrl value="https://fhirapi.mhealthaz.com/Account/Login"/> 
+    <resource> 
+      <Endpoint> 
+        <id value="01"/> 
+        <text> 
+          <status value="generated"/> 
+          <div xmlns="http://www.w3.org/1999/xhtml">
+			      Provenance<br/>
+			      Address: https://fhirapi.mhealthaz.com/Provenance/1
+		      </div> 
+        </text> 
+        <status value="active"/> 
+        <connectionType> 
+           <system value="http://terminology.hl7.org/CodeSystem/endpoint-connection-type"/> 
+           <code value="hl7-fhir-rest"/> 
+        </connectionType> 
+        <name value="Provenance"/> 
+        <managingOrganization> 
+          <display value="Med A-Z"/> 
+        </managingOrganization> 
+        <!--  <method>
+          <system value="http://hl7.org/fhir/http-verb" />
+          <code value="POST" />
+        </method>  -->
+         <contact> 
+           <system value="email"/> 
+           <value value="medazhelpdesk@medaz.net"/> 
+           <use value="work"/> 
+       </contact> 
+       <period> 
+         <start value="2022-09-21"/> 
+       </period> 
+        <payloadType> 
+          <coding> 
+              <system value="http://hl7.org/fhir/resource-types" /> 
+            <code value="Provenance"/> 
+          </coding> 
+        </payloadType> 
+        <payloadMimeType value="application/fhir+xml"/> 
+        <address value="https://fhirapi.mhealthaz.com/Account/Login"/> 
+      </Endpoint> 
+    </resource> 
+  </entry>
+</Bundle> 

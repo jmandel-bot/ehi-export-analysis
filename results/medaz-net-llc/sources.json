@@ -1,0 +1,60 @@
+{
+  "research_date": "2026-02-14",
+  "sources": [
+    {
+      "url": "https://medaz.com",
+      "type": "vendor-website",
+      "note": "Main company website. Overview of Med A-Z Complete with EHR, Practice Management, and Billing modules. Contact info, testimonials from KY and NY practices, pricing model (free EHR with billing service)."
+    },
+    {
+      "url": "https://medaz.com/certificationinfo.html",
+      "type": "mandatory-disclosures",
+      "note": "ONC mandatory disclosures page. Certification details, CHPL product number, brief product description, security features (MFA), data exchange standards, fee disclosures."
+    },
+    {
+      "url": "https://medaz.com/ehr.html",
+      "type": "vendor-website",
+      "note": "EHR product features page. Detailed clinical features: patient history, diagnostic templates, drug interaction checking, Framingham risk calculator, HL7 interfaces, office floor plan visualization."
+    },
+    {
+      "url": "https://medaz.com/faqs.html",
+      "type": "vendor-website",
+      "note": "FAQ page. Details on billing model (percentage of gross receipts), ISO 9001 certified billing processes, LMRP/CCI scrubbing, Surescripts Gold certification, Quest/LabCorp interfaces, chart scanning for migration."
+    },
+    {
+      "url": "https://medaz.net",
+      "type": "vendor-website",
+      "note": "Alternate domain for same vendor. Similar content to medaz.com. Founded 2002, Hamilton NJ. Three core modules: EHR, Practice Management, Billing."
+    },
+    {
+      "url": "https://medaz.net/medazcomplete.html",
+      "type": "vendor-website",
+      "note": "Med A-Z Complete product overview. Workflow from scheduling through checkout. Check-in, rooming, exam, checkout workflows. HCFA form generation, report compilation."
+    },
+    {
+      "url": "https://mhealthaz.com/ehr.html",
+      "type": "vendor-website",
+      "note": "Alternate domain with EHR features. Additional detail: certified for ambulatory and inpatient, under/over-coding detection, meaningful use features marked."
+    },
+    {
+      "url": "https://www.prnewswire.com/news-releases/med-a-z-revolutionizes-health-it-with-newly-onc-certified-product-medaz-complete-ehr-301868915.html",
+      "type": "press-release",
+      "note": "June 2023 press release on ONC Cures Act certification. KATSI subsidiary, development centers in US/Canada/Europe/India. Real-time floor plan, patient summaries, Framingham calculator, drug interaction warnings."
+    },
+    {
+      "url": "https://www.prnewswire.com/news-releases/ebm-ipa-selects-medaz-electronic-health-record-practice-management-and-billing-system-for-member-physicians-90929399.html",
+      "type": "press-release",
+      "note": "April 2010 press release. EBM IPA (NYC, 100+ physicians) selected MedAZ suite including PHR patient portal. Mentions data aggregation and quality indicator reporting. Modules called EHR Plus, Practice Plus, Billing Plus."
+    },
+    {
+      "url": "https://www.selecthub.com/p/medical-practice-management-software/medaz/",
+      "type": "third-party-review",
+      "note": "SelectHub listing for Med A-Z. Returned 403 error — could not access content. Listing exists but details unavailable."
+    },
+    {
+      "url": "https://www.medicalrecords.com/mrcbase/emr/medaz-medaz",
+      "type": "third-party-review",
+      "note": "MedicalRecords.com listing. Page loaded but only rendered JavaScript framework code — no usable product information extracted."
+    }
+  ]
+}
