@@ -228,6 +228,4 @@ Capture whatever is distinctive about this product.
   guessing.
 - **Be efficient.** This is reconnaissance, not a deep investigation. Get the
   lay of the land and move on.
-- **Subagents** can parallelize work. If you use them, tell each subagent to
-  write its output to a specific file. **Don't message a subagent after launching
-  it** — that interrupts its work. Instead, wait for its output file to appear.
+- **Use subagents** if you have them — e.g., research multiple products in parallel.
