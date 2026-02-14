@@ -4,42 +4,24 @@
     "name": "Comprehensive EHRs",
     "slug": "comprehensive-ehrs",
     "file": "phase-1-comprehensive-ehrs.json",
-    "description": "CPOE + FHIR API (g)(10), no additional software for b(10). Full-featured EHRs with their own EHI export.",
-    "product_count": 233,
-    "url_count": 198
+    "description": "CPOE + FHIR API (g)(10). Full-featured EHRs with order entry and standards-based API access.",
+    "product_count": 265,
+    "url_count": 207
   },
   {
     "phase": 2,
     "name": "CPOE systems without FHIR API",
     "slug": "cpoe-no-fhir",
     "file": "phase-2-cpoe-no-fhir.json",
-    "description": "CPOE certified but no (g)(10), no additional software for b(10). EHRs with order entry that handle their own EHI export.",
-    "product_count": 91,
-    "url_count": 77
+    "description": "CPOE certified but no (g)(10). EHRs with order entry but no standardized FHIR API.",
+    "product_count": 113,
+    "url_count": 87
   },
   {
     "phase": 3,
-    "name": "Comprehensive EHRs (additional software)",
-    "slug": "comprehensive-addl-sw",
-    "file": "phase-3-comprehensive-addl-sw.json",
-    "description": "CPOE + (g)(10) but b(10) requires additional software. Full EHRs that rely on another product for EHI export.",
-    "product_count": 32,
-    "url_count": 10
-  },
-  {
-    "phase": 4,
-    "name": "CPOE systems (additional software)",
-    "slug": "cpoe-addl-sw",
-    "file": "phase-4-cpoe-addl-sw.json",
-    "description": "CPOE but b(10) requires additional software.",
-    "product_count": 22,
-    "url_count": 10
-  },
-  {
-    "phase": 5,
     "name": "Other certified products",
     "slug": "other",
-    "file": "phase-5-other.json",
+    "file": "phase-3-other.json",
     "description": "Everything else: no CPOE. Patient portals, lab systems, specialty modules, minimal certifications.",
     "product_count": 258,
     "url_count": 177

@@ -35,43 +35,21 @@ PHASES = [
     {
         'name': 'Comprehensive EHRs',
         'slug': 'comprehensive-ehrs',
-        'description': 'CPOE + FHIR API (g)(10), no additional software for b(10). '
-                       'Full-featured EHRs with their own EHI export.',
+        'description': 'CPOE + FHIR API (g)(10). Full-featured EHRs with order '
+                       'entry and standards-based API access.',
         'filter': lambda p: (
             has_any(p['criteria'], CPOE) and
-            has_any(p['criteria'], G10) and
-            not p['has_addl_software']
+            has_any(p['criteria'], G10)
         ),
     },
     {
         'name': 'CPOE systems without FHIR API',
         'slug': 'cpoe-no-fhir',
-        'description': 'CPOE certified but no (g)(10), no additional software for b(10). '
-                       'EHRs with order entry that handle their own EHI export.',
+        'description': 'CPOE certified but no (g)(10). EHRs with order entry '
+                       'but no standardized FHIR API.',
         'filter': lambda p: (
             has_any(p['criteria'], CPOE) and
-            not has_any(p['criteria'], G10) and
-            not p['has_addl_software']
-        ),
-    },
-    {
-        'name': 'Comprehensive EHRs (additional software)',
-        'slug': 'comprehensive-addl-sw',
-        'description': 'CPOE + (g)(10) but b(10) requires additional software. '
-                       'Full EHRs that rely on another product for EHI export.',
-        'filter': lambda p: (
-            has_any(p['criteria'], CPOE) and
-            has_any(p['criteria'], G10) and
-            p['has_addl_software']
-        ),
-    },
-    {
-        'name': 'CPOE systems (additional software)',
-        'slug': 'cpoe-addl-sw',
-        'description': 'CPOE but b(10) requires additional software.',
-        'filter': lambda p: (
-            has_any(p['criteria'], CPOE) and
-            p['has_addl_software']
+            not has_any(p['criteria'], G10)
         ),
     },
     {
@@ -142,14 +120,25 @@ def group_by_url(products, url_index_map):
 
     targets = []
     for url, prods in sorted(by_url.items(), key=lambda x: -len(x[1])):
-        targets.append({
+        # Collect additional software across all products at this URL
+        addl_sw = set()
+        for p in prods:
+            for a in p.get('additional_software', []):
+                if a['name']:
+                    addl_sw.add(a['name'])
+
+        entry = {
             'url': url,
             'developers': sorted(set(p['developer'] for p in prods)),
             'products': sorted(set(p['product'] for p in prods)),
             'chpl_ids': sorted(set(p['id'] for p in prods)),
             'product_count': len(prods),
             'original_index': url_index_map.get(url),
-        })
+        }
+        if addl_sw:
+            entry['b10_additional_software'] = sorted(addl_sw)
+
+        targets.append(entry)
 
     return targets
 

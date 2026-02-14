@@ -45,7 +45,16 @@
       10995
     ],
     "product_count": 24,
-    "original_index": 0
+    "original_index": 0,
+    "b10_additional_software": [
+      "MEDITECH 6.0 Electronic Health Record Core HCIS",
+      "MEDITECH 6.1 Electronic Health Record Core HCIS",
+      "MEDITECH Client/Server Electronic Health Record Core HCIS",
+      "MEDITECH Continuity of Care Interface (CCD)",
+      "MEDITECH Expanse 2.1 Core HCIS",
+      "MEDITECH Expanse 2.2 Core HCIS",
+      "MEDITECH MAGIC Electronic Health Record Core HCIS"
+    ]
   },
   {
     "url": "https://open.epic.com/EHITables",
@@ -72,7 +81,11 @@
       11713
     ],
     "product_count": 12,
-    "original_index": 1
+    "original_index": 1,
+    "b10_additional_software": [
+      "EpicCare Ambulatory Base",
+      "EpicCare Inpatient Base"
+    ]
   },
   {
     "url": "https://www.oracle.com/health/regulatory/certified-health-it/",
@@ -95,7 +108,10 @@
       11674
     ],
     "product_count": 7,
-    "original_index": 3
+    "original_index": 3,
+    "b10_additional_software": [
+      "Oracle Health Millennium Platform"
+    ]
   },
   {
     "url": "https://www.softcomputer.com/regulatory-affairs/ehi-export/",
@@ -188,7 +204,11 @@
       11758
     ],
     "product_count": 4,
-    "original_index": 6
+    "original_index": 6,
+    "b10_additional_software": [
+      "Enhanced Bundle Extension",
+      "Role-Based Access Control Extension"
+    ]
   },
   {
     "url": "https://www.junohealth.com/ehiexport",
@@ -276,7 +296,13 @@
       11582
     ],
     "product_count": 2,
-    "original_index": 5
+    "original_index": 5,
+    "b10_additional_software": [
+      "MD Office",
+      "Management Plus",
+      "Medflow",
+      "My Vision Express"
+    ]
   },
   {
     "url": "https://www.medsphere.com/certifications/",
@@ -308,7 +334,12 @@
       11518
     ],
     "product_count": 2,
-    "original_index": 9
+    "original_index": 9,
+    "b10_additional_software": [
+      "myAvatar",
+      "myEvolv",
+      "myUnity"
+    ]
   },
   {
     "url": "https://help.updox.com/help/tools-account-administration",
@@ -355,7 +386,11 @@
       11715
     ],
     "product_count": 2,
-    "original_index": 37
+    "original_index": 37,
+    "b10_additional_software": [
+      "Intergy EHR",
+      "Prime Suite"
+    ]
   },
   {
     "url": "https://www.intersystems.com/healthcare-standards-certifications/",
@@ -370,7 +405,17 @@
       11639
     ],
     "product_count": 2,
-    "original_index": 44
+    "original_index": 44,
+    "b10_additional_software": [
+      "EpicCare Ambulatory Base",
+      "EpicCare Inpatient Base",
+      "InterSystems Unified Care Record",
+      "Millennium (Clinical)",
+      "Soarian Clinicals",
+      "athenaClinicals",
+      "athenaFlow",
+      "athenaPractice"
+    ]
   },
   {
     "url": "https://www.oracle.com/health/regulatory/certified-health-it/#ehi-export-lnk",
@@ -418,7 +463,10 @@
       11401
     ],
     "product_count": 2,
-    "original_index": 4
+    "original_index": 4,
+    "b10_additional_software": [
+      "Altera Digital Health Touchworks EHR"
+    ]
   },
   {
     "url": "https://www.wolterskluwer.com/en/solutions/solesource/onc-b10-documentation",
@@ -450,7 +498,10 @@
       10726
     ],
     "product_count": 2,
-    "original_index": 55
+    "original_index": 55,
+    "b10_additional_software": [
+      "Darena Health"
+    ]
   },
   {
     "url": "https://developer.chbase.com/EHIExport",
@@ -594,7 +645,11 @@
       9663
     ],
     "product_count": 1,
-    "original_index": 82
+    "original_index": 82,
+    "b10_additional_software": [
+      "athenaFlow",
+      "athenaPractice"
+    ]
   },
   {
     "url": "https://www.itreatmd.com/ONC-Certification",
@@ -720,7 +775,12 @@
       11343
     ],
     "product_count": 1,
-    "original_index": 99
+    "original_index": 99,
+    "b10_additional_software": [
+      "CGM CLINICAL",
+      "CGM ENTERPRISE EHR",
+      "CGM eMDs"
+    ]
   },
   {
     "url": "https://www.figmd.com/pdf/ONC_Certification_Disclosures_and_Costs_21-May-2025.pdf",
@@ -804,7 +864,11 @@
       11216
     ],
     "product_count": 1,
-    "original_index": 118
+    "original_index": 118,
+    "b10_additional_software": [
+      "CareLogic",
+      "Credible Behavioral Health"
+    ]
   },
   {
     "url": "https://www.healthadvanta.com/disclosure/",
@@ -1056,7 +1120,10 @@
       11592
     ],
     "product_count": 1,
-    "original_index": 189
+    "original_index": 189,
+    "b10_additional_software": [
+      "Microsoft SQL Server"
+    ]
   },
   {
     "url": "https://homehealthmd.com/export.aspx",
@@ -1280,7 +1347,10 @@
       11640
     ],
     "product_count": 1,
-    "original_index": 30
+    "original_index": 30,
+    "b10_additional_software": [
+      "OncoEMR"
+    ]
   },
   {
     "url": "https://dlslab.com/health-it-certification/ehi-export/",
@@ -1560,7 +1630,10 @@
       11727
     ],
     "product_count": 1,
-    "original_index": 22
+    "original_index": 22,
+    "b10_additional_software": [
+      "Intergy EHR"
+    ]
   },
   {
     "url": "https://minglehealth.com/ecqm-ehi-export-format/",
@@ -1714,7 +1787,10 @@
       11741
     ],
     "product_count": 1,
-    "original_index": 269
+    "original_index": 269,
+    "b10_additional_software": [
+      "Initiate enterprise master patient index (EMPI)"
+    ]
   },
   {
     "url": "https://www.kipuhealth.com/wp-content/uploads/2025/12/ONC_EHI_Export_Documentation_v1.1.pdf",
