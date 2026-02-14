@@ -1,0 +1,43 @@
+{
+  "collection_date": "2026-02-14",
+  "url": "https://www.eyemdemr.com/compliance/fhir/",
+  "final_url": "https://www.eyemdemr.com/fhir/",
+  "access_status": "found",
+  "files": [
+    {
+      "path": "downloads/eyemd-fhir-api-postman-collection.json",
+      "source_url": "https://documenter.gw.postman.com/api/collections/11861301/TVewYPfd?segregateAuth=true&versionTag=latest",
+      "size_bytes": 3993578,
+      "description": "Complete Postman collection for the EyeMD EMR FHIR API. Contains all endpoint definitions, parameter tables, USCDI v3 mappings, setup instructions with embedded screenshots, terms of use, authentication documentation, and the Export (Bulk Data) endpoints. This is the vendor's sole EHI export documentation — it is actually their (g)(10) FHIR API documentation repackaged.",
+      "curl_command": "curl -s 'https://documenter.gw.postman.com/api/collections/11861301/TVewYPfd?segregateAuth=true&versionTag=latest' -H 'Accept: application/json' -o eyemd-fhir-api-postman-collection.json"
+    },
+    {
+      "path": "downloads/mandatorydisclosures.pdf",
+      "source_url": "https://www.eyemdemr.com/mandatorydisclosures.pdf",
+      "size_bytes": 102984,
+      "description": "ONC Costs and Considerations mandatory disclosures (1 page PDF). Lists certified capabilities with associated costs. Notably describes 170.315(b)(12,10,11) collectively as 'Ability to send CCDA information to other systems via secure transmission', conflating the EHI export requirement with CCDA transitions of care.",
+      "curl_command": "curl -sL 'https://www.eyemdemr.com/mandatorydisclosures.pdf' -H 'User-Agent: Mozilla/5.0' -o mandatorydisclosures.pdf"
+    },
+    {
+      "path": "downloads/fhir-endpoints-bundle.json",
+      "source_url": "https://smartonfhir.myeyecarerecords.com/fhir/Endpoint?_format=application/fhir+json&status=active&_count=1000",
+      "size_bytes": 31672,
+      "description": "FHIR Bundle containing 37 active Endpoint resources representing production customer instances. Each endpoint includes custom extensions for environment type and EMR version. Demonstrates the live FHIR infrastructure.",
+      "curl_command": "curl -s 'https://smartonfhir.myeyecarerecords.com/fhir/Endpoint?_format=application/fhir+json&status=active&_count=1000' -H 'Accept: application/fhir+json' -o fhir-endpoints-bundle.json"
+    },
+    {
+      "path": "downloads/screenshot-fhir-resource-center.png",
+      "source_url": "https://www.eyemdemr.com/fhir/",
+      "size_bytes": 217007,
+      "description": "Full-page screenshot of the FHIR Resource Center page at the registered URL (after redirect from /compliance/fhir/ to /fhir/). Shows the minimal landing page with links to API Documentation and Application Registration.",
+      "curl_command": null
+    },
+    {
+      "path": "downloads/screenshot-postman-api-docs.png",
+      "source_url": "https://documenter.getpostman.com/view/11861301/TVewYPfd",
+      "size_bytes": 216876,
+      "description": "Screenshot of the Postman API documentation page showing the rendered version of the FHIR API documentation collection.",
+      "curl_command": null
+    }
+  ]
+}

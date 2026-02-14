@@ -1,0 +1,65 @@
+{
+  "research_date": "2026-02-14",
+  "sources": [
+    {
+      "url": "https://www.eyemdemr.com",
+      "type": "vendor-website",
+      "note": "Main website. Product overview with EMR, PM, imaging, Axon patient engagement, optical shop, and RCM modules. Claims ~20% ophthalmology EMR market share, 98% retention. Founded 2009, Bonita Springs FL."
+    },
+    {
+      "url": "https://www.eyemdemr.com/mips/",
+      "type": "mandatory-disclosures",
+      "note": "MACRA/MIPS compliance page. References ONC certification, CQM reporting via Verana Health, real-world test plans 2022-2025. Confirms 2024 Best in KLAS award."
+    },
+    {
+      "url": "https://www.eyemdemr.com/solutions/emr/",
+      "type": "vendor-website",
+      "note": "EMR solution page. Limited specific clinical feature details; mentions customizable templates, advanced charting, ophthalmology-specific features, customizable clinical verbiage and treatment plans."
+    },
+    {
+      "url": "https://www.eyemdemr.com/solutions/practice-management/",
+      "type": "vendor-website",
+      "note": "PM solution page. Scheduling, claim tracking via embedded clearinghouse, automated claim follow-up, patient responsibility estimation, online payments, insurance card OCR, business intelligence dashboard. Integrates with 80+ external PM systems."
+    },
+    {
+      "url": "https://www.eyemdemr.com/solutions/axon/",
+      "type": "vendor-website",
+      "note": "Axon patient engagement page. Described as 3rd generation system with digital intake and patient reminders. Limited detail on page itself."
+    },
+    {
+      "url": "https://www.eyemdemr.com/solutions/image-management/",
+      "type": "vendor-website",
+      "note": "Image management page. Supports B-scan, fundus camera, HRT, ICG, ICGA, OCT, autofluorescence. Integrates with Zeiss, iCare, iTrace, Heidelberg, Topcon, Oculus. DICOM and proprietary integrations. Edge computing for local rendering."
+    },
+    {
+      "url": "https://www.eyemdemr.com/solutions/optical-shop/",
+      "type": "vendor-website",
+      "note": "Optical shop page (via FlexSys partnership). POS, lab order management, barcoding, inventory control, prescription transmission from EMR to optical shop."
+    },
+    {
+      "url": "https://www.eyemdemr.com/about/",
+      "type": "vendor-website",
+      "note": "About page. Bootstrapped in 2009, ~20% market share, 98% retention, 3x Inc. 5000 honoree. Developed in collaboration with practicing ophthalmologist. HQ in Bonita Springs, FL."
+    },
+    {
+      "url": "https://www.eyemdemr.com/2024-best-in-klas-ophthalmology-emr/",
+      "type": "vendor-website",
+      "note": "2024 Best in KLAS award announcement. Satisfaction corroborated by KLAS, AAO/AAOE, ASCRS/ASOA surveys. Mentions AbillifEye RCM service."
+    },
+    {
+      "url": "https://www.eyemdemr.com/compliance/fhir/",
+      "type": "vendor-website",
+      "note": "FHIR resource center. Links to API documentation at fhir.myeyecarerecords.com/api and FHIR app registration. Gateway page with limited detail."
+    },
+    {
+      "url": "https://www.emrsystems.net/eyemd-emr-software/",
+      "type": "third-party-review",
+      "note": "Third-party review site. Mentions DICOM imaging, HL7 PM integration, FlexSys optical partnership, auto E&M coding, visit summary with abnormal alerts, side-by-side visit comparison. Handles patient history, optical orders, prescriptions, diagnostic imaging, lab orders, financial reporting."
+    },
+    {
+      "url": "https://glance.eyesoneyecare.com/stories/2024-11-06/eyemd-emr-s-patient-engagement-system-targets-workflow-efficiency/",
+      "type": "third-party-review",
+      "note": "Eyes on Eyecare article on Axon. Details three components: Connect (messaging, reminders, medication adherence, marketing), Captured (digital intake via QR, insurance/medical info, digital consent, terminology translation), Converse (two-way HIPAA-compliant messaging). Patients can review clinical info and images."
+    }
+  ]
+}
