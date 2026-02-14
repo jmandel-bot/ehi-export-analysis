@@ -131,7 +131,13 @@ Some examples of data domains to look for (adapt to the product):
 
 ## Output
 
-Write `{{OUTPUT_DIR}}/product-research.md`:
+Two files: a narrative report and a source manifest.
+
+### `{{OUTPUT_DIR}}/product-research.md`
+
+This is the primary deliverable — a narrative research report thorough enough
+that someone could later create structured summaries without going back to the
+original sources.
 
 ```markdown
 # {{Vendor Name}} — Product Research
@@ -141,22 +147,16 @@ Developer website: {{url}}
 
 ## Overview
 (1-2 paragraphs: who is this vendor, what do they make, who are their customers.
-how are they situated in the market — size, specialty, geography, customer base)
-
-## Key Sources
-(list the URLs you actually visited during research, with a brief note on what
-each contained. this is a bibliography for the research, not just a link dump)
-- https://www.vendor.com/ — main site, product overview and feature list
-- https://www.vendor.com/compliance/onc/ — mandatory disclosures, certification details
-- https://www.g2.com/products/vendorproduct — third-party reviews, user feedback
-- ...
+how are they situated in the market — size, specialty, geography, customer base.
+include acquisition history, rebranding, parent companies if relevant.)
 
 ## Product: {{Product Name A}}
 
 CHPL IDs: ...
 
 ### What It Is
-(what the product is, who uses it, key capabilities)
+(what the product is, who uses it, key capabilities. is the certified module
+the whole product or part of something larger?)
 
 ### Users & Market
 (who uses this product day-to-day? what settings? how many customers?
@@ -164,7 +164,11 @@ any notable deployments or case studies?)
 
 ### Data It Likely Stores
 (what kinds of data this product would have, based on your research.
-be specific where you can, honest about uncertainty where you can't)
+be specific where you can, honest about uncertainty where you can't.
+this section is critical — it's what we'll later compare against the
+EHI export to assess completeness. think through every data domain:
+clinical, administrative, financial, operational, patient-generated.
+for specialty products, think about what's unique to that specialty.)
 
 ### Notable Features Relevant to EHI
 (patient portal? messaging? billing? custom forms? anything that implies
@@ -180,46 +184,34 @@ Group products by distinct platform, not by CHPL version number. MEDITECH
 Expanse 2.1 and 2.2 are the same product. MEDITECH Expanse and MEDITECH MAGIC
 are different products.
 
-Also write `{{OUTPUT_DIR}}/product-research.json`:
+### `{{OUTPUT_DIR}}/sources.json`
+
+A manifest of everything you reviewed during research:
 
 ```json
 {
-  "vendor": "Vendor Name",
-  "developer_website": "https://...",
   "research_date": "2025-07-14",
-  "products": [
-    {
-      "name": "Product Name (platform level, e.g. 'MEDITECH Expanse')",
-      "chpl_ids": [12345, 12346],
-      "type": "full-ehr|specialty-ehr|patient-portal|lab-system|billing-system|middleware|other",
-      "target_market": "hospital|ambulatory|behavioral-health|long-term-care|dental|multi-specialty|other",
-      "description": "Brief description",
-      "data_domains": [
-        "clinical-records",
-        "patient-portal",
-        "billing-claims",
-        "scheduling"
-      ],
-      "broader_product_name": "athenaOne (if the certified module is part of something larger)",
-      "notes": "anything else relevant"
-    }
-  ],
   "sources": [
-    {"url": "https://www.vendor.com/product", "note": "main product page with feature list"},
-    {"url": "https://www.vendor.com/compliance", "note": "ONC mandatory disclosures"},
-    {"url": "https://www.g2.com/products/...", "note": "user reviews"}
-  ],
-  "notes": "vendor-level notes (e.g., recently acquired by X, product formerly known as Y)"
+    {
+      "url": "https://www.vendor.com/product",
+      "type": "vendor-website",
+      "note": "main product page — feature list, screenshots, pricing tiers"
+    },
+    {
+      "url": "https://www.vendor.com/compliance",
+      "type": "mandatory-disclosures",
+      "note": "ONC disclosures — confirms product modules, lists certified criteria"
+    },
+    {
+      "url": "https://www.g2.com/products/...",
+      "type": "third-party-review",
+      "note": "user reviews — 4.2/5, 200 reviews, common praise for scheduling"
+    }
+  ]
 }
 ```
 
-**`data_domains`** is a freeform list of strings describing what data the product
-stores. Use whatever labels make sense for the product. For a general EHR these
-might include things like `"clinical-records"`, `"patient-portal"`, `"messaging"`,
-`"billing-claims"`, `"scheduling"`, `"document-management"`. For a specialty
-product they might be `"ophthalmology-imaging"`, `"dental-charting"`,
-`"behavioral-health-assessments"`, `"mds-assessments"`, `"specimen-tracking"`.
-Capture whatever is distinctive about this product.
+Keep it simple — just URL, type, and a brief note on what you found there.
 
 ## Mindset
 

@@ -38,8 +38,8 @@ MAX_CONCURRENT=3 # env var, default 2 for both, 3 for single
 
 ### 3. Per-target output (in `results/<slug>/`)
 - `chpl-metadata.json` — CHPL certification data (copied from work/target-metadata/)
-- `product-research.md` + `product-research.json` — Phase 1 output
-- `collection-log.md` + `download-manifest.json` — Phase 2 output
+- `product-research.md` + `sources.json` — Phase 1 output
+- `ehi-export-report.md` + `files.json` — Phase 2 output (includes coverage assessment)
 - `downloads/` — actual downloaded documentation files
 - `phase1-log.txt`, `phase2-log.txt` — agent conversation logs
 
@@ -54,13 +54,15 @@ MAX_CONCURRENT=3 # env var, default 2 for both, 3 for single
 ## Phase Design
 
 - **Phase 1 (research):** Investigate vendor website, product features, market
-  position, data domains. Output: `product-research.md` + `.json`
-  Completion marker: `product-research.json`
+  position, data domains. Narrative report focused on what data the product
+  stores. Output: `product-research.md` + `sources.json`
+  Completion marker: `sources.json`
 
-- **Phase 2 (download):** Navigate to registered URL, find and download EHI
-  export docs. The prompt tells the agent to read `product-research.md` first
-  for context from Phase 1. Output: `collection-log.md` + `download-manifest.json`
-  Completion marker: `download-manifest.json`
+- **Phase 2 (download + analysis):** Navigate to registered URL, find and
+  download EHI export docs. Then compare what was found against the product
+  research — what data domains are covered, what's missing, what's ambiguous.
+  Output: `ehi-export-report.md` + `files.json`
+  Completion marker: `files.json`
 
 - `--phase both` runs them sequentially per target (phase 1 finishes, then
   phase 2 starts for same target). Two separate agent conversations, but

@@ -202,10 +202,19 @@ tables? Export instructions? A schema diagram? This context helps Phase 3.
 
 ## Output
 
-Write `{{OUTPUT_DIR}}/collection-log.md`:
+Two files: a narrative report and a file manifest.
+
+### `{{OUTPUT_DIR}}/ehi-export-report.md`
+
+This is the primary deliverable. It combines the collection journal, analysis
+of what was found, and a coverage assessment informed by the product research.
+
+**Start by reading `{{OUTPUT_DIR}}/product-research.md`** if it exists. The
+product research tells you what data this product stores. As you examine the
+export documentation, think about what's covered and what's missing.
 
 ```markdown
-# {{Vendor Name}} — EHI Export Documentation Collection
+# {{Vendor Name}} — EHI Export Documentation
 
 Collected: {{date}}
 
@@ -214,69 +223,66 @@ Collected: {{date}}
 - CHPL IDs: ...
 
 ## Navigation Journal
+(How you found and accessed the documentation. Be reproducible — include
+curl commands, clicks, expanded accordions. Someone should be able to
+follow your steps and get the same files.)
 
-### Step 1: Initial probe
-(curl command and result — status codes, redirects, content-type)
+## What Was Found
+(Describe what the export documentation says. What format is the export?
+What data does it include? Is there a data dictionary, schema, API spec?
+How detailed is it? Summarize the substance — don't just list filenames,
+explain what the documentation tells you about the export.)
 
-### Step 2: Page examination  
-(what the page looks like, size, SPA vs static, content summary)
+## Export Coverage Assessment
+(This is the most important section. Compare what you found in the export
+documentation against what the product research says this product stores.
 
-### Step 3: Finding the EHI section
-(how you navigated to the actual documentation)
+- What data domains are clearly covered by the export?
+- What data domains appear to be missing or not mentioned?
+- Is the export format appropriate for the data? (e.g., a FHIR IPS bundle
+  for a product that stores radiation therapy delivery records is a red flag)
+- Does the documentation describe a bulk export of everything, or a narrow
+  subset like a patient summary?
+- Are there ambiguities — data domains where you can't tell if they're
+  included or not?
 
-### Step N: ...
-(continue as needed)
-
-## Downloads
-
-### filename.pdf (684 KB)
-```bash
-curl -L -H 'User-Agent: Mozilla/5.0' -o filename.pdf 'https://...'
-```
-Verified: PDF document, 142 pages
-Saved to: downloads/filename.pdf
-Content: Data dictionary covering 261 tables
-
-### another-file.zip (2.3 MB)
-...
+Be specific. Don't just say "some data is missing" — name the domains.
+This analysis is why we did the product research first.)
 
 ## Access Summary
 - Final URL (after redirects): ...
 - Status: found | dead | redirect_to_homepage | login_required
 - Required browser: yes/no
-- Navigation complexity: direct_link | one_click | accordion | multi_page | spa_navigation
+- Navigation complexity: direct_link | one_click | accordion | multi_page
 - Anti-bot issues: none | user-agent required | cloudflare | etc.
 
 ## Obstacles & Dead Ends
 (anything that didn't work, special headers needed, etc.)
 ```
 
-Also write `{{OUTPUT_DIR}}/download-manifest.json`:
+### `{{OUTPUT_DIR}}/files.json`
+
+A manifest of everything you downloaded:
 
 ```json
 {
-  "url": "{{URL}}",
-  "final_url": "https://... (after redirects)",
   "collection_date": "2025-07-14",
-  "access_status": "found|dead|redirect_to_homepage|login_required|error",
-  "requires_browser": false,
-  "navigation_complexity": "direct_link|one_click|accordion|multi_page|spa_navigation",
+  "url": "{{URL}}",
+  "final_url": "https://...",
+  "access_status": "found|dead|redirect_to_homepage|login_required",
   "files": [
     {
-      "local_path": "downloads/filename.pdf",
+      "path": "downloads/filename.pdf",
       "source_url": "https://...",
       "size_bytes": 12345,
-      "type": "pdf",
-      "description": "EHI Export Data Dictionary",
+      "description": "Data dictionary covering 261 tables",
       "curl_command": "curl -L -H 'User-Agent: Mozilla/5.0' -o filename.pdf 'https://...'"
     }
-  ],
-  // Include ALL files you saved, including screenshots of 404 pages,
-  // login walls, or other evidence. These are useful documentation too.
-  // An empty files array means you saved nothing at all.
-  "notes": "anything notable about the collection process"
+  ]
 }
 ```
+
+Include everything you saved: docs, screenshots, evidence of dead pages.
 
 ## Mindset
 
