@@ -257,7 +257,7 @@ launch_one() {
 
   # Launch LLM in background
   local log_prefix="phase${PHASE}"
-  if [[ -f "$CONFIG_DIR/log-handler.py" ]]; then
+  if [[ "$LLM_BACKEND" == "claude" && -f "$CONFIG_DIR/log-handler.py" ]]; then
     run_llm "$ROOT" <<< "$prompt" \
       2>&1 | tee "$output_dir/${log_prefix}-stream.jsonl" \
       | python3 -u "$CONFIG_DIR/log-handler.py" \
