@@ -1083,3 +1083,51 @@ Now let me write the report and manifest:
 {
   "command": "cd /home/exedev/ehi-export-analysis && git add results/pce-systems/ && git commit -m \"PCE Systems: EHI export documentation collection\n\nDownloaded from https://www.pcesystems.com/g10APIInfo.html:\n- b10_documentation.pdf: 3-page (b)(10) export format spec (NDJSON in ZIP)\n- PIX_9_4_API_Documentation.pdf: 87-page (g)(10) FHIR API docs\n- capability-statement.json: FHIR CapabilityStatement from production endpoint\n- Landing page HTML and screenshot\n\nKey finding: PCE has a purpose-built (b)(10) export (not repackaged FHIR)\nusing self-describing NDJSON+JSON schema format. However, the actual data\ndictionary is embedded in the export artifact (documentation.json), not\npublished publicly. The 3-page doc describes only the container format.\""
 }
+[RESULT: [main a80ea4fe] PCE Systems: EHI export documentation collection
+ Committer: exe.dev user <exedev@ehi-research.exe.xyz>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly:
+
+    git config --global user.name "Your Name"
+    git config --global user.email you@example.com
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 10 files changed, 3837 insertions(+)
+ create mode 100644 results/pce-systems/chpl-metadata.json
+ create mode 100644 results/pce-systems/downloads/PIX_9_4_API_Documentation.pdf
+ create mode 100644 results/pce-systems/downloads/b10_documentation.pdf
+ create mode 100644 results/pce-systems/downloads/capability-statement.json
+ create mode 100644 results/pce-systems/downloads/g10APIInfo.html
+ create mode 100644 results/pce-systems/downloads/landing-page-screenshot.png
+ create mode 100644 results/pce-systems/ehi-export-report.md
+ create mode 100644 results/pce-systems/files.json
+ create mode 100644 results/pce-systems/phase1-log.txt
+ create mode 100644 results/pce-systems/phase2-log.txt
+]
+Done. Here's a summary of what was collected:
+
+## Collection Summary
+
+**5 files downloaded** from PCE Systems' documentation page:
+
+| File | Size | Description |
+|------|------|-------------|
+| `b10_documentation.pdf` | 870 KB | **(Primary)** 3-page (b)(10) EHI export format spec |
+| `PIX_9_4_API_Documentation.pdf` | 1.8 MB | 87-page (g)(10) FHIR API documentation |
+| `capability-statement.json` | 42 KB | FHIR CapabilityStatement (machine-readable) |
+| `g10APIInfo.html` | 2 KB | Landing page HTML |
+| `landing-page-screenshot.png` | 56 KB | Screenshot of landing page |
+
+**Key findings:**
+
+1. **PCE built a proper (b)(10) export** — not a repackaged FHIR API. The export produces password-protected ZIPs with NDJSON data files, a self-describing `documentation.json` schema, and a `Files/` directory for non-computable content (scans, PDFs).
+
+2. **The data dictionary is hidden inside the export itself.** The public documentation describes only the container format — not what resources or fields are actually exported. The `documentation.json` file embedded in each export ZIP contains the real schema. This is technically clever (schema always matches data) but makes public assessment of completeness impossible.
+
+3. **The (b)(10) doc is only 3 pages.** No sample data, no user instructions, no resource enumeration. The 87-page API doc is far more detailed but covers the (g)(10) FHIR API, which is a different system.
+
+4. **Navigation was trivial** — clean static HTML page, two clearly labeled PDF links, no anti-bot measures.
