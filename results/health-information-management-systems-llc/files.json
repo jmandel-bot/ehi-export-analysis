@@ -1,0 +1,22 @@
+{
+  "collection_date": "2026-02-14",
+  "url": "https://axiomehr.com/ehiexport/",
+  "final_url": "https://axiomehr.com/ehiexport/",
+  "access_status": "found",
+  "files": [
+    {
+      "path": "downloads/Axiom-EHI-Export-Instructions.pdf",
+      "source_url": "https://axiomehr.com/wp-content/uploads/2024/05/Axiom-EHI-Export-Instructions.pdf",
+      "size_bytes": 187728,
+      "description": "The sole EHI export documentation: a 4-page PDF with basic step-by-step instructions for performing single-patient and bulk population EHI exports from Axiom. Contains screenshots of the export interface but no data dictionary, format specification, or schema. Created 2026-01-30 by Khalid Maskari.",
+      "curl_command": "curl -sL 'https://axiomehr.com/wp-content/uploads/2024/05/Axiom-EHI-Export-Instructions.pdf' -H 'User-Agent: Mozilla/5.0' -o Axiom-EHI-Export-Instructions.pdf"
+    },
+    {
+      "path": "downloads/screenshot-ehi-export-page.png",
+      "source_url": "https://axiomehr.com/ehiexport/",
+      "size_bytes": 174638,
+      "description": "Full-page screenshot of the EHI Export Instructions web page at axiomehr.com/ehiexport/. Shows a simple page with a purple hero banner, heading, and a single 'Download PDF' button — no additional content.",
+      "curl_command": null
+    }
+  ]
+}

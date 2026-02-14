@@ -1,0 +1,80 @@
+{
+  "research_date": "2026-02-14",
+  "sources": [
+    {
+      "url": "https://axiomehr.com/",
+      "type": "vendor-website",
+      "note": "Main website; heavily JS-rendered so limited content extractable. Identifies Axiom as 'Leading EHR Software for Behavioral Health'."
+    },
+    {
+      "url": "https://www.prnewswire.com/news-releases/all-new-ai-powered-ehr-software-from-health-information-management-systems-redefines-integrated-health-care-302093842.html",
+      "type": "press-release",
+      "note": "March 2024 press release announcing AI-powered AxiomEHR. Details AI features, pilot results (2hrs/day savings, 23% more accurate billing codes), product modules, and ChangePoint Integrated Health as customer."
+    },
+    {
+      "url": "https://www.ehrinpractice.com/axiom-integrated-ehr.html",
+      "type": "third-party-listing",
+      "note": "Third-party EHR directory listing. Details cloud-based deployment, behavioral health focus, key features including EVV, foster care/DD support, telehealth, e-prescribing, labs. Notes target of 11+ physician practices."
+    },
+    {
+      "url": "https://softwarefinder.com/emr-software/axiom-ehr",
+      "type": "third-party-listing",
+      "note": "Software listing with pricing ($50/user/month for 1-10 users, $30/user for 100-1000). Lists target users: behavioral health clinics, addiction treatment, foster care, FQHCs. Notes MedTech Breakthrough Award."
+    },
+    {
+      "url": "https://www.capterra.com/p/194258/Axiom-EHR/",
+      "type": "third-party-review",
+      "note": "Capterra listing for Axiom EHR. Page returned 403; limited information available from search snippet showing verified reviews exist."
+    },
+    {
+      "url": "https://www.gpec.org/blog/meet-health-information-management-system-arizona-software-company-elevating-healthcare/",
+      "type": "third-party-profile",
+      "note": "GPEC (Greater Phoenix Economic Council) profile. Company background: Phoenix and Tucson offices, cloud-based architecture, 100% customer retention in 2019, rapid COVID-19 telehealth deployment."
+    },
+    {
+      "url": "https://innovationsoftheworld.com/hims/",
+      "type": "third-party-profile",
+      "note": "Company profile. Founded 2014 by Khalid Al-Maskari, former IT consultant for behavioral health org. Subscription model, bi-monthly updates, custom form builder as differentiator."
+    },
+    {
+      "url": "https://www.healthcareitnews.com/news/weaving-zoom-workflow-and-updating-ehr-saves-clinic-during-covid-19",
+      "type": "case-study",
+      "note": "Healthcare IT News article about COPE Community Services (Tucson). Details Axiom's cloud-based code updates, Zoom telehealth integration, automated billing from telehealth sessions, HCPCS/CPT code management."
+    },
+    {
+      "url": "https://axiomehr.com/wp-content/uploads/2024/05/AxiomEHR_SAM_Case-Study-May-2024.pdf",
+      "type": "case-study",
+      "note": "SAM (Service Access & Management) case study PDF. Could not extract content (binary PDF). SAM implemented Axiom in 2022 with role-based customization."
+    },
+    {
+      "url": "https://axiomehr.com/axiom-ehr-software/",
+      "type": "vendor-website",
+      "note": "Axiom EHR product page. Heavily JS-rendered; content not extractable via fetch."
+    },
+    {
+      "url": "https://axiomehr.com/fqhc-software/",
+      "type": "vendor-website",
+      "note": "FQHC-specific product page. Heavily JS-rendered; content not extractable via fetch."
+    },
+    {
+      "url": "https://axiomehr.com/axiom-mobile/",
+      "type": "vendor-website",
+      "note": "AxiomMobile product page (from search results). HIPAA-compliant mobile clinician app for iOS/Android."
+    },
+    {
+      "url": "https://axiomehr.com/10-milestones-for-10-years/",
+      "type": "vendor-website",
+      "note": "Company milestones page (from search results). MyHealtheHome Patient Portal launched 2017, now Axiom Connect."
+    },
+    {
+      "url": "https://www.prnewswire.com/news-releases/axiomehr-earns-2024-merit-award-for-healthcare-302290349.html",
+      "type": "press-release",
+      "note": "AxiomEHR earned 2024 Merit Award for Healthcare."
+    },
+    {
+      "url": "https://hmsfirst.com/axiom-ehr/",
+      "type": "vendor-website",
+      "note": "Alternate vendor domain (hmsfirst.com). Returned 404 — appears to redirect to axiomehr.com."
+    }
+  ]
+}
