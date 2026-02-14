@@ -888,3 +888,44 @@ Good — cover page. The text extraction was thorough. I have the complete docum
 {
   "command": "cd /home/exedev/ehi-export-analysis && git add results/astronaut-llc/ && git commit -m \"Astronaut LLC: EHI export documentation collection\n\nDownloaded export format documentation from registered URL.\nSingle artifact: 10-page PDF describing C-CDA XML export (16 sections)\nplus proprietary CSV for remaining EHI data.\n\nKey findings:\n- Dual format: C-CDA for clinical data + CSV for demographics/remainder\n- No data dictionary, schema, sample files, or field-level documentation\n- CSV format is undocumented name-value pairs with no enumeration\n- For a VistA-based behavioral health EHR, significant gap between\n  what's documented (standard C-CDA) and what the system stores\n- Documentation reads as compliance checkbox, not technical spec\""
 }
+[RESULT: [main 15d6e872] Astronaut LLC: EHI export documentation collection
+ Committer: exe.dev user <exedev@ehi-research.exe.xyz>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly:
+
+    git config --global user.name "Your Name"
+    git config --global user.email you@example.com
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 7 files changed, 1603 insertions(+)
+ create mode 100644 results/astronaut-llc/chpl-metadata.json
+ create mode 100644 results/astronaut-llc/downloads/Astronaut-EHR-Export-Format-Documentation.pdf
+ create mode 100644 results/astronaut-llc/downloads/export-format-documentation-page.png
+ create mode 100644 results/astronaut-llc/ehi-export-report.md
+ create mode 100644 results/astronaut-llc/files.json
+ create mode 100644 results/astronaut-llc/phase1-log.txt
+ create mode 100644 results/astronaut-llc/phase2-log.txt
+]
+Done. Here's a summary:
+
+## Results
+
+**Found and downloaded:**
+- **1 PDF** (10 pages, 223KB): `Astronaut-EHR-Export-Format-Documentation.pdf`
+
+**What the export documentation describes:**
+- **C-CDA XML** for 14 standard clinical data sections (allergies, medications, problems, labs, vitals, immunizations, procedures, encounters, etc.)
+- **Proprietary CSV** (name-value pairs) for "advanced demographics and remaining EHI" — but with no field list, schema, or data dictionary
+
+**Key findings:**
+1. **No data dictionary whatsoever** — no field names, data types, value sets, or constraints for either format
+2. **The CSV catch-all is essentially undocumented** — one fictional example is all that's provided
+3. **Significant coverage gap** — for a VistA-based behavioral health EHR, the documentation only covers standard C-CDA clinical data. Billing, scheduling, clinical notes, psychiatric assessments (PHQ-9, suicide risk), supervision records, and hundreds of VistA FileMan data files are unaddressed
+4. **Generic content** — three pages are spent explaining basic C-CDA/XML concepts paraphrased from HL7, not Astronaut-specific implementation details
+5. **No sample files, no schema, no export instructions** — a developer could not build an importer from this documentation alone
+
+The documentation reads as a compliance checkbox rather than a genuine technical specification.
