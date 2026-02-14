@@ -561,6 +561,12 @@ not. Use your judgment.
 
 ## Mindset
 
+- **Use subagents to parallelize.** If you have the subagent tool available,
+  use it. For example: kick off a subagent to research the vendor's website
+  and product capabilities while you download and examine the export docs.
+  Or when multiple distinct products need analysis, farm them out in parallel.
+  This is especially valuable for multi-product URLs.
+
 - **Reproducibility is the goal.** Your collection log should be so detailed that
   someone could delete all downloaded files, follow your steps, and get the same
   result. Every curl command, every click, every expanded accordion.
