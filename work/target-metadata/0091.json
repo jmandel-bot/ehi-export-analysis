@@ -1,34 +1,44 @@
 {
-  "url": "https://www.bd.com/content/dam/bd-assets/na/medication-management-solutions/documents/healthsight/BD_HealthSight_Advisors_EHI_Export_Instructions.pdf",
+  "url": "https://apidocs.onemedical.io/ehi_export/overview/",
   "developer": {
-    "name": "Becton Dickinson and Company",
-    "website": "https://www.bd.com/en-us/products-and-solutions/products/product-brands/healthsight#clinicaladvisorinfectionadvisor",
-    "contact_name": "Denise M. Klinker, Pharm.D., M.B.A.",
-    "contact_email": "Denise.Klinker@bd.com",
-    "contact_phone": "984-215-8489"
+    "name": "1Life Healthcare, Inc",
+    "website": "https://www.onemedical.com/"
   },
-  "sed_intended_user_description": "",
-  "mandatory_disclosures_url": "https://www.bd.com/en-us/resource-and-education/documentation-landing-page/promotional-articles/honors-recognition-healthsight-medmined-earns-mu3-certification",
+  "mandatory_disclosures_url": "",
+  "sed_intended_user_description": "ambulatory physicians and nurses",
   "products": [
     {
-      "chpl_id": 10802,
-      "chpl_product_number": "15.02.05.3024.BEDC.01.01.0.220125",
-      "product_name": "HealthSight Advisors",
-      "version": "4",
-      "certification_date": "2022-01-25",
-      "certification_status": "Active",
-      "practice_type": null,
+      "name": "1Life",
+      "version": "1.0",
+      "chpl_id": 10964,
+      "chpl_product_number": "15.05.05.3121.ONEL.01.00.1.220823",
       "certified_criteria": [
+        "170.315 (a)(1)",
+        "170.315 (a)(12)",
+        "170.315 (a)(14)",
+        "170.315 (a)(5)",
+        "170.315 (b)(1)",
         "170.315 (b)(10)",
+        "170.315 (b)(11)",
         "170.315 (d)(1)",
         "170.315 (d)(12)",
         "170.315 (d)(13)",
         "170.315 (d)(2)",
         "170.315 (d)(3)",
+        "170.315 (d)(4)",
+        "170.315 (d)(5)",
+        "170.315 (d)(6)",
         "170.315 (d)(7)",
-        "170.315 (f)(6)",
+        "170.315 (d)(8)",
+        "170.315 (d)(9)",
+        "170.315 (e)(3)",
+        "170.315 (g)(10)",
+        "170.315 (g)(3)",
         "170.315 (g)(4)",
-        "170.315 (g)(5)"
+        "170.315 (g)(5)",
+        "170.315 (g)(6)",
+        "170.315 (g)(7)",
+        "170.315 (g)(9)"
       ]
     }
   ]

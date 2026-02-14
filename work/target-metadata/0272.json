@@ -1,29 +1,26 @@
 {
-  "url": "https://healthycampus.com/policies/ehi-export-policy/",
+  "url": "https://www.kipuhealth.com/wp-content/uploads/2025/12/ONC_EHI_Export_Documentation_v1.1.pdf",
   "developer": {
-    "name": "Healthy Campus, LLC",
-    "website": "https://www.healthycampus.com",
-    "contact_name": "Phil DuMas",
-    "contact_email": "phil@healthycampus.com",
-    "contact_phone": "+1 321-231-1482"
+    "name": "Kipu Health",
+    "website": "https://kipuhealth.com"
   },
-  "sed_intended_user_description": "",
-  "mandatory_disclosures_url": "https://healthycampus.com/policies/public-mandatory-disclosures/",
+  "mandatory_disclosures_url": "",
+  "sed_intended_user_description": null,
   "products": [
     {
-      "chpl_id": 11760,
-      "chpl_product_number": "15.04.04.3255.Heal.01.00.0.260128",
-      "product_name": "Healthy Campus Platform",
-      "version": "1.0",
-      "certification_date": "2026-01-28",
-      "certification_status": "Active",
-      "practice_type": null,
+      "name": "Kipu",
+      "version": "15",
+      "chpl_id": 11755,
+      "chpl_product_number": "15.04.04.3254.Kipu.01.00.0.260120",
       "certified_criteria": [
         "170.315 (b)(10)",
+        "170.315 (d)(1)",
+        "170.315 (d)(11)",
         "170.315 (d)(12)",
         "170.315 (d)(13)",
-        "170.315 (d)(4)",
+        "170.315 (d)(5)",
         "170.315 (d)(7)",
+        "170.315 (d)(9)",
         "170.315 (g)(4)",
         "170.315 (g)(5)"
       ]

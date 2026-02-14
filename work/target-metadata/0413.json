@@ -1,23 +1,17 @@
 {
-  "url": "https://www.crystalpm.com/21stCenturyCuresActB10AllDataExportUserDocumentation2.pdf",
+  "url": "https://www.hc2000inc.com/Pages/MDVita_EHR_EHI_DataFormat.pdf",
   "developer": {
-    "name": "Abeo Solutions, Inc",
-    "website": "https://www.crystalpm.com/",
-    "contact_name": "Paul Crowley",
-    "contact_email": "paul@crystalpm.com",
-    "contact_phone": "5128446635"
+    "name": "Health Care 2000, Inc.",
+    "website": "http://www.hc2000inc.com"
   },
-  "sed_intended_user_description": "Optometric Practitioners and Supprt Personnel",
-  "mandatory_disclosures_url": "https://crystalpm.com/pricing/",
+  "mandatory_disclosures_url": "",
+  "sed_intended_user_description": "Family Practice",
   "products": [
     {
-      "chpl_id": 10996,
-      "chpl_product_number": "15.04.04.1030.Crys.06.01.1.221004",
-      "product_name": "Crystal Practice Management",
-      "version": "6.0",
-      "certification_date": "2022-10-04",
-      "certification_status": "Active",
-      "practice_type": null,
+      "name": "MDVita",
+      "version": "27",
+      "chpl_id": 11000,
+      "chpl_product_number": "15.04.04.2904.MDVi.27.02.1.221020",
       "certified_criteria": [
         "170.315 (a)(1)",
         "170.315 (a)(12)",
@@ -47,6 +41,7 @@
         "170.315 (e)(1)",
         "170.315 (e)(3)",
         "170.315 (f)(1)",
+        "170.315 (f)(2)",
         "170.315 (g)(10)",
         "170.315 (g)(2)",
         "170.315 (g)(3)",

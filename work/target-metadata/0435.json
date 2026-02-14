@@ -1,33 +1,28 @@
 {
-  "url": "https://www.mediportal.com/export/",
+  "url": "https://rojihealthintel.com/costs-and-limitations/",
   "developer": {
-    "name": "Mediportal",
-    "website": "https://www.mediportal.com/",
-    "contact_name": "Edwin Vargas",
-    "contact_email": "edwin@mediportal.com",
-    "contact_phone": "(800) 285-9177"
+    "name": "Roji Health Intelligence LLC",
+    "website": "http://www.rojihealthintel.com"
   },
-  "sed_intended_user_description": "",
-  "mandatory_disclosures_url": "https://www.mediportal.com/disclosures/",
+  "mandatory_disclosures_url": "",
+  "sed_intended_user_description": null,
   "products": [
     {
-      "chpl_id": 11272,
-      "chpl_product_number": "15.04.04.3149.Mpow.05.00.0.230404",
-      "product_name": "M-Power",
-      "version": "5",
-      "certification_date": "2023-04-04",
-      "certification_status": "Active",
-      "practice_type": null,
+      "name": "Roji Clinical Data Registry",
+      "version": "Version 2016",
+      "chpl_id": 8332,
+      "chpl_product_number": "15.04.04.2951.Roji.16.00.0.170202",
       "certified_criteria": [
         "170.315 (b)(10)",
+        "170.315 (c)(2)",
+        "170.315 (c)(3)",
+        "170.315 (c)(4)",
         "170.315 (d)(1)",
         "170.315 (d)(12)",
         "170.315 (d)(13)",
         "170.315 (d)(2)",
         "170.315 (d)(3)",
         "170.315 (d)(5)",
-        "170.315 (d)(7)",
-        "170.315 (d)(9)",
         "170.315 (g)(4)",
         "170.315 (g)(5)"
       ]

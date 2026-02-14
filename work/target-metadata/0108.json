@@ -1,25 +1,20 @@
 {
-  "url": "https://strateqhealth.com/wp-content/uploads/2023/12/Strateq-Export.pdf",
+  "url": "https://www.practicestudio.net/Company/CompanyInformation/ExportProcess.aspx",
   "developer": {
-    "name": "Strateq Health, Inc.",
-    "website": "https://www.strateqhealth.com",
-    "contact_name": "CheeSiong Yee",
-    "contact_email": "cs.yee@strateqhealth.com",
-    "contact_phone": "(866) 920 7229"
+    "name": "MicroFour, Inc.",
+    "website": "http://www.practicestudio.net"
   },
-  "sed_intended_user_description": "inpatient physician and nurses",
-  "mandatory_disclosures_url": "https://strateqhealth.com/resources/product-certification/",
+  "mandatory_disclosures_url": "",
+  "sed_intended_user_description": "Cross section of types of users and ages",
   "products": [
     {
-      "chpl_id": 10778,
-      "chpl_product_number": "15.05.05.3097.STRQ.01.00.1.220105",
-      "product_name": "StrateqEHR",
-      "version": "5",
-      "certification_date": "2022-01-05",
-      "certification_status": "Active",
-      "practice_type": null,
+      "name": "PracticeStudio",
+      "version": "X20",
+      "chpl_id": 9590,
+      "chpl_product_number": "15.04.04.1985.Prac.20.00.1.180810",
       "certified_criteria": [
         "170.315 (a)(1)",
+        "170.315 (a)(12)",
         "170.315 (a)(14)",
         "170.315 (a)(2)",
         "170.315 (a)(3)",
@@ -31,6 +26,9 @@
         "170.315 (b)(2)",
         "170.315 (b)(3)",
         "170.315 (c)(1)",
+        "170.315 (c)(2)",
+        "170.315 (c)(3)",
+        "170.315 (c)(4)",
         "170.315 (d)(1)",
         "170.315 (d)(12)",
         "170.315 (d)(13)",
@@ -42,9 +40,8 @@
         "170.315 (d)(7)",
         "170.315 (d)(8)",
         "170.315 (d)(9)",
+        "170.315 (e)(1)",
         "170.315 (e)(3)",
-        "170.315 (f)(1)",
-        "170.315 (f)(2)",
         "170.315 (g)(10)",
         "170.315 (g)(2)",
         "170.315 (g)(3)",
@@ -52,7 +49,8 @@
         "170.315 (g)(5)",
         "170.315 (g)(6)",
         "170.315 (g)(7)",
-        "170.315 (g)(9)"
+        "170.315 (g)(9)",
+        "170.315 (h)(1)"
       ]
     }
   ]

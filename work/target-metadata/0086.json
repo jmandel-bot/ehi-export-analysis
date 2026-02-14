@@ -1,25 +1,28 @@
 {
-  "url": "https://www.pressganey.com/platform/core-measures/quality-performer-certification/",
+  "url": "https://www.medtrio.com/documents/csvExplanation.pdf",
   "developer": {
-    "name": "Press Ganey Associates",
-    "website": "http://www.pressganey.com",
-    "contact_name": "Bill Caughron",
-    "contact_email": "bill.caughron@pressganey.com",
-    "contact_phone": "(443)459 5180"
+    "name": "MedTrio, Inc.",
+    "website": "https://www.medtrio.com/"
   },
-  "sed_intended_user_description": "",
-  "mandatory_disclosures_url": "https://www.pressganey.com/products/clinical-excellence/quality-performer/certification",
+  "mandatory_disclosures_url": "",
+  "sed_intended_user_description": "Ambulatory providers",
   "products": [
     {
-      "chpl_id": 9902,
-      "chpl_product_number": "15.04.04.2834.Qual.15.00.0.181231",
-      "product_name": "Quality Performer Hospital eMeasures",
-      "version": "Version 1.5",
-      "certification_date": "2018-12-31",
-      "certification_status": "Active",
-      "practice_type": null,
+      "name": "Medtrio EHR",
+      "version": "7.2034",
+      "chpl_id": 11298,
+      "chpl_product_number": "15.02.05.2646.MEDT.02.02.1.230615",
       "certified_criteria": [
+        "170.315 (a)(1)",
+        "170.315 (a)(14)",
+        "170.315 (a)(2)",
+        "170.315 (a)(3)",
+        "170.315 (a)(4)",
+        "170.315 (a)(5)",
+        "170.315 (a)(9)",
+        "170.315 (b)(1)",
         "170.315 (b)(10)",
+        "170.315 (b)(2)",
         "170.315 (c)(1)",
         "170.315 (c)(2)",
         "170.315 (c)(3)",
@@ -28,9 +31,20 @@
         "170.315 (d)(13)",
         "170.315 (d)(2)",
         "170.315 (d)(3)",
+        "170.315 (d)(4)",
         "170.315 (d)(5)",
+        "170.315 (d)(6)",
+        "170.315 (d)(7)",
+        "170.315 (d)(8)",
+        "170.315 (d)(9)",
+        "170.315 (e)(3)",
+        "170.315 (g)(3)",
         "170.315 (g)(4)",
-        "170.315 (g)(5)"
+        "170.315 (g)(5)",
+        "170.315 (g)(6)",
+        "170.315 (g)(7)",
+        "170.315 (g)(9)",
+        "170.315 (h)(1)"
       ]
     }
   ]

@@ -1,37 +1,40 @@
 {
-  "url": "https://www.spectramedix.com/onc-certified-health-it-mandatory-disclosure-information",
+  "url": "https://docindy.com/assets/CloudMD365%20EHI%20Export%20Documentation-Befwxq4M.pdf",
   "developer": {
-    "name": "SpectraMedix",
-    "website": "https://www.spectramedix.com",
-    "contact_name": "Sathyaji Raja",
-    "contact_email": "Sathyaji.raja@spectramedix.com",
-    "contact_phone": "609-608-5010"
+    "name": "Softbir, Inc.",
+    "website": "https://softbir.com"
   },
-  "sed_intended_user_description": "",
-  "mandatory_disclosures_url": "https://www.spectramedix.com/onc-certified-health-it-mandatory-disclosure-information",
+  "mandatory_disclosures_url": "",
+  "sed_intended_user_description": "Healthcare Provider",
   "products": [
     {
-      "chpl_id": 11248,
-      "chpl_product_number": "15.07.05.2359.SPEC.01.00.1.230309",
-      "product_name": "VBP Performance Suite",
-      "version": "11",
-      "certification_date": "2023-03-09",
-      "certification_status": "Active",
-      "practice_type": null,
+      "name": "CloudMD365",
+      "version": "1",
+      "chpl_id": 10282,
+      "chpl_product_number": "15.04.04.3067.Clou.01.00.1.200122",
       "certified_criteria": [
+        "170.315 (a)(1)",
+        "170.315 (a)(2)",
+        "170.315 (a)(3)",
+        "170.315 (a)(4)",
+        "170.315 (a)(5)",
         "170.315 (b)(10)",
-        "170.315 (c)(1)",
-        "170.315 (c)(2)",
-        "170.315 (c)(3)",
-        "170.315 (c)(4)",
+        "170.315 (b)(11)",
         "170.315 (d)(1)",
         "170.315 (d)(12)",
         "170.315 (d)(13)",
         "170.315 (d)(2)",
         "170.315 (d)(3)",
+        "170.315 (d)(4)",
         "170.315 (d)(5)",
+        "170.315 (d)(6)",
+        "170.315 (d)(7)",
+        "170.315 (d)(9)",
+        "170.315 (g)(10)",
+        "170.315 (g)(3)",
         "170.315 (g)(4)",
-        "170.315 (g)(5)"
+        "170.315 (g)(5)",
+        "170.315 (g)(7)"
       ]
     }
   ]

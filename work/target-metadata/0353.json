@@ -1,25 +1,30 @@
 {
-  "url": "https://imatsolutions.com/index.php/ecqm/",
+  "url": "https://lightningstep.com/onc-certification",
   "developer": {
-    "name": "IMAT Solutions",
-    "website": "https://imatsolutions.com",
-    "contact_name": "Matt Davis",
-    "contact_email": "matt.davis@imatsolutions.com",
-    "contact_phone": "801-472-1643"
+    "name": "Lightning Step Technologies",
+    "website": "https://lightningstep.com/"
   },
-  "sed_intended_user_description": "",
-  "mandatory_disclosures_url": "https://imatsolutions.com/index.php/ecqm",
+  "mandatory_disclosures_url": "",
+  "sed_intended_user_description": "Mental Health and Chemical Dependency Treatment Clinicians, nurses, billing staff, registrars, etc.",
   "products": [
     {
-      "chpl_id": 11188,
-      "chpl_product_number": "15.04.04.3138.IMAT.08.00.0.221230",
-      "product_name": "IMAT Solutions",
-      "version": "8",
-      "certification_date": "2022-12-30",
-      "certification_status": "Active",
-      "practice_type": null,
+      "name": "Lightning Step",
+      "version": "1.0",
+      "chpl_id": 11427,
+      "chpl_product_number": "15.04.04.3183.Ligh.01.00.1.231228",
       "certified_criteria": [
+        "170.315 (a)(1)",
+        "170.315 (a)(12)",
+        "170.315 (a)(14)",
+        "170.315 (a)(15)",
+        "170.315 (a)(2)",
+        "170.315 (a)(3)",
+        "170.315 (a)(5)",
+        "170.315 (a)(9)",
+        "170.315 (b)(1)",
         "170.315 (b)(10)",
+        "170.315 (b)(2)",
+        "170.315 (c)(1)",
         "170.315 (c)(2)",
         "170.315 (c)(3)",
         "170.315 (d)(1)",
@@ -27,9 +32,21 @@
         "170.315 (d)(13)",
         "170.315 (d)(2)",
         "170.315 (d)(3)",
+        "170.315 (d)(4)",
         "170.315 (d)(5)",
+        "170.315 (d)(6)",
+        "170.315 (d)(7)",
+        "170.315 (d)(8)",
+        "170.315 (d)(9)",
+        "170.315 (e)(1)",
+        "170.315 (e)(3)",
+        "170.315 (g)(2)",
+        "170.315 (g)(3)",
         "170.315 (g)(4)",
-        "170.315 (g)(5)"
+        "170.315 (g)(5)",
+        "170.315 (g)(6)",
+        "170.315 (g)(7)",
+        "170.315 (g)(9)"
       ]
     }
   ]

@@ -1,28 +1,23 @@
 {
-  "url": "https://docs.google.com/document/d/1mPl2rnTaif8WvkWWCiZ45DZrec87xh3qwATvQc_A4Bg/edit?usp=sharing",
+  "url": "https://www.pedinotes.com/certifications",
   "developer": {
-    "name": "CPS",
-    "website": "http://www.ehrs-c.com/",
-    "contact_name": "Derick Veliz",
-    "contact_email": "dveliz@cpsmh.org",
-    "contact_phone": "978-337-1089"
+    "name": "Tecurologic",
+    "website": "https://pedinotes.com/"
   },
-  "sed_intended_user_description": "Correctional medical and mental health care providers",
-  "mandatory_disclosures_url": "https://dveliz32.wixsite.com/ehrs-certification",
+  "mandatory_disclosures_url": "",
+  "sed_intended_user_description": "Neonatologists and NNPs",
   "products": [
     {
-      "chpl_id": 11428,
-      "chpl_product_number": "15.04.04.3032.EHRs.23.01.0.231228",
-      "product_name": "EHRs-C",
-      "version": "2023",
-      "certification_date": "2023-12-28",
-      "certification_status": "Active",
-      "practice_type": null,
+      "name": "PediNotes",
+      "version": "5.1",
+      "chpl_id": 8846,
+      "chpl_product_number": "15.04.04.2375.Pedi.51.00.1.170914",
       "certified_criteria": [
         "170.315 (a)(1)",
         "170.315 (a)(12)",
         "170.315 (a)(2)",
         "170.315 (a)(3)",
+        "170.315 (a)(4)",
         "170.315 (a)(5)",
         "170.315 (b)(10)",
         "170.315 (d)(1)",

@@ -1,49 +1,23 @@
 {
-  "url": "https://www.medplum.com/docs/api/fhir/operations/patient-everything",
+  "url": "https://app.box.com/s/rxi2lmsrjfhrb80o68a9dpdo6usys8ms",
   "developer": {
-    "name": "Medplum",
-    "website": "https://www.medplum.com/",
-    "contact_name": "Reshma Khilnani",
-    "contact_email": "info@medplum.com",
-    "contact_phone": "8318884217"
+    "name": "Curis Partners LLC",
+    "website": "https://www.curispartners.com"
   },
-  "sed_intended_user_description": "all physician types",
-  "mandatory_disclosures_url": "https://www.medplum.com/docs/compliance/onc",
+  "mandatory_disclosures_url": "",
+  "sed_intended_user_description": null,
   "products": [
     {
-      "chpl_id": 11745,
-      "chpl_product_number": "15.04.04.3147.Medp.05.03.1.251231",
-      "product_name": "Medplum",
-      "version": "5",
-      "certification_date": "2025-12-31",
-      "certification_status": "Active",
-      "practice_type": null,
+      "name": "HousecallOS",
+      "version": "V1",
+      "chpl_id": 11744,
+      "chpl_product_number": "15.04.04.3252.Hous.01.00.0.251230",
       "certified_criteria": [
-        "170.315 (a)(14)",
-        "170.315 (a)(2)",
-        "170.315 (a)(5)",
-        "170.315 (b)(1)",
         "170.315 (b)(10)",
-        "170.315 (b)(11)",
-        "170.315 (c)(1)",
-        "170.315 (d)(1)",
         "170.315 (d)(12)",
         "170.315 (d)(13)",
-        "170.315 (d)(2)",
-        "170.315 (d)(3)",
-        "170.315 (d)(4)",
-        "170.315 (d)(5)",
-        "170.315 (d)(6)",
-        "170.315 (d)(7)",
-        "170.315 (d)(8)",
-        "170.315 (d)(9)",
-        "170.315 (g)(10)",
-        "170.315 (g)(3)",
         "170.315 (g)(4)",
-        "170.315 (g)(5)",
-        "170.315 (g)(6)",
-        "170.315 (g)(7)",
-        "170.315 (g)(9)"
+        "170.315 (g)(5)"
       ]
     }
   ]

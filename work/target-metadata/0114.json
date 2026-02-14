@@ -1,50 +1,36 @@
 {
-  "url": "https://www.floridahealth.gov/statistics-data/health-management-system/",
+  "url": "https://cms.bridgeinteract.io/content/uploads/2023/12/Electronic-Health-Information-Export.pdf",
   "developer": {
-    "name": "Florida Department of Health",
-    "website": "https://www.floridahealth.gov",
-    "contact_name": "Michael Cragg",
-    "contact_email": "michael.cragg@flhealth.gov",
-    "contact_phone": "850-245-4255"
+    "name": "Bridge Patient Portal Inc.",
+    "website": "https://www.bridgeinteract.io/"
   },
-  "sed_intended_user_description": "All clinical and practice management staff within the County Health Department",
-  "mandatory_disclosures_url": "https://www.floridahealth.gov/statistics-data/health-management-system/",
+  "mandatory_disclosures_url": "",
+  "sed_intended_user_description": null,
   "products": [
     {
-      "chpl_id": 10047,
-      "chpl_product_number": "15.05.05.1498.FDOH.01.00.1.190626",
-      "product_name": "The Florida Department of Health, Health Management System",
-      "version": "2015",
-      "certification_date": "2019-06-26",
-      "certification_status": "Active",
-      "practice_type": null,
+      "name": "BridgeInteract",
+      "version": "3",
+      "chpl_id": 9540,
+      "chpl_product_number": "15.05.05.1947.BRID.01.00.0.180703",
       "certified_criteria": [
-        "170.315 (a)(11)",
-        "170.315 (a)(12)",
-        "170.315 (a)(13)",
-        "170.315 (a)(14)",
-        "170.315 (a)(5)",
-        "170.315 (a)(6)",
-        "170.315 (b)(1)",
         "170.315 (b)(10)",
-        "170.315 (b)(11)",
-        "170.315 (b)(2)",
         "170.315 (d)(1)",
-        "170.315 (d)(10)",
         "170.315 (d)(12)",
         "170.315 (d)(13)",
         "170.315 (d)(2)",
         "170.315 (d)(3)",
-        "170.315 (d)(4)",
         "170.315 (d)(5)",
         "170.315 (d)(6)",
         "170.315 (d)(7)",
-        "170.315 (d)(8)",
-        "170.315 (f)(1)",
-        "170.315 (g)(3)",
+        "170.315 (d)(9)",
+        "170.315 (e)(1)",
+        "170.315 (e)(2)",
+        "170.315 (g)(10)",
         "170.315 (g)(4)",
         "170.315 (g)(5)",
-        "170.315 (g)(6)"
+        "170.315 (g)(6)",
+        "170.315 (g)(7)",
+        "170.315 (g)(9)"
       ]
     }
   ]

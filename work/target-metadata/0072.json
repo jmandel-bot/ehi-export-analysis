@@ -1,27 +1,22 @@
 {
-  "url": "https://docs.canvasmedical.com/documentation/ehi-export/",
+  "url": "https://smartemr.readme.io/docs/electronic-health-information-export-b10",
   "developer": {
-    "name": "Canvas Medical, Inc.",
-    "website": "https://canvasmedical.com",
-    "contact_name": "Beau Gunderson",
-    "contact_email": "beau.gunderson@canvasmedical.com",
-    "contact_phone": "(707) 220-8306"
+    "name": "VIPA Health Solutions, LLC",
+    "website": "https://smartemr.readme.io/reference/getting-started#base-url"
   },
-  "sed_intended_user_description": "health care delivery users, not limited to clinicians",
-  "mandatory_disclosures_url": "https://canvasmedical.com/compliance/onc/mandatory-disclosures",
+  "mandatory_disclosures_url": "",
+  "sed_intended_user_description": "Physician's Office",
   "products": [
     {
-      "chpl_id": 10904,
-      "chpl_product_number": "15.04.04.3112.Canv.01.00.1.220523",
-      "product_name": "Canvas Medical",
-      "version": "1",
-      "certification_date": "2022-05-23",
-      "certification_status": "Active",
-      "practice_type": null,
+      "name": "24/7 smartEMR",
+      "version": "7.2",
+      "chpl_id": 11079,
+      "chpl_product_number": "15.04.04.2916.smar.07.02.1.221216",
       "certified_criteria": [
         "170.315 (a)(1)",
         "170.315 (a)(12)",
         "170.315 (a)(14)",
+        "170.315 (a)(15)",
         "170.315 (a)(2)",
         "170.315 (a)(3)",
         "170.315 (a)(4)",
@@ -48,7 +43,7 @@
         "170.315 (e)(1)",
         "170.315 (e)(3)",
         "170.315 (f)(1)",
-        "170.315 (f)(5)",
+        "170.315 (f)(4)",
         "170.315 (g)(10)",
         "170.315 (g)(2)",
         "170.315 (g)(3)",
@@ -56,7 +51,8 @@
         "170.315 (g)(5)",
         "170.315 (g)(6)",
         "170.315 (g)(7)",
-        "170.315 (g)(9)"
+        "170.315 (g)(9)",
+        "170.315 (h)(1)"
       ]
     }
   ]

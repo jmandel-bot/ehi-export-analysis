@@ -1,36 +1,28 @@
 {
-  "url": "https://officeemr.knowledgeowl.com/help/ehi-export",
+  "url": "https://www.yourdrs.com/Home/EHI_Export_Documentation",
   "developer": {
-    "name": "iSALUS Healthcare",
-    "website": "https://isalushealthcare.com",
-    "contact_name": "Carly Kakasuleff",
-    "contact_email": "support@isalushealthcare.com",
-    "contact_phone": "317-687-8119"
+    "name": "YOURDRS Services LLC",
+    "website": "https://www.yourdrs.com"
   },
-  "sed_intended_user_description": "Ambulatory",
-  "mandatory_disclosures_url": "https://officeemr.knowledgeowl.com/help/officeemr-2021-onc-costs-and-limitations",
+  "mandatory_disclosures_url": "",
+  "sed_intended_user_description": "All of the intend users work in specialty office of orthopaedic handling various aspects like handinglig treatment,administration and billing",
   "products": [
     {
-      "chpl_id": 10914,
-      "chpl_product_number": "15.04.04.2629.Offi.21.02.1.220606",
-      "product_name": "OfficeEMR",
-      "version": "2021",
-      "certification_date": "2022-06-06",
-      "certification_status": "Active",
-      "practice_type": null,
+      "name": "YOURDRS",
+      "version": "Version 7.0",
+      "chpl_id": 10475,
+      "chpl_product_number": "15.04.04.3079.YOUR.07.00.1.201102",
       "certified_criteria": [
-        "170.315 (a)(1)",
         "170.315 (a)(12)",
         "170.315 (a)(14)",
         "170.315 (a)(2)",
         "170.315 (a)(3)",
-        "170.315 (a)(4)",
         "170.315 (a)(5)",
+        "170.315 (a)(9)",
         "170.315 (b)(1)",
         "170.315 (b)(10)",
-        "170.315 (b)(11)",
         "170.315 (b)(2)",
-        "170.315 (b)(3)",
+        "170.315 (c)(1)",
         "170.315 (d)(1)",
         "170.315 (d)(12)",
         "170.315 (d)(13)",
@@ -43,19 +35,11 @@
         "170.315 (d)(8)",
         "170.315 (d)(9)",
         "170.315 (e)(1)",
-        "170.315 (e)(3)",
-        "170.315 (f)(1)",
-        "170.315 (f)(2)",
-        "170.315 (f)(5)",
-        "170.315 (g)(10)",
         "170.315 (g)(2)",
         "170.315 (g)(3)",
         "170.315 (g)(4)",
         "170.315 (g)(5)",
-        "170.315 (g)(6)",
-        "170.315 (g)(7)",
-        "170.315 (g)(9)",
-        "170.315 (h)(1)"
+        "170.315 (g)(6)"
       ]
     }
   ]

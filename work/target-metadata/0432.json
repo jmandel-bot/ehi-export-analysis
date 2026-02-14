@@ -1,28 +1,18 @@
 {
-  "url": "https://wellpathcare.com/wp-content/uploads/2024/05/Wellpath-ERMA-Export-Format.pdf",
+  "url": "https://www.pointandclicksolutions.com/fhir-record-export",
   "developer": {
-    "name": "Wellpath",
-    "website": "https://www.wellpathcare.com",
-    "contact_name": "Oliver Perry",
-    "contact_email": "OPerry@Wellpath.us",
-    "contact_phone": "615-466-3606"
+    "name": "Point and Click Solutions, Inc.",
+    "website": "https://www.pointandclicksolutions.com/"
   },
-  "sed_intended_user_description": "To verify compliance",
-  "mandatory_disclosures_url": "https://wellpathcare.com/wp-content/uploads/2024/08/Compliance-Certificate-ERMA-Version-6-081624.pdf",
+  "mandatory_disclosures_url": "",
+  "sed_intended_user_description": null,
   "products": [
     {
-      "chpl_id": 10464,
-      "chpl_product_number": "15.04.04.1293.ERMA.06.00.0.200928",
-      "product_name": "ERMA",
-      "version": "Version 6",
-      "certification_date": "2020-09-28",
-      "certification_status": "Active",
-      "practice_type": null,
+      "name": "PNC Suite",
+      "version": "12",
+      "chpl_id": 11249,
+      "chpl_product_number": "15.04.04.3146.Pncs.12.00.0.230313",
       "certified_criteria": [
-        "170.315 (a)(1)",
-        "170.315 (a)(10)",
-        "170.315 (a)(12)",
-        "170.315 (a)(4)",
         "170.315 (b)(10)",
         "170.315 (d)(1)",
         "170.315 (d)(12)",
@@ -33,7 +23,6 @@
         "170.315 (d)(5)",
         "170.315 (d)(6)",
         "170.315 (d)(7)",
-        "170.315 (g)(3)",
         "170.315 (g)(4)",
         "170.315 (g)(5)"
       ]

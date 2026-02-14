@@ -1,23 +1,17 @@
 {
-  "url": "https://medaz.com/certificationinfo.html",
+  "url": "https://hstspot.com/help-documents.php",
   "developer": {
-    "name": "MedAZ.Net, LLC",
-    "website": "https://medaz.com",
-    "contact_name": "Vasu Iyengar",
-    "contact_email": "medazsupport@medaz.net",
-    "contact_phone": "6097166991"
+    "name": "Health Systems Technology, Inc.",
+    "website": "http://www.hstcentral.com"
   },
-  "sed_intended_user_description": "Physicians and their support staff",
-  "mandatory_disclosures_url": "https://medaz.com/certificationinfo.html",
+  "mandatory_disclosures_url": "",
+  "sed_intended_user_description": "Ambulatory",
   "products": [
     {
-      "chpl_id": 11300,
-      "chpl_product_number": "15.05.05.3150.MDAZ.01.00.1.230616",
-      "product_name": "Med A-Z",
-      "version": "202001",
-      "certification_date": "2023-06-16",
-      "certification_status": "Active",
-      "practice_type": null,
+      "name": "MedPointe",
+      "version": "13",
+      "chpl_id": 11238,
+      "chpl_product_number": "15.04.04.1597.MedP.13.01.1.230216",
       "certified_criteria": [
         "170.315 (a)(1)",
         "170.315 (a)(12)",
@@ -27,15 +21,16 @@
         "170.315 (a)(3)",
         "170.315 (a)(4)",
         "170.315 (a)(5)",
+        "170.315 (b)(1)",
         "170.315 (b)(10)",
         "170.315 (b)(11)",
+        "170.315 (b)(2)",
         "170.315 (b)(3)",
         "170.315 (c)(1)",
         "170.315 (c)(2)",
         "170.315 (c)(3)",
-        "170.315 (c)(4)",
         "170.315 (d)(1)",
-        "170.315 (d)(10)",
+        "170.315 (d)(11)",
         "170.315 (d)(12)",
         "170.315 (d)(13)",
         "170.315 (d)(2)",
@@ -46,14 +41,19 @@
         "170.315 (d)(7)",
         "170.315 (d)(8)",
         "170.315 (d)(9)",
+        "170.315 (e)(1)",
         "170.315 (e)(3)",
         "170.315 (f)(1)",
-        "170.315 (f)(2)",
+        "170.315 (f)(5)",
         "170.315 (g)(10)",
+        "170.315 (g)(2)",
         "170.315 (g)(3)",
         "170.315 (g)(4)",
         "170.315 (g)(5)",
-        "170.315 (g)(7)"
+        "170.315 (g)(6)",
+        "170.315 (g)(7)",
+        "170.315 (g)(9)",
+        "170.315 (h)(1)"
       ]
     }
   ]

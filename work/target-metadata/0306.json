@@ -1,36 +1,20 @@
 {
-  "url": "https://www.officepracticum.com/op/population-health/onc-certification#onccert",
+  "url": "https://claimocity.com/onc-certification",
   "developer": {
-    "name": "Office Practicum",
-    "website": "https://www.officepracticum.com/",
-    "contact_name": "Pamela Chapman",
-    "contact_email": "pchapman@officepracticum.com",
-    "contact_phone": "800-218-9916"
+    "name": "Claimocity, Inc.",
+    "website": "https://claimocity.com"
   },
-  "sed_intended_user_description": "Pediatricians, Physicians, and Practice Managers",
-  "mandatory_disclosures_url": "https://www.officepracticum.com/onc-certification-info",
+  "mandatory_disclosures_url": "",
+  "sed_intended_user_description": "ambulatory physician and nurses",
   "products": [
     {
-      "chpl_id": 11049,
-      "chpl_product_number": "15.04.04.3048.Offi.21.02.1.221121",
-      "product_name": "Office Practicum",
-      "version": "21",
-      "certification_date": "2022-11-21",
-      "certification_status": "Active",
-      "practice_type": null,
+      "name": "Claimocity",
+      "version": "2",
+      "chpl_id": 11359,
+      "chpl_product_number": "15.05.05.3172.CLAM.01.00.0.231027",
       "certified_criteria": [
-        "170.315 (a)(1)",
-        "170.315 (a)(12)",
-        "170.315 (a)(14)",
-        "170.315 (a)(2)",
-        "170.315 (a)(3)",
-        "170.315 (a)(4)",
         "170.315 (a)(5)",
-        "170.315 (b)(1)",
         "170.315 (b)(10)",
-        "170.315 (b)(11)",
-        "170.315 (b)(2)",
-        "170.315 (b)(3)",
         "170.315 (d)(1)",
         "170.315 (d)(12)",
         "170.315 (d)(13)",
@@ -42,13 +26,9 @@
         "170.315 (d)(7)",
         "170.315 (d)(8)",
         "170.315 (d)(9)",
-        "170.315 (f)(1)",
-        "170.315 (g)(10)",
         "170.315 (g)(3)",
         "170.315 (g)(4)",
-        "170.315 (g)(5)",
-        "170.315 (g)(6)",
-        "170.315 (h)(1)"
+        "170.315 (g)(5)"
       ]
     }
   ]

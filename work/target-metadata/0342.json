@@ -1,26 +1,26 @@
 {
-  "url": "https://acplus.com/technology/acplus/",
+  "url": "https://onc.chntechsolutions.com/integrated-care-ehr-electronic-health-information-export-cures/",
   "developer": {
-    "name": "Accelerated Care Plus",
-    "website": "https://acplus.com/technology/acplus/",
-    "contact_name": "Barry Thomson",
-    "contact_email": "BThomson@hanger.com",
-    "contact_phone": "775-287-4955"
+    "name": "CHN Tech Solutions LLC",
+    "website": "https://chntechsolutions.com"
   },
-  "sed_intended_user_description": "Therapsists, Nurses",
-  "mandatory_disclosures_url": "https://acplus.com/technology/acplus/cybersecurity/",
+  "mandatory_disclosures_url": "",
+  "sed_intended_user_description": "Physicians, Nurses, Medical Assistants, Health Care Administrators and Staff",
   "products": [
     {
-      "chpl_id": 11412,
-      "chpl_product_number": "15.04.04.3068.ACPl.02.01.0.231221",
-      "product_name": "ACPlus\u2122",
-      "version": "V2",
-      "certification_date": "2023-12-21",
-      "certification_status": "Active",
-      "practice_type": null,
+      "name": "Integrated Care EHR",
+      "version": "3",
+      "chpl_id": 11067,
+      "chpl_product_number": "15.05.05.3133.CHTS.01.00.1.221213",
       "certified_criteria": [
+        "170.315 (a)(14)",
+        "170.315 (a)(15)",
+        "170.315 (a)(2)",
         "170.315 (a)(5)",
+        "170.315 (a)(9)",
+        "170.315 (b)(1)",
         "170.315 (b)(10)",
+        "170.315 (c)(1)",
         "170.315 (d)(1)",
         "170.315 (d)(12)",
         "170.315 (d)(13)",
@@ -30,9 +30,17 @@
         "170.315 (d)(5)",
         "170.315 (d)(6)",
         "170.315 (d)(7)",
+        "170.315 (d)(8)",
+        "170.315 (d)(9)",
+        "170.315 (e)(3)",
+        "170.315 (g)(10)",
         "170.315 (g)(3)",
         "170.315 (g)(4)",
-        "170.315 (g)(5)"
+        "170.315 (g)(5)",
+        "170.315 (g)(6)",
+        "170.315 (g)(7)",
+        "170.315 (g)(9)",
+        "170.315 (h)(1)"
       ]
     }
   ]

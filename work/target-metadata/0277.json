@@ -1,34 +1,28 @@
 {
-  "url": "https://medinsight.com/healthcare-data-analytics-about/onc-certification-details/",
+  "url": "https://unityhealth360.com/onc-certification",
   "developer": {
-    "name": "Milliman MedInsight",
-    "website": "https://www.medinsight.com/",
-    "contact_name": "Brian Thompson",
-    "contact_email": "brian.thompson@milliman.com",
-    "contact_phone": "2066247940"
+    "name": "Unity Health",
+    "website": "https://cinch-health.com/"
   },
-  "sed_intended_user_description": "",
-  "mandatory_disclosures_url": "https://medinsight.com/healthcare-data-analytics-about/onc-certification-details/",
+  "mandatory_disclosures_url": "",
+  "sed_intended_user_description": null,
   "products": [
     {
-      "chpl_id": 11739,
-      "chpl_product_number": "15.04.04.3250.Medi.25.00.0.251222",
-      "product_name": "MedInsight eCQM",
-      "version": "2025",
-      "certification_date": "2025-12-22",
-      "certification_status": "Active",
-      "practice_type": null,
+      "name": "Cinch Health",
+      "version": "1.0",
+      "chpl_id": 11710,
+      "chpl_product_number": "15.04.04.3244.Cinc.01.00.1.251016",
       "certified_criteria": [
         "170.315 (b)(10)",
         "170.315 (c)(1)",
-        "170.315 (c)(2)",
-        "170.315 (c)(3)",
         "170.315 (d)(1)",
         "170.315 (d)(12)",
         "170.315 (d)(13)",
         "170.315 (d)(2)",
         "170.315 (d)(3)",
         "170.315 (d)(5)",
+        "170.315 (d)(9)",
+        "170.315 (g)(10)",
         "170.315 (g)(4)",
         "170.315 (g)(5)"
       ]

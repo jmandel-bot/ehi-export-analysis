@@ -1,42 +1,26 @@
 {
-  "url": "https://www.gorenvio.com/disclaimers",
+  "url": "https://docs.oystehr.com/oystehr/services/fhir/bulk-data-export/",
   "developer": {
-    "name": "Renvio",
-    "website": "https://www.gorenvio.com/",
-    "contact_name": "Vladimiro Paredes",
-    "contact_email": "vparedes@gorenvio.com",
-    "contact_phone": "(920) 491-2241"
+    "name": "MassLight",
+    "website": "https://www.masslight.com/"
   },
-  "sed_intended_user_description": "Various type of users that interact with Clarity with a variety of roles on the healthcare organization.",
-  "mandatory_disclosures_url": "https://www.gorenvio.com/s/Certification-Disclosure.pdf",
+  "mandatory_disclosures_url": "",
+  "sed_intended_user_description": null,
   "products": [
     {
-      "chpl_id": 11345,
-      "chpl_product_number": "15.04.04.3089.Clar.23.02.1.230913",
-      "product_name": "Clarity",
-      "version": "23",
-      "certification_date": "2023-09-13",
-      "certification_status": "Active",
-      "practice_type": null,
+      "name": "Oystehr",
+      "version": "1",
+      "chpl_id": 11489,
+      "chpl_product_number": "15.05.05.3196.MSLT.01.00.1.240617",
       "certified_criteria": [
-        "170.315 (a)(1)",
-        "170.315 (a)(14)",
-        "170.315 (a)(2)",
-        "170.315 (a)(3)",
-        "170.315 (a)(4)",
-        "170.315 (a)(5)",
         "170.315 (b)(10)",
         "170.315 (d)(1)",
+        "170.315 (d)(10)",
         "170.315 (d)(12)",
         "170.315 (d)(13)",
-        "170.315 (d)(2)",
         "170.315 (d)(3)",
-        "170.315 (d)(4)",
-        "170.315 (d)(5)",
-        "170.315 (d)(6)",
-        "170.315 (d)(7)",
         "170.315 (d)(9)",
-        "170.315 (g)(3)",
+        "170.315 (g)(10)",
         "170.315 (g)(4)",
         "170.315 (g)(5)"
       ]

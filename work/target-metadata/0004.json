@@ -2,22 +2,16 @@
   "url": "https://www.alterahealth.com/legal/onc-reg-compliance/",
   "developer": {
     "name": "Providers Management, Inc.",
-    "website": "https://www.integratedproviders.com/integratedproviders/",
-    "contact_name": "Nate Buchholz",
-    "contact_email": "Nate.Buchholz@genesyspho.com",
-    "contact_phone": "810-424-2301"
+    "website": "https://www.integratedproviders.com/integratedproviders/"
   },
-  "sed_intended_user_description": "",
-  "mandatory_disclosures_url": "https://integratedproviders.com/integratedproviders/About",
+  "mandatory_disclosures_url": "",
+  "sed_intended_user_description": null,
   "products": [
     {
+      "name": "Integrated Providers Patient Portal",
+      "version": "3.18",
       "chpl_id": 11199,
       "chpl_product_number": "15.04.04.2224.Inte.03.01.1.221231",
-      "product_name": "Integrated Providers Patient Portal",
-      "version": "3.18",
-      "certification_date": "2022-12-31",
-      "certification_status": "Active",
-      "practice_type": null,
       "certified_criteria": [
         "170.315 (b)(10)",
         "170.315 (d)(1)",
@@ -35,13 +29,10 @@
       ]
     },
     {
+      "name": "Altera Lab\u2122",
+      "version": "23.2",
       "chpl_id": 11401,
       "chpl_product_number": "15.04.04.3123.Alte.23.10.0.231206",
-      "product_name": "Altera Lab\u2122",
-      "version": "23.2",
-      "certification_date": "2023-12-06",
-      "certification_status": "Active",
-      "practice_type": null,
       "certified_criteria": [
         "170.315 (b)(10)",
         "170.315 (d)(1)",
@@ -56,13 +47,10 @@
       ]
     },
     {
+      "name": "Paragon\u00ae Denali",
+      "version": "1",
       "chpl_id": 11589,
       "chpl_product_number": "15.04.04.3123.Para.01.10.1.250130",
-      "product_name": "Paragon\u00ae Denali",
-      "version": "1",
-      "certification_date": "2025-01-30",
-      "certification_status": "Active",
-      "practice_type": null,
       "certified_criteria": [
         "170.315 (a)(1)",
         "170.315 (a)(12)",
@@ -107,13 +95,10 @@
       ]
     },
     {
+      "name": "TouchWorks EHR",
+      "version": "2025",
       "chpl_id": 11675,
       "chpl_product_number": "15.04.04.3123.Touc.25.12.1.250723",
-      "product_name": "TouchWorks EHR",
-      "version": "2025",
-      "certification_date": "2025-07-23",
-      "certification_status": "Active",
-      "practice_type": null,
       "certified_criteria": [
         "170.315 (a)(1)",
         "170.315 (a)(12)",
@@ -161,13 +146,10 @@
       ]
     },
     {
+      "name": "Sunrise Acute Care",
+      "version": "25.1",
       "chpl_id": 11707,
       "chpl_product_number": "15.04.04.3123.Sunr.25.10.1.250905",
-      "product_name": "Sunrise Acute Care",
-      "version": "25.1",
-      "certification_date": "2025-09-05",
-      "certification_status": "Active",
-      "practice_type": null,
       "certified_criteria": [
         "170.315 (a)(1)",
         "170.315 (a)(12)",
@@ -217,13 +199,10 @@
       ]
     },
     {
+      "name": "Sunrise Acute Care for Hospital-based Providers",
+      "version": "25.1",
       "chpl_id": 11708,
       "chpl_product_number": "15.04.04.3123.Sunr.AH.12.1.250905",
-      "product_name": "Sunrise Acute Care for Hospital-based Providers",
-      "version": "25.1",
-      "certification_date": "2025-09-05",
-      "certification_status": "Active",
-      "practice_type": null,
       "certified_criteria": [
         "170.315 (a)(1)",
         "170.315 (a)(12)",
@@ -273,13 +252,10 @@
       ]
     },
     {
+      "name": "Sunrise Ambulatory Care",
+      "version": "25.1",
       "chpl_id": 11709,
       "chpl_product_number": "15.04.04.3123.Sunr.AM.12.1.250905",
-      "product_name": "Sunrise Ambulatory Care",
-      "version": "25.1",
-      "certification_date": "2025-09-05",
-      "certification_status": "Active",
-      "practice_type": null,
       "certified_criteria": [
         "170.315 (a)(1)",
         "170.315 (a)(12)",
@@ -327,13 +303,10 @@
       ]
     },
     {
+      "name": "Paragon\u00ae EHR",
+      "version": "25",
       "chpl_id": 11761,
       "chpl_product_number": "15.04.04.3123.Para.25.10.1.260202",
-      "product_name": "Paragon\u00ae EHR",
-      "version": "25",
-      "certification_date": "2026-02-02",
-      "certification_status": "Active",
-      "practice_type": null,
       "certified_criteria": [
         "170.315 (a)(1)",
         "170.315 (a)(12)",

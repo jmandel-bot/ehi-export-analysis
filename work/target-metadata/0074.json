@@ -1,39 +1,26 @@
 {
-  "url": "https://www.co.winnebago.wi.us/it-department/ehr-product-information#Structures",
+  "url": "https://www.ihie.org/wp-content/uploads/2024/05/170.315b10-Electronic-Health-Information-Export.pdf",
   "developer": {
-    "name": "Winnebago County Wisconsin",
-    "website": "http://www.co.winnebago.wi.us",
-    "contact_name": "Mike Breuer",
-    "contact_email": "mbreuer@co.winnebago.wi.us",
-    "contact_phone": "920-236-3476"
+    "name": "Indiana Health Information Exchange",
+    "website": "http://www.ihie.org"
   },
-  "sed_intended_user_description": "Physicians, nurses, and/or other heathcare/Health IT practitioners",
-  "mandatory_disclosures_url": "https://www.winnebagocountywi.gov/it-department/ehr-product-information",
+  "mandatory_disclosures_url": "",
+  "sed_intended_user_description": null,
   "products": [
     {
-      "chpl_id": 11530,
-      "chpl_product_number": "15.04.04.2940.Luna.01.00.1.241028",
-      "product_name": "Luna",
-      "version": "1.3",
-      "certification_date": "2024-10-28",
-      "certification_status": "Active",
-      "practice_type": null,
+      "name": "Notifiable Condition Detector",
+      "version": "2.1",
+      "chpl_id": 11261,
+      "chpl_product_number": "15.07.05.1674.IHIE.01.00.1.230330",
       "certified_criteria": [
-        "170.315 (a)(14)",
-        "170.315 (a)(2)",
-        "170.315 (a)(5)",
         "170.315 (b)(10)",
         "170.315 (d)(1)",
         "170.315 (d)(12)",
         "170.315 (d)(13)",
         "170.315 (d)(2)",
         "170.315 (d)(3)",
-        "170.315 (d)(4)",
-        "170.315 (d)(5)",
-        "170.315 (d)(6)",
         "170.315 (d)(7)",
-        "170.315 (d)(8)",
-        "170.315 (g)(3)",
+        "170.315 (f)(3)",
         "170.315 (g)(4)",
         "170.315 (g)(5)"
       ]

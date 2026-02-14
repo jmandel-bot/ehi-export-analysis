@@ -1,29 +1,21 @@
 {
-  "url": "https://mdinteractive.com/ecqm",
+  "url": "https://reportingmd.com/ehi-export-specifications/",
   "developer": {
-    "name": "MDinteractive",
-    "website": "https://mdinteractive.com/",
-    "contact_name": "Paulo Andre, MD",
-    "contact_email": "support@mdinteractive.com",
-    "contact_phone": "800-634-4731"
+    "name": "ReportingMD, Inc.",
+    "website": "https://reportingmd.com/"
   },
-  "sed_intended_user_description": "",
-  "mandatory_disclosures_url": "https://mdinteractive.com/ecqm",
+  "mandatory_disclosures_url": "",
+  "sed_intended_user_description": null,
   "products": [
     {
-      "chpl_id": 10691,
-      "chpl_product_number": "15.99.05.3080.MDIN.01.01.0.210924",
-      "product_name": "MDinteractive",
-      "version": "6",
-      "certification_date": "2021-09-24",
-      "certification_status": "Active",
-      "practice_type": null,
+      "name": "Total Outcomes Management (TOM)",
+      "version": "9.8",
+      "chpl_id": 10692,
+      "chpl_product_number": "15.02.05.2270.RPMD.01.02.0.210924",
       "certified_criteria": [
         "170.315 (b)(10)",
-        "170.315 (c)(1)",
         "170.315 (c)(2)",
         "170.315 (c)(3)",
-        "170.315 (c)(4)",
         "170.315 (d)(1)",
         "170.315 (d)(12)",
         "170.315 (d)(13)",

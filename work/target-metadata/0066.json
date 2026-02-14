@@ -1,38 +1,46 @@
 {
-  "url": "https://thegaragein.com/New/pdf/ExportDocumentation.pdf",
+  "url": "https://emr.vohrawoundteam.com/CompleteExport.html",
   "developer": {
-    "name": "Garage Solutions LLC",
-    "website": "https://www.thegaragein.com/",
-    "contact_name": "Jessica Robinson",
-    "contact_email": "jrobinson@thegaragein.com",
-    "contact_phone": "4077302286"
+    "name": "Vohra Wound Physicians Management, LLC",
+    "website": "https://www.vohraphysicians.com"
   },
-  "sed_intended_user_description": "",
-  "mandatory_disclosures_url": "https://thegaragein.com/New/pdf/Mandatory%20DIsclosure_Cost_Limitations_2024_BridgeeCQMv1.2.0.pdf",
+  "mandatory_disclosures_url": "",
+  "sed_intended_user_description": "Ambulatory",
   "products": [
     {
-      "chpl_id": 11429,
-      "chpl_product_number": "15.04.04.1520.Brid.05.01.0.231228",
-      "product_name": "Bridge eCQM",
-      "version": "v1.0.0",
-      "certification_date": "2023-12-28",
-      "certification_status": "Active",
-      "practice_type": null,
+      "name": "VHS Medical Documentation & Coding",
+      "version": "3.5",
+      "chpl_id": 9887,
+      "chpl_product_number": "15.04.04.2875.VHSM.35.00.1.181221",
       "certified_criteria": [
+        "170.315 (a)(12)",
+        "170.315 (a)(14)",
+        "170.315 (a)(2)",
+        "170.315 (a)(3)",
+        "170.315 (a)(5)",
+        "170.315 (b)(1)",
         "170.315 (b)(10)",
         "170.315 (c)(1)",
-        "170.315 (c)(2)",
-        "170.315 (c)(3)",
         "170.315 (d)(1)",
         "170.315 (d)(12)",
         "170.315 (d)(13)",
         "170.315 (d)(2)",
         "170.315 (d)(3)",
+        "170.315 (d)(4)",
         "170.315 (d)(5)",
+        "170.315 (d)(6)",
         "170.315 (d)(7)",
+        "170.315 (d)(8)",
         "170.315 (d)(9)",
+        "170.315 (e)(1)",
+        "170.315 (g)(10)",
+        "170.315 (g)(2)",
+        "170.315 (g)(3)",
         "170.315 (g)(4)",
-        "170.315 (g)(5)"
+        "170.315 (g)(5)",
+        "170.315 (g)(6)",
+        "170.315 (g)(7)",
+        "170.315 (g)(9)"
       ]
     }
   ]

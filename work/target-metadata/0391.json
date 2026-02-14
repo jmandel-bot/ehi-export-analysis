@@ -1,24 +1,21 @@
 {
-  "url": "https://www.communitycarelink.com/data-extract",
+  "url": "https://www.clinicaldata.org/mandatory-disclosures/",
   "developer": {
-    "name": "First Call Technologies, LLC DBA Community CareLink",
-    "website": "https://www.communitycarelink.com/",
-    "contact_name": "Dale Gray",
-    "contact_email": "IT@communitycarelink.com",
-    "contact_phone": "816-361-5900"
+    "name": "Clinical Data Solutions",
+    "website": "https://www.clinicaldata.org/"
   },
-  "sed_intended_user_description": "Therapist, Case Manager",
-  "mandatory_disclosures_url": "https://communitycarelink.com/onc-documentation/",
+  "mandatory_disclosures_url": "",
+  "sed_intended_user_description": "Current users of TCM at various customer sites",
   "products": [
     {
-      "chpl_id": 9281,
-      "chpl_product_number": "15.04.04.1491.Comm.35.00.0.171231",
-      "product_name": "Community CareLink",
-      "version": "3.5",
-      "certification_date": "2017-12-31",
-      "certification_status": "Active",
-      "practice_type": null,
+      "name": "The Clinical Manager",
+      "version": "2023.01.01",
+      "chpl_id": 11280,
+      "chpl_product_number": "15.04.04.2932.TheC.23.00.1.230414",
       "certified_criteria": [
+        "170.315 (a)(1)",
+        "170.315 (a)(12)",
+        "170.315 (a)(4)",
         "170.315 (a)(5)",
         "170.315 (b)(10)",
         "170.315 (d)(1)",
@@ -30,6 +27,7 @@
         "170.315 (d)(5)",
         "170.315 (d)(6)",
         "170.315 (d)(7)",
+        "170.315 (d)(8)",
         "170.315 (g)(3)",
         "170.315 (g)(4)",
         "170.315 (g)(5)"

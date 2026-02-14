@@ -1,23 +1,17 @@
 {
-  "url": "https://vertexdr.com",
+  "url": "https://www.curemd.com/ehi-export.asp",
   "developer": {
-    "name": "Meridian Medical Management",
-    "website": "https://vertexdr.com/",
-    "contact_name": "Nate Beaudry",
-    "contact_email": "nate.beaudry@carecloud.com",
-    "contact_phone": "860.785.6266"
+    "name": "CureMD.com, Inc.",
+    "website": "https://www.curemd.com/"
   },
-  "sed_intended_user_description": "Clinical Staff",
-  "mandatory_disclosures_url": "https://vertexdr.com/",
+  "mandatory_disclosures_url": "",
+  "sed_intended_user_description": "Ambulatory Physicians, Nurses and Administrative Staff Members",
   "products": [
     {
-      "chpl_id": 11002,
-      "chpl_product_number": "15.04.04.2112.Vert.09.01.1.221024",
-      "product_name": "VertexDr",
-      "version": "9.1",
-      "certification_date": "2022-10-24",
-      "certification_status": "Active",
-      "practice_type": null,
+      "name": "CureMD SMART Cloud",
+      "version": "10g",
+      "chpl_id": 11246,
+      "chpl_product_number": "15.07.04.2706.CURE.10.01.1.230302",
       "certified_criteria": [
         "170.315 (a)(1)",
         "170.315 (a)(12)",
@@ -34,6 +28,7 @@
         "170.315 (c)(1)",
         "170.315 (c)(2)",
         "170.315 (c)(3)",
+        "170.315 (c)(4)",
         "170.315 (d)(1)",
         "170.315 (d)(12)",
         "170.315 (d)(13)",
@@ -48,7 +43,10 @@
         "170.315 (e)(1)",
         "170.315 (e)(3)",
         "170.315 (f)(1)",
-        "170.315 (f)(3)",
+        "170.315 (f)(2)",
+        "170.315 (f)(4)",
+        "170.315 (f)(5)",
+        "170.315 (f)(7)",
         "170.315 (g)(10)",
         "170.315 (g)(2)",
         "170.315 (g)(3)",
@@ -56,7 +54,8 @@
         "170.315 (g)(5)",
         "170.315 (g)(6)",
         "170.315 (g)(7)",
-        "170.315 (g)(9)"
+        "170.315 (g)(9)",
+        "170.315 (h)(1)"
       ]
     }
   ]

@@ -1,41 +1,19 @@
 {
-  "url": "https://nextservices.com/enki-ehr-certification-details/",
+  "url": "https://his.medvantage.tech/static/media/ElectronicHealthInformationExport(Cures)Documentation.611db6cc4e7ae051986f.pdf",
   "developer": {
-    "name": "NextServices, Inc.",
-    "website": "https://nextservices.com",
-    "contact_name": "Vikant Shah",
-    "contact_email": "vshah@nextservices.com",
-    "contact_phone": "7348002939"
+    "name": "CRITERION TECH PRIVATE LIMITED",
+    "website": "https://criteriontechnologies.com/"
   },
-  "sed_intended_user_description": "Outpatient Clinic",
-  "mandatory_disclosures_url": "https://nextservices.com/enki-ehr-certification-details/",
+  "mandatory_disclosures_url": "",
+  "sed_intended_user_description": "Health Care Facilities and Individuals",
   "products": [
     {
-      "chpl_id": 11372,
-      "chpl_product_number": "15.04.04.2911.enki.03.02.1.231122",
-      "product_name": "enki EHR",
-      "version": "3.0.2",
-      "certification_date": "2023-11-22",
-      "certification_status": "Active",
-      "practice_type": null,
+      "name": "Medvantage",
+      "version": "1.0",
+      "chpl_id": 11369,
+      "chpl_product_number": "15.11.09.3177.MedV.01.00.0.231121",
       "certified_criteria": [
-        "170.315 (a)(1)",
-        "170.315 (a)(12)",
-        "170.315 (a)(14)",
-        "170.315 (a)(15)",
-        "170.315 (a)(2)",
-        "170.315 (a)(3)",
-        "170.315 (a)(4)",
-        "170.315 (a)(5)",
-        "170.315 (b)(1)",
         "170.315 (b)(10)",
-        "170.315 (b)(11)",
-        "170.315 (b)(2)",
-        "170.315 (b)(3)",
-        "170.315 (c)(1)",
-        "170.315 (c)(2)",
-        "170.315 (c)(3)",
-        "170.315 (c)(4)",
         "170.315 (d)(1)",
         "170.315 (d)(12)",
         "170.315 (d)(13)",
@@ -46,19 +24,8 @@
         "170.315 (d)(6)",
         "170.315 (d)(7)",
         "170.315 (d)(8)",
-        "170.315 (d)(9)",
-        "170.315 (e)(1)",
-        "170.315 (e)(3)",
-        "170.315 (f)(1)",
-        "170.315 (f)(2)",
-        "170.315 (g)(2)",
-        "170.315 (g)(3)",
         "170.315 (g)(4)",
-        "170.315 (g)(5)",
-        "170.315 (g)(6)",
-        "170.315 (g)(7)",
-        "170.315 (g)(9)",
-        "170.315 (h)(1)"
+        "170.315 (g)(5)"
       ]
     }
   ]

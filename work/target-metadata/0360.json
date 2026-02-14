@@ -1,37 +1,19 @@
 {
-  "url": "https://www.intrinsiq.com/-/media/assets/intrinsiq/pdf/PHI_Data_Extract.pdf",
+  "url": "https://ablehealth.elevio.help/en/articles/111633",
   "developer": {
-    "name": "IntrinsiQ Specialty Solutions, Inc. FBO Healthtronics Information Technology Solutions Inc.",
-    "website": "http://www.intrinsiq.com",
-    "contact_name": "Mary Brunson",
-    "contact_email": "mary.brunson@intrinsiq.com",
-    "contact_phone": "(877) 570-8721"
+    "name": "Health Catalyst, Inc.",
+    "website": "http://www.healthcatalyst.com"
   },
-  "sed_intended_user_description": "Clinicians",
-  "mandatory_disclosures_url": "https://www.intrinsiq.com/-/media/assets/intrinsiq/pdf/urochart-mandatory-disclosures/mandatorydisclosures_urochartehr.pdf",
+  "mandatory_disclosures_url": "",
+  "sed_intended_user_description": null,
   "products": [
     {
-      "chpl_id": 11138,
-      "chpl_product_number": "15.04.04.2978.UroC.09.10.1.221222",
-      "product_name": "UroChart EHR",
-      "version": "9.0",
-      "certification_date": "2022-12-22",
-      "certification_status": "Active",
-      "practice_type": null,
+      "name": "MeasureAble",
+      "version": "1.0.0",
+      "chpl_id": 11444,
+      "chpl_product_number": "15.04.04.3034.Meas.01.00.0.240122",
       "certified_criteria": [
-        "170.315 (a)(1)",
-        "170.315 (a)(12)",
-        "170.315 (a)(14)",
-        "170.315 (a)(15)",
-        "170.315 (a)(2)",
-        "170.315 (a)(3)",
-        "170.315 (a)(4)",
-        "170.315 (a)(5)",
-        "170.315 (b)(1)",
         "170.315 (b)(10)",
-        "170.315 (b)(11)",
-        "170.315 (b)(2)",
-        "170.315 (b)(3)",
         "170.315 (c)(1)",
         "170.315 (c)(2)",
         "170.315 (c)(3)",
@@ -40,24 +22,11 @@
         "170.315 (d)(13)",
         "170.315 (d)(2)",
         "170.315 (d)(3)",
-        "170.315 (d)(4)",
         "170.315 (d)(5)",
-        "170.315 (d)(6)",
         "170.315 (d)(7)",
-        "170.315 (d)(8)",
         "170.315 (d)(9)",
-        "170.315 (e)(1)",
-        "170.315 (e)(3)",
-        "170.315 (f)(4)",
-        "170.315 (f)(5)",
-        "170.315 (f)(7)",
-        "170.315 (g)(2)",
-        "170.315 (g)(3)",
         "170.315 (g)(4)",
-        "170.315 (g)(5)",
-        "170.315 (g)(6)",
-        "170.315 (g)(7)",
-        "170.315 (g)(9)"
+        "170.315 (g)(5)"
       ]
     }
   ]

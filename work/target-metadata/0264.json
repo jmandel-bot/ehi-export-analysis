@@ -1,50 +1,31 @@
 {
-  "url": "https://www.atipt.com/ehi-export-information/",
+  "url": "https://www.medhost.com/about-us/regulatory-and-compliance/",
   "developer": {
-    "name": "ATI Holdings LLC, DBA ATI Physical Therapy",
-    "website": "https://www.atipt.com",
-    "contact_name": "Kris Venchus",
-    "contact_email": "kris.venchus@atipt.com",
-    "contact_phone": "855-692-8478"
+    "name": "MEDHOST",
+    "website": "https://www.medhost.com"
   },
-  "sed_intended_user_description": "Physical Therapy Clinicians",
-  "mandatory_disclosures_url": "https://www.atipt.com/onc-disclosures/",
+  "mandatory_disclosures_url": "",
+  "sed_intended_user_description": null,
   "products": [
     {
-      "chpl_id": 11740,
-      "chpl_product_number": "15.04.04.3251.ATIE.01.00.1.251230",
-      "product_name": "ATI EHR",
-      "version": "1.0",
-      "certification_date": "2025-12-30",
-      "certification_status": "Active",
-      "practice_type": null,
+      "name": "MEDHOST Business Intelligence",
+      "version": "v6.7",
+      "chpl_id": 11736,
+      "chpl_product_number": "15.04.04.2788.MEDH.06.17.0.251219",
       "certified_criteria": [
-        "170.315 (a)(12)",
-        "170.315 (a)(14)",
-        "170.315 (a)(3)",
-        "170.315 (a)(5)",
-        "170.315 (b)(1)",
         "170.315 (b)(10)",
-        "170.315 (b)(11)",
-        "170.315 (b)(2)",
         "170.315 (c)(1)",
+        "170.315 (c)(2)",
+        "170.315 (c)(3)",
         "170.315 (d)(1)",
         "170.315 (d)(12)",
         "170.315 (d)(13)",
         "170.315 (d)(2)",
         "170.315 (d)(3)",
-        "170.315 (d)(4)",
         "170.315 (d)(5)",
-        "170.315 (d)(6)",
-        "170.315 (d)(7)",
-        "170.315 (d)(8)",
-        "170.315 (d)(9)",
         "170.315 (g)(2)",
-        "170.315 (g)(3)",
         "170.315 (g)(4)",
-        "170.315 (g)(5)",
-        "170.315 (g)(6)",
-        "170.315 (h)(1)"
+        "170.315 (g)(5)"
       ]
     }
   ]

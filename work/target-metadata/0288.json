@@ -1,28 +1,27 @@
 {
-  "url": "https://drfirst.com/privacy-policy/ehi-export/",
+  "url": "https://www.skilledwoundcare.com/ehiexport",
   "developer": {
-    "name": "DrFirst",
-    "website": "http://www.drfirst.com",
-    "contact_name": "Tyler Higgins",
-    "contact_email": "thiggins@drfirst.com",
-    "contact_phone": "301-231-9510"
+    "name": "Skilled Wound Care",
+    "website": "https://www.skilledwoundcare.com"
   },
-  "sed_intended_user_description": "Hospital or Clinic",
-  "mandatory_disclosures_url": "http://www.drfirst.com/privacy-policy/",
+  "mandatory_disclosures_url": "",
+  "sed_intended_user_description": "Ambulatory",
   "products": [
     {
-      "chpl_id": 9207,
-      "chpl_product_number": "15.04.04.1375.Rcop.04.00.0.171227",
-      "product_name": "Rcopia",
-      "version": "4",
-      "certification_date": "2017-12-27",
-      "certification_status": "Active",
-      "practice_type": null,
+      "name": "Treasure EHR",
+      "version": "5.0.1",
+      "chpl_id": 11266,
+      "chpl_product_number": "15.04.04.3055.Trea.05.01.1.230324",
       "certified_criteria": [
-        "170.315 (a)(1)",
-        "170.315 (a)(4)",
+        "170.315 (a)(12)",
+        "170.315 (a)(14)",
+        "170.315 (a)(2)",
+        "170.315 (a)(5)",
+        "170.315 (a)(9)",
+        "170.315 (b)(1)",
         "170.315 (b)(10)",
-        "170.315 (b)(3)",
+        "170.315 (b)(2)",
+        "170.315 (c)(1)",
         "170.315 (d)(1)",
         "170.315 (d)(12)",
         "170.315 (d)(13)",
@@ -33,10 +32,15 @@
         "170.315 (d)(6)",
         "170.315 (d)(7)",
         "170.315 (d)(8)",
+        "170.315 (d)(9)",
+        "170.315 (e)(1)",
         "170.315 (g)(2)",
         "170.315 (g)(3)",
         "170.315 (g)(4)",
-        "170.315 (g)(5)"
+        "170.315 (g)(5)",
+        "170.315 (g)(6)",
+        "170.315 (g)(7)",
+        "170.315 (g)(9)"
       ]
     }
   ]

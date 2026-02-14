@@ -1,27 +1,27 @@
 {
-  "url": "https://app.box.com/s/rxi2lmsrjfhrb80o68a9dpdo6usys8ms",
+  "url": "https://8759937.fs1.hubspotusercontent-na1.net/hubfs/8759937/Perform%2B_Regulatory_Certificate/PERFORM%2B_B10_Certification_Workflow_V1.2.pdf",
   "developer": {
-    "name": "Curis Partners LLC",
-    "website": "https://www.curispartners.com",
-    "contact_name": "Ronald Molloy",
-    "contact_email": "rmolloy@curispartners.com",
-    "contact_phone": "203-536-3728"
+    "name": "CitiusTech, Inc.",
+    "website": "https://www.citiustech.com/"
   },
-  "sed_intended_user_description": "",
-  "mandatory_disclosures_url": "https://housecallos.com/onc-certification-details/",
+  "mandatory_disclosures_url": "",
+  "sed_intended_user_description": null,
   "products": [
     {
-      "chpl_id": 11744,
-      "chpl_product_number": "15.04.04.3252.Hous.01.00.0.251230",
-      "product_name": "HousecallOS",
-      "version": "V1",
-      "certification_date": "2025-12-30",
-      "certification_status": "Active",
-      "practice_type": null,
+      "name": "Perform+",
+      "version": "25.3",
+      "chpl_id": 11705,
+      "chpl_product_number": "15.04.04.2694.BICL.25.11.0.251010",
       "certified_criteria": [
         "170.315 (b)(10)",
+        "170.315 (c)(2)",
+        "170.315 (c)(3)",
+        "170.315 (d)(1)",
         "170.315 (d)(12)",
         "170.315 (d)(13)",
+        "170.315 (d)(2)",
+        "170.315 (d)(3)",
+        "170.315 (d)(5)",
         "170.315 (g)(4)",
         "170.315 (g)(5)"
       ]

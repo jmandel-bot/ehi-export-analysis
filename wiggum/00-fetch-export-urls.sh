@@ -38,12 +38,12 @@ fi
 
 # Step 2: Extract b(10) export URLs and build targets.json
 echo "Extracting b(10) export documentation URLs..."
-python3 << 'PY'
-import json, sys
+BULK_FILE="$BULK_FILE" WORK_DIR="$WORK_DIR" python3 << 'PY'
+import json, sys, os
 from collections import defaultdict
 
-bulk_file = sys.argv[1]
-work_dir = sys.argv[2]
+bulk_file = os.environ['BULK_FILE']
+work_dir = os.environ['WORK_DIR']
 
 with open(bulk_file) as f:
     listings = json.load(f)
@@ -111,4 +111,3 @@ with open(f"{work_dir}/all-export-urls.json", 'w') as f:
 print(f"\nSaved {work_dir}/targets.json ({len(targets)} targets)")
 print(f"Saved {work_dir}/all-export-urls.json ({len(results)} products)")
 PY
-  "$BULK_FILE" "$WORK_DIR"

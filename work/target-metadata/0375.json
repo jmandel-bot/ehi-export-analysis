@@ -1,34 +1,49 @@
 {
-  "url": "https://www.inovalon.com/ehi-export/?src=vigilanz",
+  "url": "https://app.zoobooksystems.com/EHIexportDocumentation",
   "developer": {
-    "name": "VigiLanz Corporation",
-    "website": "https://www.inovalon.com/",
-    "contact_name": "Arlene Medina",
-    "contact_email": "amedina@vigilanzcorp.com",
-    "contact_phone": "708-948-7254"
+    "name": "Zoobook Systems LLC",
+    "website": "https://www.zoobooksystems.com"
   },
-  "sed_intended_user_description": "",
-  "mandatory_disclosures_url": "https://www.inovalon.com/products/provider-cloud/care-management/pharmacy-surveillance/?src=vigilanz",
+  "mandatory_disclosures_url": "",
+  "sed_intended_user_description": "Behavioral and Mental Health Clinical Staff",
   "products": [
     {
-      "chpl_id": 11319,
-      "chpl_product_number": "15.04.04.2953.Dyna.17.01.0.230623",
-      "product_name": "VigiLanz Corporation",
-      "version": "2020",
-      "certification_date": "2023-06-23",
-      "certification_status": "Active",
-      "practice_type": null,
+      "name": "Zoobook EHR",
+      "version": "2.0",
+      "chpl_id": 9268,
+      "chpl_product_number": "15.04.04.3008.Zoob.02.00.1.171231",
       "certified_criteria": [
+        "170.315 (a)(1)",
+        "170.315 (a)(12)",
+        "170.315 (a)(14)",
+        "170.315 (a)(4)",
+        "170.315 (a)(5)",
+        "170.315 (b)(1)",
         "170.315 (b)(10)",
+        "170.315 (b)(11)",
+        "170.315 (c)(1)",
+        "170.315 (c)(2)",
+        "170.315 (c)(3)",
+        "170.315 (c)(4)",
         "170.315 (d)(1)",
         "170.315 (d)(12)",
         "170.315 (d)(13)",
         "170.315 (d)(2)",
         "170.315 (d)(3)",
+        "170.315 (d)(4)",
+        "170.315 (d)(5)",
+        "170.315 (d)(6)",
         "170.315 (d)(7)",
-        "170.315 (f)(6)",
+        "170.315 (d)(8)",
+        "170.315 (d)(9)",
+        "170.315 (g)(10)",
+        "170.315 (g)(3)",
         "170.315 (g)(4)",
-        "170.315 (g)(5)"
+        "170.315 (g)(5)",
+        "170.315 (g)(6)",
+        "170.315 (g)(7)",
+        "170.315 (g)(9)",
+        "170.315 (h)(1)"
       ]
     }
   ]

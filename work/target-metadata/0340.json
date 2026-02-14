@@ -1,28 +1,20 @@
 {
-  "url": "https://broadstreetcare.com/docs/ehi-export",
+  "url": "https://www.ntst.com/lp/certifications/ehi-all-data-gehrimed",
   "developer": {
-    "name": "BroadStreet Health LLC",
-    "website": "https://www.broadstreetcare.com",
-    "contact_name": "Laura Ivanoski",
-    "contact_email": "laura@washsense.com",
-    "contact_phone": "800-803-3309"
+    "name": "Netsmart Technologies",
+    "website": "https://www.ntst.com/"
   },
-  "sed_intended_user_description": "Post Acute and Community-based health providers.",
-  "mandatory_disclosures_url": "https://broadstreetcare.com/onc-health-it-certification",
+  "mandatory_disclosures_url": "",
+  "sed_intended_user_description": "LTPAC clinicians and support staff",
   "products": [
     {
-      "chpl_id": 11410,
-      "chpl_product_number": "15.05.05.3161.BRDS.01.00.1.231222",
-      "product_name": "BroadStreet",
-      "version": "1",
-      "certification_date": "2023-12-22",
-      "certification_status": "Active",
-      "practice_type": null,
+      "name": "GEHRIMED",
+      "version": "v.4.3",
+      "chpl_id": 11136,
+      "chpl_product_number": "15.04.04.2816.gEHR.04.03.1.221227",
       "certified_criteria": [
-        "170.315 (a)(1)",
         "170.315 (a)(12)",
         "170.315 (a)(14)",
-        "170.315 (a)(15)",
         "170.315 (a)(2)",
         "170.315 (a)(3)",
         "170.315 (a)(5)",
@@ -30,10 +22,6 @@
         "170.315 (b)(10)",
         "170.315 (b)(11)",
         "170.315 (b)(2)",
-        "170.315 (c)(1)",
-        "170.315 (c)(2)",
-        "170.315 (c)(3)",
-        "170.315 (c)(4)",
         "170.315 (d)(1)",
         "170.315 (d)(12)",
         "170.315 (d)(13)",
@@ -47,6 +35,7 @@
         "170.315 (d)(9)",
         "170.315 (e)(1)",
         "170.315 (e)(3)",
+        "170.315 (f)(5)",
         "170.315 (g)(10)",
         "170.315 (g)(2)",
         "170.315 (g)(3)",
@@ -54,8 +43,7 @@
         "170.315 (g)(5)",
         "170.315 (g)(6)",
         "170.315 (g)(7)",
-        "170.315 (g)(9)",
-        "170.315 (h)(1)"
+        "170.315 (g)(9)"
       ]
     }
   ]

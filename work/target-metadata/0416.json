@@ -1,32 +1,52 @@
 {
-  "url": "https://iatric.com/meaningful-use/haystack-is-product-certification/",
+  "url": "https://www.eyemdemr.com/compliance/fhir/",
   "developer": {
-    "name": "Iatric Systems, Inc",
-    "website": "https://iatric.com/",
-    "contact_name": "Amy McKee",
-    "contact_email": "amy.mckee@iatric.com",
-    "contact_phone": "978 805 4100, x84047"
+    "name": "EyeMD EMR Healthcare Systems, Inc.",
+    "website": "http://www.eyemdemr.com"
   },
-  "sed_intended_user_description": "",
-  "mandatory_disclosures_url": "https://iatric.com/meaningful-use/haystack-is-product-certification/",
+  "mandatory_disclosures_url": "",
+  "sed_intended_user_description": "Ophthalmology and Optometry Clinics",
   "products": [
     {
-      "chpl_id": 10614,
-      "chpl_product_number": "15.05.05.2760.HSiS.01.00.0.210426",
-      "product_name": "Haystack iS",
-      "version": "1.0",
-      "certification_date": "2021-04-26",
-      "certification_status": "Active",
-      "practice_type": null,
+      "name": "EyeMD Electronic Medical Records",
+      "version": "Version 2",
+      "chpl_id": 9988,
+      "chpl_product_number": "15.04.04.2725.EyeM.02.00.1.190501",
       "certified_criteria": [
+        "170.315 (a)(1)",
+        "170.315 (a)(12)",
+        "170.315 (a)(14)",
+        "170.315 (a)(2)",
+        "170.315 (a)(3)",
+        "170.315 (a)(4)",
+        "170.315 (a)(5)",
+        "170.315 (b)(1)",
         "170.315 (b)(10)",
+        "170.315 (b)(11)",
+        "170.315 (b)(2)",
+        "170.315 (b)(3)",
         "170.315 (d)(1)",
         "170.315 (d)(12)",
         "170.315 (d)(13)",
+        "170.315 (d)(2)",
         "170.315 (d)(3)",
+        "170.315 (d)(4)",
         "170.315 (d)(5)",
+        "170.315 (d)(6)",
+        "170.315 (d)(7)",
+        "170.315 (d)(8)",
+        "170.315 (d)(9)",
+        "170.315 (e)(1)",
+        "170.315 (e)(3)",
+        "170.315 (g)(10)",
+        "170.315 (g)(2)",
+        "170.315 (g)(3)",
         "170.315 (g)(4)",
-        "170.315 (g)(5)"
+        "170.315 (g)(5)",
+        "170.315 (g)(6)",
+        "170.315 (g)(7)",
+        "170.315 (g)(9)",
+        "170.315 (h)(1)"
       ]
     }
   ]

@@ -1,29 +1,35 @@
 {
-  "url": "https://www.dawsystems.com/eprescribing.html",
+  "url": "https://nextservices.com/enki-ehr-certification-details/",
   "developer": {
-    "name": "DAW SYSTEMS, INC.",
-    "website": "http://www.dawsystems.com/",
-    "contact_name": "Aaron Forman, CTO",
-    "contact_email": "support@dawsystems.com",
-    "contact_phone": "866-755-1500"
+    "name": "NextServices, Inc.",
+    "website": "https://nextservices.com"
   },
-  "sed_intended_user_description": "AMBULATORY OFFICE",
-  "mandatory_disclosures_url": "https://dawsystems.com/mandatory-disclosures",
+  "mandatory_disclosures_url": "",
+  "sed_intended_user_description": "Outpatient Clinic",
   "products": [
     {
-      "chpl_id": 11366,
-      "chpl_product_number": "15.04.04.2919.Scri.03.02.0.231102",
-      "product_name": "ScriptSure Cloud",
-      "version": "3.0",
-      "certification_date": "2023-11-02",
-      "certification_status": "Active",
-      "practice_type": null,
+      "name": "enki EHR",
+      "version": "3.0.2",
+      "chpl_id": 11372,
+      "chpl_product_number": "15.04.04.2911.enki.03.02.1.231122",
       "certified_criteria": [
         "170.315 (a)(1)",
+        "170.315 (a)(12)",
+        "170.315 (a)(14)",
+        "170.315 (a)(15)",
+        "170.315 (a)(2)",
+        "170.315 (a)(3)",
         "170.315 (a)(4)",
         "170.315 (a)(5)",
+        "170.315 (b)(1)",
         "170.315 (b)(10)",
+        "170.315 (b)(11)",
+        "170.315 (b)(2)",
         "170.315 (b)(3)",
+        "170.315 (c)(1)",
+        "170.315 (c)(2)",
+        "170.315 (c)(3)",
+        "170.315 (c)(4)",
         "170.315 (d)(1)",
         "170.315 (d)(12)",
         "170.315 (d)(13)",
@@ -34,10 +40,19 @@
         "170.315 (d)(6)",
         "170.315 (d)(7)",
         "170.315 (d)(8)",
+        "170.315 (d)(9)",
+        "170.315 (e)(1)",
+        "170.315 (e)(3)",
+        "170.315 (f)(1)",
+        "170.315 (f)(2)",
         "170.315 (g)(2)",
         "170.315 (g)(3)",
         "170.315 (g)(4)",
-        "170.315 (g)(5)"
+        "170.315 (g)(5)",
+        "170.315 (g)(6)",
+        "170.315 (g)(7)",
+        "170.315 (g)(9)",
+        "170.315 (h)(1)"
       ]
     }
   ]

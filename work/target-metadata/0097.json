@@ -1,28 +1,23 @@
 {
-  "url": "https://www.cgm.com/usa_en/products/electronic-health-records/mips-dashboard/cgm-measures.html",
+  "url": "https://unislinka366.blob.core.windows.net/unislink-file-repo/ehi/ehi_export_model_v1.html",
   "developer": {
-    "name": "CompuGroup Medical US",
-    "website": "https://www.cgm.com/us",
-    "contact_name": "Sam Frank",
-    "contact_email": "sfrank@emds.com",
-    "contact_phone": "(512) 579-5879"
+    "name": "UnisLink",
+    "website": "http://www.unislink.com"
   },
-  "sed_intended_user_description": "",
-  "mandatory_disclosures_url": "https://www.cgm.com/usa_en/products/electronic-health-records/mips-dashboard/cgm-measures.html",
+  "mandatory_disclosures_url": "",
+  "sed_intended_user_description": null,
   "products": [
     {
-      "chpl_id": 11343,
-      "chpl_product_number": "15.02.04.2700.MEAS.23.02.1.230911",
-      "product_name": "CGM MEASURES",
-      "version": "2023.1",
-      "certification_date": "2023-09-11",
-      "certification_status": "Active",
-      "practice_type": null,
+      "name": "UnisLink iCMS (Intelligent Care Management Suite)",
+      "version": "3",
+      "chpl_id": 10699,
+      "chpl_product_number": "15.02.05.2942.UNIL.01.02.0.211008",
       "certified_criteria": [
         "170.315 (b)(10)",
         "170.315 (c)(1)",
         "170.315 (c)(2)",
         "170.315 (c)(3)",
+        "170.315 (c)(4)",
         "170.315 (d)(1)",
         "170.315 (d)(12)",
         "170.315 (d)(13)",

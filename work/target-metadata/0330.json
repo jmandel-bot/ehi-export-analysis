@@ -1,40 +1,33 @@
 {
-  "url": "https://www.patientfirst.com/mandatory-disclosure-for-ehr",
+  "url": "https://www.axeium.com/EHI",
   "developer": {
-    "name": "Patient First",
-    "website": "https://www.PatientFirst.com",
-    "contact_name": "Rhonda Beckner",
-    "contact_email": "rhonda.beckner@patientfirst.com",
-    "contact_phone": "(804) 822-4337"
+    "name": "Brilogy Corporation",
+    "website": "https://www.axeium.com"
   },
-  "sed_intended_user_description": "Clinical and non-clinical health care staff",
-  "mandatory_disclosures_url": "https://www.patientfirst.com/mandatory-disclosure-for-ehr",
+  "mandatory_disclosures_url": "",
+  "sed_intended_user_description": null,
   "products": [
     {
-      "chpl_id": 11065,
-      "chpl_product_number": "15.04.04.2140.PAS1.15.02.1.221212",
-      "product_name": "PAS",
-      "version": "2015.0.0.1",
-      "certification_date": "2022-12-12",
-      "certification_status": "Active",
-      "practice_type": null,
+      "name": "AXEIUM",
+      "version": "MU3",
+      "chpl_id": 11086,
+      "chpl_product_number": "15.05.05.1171.BRIL.02.01.1.221219",
       "certified_criteria": [
-        "170.315 (a)(1)",
         "170.315 (a)(12)",
         "170.315 (a)(14)",
         "170.315 (a)(2)",
         "170.315 (a)(3)",
-        "170.315 (a)(4)",
         "170.315 (a)(5)",
         "170.315 (b)(1)",
         "170.315 (b)(10)",
         "170.315 (b)(11)",
         "170.315 (b)(2)",
-        "170.315 (b)(3)",
         "170.315 (c)(1)",
         "170.315 (c)(2)",
         "170.315 (c)(3)",
         "170.315 (d)(1)",
+        "170.315 (d)(10)",
+        "170.315 (d)(11)",
         "170.315 (d)(12)",
         "170.315 (d)(13)",
         "170.315 (d)(2)",
@@ -46,16 +39,14 @@
         "170.315 (d)(8)",
         "170.315 (d)(9)",
         "170.315 (e)(1)",
-        "170.315 (f)(1)",
-        "170.315 (f)(2)",
         "170.315 (g)(10)",
-        "170.315 (g)(2)",
         "170.315 (g)(3)",
         "170.315 (g)(4)",
         "170.315 (g)(5)",
         "170.315 (g)(6)",
         "170.315 (g)(7)",
-        "170.315 (g)(9)"
+        "170.315 (g)(9)",
+        "170.315 (h)(1)"
       ]
     }
   ]

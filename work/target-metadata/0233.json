@@ -1,27 +1,19 @@
 {
-  "url": "https://www.woundcharts.net/documents/data_dictionary_and_export_file_formats.pdf",
+  "url": "https://truercm.com/about-us/ehi-export",
   "developer": {
-    "name": "Wound Therapeutics, LLC",
-    "website": "https://woundcharts.com/",
-    "contact_name": "Dr. Fernando Torres",
-    "contact_email": "drtorres@woundcharts.com",
-    "contact_phone": "407-990-5022"
+    "name": "True RCM",
+    "website": "https://www.truercm.com"
   },
-  "sed_intended_user_description": "",
-  "mandatory_disclosures_url": "https://www.woundcharts.net/documentation",
+  "mandatory_disclosures_url": "",
+  "sed_intended_user_description": null,
   "products": [
     {
-      "chpl_id": 11692,
-      "chpl_product_number": "15.11.09.3238.WDCH.03.00.1.250908",
-      "product_name": "Wound Charts",
-      "version": "3",
-      "certification_date": "2025-09-08",
-      "certification_status": "Active",
-      "practice_type": null,
+      "name": "TrueRCM EHR",
+      "version": "v1.0",
+      "chpl_id": 11691,
+      "chpl_product_number": "15.04.04.3237.True.01.00.0.250902",
       "certified_criteria": [
         "170.315 (b)(10)",
-        "170.315 (d)(12)",
-        "170.315 (d)(13)",
         "170.315 (g)(4)",
         "170.315 (g)(5)"
       ]

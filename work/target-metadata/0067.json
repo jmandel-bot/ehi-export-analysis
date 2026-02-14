@@ -1,35 +1,29 @@
 {
-  "url": "https://www.aitmed.com/onc-certifications-costs",
+  "url": "https://thegaragein.com/New/pdf/ExportDocumentation.pdf",
   "developer": {
-    "name": "AiTmed Inc.",
-    "website": "https://www.aitmed.com/",
-    "contact_name": "Melody Li",
-    "contact_email": "Melodyli@aitmed.com",
-    "contact_phone": "213-259-5182"
+    "name": "Garage Solutions LLC",
+    "website": "https://www.thegaragein.com/"
   },
-  "sed_intended_user_description": "",
-  "mandatory_disclosures_url": "https://www.aitmed.com/onc-certifications-costs",
+  "mandatory_disclosures_url": "",
+  "sed_intended_user_description": null,
   "products": [
     {
-      "chpl_id": 11036,
-      "chpl_product_number": "15.05.05.3128.AITM.01.00.0.221201",
-      "product_name": "AiTmed Telehealth System",
-      "version": "2.0",
-      "certification_date": "2022-12-01",
-      "certification_status": "Active",
-      "practice_type": null,
+      "name": "Bridge eCQM",
+      "version": "v1.0.0",
+      "chpl_id": 11429,
+      "chpl_product_number": "15.04.04.1520.Brid.05.01.0.231228",
       "certified_criteria": [
         "170.315 (b)(10)",
+        "170.315 (c)(1)",
+        "170.315 (c)(2)",
+        "170.315 (c)(3)",
         "170.315 (d)(1)",
         "170.315 (d)(12)",
         "170.315 (d)(13)",
         "170.315 (d)(2)",
         "170.315 (d)(3)",
-        "170.315 (d)(4)",
         "170.315 (d)(5)",
-        "170.315 (d)(6)",
         "170.315 (d)(7)",
-        "170.315 (d)(8)",
         "170.315 (d)(9)",
         "170.315 (g)(4)",
         "170.315 (g)(5)"

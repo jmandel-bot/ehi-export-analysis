@@ -1,23 +1,17 @@
 {
-  "url": "https://blueehr.com/certifications-and-costs/",
+  "url": "https://drsdoc.com/DataExport",
   "developer": {
-    "name": "ZH Healthcare, Inc.",
-    "website": "https://blueehr.com/",
-    "contact_name": "Mohammed Shahzad",
-    "contact_email": "shah@bluebrix.health",
-    "contact_phone": "703-340-8065 Ext 6666"
+    "name": "Keiser Computers, Inc.",
+    "website": "https://www.drsdoc.com"
   },
-  "sed_intended_user_description": "Ambulatory Care Professionals",
-  "mandatory_disclosures_url": "https://blueehr.com/certifications-and-costs/",
+  "mandatory_disclosures_url": "",
+  "sed_intended_user_description": "General and specialized medical practices",
   "products": [
     {
-      "chpl_id": 10797,
-      "chpl_product_number": "15.02.05.3076.ZHHC.01.02.1.220119",
-      "product_name": "BlueEHR",
-      "version": "3",
-      "certification_date": "2022-01-19",
-      "certification_status": "Active",
-      "practice_type": null,
+      "name": "Drs Enterprise",
+      "version": "12",
+      "chpl_id": 11072,
+      "chpl_product_number": "15.04.04.1764.DrsE.12.01.1.221213",
       "certified_criteria": [
         "170.315 (a)(1)",
         "170.315 (a)(12)",
@@ -26,9 +20,9 @@
         "170.315 (a)(3)",
         "170.315 (a)(4)",
         "170.315 (a)(5)",
-        "170.315 (a)(9)",
         "170.315 (b)(1)",
         "170.315 (b)(10)",
+        "170.315 (b)(11)",
         "170.315 (b)(2)",
         "170.315 (c)(1)",
         "170.315 (d)(1)",
@@ -53,8 +47,7 @@
         "170.315 (g)(5)",
         "170.315 (g)(6)",
         "170.315 (g)(7)",
-        "170.315 (g)(9)",
-        "170.315 (h)(1)"
+        "170.315 (g)(9)"
       ]
     }
   ]

@@ -1,26 +1,23 @@
 {
-  "url": "https://azaracdn.blob.core.windows.net/documentation/DRVS_Export_Formats.pdf",
+  "url": "https://mdinteractive.com/ecqm",
   "developer": {
-    "name": "Azara Healthcare, LLC",
-    "website": "https://azarahealthcare.com/",
-    "contact_name": "Jeff Brandes",
-    "contact_email": "jeff.brandes@azarahealthcare.com",
-    "contact_phone": "(781) 365-2208"
+    "name": "MDinteractive",
+    "website": "https://mdinteractive.com/"
   },
-  "sed_intended_user_description": "",
-  "mandatory_disclosures_url": "https://www.azarahealthcare.com/about/certifications",
+  "mandatory_disclosures_url": "",
+  "sed_intended_user_description": null,
   "products": [
     {
-      "chpl_id": 10733,
-      "chpl_product_number": "15.99.04.1134.A105.33.01.0.211201",
-      "product_name": "Azara DRVS",
-      "version": "DRVS 33",
-      "certification_date": "2021-12-01",
-      "certification_status": "Active",
-      "practice_type": null,
+      "name": "MDinteractive",
+      "version": "6",
+      "chpl_id": 10691,
+      "chpl_product_number": "15.99.05.3080.MDIN.01.01.0.210924",
       "certified_criteria": [
         "170.315 (b)(10)",
+        "170.315 (c)(1)",
+        "170.315 (c)(2)",
         "170.315 (c)(3)",
+        "170.315 (c)(4)",
         "170.315 (d)(1)",
         "170.315 (d)(12)",
         "170.315 (d)(13)",

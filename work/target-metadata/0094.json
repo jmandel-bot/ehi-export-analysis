@@ -1,23 +1,17 @@
 {
-  "url": "https://www.aaneel.com/aaneel-onc-ehr-certification-techspecs",
+  "url": "https://www.spectramedix.com/onc-certified-health-it-mandatory-disclosure-information",
   "developer": {
-    "name": "AaNeel Infotech",
-    "website": "https://www.aaneel.com/",
-    "contact_name": "Kelly Hidde",
-    "contact_email": "contact@aaneel.com",
-    "contact_phone": "(813) 909-9555"
+    "name": "SpectraMedix",
+    "website": "https://www.spectramedix.com"
   },
-  "sed_intended_user_description": "",
-  "mandatory_disclosures_url": "https://www.aaneel.com/2022/06/16/aaneel-onc-ehr-certification/",
+  "mandatory_disclosures_url": "",
+  "sed_intended_user_description": null,
   "products": [
     {
-      "chpl_id": 11268,
-      "chpl_product_number": "15.07.05.3107.AANE.01.00.0.230403",
-      "product_name": "My Health EHR - By AaNeelCare",
+      "name": "VBP Performance Suite",
       "version": "11",
-      "certification_date": "2023-04-03",
-      "certification_status": "Active",
-      "practice_type": null,
+      "chpl_id": 11248,
+      "chpl_product_number": "15.07.05.2359.SPEC.01.00.1.230309",
       "certified_criteria": [
         "170.315 (b)(10)",
         "170.315 (c)(1)",

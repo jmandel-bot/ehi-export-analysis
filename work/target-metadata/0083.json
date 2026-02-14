@@ -1,41 +1,21 @@
 {
-  "url": "https://mdtoolbox.com/ExportFileFormat.htm",
+  "url": "https://www.itreatmd.com/ONC-Certification",
   "developer": {
-    "name": "MDToolbox",
-    "website": "https://mdtoolbox.com",
-    "contact_name": "MDToolbox Info",
-    "contact_email": "info@mdtoolbox.com",
-    "contact_phone": "206-331-4420"
+    "name": "iTreatMD",
+    "website": "https://www.itreatmd.com"
   },
-  "sed_intended_user_description": "healthcare providers and their medical staff in an outpatient setting for various specialties, MDToolbox-Rx consists of an electronic prescription interface for recording, writing, and electronically sending prescriptions.",
-  "mandatory_disclosures_url": "http://mdtoolbox.com/meaningfuluse-stage3.aspx",
+  "mandatory_disclosures_url": "",
+  "sed_intended_user_description": null,
   "products": [
     {
-      "chpl_id": 10710,
-      "chpl_product_number": "15.02.05.1832.MDTB.01.01.1.211105",
-      "product_name": "MDToolbox Rx",
-      "version": "5",
-      "certification_date": "2021-11-05",
-      "certification_status": "Active",
-      "practice_type": null,
+      "name": "iTreatMD",
+      "version": "V2",
+      "chpl_id": 11364,
+      "chpl_product_number": "15.04.04.3175.iTre.02.00.0.231116",
       "certified_criteria": [
-        "170.315 (a)(1)",
-        "170.315 (a)(10)",
-        "170.315 (a)(13)",
-        "170.315 (a)(4)",
         "170.315 (b)(10)",
-        "170.315 (b)(3)",
-        "170.315 (d)(1)",
         "170.315 (d)(12)",
         "170.315 (d)(13)",
-        "170.315 (d)(2)",
-        "170.315 (d)(3)",
-        "170.315 (d)(4)",
-        "170.315 (d)(5)",
-        "170.315 (d)(6)",
-        "170.315 (d)(7)",
-        "170.315 (d)(8)",
-        "170.315 (g)(3)",
         "170.315 (g)(4)",
         "170.315 (g)(5)"
       ]

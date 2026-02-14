@@ -1,36 +1,19 @@
 {
-  "url": "https://sites.google.com/encite.us/support/ehi-export",
+  "url": "https://www.microsoft.com/en-us/health-solutions/revenue-integrity/quality-measures/cures-act-real-world-testing",
   "developer": {
-    "name": "Encite, Inc.",
-    "website": "http://www.encite.us",
-    "contact_name": "Donald Stewart",
-    "contact_email": "CHPL@encite.us",
-    "contact_phone": "704-461-1255"
+    "name": "Nuance Communications, Inc.",
+    "website": "https://qualitymeasures.nuancehealthcare.com"
   },
-  "sed_intended_user_description": "Ambulatory",
-  "mandatory_disclosures_url": "https://www.encite.us/meaningful-use",
+  "mandatory_disclosures_url": "",
+  "sed_intended_user_description": null,
   "products": [
     {
-      "chpl_id": 10446,
-      "chpl_product_number": "15.04.04.1440.Enci.06.00.1.191231",
-      "product_name": "Encite EHR",
-      "version": "v6",
-      "certification_date": "2019-12-31",
-      "certification_status": "Active",
-      "practice_type": null,
+      "name": "Nuance Electronic Quality Measures",
+      "version": "24.1",
+      "chpl_id": 11592,
+      "chpl_product_number": "15.04.04.2071.Nuan.24.06.1.250204",
       "certified_criteria": [
-        "170.315 (a)(1)",
-        "170.315 (a)(12)",
-        "170.315 (a)(14)",
-        "170.315 (a)(2)",
-        "170.315 (a)(3)",
-        "170.315 (a)(4)",
-        "170.315 (a)(5)",
-        "170.315 (b)(1)",
         "170.315 (b)(10)",
-        "170.315 (b)(11)",
-        "170.315 (b)(2)",
-        "170.315 (b)(3)",
         "170.315 (c)(1)",
         "170.315 (c)(2)",
         "170.315 (c)(3)",
@@ -39,20 +22,9 @@
         "170.315 (d)(13)",
         "170.315 (d)(2)",
         "170.315 (d)(3)",
-        "170.315 (d)(4)",
         "170.315 (d)(5)",
-        "170.315 (d)(6)",
-        "170.315 (d)(7)",
-        "170.315 (d)(8)",
-        "170.315 (d)(9)",
-        "170.315 (f)(1)",
-        "170.315 (f)(2)",
-        "170.315 (g)(2)",
-        "170.315 (g)(3)",
         "170.315 (g)(4)",
-        "170.315 (g)(5)",
-        "170.315 (g)(6)",
-        "170.315 (h)(1)"
+        "170.315 (g)(5)"
       ]
     }
   ]

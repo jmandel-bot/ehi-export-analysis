@@ -1,33 +1,27 @@
 {
-  "url": "https://www.skilledwoundcare.com/ehiexport",
+  "url": "https://cantatahealth.com/wp-content/uploads/2024/12/Arize-Mandatory-Disclosures-1.pdf",
   "developer": {
-    "name": "Skilled Wound Care",
-    "website": "https://www.skilledwoundcare.com",
-    "contact_name": "Fernando Rojas",
-    "contact_email": "fernando@skilledwoundcare.com",
-    "contact_phone": "213-605-2468"
+    "name": "Cantata Health Solutions",
+    "website": "https://www.cantatahealth.com"
   },
-  "sed_intended_user_description": "Ambulatory",
-  "mandatory_disclosures_url": "https://www.skilledwoundcare.com/mandatorydisclosure/",
+  "mandatory_disclosures_url": "",
+  "sed_intended_user_description": "Behavioral Health facility clinical staff; supported by IT",
   "products": [
     {
-      "chpl_id": 11266,
-      "chpl_product_number": "15.04.04.3055.Trea.05.01.1.230324",
-      "product_name": "Treasure EHR",
-      "version": "5.0.1",
-      "certification_date": "2023-03-24",
-      "certification_status": "Active",
-      "practice_type": null,
+      "name": "Arize",
+      "version": "1",
+      "chpl_id": 11258,
+      "chpl_product_number": "15.04.04.2022.Ariz.01.00.1.230317",
       "certified_criteria": [
+        "170.315 (a)(1)",
         "170.315 (a)(12)",
         "170.315 (a)(14)",
+        "170.315 (a)(15)",
         "170.315 (a)(2)",
+        "170.315 (a)(3)",
+        "170.315 (a)(4)",
         "170.315 (a)(5)",
-        "170.315 (a)(9)",
-        "170.315 (b)(1)",
         "170.315 (b)(10)",
-        "170.315 (b)(2)",
-        "170.315 (c)(1)",
         "170.315 (d)(1)",
         "170.315 (d)(12)",
         "170.315 (d)(13)",
@@ -37,16 +31,9 @@
         "170.315 (d)(5)",
         "170.315 (d)(6)",
         "170.315 (d)(7)",
-        "170.315 (d)(8)",
-        "170.315 (d)(9)",
-        "170.315 (e)(1)",
-        "170.315 (g)(2)",
         "170.315 (g)(3)",
         "170.315 (g)(4)",
-        "170.315 (g)(5)",
-        "170.315 (g)(6)",
-        "170.315 (g)(7)",
-        "170.315 (g)(9)"
+        "170.315 (g)(5)"
       ]
     }
   ]

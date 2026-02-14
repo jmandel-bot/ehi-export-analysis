@@ -1,36 +1,50 @@
 {
-  "url": "https://www.epividian.com/legal-directory/onc-product-disclosure/",
+  "url": "https://blog.phoenixortho.net/phoenix-ortho-receives-mips-2015-certification",
   "developer": {
-    "name": "Epividian, Inc.",
-    "website": "https://www.epividian.com",
-    "contact_name": "Bernie Stooks",
-    "contact_email": "bernie.stooks@epividian.com",
-    "contact_phone": "(919) 745-8853"
+    "name": "Phoenix Ortho, LLC",
+    "website": "http://www.phoenixortho.net"
   },
-  "sed_intended_user_description": "",
-  "mandatory_disclosures_url": "https://www.epividian.com/legal-directory/onc-product-disclosure/",
+  "mandatory_disclosures_url": "",
+  "sed_intended_user_description": "Orthopedic Clinical and support staff",
   "products": [
     {
-      "chpl_id": 11264,
-      "chpl_product_number": "15.07.05.3101.EPIV.01.00.0.230331",
-      "product_name": "CHORUS",
-      "version": "29.1",
-      "certification_date": "2023-03-31",
-      "certification_status": "Active",
-      "practice_type": null,
+      "name": "Phoenix Ortho",
+      "version": "5",
+      "chpl_id": 11163,
+      "chpl_product_number": "15.04.04.2160.Phoe.05.01.1.221229",
       "certified_criteria": [
+        "170.315 (a)(1)",
+        "170.315 (a)(12)",
+        "170.315 (a)(14)",
+        "170.315 (a)(2)",
+        "170.315 (a)(3)",
+        "170.315 (a)(4)",
+        "170.315 (a)(5)",
+        "170.315 (b)(1)",
         "170.315 (b)(10)",
+        "170.315 (b)(11)",
+        "170.315 (b)(2)",
+        "170.315 (b)(3)",
         "170.315 (c)(1)",
-        "170.315 (c)(2)",
-        "170.315 (c)(3)",
         "170.315 (d)(1)",
         "170.315 (d)(12)",
         "170.315 (d)(13)",
         "170.315 (d)(2)",
         "170.315 (d)(3)",
+        "170.315 (d)(4)",
         "170.315 (d)(5)",
+        "170.315 (d)(6)",
+        "170.315 (d)(7)",
+        "170.315 (d)(8)",
+        "170.315 (d)(9)",
+        "170.315 (e)(1)",
+        "170.315 (e)(3)",
+        "170.315 (g)(2)",
+        "170.315 (g)(3)",
         "170.315 (g)(4)",
-        "170.315 (g)(5)"
+        "170.315 (g)(5)",
+        "170.315 (g)(6)",
+        "170.315 (h)(1)"
       ]
     }
   ]

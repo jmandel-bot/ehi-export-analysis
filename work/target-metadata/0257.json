@@ -1,37 +1,43 @@
 {
-  "url": "https://blucygnus.ai/product/NQ==",
+  "url": "https://www.medplum.com/docs/api/fhir/operations/patient-everything",
   "developer": {
-    "name": "Intellix Solutions, LLC.",
-    "website": "https://www.intellixs.com/",
-    "contact_name": "Uday Chandra",
-    "contact_email": "uchandra@intellixs.com",
-    "contact_phone": "(408) 300-4361"
+    "name": "Medplum",
+    "website": "https://www.medplum.com/"
   },
-  "sed_intended_user_description": "",
-  "mandatory_disclosures_url": "https://intellixs.com/html_pages/healthcare/Mandatory%20Disclosures.html",
+  "mandatory_disclosures_url": "",
+  "sed_intended_user_description": "all physician types",
   "products": [
     {
-      "chpl_id": 11746,
-      "chpl_product_number": "15.11.09.3224.BluK.02.01.1.260109",
-      "product_name": "BluKnox",
-      "version": "2.1.0",
-      "certification_date": "2026-01-09",
-      "certification_status": "Active",
-      "practice_type": null,
+      "name": "Medplum",
+      "version": "5",
+      "chpl_id": 11745,
+      "chpl_product_number": "15.04.04.3147.Medp.05.03.1.251231",
       "certified_criteria": [
+        "170.315 (a)(14)",
+        "170.315 (a)(2)",
+        "170.315 (a)(5)",
+        "170.315 (b)(1)",
         "170.315 (b)(10)",
+        "170.315 (b)(11)",
+        "170.315 (c)(1)",
         "170.315 (d)(1)",
-        "170.315 (d)(10)",
         "170.315 (d)(12)",
         "170.315 (d)(13)",
         "170.315 (d)(2)",
         "170.315 (d)(3)",
         "170.315 (d)(4)",
         "170.315 (d)(5)",
+        "170.315 (d)(6)",
         "170.315 (d)(7)",
         "170.315 (d)(8)",
+        "170.315 (d)(9)",
+        "170.315 (g)(10)",
+        "170.315 (g)(3)",
         "170.315 (g)(4)",
-        "170.315 (g)(5)"
+        "170.315 (g)(5)",
+        "170.315 (g)(6)",
+        "170.315 (g)(7)",
+        "170.315 (g)(9)"
       ]
     }
   ]

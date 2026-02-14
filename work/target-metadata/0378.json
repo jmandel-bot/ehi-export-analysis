@@ -1,36 +1,28 @@
 {
-  "url": "https://www.careficient.com/ehi-export/",
+  "url": "https://www.rwhc.com/Services/Quality-Programs/RWHC-Electronic-Clinical-Quality-Measures",
   "developer": {
-    "name": "Careficient Inc",
-    "website": "https://www.careficient.com/",
-    "contact_name": "Steve Williams",
-    "contact_email": "swilliams@careficient.com",
-    "contact_phone": "(772) 837-9245"
+    "name": "Rural Wisconsin Health Cooperative",
+    "website": "http://www.rwhc.com"
   },
-  "sed_intended_user_description": "",
-  "mandatory_disclosures_url": "https://www.careficient.com/disclosures/",
+  "mandatory_disclosures_url": "",
+  "sed_intended_user_description": null,
   "products": [
     {
-      "chpl_id": 11514,
-      "chpl_product_number": "15.11.09.3199.CARE.01.00.0.240910",
-      "product_name": "Careficient",
-      "version": "1",
-      "certification_date": "2024-09-10",
-      "certification_status": "Active",
-      "practice_type": null,
+      "name": "RWHC eCQM QI Program",
+      "version": "Version 8",
+      "chpl_id": 11506,
+      "chpl_product_number": "15.04.04.2281.RWHC.08.02.0.240828",
       "certified_criteria": [
         "170.315 (b)(10)",
+        "170.315 (c)(1)",
+        "170.315 (c)(2)",
+        "170.315 (c)(3)",
         "170.315 (d)(1)",
         "170.315 (d)(12)",
         "170.315 (d)(13)",
         "170.315 (d)(2)",
         "170.315 (d)(3)",
-        "170.315 (d)(4)",
         "170.315 (d)(5)",
-        "170.315 (d)(6)",
-        "170.315 (d)(7)",
-        "170.315 (d)(8)",
-        "170.315 (d)(9)",
         "170.315 (g)(4)",
         "170.315 (g)(5)"
       ]

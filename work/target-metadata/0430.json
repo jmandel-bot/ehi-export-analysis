@@ -1,27 +1,29 @@
 {
-  "url": "https://azzly.com/wp-content/uploads/2023/09/Data-Extraction-Instructions-AZZLY-Rize-v1.0.pdf",
+  "url": "https://axiomehr.com/ehiexport/",
   "developer": {
-    "name": "AZZLY, Inc.",
-    "website": "https://azzly.com/",
-    "contact_name": "Coletta Dorado",
-    "contact_email": "colettad@azzly.com",
-    "contact_phone": "(772) 567-0206"
+    "name": "Health Information Management Systems, LLC",
+    "website": "https://axiomehr.com/"
   },
-  "sed_intended_user_description": "",
-  "mandatory_disclosures_url": "https://azzly.com/mandatory-disclosure-statement-of-costs/",
+  "mandatory_disclosures_url": "",
+  "sed_intended_user_description": "Health care Professionals",
   "products": [
     {
-      "chpl_id": 11073,
-      "chpl_product_number": "15.04.04.1029.Rize.01.00.0.221214",
-      "product_name": "AZZLY Rize",
-      "version": "1.0",
-      "certification_date": "2022-12-14",
-      "certification_status": "Active",
-      "practice_type": null,
+      "name": "Axiom",
+      "version": "Version: 7",
+      "chpl_id": 10512,
+      "chpl_product_number": "15.04.04.1590.Axio.02.01.1.201229",
       "certified_criteria": [
+        "170.315 (a)(1)",
         "170.315 (a)(12)",
-        "170.315 (a)(15)",
+        "170.315 (a)(14)",
+        "170.315 (a)(2)",
+        "170.315 (a)(3)",
+        "170.315 (a)(4)",
+        "170.315 (a)(5)",
+        "170.315 (b)(1)",
         "170.315 (b)(10)",
+        "170.315 (b)(11)",
+        "170.315 (c)(1)",
         "170.315 (d)(1)",
         "170.315 (d)(11)",
         "170.315 (d)(12)",
@@ -34,9 +36,15 @@
         "170.315 (d)(7)",
         "170.315 (d)(8)",
         "170.315 (d)(9)",
-        "170.315 (e)(3)",
+        "170.315 (f)(5)",
+        "170.315 (g)(10)",
+        "170.315 (g)(2)",
+        "170.315 (g)(3)",
         "170.315 (g)(4)",
-        "170.315 (g)(5)"
+        "170.315 (g)(5)",
+        "170.315 (g)(6)",
+        "170.315 (g)(7)",
+        "170.315 (g)(9)"
       ]
     }
   ]

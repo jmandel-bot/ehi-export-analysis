@@ -1,25 +1,30 @@
 {
-  "url": "https://www.microsoft.com/en-us/health-solutions/revenue-integrity/quality-measures/cures-act-real-world-testing",
+  "url": "https://www.modmed.com/onc-certification-gi/",
   "developer": {
-    "name": "Nuance Communications, Inc.",
-    "website": "https://qualitymeasures.nuancehealthcare.com",
-    "contact_name": "Joseph Glen",
-    "contact_email": "josephglen@microsoft.com",
-    "contact_phone": "732-759-6432"
+    "name": "Modernizing Medicine Gastroenterology, LLC",
+    "website": "https://www.modmed.com"
   },
-  "sed_intended_user_description": "",
-  "mandatory_disclosures_url": "https://cdn-dynmedia-1.microsoft.com/is/content/microsoftcorp/microsoft/bade/documents/products-and-services/en-us/health-solutions/1059320-ds-clintegrity-ecqm-transparency-and-disclosure-requirements-en-us.pdf?culture=en-us&country=us",
+  "mandatory_disclosures_url": "",
+  "sed_intended_user_description": "MD, PA, MA, Nurse, Administrator",
   "products": [
     {
-      "chpl_id": 11592,
-      "chpl_product_number": "15.04.04.2071.Nuan.24.06.1.250204",
-      "product_name": "Nuance Electronic Quality Measures",
-      "version": "24.1",
-      "certification_date": "2025-02-04",
-      "certification_status": "Active",
-      "practice_type": null,
+      "name": "gGastro",
+      "version": "6",
+      "chpl_id": 11054,
+      "chpl_product_number": "15.04.04.3031.gGas.GA.10.1.221207",
       "certified_criteria": [
+        "170.315 (a)(1)",
+        "170.315 (a)(12)",
+        "170.315 (a)(14)",
+        "170.315 (a)(2)",
+        "170.315 (a)(3)",
+        "170.315 (a)(4)",
+        "170.315 (a)(5)",
+        "170.315 (b)(1)",
         "170.315 (b)(10)",
+        "170.315 (b)(11)",
+        "170.315 (b)(2)",
+        "170.315 (b)(3)",
         "170.315 (c)(1)",
         "170.315 (c)(2)",
         "170.315 (c)(3)",
@@ -28,9 +33,25 @@
         "170.315 (d)(13)",
         "170.315 (d)(2)",
         "170.315 (d)(3)",
+        "170.315 (d)(4)",
         "170.315 (d)(5)",
+        "170.315 (d)(6)",
+        "170.315 (d)(7)",
+        "170.315 (d)(8)",
+        "170.315 (d)(9)",
+        "170.315 (e)(1)",
+        "170.315 (e)(3)",
+        "170.315 (f)(5)",
+        "170.315 (f)(7)",
+        "170.315 (g)(10)",
+        "170.315 (g)(2)",
+        "170.315 (g)(3)",
         "170.315 (g)(4)",
-        "170.315 (g)(5)"
+        "170.315 (g)(5)",
+        "170.315 (g)(6)",
+        "170.315 (g)(7)",
+        "170.315 (g)(9)",
+        "170.315 (h)(1)"
       ]
     }
   ]

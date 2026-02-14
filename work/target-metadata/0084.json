@@ -1,33 +1,35 @@
 {
-  "url": "https://www.discharge123.com/prot/EHI-Export/Index.htm",
+  "url": "https://mdtoolbox.com/ExportFileFormat.htm",
   "developer": {
-    "name": "Callibra, Inc.",
-    "website": "https://www.discharge123.com/",
-    "contact_name": "Jodi Osborne",
-    "contact_email": "Josborne@discharge123.com",
-    "contact_phone": "847-805-6940"
+    "name": "MDToolbox",
+    "website": "https://mdtoolbox.com"
   },
-  "sed_intended_user_description": "",
-  "mandatory_disclosures_url": "https://www.discharge123.com/certification-transparency-document/",
+  "mandatory_disclosures_url": "",
+  "sed_intended_user_description": "healthcare providers and their medical staff in an outpatient setting for various specialties, MDToolbox-Rx consists of an electronic prescription interface for recording, writing, and electronically sending prescriptions.",
   "products": [
     {
-      "chpl_id": 10754,
-      "chpl_product_number": "15.02.05.1192.CALL.01.01.1.211217",
-      "product_name": "Discharge 1-2-3\u2122 Composer\u2122",
-      "version": "1.5",
-      "certification_date": "2021-12-17",
-      "certification_status": "Active",
-      "practice_type": null,
+      "name": "MDToolbox Rx",
+      "version": "5",
+      "chpl_id": 10710,
+      "chpl_product_number": "15.02.05.1832.MDTB.01.01.1.211105",
       "certified_criteria": [
+        "170.315 (a)(1)",
+        "170.315 (a)(10)",
+        "170.315 (a)(13)",
+        "170.315 (a)(4)",
         "170.315 (b)(10)",
+        "170.315 (b)(3)",
         "170.315 (d)(1)",
         "170.315 (d)(12)",
         "170.315 (d)(13)",
+        "170.315 (d)(2)",
+        "170.315 (d)(3)",
         "170.315 (d)(4)",
         "170.315 (d)(5)",
         "170.315 (d)(6)",
         "170.315 (d)(7)",
         "170.315 (d)(8)",
+        "170.315 (g)(3)",
         "170.315 (g)(4)",
         "170.315 (g)(5)"
       ]

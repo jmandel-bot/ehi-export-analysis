@@ -1,23 +1,17 @@
 {
-  "url": "https://www.ehrez.com/",
+  "url": "https://www.experityhealth.com/onc-certification/",
   "developer": {
-    "name": "E-Health Partners, Inc.",
-    "website": "http://www.ehrez.com",
-    "contact_name": "Francis Berrios",
-    "contact_email": "fberrios@ehrez.com",
-    "contact_phone": "787-619-8783"
+    "name": "Experity",
+    "website": "https://www.experityhealth.com"
   },
-  "sed_intended_user_description": "Primary Care Physicians, Pediatrics, OBGyn",
-  "mandatory_disclosures_url": "https://ehrez.com/certification",
+  "mandatory_disclosures_url": "",
+  "sed_intended_user_description": "Urgent Care",
   "products": [
     {
-      "chpl_id": 11726,
-      "chpl_product_number": "15.04.04.1385.EHRe.05.02.0.251125",
-      "product_name": "EHRez",
-      "version": "5.0",
-      "certification_date": "2025-11-25",
-      "certification_status": "Active",
-      "practice_type": null,
+      "name": "Experity EMR",
+      "version": "25",
+      "chpl_id": 11704,
+      "chpl_product_number": "15.04.04.1368.Expe.25.06.1.251020",
       "certified_criteria": [
         "170.315 (a)(1)",
         "170.315 (a)(12)",
@@ -26,13 +20,15 @@
         "170.315 (a)(3)",
         "170.315 (a)(4)",
         "170.315 (a)(5)",
+        "170.315 (b)(1)",
         "170.315 (b)(10)",
+        "170.315 (b)(11)",
+        "170.315 (b)(2)",
         "170.315 (b)(3)",
         "170.315 (c)(1)",
         "170.315 (c)(2)",
         "170.315 (c)(3)",
         "170.315 (d)(1)",
-        "170.315 (d)(11)",
         "170.315 (d)(12)",
         "170.315 (d)(13)",
         "170.315 (d)(2)",
@@ -42,13 +38,13 @@
         "170.315 (d)(6)",
         "170.315 (d)(7)",
         "170.315 (d)(8)",
-        "170.315 (d)(9)",
-        "170.315 (e)(3)",
         "170.315 (f)(1)",
+        "170.315 (f)(2)",
         "170.315 (g)(2)",
         "170.315 (g)(3)",
         "170.315 (g)(4)",
-        "170.315 (g)(5)"
+        "170.315 (g)(5)",
+        "170.315 (g)(6)"
       ]
     }
   ]

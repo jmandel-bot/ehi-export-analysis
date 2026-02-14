@@ -1,38 +1,36 @@
 {
-  "url": "https://corp.cozeva.com/ehi-export/",
+  "url": "https://wellsky.com/behavioral-health-software/",
   "developer": {
-    "name": "Applied Research Works, Inc.",
-    "website": "https://corp.cozeva.com/",
-    "contact_name": "Sujay Kumar Modal",
-    "contact_email": "sujmondal@cozeva.com",
-    "contact_phone": "(408) 641-1345"
+    "name": "Wellsky",
+    "website": "https://wellsky.com/"
   },
-  "sed_intended_user_description": "",
-  "mandatory_disclosures_url": "https://corp.cozeva.com/drummond-mandatory-disclosures/",
+  "mandatory_disclosures_url": "",
+  "sed_intended_user_description": "Clinicians and providers",
   "products": [
     {
-      "chpl_id": 11139,
-      "chpl_product_number": "15.04.04.1102.Coze.03.02.0.221227",
-      "product_name": "Cozeva",
-      "version": "3.1",
-      "certification_date": "2022-12-27",
-      "certification_status": "Active",
-      "practice_type": null,
+      "name": "WellSky Specialty Care",
+      "version": "v12",
+      "chpl_id": 10884,
+      "chpl_product_number": "15.04.04.1164.Well.12.00.0.220429",
       "certified_criteria": [
+        "170.315 (a)(1)",
+        "170.315 (a)(12)",
+        "170.315 (a)(14)",
+        "170.315 (a)(5)",
         "170.315 (b)(10)",
         "170.315 (d)(1)",
         "170.315 (d)(12)",
         "170.315 (d)(13)",
         "170.315 (d)(2)",
         "170.315 (d)(3)",
+        "170.315 (d)(4)",
         "170.315 (d)(5)",
-        "170.315 (d)(9)",
-        "170.315 (g)(10)",
+        "170.315 (d)(6)",
+        "170.315 (d)(7)",
+        "170.315 (d)(8)",
+        "170.315 (g)(3)",
         "170.315 (g)(4)",
-        "170.315 (g)(5)",
-        "170.315 (g)(6)",
-        "170.315 (g)(7)",
-        "170.315 (g)(9)"
+        "170.315 (g)(5)"
       ]
     }
   ]

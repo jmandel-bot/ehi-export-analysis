@@ -1,29 +1,18 @@
 {
-  "url": "https://www.sapphire-health.com/disclosure",
+  "url": "https://discover.webpt.com/docs/webpt-emr-cehrt-certification",
   "developer": {
-    "name": "Sapphire Health",
-    "website": "https://www.sapphire-health.com",
-    "contact_name": "Holly Angelo",
-    "contact_email": "info@sapphire-health.com",
-    "contact_phone": "877-532-2345"
+    "name": "WebPT",
+    "website": "https://www.webpt.com/"
   },
-  "sed_intended_user_description": "Healthcare Professionals",
-  "mandatory_disclosures_url": "https://www.sapphire-health.com/disclosure",
+  "mandatory_disclosures_url": "",
+  "sed_intended_user_description": null,
   "products": [
     {
-      "chpl_id": 11228,
-      "chpl_product_number": "15.07.05.3052.SAPH.01.00.0.230130",
-      "product_name": "Sapphire EHR",
-      "version": "2018-2019",
-      "certification_date": "2023-01-30",
-      "certification_status": "Active",
-      "practice_type": null,
+      "name": "WebPT",
+      "version": "1.478",
+      "chpl_id": 11515,
+      "chpl_product_number": "15.04.04.3200.Webp.01.00.1.240916",
       "certified_criteria": [
-        "170.315 (a)(1)",
-        "170.315 (a)(2)",
-        "170.315 (a)(3)",
-        "170.315 (a)(4)",
-        "170.315 (a)(5)",
         "170.315 (b)(10)",
         "170.315 (d)(1)",
         "170.315 (d)(12)",
@@ -34,8 +23,6 @@
         "170.315 (d)(5)",
         "170.315 (d)(6)",
         "170.315 (d)(7)",
-        "170.315 (d)(9)",
-        "170.315 (g)(3)",
         "170.315 (g)(4)",
         "170.315 (g)(5)"
       ]

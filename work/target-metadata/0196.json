@@ -1,23 +1,17 @@
 {
-  "url": "https://5eanalytics.com/onc-acb-certified-software/",
+  "url": "https://complete.md/onc-b10-certification/",
   "developer": {
-    "name": "5E Analytics, LLC",
-    "website": "https://5eanalytics.com/",
-    "contact_name": "Kiyra Artisse",
-    "contact_email": "sales@5eanalytics.com",
-    "contact_phone": "(516) 945-0923"
+    "name": "Anagen Systems",
+    "website": "http://www.anagensystems.com"
   },
-  "sed_intended_user_description": "",
-  "mandatory_disclosures_url": "https://5eanalytics.com/mandatory-disclosure-statement/",
+  "mandatory_disclosures_url": "",
+  "sed_intended_user_description": null,
   "products": [
     {
-      "chpl_id": 11611,
-      "chpl_product_number": "15.11.09.3219.MMPH.05.00.0.250321",
-      "product_name": "Memphi",
-      "version": "5",
-      "certification_date": "2025-03-21",
-      "certification_status": "Active",
-      "practice_type": null,
+      "name": "Complete. MD Patient Web Portal",
+      "version": "v1.0",
+      "chpl_id": 9683,
+      "chpl_product_number": "15.04.04.3025.Comp.01.00.0.181014",
       "certified_criteria": [
         "170.315 (b)(10)",
         "170.315 (d)(1)",
@@ -26,10 +20,12 @@
         "170.315 (d)(2)",
         "170.315 (d)(3)",
         "170.315 (d)(5)",
-        "170.315 (d)(6)",
+        "170.315 (d)(7)",
         "170.315 (d)(9)",
+        "170.315 (e)(1)",
         "170.315 (g)(4)",
-        "170.315 (g)(5)"
+        "170.315 (g)(5)",
+        "170.315 (g)(6)"
       ]
     }
   ]

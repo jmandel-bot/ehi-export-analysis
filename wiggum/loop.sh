@@ -7,6 +7,7 @@
 # Usage:
 #   ./wiggum/loop.sh --phase 1               # run phase 1 (research) from beginning
 #   ./wiggum/loop.sh --phase 2 --resume      # run phase 2, skip completed
+#   ./wiggum/loop.sh --phase both             # run phase 1 then 2 per URL
 #   ./wiggum/loop.sh --phase 1 --reverse     # iterate from end of list backwards
 #   ./wiggum/loop.sh --phase 1 --index 42    # start from target index 42
 #   ./wiggum/loop.sh --phase 1 --only 42     # run only target index 42
@@ -29,10 +30,13 @@ LLM_BACKEND="${LLM_BACKEND:-claude}"
 # Claude settings
 CLAUDE_MODEL="${CLAUDE_MODEL:-opus}"
 
+# When using "both" phases, this lists the phases to run sequentially per target
+BOTH_PHASES=(1 2)
+
 # Shelley settings
 SHELLEY_PROMPT="${SHELLEY_PROMPT:-$CONFIG_DIR/shelley-prompt.ts}"
 SHELLEY_SERVER="${SHELLEY_SERVER:-http://localhost:9999}"
-SHELLEY_MODEL="${SHELLEY_MODEL:-claude-opus-4.6}"
+SHELLEY_MODEL="${SHELLEY_MODEL:-claude-opus-4.6}"  # Always Opus 4.6
 SHELLEY_USER="${SHELLEY_USER:-wiggum}"
 
 # Gemini settings
@@ -103,18 +107,28 @@ while [[ $# -gt 0 ]]; do
 done
 
 if [[ -z "$PHASE" ]]; then
-  echo "Error: --phase N is required (1=research, 2=download)"
+  echo "Error: --phase N is required (1=research, 2=download, both)"
   exit 1
 fi
 
-if [[ -z "${PHASE_PROMPT[$PHASE]:-}" ]]; then
-  echo "Error: unknown phase $PHASE"
-  exit 1
+MODE_BOTH=false
+if [[ "$PHASE" == "both" ]]; then
+  MODE_BOTH=true
+  PHASE_LABEL="both (research+download)"
+  COMPLETION_MARKER="${PHASE_MARKER[2]}"  # fully done when phase 2 marker exists
+else
+  if [[ -z "${PHASE_PROMPT[$PHASE]:-}" ]]; then
+    echo "Error: unknown phase $PHASE"
+    exit 1
+  fi
+  PHASE_LABEL="${PHASE_NAME[$PHASE]}"
+  COMPLETION_MARKER="${PHASE_MARKER[$PHASE]}"
 fi
 
-PROMPT_TEMPLATE="${PHASE_PROMPT[$PHASE]}"
-COMPLETION_MARKER="${PHASE_MARKER[$PHASE]}"
-PHASE_LABEL="${PHASE_NAME[$PHASE]}"
+# Only set these for single-phase mode
+if [[ "$MODE_BOTH" == false ]]; then
+  PROMPT_TEMPLATE="${PHASE_PROMPT[$PHASE]}"
+fi
 
 mkdir -p "$RESULTS_DIR" "$LOG_DIR"
 
@@ -201,6 +215,45 @@ commit_result() {
   git push || true
 }
 
+# Run a single phase for a target. Used by launch_one.
+# Args: idx phase slug output_dir url developers products chpl_ids
+run_single_phase() {
+  local idx="$1" phase="$2" slug="$3" output_dir="$4"
+  local url="$5" developers="$6" products="$7" chpl_ids="$8"
+
+  local marker="${PHASE_MARKER[$phase]}"
+  local label="${PHASE_NAME[$phase]}"
+  local template="${PHASE_PROMPT[$phase]}"
+
+  # Skip if already done
+  if [[ -f "$output_dir/$marker" ]]; then
+    echo "  [$idx] phase $phase ($label) — already done, skipping"
+    return 0
+  fi
+
+  echo "  [$idx] phase $phase ($label) — starting..."
+
+  local prompt
+  prompt=$(sed \
+    -e "s|{{URL}}|${url}|g" \
+    -e "s|{{DEVELOPERS}}|${developers}|g" \
+    -e "s|{{PRODUCTS}}|${products}|g" \
+    -e "s|{{CHPL_IDS}}|${chpl_ids}|g" \
+    -e "s|{{OUTPUT_DIR}}|${output_dir}|g" \
+    "$template")
+
+  local log_prefix="phase${phase}"
+  if [[ "$LLM_BACKEND" == "claude" && -f "$CONFIG_DIR/log-handler.py" ]]; then
+    run_llm "$ROOT" <<< "$prompt" \
+      2>&1 | tee "$output_dir/${log_prefix}-stream.jsonl" \
+      | python3 -u "$CONFIG_DIR/log-handler.py" \
+      | tee "$output_dir/${log_prefix}-log.txt"
+  else
+    run_llm "$ROOT" <<< "$prompt" \
+      2>&1 | tee "$output_dir/${log_prefix}-log.txt"
+  fi
+}
+
 launch_one() {
   local idx="$1"
   local target
@@ -222,7 +275,7 @@ launch_one() {
 
   output_dir="$RESULTS_DIR/$slug"
 
-  # Skip if already done (has completion marker for this phase)
+  # Skip if already done
   if [[ "$RESUME" == true && -f "$output_dir/$COMPLETION_MARKER" ]]; then
     echo "[$idx/$TOTAL] SKIP $slug (already has $COMPLETION_MARKER)"
     SKIPPED=$((SKIPPED + 1))
@@ -237,34 +290,23 @@ launch_one() {
     cp "$meta_file" "$output_dir/chpl-metadata.json"
   fi
 
-  # Build prompt from template
-  local prompt
-  prompt="plugin:chrome-devtools-mcp:chrome-devtools will help you browse the web when needed.
-
-"
-  prompt+=$(sed \
-    -e "s|{{URL}}|${url}|g" \
-    -e "s|{{DEVELOPERS}}|${developers}|g" \
-    -e "s|{{PRODUCTS}}|${products}|g" \
-    -e "s|{{CHPL_IDS}}|${chpl_ids}|g" \
-    -e "s|{{OUTPUT_DIR}}|${output_dir}|g" \
-    "$PROMPT_TEMPLATE")
-
-  echo "[$idx/$TOTAL] LAUNCH $slug — phase $PHASE ($PHASE_LABEL) ($LLM_BACKEND)"
+  echo "[$idx/$TOTAL] LAUNCH $slug — $PHASE_LABEL ($LLM_BACKEND)"
   echo "  URL: $url"
   echo "  Developer(s): $developers"
   echo "  Output: $output_dir/"
 
-  # Launch LLM in background
-  local log_prefix="phase${PHASE}"
-  if [[ "$LLM_BACKEND" == "claude" && -f "$CONFIG_DIR/log-handler.py" ]]; then
-    run_llm "$ROOT" <<< "$prompt" \
-      2>&1 | tee "$output_dir/${log_prefix}-stream.jsonl" \
-      | python3 -u "$CONFIG_DIR/log-handler.py" \
-      | tee "$output_dir/${log_prefix}-log.txt" &
+  if [[ "$MODE_BOTH" == true ]]; then
+    # Run phases sequentially in a subshell
+    (
+      for p in "${BOTH_PHASES[@]}"; do
+        run_single_phase "$idx" "$p" "$slug" "$output_dir" "$url" "$developers" "$products" "$chpl_ids" || exit 1
+      done
+    ) &
   else
-    run_llm "$ROOT" <<< "$prompt" \
-      2>&1 | tee "$output_dir/${log_prefix}-log.txt" &
+    # Single phase — original behavior
+    (
+      run_single_phase "$idx" "$PHASE" "$slug" "$output_dir" "$url" "$developers" "$products" "$chpl_ids"
+    ) &
   fi
 
   PIDS[$slug]=$!

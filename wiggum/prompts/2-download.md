@@ -16,6 +16,10 @@ reproducible archive of their export documentation.
 **Downloads directory**: {{OUTPUT_DIR}}/downloads/
 
 **CHPL metadata**: `{{OUTPUT_DIR}}/chpl-metadata.json`
+**Product research**: `{{OUTPUT_DIR}}/product-research.md` — read this first if it exists.
+A prior research agent investigated this vendor and product. Their findings will
+give you useful context about what data this product stores, who uses it, and
+what to expect from the export documentation.
 
 ## What To Download
 

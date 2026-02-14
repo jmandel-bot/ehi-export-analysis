@@ -1,33 +1,19 @@
 {
-  "url": "https://www.ntst.com/lp/certifications/ehi-all-data-gehrimed",
+  "url": "https://usmon.com/ExportProcess.jsp",
   "developer": {
-    "name": "Netsmart Technologies",
-    "website": "https://www.ntst.com/",
-    "contact_name": "Krista Logan",
-    "contact_email": "klogan@ntst.com",
-    "contact_phone": "913.374.0195"
+    "name": "US Monitoring, Inc.",
+    "website": "http://usmon.com"
   },
-  "sed_intended_user_description": "LTPAC clinicians and support staff",
-  "mandatory_disclosures_url": "https://www.ntst.com/lp/certifications",
+  "mandatory_disclosures_url": "",
+  "sed_intended_user_description": null,
   "products": [
     {
-      "chpl_id": 11136,
-      "chpl_product_number": "15.04.04.2816.gEHR.04.03.1.221227",
-      "product_name": "GEHRIMED",
-      "version": "v.4.3",
-      "certification_date": "2022-12-27",
-      "certification_status": "Active",
-      "practice_type": null,
+      "name": "USMON Database",
+      "version": "13",
+      "chpl_id": 11096,
+      "chpl_product_number": "15.99.09.3011.US01.13.01.0.221220",
       "certified_criteria": [
-        "170.315 (a)(12)",
-        "170.315 (a)(14)",
-        "170.315 (a)(2)",
-        "170.315 (a)(3)",
-        "170.315 (a)(5)",
-        "170.315 (b)(1)",
         "170.315 (b)(10)",
-        "170.315 (b)(11)",
-        "170.315 (b)(2)",
         "170.315 (d)(1)",
         "170.315 (d)(12)",
         "170.315 (d)(13)",
@@ -39,17 +25,9 @@
         "170.315 (d)(7)",
         "170.315 (d)(8)",
         "170.315 (d)(9)",
-        "170.315 (e)(1)",
-        "170.315 (e)(3)",
-        "170.315 (f)(5)",
         "170.315 (g)(10)",
-        "170.315 (g)(2)",
-        "170.315 (g)(3)",
         "170.315 (g)(4)",
-        "170.315 (g)(5)",
-        "170.315 (g)(6)",
-        "170.315 (g)(7)",
-        "170.315 (g)(9)"
+        "170.315 (g)(5)"
       ]
     }
   ]

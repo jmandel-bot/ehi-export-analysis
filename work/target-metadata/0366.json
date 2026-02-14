@@ -1,27 +1,36 @@
 {
-  "url": "https://myriad.health/terms",
+  "url": "https://www.solidpractice.com/doc/SolidPractice-b10-exportable-data-content.pdf",
   "developer": {
-    "name": "Myriad Systems",
-    "website": "https://myriadsystems.ai",
-    "contact_name": "David Pratts",
-    "contact_email": "dpratts@myriadsystems.ai",
-    "contact_phone": "914-431-7335"
+    "name": "SolidPractice Technologies, LLC",
+    "website": "http://www.solidpractice.com"
   },
-  "sed_intended_user_description": "",
-  "mandatory_disclosures_url": "https://Myriad.health/terms",
+  "mandatory_disclosures_url": "",
+  "sed_intended_user_description": "providers and support staff",
   "products": [
     {
-      "chpl_id": 11452,
-      "chpl_product_number": "15.05.05.3188.MYRD.01.00.0.240308",
-      "product_name": "Myriad Health",
-      "version": "1.0",
-      "certification_date": "2024-03-08",
-      "certification_status": "Active",
-      "practice_type": null,
+      "name": "SolidPractice",
+      "version": "2.0",
+      "chpl_id": 10763,
+      "chpl_product_number": "15.05.05.3095.SOLP.01.00.1.211227",
       "certified_criteria": [
+        "170.315 (a)(1)",
         "170.315 (a)(12)",
+        "170.315 (a)(14)",
+        "170.315 (a)(2)",
+        "170.315 (a)(3)",
+        "170.315 (a)(4)",
+        "170.315 (a)(5)",
+        "170.315 (b)(1)",
         "170.315 (b)(10)",
+        "170.315 (b)(11)",
+        "170.315 (b)(2)",
+        "170.315 (b)(3)",
+        "170.315 (c)(1)",
+        "170.315 (c)(2)",
+        "170.315 (c)(3)",
         "170.315 (d)(1)",
+        "170.315 (d)(10)",
+        "170.315 (d)(11)",
         "170.315 (d)(12)",
         "170.315 (d)(13)",
         "170.315 (d)(2)",
@@ -32,8 +41,19 @@
         "170.315 (d)(7)",
         "170.315 (d)(8)",
         "170.315 (d)(9)",
+        "170.315 (e)(1)",
+        "170.315 (e)(3)",
+        "170.315 (f)(1)",
+        "170.315 (f)(5)",
+        "170.315 (g)(10)",
+        "170.315 (g)(2)",
+        "170.315 (g)(3)",
         "170.315 (g)(4)",
-        "170.315 (g)(5)"
+        "170.315 (g)(5)",
+        "170.315 (g)(6)",
+        "170.315 (g)(7)",
+        "170.315 (g)(9)",
+        "170.315 (h)(1)"
       ]
     }
   ]

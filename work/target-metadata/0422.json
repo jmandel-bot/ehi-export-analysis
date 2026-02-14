@@ -1,40 +1,34 @@
 {
-  "url": "https://infomedika.com/certifications/",
+  "url": "https://www.ezcaretech.com/english/onc/b.10_EHI_Export.pdf",
   "developer": {
-    "name": "Infomedika, Inc.",
-    "website": "http://www.infomedika.com/",
-    "contact_name": "Carlos Torres",
-    "contact_email": "ctorres@infomedika.com",
-    "contact_phone": "787-620-2474"
+    "name": "ezCaretech Co., Ltd.",
+    "website": "http://www.ezcaretech.com/"
   },
-  "sed_intended_user_description": "Healthcare members",
-  "mandatory_disclosures_url": "https://infomedika.com/wp-content/uploads/2025/01/Mandatory-Disclosures-Modified-1-3-2025.pdf",
+  "mandatory_disclosures_url": "",
+  "sed_intended_user_description": "University Tertiary Hospital",
   "products": [
     {
-      "chpl_id": 9815,
-      "chpl_product_number": "15.04.04.1684.Evol.08.00.1.181221",
-      "product_name": "Evolution EHR",
-      "version": "3",
-      "certification_date": "2018-12-21",
-      "certification_status": "Active",
-      "practice_type": null,
+      "name": "BESTCare",
+      "version": "2.0B",
+      "chpl_id": 9665,
+      "chpl_product_number": "15.04.04.2610.BEST.02.00.1.180423",
       "certified_criteria": [
         "170.315 (a)(1)",
         "170.315 (a)(12)",
         "170.315 (a)(14)",
-        "170.315 (a)(15)",
         "170.315 (a)(2)",
         "170.315 (a)(3)",
         "170.315 (a)(4)",
         "170.315 (a)(5)",
-        "170.315 (a)(9)",
         "170.315 (b)(1)",
         "170.315 (b)(10)",
+        "170.315 (b)(11)",
         "170.315 (b)(2)",
         "170.315 (c)(1)",
         "170.315 (c)(2)",
         "170.315 (c)(3)",
         "170.315 (d)(1)",
+        "170.315 (d)(11)",
         "170.315 (d)(12)",
         "170.315 (d)(13)",
         "170.315 (d)(2)",
@@ -46,14 +40,19 @@
         "170.315 (d)(8)",
         "170.315 (d)(9)",
         "170.315 (f)(1)",
+        "170.315 (f)(2)",
         "170.315 (f)(3)",
         "170.315 (f)(5)",
+        "170.315 (f)(6)",
+        "170.315 (f)(7)",
+        "170.315 (g)(10)",
         "170.315 (g)(2)",
         "170.315 (g)(3)",
         "170.315 (g)(4)",
         "170.315 (g)(5)",
         "170.315 (g)(6)",
-        "170.315 (h)(1)"
+        "170.315 (g)(7)",
+        "170.315 (g)(9)"
       ]
     }
   ]

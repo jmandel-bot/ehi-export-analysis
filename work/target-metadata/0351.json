@@ -1,23 +1,17 @@
 {
-  "url": "https://www.cybermedcorp.com/Products/EHR.html",
+  "url": "https://www.ezcaretech.com/english/onc/b.10_EHI_Export_BESTCare2.0G.pdf",
   "developer": {
-    "name": "CyberMed Corporation",
-    "website": "https://www.cybermedcorp.com",
-    "contact_name": "Jinpin Ying",
-    "contact_email": "jying@cybermedehr.com",
-    "contact_phone": "732-800-0020"
+    "name": "ezCaretech Co., Ltd.",
+    "website": "http://www.ezcaretech.com/"
   },
-  "sed_intended_user_description": "Outpatient Clinic",
-  "mandatory_disclosures_url": "https://www.cybermedcorp.com/Products/EHR.html",
+  "mandatory_disclosures_url": "",
+  "sed_intended_user_description": "Public Hospital",
   "products": [
     {
-      "chpl_id": 11154,
-      "chpl_product_number": "15.04.04.2775.Cybe.07.01.1.221228",
-      "product_name": "CyberMed EHR",
-      "version": "7.0",
-      "certification_date": "2022-12-28",
-      "certification_status": "Active",
-      "practice_type": null,
+      "name": "BESTCare",
+      "version": "2.0G",
+      "chpl_id": 11161,
+      "chpl_product_number": "15.04.04.2610.BEST.02.01.1.221228",
       "certified_criteria": [
         "170.315 (a)(1)",
         "170.315 (a)(12)",
@@ -26,18 +20,9 @@
         "170.315 (a)(3)",
         "170.315 (a)(4)",
         "170.315 (a)(5)",
-        "170.315 (b)(1)",
         "170.315 (b)(10)",
-        "170.315 (b)(11)",
-        "170.315 (b)(2)",
-        "170.315 (b)(3)",
-        "170.315 (b)(7)",
-        "170.315 (b)(8)",
-        "170.315 (b)(9)",
-        "170.315 (c)(1)",
-        "170.315 (c)(2)",
-        "170.315 (c)(3)",
         "170.315 (d)(1)",
+        "170.315 (d)(11)",
         "170.315 (d)(12)",
         "170.315 (d)(13)",
         "170.315 (d)(2)",
@@ -47,18 +32,12 @@
         "170.315 (d)(6)",
         "170.315 (d)(7)",
         "170.315 (d)(8)",
-        "170.315 (d)(9)",
-        "170.315 (e)(1)",
-        "170.315 (e)(3)",
-        "170.315 (f)(1)",
+        "170.315 (f)(2)",
+        "170.315 (f)(4)",
         "170.315 (g)(2)",
         "170.315 (g)(3)",
         "170.315 (g)(4)",
-        "170.315 (g)(5)",
-        "170.315 (g)(6)",
-        "170.315 (g)(7)",
-        "170.315 (g)(9)",
-        "170.315 (h)(1)"
+        "170.315 (g)(5)"
       ]
     }
   ]

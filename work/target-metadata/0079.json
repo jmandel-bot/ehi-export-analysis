@@ -1,50 +1,34 @@
 {
-  "url": "https://ipclinical.com/documentation/b_10_Electronic_Health_Information_export.pdf",
+  "url": "https://www.sevocity.com/ehi-export-technical-documentation/",
   "developer": {
-    "name": "Physicians EMR, LLC",
-    "website": "https://www.ipclinical.com/",
-    "contact_name": "Dr. Wasim Ahmar",
-    "contact_email": "wahmarmd@gmail.com",
-    "contact_phone": "(407) 448-3100"
+    "name": "Sevocity, a division of Conceptual MindWorks, Inc",
+    "website": "http://www.sevocity.com"
   },
-  "sed_intended_user_description": "",
-  "mandatory_disclosures_url": "https://www.ipclinical.com/mu-disclousure/",
+  "mandatory_disclosures_url": "",
+  "sed_intended_user_description": "Outpatient Clinic",
   "products": [
     {
-      "chpl_id": 10278,
-      "chpl_product_number": "15.05.05.2163.PEMR.01.00.1.200123",
-      "product_name": "IPClinical",
-      "version": "2.1",
-      "certification_date": "2020-01-23",
-      "certification_status": "Active",
-      "practice_type": null,
+      "name": "Sevocity",
+      "version": "v13.0",
+      "chpl_id": 11187,
+      "chpl_product_number": "15.04.04.2324.Sevo.13.01.1.221230",
       "certified_criteria": [
         "170.315 (a)(1)",
-        "170.315 (a)(10)",
-        "170.315 (a)(11)",
         "170.315 (a)(12)",
-        "170.315 (a)(13)",
         "170.315 (a)(14)",
         "170.315 (a)(15)",
         "170.315 (a)(2)",
         "170.315 (a)(3)",
         "170.315 (a)(4)",
         "170.315 (a)(5)",
-        "170.315 (a)(6)",
-        "170.315 (a)(7)",
-        "170.315 (a)(8)",
-        "170.315 (a)(9)",
         "170.315 (b)(1)",
         "170.315 (b)(10)",
+        "170.315 (b)(11)",
         "170.315 (b)(2)",
-        "170.315 (b)(9)",
         "170.315 (c)(1)",
         "170.315 (c)(2)",
         "170.315 (c)(3)",
-        "170.315 (c)(4)",
         "170.315 (d)(1)",
-        "170.315 (d)(10)",
-        "170.315 (d)(11)",
         "170.315 (d)(12)",
         "170.315 (d)(13)",
         "170.315 (d)(2)",
@@ -56,7 +40,6 @@
         "170.315 (d)(8)",
         "170.315 (d)(9)",
         "170.315 (e)(1)",
-        "170.315 (e)(2)",
         "170.315 (e)(3)",
         "170.315 (f)(1)",
         "170.315 (f)(2)",
@@ -67,8 +50,7 @@
         "170.315 (g)(5)",
         "170.315 (g)(6)",
         "170.315 (g)(7)",
-        "170.315 (g)(9)",
-        "170.315 (h)(1)"
+        "170.315 (g)(9)"
       ]
     }
   ]

@@ -1,25 +1,31 @@
 {
-  "url": "https://www.rwhc.com/Services/Quality-Programs/RWHC-Electronic-Clinical-Quality-Measures",
+  "url": "https://www.practicefusion.com/ehi-export-documentation/",
   "developer": {
-    "name": "Rural Wisconsin Health Cooperative",
-    "website": "http://www.rwhc.com",
-    "contact_name": "Bonnie Laffey",
-    "contact_email": "blaffey@rwhc.com",
-    "contact_phone": "6086443233"
+    "name": "Practice Fusion",
+    "website": "http://www.practicefusion.com"
   },
-  "sed_intended_user_description": "",
-  "mandatory_disclosures_url": "http://www.rwhc.com/Services/QualityPrograms/RWHCMeaningfulUseeMeasuresSolution.aspx",
+  "mandatory_disclosures_url": "",
+  "sed_intended_user_description": "Ambulatory Healthcare Providers",
   "products": [
     {
-      "chpl_id": 11506,
-      "chpl_product_number": "15.04.04.2281.RWHC.08.02.0.240828",
-      "product_name": "RWHC eCQM QI Program",
-      "version": "Version 8",
-      "certification_date": "2024-08-28",
-      "certification_status": "Active",
-      "practice_type": null,
+      "name": "Practice Fusion EHR",
+      "version": "3.7",
+      "chpl_id": 11507,
+      "chpl_product_number": "15.04.04.2924.Prac.37.01.1.240826",
       "certified_criteria": [
+        "170.315 (a)(1)",
+        "170.315 (a)(12)",
+        "170.315 (a)(14)",
+        "170.315 (a)(15)",
+        "170.315 (a)(2)",
+        "170.315 (a)(3)",
+        "170.315 (a)(4)",
+        "170.315 (a)(5)",
+        "170.315 (b)(1)",
         "170.315 (b)(10)",
+        "170.315 (b)(11)",
+        "170.315 (b)(2)",
+        "170.315 (b)(3)",
         "170.315 (c)(1)",
         "170.315 (c)(2)",
         "170.315 (c)(3)",
@@ -28,9 +34,24 @@
         "170.315 (d)(13)",
         "170.315 (d)(2)",
         "170.315 (d)(3)",
+        "170.315 (d)(4)",
         "170.315 (d)(5)",
+        "170.315 (d)(6)",
+        "170.315 (d)(7)",
+        "170.315 (d)(8)",
+        "170.315 (d)(9)",
+        "170.315 (e)(1)",
+        "170.315 (e)(3)",
+        "170.315 (f)(1)",
+        "170.315 (f)(5)",
+        "170.315 (g)(10)",
+        "170.315 (g)(2)",
+        "170.315 (g)(3)",
         "170.315 (g)(4)",
-        "170.315 (g)(5)"
+        "170.315 (g)(5)",
+        "170.315 (g)(6)",
+        "170.315 (g)(7)",
+        "170.315 (g)(9)"
       ]
     }
   ]

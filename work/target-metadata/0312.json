@@ -1,23 +1,17 @@
 {
-  "url": "https://www.holyname.org/Policy/ehi-export-file-format.aspx",
+  "url": "https://s3.amazonaws.com/novoclinical.miscellaneous/Novoclinical+Data+Export+Format.pdf",
   "developer": {
-    "name": "Holy Name Medical Center",
-    "website": "https://www.holyname.org",
-    "contact_name": "Eduardo Morales",
-    "contact_email": "emorales@holyname.org",
-    "contact_phone": "(201) 833-3160"
+    "name": "NovoMedici, LLC",
+    "website": "https://www.novomedici.com/"
   },
-  "sed_intended_user_description": "Ordering providers and other clinicians",
-  "mandatory_disclosures_url": "https://holyname.org/Policy/it-disclosure.aspx",
+  "mandatory_disclosures_url": "",
+  "sed_intended_user_description": "Providers, Nurses and Medical assistant",
   "products": [
     {
-      "chpl_id": 11224,
-      "chpl_product_number": "15.99.09.1632.WE01.01.02.1.230127",
-      "product_name": "WebHIS",
-      "version": "1.2",
-      "certification_date": "2023-01-27",
-      "certification_status": "Active",
-      "practice_type": null,
+      "name": "NovoClinical",
+      "version": "1.0",
+      "chpl_id": 10805,
+      "chpl_product_number": "15.02.05.3015.Novo.01.01.1.220131",
       "certified_criteria": [
         "170.315 (a)(1)",
         "170.315 (a)(12)",
@@ -30,7 +24,12 @@
         "170.315 (b)(10)",
         "170.315 (b)(11)",
         "170.315 (b)(2)",
+        "170.315 (b)(3)",
+        "170.315 (c)(1)",
+        "170.315 (c)(2)",
+        "170.315 (c)(3)",
         "170.315 (d)(1)",
+        "170.315 (d)(11)",
         "170.315 (d)(12)",
         "170.315 (d)(13)",
         "170.315 (d)(2)",
@@ -40,11 +39,20 @@
         "170.315 (d)(6)",
         "170.315 (d)(7)",
         "170.315 (d)(8)",
+        "170.315 (d)(9)",
+        "170.315 (e)(1)",
+        "170.315 (f)(1)",
+        "170.315 (f)(2)",
+        "170.315 (f)(5)",
+        "170.315 (g)(10)",
         "170.315 (g)(2)",
         "170.315 (g)(3)",
         "170.315 (g)(4)",
         "170.315 (g)(5)",
-        "170.315 (g)(6)"
+        "170.315 (g)(6)",
+        "170.315 (g)(7)",
+        "170.315 (g)(9)",
+        "170.315 (h)(1)"
       ]
     }
   ]

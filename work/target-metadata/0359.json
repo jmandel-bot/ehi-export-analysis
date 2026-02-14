@@ -1,38 +1,49 @@
 {
-  "url": "https://ablehealth.elevio.help/en/articles/111633",
+  "url": "https://penn-clinical.com/ehi-export",
   "developer": {
-    "name": "Health Catalyst, Inc.",
-    "website": "http://www.healthcatalyst.com",
-    "contact_name": "James Nugent",
-    "contact_email": "james.nugent@healthcatalyst.com",
-    "contact_phone": "1-888-830-1022"
+    "name": "Perk Medical Systems LLC (PCB Apps LLC)",
+    "website": "https://www.pcbapps.com/"
   },
-  "sed_intended_user_description": "",
-  "mandatory_disclosures_url": "https://ablehealth.elevio.help/en/articles/111631",
+  "mandatory_disclosures_url": "",
+  "sed_intended_user_description": "Pediatric",
   "products": [
     {
-      "chpl_id": 11444,
-      "chpl_product_number": "15.04.04.3034.Meas.01.00.0.240122",
-      "product_name": "MeasureAble",
-      "version": "1.0.0",
-      "certification_date": "2024-01-22",
-      "certification_status": "Active",
-      "practice_type": null,
+      "name": "ezPractice",
+      "version": "V15.1",
+      "chpl_id": 11237,
+      "chpl_product_number": "15.07.04.2154.Ezpr.15.01.1.230208",
       "certified_criteria": [
+        "170.315 (a)(1)",
+        "170.315 (a)(12)",
+        "170.315 (a)(14)",
+        "170.315 (a)(2)",
+        "170.315 (a)(3)",
+        "170.315 (a)(4)",
+        "170.315 (a)(5)",
+        "170.315 (a)(9)",
+        "170.315 (b)(1)",
         "170.315 (b)(10)",
         "170.315 (c)(1)",
-        "170.315 (c)(2)",
-        "170.315 (c)(3)",
         "170.315 (d)(1)",
         "170.315 (d)(12)",
         "170.315 (d)(13)",
         "170.315 (d)(2)",
         "170.315 (d)(3)",
+        "170.315 (d)(4)",
         "170.315 (d)(5)",
+        "170.315 (d)(6)",
         "170.315 (d)(7)",
+        "170.315 (d)(8)",
         "170.315 (d)(9)",
+        "170.315 (e)(3)",
+        "170.315 (g)(10)",
+        "170.315 (g)(3)",
         "170.315 (g)(4)",
-        "170.315 (g)(5)"
+        "170.315 (g)(5)",
+        "170.315 (g)(6)",
+        "170.315 (g)(7)",
+        "170.315 (g)(9)",
+        "170.315 (h)(1)"
       ]
     }
   ]

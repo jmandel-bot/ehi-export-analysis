@@ -1,25 +1,18 @@
 {
-  "url": "https://www.healthviewx.com/wp-content/uploads/2023/12/EHI-Export-Documentation-V1.0.pdf",
+  "url": "https://sophrona.com/products/certifications/",
   "developer": {
-    "name": "Payoda Technology Inc.",
-    "website": "https://www.healthviewx.com",
-    "contact_name": "Sekar Mylsamy",
-    "contact_email": "sekar.m@payoda.com",
-    "contact_phone": "+91-72000-93936"
+    "name": "Sophrona Solutions, Inc.",
+    "website": "http://www.sophrona.com"
   },
-  "sed_intended_user_description": "",
-  "mandatory_disclosures_url": "https://healthviewx.com/certification-disclosure",
+  "mandatory_disclosures_url": "",
+  "sed_intended_user_description": null,
   "products": [
     {
-      "chpl_id": 11415,
-      "chpl_product_number": "15.04.04.3054.Heal.02.01.1.231220",
-      "product_name": "HealthViewX",
-      "version": "2.0.187",
-      "certification_date": "2023-12-20",
-      "certification_status": "Active",
-      "practice_type": null,
+      "name": "Sophrona e2015 Portal Technology",
+      "version": "Version R10.11",
+      "chpl_id": 11421,
+      "chpl_product_number": "15.04.04.2355.Soph.10.02.1.231222",
       "certified_criteria": [
-        "170.315 (b)(1)",
         "170.315 (b)(10)",
         "170.315 (d)(1)",
         "170.315 (d)(12)",
@@ -29,11 +22,16 @@
         "170.315 (d)(5)",
         "170.315 (d)(6)",
         "170.315 (d)(7)",
-        "170.315 (d)(8)",
-        "170.315 (g)(2)",
+        "170.315 (d)(9)",
+        "170.315 (e)(1)",
+        "170.315 (e)(3)",
+        "170.315 (g)(1)",
+        "170.315 (g)(10)",
         "170.315 (g)(4)",
         "170.315 (g)(5)",
-        "170.315 (g)(6)"
+        "170.315 (g)(6)",
+        "170.315 (g)(7)",
+        "170.315 (g)(9)"
       ]
     }
   ]

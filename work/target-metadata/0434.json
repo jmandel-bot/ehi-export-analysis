@@ -1,36 +1,44 @@
 {
-  "url": "https://rojihealthintel.com/costs-and-limitations/",
+  "url": "https://saisystems.com/health/pacehr-ehi/",
   "developer": {
-    "name": "Roji Health Intelligence LLC",
-    "website": "http://www.rojihealthintel.com",
-    "contact_name": "Don Newman",
-    "contact_email": "don.newman@rojihealthintel.com",
-    "contact_phone": "(312) 258-8004 ext. 712"
+    "name": "Sai Systems Digital LLC",
+    "website": "https://thesnfist.com/"
   },
-  "sed_intended_user_description": "",
-  "mandatory_disclosures_url": "https://rojihealthintel.com/costs-and-requirements/",
+  "mandatory_disclosures_url": "",
+  "sed_intended_user_description": "Medical professionals in Long Term Post Acute Care",
   "products": [
     {
-      "chpl_id": 8332,
-      "chpl_product_number": "15.04.04.2951.Roji.16.00.0.170202",
-      "product_name": "Roji Clinical Data Registry",
-      "version": "Version 2016",
-      "certification_date": "2017-02-02",
-      "certification_status": "Active",
-      "practice_type": null,
+      "name": "PacEHR",
+      "version": "v20",
+      "chpl_id": 11177,
+      "chpl_product_number": "15.04.04.3137.Pace.20.00.1.221229",
       "certified_criteria": [
+        "170.315 (a)(1)",
+        "170.315 (a)(14)",
+        "170.315 (a)(5)",
+        "170.315 (b)(1)",
         "170.315 (b)(10)",
-        "170.315 (c)(2)",
-        "170.315 (c)(3)",
-        "170.315 (c)(4)",
+        "170.315 (b)(11)",
+        "170.315 (c)(1)",
         "170.315 (d)(1)",
         "170.315 (d)(12)",
         "170.315 (d)(13)",
         "170.315 (d)(2)",
         "170.315 (d)(3)",
+        "170.315 (d)(4)",
         "170.315 (d)(5)",
+        "170.315 (d)(6)",
+        "170.315 (d)(7)",
+        "170.315 (d)(8)",
+        "170.315 (d)(9)",
+        "170.315 (g)(10)",
+        "170.315 (g)(3)",
         "170.315 (g)(4)",
-        "170.315 (g)(5)"
+        "170.315 (g)(5)",
+        "170.315 (g)(6)",
+        "170.315 (g)(7)",
+        "170.315 (g)(9)",
+        "170.315 (h)(1)"
       ]
     }
   ]

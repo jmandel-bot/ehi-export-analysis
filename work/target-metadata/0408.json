@@ -1,41 +1,36 @@
 {
-  "url": "https://www.dosespot.com/ehi-export",
+  "url": "https://www.medicasoft.com/compliance",
   "developer": {
-    "name": "PRN Software (DoseSpot)",
-    "website": "https://www.dosespot.com",
-    "contact_name": "Chad Sherron",
-    "contact_email": "Chad@dosespot.com",
-    "contact_phone": "(888) 847-6814"
+    "name": "MedicaSoft, LLC",
+    "website": "https://www.medicasoft.com/"
   },
-  "sed_intended_user_description": "Ambulatory",
-  "mandatory_disclosures_url": "https://www.dosespot.com/onc-certification",
+  "mandatory_disclosures_url": "",
+  "sed_intended_user_description": null,
   "products": [
     {
-      "chpl_id": 10919,
-      "chpl_product_number": "15.04.04.3056.Dose.08.01.0.220622",
-      "product_name": "DoseSpot",
-      "version": "8.0",
-      "certification_date": "2022-06-22",
-      "certification_status": "Active",
-      "practice_type": null,
+      "name": "ehr.NXT HealthCenter",
+      "version": "5.1",
+      "chpl_id": 11141,
+      "chpl_product_number": "15.04.04.1930.eHTC.05.01.0.221227",
       "certified_criteria": [
-        "170.315 (a)(4)",
         "170.315 (b)(10)",
-        "170.315 (b)(3)",
         "170.315 (d)(1)",
         "170.315 (d)(12)",
         "170.315 (d)(13)",
         "170.315 (d)(2)",
         "170.315 (d)(3)",
-        "170.315 (d)(4)",
         "170.315 (d)(5)",
-        "170.315 (d)(6)",
         "170.315 (d)(7)",
-        "170.315 (d)(8)",
-        "170.315 (g)(2)",
-        "170.315 (g)(3)",
+        "170.315 (d)(9)",
+        "170.315 (e)(1)",
+        "170.315 (g)(1)",
+        "170.315 (g)(10)",
         "170.315 (g)(4)",
-        "170.315 (g)(5)"
+        "170.315 (g)(5)",
+        "170.315 (g)(6)",
+        "170.315 (g)(7)",
+        "170.315 (g)(9)",
+        "170.315 (h)(2)"
       ]
     }
   ]
