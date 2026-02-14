@@ -1,0 +1,85 @@
+{
+  "collection_date": "2026-02-14",
+  "url": "https://www.junohealth.com/ehiexport",
+  "final_url": "https://www.junohealth.com/ehiexport",
+  "access_status": "found",
+  "files": [
+    {
+      "path": "downloads/main-ehiexport-page.html",
+      "source_url": "https://www.junohealth.com/ehiexport",
+      "size_bytes": 69715,
+      "description": "Main EHI Tables Export page on HubSpot. Contains overview text explaining the CSV export format and four CTA buttons linking to component-specific documentation (Juno EHR, RxTracker, ConnectEHR/CQMsolution, Patient Portal).",
+      "curl_command": "curl -sL 'https://www.junohealth.com/ehiexport' -H 'User-Agent: Mozilla/5.0' -o main-ehiexport-page.html"
+    },
+    {
+      "path": "downloads/jehr-data-dictionary.html",
+      "source_url": "https://ehiexports.junohealth.com/jehr/",
+      "size_bytes": 201001,
+      "description": "Juno EHR Export Schema — index page listing 1,256 database tables with links to individual table documentation pages. This is the primary data dictionary for the core EHR CSV export. Organized alphabetically A-V. Each table links to a separate HTML page with field-level detail (column name, type, description, primary/foreign keys). Hosted on Azure blob storage.",
+      "curl_command": "curl -sL 'https://ehiexports.junohealth.com/jehr/' -H 'User-Agent: Mozilla/5.0' -o jehr-data-dictionary.html"
+    },
+    {
+      "path": "downloads/rtvx-data-dictionary.html",
+      "source_url": "https://ehiexports.junohealth.com/rtvx/",
+      "size_bytes": 17002,
+      "description": "RxTracker Export Schema — index page listing 66 database tables for the e-prescribing/pharmacy module. Same structure as the Juno EHR dictionary. Covers patients, prescriptions, medication orders, encounters, allergies, problems, reconciliations, and related pharmacy workflow data.",
+      "curl_command": "curl -sL 'https://ehiexports.junohealth.com/rtvx/' -H 'User-Agent: Mozilla/5.0' -o rtvx-data-dictionary.html"
+    },
+    {
+      "path": "downloads/connectehr-cqmsolution-page.html",
+      "source_url": "https://www.junohealth.com/ehiexport/connectehr-cqmsolution",
+      "size_bytes": 83803,
+      "description": "ConnectEHR & CQMsolution EHI Export page. Describes ConnectEHR C-CDA 2.x export (single-patient and bulk, scheduled or on-demand) and CQMsolution QRDA I XML export. Both certified to (b)(10) under limited ePHI USCDIv1 definition. Includes step-by-step extraction instructions.",
+      "curl_command": "curl -sL 'https://www.junohealth.com/ehiexport/connectehr-cqmsolution' -H 'User-Agent: Mozilla/5.0' -o connectehr-cqmsolution-page.html"
+    },
+    {
+      "path": "downloads/patient-portal-page.html",
+      "source_url": "https://www.junohealth.com/ehiexport/juno-patient-portal",
+      "size_bytes": 85086,
+      "description": "Patient Portal EHI Export page. Describes C-CDA format export for single-patient and patient population downloads. Certified to (b)(10) under USCDIv1 definition. Includes step-by-step report extraction process.",
+      "curl_command": "curl -sL 'https://www.junohealth.com/ehiexport/juno-patient-portal' -H 'User-Agent: Mozilla/5.0' -o patient-portal-page.html"
+    },
+    {
+      "path": "downloads/screenshot-main-ehiexport-page.png",
+      "source_url": "https://www.junohealth.com/ehiexport",
+      "size_bytes": 561701,
+      "description": "Full-page screenshot of the main EHI Tables Export page showing the overview text and four CTA buttons (Juno EHR, Juno RxTracker, Juno ConnectEHR & CQMsolution, Juno Patient Portal).",
+      "curl_command": null
+    },
+    {
+      "path": "downloads/screenshot-jehr-data-dictionary-top.png",
+      "source_url": "https://ehiexports.junohealth.com/jehr/",
+      "size_bytes": 262763,
+      "description": "Screenshot of the top of the Juno EHR Export Schema page showing the title, alphabetical index navigation (A-Z), and the beginning of the table listing under section A.",
+      "curl_command": null
+    },
+    {
+      "path": "downloads/screenshot-jehr-sample-table-page.png",
+      "source_url": "https://ehiexports.junohealth.com/jehr/AU_PRESCRIPTION.html",
+      "size_bytes": 185647,
+      "description": "Screenshot of a sample individual table documentation page (AU_PRESCRIPTION) showing the table description, primary key, foreign key relationships, and the beginning of column-level documentation with name, type, and description fields.",
+      "curl_command": null
+    },
+    {
+      "path": "downloads/screenshot-rtvx-data-dictionary.png",
+      "source_url": "https://ehiexports.junohealth.com/rtvx/",
+      "size_bytes": 134041,
+      "description": "Screenshot of the RxTracker Export Schema page showing the title, alphabetical index, and table listings.",
+      "curl_command": null
+    },
+    {
+      "path": "downloads/screenshot-connectehr-cqmsolution.png",
+      "source_url": "https://www.junohealth.com/ehiexport/connectehr-cqmsolution",
+      "size_bytes": 1061452,
+      "description": "Full-page screenshot of the ConnectEHR & CQMsolution EHI Export page showing C-CDA export instructions, QRDA I XML export description, and step-by-step process.",
+      "curl_command": null
+    },
+    {
+      "path": "downloads/screenshot-patient-portal.png",
+      "source_url": "https://www.junohealth.com/ehiexport/juno-patient-portal",
+      "size_bytes": 1046993,
+      "description": "Full-page screenshot of the Patient Portal EHI Export page showing C-CDA export instructions and step-by-step report extraction process.",
+      "curl_command": null
+    }
+  ]
+}

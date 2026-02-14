@@ -1,0 +1,85 @@
+{
+  "research_date": "2026-02-14",
+  "sources": [
+    {
+      "url": "https://www.junohealth.com",
+      "type": "vendor-website",
+      "note": "Main site. Describes three EHR variants (Acute Care, Behavioral Health, Public Health), cloud-native architecture, #1 for rural hospitals per Black Book 2025, 600+ employees."
+    },
+    {
+      "url": "https://www.junohealth.com/certifications",
+      "type": "mandatory-disclosures",
+      "note": "Lists six ONC-certified products: Juno EHR v24, ConnectEHR 22, CQMsolution 22, RxTracker v9, JESS v3.2, Patient Portal v23. Includes cost disclosures for licensing, maintenance, implementation."
+    },
+    {
+      "url": "https://www.junohealth.com/acute-care-ehr",
+      "type": "vendor-website",
+      "note": "Detailed acute care features: Clinical Content Builder, ProDash, Clinical Action Center, AI Scribe, ED functionality, e-prescribing, order management, chart review, surgery/perioperative, revenue cycle management."
+    },
+    {
+      "url": "https://www.junohealth.com/behavioral-health-ehr",
+      "type": "vendor-website",
+      "note": "Behavioral health features: Session Manager, treatment planning, group notes, pharmacy with BCMA/eMAR, flowsheets, 400+ templates, 150+ assessments, Golden Thread concept."
+    },
+    {
+      "url": "https://www.junohealth.com/juno-ehr-for-behavioral-health-state-mental-health",
+      "type": "vendor-website",
+      "note": "State mental health variant: single-tenant architecture, enterprise governance across multi-facility networks, treatment plans with pre-configured behavioral health templates."
+    },
+    {
+      "url": "https://www.junohealth.com/public-health-ehr",
+      "type": "vendor-website",
+      "note": "Public health features: immunization registry, vaccine inventory tracking, mass clinic support, disease surveillance with ICD-10/SNOMED/LOINC coding, population health monitoring, outbreak response."
+    },
+    {
+      "url": "https://www.junohealth.com/about-us",
+      "type": "vendor-website",
+      "note": "Company background: division of DSS Inc, 30+ years experience, 90%+ employee retention, serves rural hospitals, acute care, behavioral health, public health, state mental health."
+    },
+    {
+      "url": "https://www.junohealth.com/patient-care-providers",
+      "type": "vendor-website",
+      "note": "Provider-focused page: describes workflow optimization, clinical decision support, compliance certifications (SOC-2, HIPAA, ISO 9001, CMMI DEV/2), cloud-based infrastructure."
+    },
+    {
+      "url": "https://www.junohealth.com/connecting-the-patient-journey",
+      "type": "vendor-website",
+      "note": "Behavioral health Golden Thread concept: links admission assessment → treatment plan → notes → outcomes → discharge. Session Manager, Group Notes, scheduling integration."
+    },
+    {
+      "url": "https://www.junohealth.com/acute-care-ehr-e-prescribing",
+      "type": "vendor-website",
+      "note": "E-prescribing details: Surescripts certified, EPCS with two-factor auth, First Data Bank drug data, CoverMyMeds prior authorization, mobile app available."
+    },
+    {
+      "url": "https://www.dssinc.com/",
+      "type": "vendor-website",
+      "note": "Parent company DSS Inc. Lists extensive clinical applications built for VA: case management, dental, dialysis (CyberREN), infection control (TheraDoc), mental health, ophthalmology, perioperative care, plus administrative tools. VistA-as-a-Service offering."
+    },
+    {
+      "url": "https://softwarefinder.com/emr-software/juno-health",
+      "type": "third-party-review",
+      "note": "Lists 11 modules including Revenue Cycle Management, Surgery, Appointment Scheduling. Only 3 reviews (all 5-star, all from same reviewer). Pricing is custom/unlisted."
+    },
+    {
+      "url": "https://www.junohealth.com/blog/tdh-chooses-juno-ehr-press-release",
+      "type": "vendor-website",
+      "note": "Press release: Tennessee Department of Health selected Juno as statewide public health EHR."
+    },
+    {
+      "url": "https://www.dssinc.com/blog/2022/2/14/dss-inc-commercial-off-the-shelf-cots-solution-helps-the-va-modernize-veteran-prescriptions",
+      "type": "vendor-website",
+      "note": "Redirected to new blog site. Original content about RxTracker as VA COTS solution for e-prescribing was not accessible."
+    },
+    {
+      "url": "https://www.oit.va.gov/Services/TRM/ToolPage.aspx?tid=15470",
+      "type": "government-source",
+      "note": "VA OIT Technology Reference Model entry for DSS RxTracker — confirms it is a VistA-integrated e-prescribing solution used at VA facilities."
+    },
+    {
+      "url": "https://www.prweb.com/releases/dss-inc-expands-services-capabilities-through-acquisition-of-sbg-technology-solutions-inc--887664875.html",
+      "type": "press-release",
+      "note": "September 2021 acquisition of SBG Technology Solutions by DSS Inc to expand VA/DoD/federal services capabilities."
+    }
+  ]
+}
