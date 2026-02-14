@@ -1,0 +1,75 @@
+{
+  "research_date": "2026-02-14",
+  "sources": [
+    {
+      "url": "https://criterions.com/",
+      "type": "vendor-website",
+      "note": "Main website. Describes 30+ year history, cloud-based EHR and PM suite for offices/clinics/billing services of all sizes. Lists key product areas: EHR, PM, e-prescribing, patient portal, scheduling, lab interfaces."
+    },
+    {
+      "url": "https://criterions.com/electronic-health-records/",
+      "type": "mandatory-disclosures",
+      "note": "EHR product page and mandatory disclosures. Shows ONC certification (15.04.04.2705.Crit.04.00.1.191111), Criterions EHR 4.0 Complete EHR Ambulatory. Lists features: customizable charting, e-prescribing, scheduling, patient portal, practice management. Mentions NewCrop and EMRDirect integrations."
+    },
+    {
+      "url": "https://criterions.com/cures-disclosures-2022/",
+      "type": "vendor-website",
+      "note": "Cures Act disclosures page. Three downloadable documents: 2022 CURES Disclosure, Mandatory Disclosure 2022, Patient EHI Data Export Overview. Displays SureScripts, ONC Health IT Certified, and Claredi 5010 certification seals."
+    },
+    {
+      "url": "https://criterions.com/practice-management/",
+      "type": "vendor-website",
+      "note": "Practice management product page. Describes cloud-based billing/PM system: scheduling, insurance verification, superbill generation, automated payment posting, A/R management, document management with annotations and digital signatures, recall procedures, audit tracking, reporting (daily transactions, multi-practice, PQRS)."
+    },
+    {
+      "url": "https://criterions.com/patient-portal/",
+      "type": "vendor-website",
+      "note": "Patient portal page. Details patient intake features: demographics, insurance, medical/social/family history, medications, allergies, pharmacy preferences, consent forms, questionnaires. Also covers secure messaging with routing, online payments, appointment scheduling, document/ID upload."
+    },
+    {
+      "url": "https://criterions.com/lab-interfaces/",
+      "type": "vendor-website",
+      "note": "Lab interfaces page. Describes electronic lab ordering, automatic result receipt and filing, LOINC-coded results with MIPS measure calculation. States growing list of connected labs, imaging groups, and public health organizations but doesn't name specific partners."
+    },
+    {
+      "url": "https://criterions.com/features-of-modern-cloud-based-practice-management-software/",
+      "type": "vendor-website",
+      "note": "Blog/feature article. Describes EHR integration, scheduling, billing/claims/insurance verification, patient portal, reporting/analytics, workflow automation (refills, referrals), security features (encryption, RBAC, audit logs), cloud deployment."
+    },
+    {
+      "url": "https://www.capterra.com/p/129508/The-Criterions-Medical-Suite/",
+      "type": "third-party-review",
+      "note": "Capterra listing (403 blocked on fetch but search results revealed info). Small number of positive reviews praising vendor responsiveness and customization. Confirms product is called 'The Criterions Medical Suite'."
+    },
+    {
+      "url": "https://softwarefinder.com/emr-software/criterions",
+      "type": "third-party-review",
+      "note": "Software Finder listing. Describes HIPAA-compliant, mobile-accessible, specialty-customizable EHR. Built-in patient portal for records, refills, appointments, bill payment."
+    },
+    {
+      "url": "https://www.getapp.com/healthcare-pharmaceuticals-software/a/criterions/",
+      "type": "third-party-review",
+      "note": "GetApp listing (403 blocked on fetch). Search results confirmed the product listing exists with reviews and feature details."
+    },
+    {
+      "url": "https://www.trustradius.com/products/criterions/reviews",
+      "type": "third-party-review",
+      "note": "TrustRadius listing. Has 2025 reviews and ratings from verified users. Not fetched in detail."
+    },
+    {
+      "url": "https://www.medicalrecords.com/mrcbase/emr/criterions-llc-criterions",
+      "type": "third-party-review",
+      "note": "MedicalRecords.com listing. Confirms product is 'Criterions Medical Suite (TCMS)' - integrated EHR + PM solution. Page content was mostly JS/CSS, limited useful text extracted."
+    },
+    {
+      "url": "https://www.zoominfo.com/c/criterions/347672560",
+      "type": "company-profile",
+      "note": "ZoomInfo company profile (not fetched). Search results indicate 7-12 employees, headquartered in Garden City/Great Neck, NY area."
+    },
+    {
+      "url": "https://portal.nymed.com/EHR/",
+      "type": "vendor-website",
+      "note": "Criterions EHR login portal hosted at nymed.com domain. Suggests NY-area medical practice customers."
+    }
+  ]
+}

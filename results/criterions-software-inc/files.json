@@ -1,0 +1,36 @@
+{
+  "collection_date": "2026-02-14",
+  "url": "https://criterions.com/cures-disclosures-2022/",
+  "final_url": "https://criterions.com/cures-disclosures-2022/",
+  "access_status": "found",
+  "files": [
+    {
+      "path": "downloads/Patient-EHI-Data-Export-Overview.pdf",
+      "source_url": "https://criterions.com/wp-content/uploads/2024/05/Patient-EHI-Data-Export-Overview.pdf",
+      "size_bytes": 82693,
+      "description": "Single-page patient-facing EHI export overview. Lists 22 C-CDA sections included in the export and explains what a CCDA file is. This is the primary (b)(10) documentation — a patient-facing overview of the Email/Print Chart + CCDA download mechanism.",
+      "curl_command": "curl -sL 'https://criterions.com/wp-content/uploads/2024/05/Patient-EHI-Data-Export-Overview.pdf' -H 'User-Agent: Mozilla/5.0' -o Patient-EHI-Data-Export-Overview.pdf"
+    },
+    {
+      "path": "downloads/2022-CURES-DISCLOSURES.pdf",
+      "source_url": "https://criterions.com/wp-content/uploads/2022/08/2022-CURES-DISCLOSURES.pdf",
+      "size_bytes": 140420,
+      "description": "Single-page CURES disclosure document with MFA and EHI sections. The EHI section states exports use CCDA/XML format via Email/Print Chart, can be done for individual or groups of patients or scheduled, without charge or programming intervention.",
+      "curl_command": "curl -sL 'https://criterions.com/wp-content/uploads/2022/08/2022-CURES-DISCLOSURES.pdf' -H 'User-Agent: Mozilla/5.0' -o 2022-CURES-DISCLOSURES.pdf"
+    },
+    {
+      "path": "downloads/MandatoryDisclosure2022.pdf",
+      "source_url": "https://criterions.com/wp-content/uploads/2022/12/MandatoryDisclosure2022.pdf",
+      "size_bytes": 794750,
+      "description": "9-page mandatory disclosure table listing all certified capabilities, descriptions, and associated costs. Contains entries for (b)(6) Data export and (b)(10) EHI export — both describe C-CDA-based export of clinical data. Provides context on all product capabilities and pricing model.",
+      "curl_command": "curl -sL 'https://criterions.com/wp-content/uploads/2022/12/MandatoryDisclosure2022.pdf' -H 'User-Agent: Mozilla/5.0' -o MandatoryDisclosure2022.pdf"
+    },
+    {
+      "path": "downloads/cures-disclosures-page-screenshot.png",
+      "source_url": "https://criterions.com/cures-disclosures-2022/",
+      "size_bytes": 463647,
+      "description": "Full-page screenshot of the registered CHPL documentation URL showing the 'Certifications & Documentation' page with three button-links to the PDF documents.",
+      "curl_command": null
+    }
+  ]
+}
