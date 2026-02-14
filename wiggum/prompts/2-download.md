@@ -39,21 +39,31 @@ Everything at the registered URL that documents the EHI export. This includes:
 - **Unrelated regulatory documents** — real-world testing plans, SVAP notices, etc.
   unless they describe the export mechanism
 
-### Follow links FROM the EHI export documentation
+### Staying focused: let the export docs guide you
 
-If the EHI export documentation itself links to other resources that help you
-understand the export format or contents — follow those links and download
-the content. These are part of the export documentation.
+EHI export documentation often lives on a larger certification or compliance
+page alongside other vendor documentation — FHIR API portals, regulatory
+filings, product feature pages. Your job is the EHI export, not everything else.
 
-For example: if the EHI data dictionary links to a page on the vendor's site
-that documents their database schema, or to format specifications needed to
-interpret the export files — follow it and download it.
+The way to stay focused is to **let the export documentation itself tell you
+what's relevant.** Once you find the core EHI export docs (a PDF, a data
+dictionary page, a download link), read them enough to understand the export
+format. That understanding tells you what else you need:
 
-But **don't independently explore** the vendor's broader documentation universe.
-If the EHI export page lives on a certification page that also links to other
-product documentation, developer portals, or regulatory filings — don't go
-deep on those unless the EHI export docs specifically reference them as part
-of understanding the export.
+- If the export is CSV files with a data dictionary, you probably have
+  everything you need in that dictionary. You don't need to go explore the
+  vendor's FHIR API docs — that's a different system.
+- If the export documentation says "exports are in FHIR NDJSON format using
+  our custom profiles," then yes, you need the profile/IG documentation to
+  understand the export. Follow those links.
+- If the data dictionary references a separate schema document or format
+  spec hosted elsewhere on the vendor's site, follow that link.
+
+The principle: follow what you need to understand the export. Don't follow
+everything that happens to be nearby on the same page. A certification page
+might link to both "EHI Export Data Dictionary" and "FHIR API Developer
+Portal" — those are different things, and only the first is your job unless
+the export docs tell you otherwise.
 
 ### Prefer computable formats
 
