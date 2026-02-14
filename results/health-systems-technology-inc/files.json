@@ -1,0 +1,22 @@
+{
+  "collection_date": "2026-02-14",
+  "url": "https://hstspot.com/help-documents.php",
+  "final_url": "https://hstspot.com/help-documents.php",
+  "access_status": "found",
+  "files": [
+    {
+      "path": "downloads/Providers - Exporting Computer Readable Documents.pdf",
+      "source_url": "https://downloads.hstcentral.com/helpdocs/Exporting%20Documents/Providers%20-%20Exporting%20Computer%20Readable%20Documents.pdf",
+      "size_bytes": 474907,
+      "description": "The sole EHI export documentation for MedPointe. A 2-page PDF describing how to export clinical documents using a proprietary 'C62' file format. Covers single document, chart, and batch export workflows via the MedPointe UI. Does not include a data dictionary, schema, format specification, or description of what data is exported. Author: Tim Schmidt. Created: 2023-11-16.",
+      "curl_command": "curl -sL 'https://downloads.hstcentral.com/helpdocs/Exporting%20Documents/Providers%20-%20Exporting%20Computer%20Readable%20Documents.pdf' -H 'User-Agent: Mozilla/5.0' -o 'Providers - Exporting Computer Readable Documents.pdf'"
+    },
+    {
+      "path": "downloads/help-documents-page.png",
+      "source_url": "https://hstspot.com/help-documents.php",
+      "size_bytes": 563801,
+      "description": "Full-page screenshot of the registered EHI export documentation URL (hstspot.com/help-documents.php). Shows three categories: Exporting Documents (1 PDF), Tutorials (12 MP4 videos), and e-Prescribing (7 PDFs).",
+      "curl_command": null
+    }
+  ]
+}

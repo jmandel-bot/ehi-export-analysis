@@ -1,0 +1,75 @@
+{
+  "research_date": "2026-02-14",
+  "sources": [
+    {
+      "url": "https://medpointemr.com/",
+      "type": "vendor-website",
+      "note": "Main website (hstcentral.com redirects here). Branded as 'Med Pointe Workflow Solutions'. Divi-themed WordPress site — most pages rendered only CSS/JS with no extractable text content."
+    },
+    {
+      "url": "https://medpointemr.com/features/",
+      "type": "vendor-website",
+      "note": "Features overview page. Listed key modules: EHR, RCM, integrated clearinghouse, patient engagement, custom workflows, analytics, document management, bidirectional lab integration, health information exchange, patient portal, insurance eligibility verification, Meaningful Use compliance tools."
+    },
+    {
+      "url": "https://medpointemr.com/features/intelligent-text-generation/",
+      "type": "vendor-website",
+      "note": "Describes MedPointe's distinctive Intelligent Text Generation feature — Clinical Intelligence engine that learns provider documentation style and pre-fills notes based on similar past encounters using a 'multi-dimensional digital fingerprint'."
+    },
+    {
+      "url": "https://medpointemr.com/features/integrated-clearinghouse/",
+      "type": "vendor-website",
+      "note": "Clearinghouse feature page (did not render text content). Search snippets indicate real-time claims submission/tracking, automatic EOB/ERA posting."
+    },
+    {
+      "url": "https://medpointemr.com/features/revenue-cycle-management/",
+      "type": "vendor-website",
+      "note": "RCM feature page (did not render text content). Described as handling full cycle from eligibility verification to payment posting."
+    },
+    {
+      "url": "https://medpointemr.com/meaningful-use/",
+      "type": "mandatory-disclosures",
+      "note": "Mandatory disclosures / Meaningful Use page. Did not render text content (returned only CSS/styling). Listed as mandatory_disclosures_url in CHPL metadata."
+    },
+    {
+      "url": "https://hstspot.com/",
+      "type": "vendor-website",
+      "note": "Customer help/support site. References MedPointe v12 as '2015 Edition compliant Complete EHR'. Mentions web-based, thick/thin client, and wireless pen-based configurations. Lists 24/7 support, free updates. Rochester, NY address and phone numbers."
+    },
+    {
+      "url": "https://www.emrfinder.com/review/medpointe-emr-software/",
+      "type": "third-party-review",
+      "note": "EMRFinder review page. Detailed feature list: clinical documentation, e-prescribing, patient portal, billing/RCM, telemedicine, lab integration, picture archiving. Targets family medicine, urgent care, pediatrics, internal medicine, sleep centers. Cloud-based, multi-specialty."
+    },
+    {
+      "url": "https://www.findemr.com/medpointe-ehr-software",
+      "type": "third-party-review",
+      "note": "FindEMR review. Listed features: Complete EHR, patient scheduling, integrated billing/claims, accounting, patient portal, e-prescribing, e-lab, document management, telemedicine (ZoomVisit at $100/provider/month add-on), compliance tracking, mobile app. Three pricing tiers $299-$499/month, first 12 months free."
+    },
+    {
+      "url": "https://www.emrsystems.net/medpointe-by-hst-health-systems-technologies-inc/",
+      "type": "third-party-review",
+      "note": "EMRSystems review. 4/5 stars from 3 reviews. Cloud-based EMR + PM. Features: problem lists, medication management, e-prescribing, allergy checking, scheduling, patient portal, billing/RCM, telemedicine, lab/pharmacy integration. Base price $110/month."
+    },
+    {
+      "url": "https://softwarefinder.com/emr-software/medpointe",
+      "type": "third-party-review",
+      "note": "SoftwareFinder review. 4.4 stars from 8 reviews. Billing/RCM described as 'seamless end-to-end solution' covering demographics capture, insurance verification, claims generation/submission. Three subscription models."
+    },
+    {
+      "url": "https://www.capterra.com/p/143082/MedPointe/",
+      "type": "third-party-review",
+      "note": "Capterra listing (blocked by 403, info from search snippets only). User reviews note ease of use, fast onboarding, customizable correspondence and preventive care features. Negatives: occasional slowness/freezing, longer initial setup."
+    },
+    {
+      "url": "https://www.softwareadvice.com/medical/medpointe-profile/",
+      "type": "third-party-review",
+      "note": "Software Advice listing (blocked by 403, info from search snippets only). Confirms cloud-based EMR for small/mid-sized practices."
+    },
+    {
+      "url": "https://www.crunchbase.com/organization/health-systems-technology",
+      "type": "third-party-review",
+      "note": "Crunchbase profile (blocked by 403). Search snippet confirms: HST creates MedPointe (EMR) and Practice Made Perfect (PM), headquartered in Rochester, NY. PM software development started 1989, Practice Made Perfect released 1998 (Windows upgrade from DOS), MedPointe v1 developed 2000."
+    }
+  ]
+}
