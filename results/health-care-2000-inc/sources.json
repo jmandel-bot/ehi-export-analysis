@@ -1,0 +1,50 @@
+{
+  "research_date": "2026-02-14",
+  "sources": [
+    {
+      "url": "https://www.hc2000inc.com",
+      "type": "vendor-website",
+      "note": "Main website. Describes MDVita as ONC-certified EMR and practice management for value-based care. Lists modules: EHR, practice management, revenue cycle, ePrescribe, analytics. Mentions 'hundreds of medical centers' and expertise in risk-based contracts with Medicare Advantage plans. Also offers financial consulting services."
+    },
+    {
+      "url": "https://www.hc2000inc.com/Pages/HC2K_MDVita_Disclosures.htm",
+      "type": "mandatory-disclosures",
+      "note": "Current ONC mandatory disclosures for MDVita v27. Detailed pricing (cloud, license, add-on costs), certification criteria list, supported quality measures, third-party costs (Direct mailbox, Azure for data export). Notes patient portal is third-party. Certified by Drummond Group October 2022."
+    },
+    {
+      "url": "http://hc2000inc.com/pages/hc2k_mdvita_mu_disclosure.htm",
+      "type": "mandatory-disclosures",
+      "note": "Older disclosure page for MDVita v20.0 (2014 Edition, certified December 2014). Lists 38 certification criteria, three deployment models (cloud, revenue-sharing, license), additional costs for patient portal, lab interfaces, immunization registry, QRDA generation, Direct connections. Mentions 16 clinical quality measures."
+    },
+    {
+      "url": "https://www.alignable.com/palmetto-bay-fl/health-care-2000-inc",
+      "type": "business-directory",
+      "note": "Business profile. Founded 1997 by Martin Gonzalez as claim adjudication company. Software division (MD2000) launched 2000, evolved into MDVita. Family-owned, based in Palmetto Bay FL. Low employee turnover (avg 10 years)."
+    },
+    {
+      "url": "https://www.alignable.com/palmetto-bay-fl/health-care-2000-inc/mdvita-ehr",
+      "type": "business-directory",
+      "note": "Product listing for MDVita EHR. Brief description: ONC-certified EHR. Also lists MDVita Analytics as extension for analysis and utilization performance measurement. No detailed feature info or reviews."
+    },
+    {
+      "url": "https://www.emrdirect.com/press-releases/20200714-emr-direct-announces-q1-and-q2-2020-health-it-certifications.html",
+      "type": "partner-press-release",
+      "note": "EMR Direct press release confirming MDVita achieved ONC 2015 Edition certification in Q1/Q2 2020 using EMR Direct's Interoperability Engine platform for Direct messaging and HL7 FHIR services."
+    },
+    {
+      "url": "https://www.drummondgroup.com/pdfs/MDVita_v25_EHR_315_g3_SED_NISTIR_7742.pdf",
+      "type": "usability-report",
+      "note": "EHRUT usability testing report for MDVita v25 (PDF could not be fully parsed). Search results indicate 10 test participants, System Usability Scale score of 100, all tasks rated 'Easy'. Users praised reconciliation tasks and organization compared to other EHRs."
+    },
+    {
+      "url": "https://trademarks.justia.com/855/72/mdvita-85572748.html",
+      "type": "trademark-registry",
+      "note": "MDVITA trademark registration (Registration #4259260, Serial #85572748). Not fetched but listed in search results."
+    },
+    {
+      "url": "https://discovery.hgdata.com/product/mdvita-ehr",
+      "type": "third-party-data",
+      "note": "HG Insights product page for MDVita EHR. Content behind paywall; no substantive data accessible."
+    }
+  ]
+}

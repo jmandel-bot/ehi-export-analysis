@@ -1,0 +1,15 @@
+{
+  "collection_date": "2026-02-14",
+  "url": "https://www.hc2000inc.com/Pages/MDVita_EHR_EHI_DataFormat.pdf",
+  "final_url": "https://www.hc2000inc.com/Pages/MDVita_EHR_EHI_DataFormat.pdf",
+  "access_status": "found",
+  "files": [
+    {
+      "path": "downloads/MDVita_EHR_EHI_DataFormat.pdf",
+      "source_url": "https://www.hc2000inc.com/Pages/MDVita_EHR_EHI_DataFormat.pdf",
+      "size_bytes": 478386,
+      "description": "28-page EHI Export Data Format specification for MDVita version 27 (Guide v1.2, dated Sep 2023, PDF created Jan 2024). Documents the complete (b)(10) EHI export format: 24 Apache Parquet data files covering patient demographics, insurance plans, appointments, clinical notes (SOAP), orders, problem lists, allergies, medications, procedures, documents, lab results, claims/encounters, referrals, internal emails, immunizations, vitals, document signatures, insurance payments/EOBs, patient charges, patient payments, and document annotations. Each file is documented with column names, data types, descriptions, and coded value enumerations. Also describes the document/SOAP note delivery mechanism via time-limited Azure Blob Storage URLs.",
+      "curl_command": "curl -sL 'https://www.hc2000inc.com/Pages/MDVita_EHR_EHI_DataFormat.pdf' -H 'User-Agent: Mozilla/5.0' -o MDVita_EHR_EHI_DataFormat.pdf"
+    }
+  ]
+}
