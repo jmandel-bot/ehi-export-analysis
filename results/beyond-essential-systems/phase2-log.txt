@@ -636,3 +636,104 @@ Now let me write the collection log and download manifest.
 {
   "command": "cd /home/exedev/ehi-export-analysis && git add results/beyond-essential-systems/ && git status"
 }
+[RESULT: On branch main
+Your branch is ahead of 'origin/main' by 1 commit.
+  (use "git push" to publish your local commits)
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+	new file:   results/beyond-essential-systems/chpl-metadata.json
+	new file:   results/beyond-essential-systems/collection-log.md
+	new file:   results/beyond-essential-systems/download-manifest.json
+	new file:   results/beyond-essential-systems/downloads/csv-sheets/allergyintolerance.csv
+	new file:   results/beyond-essential-systems/downloads/csv-sheets/bundle.csv
+	new file:   results/beyond-essential-systems/downloads/csv-sheets/composition.csv
+	new file:   results/beyond-essential-systems/downloads/csv-sheets/condition.csv
+	new file:   results/beyond-essential-systems/downloads/csv-sheets/immunization.csv
+	new file:   results/beyond-essential-systems/downloads/csv-sheets/medicationstatement.csv
+	new file:   results/beyond-essential-systems/downloads/csv-sheets/overview.csv
+	new file:   results/beyond-essential-systems/downloads/csv-sheets/patient.csv
+	new file:   results/beyond-essential-systems/downloads/csv-sheets/ref-configurable-defaults.csv
+	new file:   results/beyond-essential-systems/downloads/screenshot-interop-manuals-topic.png
+	new file:   results/beyond-essential-systems/downloads/screenshot-main-page.png
+	new file:   results/beyond-essential-systems/downloads/screenshot-spreadsheet.png
+	new file:   results/beyond-essential-systems/downloads/tamanu-patient-summary-export-mapping.xlsx
+	new file:   results/beyond-essential-systems/downloads/tamanu-patient-summary-export-page.txt
+	new file:   results/beyond-essential-systems/phase1-log.txt
+	new file:   results/beyond-essential-systems/phase2-log.txt
+
+Changes not staged for commit:
+  (use "git add/rm <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	deleted:    results/medical-information-technology-inc-meditech/chpl-metadata.json
+	deleted:    results/medical-information-technology-inc-meditech/phase1-log.txt
+	deleted:    results/medical-information-technology-inc-meditech/phase2-log.txt
+	modified:   wiggum/loop.sh
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	MEDITECH_EXPANSE_RESEARCH.md
+	MEDITECH_external_research.md
+
+]
+
+[TOOL: bash]
+{
+  "command": "cd /home/exedev/ehi-export-analysis && git commit -m \"Beyond Essential Systems: download EHI export documentation\n\n- Registered URL: Slab wiki page (SPA, requires browser)\n- Key artifact: Google Spreadsheet mapping Tamanu fields to FHIR IPS resources\n- Export format: FHIR IPS Bundle via SMART Health Links Protocol\n- 9 sheets covering Bundle, Composition, Patient, AllergyIntolerance,\n  Condition, Immunization, MedicationStatement, and configurable defaults\n- Downloaded XLSX + extracted 9 CSV sheets for machine-readability\n- Screenshots of main page, spreadsheet, and topic listing\n- Minimal but complete documentation consistent with (b)(10)-only certification\""
+}
+[RESULT: [main dd35f948] Beyond Essential Systems: download EHI export documentation
+ Committer: exe.dev user <exedev@ehi-research.exe.xyz>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly:
+
+    git config --global user.name "Your Name"
+    git config --global user.email you@example.com
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 19 files changed, 1570 insertions(+)
+ create mode 100644 results/beyond-essential-systems/chpl-metadata.json
+ create mode 100644 results/beyond-essential-systems/collection-log.md
+ create mode 100644 results/beyond-essential-systems/download-manifest.json
+ create mode 100644 results/beyond-essential-systems/downloads/csv-sheets/allergyintolerance.csv
+ create mode 100644 results/beyond-essential-systems/downloads/csv-sheets/bundle.csv
+ create mode 100644 results/beyond-essential-systems/downloads/csv-sheets/composition.csv
+ create mode 100644 results/beyond-essential-systems/downloads/csv-sheets/condition.csv
+ create mode 100644 results/beyond-essential-systems/downloads/csv-sheets/immunization.csv
+ create mode 100644 results/beyond-essential-systems/downloads/csv-sheets/medicationstatement.csv
+ create mode 100644 results/beyond-essential-systems/downloads/csv-sheets/overview.csv
+ create mode 100644 results/beyond-essential-systems/downloads/csv-sheets/patient.csv
+ create mode 100644 results/beyond-essential-systems/downloads/csv-sheets/ref-configurable-defaults.csv
+ create mode 100644 results/beyond-essential-systems/downloads/screenshot-interop-manuals-topic.png
+ create mode 100644 results/beyond-essential-systems/downloads/screenshot-main-page.png
+ create mode 100644 results/beyond-essential-systems/downloads/screenshot-spreadsheet.png
+ create mode 100644 results/beyond-essential-systems/downloads/tamanu-patient-summary-export-mapping.xlsx
+ create mode 100644 results/beyond-essential-systems/downloads/tamanu-patient-summary-export-page.txt
+ create mode 100644 results/beyond-essential-systems/phase1-log.txt
+ create mode 100644 results/beyond-essential-systems/phase2-log.txt
+]
+Done. Here's a summary of what was collected:
+
+## Collection Summary
+
+**Status**: ✅ Found and downloaded
+
+**Documentation**: Minimal but well-structured. A single Slab wiki page links to a Google Spreadsheet as the sole technical artifact.
+
+**What the export is**: Tamanu produces a **FHIR IPS (International Patient Summary) Bundle** delivered via the **SMART Health Links Protocol**.
+
+**Key artifact downloaded**:
+- **`tamanu-patient-summary-export-mapping.xlsx`** (57 KB) — 9-sheet spreadsheet mapping Tamanu internal fields to FHIR IPS resources
+- Also extracted as **9 individual CSV files** for machine-readability
+
+**FHIR resources covered**: Bundle, Composition, Patient, AllergyIntolerance, Condition, Immunization, MedicationStatement
+
+**Notable observations**:
+- Documentation is extremely sparse — a single wiki page + one spreadsheet
+- Patient resource mapping has only 4 rows (id + narrative text) — no demographics mapping
+- No encounter, procedure, lab result, or imaging mappings despite Tamanu storing extensive clinical data
+- Coding systems default to SNOMED CT (conditions/allergies) and NZMT (meds/immunizations) — New Zealand-centric
+- Consistent with a Pacific-focused vendor that obtained minimal ONC certification for international credibility
