@@ -165,42 +165,46 @@ COMPLETED=0
 FAILED=0
 SKIPPED=0
 
+# Reap any finished jobs, return count reaped
+reap_done() {
+  local reaped=0
+  for slug in "${!PIDS[@]}"; do
+    pid=${PIDS[$slug]}
+    if ! kill -0 "$pid" 2>/dev/null; then
+      wait "$pid" && {
+        echo "  ✓ $slug completed"
+        COMPLETED=$((COMPLETED + 1))
+        commit_result "$slug"
+      } || {
+        echo "  ✗ $slug failed (exit $?)"
+        FAILED=$((FAILED + 1))
+      }
+      unset PIDS[$slug]
+      RUNNING=$((RUNNING - 1))
+      reaped=$((reaped + 1))
+    fi
+  done
+  return $reaped
+}
+
 wait_for_slot() {
   while (( RUNNING >= MAX_CONCURRENT )); do
-    for slug in "${!PIDS[@]}"; do
-      pid=${PIDS[$slug]}
-      if ! kill -0 "$pid" 2>/dev/null; then
-        wait "$pid" && {
-          echo "  ✓ $slug completed"
-          COMPLETED=$((COMPLETED + 1))
-          commit_result "$slug"
-        } || {
-          echo "  ✗ $slug failed (exit $?)"
-          FAILED=$((FAILED + 1))
-        }
-        unset PIDS[$slug]
-        RUNNING=$((RUNNING - 1))
-      fi
-    done
+    reap_done || true
     if (( RUNNING >= MAX_CONCURRENT )); then
-      sleep 5
+      # Block until any marker file appears in results dir
+      inotifywait -r -q -e create -e moved_to "$RESULTS_DIR" \
+        --include "$COMPLETION_MARKER" --timeout 300 >/dev/null 2>&1 || true
     fi
   done
 }
 
 wait_for_all() {
-  for slug in "${!PIDS[@]}"; do
-    pid=${PIDS[$slug]}
-    wait "$pid" && {
-      echo "  ✓ $slug completed"
-      COMPLETED=$((COMPLETED + 1))
-      commit_result "$slug"
-    } || {
-      echo "  ✗ $slug failed (exit $?)"
-      FAILED=$((FAILED + 1))
-    }
-    unset PIDS[$slug]
-    RUNNING=$((RUNNING - 1))
+  while (( RUNNING > 0 )); do
+    reap_done || true
+    if (( RUNNING > 0 )); then
+      inotifywait -r -q -e create -e moved_to "$RESULTS_DIR" \
+        --include "$COMPLETION_MARKER" --timeout 300 >/dev/null 2>&1 || true
+    fi
   done
 }
 
