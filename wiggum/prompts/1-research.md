@@ -228,4 +228,5 @@ Capture whatever is distinctive about this product.
   guessing.
 - **Be efficient.** This is reconnaissance, not a deep investigation. Get the
   lay of the land and move on.
-- **Use subagents** if you have them — e.g., research multiple products in parallel.
+- **Do NOT use subagents.** Work sequentially in a single conversation.
+  Subagent messaging interrupts running agents and causes failures.

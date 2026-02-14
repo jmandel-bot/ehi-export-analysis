@@ -284,4 +284,5 @@ Also write `{{OUTPUT_DIR}}/download-manifest.json`:
   This information is as valuable as the docs themselves.
 - **Be proportionate.** Single PDF with clean link? 2 minutes. Complex multi-page
   site with buried docs? Take the time. The difficulty is itself a finding.
-- **Use subagents** if available to parallelize downloads or explore multiple paths.
+- **Do NOT use subagents.** Work sequentially in a single conversation.
+  Subagent messaging interrupts running agents and causes failures.
