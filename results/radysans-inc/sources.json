@@ -1,0 +1,75 @@
+{
+  "research_date": "2026-02-14",
+  "sources": [
+    {
+      "url": "https://radysans.com",
+      "type": "vendor-website",
+      "note": "Main site: lists 6 modules (EMR, PMS, Patient Portal, Order Entry, e-Billing, Mobile). Emphasizes low cost, SaaS model, no IT staff needed."
+    },
+    {
+      "url": "https://radysans.com/Radysans/ONCcertification.html",
+      "type": "mandatory-disclosures",
+      "note": "ONC certification page with CHPL number, certified criteria list, links to Real World Test Plans, EHI export docs, and API documentation."
+    },
+    {
+      "url": "https://radysans.com/Radysans/Products.html",
+      "type": "vendor-website",
+      "note": "Products page: describes PMS features (scheduling, registration, message manager, referral management, BI reports), EMR, Patient Portal, Order Entry, Billing, Mobile, and Transcription Services."
+    },
+    {
+      "url": "https://radysans.com/Radysans/Services.html",
+      "type": "vendor-website",
+      "note": "Services page: describes transcription services (4-phase QA, 24hr turnaround), scheduling, and billing services with links to detailed billing pages."
+    },
+    {
+      "url": "https://radysans.com/Radysans/ebilling.html",
+      "type": "vendor-website",
+      "note": "e-Billing page: charge capture, claim scrubbing, electronic submission to 2500+ payers, payment posting, denial tracking, EOB/ERA processing, patient statements."
+    },
+    {
+      "url": "https://radysans.com/Radysans/servicesBilling.html",
+      "type": "vendor-website",
+      "note": "Billing services page: full outsourcing RCM option including data entry, electronic submission, credentialing, coding monitoring, tax/payroll services."
+    },
+    {
+      "url": "https://radysans.com/Radysans/Security.html",
+      "type": "vendor-website",
+      "note": "Security page: HIPAA compliance, audit trails, user-based permissions, mentions SQL Server 2005 and HL7 compliance."
+    },
+    {
+      "url": "https://radysans.com/Radysans/aboutUs.html",
+      "type": "vendor-website",
+      "note": "About page: founded by physicians and business professionals, mission to be trusted source for integrated clinical practice management."
+    },
+    {
+      "url": "https://ehr.cutecharts.com/",
+      "type": "vendor-website",
+      "note": "Live EHR login page for Radysans EHR 5.0. Shows Drummond certification badge, patient/provider/representative login options, API registration, FHIR data types listed."
+    },
+    {
+      "url": "https://portal.entmann.com/PatientPortal/",
+      "type": "vendor-website",
+      "note": "Mann ENT patient portal running Radysans EHR v3.0. Confirms ENT practice in NC as customer. Multi-tenant design requiring practice code."
+    },
+    {
+      "url": "https://www.bbb.org/us/nc/apex/profile/medical-billing/radysans-inc-0593-90212313",
+      "type": "third-party-directory",
+      "note": "BBB profile: incorporated 11/18/1999, categorized as medical billing, Raj Polavaram as President, not BBB accredited, no reviews or complaints."
+    },
+    {
+      "url": "https://www.alignable.com/apex-nc/radysans-inc/radysans-pm-ehr",
+      "type": "third-party-directory",
+      "note": "Alignable listing: describes product as 'Integrated Health Records Software and RCM Services for outpatient clinics'. Contact: Shekar Raju."
+    },
+    {
+      "url": "https://www.zoominfo.com/c/radysans-inc/528803422",
+      "type": "third-party-directory",
+      "note": "ZoomInfo page (403 - could not access full content). Listed as healthcare software company."
+    },
+    {
+      "url": "https://entman.com/",
+      "type": "customer-website",
+      "note": "Mann ENT practice website (Cary/Clayton, NC). Dr. Charles H. Mann is on Radysans Senior Advisory Council. ENT practice using Radysans EHR."
+    }
+  ]
+}

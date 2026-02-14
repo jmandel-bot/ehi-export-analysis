@@ -1,0 +1,43 @@
+{
+  "collection_date": "2026-02-14",
+  "url": "http://radysans.com/Radysans/ONCcertification.html",
+  "final_url": "https://radysans.com/Radysans/ONCcertification.html",
+  "access_status": "found",
+  "files": [
+    {
+      "path": "downloads/B-10-Documentation.pdf",
+      "source_url": "http://radysans.com/Radysans/images/B-10-Documentation.pdf",
+      "size_bytes": 61032,
+      "description": "The primary (b)(10) EHI export documentation. Single-page PDF listing C-CDA sections and referencing FHIR Bulk Data as the two export mechanisms. No data dictionary or field-level detail.",
+      "curl_command": "curl -sL 'http://radysans.com/Radysans/images/B-10-Documentation.pdf' -H 'User-Agent: Mozilla/5.0' -o B-10-Documentation.pdf"
+    },
+    {
+      "path": "downloads/G10ApplicationAccessTermsandCondition.pdf",
+      "source_url": "http://radysans.com/Radysans/images/G10ApplicationAccessTermsandCondition.pdf",
+      "size_bytes": 311460,
+      "description": "The (g)(10) FHIR API documentation including OAuth2 authorization flow, all 18 FHIR resource endpoints with parameters and sample JSON responses, plus API Terms of Use. Referenced by the (b)(10) document as the FHIR export specification.",
+      "curl_command": "curl -sL 'http://radysans.com/Radysans/images/G10ApplicationAccessTermsandCondition.pdf' -H 'User-Agent: Mozilla/5.0' -o G10ApplicationAccessTermsandCondition.pdf"
+    },
+    {
+      "path": "downloads/RadysansEHRCostsandLimitations.pdf",
+      "source_url": "http://radysans.com/Radysans/images/RadysansEHRCostsandLimitations.pdf",
+      "size_bytes": 581581,
+      "description": "Mandatory Disclosure Statement listing costs and limitations of certified capabilities. Notes a one-time per-provider fee for data portability/extraction.",
+      "curl_command": "curl -sL 'http://radysans.com/Radysans/images/RadysansEHRCostsandLimitations.pdf' -H 'User-Agent: Mozilla/5.0' -o RadysansEHRCostsandLimitations.pdf"
+    },
+    {
+      "path": "downloads/fhir-endpoint-bundle.json",
+      "source_url": "https://ehrwebapi.cutecharts.com/radywebapi/endpoint",
+      "size_bytes": 1198,
+      "description": "FHIR Bundle containing the vendor's Endpoint and Organization resources. Confirms the FHIR API base URL at ehrwebapi.cutecharts.com/radywebapi.",
+      "curl_command": "curl -sL 'https://ehrwebapi.cutecharts.com/radywebapi/endpoint' -H 'Accept: application/fhir+json' -o fhir-endpoint-bundle.json"
+    },
+    {
+      "path": "downloads/screenshot-onc-certification-page.png",
+      "source_url": "https://radysans.com/Radysans/ONCcertification.html",
+      "size_bytes": 275362,
+      "description": "Full-page screenshot of the ONC certification page showing all links including the (b)(10) documentation link, real world test plans, and FHIR API information.",
+      "curl_command": null
+    }
+  ]
+}
