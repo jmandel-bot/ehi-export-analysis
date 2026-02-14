@@ -1,0 +1,34 @@
+[
+  {
+    "phase": 1,
+    "name": "Comprehensive EHRs",
+    "slug": "comprehensive-ehrs",
+    "file": "phase-1-comprehensive-ehrs.json",
+    "description": "Products with CPOE certification [(a)(1)-(a)(3)] and standardized FHIR API [(g)(10)]. These are full-featured EHR systems with clinical decision support, order entry, and standards-based API access \u2014 the core EHR market.",
+    "count": 207
+  },
+  {
+    "phase": 2,
+    "name": "Clinical systems without FHIR API",
+    "slug": "clinical-no-fhir",
+    "file": "phase-2-clinical-no-fhir.json",
+    "description": "Products with clinical criteria [(a)(1)-(a)(14)] but no standardized FHIR API [(g)(10)]. May be older systems, specialty EHRs, or products that certified for clinical functions but not API access.",
+    "count": 100
+  },
+  {
+    "phase": 3,
+    "name": "API-only and specialty modules",
+    "slug": "api-and-specialty",
+    "file": "phase-3-api-and-specialty.json",
+    "description": "Products with (g)(10) FHIR API but no clinical (a) criteria, or products with patient portal, transitions of care, or other non-clinical certifications. Includes patient portals, health information exchanges, and middleware.",
+    "count": 36
+  },
+  {
+    "phase": 4,
+    "name": "Minimal certification",
+    "slug": "minimal",
+    "file": "phase-4-minimal.json",
+    "description": "Products certified only for (b)(10) EHI export plus infrastructure criteria [(d), (g)(4), (g)(5)]. Minimal clinical functionality certified \u2014 may be niche tools, compliance-only certifications, or products early in their certification journey.",
+    "count": 106
+  }
+]

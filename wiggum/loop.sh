@@ -5,6 +5,7 @@
 # Each agent call blocks until the agent finishes.
 #
 # Usage:
+#   ./wiggum/loop.sh --targets work/phases/phase-1-comprehensive-ehrs.json --phase both
 #   ./wiggum/loop.sh --phase 1               # run phase 1 (research)
 #   ./wiggum/loop.sh --phase 2 --resume      # run phase 2, skip completed
 #   ./wiggum/loop.sh --phase both             # run phase 1 then 2 per URL
@@ -17,7 +18,7 @@ export PATH="$HOME/.local/bin:$HOME/.bun/bin:$PATH"
 
 ROOT="$(cd "$(dirname "${BASH_SOURCE[0]}")/.." && pwd)"
 CONFIG_DIR="$ROOT/wiggum"
-TARGETS="$ROOT/work/targets.json"
+TARGETS="${TARGETS:-$ROOT/work/targets.json}"
 RESULTS_DIR="$ROOT/results"
 
 # LLM backend: "claude", "shelley" (default), or "gemini"
@@ -82,6 +83,7 @@ ONLY_INDEX=""
 PHASE=""
 while [[ $# -gt 0 ]]; do
   case $1 in
+    --targets) TARGETS="$2"; shift 2 ;;
     --phase) PHASE="$2"; shift 2 ;;
     --resume) RESUME=true; shift ;;
     --reverse) REVERSE=true; shift ;;
@@ -122,7 +124,7 @@ TOTAL=$(jq 'length' "$TARGETS")
 echo "=== EHI Export Documentation Collection ==="
 echo "Phase:   $PHASE ($PHASE_LABEL)"
 echo "Backend: $LLM_BACKEND ($SHELLEY_MODEL)"
-echo "Targets: $TOTAL unique URLs"
+echo "Targets: $TARGETS ($TOTAL URLs)"
 echo "Results: $RESULTS_DIR/"
 echo ""
 
@@ -173,8 +175,11 @@ run_target() {
 
   mkdir -p "$output_dir/downloads"
 
-  # Copy CHPL metadata
-  local meta_file="$ROOT/work/target-metadata/$(printf '%04d' "$idx").json"
+  # Copy CHPL metadata (use original_index if present, else list position)
+  local orig_idx
+  orig_idx=$(echo "$target" | jq -r '.original_index // empty')
+  local meta_idx="${orig_idx:-$idx}"
+  local meta_file="$ROOT/work/target-metadata/$(printf '%04d' "$meta_idx").json"
   if [[ -f "$meta_file" ]]; then
     cp "$meta_file" "$output_dir/chpl-metadata.json"
   fi
