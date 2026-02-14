@@ -1,0 +1,75 @@
+{
+  "research_date": "2026-02-14",
+  "sources": [
+    {
+      "url": "https://www.crystalpm.com/",
+      "type": "vendor-website",
+      "note": "Main product page. Describes Crystal PM as optometry office management suite with EHR, scheduling, billing, optical inventory, and 60+ integrations."
+    },
+    {
+      "url": "https://crystalpm.com/pricing/",
+      "type": "mandatory-disclosures",
+      "note": "Pricing/mandatory disclosures page. Lists in-office and cloud options, core features (demographics, scheduling, billing, records, reporting), and optional add-ons (e-prescribing, secure messaging, FHIR server, machine integration)."
+    },
+    {
+      "url": "https://www.crystalpm.com/practice-management/",
+      "type": "vendor-website",
+      "note": "Practice management features page. Details scheduling (multi-doctor, drag-and-drop, room tracking), billing (exhaustive component, electronic claims), inventory management, electronic routing slips, and paperless workflows."
+    },
+    {
+      "url": "https://www.crystalpm.com/custom-health-records/",
+      "type": "vendor-website",
+      "note": "EHR features page. Describes 300+ customizable health record templates, automated ICD-10 coding, custom procedures, and Microsoft Office integration for reports and patient education."
+    },
+    {
+      "url": "https://www.crystalpm.com/cloud-ehr/",
+      "type": "vendor-website",
+      "note": "Cloud EHR page. Describes cloud deployment with air-gapped backups, equipment integrations (Zeiss, Marco, Optos, Humphreys), multi-device access, and average 3-minute support response time."
+    },
+    {
+      "url": "https://www.crystalpm.com/revenue-cycle-management/",
+      "type": "vendor-website",
+      "note": "RCM page for Abeo Billing service. Details claim submission methods, payment posting (insurance, patient, refunds, NSF), A/R management, appeals, and optional services (credentialing, fee analysis, insurance verification, patient statements)."
+    },
+    {
+      "url": "https://www.crystalpm.com/patient-engagement/",
+      "type": "vendor-website",
+      "note": "Patient engagement page. Describes Schedule Your Exam (real-time online scheduling), Crystal Communicator (texting for reminders/recalls), Crystal Kiosk (check-in, insurance card upload, HIPAA signatures), patient portal, and online forms."
+    },
+    {
+      "url": "https://www.crystalpm.com/integrated-partners/",
+      "type": "vendor-website",
+      "note": "Integration partners page. Lists 50+ partners across 15 categories: analytics, billing/RCM, cloud, credit card processing, direct messaging, e-prescribing, file management, HIPAA, insurance, optical/CL ordering, patient engagement, telehealth, website services."
+    },
+    {
+      "url": "https://www.findemr.com/crystal-practice-management-software",
+      "type": "third-party-review",
+      "note": "Third-party EMR review site. Confirms features: EHR with 300+ templates, multi-doctor scheduling, electronic claims, inventory with RFID, e-prescribing, patient portal, Android/iOS apps. Lists clearinghouse integrations (Apex, Trizetto, Waystar, VSP)."
+    },
+    {
+      "url": "https://www.capterra.com/p/91368/Crystal-Practice-Management/",
+      "type": "third-party-review",
+      "note": "Capterra profile (403 on fetch but search results provided review summaries). Users rate 4.2-4.5 stars. Praise customizability and billing integration. Complaints about dated interface and occasional freezing."
+    },
+    {
+      "url": "https://www.softwareadvice.com/medical/crystal-pm-profile/",
+      "type": "third-party-review",
+      "note": "Software Advice profile (403 on fetch). Search results confirmed user reviews praising scheduling and insurance modules, with concerns about customer service responsiveness."
+    },
+    {
+      "url": "https://projects.propublica.org/coronavirus/bailouts/loans/abeo-solutions-inc-dba-opto-or-crystal-practice-management-2890807107",
+      "type": "public-records",
+      "note": "ProPublica PPP loan data. Shows company DBA as 'Abeo Solutions Inc. DBA Opto Or Crystal Practice Management' with 35 reported employees."
+    },
+    {
+      "url": "https://east.visionexpo.com/en-us/expo-hall/exhibitor-list/exhibitor-details.crystal-practice-management-(abeo-solutions-inc).org-87b20ec0-f5b0-46b5-8e6a-44b7a7ef5318.html",
+      "type": "industry-event",
+      "note": "Vision Expo East exhibitor listing confirming Crystal Practice Management (Abeo Solutions Inc) exhibits at major optometry trade shows."
+    },
+    {
+      "url": "https://crystalpm.com/training/patient%20portal.pdf",
+      "type": "vendor-documentation",
+      "note": "Patient portal training document (found via search). Confirms portal features for patient access to records, prescriptions, education, invoices, bill pay, forms, and secure messaging."
+    }
+  ]
+}

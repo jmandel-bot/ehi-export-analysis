@@ -1,0 +1,15 @@
+{
+  "collection_date": "2026-02-14",
+  "url": "https://www.crystalpm.com/21stCenturyCuresActB10AllDataExportUserDocumentation2.pdf",
+  "final_url": "https://www.crystalpm.com/21stCenturyCuresActB10AllDataExportUserDocumentation2.pdf",
+  "access_status": "found",
+  "files": [
+    {
+      "path": "downloads/21stCenturyCuresActB10AllDataExportUserDocumentation2.pdf",
+      "source_url": "https://www.crystalpm.com/21stCenturyCuresActB10AllDataExportUserDocumentation2.pdf",
+      "size_bytes": 2680793,
+      "description": "921-page data dictionary documenting the Crystal PM B.10 EHI export. Covers 55 database tables exported as CSV files, with column-level documentation (name, data type, description, extraction method) for every field. Includes serialized .NET object model documentation for eye care-specific data types (visual acuity, refraction measurements). Tables span patient demographics, clinical records (20+ ehr_file sub-types), billing/HCFA claims, VSP vision insurance, optical inventory, scheduling, documents/images, and patient engagement.",
+      "curl_command": "curl -sL 'https://www.crystalpm.com/21stCenturyCuresActB10AllDataExportUserDocumentation2.pdf' -H 'User-Agent: Mozilla/5.0' -o 21stCenturyCuresActB10AllDataExportUserDocumentation2.pdf"
+    }
+  ]
+}
