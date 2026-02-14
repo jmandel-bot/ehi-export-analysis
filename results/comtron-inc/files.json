@@ -1,0 +1,15 @@
+{
+  "collection_date": "2026-02-14",
+  "url": "https://portal.medgenehr.com/Medgenweb/MedgenBackupUtility.pdf",
+  "final_url": "https://portal.medgenehr.com/Medgenweb/MedgenBackupUtility.pdf",
+  "access_status": "found",
+  "files": [
+    {
+      "path": "downloads/MedgenBackupUtility.pdf",
+      "source_url": "https://portal.medgenehr.com/Medgenweb/MedgenBackupUtility.pdf",
+      "size_bytes": 2977613,
+      "description": "Medgen Data Export & Backup Utility Guide v1.0 (July 2023, 79 pages). Documents the Medgen Backup Utility desktop application for exporting patient data as C-CDA XML files, patient document ZIPs, and supplementary CSV files (demographics, appointments, pharmacy, comments, and a 117-column billing transactions file). Includes installation instructions, configuration screenshots, C-CDA section-by-section documentation with template IDs, CSV column-level data dictionaries, and file naming conventions.",
+      "curl_command": "curl -sL 'https://portal.medgenehr.com/Medgenweb/MedgenBackupUtility.pdf' -H 'User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36' -o MedgenBackupUtility.pdf"
+    }
+  ]
+}

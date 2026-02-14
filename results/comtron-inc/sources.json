@@ -1,0 +1,85 @@
+{
+  "research_date": "2026-02-14",
+  "sources": [
+    {
+      "url": "http://www.medgenehr.com/",
+      "type": "vendor-website",
+      "note": "Main landing page. Describes Medgen EHR as cloud-based ONC-certified system with specialty modules for addiction medicine and OB/GYN. Also mentions LABGEN LIS. Footer credits MEDFAR."
+    },
+    {
+      "url": "https://www.medgenehr.com/about",
+      "type": "vendor-website",
+      "note": "About page. Claims 35+ years experience, over 15,000 providers and 20 million patient interactions. Describes MEDFAR/Comtron combined entity."
+    },
+    {
+      "url": "https://www.medgenehr.com/onc-certification",
+      "type": "mandatory-disclosures",
+      "note": "ONC certification page. Shows 2015 Cures Complete EHR certification by Drummond. Links to mandatory disclosure and ambulatory compliance certificate PDFs."
+    },
+    {
+      "url": "https://www.medgenehr.com/ehr-system",
+      "type": "vendor-website",
+      "note": "Core EHR features page. Emphasizes mobile app with Nuance voice dictation, modular customization, disease management, and PQRS/accountable care reporting."
+    },
+    {
+      "url": "https://www.medgenehr.com/addiction-medicine-ehr",
+      "type": "vendor-website",
+      "note": "Addiction medicine specialty page. Describes methadone/buprenorphine inventory management, dispensing pump interfaces, drug screening, EPCS, service plans, incident management, counselor dashboards."
+    },
+    {
+      "url": "https://www.medgenehr.com/ob-gyn-ehr",
+      "type": "vendor-website",
+      "note": "OB/GYN specialty page. Describes pregnancy tracking, antepartum/postpartum forms, EFW calculators, DICOM ultrasound interfaces, automated care plans, OB questionnaires in English/Spanish."
+    },
+    {
+      "url": "https://www.medgenehr.com/billing-and-practice-management",
+      "type": "vendor-website",
+      "note": "Billing page. Describes scheduling (up to 9 providers), EDI claim submission, charge capture, payment reconciliation, business intelligence reporting, payer mix analysis."
+    },
+    {
+      "url": "https://www.medgenehr.com/blog/4-must-have-features-for-methadone-inventory-control",
+      "type": "vendor-website",
+      "note": "Blog post detailing methadone inventory control: automated pump reconciliation, lot number tracking, bottle-level tracking, spillage accounting, advanced dispensing reports."
+    },
+    {
+      "url": "https://www.comtronusa.com/",
+      "type": "vendor-website",
+      "note": "Comtron USA corporate site. Confirms MEDFAR integration, lists Medgen EHR and LABGEN LIS products, describes lab and physician RCM services. Based in Great Neck, NY."
+    },
+    {
+      "url": "https://www.prnewswire.com/news-releases/medfar-fastest-growing-emrehr-provider-announces-successful-entry-into-the-us-primary-care-market-with-comtron-integration-302218324.html",
+      "type": "press-release",
+      "note": "August 2024 press release announcing MEDFAR's integration of Comtron. MEDFAR is a Canadian EMR company (MYLE platform). Describes 15,000+ healthcare professionals, 25M+ patient interactions. Ambitious '5-5 goals' for global expansion."
+    },
+    {
+      "url": "https://www.capterra.com/p/145295/Medgen-EHR/",
+      "type": "third-party-review",
+      "note": "Capterra listing. Only 3 reviews, 3.7/5 rating. Complaints about permission restrictions and charges for accessing old records after cancellation."
+    },
+    {
+      "url": "https://www.softwareadvice.com/medical/medgen-ehr-profile/",
+      "type": "third-party-review",
+      "note": "Software Advice listing for Medgen EHR. Limited review content."
+    },
+    {
+      "url": "https://www.ifaxapp.com/emr-and-ehr/what-is-medgen-ehr/",
+      "type": "third-party-review",
+      "note": "iFax article describing Medgen EHR features: scheduling for 9 providers, medical billing, patient portal, voice recognition app, PQRS reporting. Noted telehealth as lacking (may be outdated)."
+    },
+    {
+      "url": "https://ehrguide.org/top-ehr-software/medgen-ehr-software/",
+      "type": "third-party-review",
+      "note": "EHR Guide article. Lists specialty templates (behavioral health, cardiology, GI, etc.), voice dictation, business intelligence reporting, financial analysis tools, OB/GYN-specific features."
+    },
+    {
+      "url": "https://www.emrindustry.com/listings/comtron-inc/",
+      "type": "third-party-review",
+      "note": "EMR Industry listing. Confirms fully integrated billing, addiction medicine specialization (methadone/buprenorphine inventory), telemedicine, incident management, secure messaging, referral tracking."
+    },
+    {
+      "url": "https://www.medicalrecords.com/mrcbase/emr/medgen-ehr-by-comtron-corp",
+      "type": "third-party-review",
+      "note": "MedicalRecords.com listing for Medgen EHR by Comtron Corp. Basic product listing."
+    }
+  ]
+}
