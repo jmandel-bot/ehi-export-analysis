@@ -1,0 +1,43 @@
+{
+  "collection_date": "2026-02-14",
+  "url": "https://saisystems.com/health/pacehr-ehi/",
+  "final_url": "https://saisystems.com/health/pacehr-ehi/",
+  "access_status": "found",
+  "files": [
+    {
+      "path": "downloads/pacehr-ehi-main-page.html",
+      "source_url": "https://saisystems.com/health/pacehr-ehi/",
+      "size_bytes": 139585,
+      "description": "Main EHI export page. Contains high-level description of EHI export capability: defines EHI, describes bulk and single/multi-patient export use cases, states export is in 'machine readable XML formats', and links to FHIR API documentation. No data dictionary, schema, or technical specifications.",
+      "curl_command": "curl -sL 'https://saisystems.com/health/pacehr-ehi/' -H 'User-Agent: Mozilla/5.0' -o pacehr-ehi-main-page.html"
+    },
+    {
+      "path": "downloads/screenshot-ehi-main-page.png",
+      "source_url": "https://saisystems.com/health/pacehr-ehi/",
+      "size_bytes": 651704,
+      "description": "Full-page screenshot of the main EHI export page showing the complete content: title, EHI definition, use cases, and export format description.",
+      "curl_command": null
+    },
+    {
+      "path": "downloads/cures-update-fhir-api-docs.html",
+      "source_url": "https://thesnfist.com/cures-update/",
+      "size_bytes": 189075,
+      "description": "FHIR API documentation page linked from the EHI export page. Contains Drummond ONC certification disclosure, FHIR Server 1.0.0 API documentation covering 16 standard US Core/USCDI FHIR resources (AllergyIntolerance, CarePlan, CareTeam, Condition, Device, DocumentReference, Encounter, Goal, Immunization, Location, Medication, MedicationRequest, Observation, Patient, Practitioner, Procedure), and API Terms of Service. This is (g)(10) documentation, not (b)(10)-specific.",
+      "curl_command": "curl -sL 'https://thesnfist.com/cures-update/' -H 'User-Agent: Mozilla/5.0' -o cures-update-fhir-api-docs.html"
+    },
+    {
+      "path": "downloads/screenshot-cures-update-fhir-api-docs.png",
+      "source_url": "https://thesnfist.com/cures-update/",
+      "size_bytes": 3488686,
+      "description": "Full-page screenshot of the FHIR API documentation page showing the ONC certification disclosure and FHIR resource endpoint documentation.",
+      "curl_command": null
+    },
+    {
+      "path": "downloads/compliance-certificate-pacehr-v20.pdf",
+      "source_url": "https://43775473.fs1.hubspotusercontent-na1.net/hubfs/43775473/PacEHR%20Certifications/Compliance%20Certificate%20PacEHR%20v20%20010325.pdf",
+      "size_bytes": 265896,
+      "description": "Drummond Group ONC Health IT compliance certificate for PacEHR v20, 1 page. Confirms certification for criteria including (b)(10). Certificate No: 15.04.04.3137.Pace.20.00.1.221229, dated 12/29/2022.",
+      "curl_command": "curl -sL 'https://43775473.fs1.hubspotusercontent-na1.net/hubfs/43775473/PacEHR%20Certifications/Compliance%20Certificate%20PacEHR%20v20%20010325.pdf' -o compliance-certificate-pacehr-v20.pdf"
+    }
+  ]
+}

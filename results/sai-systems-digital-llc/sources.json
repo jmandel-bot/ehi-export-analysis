@@ -1,0 +1,60 @@
+{
+  "research_date": "2026-02-14",
+  "sources": [
+    {
+      "url": "https://thesnfist.com/",
+      "type": "vendor-website",
+      "note": "TheSNFist Suite landing page. Describes PacEHR as the first EHR designed for PALTC professionals. Lists product ecosystem: PacEHR, RCM, CCM services. Mentions streamlined documentation, patient census sorting, integrated billing."
+    },
+    {
+      "url": "https://saisystems.com/health/",
+      "type": "vendor-website",
+      "note": "Saisystems Health main page. Lists full product ecosystem: PacEHR, billEHR (charge capture), SNFConnect (communication), navigatEHR (dashboards), RCM, coding/billing, payor enrollment. Claims 10x documentation time reduction, AI-powered coding."
+    },
+    {
+      "url": "https://saisystems.com/health/electronic-health-record/",
+      "type": "vendor-website",
+      "note": "PacEHR product page. Describes it as EHR created by and for PALTC professionals. Page content was mostly CSS/structural — limited substantive detail extractable."
+    },
+    {
+      "url": "https://saisystems.com/health/paltc-practice-support/",
+      "type": "vendor-website",
+      "note": "Practice support services page. Confirms integration with PointClickCare. Lists full managed services offering. Describes one-stop-shop positioning for PALTC providers."
+    },
+    {
+      "url": "https://saisystems.com/health/saisystems-health-unveils-paltc-electronic-health-record/",
+      "type": "vendor-website",
+      "note": "Press release from May 2021 announcing PacEHR launch. Page content was mostly structural — limited text extractable beyond metadata."
+    },
+    {
+      "url": "https://saisystems.com/",
+      "type": "vendor-website",
+      "note": "Saisystems International parent company. Established 1987, Shelton CT. Two divisions: Saisystems Health (PALTC) and Saisystems Technology (IT consulting). Microsoft Azure Solutions Partner. Donates 25% of profit to charity."
+    },
+    {
+      "url": "https://saisystems.com/health/pacehr-ehi/",
+      "type": "vendor-website",
+      "note": "EHI export documentation page. Page content was mostly CSS/structural — described as allowing manual one-time data exports. Will be reviewed in detail in Phase 2."
+    },
+    {
+      "url": "https://www.einpresswire.com/article/537790028/saisystems-health-unveils-new-electronic-health-record-system-pacehr",
+      "type": "press-release",
+      "note": "EIN Presswire press release from March 31, 2021. Michael Healey (VP Digital Health) quoted. Notes 30+ years LTPAC experience. PALTC practitioners are <5% of US medical professionals. Coding suggestions based on place of service."
+    },
+    {
+      "url": "https://www.findemr.com/pacehr",
+      "type": "third-party-review",
+      "note": "FindEMR product listing. Lists features: speech recognition, pre-defined documentation elements, pre-populated past patient data, code recommendation, scheduling, e-prescriptions, patient portal, compliance tracking, document management, claims management. No user reviews posted."
+    },
+    {
+      "url": "https://softwarefinder.com/emr-software/pacehr",
+      "type": "third-party-review",
+      "note": "SoftwareFinder listing. 4.8/5 stars from 4 reviews, 100% positive. Users include APRN and NP. Features: voice-to-text, customizable macros, auto-population, multi-patient access, billing/coding assistance. Custom pricing. Targets small-medium PALTC facilities."
+    },
+    {
+      "url": "https://saisystems.com/health/saisystems-health-services-are-now-provided-in-39-states/",
+      "type": "vendor-website",
+      "note": "Announcement that services are available in 39 states. Found via search but not visited in detail."
+    }
+  ]
+}
