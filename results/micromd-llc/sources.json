@@ -1,0 +1,80 @@
+{
+  "research_date": "2026-02-14",
+  "sources": [
+    {
+      "url": "https://www.micromd.com/certified/",
+      "type": "mandatory-disclosures",
+      "note": "Mandatory disclosures / certified products page. Lists MicroMD EMR with 2015 Edition CEHRT certification, describes product suite including PM, EMR, e-Rx, patient engagement, and cloud options."
+    },
+    {
+      "url": "https://www.micromd.com/",
+      "type": "vendor-website",
+      "note": "Main website. Describes MicroMD as 'Simple. Customizable. Connected.' platform for independent practices. Lists core products: PM, EMR, e-prescribing, telehealth, patient engagement, digital intake. Claims 12-year customer retention and 98% support satisfaction."
+    },
+    {
+      "url": "https://www.micromd.com/emr/",
+      "type": "vendor-website",
+      "note": "EMR product page. Details clinical documentation features (SOAP, templates, speech recognition), e-prescribing, lab and device integration, clinical dashboard, image management, deployment options (client-server and cloud ASP)."
+    },
+    {
+      "url": "https://www.micromd.com/practice-management/",
+      "type": "vendor-website",
+      "note": "Practice management product page. Covers scheduling, eligibility verification, billing, claims management, payment posting, patient statements, payment plans, credit card processing, AR reporting, RBRVS benchmarking."
+    },
+    {
+      "url": "https://www.micromd.com/system-integration/",
+      "type": "vendor-website",
+      "note": "Integration and interoperability page. Documents HL7/XML/API support, ODBC database access, lab interfaces (LabCorp, Quest, others), DMS integration, clearinghouse partners, EDI connections, hospital interfaces."
+    },
+    {
+      "url": "https://www.micromd.com/community-health-pm-emr/",
+      "type": "vendor-website",
+      "note": "Community health center page. Details FQHC/CHC/RHC features: sliding fee schedules, UDS reporting, dental billing (ADA/Dentrix), temporary registration, OCR scanning."
+    },
+    {
+      "url": "https://www.micromd.com/document-management/",
+      "type": "vendor-website",
+      "note": "DMS product page. Describes document management module for scanning, indexing, storing patient and non-patient documents, e-faxes, markup/annotation tools, integration with PM."
+    },
+    {
+      "url": "https://www.micromd.com/marketplace/clinical/micromd-secure-chart/",
+      "type": "vendor-website",
+      "note": "Secure Chart patient portal listing in MicroMD marketplace. Two-way messaging, appointment scheduling, lab results sharing, intake forms, reminders."
+    },
+    {
+      "url": "https://www.micromd.com/enotes/medpod-solution/",
+      "type": "vendor-website",
+      "note": "Press release about Medpod telehealth integration launched with MicroMD EMR Version 17. HIPAA-secure video visits documented in EMR."
+    },
+    {
+      "url": "https://mergr.com/transaction/henry-schein-acquires-micromd",
+      "type": "third-party-reference",
+      "note": "Acquisition record: Henry Schein acquired MicroMD on October 26, 2006. MicroMD founded in 1982, based in Youngstown, OH."
+    },
+    {
+      "url": "https://www.crunchbase.com/organization/henry-schein-micromd",
+      "type": "third-party-reference",
+      "note": "Crunchbase profile for Henry Schein MicroMD confirming subsidiary relationship and Youngstown, OH location."
+    },
+    {
+      "url": "https://www.capterra.com/p/74016/MicroMD-EMR/",
+      "type": "third-party-review",
+      "note": "Capterra review page. Overall 3.2/5 from ~20 reviews. Users praise intuitive interface and lab/device integration; criticize reporting as antiquated and integration limitations for flat-file transfers."
+    },
+    {
+      "url": "https://www.softwareadvice.com/medical/micromd-profile/",
+      "type": "third-party-review",
+      "note": "Software Advice profile. Lists features, pricing (~$200/mo per user), and positions MicroMD as cloud-based EMR with integrated PM."
+    },
+    {
+      "url": "https://www.emrfinder.com/review/micromd-emr-software/",
+      "type": "third-party-review",
+      "note": "EMRFinder review. Confirms eight specialty focuses, KLAS 2017 Best Ambulatory EMR/PM recognition, lab and device integrations."
+    },
+    {
+      "url": "https://www.prnewswire.com/news-releases/henry-schein-micromd-emr-earns-onc-health-it-certification-from-drummond-group-llc-300516200.html",
+      "type": "press-release",
+      "note": "2017 press release about Henry Schein MicroMD EMR earning ONC Health IT certification from Drummond Group. Identifies Henry Schein Medical Systems as the certifying entity."
+    }
+  ]
+}

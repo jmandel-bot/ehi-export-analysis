@@ -1,0 +1,22 @@
+{
+  "collection_date": "2026-02-14",
+  "url": "https://www.micromd.com/micromd-emr-certified/",
+  "final_url": "https://www.micromd.com/micromd-emr-certified/",
+  "access_status": "found",
+  "files": [
+    {
+      "path": "downloads/MicroMD-EMR-170.315b10-Electronic-Health-Information-export-EHI.pdf",
+      "source_url": "https://www.micromd.com/docs/MicroMD-EMR-170.315b10-Electronic-Health-Information-export-EHI.pdf",
+      "size_bytes": 326238,
+      "description": "17-page EHI export documentation PDF containing the complete XML schema for MicroMD EMR's (b)(10) export. Defines 10 XML files (Billing, Encounters, HealthScreening, Histories, MedicalInfo, Miscellaneous, Orders, Patient, Schedule, Specialty, WomenHealth) plus DMS attachments. Lists every XML element and attribute but lacks field-level descriptions, data types, and value sets. Dated February 6, 2026.",
+      "curl_command": "curl -sL 'https://www.micromd.com/docs/MicroMD-EMR-170.315b10-Electronic-Health-Information-export-EHI.pdf' -H 'User-Agent: Mozilla/5.0' -o MicroMD-EMR-170.315b10-Electronic-Health-Information-export-EHI.pdf"
+    },
+    {
+      "path": "downloads/screenshot-certification-page.png",
+      "source_url": "https://www.micromd.com/micromd-emr-certified/",
+      "size_bytes": 292614,
+      "description": "Screenshot of the MicroMD certification page showing the EHI export PDF link alongside other certification information, real world test plans/results, costs, and FHIR API documentation links.",
+      "curl_command": null
+    }
+  ]
+}
