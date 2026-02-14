@@ -1,16 +1,16 @@
 #!/usr/bin/env bash
 # EHI Export Documentation Collection Loop
 #
-# Iterates over targets.json, launching one Claude CLI invocation per URL.
+# Iterates over targets.json, launching one LLM invocation per URL per phase.
 # Each gets its own output directory and a filled-in prompt.
 #
 # Usage:
-#   ./wiggum/loop.sh                  # start from the beginning
-#   ./wiggum/loop.sh --resume         # skip already-completed targets
-#   ./wiggum/loop.sh --reverse        # iterate from end of list backwards
-#   ./wiggum/loop.sh --index 42       # start from target index 42
-#   ./wiggum/loop.sh --only 42        # run only target index 42
-#   MAX_CONCURRENT=4 ./wiggum/loop.sh # run up to 4 in parallel (default: 3)
+#   ./wiggum/loop.sh --phase 1               # run phase 1 (research) from beginning
+#   ./wiggum/loop.sh --phase 2 --resume      # run phase 2, skip completed
+#   ./wiggum/loop.sh --phase 1 --reverse     # iterate from end of list backwards
+#   ./wiggum/loop.sh --phase 1 --index 42    # start from target index 42
+#   ./wiggum/loop.sh --phase 1 --only 42     # run only target index 42
+#   MAX_CONCURRENT=4 ./wiggum/loop.sh --phase 1  # run up to 4 in parallel
 set -euo pipefail
 
 export PATH="$HOME/.local/bin:$HOME/.bun/bin:$PATH"
@@ -18,7 +18,6 @@ export PATH="$HOME/.local/bin:$HOME/.bun/bin:$PATH"
 ROOT="$(cd "$(dirname "${BASH_SOURCE[0]}")/.." && pwd)"
 CONFIG_DIR="$ROOT/wiggum"
 TARGETS="$ROOT/work/targets.json"
-PROMPT_TEMPLATE="$ROOT/wiggum/prompt.md"
 RESULTS_DIR="$ROOT/results"
 LOG_DIR="$ROOT/wiggum/logs"
 
@@ -38,6 +37,24 @@ SHELLEY_USER="${SHELLEY_USER:-wiggum}"
 
 # Gemini settings
 GEMINI_MODEL="${GEMINI_MODEL:-gemini-3-pro-preview}"
+
+# Phase configuration
+declare -A PHASE_PROMPT
+declare -A PHASE_MARKER
+declare -A PHASE_NAME
+
+PHASE_PROMPT[1]="$ROOT/wiggum/prompts/1-research.md"
+PHASE_MARKER[1]="product-research.json"
+PHASE_NAME[1]="research"
+
+PHASE_PROMPT[2]="$ROOT/wiggum/prompts/2-download.md"
+PHASE_MARKER[2]="download-manifest.json"
+PHASE_NAME[2]="download"
+
+# Phase 3 placeholder
+# PHASE_PROMPT[3]="$ROOT/wiggum/prompts/3-analysis.md"
+# PHASE_MARKER[3]="analysis.json"
+# PHASE_NAME[3]="analysis"
 
 # Run LLM — dispatches based on LLM_BACKEND.
 # Prompt comes via stdin. First arg is working directory.
@@ -73,8 +90,10 @@ RESUME=false
 REVERSE=false
 START_INDEX=0
 ONLY_INDEX=""
+PHASE=""
 while [[ $# -gt 0 ]]; do
   case $1 in
+    --phase) PHASE="$2"; shift 2 ;;
     --resume) RESUME=true; shift ;;
     --reverse) REVERSE=true; shift ;;
     --index) START_INDEX="$2"; shift 2 ;;
@@ -82,6 +101,20 @@ while [[ $# -gt 0 ]]; do
     *) echo "Unknown arg: $1"; exit 1 ;;
   esac
 done
+
+if [[ -z "$PHASE" ]]; then
+  echo "Error: --phase N is required (1=research, 2=download)"
+  exit 1
+fi
+
+if [[ -z "${PHASE_PROMPT[$PHASE]:-}" ]]; then
+  echo "Error: unknown phase $PHASE"
+  exit 1
+fi
+
+PROMPT_TEMPLATE="${PHASE_PROMPT[$PHASE]}"
+COMPLETION_MARKER="${PHASE_MARKER[$PHASE]}"
+PHASE_LABEL="${PHASE_NAME[$PHASE]}"
 
 mkdir -p "$RESULTS_DIR" "$LOG_DIR"
 
@@ -92,6 +125,7 @@ fi
 
 TOTAL=$(jq 'length' "$TARGETS")
 echo "=== EHI Export Documentation Collection ==="
+echo "Phase:       $PHASE ($PHASE_LABEL)"
 echo "Backend:     $LLM_BACKEND"
 case "$LLM_BACKEND" in
   claude)  echo "Model:       $CLAUDE_MODEL" ;;
@@ -101,6 +135,7 @@ esac
 echo "Targets:     $TOTAL unique URLs"
 echo "Direction:   $(if $REVERSE; then echo "reverse (high→low)"; else echo "forward (low→high)"; fi)"
 echo "Concurrency: $MAX_CONCURRENT"
+echo "Marker:      $COMPLETION_MARKER"
 echo "Results:     $RESULTS_DIR/"
 echo ""
 
@@ -158,13 +193,12 @@ wait_for_all() {
 commit_result() {
   local slug="$1"
   local result_dir="$RESULTS_DIR/$slug"
-  if [[ -f "$result_dir/analysis.json" ]]; then
-    cd "$ROOT"
-    git add "$result_dir/" 2>/dev/null || true
-    git commit -m "$slug: collection and analysis complete" \
-      --author="wiggum <wiggum@ehi-export-analysis>" \
-      2>/dev/null || true
-  fi
+  cd "$ROOT"
+  git add "$result_dir/" 2>/dev/null || true
+  git commit -m "$slug: phase $PHASE ($PHASE_LABEL) complete" \
+    --author="wiggum <wiggum@ehi-export-analysis>" \
+    2>/dev/null || true
+  git push || true
 }
 
 launch_one() {
@@ -188,9 +222,9 @@ launch_one() {
 
   output_dir="$RESULTS_DIR/$slug"
 
-  # Skip if already done (has analysis.json)
-  if [[ "$RESUME" == true && -f "$output_dir/analysis.json" ]]; then
-    echo "[$idx/$TOTAL] SKIP $slug (already has analysis.json)"
+  # Skip if already done (has completion marker for this phase)
+  if [[ "$RESUME" == true && -f "$output_dir/$COMPLETION_MARKER" ]]; then
+    echo "[$idx/$TOTAL] SKIP $slug (already has $COMPLETION_MARKER)"
     SKIPPED=$((SKIPPED + 1))
     return
   fi
@@ -216,17 +250,22 @@ launch_one() {
     -e "s|{{OUTPUT_DIR}}|${output_dir}|g" \
     "$PROMPT_TEMPLATE")
 
-  echo "[$idx/$TOTAL] LAUNCH $slug ($LLM_BACKEND)"
+  echo "[$idx/$TOTAL] LAUNCH $slug — phase $PHASE ($PHASE_LABEL) ($LLM_BACKEND)"
   echo "  URL: $url"
   echo "  Developer(s): $developers"
   echo "  Output: $output_dir/"
 
   # Launch LLM in background
-  # Raw stream-json → results dir + filtered readable log → results dir + stdout
-  run_llm "$ROOT" <<< "$prompt" \
-    2>&1 | tee "$output_dir/stream.jsonl" \
-    | python3 -u "$CONFIG_DIR/log-handler.py" \
-    | tee "$output_dir/log.txt" &
+  local log_prefix="phase${PHASE}"
+  if [[ -f "$CONFIG_DIR/log-handler.py" ]]; then
+    run_llm "$ROOT" <<< "$prompt" \
+      2>&1 | tee "$output_dir/${log_prefix}-stream.jsonl" \
+      | python3 -u "$CONFIG_DIR/log-handler.py" \
+      | tee "$output_dir/${log_prefix}-log.txt" &
+  else
+    run_llm "$ROOT" <<< "$prompt" \
+      2>&1 | tee "$output_dir/${log_prefix}-log.txt" &
+  fi
 
   PIDS[$slug]=$!
   RUNNING=$((RUNNING + 1))
@@ -256,6 +295,7 @@ fi
 
 echo ""
 echo "=== Done ==="
+echo "Phase:     $PHASE ($PHASE_LABEL)"
 echo "Completed: $COMPLETED"
 echo "Failed:    $FAILED"
 echo "Skipped:   $SKIPPED"
