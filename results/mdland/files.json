@@ -1,0 +1,15 @@
+{
+  "collection_date": "2026-02-14",
+  "url": "https://mdland.net/iClinicEHR/ehiexport/",
+  "final_url": "https://mdland.net/static/docs/ehiexport.pdf",
+  "access_status": "found",
+  "files": [
+    {
+      "path": "downloads/ehiexport.pdf",
+      "source_url": "https://mdland.net/static/docs/ehiexport.pdf",
+      "size_bytes": 250123,
+      "description": "The complete EHI export documentation — a 2-page PDF describing the export feature. Covers user workflow (how to trigger the export), export format (XML in password-protected ZIP), and export scope options (single patient or population). Does NOT include any data dictionary, XML schema, field definitions, or sample data.",
+      "curl_command": "curl -sL 'https://mdland.net/iClinicEHR/ehiexport/' -H 'User-Agent: Mozilla/5.0' -o ehiexport.pdf"
+    }
+  ]
+}

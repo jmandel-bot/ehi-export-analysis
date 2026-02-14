@@ -1,0 +1,85 @@
+{
+  "research_date": "2026-02-14",
+  "sources": [
+    {
+      "url": "https://www.mdland.com/",
+      "type": "vendor-website",
+      "note": "Main landing page. Company describes itself as cloud-based digital health platform for providers, payers, and agencies. Founded 1999, physician-founded."
+    },
+    {
+      "url": "https://mdland.com/iclinic-ehr/",
+      "type": "vendor-website",
+      "note": "iClinic EHR product page. High-level description of comprehensive cloud-based EHR for practices of all sizes."
+    },
+    {
+      "url": "https://mdland.com/practice-mgmt-billing/",
+      "type": "vendor-website",
+      "note": "Billing and practice management page. Details on electronic claims, payment posting, scheduling, registration with ID scanning, document manager, MACRA/MIPS compliance."
+    },
+    {
+      "url": "https://mdland.com/lab-interfacing/",
+      "type": "vendor-website",
+      "note": "Lab interfacing page. Direct lab orders, customizable panels, abnormal result notifications, trend tracking. Connectivity with national/local labs, radiology, HIEs."
+    },
+    {
+      "url": "https://mdland.com/telehealth/",
+      "type": "vendor-website",
+      "note": "Telehealth page. HIPAA-compliant video visits integrated within EHR, patient access via app or SMS link."
+    },
+    {
+      "url": "https://mdland.com/care-management/",
+      "type": "vendor-website",
+      "note": "Care management suite: CCM, RPM, TCM, CoCM, PCM modules. Patient enrollment, care plans, time tracking, automated reporting."
+    },
+    {
+      "url": "https://mdland.com/digital-health/",
+      "type": "vendor-website",
+      "note": "Digital health page listing mobile products: iClinicHealth (patient app), iClinic Anywhere (provider mobile), iClinic Office (iPad app)."
+    },
+    {
+      "url": "https://mdland.com/2023/10/30/iclinic-enterprise/",
+      "type": "vendor-website",
+      "note": "iClinic Enterprise launch announcement (Oct 2023). Designed for large physician organizations, MSOs, ACOs, IPAs. Scalability, data sharing, multi-entity compliance."
+    },
+    {
+      "url": "https://info.mdland.com/iclinic",
+      "type": "vendor-website",
+      "note": "iClinic marketing/info page. Mentions VBP readiness, care gap identification, RPM/CCM, quality scores, centralized billing, document management. Brief physician testimonials."
+    },
+    {
+      "url": "https://info.mdland.com/iclinichealth",
+      "type": "vendor-website",
+      "note": "iClinicHealth patient app page. Appointment management, lab results with notifications, provider messaging, myMonitor health data tracking, medical records access, prescription management."
+    },
+    {
+      "url": "https://www.mdland.com/iClinicEHR/Meaningful-use-disclosure/",
+      "type": "mandatory-disclosures",
+      "note": "ONC mandatory disclosures. iClinic v12.3, certified Dec 2018. Annual per-provider license, monthly subscription. Minimum specs: Win7/Mac, 8GB RAM, broadband. Lists certified criteria."
+    },
+    {
+      "url": "https://mdland.zendesk.com/hc/en-us/articles/35499097054107-E-Prescribing-EPCS-Signup-Using-DUO-in-iClinic",
+      "type": "vendor-documentation",
+      "note": "Zendesk help article on EPCS signup using DUO in iClinic. Confirms EPCS capability with two-factor authentication."
+    },
+    {
+      "url": "https://www.capterra.com/p/170080/MDLand/",
+      "type": "third-party-review",
+      "note": "Capterra listing for iClinic. User reviews mention ease of billing, customization, patient charting. Complaints about slow loading, limited shortcuts, data entry limitations."
+    },
+    {
+      "url": "https://www.appsruntheworld.com/customers-database/products/view/mdland-iclinic",
+      "type": "third-party-review",
+      "note": "Third-party customer database. Lists notable customers: Northwell Health, NYC Health + Hospitals, SOMOS Community Care, Pain Physicians NY. Users across 21+ industries."
+    },
+    {
+      "url": "https://www.prnewswire.com/news-releases/mdland-selects-the-link-by-livecare-to-be-the-premier-devices-for-their-remote-patient-monitoring-rpm-solution-servicing-their-chronic-care-patients-and-population-health-management-301122014.html",
+      "type": "press-release",
+      "note": "2020 press release: MDLand selected LiveCare Link+ devices for their RPM solution. Confirms RPM module with physical monitoring devices for chronic care patients."
+    },
+    {
+      "url": "https://www.zoominfo.com/c/mdland-international-corp/347294622",
+      "type": "third-party-review",
+      "note": "ZoomInfo company profile. ~75 employees, headquartered in Great Neck, NY. Operations across 4 continents."
+    }
+  ]
+}
