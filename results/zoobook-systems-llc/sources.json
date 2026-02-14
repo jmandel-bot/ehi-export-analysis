@@ -1,0 +1,35 @@
+{
+  "research_date": "2026-02-14",
+  "sources": [
+    {
+      "url": "https://www.zoobooksystems.com",
+      "type": "vendor-website",
+      "note": "Main landing page. AI-powered EHR for behavioral health and addiction treatment. Describes key features: compliance monitoring, billing, methadone dosing, lab integration, e-prescribing, telehealth, scheduling, multi-location support."
+    },
+    {
+      "url": "https://zoobooksystems.com/disclosures/",
+      "type": "mandatory-disclosures",
+      "note": "ONC disclosures page. Product version 2.0.0, certified 2017-12-31. Lists certified criteria, CQMs (11 measures including depression screening, suicide risk assessment), real-world testing plan, third-party integrations (PauBox, Interfax, RxNav, MedlinePlus, AccessGUDID, EMR Direct, Zoom, TEXTGRID), licensing model, and data retention/extraction pricing."
+    },
+    {
+      "url": "https://zoobooksystems.com/learn-more/",
+      "type": "vendor-website",
+      "note": "Learn More page. Describes compliance monitoring, Medicaid batch billing, EDI 837, payroll modules, HR features, Methasoft integration, chart auditing, supervisor oversight, HIPAA compliance, Amazon cloud hosting."
+    },
+    {
+      "url": "https://zoobooksystems.com/clients/",
+      "type": "vendor-website",
+      "note": "Client testimonials page. Seven testimonials from behavioral health facilities in NJ, NY, IL, NC, FL. Includes methadone agencies, residential treatment centers, community behavioral health, and counseling practices. Highlights customization, billing, reporting, and treatment plan features."
+    },
+    {
+      "url": "https://www.findemr.com/zoobook-ehr-software",
+      "type": "third-party-review",
+      "note": "FindEMR profile. 16 reviews, 4/5 stars. Cloud-based EHR and practice management for behavioral health. Lists features: clinical documentation, referral management, billing/claims, e-prescribing, analytics, secure messaging, scheduling, mobile access. Pricing from $100/month."
+    },
+    {
+      "url": "https://www.ehrinpractice.com/zoobook-ehr.html",
+      "type": "third-party-review",
+      "note": "EHR in Practice profile. Describes cloud-native platform, HIPAA/NJ State/Medicaid/DMHAS/DOH compliance, bed management module, NJSAMS extractor, HR module (credentials, supervision hours), FHIR standards, toxicology vendor integration, encrypted SMS, patient portal with iOS/Android apps."
+    }
+  ]
+}

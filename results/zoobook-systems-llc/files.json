@@ -1,0 +1,15 @@
+{
+  "collection_date": "2026-02-14",
+  "url": "https://app.zoobooksystems.com/EHIexportDocumentation",
+  "final_url": "https://app.zoobooksystems.com/EHIexportDocumentation",
+  "access_status": "found",
+  "files": [
+    {
+      "path": "downloads/EHIexportDocumentation.pdf",
+      "source_url": "https://app.zoobooksystems.com/EHIexportDocumentation",
+      "size_bytes": 389047,
+      "description": "5-page PDF user guide for the §170.315(b)(10) EHI Export feature. Contains annotated screenshots showing how to navigate to the export, set date range/client/module filters, generate exports, and configure business rules and role-based access. Shows 172 modules available for export. Does NOT contain a data dictionary, export format specification, or field-level documentation.",
+      "curl_command": "curl -sL 'https://app.zoobooksystems.com/EHIexportDocumentation' -H 'User-Agent: Mozilla/5.0' -o EHIexportDocumentation.pdf"
+    }
+  ]
+}
