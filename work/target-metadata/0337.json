@@ -2,8 +2,13 @@
   "url": "https://usmon.com/ExportProcess.jsp",
   "developer": {
     "name": "US Monitoring, Inc.",
-    "website": "http://usmon.com"
+    "website": "http://usmon.com",
+    "contact_name": "Michael Scholin",
+    "contact_email": "mike@usmon.com",
+    "contact_phone": "(608) 237-1731"
   },
+  "sed_intended_user_description": "",
+  "mandatory_disclosures_url": "https://usmon.com/disclosure.html",
   "products": [
     {
       "chpl_id": 11096,

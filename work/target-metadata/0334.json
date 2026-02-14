@@ -2,8 +2,13 @@
   "url": "https://sisoft.com.tr/en/170.315.b10-Electronic.Health.Information.Export.pdf",
   "developer": {
     "name": "Sisoft Healthcare Information Systems",
-    "website": "https://www.sisoft.com.tr"
+    "website": "https://www.sisoft.com.tr",
+    "contact_name": "Serkan SERT",
+    "contact_email": "serkan.sert@sisoft.com.tr",
+    "contact_phone": "+903122101920"
   },
+  "sed_intended_user_description": "Internal Medicine, General practitioner, Receptionist, IT Director, Office Assistant, Nurse Practitioner",
+  "mandatory_disclosures_url": "https://www.sisoft.com.tr/en/oncsystem.jsp",
   "products": [
     {
       "chpl_id": 9462,

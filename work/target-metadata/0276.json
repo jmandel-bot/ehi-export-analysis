@@ -2,8 +2,13 @@
   "url": "https://unityhealth360.com/onc-certification",
   "developer": {
     "name": "Unity Health",
-    "website": "https://cinch-health.com/"
+    "website": "https://cinch-health.com/",
+    "contact_name": "Stefanie Paulus",
+    "contact_email": "unityhealth360@gmail.com",
+    "contact_phone": "302-766-5368"
   },
+  "sed_intended_user_description": "",
+  "mandatory_disclosures_url": "https://unityhealth360.com/onc-certification",
   "products": [
     {
       "chpl_id": 11710,

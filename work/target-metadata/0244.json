@@ -2,8 +2,13 @@
   "url": "https://www.sprypt.com/chpl-product-certification",
   "developer": {
     "name": "SPRY Therapeutics, Inc",
-    "website": "https://www.sprypt.com"
+    "website": "https://www.sprypt.com",
+    "contact_name": "Brijraj Bhuptani",
+    "contact_email": "brij@spryhealth.care",
+    "contact_phone": "338-286-9094"
   },
+  "sed_intended_user_description": "",
+  "mandatory_disclosures_url": "https://www.sprypt.com/chpl-product-certification",
   "products": [
     {
       "chpl_id": 11699,

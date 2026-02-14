@@ -2,8 +2,13 @@
   "url": "https://awards1.zendesk.com/hc/en-us/articles/33133755413012-ExportBuilders",
   "developer": {
     "name": "Foothold Technology, Inc.",
-    "website": "http://footholdtechnology.com"
+    "website": "http://footholdtechnology.com",
+    "contact_name": "Juliette Palmer",
+    "contact_email": "jpalmer@radicle-health.com",
+    "contact_phone": "212-780-1450"
   },
+  "sed_intended_user_description": "Varied",
+  "mandatory_disclosures_url": "https://footholdtechnology.com/human-services-software/meaningful-use/",
   "products": [
     {
       "chpl_id": 9267,

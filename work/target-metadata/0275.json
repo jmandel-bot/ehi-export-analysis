@@ -2,8 +2,13 @@
   "url": "https://iatric.com/meaningful-use/ptaccess-product-certification/",
   "developer": {
     "name": "Iatric Systems, Inc",
-    "website": "https://iatric.com/"
+    "website": "https://iatric.com/",
+    "contact_name": "Amy McKee",
+    "contact_email": "amy.mckee@iatric.com",
+    "contact_phone": "978 805 4100, x84047"
   },
+  "sed_intended_user_description": "",
+  "mandatory_disclosures_url": "https://iatric.com/meaningful-use/ptaccess-product-certification/",
   "products": [
     {
       "chpl_id": 11766,

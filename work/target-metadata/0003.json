@@ -2,8 +2,13 @@
   "url": "https://www.oracle.com/health/regulatory/certified-health-it/",
   "developer": {
     "name": "Oracle Health",
-    "website": "https://www.oracle.com/health"
+    "website": "https://www.oracle.com/health",
+    "contact_name": "Greg Thole",
+    "contact_email": "greg.thole@oracle.com",
+    "contact_phone": "816-573-6569"
   },
+  "sed_intended_user_description": "Physicians",
+  "mandatory_disclosures_url": "https://www.oracle.com/health/regulatory/certified-health-it/",
   "products": [
     {
       "chpl_id": 10594,

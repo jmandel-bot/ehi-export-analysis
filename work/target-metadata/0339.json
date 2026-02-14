@@ -2,8 +2,13 @@
   "url": "https://www.zoommd.com/company-certifications-awards/",
   "developer": {
     "name": "Metasolutions Inc",
-    "website": "https://www.zoomMD.com"
+    "website": "https://www.zoomMD.com",
+    "contact_name": "P. S. L. Narashima Rao",
+    "contact_email": "spaluri@metasolutionsinc.com",
+    "contact_phone": "800-992-6382"
   },
+  "sed_intended_user_description": "Outpatient Clinic",
+  "mandatory_disclosures_url": "https://www.zoommd.com/company-certifications-awards/",
   "products": [
     {
       "chpl_id": 11182,

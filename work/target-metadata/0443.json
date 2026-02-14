@@ -2,8 +2,13 @@
   "url": "https://orionhealth.com/global/certifications/onc-hit-certification-communicate/",
   "developer": {
     "name": "Orion Health",
-    "website": "https://orionhealth.com"
+    "website": "https://orionhealth.com",
+    "contact_name": "Andrew Skipper",
+    "contact_email": "teamsaso@orionhealth.com",
+    "contact_phone": "602-753-0811"
   },
+  "sed_intended_user_description": "",
+  "mandatory_disclosures_url": "https://orionhealth.com/us/certifications/onc-hit-certification-communicate/",
   "products": [
     {
       "chpl_id": 10590,

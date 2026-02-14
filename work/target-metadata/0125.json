@@ -2,8 +2,13 @@
   "url": "https://www.enabledoc.com/enablemypractice-data-export-guide/",
   "developer": {
     "name": "EnableDoc LLC",
-    "website": "https://www.enabledoc.com/"
+    "website": "https://www.enabledoc.com/",
+    "contact_name": "Steve Rothschild",
+    "contact_email": "steve@enabledoc.com",
+    "contact_phone": "877-540-0933"
   },
+  "sed_intended_user_description": "Family Medicine, Neurology, Urology",
+  "mandatory_disclosures_url": "https://www.enabledoc.com/onc-health-it-disclosure/",
   "products": [
     {
       "chpl_id": 10795,

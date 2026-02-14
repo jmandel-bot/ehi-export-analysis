@@ -2,8 +2,13 @@
   "url": "https://trinitashealth.com/FEHR-EHI/ehr-ehi-export-documentation_Trinitas/index.html",
   "developer": {
     "name": "Trinitas LLC",
-    "website": "https://trinitashealth.com"
+    "website": "https://trinitashealth.com",
+    "contact_name": "Bryan Jakovcic",
+    "contact_email": "compliance@trinitashealth.com",
+    "contact_phone": "619.732.6146"
   },
+  "sed_intended_user_description": "",
+  "mandatory_disclosures_url": "https://trinitashealth.com/solutions/fehr/fehr-for-health-systems-onc-health-it-certification-program-update-it-costs/",
   "products": [
     {
       "chpl_id": 11454,

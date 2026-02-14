@@ -2,8 +2,13 @@
   "url": "https://emedpractice.com/electronic-health-information-export/",
   "developer": {
     "name": "eMedPractice LLC",
-    "website": "https://www.eMedPractice.com"
+    "website": "https://www.eMedPractice.com",
+    "contact_name": "Nandu Dhanekula",
+    "contact_email": "Nandu@emedpractice.com",
+    "contact_phone": "561-921-0978"
   },
+  "sed_intended_user_description": "Healthcare providers in outpatient clinics",
+  "mandatory_disclosures_url": "https://emedpractice.com/ehr-certification-and-costs/",
   "products": [
     {
       "chpl_id": 10787,

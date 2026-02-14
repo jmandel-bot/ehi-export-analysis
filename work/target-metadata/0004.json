@@ -2,8 +2,13 @@
   "url": "https://www.alterahealth.com/legal/onc-reg-compliance/",
   "developer": {
     "name": "Providers Management, Inc.",
-    "website": "https://www.integratedproviders.com/integratedproviders/"
+    "website": "https://www.integratedproviders.com/integratedproviders/",
+    "contact_name": "Nate Buchholz",
+    "contact_email": "Nate.Buchholz@genesyspho.com",
+    "contact_phone": "810-424-2301"
   },
+  "sed_intended_user_description": "",
+  "mandatory_disclosures_url": "https://integratedproviders.com/integratedproviders/About",
   "products": [
     {
       "chpl_id": 11199,

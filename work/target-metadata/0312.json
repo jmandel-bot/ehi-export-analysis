@@ -2,8 +2,13 @@
   "url": "https://www.holyname.org/Policy/ehi-export-file-format.aspx",
   "developer": {
     "name": "Holy Name Medical Center",
-    "website": "https://www.holyname.org"
+    "website": "https://www.holyname.org",
+    "contact_name": "Eduardo Morales",
+    "contact_email": "emorales@holyname.org",
+    "contact_phone": "(201) 833-3160"
   },
+  "sed_intended_user_description": "Ordering providers and other clinicians",
+  "mandatory_disclosures_url": "https://holyname.org/Policy/it-disclosure.aspx",
   "products": [
     {
       "chpl_id": 11224,

@@ -2,8 +2,13 @@
   "url": "https://orthoplex.mkoss.com/UserContent/Healthinformationexport.html",
   "developer": {
     "name": "Mendelson Kornblum Orthopedic & Spine Specialists",
-    "website": "http://www.mendelsonortho.com/"
+    "website": "http://www.mendelsonortho.com/",
+    "contact_name": "Jurgen B. Jansen",
+    "contact_email": "jjansen@synergyhealth.org",
+    "contact_phone": "248-770-3918"
   },
+  "sed_intended_user_description": "Orthopedic Clinc",
+  "mandatory_disclosures_url": "https://proactivemgmt.com/disclosure/",
   "products": [
     {
       "chpl_id": 9349,

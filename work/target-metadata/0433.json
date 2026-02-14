@@ -2,8 +2,13 @@
   "url": "https://saisystems.com/health/pacehr-ehi/",
   "developer": {
     "name": "Sai Systems Digital LLC",
-    "website": "https://thesnfist.com/"
+    "website": "https://thesnfist.com/",
+    "contact_name": "Michael Healey",
+    "contact_email": "mhealey@saisystems.com",
+    "contact_phone": "2035675237"
   },
+  "sed_intended_user_description": "Medical professionals in Long Term Post Acute Care",
+  "mandatory_disclosures_url": "https://thesnfist.com/cures-act/",
   "products": [
     {
       "chpl_id": 11177,

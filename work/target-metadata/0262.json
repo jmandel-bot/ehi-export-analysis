@@ -2,8 +2,13 @@
   "url": "https://portal.assertus.com/wp-content/uploads/2023/10/MedicusEHR-170-315-b-10.pdf",
   "developer": {
     "name": "Medicus Clinical, LLC",
-    "website": "https://portal.assertus.com/en/home/"
+    "website": "https://portal.assertus.com/en/home/",
+    "contact_name": "Francis Berrios",
+    "contact_email": "francis.berrios@assertus.com",
+    "contact_phone": "787-619-8783"
   },
+  "sed_intended_user_description": "Ambulatory Facilities",
+  "mandatory_disclosures_url": "https://portal.assertus.com/en/medicus-ehr-2/medicusehr-ehr-certification/",
   "products": [
     {
       "chpl_id": 11725,

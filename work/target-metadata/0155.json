@@ -2,8 +2,13 @@
   "url": "https://www.modmed.com/wp-content/uploads/2023/11/Data-Dictionary-for-ModMed-EMA-EHI-Export4.pdf",
   "developer": {
     "name": "Eyefinity, Inc.",
-    "website": "http://www.eyefinity.com"
+    "website": "http://www.eyefinity.com",
+    "contact_name": "Rob Winchell",
+    "contact_email": "rob.winchell@eyefinity.com",
+    "contact_phone": "916-858-5746"
   },
+  "sed_intended_user_description": "Providers, Medical Assistants (MAs), Ophthalmic Technicians, Administrators",
+  "mandatory_disclosures_url": "https://www.eyefinity.com/legal/ehr-disclosure;jsessionid=E2AAFAF40039EF0711B64E80277E872E",
   "products": [
     {
       "chpl_id": 11088,

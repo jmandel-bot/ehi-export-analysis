@@ -2,8 +2,13 @@
   "url": "https://withregard.com/certification/",
   "developer": {
     "name": "Regard Technologies",
-    "website": "https://withregard.com/"
+    "website": "https://withregard.com/",
+    "contact_name": "Jackie Martinez",
+    "contact_email": "jackie.martinez@regard.com",
+    "contact_phone": "(408) 499-6390"
   },
+  "sed_intended_user_description": "",
+  "mandatory_disclosures_url": "https://withregard.com/certification/",
   "products": [
     {
       "chpl_id": 11467,

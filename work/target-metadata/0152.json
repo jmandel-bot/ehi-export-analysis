@@ -2,8 +2,13 @@
   "url": "https://www.asp.md/export/",
   "developer": {
     "name": "ASP.MD Inc.",
-    "website": "https://www.asp.md/"
+    "website": "https://www.asp.md/",
+    "contact_name": "Chris Kreis",
+    "contact_email": "ckreis@asp.md",
+    "contact_phone": "617-864-6844"
   },
+  "sed_intended_user_description": "Internal Medicine",
+  "mandatory_disclosures_url": "https://www.asp.md/disclosures-2",
   "products": [
     {
       "chpl_id": 10818,

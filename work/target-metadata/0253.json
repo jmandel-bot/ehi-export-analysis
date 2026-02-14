@@ -2,8 +2,13 @@
   "url": "https://minglehealth.com/ecqm-ehi-export-format/",
   "developer": {
     "name": "Mingle Healthcare Solutions, Inc.",
-    "website": "https://minglehealth.com"
+    "website": "https://minglehealth.com",
+    "contact_name": "Daniel Mingle",
+    "contact_email": "hello@minglehealth.com",
+    "contact_phone": "1-866-359-4458"
   },
+  "sed_intended_user_description": "",
+  "mandatory_disclosures_url": "https://minglehealth.com/ecqm-solutions-onc-certified-health-it-mandatory-disclosure-information/",
   "products": [
     {
       "chpl_id": 11728,

@@ -2,8 +2,13 @@
   "url": "https://www.softcomputer.com/regulatory-affairs/ehi-export/",
   "developer": {
     "name": "SCC Soft Computer",
-    "website": "https://www.softcomputer.com/"
+    "website": "https://www.softcomputer.com/",
+    "contact_name": "Kenton Smith",
+    "contact_email": "kentons@softcomputer.com",
+    "contact_phone": "(727) 789-0100 ext. 4901"
   },
+  "sed_intended_user_description": "",
+  "mandatory_disclosures_url": "https://www.softcomputer.com/regulatory-affairs/",
   "products": [
     {
       "chpl_id": 11239,

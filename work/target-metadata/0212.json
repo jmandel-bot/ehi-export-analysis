@@ -2,8 +2,13 @@
   "url": "https://docs.fire.ly/projects/Firely-Server/en/latest/features_and_tools/bulkdataexport.html",
   "developer": {
     "name": "Firely USA Inc.",
-    "website": "https://fire.ly/"
+    "website": "https://fire.ly/",
+    "contact_name": "Rich Almeida",
+    "contact_email": "info@fire.ly",
+    "contact_phone": "(857) 263-3112"
   },
+  "sed_intended_user_description": "",
+  "mandatory_disclosures_url": "https://fire.ly/g10-certification/",
   "products": [
     {
       "chpl_id": 11631,

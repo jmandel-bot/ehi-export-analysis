@@ -2,8 +2,13 @@
   "url": "https://www.hcsinc.net/meaningful-use/",
   "developer": {
     "name": "Health Care Systems, Inc.",
-    "website": "http://www.hcsinc.net"
+    "website": "http://www.hcsinc.net",
+    "contact_name": "Reubin Felkey",
+    "contact_email": "reubin.felkey@hcsinc.net",
+    "contact_phone": "678-520-2610"
   },
+  "sed_intended_user_description": "Physicians, Nurses, Pharmacist and other Clinical Disciplines in an Inpatient Setting. HCS also included HIM users for (b)(11).",
+  "mandatory_disclosures_url": "https://www.hcsinc.net/meaningful-use/",
   "products": [
     {
       "chpl_id": 11416,

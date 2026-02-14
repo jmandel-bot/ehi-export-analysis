@@ -2,8 +2,13 @@
   "url": "https://icanotes-ehr.na1.teamsupport.com/knowledgeBase/33770009",
   "developer": {
     "name": "ICANotes LLC",
-    "website": "https://www.icanotes.com"
+    "website": "https://www.icanotes.com",
+    "contact_name": "Tami Utz",
+    "contact_email": "tami@icanotes.com",
+    "contact_phone": "443-569-3098"
   },
+  "sed_intended_user_description": "Psychiatrists and Behavioral Health Professionals",
+  "mandatory_disclosures_url": "https://www.icanotes.com/features/onc-atcb-certification/",
   "products": [
     {
       "chpl_id": 11127,

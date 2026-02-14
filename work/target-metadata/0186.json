@@ -2,8 +2,13 @@
   "url": "https://harrisonpointsolutions.com/certifications/",
   "developer": {
     "name": "Asolva, Inc.",
-    "website": "https://harrisonpointsolutions.com/solutions/medici/"
+    "website": "https://harrisonpointsolutions.com/solutions/medici/",
+    "contact_name": "Joseph Chuong",
+    "contact_email": "jchuong@asolva.com",
+    "contact_phone": "877-807-1360"
   },
+  "sed_intended_user_description": "",
+  "mandatory_disclosures_url": "https://harrisonpointsolutions.com/certifications/",
   "products": [
     {
       "chpl_id": 11321,

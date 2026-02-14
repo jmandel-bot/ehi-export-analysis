@@ -2,8 +2,13 @@
   "url": "https://www.patientfirst.com/mandatory-disclosure-for-ehr",
   "developer": {
     "name": "Patient First",
-    "website": "https://www.PatientFirst.com"
+    "website": "https://www.PatientFirst.com",
+    "contact_name": "Rhonda Beckner",
+    "contact_email": "rhonda.beckner@patientfirst.com",
+    "contact_phone": "(804) 822-4337"
   },
+  "sed_intended_user_description": "Clinical and non-clinical health care staff",
+  "mandatory_disclosures_url": "https://www.patientfirst.com/mandatory-disclosure-for-ehr",
   "products": [
     {
       "chpl_id": 11065,

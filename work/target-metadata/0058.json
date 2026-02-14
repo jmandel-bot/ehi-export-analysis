@@ -2,8 +2,13 @@
   "url": "https://pulsechecked.com/onc-certified/",
   "developer": {
     "name": "Picis PulseCheck",
-    "website": "https://pulsechecked.com/"
+    "website": "https://pulsechecked.com/",
+    "contact_name": "Nigel Lewis",
+    "contact_email": "PicisMU@picis.com",
+    "contact_phone": "224-217-9718"
   },
+  "sed_intended_user_description": "Healthcare professionals",
+  "mandatory_disclosures_url": "https://pulsechecked.com/ONC-certified/",
   "products": [
     {
       "chpl_id": 10761,

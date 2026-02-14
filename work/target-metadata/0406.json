@@ -2,8 +2,13 @@
   "url": "https://www.logicoy.com/onc-b10-format/",
   "developer": {
     "name": "LogiCoy Inc",
-    "website": "https://www.logicoy.com/"
+    "website": "https://www.logicoy.com/",
+    "contact_name": "Fred Aabedi",
+    "contact_email": "fred.aabedi@logicoy.com",
+    "contact_phone": "3103074731"
   },
+  "sed_intended_user_description": "Health care professionals (Doctors, Nurses, Medical practitioners, etc.,)",
+  "mandatory_disclosures_url": "https://www.logicoy.com/onc-disclosure",
   "products": [
     {
       "chpl_id": 10944,

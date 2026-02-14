@@ -2,8 +2,13 @@
   "url": "https://www.medicasoft.com/compliance",
   "developer": {
     "name": "MedicaSoft, LLC",
-    "website": "https://www.medicasoft.com/"
+    "website": "https://www.medicasoft.com/",
+    "contact_name": "Michael O'Neill",
+    "contact_email": "mike.oneill@medicasoftllc.com",
+    "contact_phone": "571-257-3858"
   },
+  "sed_intended_user_description": "",
+  "mandatory_disclosures_url": "https://www.medicasoft.com/compliance",
   "products": [
     {
       "chpl_id": 11141,

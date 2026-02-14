@@ -2,8 +2,13 @@
   "url": "https://documentation.qualifacts.com/ehi-export/",
   "developer": {
     "name": "OnCall Health",
-    "website": "https://oncallhealth.com"
+    "website": "https://oncallhealth.com",
+    "contact_name": "Nicholas Chepesiuk",
+    "contact_email": "nicholas@oncallhealth.com",
+    "contact_phone": "647 964 4134"
   },
+  "sed_intended_user_description": "",
+  "mandatory_disclosures_url": "https://www.qualifacts.com/onc-certification-and-costs/",
   "products": [
     {
       "chpl_id": 11216,

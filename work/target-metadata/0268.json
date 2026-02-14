@@ -2,8 +2,13 @@
   "url": "https://www.alterahealth.com/download/204/ehi-documentation/11975/ehiexportreferenceguide_dbmotion.pdf",
   "developer": {
     "name": "Altera Digital Health Inc.",
-    "website": "https://www.alterahealth.com/"
+    "website": "https://www.alterahealth.com/",
+    "contact_name": "Wes Hassell",
+    "contact_email": "wes.hassell@alterahealth.com",
+    "contact_phone": "919-329-1738"
   },
+  "sed_intended_user_description": "",
+  "mandatory_disclosures_url": "https://www.alterahealth.com/legal/onc-reg-compliance/",
   "products": [
     {
       "chpl_id": 11741,

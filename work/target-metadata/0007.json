@@ -2,8 +2,13 @@
   "url": "https://www.medsphere.com/certifications/",
   "developer": {
     "name": "CareCloud, Inc.",
-    "website": "https://www.carecloud.com"
+    "website": "https://www.carecloud.com",
+    "contact_name": "Adeel Sarwar",
+    "contact_email": "adeelsarwar@carecloud.com",
+    "contact_phone": "(732) 336-1245"
   },
+  "sed_intended_user_description": "",
+  "mandatory_disclosures_url": "https://www.chartlogic.com/certifications",
   "products": [
     {
       "chpl_id": 8830,

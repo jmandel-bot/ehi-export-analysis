@@ -2,8 +2,13 @@
   "url": "https://genius.helixbeat.com/legal?document=Electronic+Health+Information+Export",
   "developer": {
     "name": "Helixbeat",
-    "website": "https://www.helixbeat.com/"
+    "website": "https://www.helixbeat.com/",
+    "contact_name": "Shanmugam Kumar",
+    "contact_email": "shan.kumar@helixbeat.com",
+    "contact_phone": "8177335012"
   },
+  "sed_intended_user_description": "",
+  "mandatory_disclosures_url": "https://genius.helixbeat.com/legal",
   "products": [
     {
       "chpl_id": 11544,

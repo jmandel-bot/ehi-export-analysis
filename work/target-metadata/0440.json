@@ -2,8 +2,13 @@
   "url": "https://medisolv.com/certifications",
   "developer": {
     "name": "Medisolv, Inc.",
-    "website": "http://www.medisolv.com"
+    "website": "http://www.medisolv.com",
+    "contact_name": "Justin Di Stefano",
+    "contact_email": "jdistefano@medisolv.com",
+    "contact_phone": "443-264-4259"
   },
+  "sed_intended_user_description": "",
+  "mandatory_disclosures_url": "https://medisolv.com/certifications",
   "products": [
     {
       "chpl_id": 10137,

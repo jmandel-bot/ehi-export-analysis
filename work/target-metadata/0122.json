@@ -2,8 +2,13 @@
   "url": "https://udoc.com/",
   "developer": {
     "name": "Udoc Technologies, LLC",
-    "website": "https://www.udoc.com"
+    "website": "https://www.udoc.com",
+    "contact_name": "Martin Malachovsky",
+    "contact_email": "itsupport@udoc.com",
+    "contact_phone": "(917) 664-5607"
   },
+  "sed_intended_user_description": "",
+  "mandatory_disclosures_url": "http://udoc.com/certificationdisclosure.html",
   "products": [
     {
       "chpl_id": 11236,

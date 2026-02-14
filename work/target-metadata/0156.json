@@ -2,8 +2,13 @@
   "url": "https://www.sigmundsoftware.com/wp-content/uploads/2023/11/VSS-Medical-Technologies-Electronic-Health-Export.pdf",
   "developer": {
     "name": "VSS Medical Technologies, Inc",
-    "website": "http://www.sigmundsoftware.com"
+    "website": "http://www.sigmundsoftware.com",
+    "contact_name": "Matthew Prete",
+    "contact_email": "Matthew.Prete@sigmundsoftware.com",
+    "contact_phone": "1-800-448-6975 ext 5124"
   },
+  "sed_intended_user_description": "SED Testing",
+  "mandatory_disclosures_url": "https://www.sigmundsoftware.com/privacy-certifications/",
   "products": [
     {
       "chpl_id": 11538,

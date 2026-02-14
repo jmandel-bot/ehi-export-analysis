@@ -2,8 +2,13 @@
   "url": "https://www.pcesystems.com/g10APIInfo.html",
   "developer": {
     "name": "PCE Systems",
-    "website": "http://www.pcesystems.com"
+    "website": "http://www.pcesystems.com",
+    "contact_name": "Jeff Chang",
+    "contact_email": "jchang@pcesystems.com",
+    "contact_phone": "(248) 932-4888"
   },
+  "sed_intended_user_description": "Behavioral Health",
+  "mandatory_disclosures_url": "https://www.pcesystems.com/mudisclosures.html",
   "products": [
     {
       "chpl_id": 11045,

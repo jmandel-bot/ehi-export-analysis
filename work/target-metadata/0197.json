@@ -2,8 +2,13 @@
   "url": "https://complete.md/onc-b10-certification/",
   "developer": {
     "name": "Anagen Systems",
-    "website": "http://www.anagensystems.com"
+    "website": "http://www.anagensystems.com",
+    "contact_name": "Stacey Roach",
+    "contact_email": "inquiries@complete.md",
+    "contact_phone": "706-529-7357"
   },
+  "sed_intended_user_description": "",
+  "mandatory_disclosures_url": "https://complete.md/costs-and-limitations-disclosure",
   "products": [
     {
       "chpl_id": 9683,

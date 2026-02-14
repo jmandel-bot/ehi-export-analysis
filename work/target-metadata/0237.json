@@ -2,8 +2,13 @@
   "url": "https://www.hcadam.com/api/public/content/85df94e2bb2c4af4886e3963a4953525?v=b433230d",
   "developer": {
     "name": "HCA Healthcare - Information Technology Group",
-    "website": "https://hcahealthcare.com/"
+    "website": "https://hcahealthcare.com/",
+    "contact_name": "Deborah Davis",
+    "contact_email": "Deborah.davis3@HCAHealthcare.com",
+    "contact_phone": "(615)344-2183"
   },
+  "sed_intended_user_description": "",
+  "mandatory_disclosures_url": "https://www.hcahealthcare.com/patients/onc-certification/",
   "products": [
     {
       "chpl_id": 9279,

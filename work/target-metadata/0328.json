@@ -2,8 +2,13 @@
   "url": "https://www.axeium.com/EHI",
   "developer": {
     "name": "Brilogy Corporation",
-    "website": "https://www.axeium.com"
+    "website": "https://www.axeium.com",
+    "contact_name": "Milton Allione",
+    "contact_email": "milton.allione@brilogy.com",
+    "contact_phone": "714.662.6000"
   },
+  "sed_intended_user_description": "",
+  "mandatory_disclosures_url": "http://www.axeium.com/Certifications",
   "products": [
     {
       "chpl_id": 11086,

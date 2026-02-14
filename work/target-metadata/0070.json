@@ -2,8 +2,13 @@
   "url": "https://www.gorenvio.com/disclaimers",
   "developer": {
     "name": "Renvio",
-    "website": "https://www.gorenvio.com/"
+    "website": "https://www.gorenvio.com/",
+    "contact_name": "Vladimiro Paredes",
+    "contact_email": "vparedes@gorenvio.com",
+    "contact_phone": "(920) 491-2241"
   },
+  "sed_intended_user_description": "Various type of users that interact with Clarity with a variety of roles on the healthcare organization.",
+  "mandatory_disclosures_url": "https://www.gorenvio.com/s/Certification-Disclosure.pdf",
   "products": [
     {
       "chpl_id": 11345,

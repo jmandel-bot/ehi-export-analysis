@@ -2,8 +2,13 @@
   "url": "https://www.ihie.org/wp-content/uploads/2024/05/170.315b10-Electronic-Health-Information-Export.pdf",
   "developer": {
     "name": "Indiana Health Information Exchange",
-    "website": "http://www.ihie.org"
+    "website": "http://www.ihie.org",
+    "contact_name": "Patrick Meehan",
+    "contact_email": "pmeehan@ihie.org",
+    "contact_phone": "260-479-0634"
   },
+  "sed_intended_user_description": "",
+  "mandatory_disclosures_url": "https://www.ihie.org/onc-health-it-disclosures/",
   "products": [
     {
       "chpl_id": 11261,

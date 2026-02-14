@@ -2,8 +2,13 @@
   "url": "https://www.chartperfect.com/onc-certified-ehr",
   "developer": {
     "name": "ChartPerfect, Inc.",
-    "website": "https://www.chartperfect.com/"
+    "website": "https://www.chartperfect.com/",
+    "contact_name": "Maria Garza",
+    "contact_email": "maria@chartperfect.com",
+    "contact_phone": "858-208-3090 x207"
   },
+  "sed_intended_user_description": "",
+  "mandatory_disclosures_url": "https://www.chartperfect.com/onc-certified-ehr/",
   "products": [
     {
       "chpl_id": 11565,

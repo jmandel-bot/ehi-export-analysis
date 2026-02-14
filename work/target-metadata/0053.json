@@ -2,8 +2,13 @@
   "url": "http://ehealthline.com/dev/pdf/Electronic%20Health%20Information%20Export.pdf",
   "developer": {
     "name": "E*HealthLine.com, Inc.",
-    "website": "http://ehealthline.com/"
+    "website": "http://ehealthline.com/",
+    "contact_name": "Mary Johnson",
+    "contact_email": "Mary.Johnson@ehealthline.com",
+    "contact_phone": "(916) 924-8092"
   },
+  "sed_intended_user_description": "Healthcare Providers",
+  "mandatory_disclosures_url": "http://ehealthline.com/dev/pdf/TransparencyDisclosures.pdf",
   "products": [
     {
       "chpl_id": 10832,

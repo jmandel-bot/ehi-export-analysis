@@ -2,8 +2,13 @@
   "url": "https://www.bd.com/content/dam/bd-assets/na/medication-management-solutions/documents/healthsight/BD_HealthSight_Advisors_EHI_Export_Instructions.pdf",
   "developer": {
     "name": "Becton Dickinson and Company",
-    "website": "https://www.bd.com/en-us/products-and-solutions/products/product-brands/healthsight#clinicaladvisorinfectionadvisor"
+    "website": "https://www.bd.com/en-us/products-and-solutions/products/product-brands/healthsight#clinicaladvisorinfectionadvisor",
+    "contact_name": "Denise M. Klinker, Pharm.D., M.B.A.",
+    "contact_email": "Denise.Klinker@bd.com",
+    "contact_phone": "984-215-8489"
   },
+  "sed_intended_user_description": "",
+  "mandatory_disclosures_url": "https://www.bd.com/en-us/resource-and-education/documentation-landing-page/promotional-articles/honors-recognition-healthsight-medmined-earns-mu3-certification",
   "products": [
     {
       "chpl_id": 10802,

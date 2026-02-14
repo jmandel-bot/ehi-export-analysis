@@ -2,8 +2,13 @@
   "url": "https://ppm.fhcsd.org/assets/EHIExportFormat.pdf",
   "developer": {
     "name": "Family Health Centers of San Diego, Inc.",
-    "website": "https://www.fhcsd.org"
+    "website": "https://www.fhcsd.org",
+    "contact_name": "Isabel Jimenez",
+    "contact_email": "isabelj@fhcsd.org",
+    "contact_phone": "(619) 798-3622"
   },
+  "sed_intended_user_description": "",
+  "mandatory_disclosures_url": "https://www.fhcsd.org/onc-health-it-disclosures/",
   "products": [
     {
       "chpl_id": 11231,

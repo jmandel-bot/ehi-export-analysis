@@ -2,8 +2,13 @@
   "url": "https://www.healthfully.io/legal-certification",
   "developer": {
     "name": "Healthfully Inc.",
-    "website": "https://www.healthfully.io/"
+    "website": "https://www.healthfully.io/",
+    "contact_name": "Kristen Hostetter",
+    "contact_email": "kristen@healthfully.io",
+    "contact_phone": "562-588-4636"
   },
+  "sed_intended_user_description": "",
+  "mandatory_disclosures_url": "https://www.healthfully.io/legal-certification",
   "products": [
     {
       "chpl_id": 10527,

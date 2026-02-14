@@ -2,8 +2,13 @@
   "url": "https://www.ehrez.com/",
   "developer": {
     "name": "E-Health Partners, Inc.",
-    "website": "http://www.ehrez.com"
+    "website": "http://www.ehrez.com",
+    "contact_name": "Francis Berrios",
+    "contact_email": "fberrios@ehrez.com",
+    "contact_phone": "787-619-8783"
   },
+  "sed_intended_user_description": "Primary Care Physicians, Pediatrics, OBGyn",
+  "mandatory_disclosures_url": "https://ehrez.com/certification",
   "products": [
     {
       "chpl_id": 11726,

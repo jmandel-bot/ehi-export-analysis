@@ -2,8 +2,13 @@
   "url": "https://tronshealth.com/wp-content/uploads/2024/10/%C2%A7170.315b10-Electronic-Health-Information-Export-EHI.docx.pdf",
   "developer": {
     "name": "TronsHealth LLC",
-    "website": "https://tronshealth.com/"
+    "website": "https://tronshealth.com/",
+    "contact_name": "Khaleeq Alvi",
+    "contact_email": "devadmin@tronshealth.com",
+    "contact_phone": "512-768-7877"
   },
+  "sed_intended_user_description": "Ambulatory Physicians, Nurse Practioners, IT Specialist, Clinician,Surgeon,Administrative Staff",
+  "mandatory_disclosures_url": "https://tronshealth.com/",
   "products": [
     {
       "chpl_id": 11543,

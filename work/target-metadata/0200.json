@@ -2,8 +2,13 @@
   "url": "https://www.dynamichealthit.com/ehi-export",
   "developer": {
     "name": "Empower Systems",
-    "website": "http://www.empower.md"
+    "website": "http://www.empower.md",
+    "contact_name": "Christopher Alise",
+    "contact_email": "calise@empower.md",
+    "contact_phone": "(305) 766-3245"
   },
+  "sed_intended_user_description": "Multidisciplinary documanetation systems for all provider levels",
+  "mandatory_disclosures_url": "https://www.empower.md/mandatory-disclosures/",
   "products": [
     {
       "chpl_id": 11326,

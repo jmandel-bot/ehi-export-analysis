@@ -2,8 +2,13 @@
   "url": "https://www.open-emr.org/wiki/index.php/OpenEMR_7.0_B10",
   "developer": {
     "name": "OpenEMR Foundation",
-    "website": "https://www.open-emr.org/"
+    "website": "https://www.open-emr.org/",
+    "contact_name": "Brady Miller",
+    "contact_email": "hello@open-emr.org",
+    "contact_phone": "888-612-0847"
   },
+  "sed_intended_user_description": "Ambulatory clinic providers and staff",
+  "mandatory_disclosures_url": "https://www.open-emr.org/wiki/index.php/OpenEMR_Wiki_Home_Page#ONC_Ambulatory_EHR_Certification",
   "products": [
     {
       "chpl_id": 10938,

@@ -2,8 +2,13 @@
   "url": "https://criterions.com/cures-disclosures-2022/",
   "developer": {
     "name": "Criterions Software Inc",
-    "website": "https://criterions.com/"
+    "website": "https://criterions.com/",
+    "contact_name": "Kelcie Lewis",
+    "contact_email": "kelcie.lewis@criterions.com",
+    "contact_phone": "561-917-0051"
   },
+  "sed_intended_user_description": "All Ambulatory Practices",
+  "mandatory_disclosures_url": "https://criterions.com/electronic-health-records/",
   "products": [
     {
       "chpl_id": 10171,

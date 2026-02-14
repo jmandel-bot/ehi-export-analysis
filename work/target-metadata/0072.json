@@ -2,8 +2,13 @@
   "url": "https://docs.canvasmedical.com/documentation/ehi-export/",
   "developer": {
     "name": "Canvas Medical, Inc.",
-    "website": "https://canvasmedical.com"
+    "website": "https://canvasmedical.com",
+    "contact_name": "Beau Gunderson",
+    "contact_email": "beau.gunderson@canvasmedical.com",
+    "contact_phone": "(707) 220-8306"
   },
+  "sed_intended_user_description": "health care delivery users, not limited to clinicians",
+  "mandatory_disclosures_url": "https://canvasmedical.com/compliance/onc/mandatory-disclosures",
   "products": [
     {
       "chpl_id": 10904,

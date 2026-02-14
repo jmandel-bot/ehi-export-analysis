@@ -2,8 +2,13 @@
   "url": "https://academy.practicesuite.com/%c2%a7-170-315b10-electronic-health-information-ehi-export/",
   "developer": {
     "name": "PracticeSuite, Inc.",
-    "website": "https://www.practicesuite.com"
+    "website": "https://www.practicesuite.com",
+    "contact_name": "Vinod Nair",
+    "contact_email": "ehrinfo@practicesuite.com",
+    "contact_phone": "(813) 607-2800"
   },
+  "sed_intended_user_description": "Healthcare providers in private practices",
+  "mandatory_disclosures_url": "https://practicesuite.com/ehr-onc-certification/",
   "products": [
     {
       "chpl_id": 10788,

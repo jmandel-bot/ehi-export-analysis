@@ -2,8 +2,13 @@
   "url": "https://woundtech.net/onc-ehi-export-instructions/",
   "developer": {
     "name": "Wound Technology Network, Inc. d/b/a Woundtech",
-    "website": "https://woundtech.net"
+    "website": "https://woundtech.net",
+    "contact_name": "Oleg Zhovnir",
+    "contact_email": "ozhovnir@woundtech.net",
+    "contact_phone": "866.986.2263"
   },
+  "sed_intended_user_description": "",
+  "mandatory_disclosures_url": "https://woundtech.net/onc-certification/",
   "products": [
     {
       "chpl_id": 11694,

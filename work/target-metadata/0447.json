@@ -2,8 +2,13 @@
   "url": "https://www.agilonhealth.com/wp-content/uploads/2025/01/Mphrx-EHI-export-documentation.pdf",
   "developer": {
     "name": "agilon health inc.",
-    "website": "https://www.agilonhealth.com/"
+    "website": "https://www.agilonhealth.com/",
+    "contact_name": "Varun Anand",
+    "contact_email": "varun.anand@agilonhealth.com",
+    "contact_phone": "551-316-0240"
   },
+  "sed_intended_user_description": "",
+  "mandatory_disclosures_url": "https://www.agilonhealth.com/onc-health-it-disclosures/",
   "products": [
     {
       "chpl_id": 10649,

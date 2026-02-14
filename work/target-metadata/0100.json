@@ -2,8 +2,13 @@
   "url": "https://www.figmd.com/pdf/ONC_Certification_Disclosures_and_Costs_21-May-2025.pdf",
   "developer": {
     "name": "FIGmd Inc. (an MRO Company)",
-    "website": "https://figmd.com/"
+    "website": "https://figmd.com/",
+    "contact_name": "Hassan Abdallah",
+    "contact_email": "Hassan.Abdallah@mrocorp.com",
+    "contact_phone": "(734) 288-1204"
   },
+  "sed_intended_user_description": "",
+  "mandatory_disclosures_url": "https://www.figmd.com/pdf/ONC_Certification_Disclosures_and_Costs_21-May-2025.pdf",
   "products": [
     {
       "chpl_id": 10800,

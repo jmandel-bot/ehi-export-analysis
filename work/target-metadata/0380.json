@@ -2,8 +2,13 @@
   "url": "https://www.carecloud.com/cc-prime/",
   "developer": {
     "name": "CareCloud, Inc.",
-    "website": "https://www.carecloud.com"
+    "website": "https://www.carecloud.com",
+    "contact_name": "Adeel Sarwar",
+    "contact_email": "adeelsarwar@carecloud.com",
+    "contact_phone": "(732) 336-1245"
   },
+  "sed_intended_user_description": "Pediatric Nephrology",
+  "mandatory_disclosures_url": "https://carecloud.com/cost-and-fees-information/",
   "products": [
     {
       "chpl_id": 11504,

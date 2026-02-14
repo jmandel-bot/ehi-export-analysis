@@ -2,8 +2,13 @@
   "url": "https://penn-clinical.com/ehi-export",
   "developer": {
     "name": "Perk Medical Systems LLC (PCB Apps LLC)",
-    "website": "https://www.pcbapps.com/"
+    "website": "https://www.pcbapps.com/",
+    "contact_name": "Ashok Chinthala",
+    "contact_email": "achinthala@pcbapps.com",
+    "contact_phone": "(732) 302-0100"
   },
+  "sed_intended_user_description": "Pediatric",
+  "mandatory_disclosures_url": "https://penn-clinical.com/product-info",
   "products": [
     {
       "chpl_id": 11237,

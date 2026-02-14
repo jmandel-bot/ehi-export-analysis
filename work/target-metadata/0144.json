@@ -2,8 +2,13 @@
   "url": "https://help.eyefinity.com/omew/export/elements.htm",
   "developer": {
     "name": "Eyefinity, Inc.",
-    "website": "http://www.eyefinity.com"
+    "website": "http://www.eyefinity.com",
+    "contact_name": "Rob Winchell",
+    "contact_email": "rob.winchell@eyefinity.com",
+    "contact_phone": "916-858-5746"
   },
+  "sed_intended_user_description": "Optometric Practice",
+  "mandatory_disclosures_url": "https://www.eyefinity.com/legal/ehr-disclosure;jsessionid=E2AAFAF40039EF0711B64E80277E872E",
   "products": [
     {
       "chpl_id": 10566,

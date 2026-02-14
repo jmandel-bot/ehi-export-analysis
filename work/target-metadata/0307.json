@@ -2,8 +2,13 @@
   "url": "https://welligent.com/wp-content/uploads/2025/07/B10-Documentation.pdf",
   "developer": {
     "name": "Welligent, Part of the ContinuumCloud",
-    "website": "https://welligent.com/"
+    "website": "https://welligent.com/",
+    "contact_name": "Rich Muller",
+    "contact_email": "rmuller@continuumcloud.com",
+    "contact_phone": "(757) 273-1196"
   },
+  "sed_intended_user_description": "Office staff, billers, clinicians in Behavioral Health settings",
+  "mandatory_disclosures_url": "https://welligent.com/solutions/meaningful-health/",
   "products": [
     {
       "chpl_id": 10811,

@@ -2,8 +2,13 @@
   "url": "https://www.myeyedata.com/Certification/",
   "developer": {
     "name": "Ocuco Limited",
-    "website": "https://www.ocuco.com"
+    "website": "https://www.ocuco.com",
+    "contact_name": "Dennis Ball",
+    "contact_email": "dennis.ball@ocuco.com",
+    "contact_phone": "1-866-367-2899"
   },
+  "sed_intended_user_description": "optometric practice (ambulatory use)",
+  "mandatory_disclosures_url": "https://www.myeyedata.com/Certification/",
   "products": [
     {
       "chpl_id": 11083,

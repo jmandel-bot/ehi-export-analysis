@@ -2,8 +2,13 @@
   "url": "https://www.theralytics.net/ehiexport",
   "developer": {
     "name": "Theralytics",
-    "website": "https://www.theralytics.net"
+    "website": "https://www.theralytics.net",
+    "contact_name": "Anthony Asciutto",
+    "contact_email": "aasciutto@theralytics.net",
+    "contact_phone": "866-710-3590"
   },
+  "sed_intended_user_description": "",
+  "mandatory_disclosures_url": "https://theralytics.net/certification",
   "products": [
     {
       "chpl_id": 11716,

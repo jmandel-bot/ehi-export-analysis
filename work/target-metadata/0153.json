@@ -2,8 +2,13 @@
   "url": "https://www.drcloudemr.com/wp-content/uploads/EHI_Export/docs/index.html",
   "developer": {
     "name": "EnSoftek, Inc",
-    "website": "https://www.drcloudehr.com"
+    "website": "https://www.drcloudehr.com",
+    "contact_name": "Ramesh Nagul",
+    "contact_email": "ramesh@drcloudemr.com",
+    "contact_phone": "503-643-1226"
   },
+  "sed_intended_user_description": "Designed to present medical information to healthcare providers in ambulatory settings.",
+  "mandatory_disclosures_url": "https://www.drcloudehr.com/promoting-interoperability-transparency-and-disclosure-requirements/",
   "products": [
     {
       "chpl_id": 10835,

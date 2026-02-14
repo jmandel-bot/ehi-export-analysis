@@ -2,8 +2,13 @@
   "url": "https://discover.webpt.com/docs/webpt-emr-cehrt-certification",
   "developer": {
     "name": "WebPT",
-    "website": "https://www.webpt.com/"
+    "website": "https://www.webpt.com/",
+    "contact_name": "Kayla C De Baca",
+    "contact_email": "kayla.cdebaca@webpt.com",
+    "contact_phone": "(866) 221-1870 x284044"
   },
+  "sed_intended_user_description": "",
+  "mandatory_disclosures_url": "https://discover.webpt.com/docs/webpt-emr-cehrt-certification",
   "products": [
     {
       "chpl_id": 11515,

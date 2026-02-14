@@ -2,8 +2,13 @@
   "url": "https://practicecompass.com/export/",
   "developer": {
     "name": "Practice Compass, LLC",
-    "website": "https://practicecompass.com/"
+    "website": "https://practicecompass.com/",
+    "contact_name": "Michael Shor",
+    "contact_email": "mshor@usaclinics.com",
+    "contact_phone": "855-390-2828"
   },
+  "sed_intended_user_description": "All participants were physicians who use the product on regular basis",
+  "mandatory_disclosures_url": "http://www.practicecompass.com",
   "products": [
     {
       "chpl_id": 11232,

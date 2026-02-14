@@ -2,8 +2,13 @@
   "url": "http://epromedical.com/ehi-export-b10/",
   "developer": {
     "name": "Eprosystem Inc.",
-    "website": "http://www.eprosystem.com"
+    "website": "http://www.eprosystem.com",
+    "contact_name": "Karl Nguyen",
+    "contact_email": "knguyen@eprosystem.com",
+    "contact_phone": "805-584-2802"
   },
+  "sed_intended_user_description": "Ambulatory Physicians & Nurses",
+  "mandatory_disclosures_url": "http://epromedical.com/meaningful-use-disclosure-price-transparency-statement/",
   "products": [
     {
       "chpl_id": 11012,

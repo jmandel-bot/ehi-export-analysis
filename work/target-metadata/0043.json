@@ -2,8 +2,13 @@
   "url": "https://www.intersystems.com/healthcare-standards-certifications/",
   "developer": {
     "name": "InterSystems Corporation",
-    "website": "https://www.intersystems.com"
+    "website": "https://www.intersystems.com",
+    "contact_name": "Jeremy Davis",
+    "contact_email": "jeremy.davis@intersystems.com",
+    "contact_phone": "617-621-0600"
   },
+  "sed_intended_user_description": "",
+  "mandatory_disclosures_url": "https://www.intersystems.com/healthcare-standards-certifications/",
   "products": [
     {
       "chpl_id": 11630,

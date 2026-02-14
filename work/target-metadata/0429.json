@@ -2,8 +2,13 @@
   "url": "https://axiomehr.com/ehiexport/",
   "developer": {
     "name": "Health Information Management Systems, LLC",
-    "website": "https://axiomehr.com/"
+    "website": "https://axiomehr.com/",
+    "contact_name": "Tania Capin",
+    "contact_email": "tcapin@hmsfirst.com",
+    "contact_phone": "5202785037"
   },
+  "sed_intended_user_description": "Health care Professionals",
+  "mandatory_disclosures_url": "https://axiomehr.com/oncmandatorydisclosure/",
   "products": [
     {
       "chpl_id": 10512,

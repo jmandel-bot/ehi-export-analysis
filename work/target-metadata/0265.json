@@ -2,8 +2,13 @@
   "url": "https://docs.kodjin.com/onc-bulk-data-export/",
   "developer": {
     "name": "EDENLAB O\u00dc",
-    "website": "https://kodjin.com/"
+    "website": "https://kodjin.com/",
+    "contact_name": "Stanislav Ostrovskiy",
+    "contact_email": "welcome@edenlab.io",
+    "contact_phone": "+380503519094"
   },
+  "sed_intended_user_description": "",
+  "mandatory_disclosures_url": "https://kodjin.com/kodjin-onc-certification-compliance/",
   "products": [
     {
       "chpl_id": 11749,

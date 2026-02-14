@@ -2,8 +2,13 @@
   "url": "https://www.cedaron.com/wp-content/uploads/CONNECT-Patient-EHI-Export.pdf",
   "developer": {
     "name": "Cedaron Medical, Inc.",
-    "website": "https://www.cedaron.com/"
+    "website": "https://www.cedaron.com/",
+    "contact_name": "Kevin Lee",
+    "contact_email": "klee@cedaron.com",
+    "contact_phone": "(530) 758-7007"
   },
+  "sed_intended_user_description": "Physical Therapists/Physicians",
+  "mandatory_disclosures_url": "http://www.cedaron.com/costsandlimitations",
   "products": [
     {
       "chpl_id": 10804,

@@ -2,8 +2,13 @@
   "url": "https://www.smiledigitalhealth.com/bulk-data-export",
   "developer": {
     "name": "Smile CDR Inc. (doing business as Smile Digital Health)",
-    "website": "https://www.smilecdr.com/"
+    "website": "https://www.smilecdr.com/",
+    "contact_name": "Franz Caballero",
+    "contact_email": "compliance@smiledigitalhealth.com",
+    "contact_phone": "1 (877) 537 3343"
   },
+  "sed_intended_user_description": "",
+  "mandatory_disclosures_url": "https://www.smiledigitalhealth.com/declaration-of-conformity",
   "products": [
     {
       "chpl_id": 11622,

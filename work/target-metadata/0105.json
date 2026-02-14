@@ -2,8 +2,13 @@
   "url": "https://www.medicalofficeonline.com/wp-content/uploads/2023/11/ExportFileDocumentation.pdf",
   "developer": {
     "name": "Medical Office Online",
-    "website": "https://www.medicalofficeonline.com/"
+    "website": "https://www.medicalofficeonline.com/",
+    "contact_name": "John B. Costello, MD",
+    "contact_email": "jbc3333@mooemail.com",
+    "contact_phone": "866-995-9889"
   },
+  "sed_intended_user_description": "Internal Medicine",
+  "mandatory_disclosures_url": "https://www.medicalofficeonline.com/certifications/",
   "products": [
     {
       "chpl_id": 10846,

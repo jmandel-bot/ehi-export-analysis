@@ -2,8 +2,13 @@
   "url": "https://strateqhealth.com/wp-content/uploads/2023/12/Strateq-Export.pdf",
   "developer": {
     "name": "Strateq Health, Inc.",
-    "website": "https://www.strateqhealth.com"
+    "website": "https://www.strateqhealth.com",
+    "contact_name": "CheeSiong Yee",
+    "contact_email": "cs.yee@strateqhealth.com",
+    "contact_phone": "(866) 920 7229"
   },
+  "sed_intended_user_description": "inpatient physician and nurses",
+  "mandatory_disclosures_url": "https://strateqhealth.com/resources/product-certification/",
   "products": [
     {
       "chpl_id": 10778,

@@ -2,8 +2,13 @@
   "url": "https://veranahealth.com/wp-content/uploads/2023/10/170.315b10-Electronic-Health-Information-Export.pdf",
   "developer": {
     "name": "Verana Health",
-    "website": "https://www.veranahealth.com"
+    "website": "https://www.veranahealth.com",
+    "contact_name": "Nick Macias",
+    "contact_email": "ONC@veranahealth.com",
+    "contact_phone": "1-888-774-0077"
   },
+  "sed_intended_user_description": "",
+  "mandatory_disclosures_url": "https://veranahealth.com/clinicians/verana-quality-measures/",
   "products": [
     {
       "chpl_id": 11215,

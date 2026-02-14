@@ -2,8 +2,13 @@
   "url": "https://www.oracle.com/health/regulatory/certified-health-it/#ehi-export-lnk",
   "developer": {
     "name": "Oracle Health",
-    "website": "https://www.oracle.com/health"
+    "website": "https://www.oracle.com/health",
+    "contact_name": "Greg Thole",
+    "contact_email": "greg.thole@oracle.com",
+    "contact_phone": "816-573-6569"
   },
+  "sed_intended_user_description": "",
+  "mandatory_disclosures_url": "https://www.oracle.com/health/regulatory/certified-health-it/#costs-fees-lnk",
   "products": [
     {
       "chpl_id": 11637,

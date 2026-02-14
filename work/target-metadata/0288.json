@@ -2,8 +2,13 @@
   "url": "https://drfirst.com/privacy-policy/ehi-export/",
   "developer": {
     "name": "DrFirst",
-    "website": "http://www.drfirst.com"
+    "website": "http://www.drfirst.com",
+    "contact_name": "Tyler Higgins",
+    "contact_email": "thiggins@drfirst.com",
+    "contact_phone": "301-231-9510"
   },
+  "sed_intended_user_description": "Hospital or Clinic",
+  "mandatory_disclosures_url": "http://www.drfirst.com/privacy-policy/",
   "products": [
     {
       "chpl_id": 9207,

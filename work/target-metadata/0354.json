@@ -2,8 +2,13 @@
   "url": "https://dexter-solutions.com/certification",
   "developer": {
     "name": "Dexter Solutions Inc",
-    "website": "http://www.dexter-solutions.com/"
+    "website": "http://www.dexter-solutions.com/",
+    "contact_name": "Rakesh Vedavyas",
+    "contact_email": "rakeshv@dexter-solutions.com",
+    "contact_phone": "630-219-1919"
   },
+  "sed_intended_user_description": "Internal Medicine - Neurologist",
+  "mandatory_disclosures_url": "https://dexter-solutions.com/certification",
   "products": [
     {
       "chpl_id": 11432,

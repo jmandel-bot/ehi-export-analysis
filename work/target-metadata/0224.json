@@ -2,8 +2,13 @@
   "url": "https://kantime.com/wp-content/uploads/2023/11/EHI_Tool_Documentation.pdf",
   "developer": {
     "name": "Kanrad Technologies Inc",
-    "website": "https://www.kantime.com"
+    "website": "https://www.kantime.com",
+    "contact_name": "Satheesh Kumar",
+    "contact_email": "satheesh@kantime.com",
+    "contact_phone": "408-807-4255"
   },
+  "sed_intended_user_description": "User of this system includes: Clinicians, Physicians, Nurses, Nurse Practitioners and Registered Nurses, Physician Assistants, Medical Assistants and Clinical Backoffice staff.",
+  "mandatory_disclosures_url": "https://kantime.com/certifications-accreditations-and-compliance/",
   "products": [
     {
       "chpl_id": 11219,

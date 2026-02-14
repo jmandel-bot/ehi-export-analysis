@@ -2,8 +2,13 @@
   "url": "https://acplus.com/technology/acplus/",
   "developer": {
     "name": "Accelerated Care Plus",
-    "website": "https://acplus.com/technology/acplus/"
+    "website": "https://acplus.com/technology/acplus/",
+    "contact_name": "Barry Thomson",
+    "contact_email": "BThomson@hanger.com",
+    "contact_phone": "775-287-4955"
   },
+  "sed_intended_user_description": "Therapsists, Nurses",
+  "mandatory_disclosures_url": "https://acplus.com/technology/acplus/cybersecurity/",
   "products": [
     {
       "chpl_id": 11412,

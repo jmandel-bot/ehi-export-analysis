@@ -2,8 +2,13 @@
   "url": "https://www.myhelo.com/api_export_format/",
   "developer": {
     "name": "myhELO, Inc.",
-    "website": "https://www.myhelo.com/"
+    "website": "https://www.myhelo.com/",
+    "contact_name": "Kurtis Preston",
+    "contact_email": "kpreston@myhelo.com",
+    "contact_phone": "317-774-5500"
   },
+  "sed_intended_user_description": "healthcare professionals and administrative staff operating in outpatient specialty practices and ambulatory surgery centers (ASCs)",
+  "mandatory_disclosures_url": "https://www.myhelo.com/real_world_testing/#mandatory_disclosure",
   "products": [
     {
       "chpl_id": 9930,

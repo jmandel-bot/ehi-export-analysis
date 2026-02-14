@@ -2,8 +2,13 @@
   "url": "https://www.discharge123.com/prot/EHI-Export/Index.htm",
   "developer": {
     "name": "Callibra, Inc.",
-    "website": "https://www.discharge123.com/"
+    "website": "https://www.discharge123.com/",
+    "contact_name": "Jodi Osborne",
+    "contact_email": "Josborne@discharge123.com",
+    "contact_phone": "847-805-6940"
   },
+  "sed_intended_user_description": "",
+  "mandatory_disclosures_url": "https://www.discharge123.com/certification-transparency-document/",
   "products": [
     {
       "chpl_id": 10754,

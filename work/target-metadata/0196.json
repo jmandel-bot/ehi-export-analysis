@@ -2,8 +2,13 @@
   "url": "https://5eanalytics.com/onc-acb-certified-software/",
   "developer": {
     "name": "5E Analytics, LLC",
-    "website": "https://5eanalytics.com/"
+    "website": "https://5eanalytics.com/",
+    "contact_name": "Kiyra Artisse",
+    "contact_email": "sales@5eanalytics.com",
+    "contact_phone": "(516) 945-0923"
   },
+  "sed_intended_user_description": "",
+  "mandatory_disclosures_url": "https://5eanalytics.com/mandatory-disclosure-statement/",
   "products": [
     {
       "chpl_id": 11611,

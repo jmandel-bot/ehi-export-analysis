@@ -2,8 +2,13 @@
   "url": "https://www.curemd.com/ehi-export.asp",
   "developer": {
     "name": "CureMD.com, Inc.",
-    "website": "https://www.curemd.com/"
+    "website": "https://www.curemd.com/",
+    "contact_name": "Matt Anderson",
+    "contact_email": "matt.anderson@curemd.com",
+    "contact_phone": "212-852-0279 x320"
   },
+  "sed_intended_user_description": "Ambulatory Physicians, Nurses and Administrative Staff Members",
+  "mandatory_disclosures_url": "https://www.curemd.com/mu-certified-ehr.asp",
   "products": [
     {
       "chpl_id": 11246,

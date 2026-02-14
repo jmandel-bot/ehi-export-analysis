@@ -2,8 +2,13 @@
   "url": "https://www.ezcaretech.com/english/onc/b.10_EHI_Export.pdf",
   "developer": {
     "name": "ezCaretech Co., Ltd.",
-    "website": "http://www.ezcaretech.com/"
+    "website": "http://www.ezcaretech.com/",
+    "contact_name": "Eunsol Lee",
+    "contact_email": "eunsol@ezcaretech.com",
+    "contact_phone": "82 10 2885 4365"
   },
+  "sed_intended_user_description": "University Tertiary Hospital",
+  "mandatory_disclosures_url": "https://www.ezcaretech.com/english/onc/onc_2015.html",
   "products": [
     {
       "chpl_id": 9665,

@@ -2,8 +2,13 @@
   "url": "https://portal.medgenehr.com/Medgenweb/MedgenBackupUtility.pdf",
   "developer": {
     "name": "Comtron Inc.",
-    "website": "http://www.medgenehr.com/"
+    "website": "http://www.medgenehr.com/",
+    "contact_name": "David DeBlasio",
+    "contact_email": "deblasio@comtronusa.com",
+    "contact_phone": "516-466-3838"
   },
+  "sed_intended_user_description": "Healthcare Prescribers, Nurses & Configuration Analysts",
+  "mandatory_disclosures_url": "https://www.medgenehr.com/onc-certification",
   "products": [
     {
       "chpl_id": 10986,

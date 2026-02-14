@@ -2,8 +2,13 @@
   "url": "https://www.cgm.com/usa_en/products/electronic-health-records/other-ehrs/cgm-emds.html",
   "developer": {
     "name": "CompuGroup Medical US",
-    "website": "https://www.cgm.com/us"
+    "website": "https://www.cgm.com/us",
+    "contact_name": "Sam Frank",
+    "contact_email": "sfrank@emds.com",
+    "contact_phone": "(512) 579-5879"
   },
+  "sed_intended_user_description": "Providers, clinical support staff",
+  "mandatory_disclosures_url": "https://www.cgm.com/usa_en/products/electronic-health-records/other-ehrs/cgm-emds.html",
   "products": [
     {
       "chpl_id": 11133,

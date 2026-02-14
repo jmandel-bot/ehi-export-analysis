@@ -2,8 +2,13 @@
   "url": "https://www.braintreehealth.com/braintree-onc-certification-btree/",
   "developer": {
     "name": "Braintree Health",
-    "website": "https://www.braintreehealth.com"
+    "website": "https://www.braintreehealth.com",
+    "contact_name": "Sunil Reddy",
+    "contact_email": "sunil.reddy@BraintreeHealth.com",
+    "contact_phone": "512-377-9174"
   },
+  "sed_intended_user_description": "Braintree Health Ambulatory EHR 9.3.1.1 (i.e., \"the system\") supports a variety of healthcare professional roles (e.g., Nurses, Medical Assistants, Physicians, etc.) across a variety of healthcare practices (e.g., Family Practice, Vascular, Interventional Radiology, etc.).",
+  "mandatory_disclosures_url": "https://www.braintreehealth.com/braintree-onc-certification-btree/",
   "products": [
     {
       "chpl_id": 10727,

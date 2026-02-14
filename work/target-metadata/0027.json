@@ -2,8 +2,13 @@
   "url": "https://www.cyfluent.com/onc-certified-hit-2015-edition",
   "developer": {
     "name": "Cyfluent",
-    "website": "https://www.cyfluent.com/"
+    "website": "https://www.cyfluent.com/",
+    "contact_name": "Dan Schneider",
+    "contact_email": "daniel.schneider@cyfluent.com",
+    "contact_phone": "(703) 258-1016"
   },
+  "sed_intended_user_description": "Outpatient Clinic",
+  "mandatory_disclosures_url": "https://www.cyfluent.com/onc-certified-hit-2015-edition",
   "products": [
     {
       "chpl_id": 10072,

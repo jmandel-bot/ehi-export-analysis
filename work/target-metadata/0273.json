@@ -2,8 +2,13 @@
   "url": "https://github.com/Medaxion/open_api_resources/wiki/Electronic-Health-Information-Export-Format",
   "developer": {
     "name": "Medaxion, Inc.",
-    "website": "https://medaxion.com"
+    "website": "https://medaxion.com",
+    "contact_name": "Jeff McLaren",
+    "contact_email": "info@medaxion.com",
+    "contact_phone": "(615) 537-5500"
   },
+  "sed_intended_user_description": "Clinical Anesthisists",
+  "mandatory_disclosures_url": "http://medaxion.com/disclosures/",
   "products": [
     {
       "chpl_id": 11762,

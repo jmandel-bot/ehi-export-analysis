@@ -2,8 +2,13 @@
   "url": "https://ehnote.com/certification/ehi-export",
   "developer": {
     "name": "EHNOTE,INC",
-    "website": "https://www.ehnote.com"
+    "website": "https://www.ehnote.com",
+    "contact_name": "Amar Midde",
+    "contact_email": "amar@ehnote.com",
+    "contact_phone": "7472226099"
   },
+  "sed_intended_user_description": "The target audience for the product are wound care physicians, who are experts in chronic wound healing. The clinician users have backgrounds specialized in Ophthalmology",
+  "mandatory_disclosures_url": "https://ehnote.com/certification/certification-link.html",
   "products": [
     {
       "chpl_id": 11356,

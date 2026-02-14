@@ -2,8 +2,13 @@
   "url": "https://myriad.health/terms",
   "developer": {
     "name": "Myriad Systems",
-    "website": "https://myriadsystems.ai"
+    "website": "https://myriadsystems.ai",
+    "contact_name": "David Pratts",
+    "contact_email": "dpratts@myriadsystems.ai",
+    "contact_phone": "914-431-7335"
   },
+  "sed_intended_user_description": "",
+  "mandatory_disclosures_url": "https://Myriad.health/terms",
   "products": [
     {
       "chpl_id": 11452,

@@ -2,8 +2,13 @@
   "url": "https://www.axxess.com/cehrt/",
   "developer": {
     "name": "Axxess",
-    "website": "https://www.axxess.com"
+    "website": "https://www.axxess.com",
+    "contact_name": "Adrian Killebrew",
+    "contact_email": "akillebrew@axxess.com",
+    "contact_phone": "(214) 912-9916"
   },
+  "sed_intended_user_description": "Health care providers in outpatient/ambulatory settings",
+  "mandatory_disclosures_url": "https://www.axxess.com/cehrt/",
   "products": [
     {
       "chpl_id": 11620,

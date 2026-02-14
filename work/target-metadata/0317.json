@@ -2,8 +2,13 @@
   "url": "https://gohealthsolutions.org/disclosures/",
   "developer": {
     "name": "CREOKS GoHealth Solutions",
-    "website": "http://gohealthsolutions.org"
+    "website": "http://gohealthsolutions.org",
+    "contact_name": "Josh Williams",
+    "contact_email": "josh.williams@creoks.org",
+    "contact_phone": "918-382-7300"
   },
+  "sed_intended_user_description": "A total of 10 participants were tested on the EHRUT(s). Participants in the test were agency staff, support personnel as well as non-employees.",
+  "mandatory_disclosures_url": "https://gohealthsolutions.org/disclosures/",
   "products": [
     {
       "chpl_id": 11035,

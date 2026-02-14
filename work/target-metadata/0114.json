@@ -2,8 +2,13 @@
   "url": "https://www.floridahealth.gov/statistics-data/health-management-system/",
   "developer": {
     "name": "Florida Department of Health",
-    "website": "https://www.floridahealth.gov"
+    "website": "https://www.floridahealth.gov",
+    "contact_name": "Michael Cragg",
+    "contact_email": "michael.cragg@flhealth.gov",
+    "contact_phone": "850-245-4255"
   },
+  "sed_intended_user_description": "All clinical and practice management staff within the County Health Department",
+  "mandatory_disclosures_url": "https://www.floridahealth.gov/statistics-data/health-management-system/",
   "products": [
     {
       "chpl_id": 10047,

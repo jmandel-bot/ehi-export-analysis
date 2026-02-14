@@ -2,8 +2,13 @@
   "url": "https://avonhealth.com/meaningful-use",
   "developer": {
     "name": "Avon Health",
-    "website": "https://www.avonhealth.com"
+    "website": "https://www.avonhealth.com",
+    "contact_name": "Maitreyee Joshi",
+    "contact_email": "maitreyee@avonhealth.com",
+    "contact_phone": "4084299897"
   },
+  "sed_intended_user_description": "Physicians, Physician Assistants, Nurse Practitioners",
+  "mandatory_disclosures_url": "https://avonhealth.com/meaningful-use",
   "products": [
     {
       "chpl_id": 11636,

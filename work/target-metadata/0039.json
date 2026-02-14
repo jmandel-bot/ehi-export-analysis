@@ -2,8 +2,13 @@
   "url": "https://agastha.com/Agastha-B10-Documentation.pdf",
   "developer": {
     "name": "Agastha, Inc.",
-    "website": "http://www.agastha.com"
+    "website": "http://www.agastha.com",
+    "contact_name": "Eddy B. Dishueme",
+    "contact_email": "eddy@agastha.com",
+    "contact_phone": "704.544.6504 x.156"
   },
+  "sed_intended_user_description": "Ambulatory",
+  "mandatory_disclosures_url": "http://www.agastha.com/certifications.html",
   "products": [
     {
       "chpl_id": 11152,

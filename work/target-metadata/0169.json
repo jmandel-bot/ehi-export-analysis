@@ -2,8 +2,13 @@
   "url": "https://www.tebra.com/tebra-resources/macra-mips/",
   "developer": {
     "name": "Tebra Technologies, Inc.",
-    "website": "https://www.tebra.com/"
+    "website": "https://www.tebra.com/",
+    "contact_name": "Steven Maciejewski",
+    "contact_email": "steven.maciejewski@tebra.com",
+    "contact_phone": "(949) 509-2472"
   },
+  "sed_intended_user_description": "Ambulatory clinicians and staff",
+  "mandatory_disclosures_url": "https://www.tebra.com/tebra-resources/macra-mips/",
   "products": [
     {
       "chpl_id": 11557,

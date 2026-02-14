@@ -2,8 +2,13 @@
   "url": "https://docs.tiatech.net",
   "developer": {
     "name": "TiaTech USA, Inc.",
-    "website": "https://www.tiatech.net"
+    "website": "https://www.tiatech.net",
+    "contact_name": "Nicole Mascia",
+    "contact_email": "nicolemascia@practicure.com",
+    "contact_phone": "248-701-9090"
   },
+  "sed_intended_user_description": "ambulatory physician and nurses",
+  "mandatory_disclosures_url": "https://www.tiatech.net/onc-certification",
   "products": [
     {
       "chpl_id": 11665,

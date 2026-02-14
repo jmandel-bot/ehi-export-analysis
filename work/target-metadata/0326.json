@@ -2,8 +2,13 @@
   "url": "https://www.medirec.us/products",
   "developer": {
     "name": "MediRec, Inc.",
-    "website": "https://www.medirec.us"
+    "website": "https://www.medirec.us",
+    "contact_name": "Julio Cajigas",
+    "contact_email": "support@medirecpr.com",
+    "contact_phone": "888 400 0215 / 888 615 3554"
   },
+  "sed_intended_user_description": "Primary Physicians, Specialty Physicians, and Administrative Personnel",
+  "mandatory_disclosures_url": "https://www.medirec.us/products",
   "products": [
     {
       "chpl_id": 11117,

@@ -2,8 +2,13 @@
   "url": "https://drsdoc.com/DataExport",
   "developer": {
     "name": "Keiser Computers, Inc.",
-    "website": "https://www.drsdoc.com"
+    "website": "https://www.drsdoc.com",
+    "contact_name": "Jeffrey Keiser",
+    "contact_email": "jkeiser@drsdoc.com",
+    "contact_phone": "954-771-3511"
   },
+  "sed_intended_user_description": "General and specialized medical practices",
+  "mandatory_disclosures_url": "https://www.drsdoc.com/Certification",
   "products": [
     {
       "chpl_id": 11072,

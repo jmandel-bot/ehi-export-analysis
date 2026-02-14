@@ -2,8 +2,13 @@
   "url": "https://www.qsmartcare.com/ehi-template.html",
   "developer": {
     "name": "Magilen Enterprises Inc",
-    "website": "https://www.qsmartcare.com"
+    "website": "https://www.qsmartcare.com",
+    "contact_name": "Steven Magilen, MD",
+    "contact_email": "smagilen@magilen.com",
+    "contact_phone": "(305) 466 9988"
   },
+  "sed_intended_user_description": "Nurses, Physicians, & Staff.",
+  "mandatory_disclosures_url": "https://www.qsmartcare.com/onc-costs.html",
   "products": [
     {
       "chpl_id": 10803,

@@ -2,8 +2,13 @@
   "url": "https://apidocs.onemedical.io/ehi_export/overview/",
   "developer": {
     "name": "1Life Healthcare, Inc",
-    "website": "https://www.onemedical.com/"
+    "website": "https://www.onemedical.com/",
+    "contact_name": "One Medical",
+    "contact_email": "1Life-CEHRT@onemedical.com",
+    "contact_phone": "1-888-663-6331"
   },
+  "sed_intended_user_description": "ambulatory physicians and nurses",
+  "mandatory_disclosures_url": "https://apidocs.onemedical.io/legal/declaration_of_conformity/",
   "products": [
     {
       "chpl_id": 10964,

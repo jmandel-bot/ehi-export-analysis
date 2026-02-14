@@ -2,8 +2,13 @@
   "url": "https://blog.phoenixortho.net/phoenix-ortho-receives-mips-2015-certification",
   "developer": {
     "name": "Phoenix Ortho, LLC",
-    "website": "http://www.phoenixortho.net"
+    "website": "http://www.phoenixortho.net",
+    "contact_name": "Micah Jones",
+    "contact_email": "info@phoenixortho.net",
+    "contact_phone": "214-427-1734"
   },
+  "sed_intended_user_description": "Orthopedic Clinical and support staff",
+  "mandatory_disclosures_url": "https://blog.phoenixortho.net/phoenix-ortho-receives-mips-2015-certification",
   "products": [
     {
       "chpl_id": 11163,

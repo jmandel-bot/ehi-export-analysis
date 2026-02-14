@@ -2,8 +2,13 @@
   "url": "https://ipclinical.com/documentation/b_10_Electronic_Health_Information_export.pdf",
   "developer": {
     "name": "Physicians EMR, LLC",
-    "website": "https://www.ipclinical.com/"
+    "website": "https://www.ipclinical.com/",
+    "contact_name": "Dr. Wasim Ahmar",
+    "contact_email": "wahmarmd@gmail.com",
+    "contact_phone": "(407) 448-3100"
   },
+  "sed_intended_user_description": "",
+  "mandatory_disclosures_url": "https://www.ipclinical.com/mu-disclousure/",
   "products": [
     {
       "chpl_id": 10278,

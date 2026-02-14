@@ -2,8 +2,13 @@
   "url": "https://www.darenasolutions.com/meldrx-onc-hti1-certified#b10-EHI-Export-Documentation",
   "developer": {
     "name": "Complete Healthcare Solutions, Inc.",
-    "website": "https://unifimd.com"
+    "website": "https://unifimd.com",
+    "contact_name": "Carey Penna",
+    "contact_email": "cpenna@mailchs.com",
+    "contact_phone": "800-250-8687"
   },
+  "sed_intended_user_description": "providers and staff of ambulatory offices",
+  "mandatory_disclosures_url": "https://completehealthcaresolutions.com/certifications/",
   "products": [
     {
       "chpl_id": 11047,

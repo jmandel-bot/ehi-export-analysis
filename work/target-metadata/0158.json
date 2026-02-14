@@ -2,8 +2,13 @@
   "url": "http://www.mdrhythm.com/onc-compliance.html",
   "developer": {
     "name": "TechSoft, Inc.",
-    "website": "http://www.mdrhythm.com"
+    "website": "http://www.mdrhythm.com",
+    "contact_name": "Parag Dadhania",
+    "contact_email": "Parag.dadhania@medstech.com",
+    "contact_phone": "856-642-7500"
   },
+  "sed_intended_user_description": "Outpatient Clinics",
+  "mandatory_disclosures_url": "http://www.mdrhythm.com/mdrhythm-onc2015.html",
   "products": [
     {
       "chpl_id": 9797,

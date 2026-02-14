@@ -2,8 +2,13 @@
   "url": "https://www.aaneel.com/aaneel-onc-ehr-certification-techspecs",
   "developer": {
     "name": "AaNeel Infotech",
-    "website": "https://www.aaneel.com/"
+    "website": "https://www.aaneel.com/",
+    "contact_name": "Kelly Hidde",
+    "contact_email": "contact@aaneel.com",
+    "contact_phone": "(813) 909-9555"
   },
+  "sed_intended_user_description": "",
+  "mandatory_disclosures_url": "https://www.aaneel.com/2022/06/16/aaneel-onc-ehr-certification/",
   "products": [
     {
       "chpl_id": 11268,

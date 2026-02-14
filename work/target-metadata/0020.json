@@ -2,8 +2,13 @@
   "url": "https://equicarehealth.com/ehiexport/",
   "developer": {
     "name": "Equicare Health Incorporated",
-    "website": "http://www.equicarehealth.com"
+    "website": "http://www.equicarehealth.com",
+    "contact_name": "Gary Poon",
+    "contact_email": "gary.poon@equicarehealth.com",
+    "contact_phone": "604.398.2328"
   },
+  "sed_intended_user_description": "",
+  "mandatory_disclosures_url": "http://equicarehealth.com/product/industry-standards",
   "products": [
     {
       "chpl_id": 11390,

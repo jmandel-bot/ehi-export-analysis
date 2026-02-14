@@ -2,8 +2,13 @@
   "url": "https://www.urgentchart.com/export.html",
   "developer": {
     "name": "Urgent Chart LLC",
-    "website": "https://www.urgentchart.com/"
+    "website": "https://www.urgentchart.com/",
+    "contact_name": "Dean Vaughan",
+    "contact_email": "dean@emergentconnect.com",
+    "contact_phone": "479 802 4606"
   },
+  "sed_intended_user_description": "",
+  "mandatory_disclosures_url": "https://urgentchart.com/disclosures/",
   "products": [
     {
       "chpl_id": 11718,

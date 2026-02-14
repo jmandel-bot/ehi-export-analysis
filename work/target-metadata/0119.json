@@ -2,8 +2,13 @@
   "url": "https://www.healthadvanta.com/disclosure/",
   "developer": {
     "name": "HealthAdvanta",
-    "website": "https://www.healthadvanta.com/"
+    "website": "https://www.healthadvanta.com/",
+    "contact_name": "Dennis Schock",
+    "contact_email": "dschock@healthadvanta.com",
+    "contact_phone": "888-507-2988"
   },
+  "sed_intended_user_description": "",
+  "mandatory_disclosures_url": "https://www.healthadvanta.com/disclosure/",
   "products": [
     {
       "chpl_id": 11441,

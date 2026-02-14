@@ -2,8 +2,13 @@
   "url": "https://customer.first-insight.com/downloads/forms/MaximEyes-EHI-Export-Documentation.pdf",
   "developer": {
     "name": "First Insight Corporation",
-    "website": "http://www.first-insight.com"
+    "website": "http://www.first-insight.com",
+    "contact_name": "Shandra Mischnick",
+    "contact_email": "incentive@first-insight.com",
+    "contact_phone": "(800) 920-1940"
   },
+  "sed_intended_user_description": "Optometry & Opthalmology Ambulatory Healthcare Providers",
+  "mandatory_disclosures_url": "https://www.first-insight.com/resources/certifications/",
   "products": [
     {
       "chpl_id": 10470,

@@ -2,8 +2,13 @@
   "url": "https://www.healthviewx.com/wp-content/uploads/2023/12/EHI-Export-Documentation-V1.0.pdf",
   "developer": {
     "name": "Payoda Technology Inc.",
-    "website": "https://www.healthviewx.com"
+    "website": "https://www.healthviewx.com",
+    "contact_name": "Sekar Mylsamy",
+    "contact_email": "sekar.m@payoda.com",
+    "contact_phone": "+91-72000-93936"
   },
+  "sed_intended_user_description": "",
+  "mandatory_disclosures_url": "https://healthviewx.com/certification-disclosure",
   "products": [
     {
       "chpl_id": 11415,

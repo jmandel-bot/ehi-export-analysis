@@ -2,8 +2,13 @@
   "url": "https://his.medvantage.tech/static/media/ElectronicHealthInformationExport(Cures)Documentation.611db6cc4e7ae051986f.pdf",
   "developer": {
     "name": "CRITERION TECH PRIVATE LIMITED",
-    "website": "https://criteriontechnologies.com/"
+    "website": "https://criteriontechnologies.com/",
+    "contact_name": "Syed Wajahat Hussain Zaidi",
+    "contact_email": "wajahat.husain@criteriontechnologies.com",
+    "contact_phone": "91 7275754082"
   },
+  "sed_intended_user_description": "Health Care Facilities and Individuals",
+  "mandatory_disclosures_url": "https://his.medvantage.tech/oncdocumentation/",
   "products": [
     {
       "chpl_id": 11369,

@@ -2,8 +2,13 @@
   "url": "https://disclosures.carerails.com/ehi/",
   "developer": {
     "name": "Osler, Inc.",
-    "website": "http://www.oslerhealth.com"
+    "website": "http://www.oslerhealth.com",
+    "contact_name": "Martin Lee",
+    "contact_email": "mlee@oslerhealth.com",
+    "contact_phone": "(530) 400-3333"
   },
+  "sed_intended_user_description": "",
+  "mandatory_disclosures_url": "http://disclosures.carerails.com",
   "products": [
     {
       "chpl_id": 11317,

@@ -2,8 +2,13 @@
   "url": "https://www.wrshealth.com/onc-certification-and-costs",
   "developer": {
     "name": "WRS Health",
-    "website": "https://www.wrshealth.com/"
+    "website": "https://www.wrshealth.com/",
+    "contact_name": "Lawrence Gordon",
+    "contact_email": "lgordon@wrshealth.com",
+    "contact_phone": "866-977-4367"
   },
+  "sed_intended_user_description": "clinical healthcare professionals",
+  "mandatory_disclosures_url": "https://www.wrshealth.com/onc-certification-and-costs",
   "products": [
     {
       "chpl_id": 10750,

@@ -2,8 +2,13 @@
   "url": "https://www.medplum.com/docs/api/fhir/operations/patient-everything",
   "developer": {
     "name": "Medplum",
-    "website": "https://www.medplum.com/"
+    "website": "https://www.medplum.com/",
+    "contact_name": "Reshma Khilnani",
+    "contact_email": "info@medplum.com",
+    "contact_phone": "8318884217"
   },
+  "sed_intended_user_description": "all physician types",
+  "mandatory_disclosures_url": "https://www.medplum.com/docs/compliance/onc",
   "products": [
     {
       "chpl_id": 11745,

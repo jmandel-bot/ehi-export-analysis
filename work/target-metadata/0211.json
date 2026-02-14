@@ -2,8 +2,13 @@
   "url": "https://storage.googleapis.com/staging-incrowd/pdf/EHI%20Export%20Document/1724146814781/file.pdf",
   "developer": {
     "name": "Innovaccer Inc",
-    "website": "https://innovaccer.com/"
+    "website": "https://innovaccer.com/",
+    "contact_name": "Udit Mathur",
+    "contact_email": "udit.mathur@innovaccer.com",
+    "contact_phone": "+1 510-327-8900"
   },
+  "sed_intended_user_description": "",
+  "mandatory_disclosures_url": "https://innovaccer.com/onc-certification",
   "products": [
     {
       "chpl_id": 11618,

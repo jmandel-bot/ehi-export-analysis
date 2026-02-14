@@ -2,8 +2,13 @@
   "url": "https://www.praxisemr.com/certifications-and-costs.html",
   "developer": {
     "name": "Infor-Med Medical Information Systems Inc.",
-    "website": "http://www.praxisemr.com/"
+    "website": "http://www.praxisemr.com/",
+    "contact_name": "Richard Low MD",
+    "contact_email": "richard.low@praxisemr.com",
+    "contact_phone": "(818) 592-2900"
   },
+  "sed_intended_user_description": "General Practitioners",
+  "mandatory_disclosures_url": "https://www.praxisemr.com/certifications-and-costs.html",
   "products": [
     {
       "chpl_id": 10853,

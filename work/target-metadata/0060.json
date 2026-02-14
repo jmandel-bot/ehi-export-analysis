@@ -2,8 +2,13 @@
   "url": "https://www.trimedtech.com/EHRDisclosureV10",
   "developer": {
     "name": "TriMed Technologies",
-    "website": "https://www.trimedtech.com/"
+    "website": "https://www.trimedtech.com/",
+    "contact_name": "Molly McCutcheon",
+    "contact_email": "molly@trimedtech.com",
+    "contact_phone": "866-874-6339"
   },
+  "sed_intended_user_description": "providers, MA's, Admin, clincial users",
+  "mandatory_disclosures_url": "https://trimedtech.com/EHRDisclosureV10",
   "products": [
     {
       "chpl_id": 10076,

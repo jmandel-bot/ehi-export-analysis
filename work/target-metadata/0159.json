@@ -2,8 +2,13 @@
   "url": "https://www.systemedx.com/dataExport.html",
   "developer": {
     "name": "Systemedx Inc",
-    "website": "https://www.systemedx.com/"
+    "website": "https://www.systemedx.com/",
+    "contact_name": "Jacob Nelson",
+    "contact_email": "support@systemedx.com",
+    "contact_phone": "256-739-1398"
   },
+  "sed_intended_user_description": "Clinical Users",
+  "mandatory_disclosures_url": "https://www.systemedx.com/mipssolutions.html",
   "products": [
     {
       "chpl_id": 11536,

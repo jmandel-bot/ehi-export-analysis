@@ -2,8 +2,13 @@
   "url": "https://www.cybermedcorp.com/Products/EHR.html",
   "developer": {
     "name": "CyberMed Corporation",
-    "website": "https://www.cybermedcorp.com"
+    "website": "https://www.cybermedcorp.com",
+    "contact_name": "Jinpin Ying",
+    "contact_email": "jying@cybermedehr.com",
+    "contact_phone": "732-800-0020"
   },
+  "sed_intended_user_description": "Outpatient Clinic",
+  "mandatory_disclosures_url": "https://www.cybermedcorp.com/Products/EHR.html",
   "products": [
     {
       "chpl_id": 11154,

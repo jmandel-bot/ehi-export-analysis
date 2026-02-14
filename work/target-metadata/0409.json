@@ -2,8 +2,13 @@
   "url": "https://www.practiceehr.com/data-export",
   "developer": {
     "name": "Practice EHR LLC",
-    "website": "http://www.practiceehr.com"
+    "website": "http://www.practiceehr.com",
+    "contact_name": "Tehmas Akhtar",
+    "contact_email": "takhtar@practiceehr.com",
+    "contact_phone": "631-608-6403"
   },
+  "sed_intended_user_description": "SED",
+  "mandatory_disclosures_url": "https://www.practiceehr.com/press-releases/onc-acb-2015-meaningful-use-certification",
   "products": [
     {
       "chpl_id": 10923,

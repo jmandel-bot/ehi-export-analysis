@@ -2,8 +2,13 @@
   "url": "https://imatsolutions.com/index.php/ecqm/",
   "developer": {
     "name": "IMAT Solutions",
-    "website": "https://imatsolutions.com"
+    "website": "https://imatsolutions.com",
+    "contact_name": "Matt Davis",
+    "contact_email": "matt.davis@imatsolutions.com",
+    "contact_phone": "801-472-1643"
   },
+  "sed_intended_user_description": "",
+  "mandatory_disclosures_url": "https://imatsolutions.com/index.php/ecqm",
   "products": [
     {
       "chpl_id": 11188,

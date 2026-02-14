@@ -2,8 +2,13 @@
   "url": "https://ehi.greenwayhealth.com/PrimeSuite/PrimeSuiteEHIExport.html",
   "developer": {
     "name": "Greenway Health, LLC",
-    "website": "https://www.greenwayhealth.com/"
+    "website": "https://www.greenwayhealth.com/",
+    "contact_name": "Sherry de Cuba",
+    "contact_email": "sherry.decuba@greenwayhealth.com",
+    "contact_phone": "813-690-2822"
   },
+  "sed_intended_user_description": "Healthcare professionals in an outpatient ambulatory setting",
+  "mandatory_disclosures_url": "https://www.greenwayhealth.com/about/awards-and-certifications",
   "products": [
     {
       "chpl_id": 11352,

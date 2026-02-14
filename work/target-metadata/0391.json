@@ -2,8 +2,13 @@
   "url": "https://www.communitycarelink.com/data-extract",
   "developer": {
     "name": "First Call Technologies, LLC DBA Community CareLink",
-    "website": "https://www.communitycarelink.com/"
+    "website": "https://www.communitycarelink.com/",
+    "contact_name": "Dale Gray",
+    "contact_email": "IT@communitycarelink.com",
+    "contact_phone": "816-361-5900"
   },
+  "sed_intended_user_description": "Therapist, Case Manager",
+  "mandatory_disclosures_url": "https://communitycarelink.com/onc-documentation/",
   "products": [
     {
       "chpl_id": 9281,

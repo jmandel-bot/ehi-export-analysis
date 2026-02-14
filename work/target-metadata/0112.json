@@ -2,8 +2,13 @@
   "url": "https://cms.bridgeinteract.io/content/uploads/2023/12/Electronic-Health-Information-Export.pdf",
   "developer": {
     "name": "Bridge Patient Portal Inc.",
-    "website": "https://www.bridgeinteract.io/"
+    "website": "https://www.bridgeinteract.io/",
+    "contact_name": "Josh Orueta",
+    "contact_email": "josh.o@bridgeinteract.io",
+    "contact_phone": "425-296-2301"
   },
+  "sed_intended_user_description": "",
+  "mandatory_disclosures_url": "https://www.bridgeinteract.io/certifications/",
   "products": [
     {
       "chpl_id": 9540,

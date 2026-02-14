@@ -2,8 +2,13 @@
   "url": "https://officeemr.knowledgeowl.com/help/ehi-export",
   "developer": {
     "name": "iSALUS Healthcare",
-    "website": "https://isalushealthcare.com"
+    "website": "https://isalushealthcare.com",
+    "contact_name": "Carly Kakasuleff",
+    "contact_email": "support@isalushealthcare.com",
+    "contact_phone": "317-687-8119"
   },
+  "sed_intended_user_description": "Ambulatory",
+  "mandatory_disclosures_url": "https://officeemr.knowledgeowl.com/help/officeemr-2021-onc-costs-and-limitations",
   "products": [
     {
       "chpl_id": 10914,

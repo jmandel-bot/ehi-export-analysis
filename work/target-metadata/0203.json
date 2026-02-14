@@ -2,8 +2,13 @@
   "url": "https://emr.medicalofficeforce.co/content/ccda_export",
   "developer": {
     "name": "Medical Office Force, LLC.",
-    "website": "https://www.medicalofficeforce.com/"
+    "website": "https://www.medicalofficeforce.com/",
+    "contact_name": "Judah Coody",
+    "contact_email": "judah.coody@healthwealthsafe.com",
+    "contact_phone": "(706) 208-9700"
   },
+  "sed_intended_user_description": "Medical Staff",
+  "mandatory_disclosures_url": "https://www.medicalofficeforce.com/disclaimer/",
   "products": [
     {
       "chpl_id": 11617,

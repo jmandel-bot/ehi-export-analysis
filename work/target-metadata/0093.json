@@ -2,8 +2,13 @@
   "url": "https://ehryourway.com/electronic-health-information-export/",
   "developer": {
     "name": "Adaptamed, LLC",
-    "website": "https://ehryourway.com/"
+    "website": "https://ehryourway.com/",
+    "contact_name": "Aparna Reddy",
+    "contact_email": "aparna.reddy@ehryourway.com",
+    "contact_phone": "619-922-0666"
   },
+  "sed_intended_user_description": "Clinicians for inpatient or outpatient behavioral health facilities.",
+  "mandatory_disclosures_url": "https://ehryourway.com/onc-mu3-certification",
   "products": [
     {
       "chpl_id": 10757,

@@ -2,8 +2,13 @@
   "url": "https://dlslab.com/health-it-certification/ehi-export/",
   "developer": {
     "name": "Diagnostic Laboratory Services, Inc.",
-    "website": "https://dlslab.com/"
+    "website": "https://dlslab.com/",
+    "contact_name": "Nathan Ng",
+    "contact_email": "nng@dlslab.com",
+    "contact_phone": "808-441-5424"
   },
+  "sed_intended_user_description": "",
+  "mandatory_disclosures_url": "https://dlslab.com/health-it-certification/",
   "products": [
     {
       "chpl_id": 11657,

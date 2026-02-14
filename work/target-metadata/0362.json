@@ -2,8 +2,13 @@
   "url": "https://www.enliv.com/ehi-export",
   "developer": {
     "name": "Thinkhat Software Inc",
-    "website": "https://thinkhat.us/"
+    "website": "https://thinkhat.us/",
+    "contact_name": "Siva Palagummi",
+    "contact_email": "siva.palagummi@thinkhat.ai",
+    "contact_phone": "+91 9346773743"
   },
+  "sed_intended_user_description": "",
+  "mandatory_disclosures_url": "https://www.enliv.com/certification",
   "products": [
     {
       "chpl_id": 11461,

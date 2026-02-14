@@ -2,8 +2,13 @@
   "url": "https://www.revolutionehr.com/certification-disclosures/",
   "developer": {
     "name": "Health Innovation Technologies, Inc.",
-    "website": "https://www.revolutionehr.com"
+    "website": "https://www.revolutionehr.com",
+    "contact_name": "Krista Renner",
+    "contact_email": "krenner@revolutionehr.com",
+    "contact_phone": "(619) 528-0040, Ext. 20254"
   },
+  "sed_intended_user_description": "Eye care professionals and staff members - ambulatory setting",
+  "mandatory_disclosures_url": "https://www.revolutionehr.com/certification-disclosures/",
   "products": [
     {
       "chpl_id": 9923,

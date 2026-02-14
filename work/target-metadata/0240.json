@@ -2,8 +2,13 @@
   "url": "https://divinetechpoc.com/certification",
   "developer": {
     "name": "Divine Family Care",
-    "website": "https://www.divinefamilycare.com/"
+    "website": "https://www.divinefamilycare.com/",
+    "contact_name": "Roberto Naranjo",
+    "contact_email": "robert@divinefamilycare.com",
+    "contact_phone": "602-805-6677"
   },
+  "sed_intended_user_description": "",
+  "mandatory_disclosures_url": "https://divinetechpoc.com/certification",
   "products": [
     {
       "chpl_id": 11680,

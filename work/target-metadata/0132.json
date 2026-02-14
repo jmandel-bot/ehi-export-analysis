@@ -2,8 +2,13 @@
   "url": "https://www.ezemrx.com/ehi-export",
   "developer": {
     "name": "ezEMRx Inc",
-    "website": "https://www.ezemrx.com"
+    "website": "https://www.ezemrx.com",
+    "contact_name": "Siri Kumar",
+    "contact_email": "siri@ezemrx.com",
+    "contact_phone": "630-307-7600"
   },
+  "sed_intended_user_description": "Healthcare providers in a clinic and specialty setting.",
+  "mandatory_disclosures_url": "https://www.ezemrx.com/mu-compliance",
   "products": [
     {
       "chpl_id": 10779,

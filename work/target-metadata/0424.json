@@ -2,8 +2,13 @@
   "url": "https://www.intellicureehr.com/Support/Documents/EhiExport",
   "developer": {
     "name": "Intellicure, LLC",
-    "website": "https://www.intellicure.com/"
+    "website": "https://www.intellicure.com/",
+    "contact_name": "David Walker",
+    "contact_email": "care@intellicure.com",
+    "contact_phone": "800-603-7896"
   },
+  "sed_intended_user_description": "Outpatient Clinic",
+  "mandatory_disclosures_url": "https://www.intellicure.com/certification-disclosure",
   "products": [
     {
       "chpl_id": 9858,

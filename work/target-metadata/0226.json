@@ -2,8 +2,13 @@
   "url": "https://edvak.com/ehi-export",
   "developer": {
     "name": "Edvak Technologies Inc",
-    "website": "https://edvak.com"
+    "website": "https://edvak.com",
+    "contact_name": "Vamsi Edara",
+    "contact_email": "edara@edvak.com",
+    "contact_phone": "3153278017"
   },
+  "sed_intended_user_description": "Intended users of Edvak EHR v1 are outpatient healthcare professionals such as doctors, nurses, medical assistants, and admin staff with prior EHR experience, using the system for managing records, ordering tests, and reviewing clinical data.",
+  "mandatory_disclosures_url": "https://edvak.com/certification",
   "products": [
     {
       "chpl_id": 11656,

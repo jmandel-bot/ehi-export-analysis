@@ -2,8 +2,13 @@
   "url": "https://a-t-g.com/offender-management-suite/electronic-health-records/",
   "developer": {
     "name": "Advanced Technologies Group, LLC",
-    "website": "https://www.a-t-g.com"
+    "website": "https://www.a-t-g.com",
+    "contact_name": "Atul Gupta",
+    "contact_email": "atul@a-t-g.com",
+    "contact_phone": "515-221-9344"
   },
+  "sed_intended_user_description": "Corrections Medical Personel",
+  "mandatory_disclosures_url": "https://a-t-g.com/offender-management-suite/electronic-health-records/ehr-onc-certification/",
   "products": [
     {
       "chpl_id": 10796,

@@ -2,8 +2,13 @@
   "url": "https://www.ehana.com/certification-documentation",
   "developer": {
     "name": "eHana",
-    "website": "https://www.ehana.com/"
+    "website": "https://www.ehana.com/",
+    "contact_name": "Mike Paxton",
+    "contact_email": "info@ehana.com",
+    "contact_phone": "888-443-4262"
   },
+  "sed_intended_user_description": "Ambulatory Users",
+  "mandatory_disclosures_url": "https://www.ehana.com/meaningful-use/disclosures",
   "products": [
     {
       "chpl_id": 10200,

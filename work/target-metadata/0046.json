@@ -2,8 +2,13 @@
   "url": "https://varian.com/aria/ehi",
   "developer": {
     "name": "Varian Medical Systems",
-    "website": "https://www.varian.com/oncology/products/software"
+    "website": "https://www.varian.com/oncology/products/software",
+    "contact_name": "Jeremy Cohen",
+    "contact_email": "jeremy.cohen@varian.com",
+    "contact_phone": "650-424-6248"
   },
+  "sed_intended_user_description": "Registered nurses, nurse practicioners, therapist, medical doctors.",
+  "mandatory_disclosures_url": "https://varian.widen.net/s/whdqpq7zct/ariacorev16.1_18.1_18.2_onc_certification",
   "products": [
     {
       "chpl_id": 11719,

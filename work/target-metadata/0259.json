@@ -2,8 +2,13 @@
   "url": "https://woundally.com/ehi-export.php",
   "developer": {
     "name": "WoundAlly",
-    "website": "https://woundally.com/"
+    "website": "https://woundally.com/",
+    "contact_name": "Michael Redko",
+    "contact_email": "mredko@woundally.com",
+    "contact_phone": "8183241831"
   },
+  "sed_intended_user_description": "",
+  "mandatory_disclosures_url": "https://woundally.com/certification.php",
   "products": [
     {
       "chpl_id": 11752,

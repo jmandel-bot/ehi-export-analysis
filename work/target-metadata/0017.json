@@ -2,8 +2,13 @@
   "url": "https://amazingcharts.com/hubfs/Amazing-Charts-EHI-Export-Documentation-V1_0-1-1.pdf?hsLang=en",
   "developer": {
     "name": "CareTracker, Inc.",
-    "website": "https://www.amazingcharts.com"
+    "website": "https://www.amazingcharts.com",
+    "contact_name": "Kim Gaglio",
+    "contact_email": "kgaglio@harriscomputer.com",
+    "contact_phone": "866.382.5932 x 228137"
   },
+  "sed_intended_user_description": "Ambulatory Medical Practices",
+  "mandatory_disclosures_url": "https://amazingcharts.com/about-us#ONC",
   "products": [
     {
       "chpl_id": 11492,

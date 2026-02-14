@@ -2,8 +2,13 @@
   "url": "https://ensorahealth.com/onc/erx/",
   "developer": {
     "name": "Ensora Health",
-    "website": "https://ensorahealth.com/product/erx/"
+    "website": "https://ensorahealth.com/product/erx/",
+    "contact_name": "Brian Farley",
+    "contact_email": "brian.farley@ensorahealth.com",
+    "contact_phone": "713-339-0241"
   },
+  "sed_intended_user_description": "Providers submitting electronic prescriptions",
+  "mandatory_disclosures_url": "https://ensorahealth.com/onc/erx/",
   "products": [
     {
       "chpl_id": 11122,

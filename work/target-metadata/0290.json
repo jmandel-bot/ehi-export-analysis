@@ -2,8 +2,13 @@
   "url": "http://medi-ehr.com/compliance",
   "developer": {
     "name": "Medi-EHR, LLC",
-    "website": "https://medi-ehr.com/"
+    "website": "https://medi-ehr.com/",
+    "contact_name": "Matthew D'alessandro",
+    "contact_email": "certifications@medi-ehr.com",
+    "contact_phone": "732-580-1732"
   },
+  "sed_intended_user_description": "",
+  "mandatory_disclosures_url": "https://medi-ehr.com/updates-transparency-disclosures/",
   "products": [
     {
       "chpl_id": 10831,

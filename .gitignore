@@ -6,6 +6,10 @@ chpl-data/details/
 # Claude/shelley logs - ephemeral
 wiggum/logs/
 
+# Per-target raw stream-json and filtered logs (large, regenerable from replay)
+results/*/stream.jsonl
+results/*/log.txt
+
 # Old pipeline dir (moved to work/ and results/)
 wiggum/results/
 wiggum/work/

@@ -2,8 +2,13 @@
   "url": "https://omnimd.com/rwt/",
   "developer": {
     "name": "OmniMD Inc.",
-    "website": "https://omnimd.com"
+    "website": "https://omnimd.com",
+    "contact_name": "Dr. Giriraj Tosh Purohit",
+    "contact_email": "DrGPurohit@OmniMD.com",
+    "contact_phone": "844-666-4631"
   },
+  "sed_intended_user_description": "",
+  "mandatory_disclosures_url": "https://omnimd.com/onc-transparency-and-costs/",
   "products": [
     {
       "chpl_id": 10784,

@@ -2,8 +2,13 @@
   "url": "https://wellpathcare.com/wp-content/uploads/2024/05/Wellpath-ERMA-Export-Format.pdf",
   "developer": {
     "name": "Wellpath",
-    "website": "https://www.wellpathcare.com"
+    "website": "https://www.wellpathcare.com",
+    "contact_name": "Oliver Perry",
+    "contact_email": "OPerry@Wellpath.us",
+    "contact_phone": "615-466-3606"
   },
+  "sed_intended_user_description": "To verify compliance",
+  "mandatory_disclosures_url": "https://wellpathcare.com/wp-content/uploads/2024/08/Compliance-Certificate-ERMA-Version-6-081624.pdf",
   "products": [
     {
       "chpl_id": 10464,

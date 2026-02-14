@@ -2,8 +2,13 @@
   "url": "https://fhir.ederm.io:9443/fhir-server/api/v4/metadata",
   "developer": {
     "name": "eDerm Systems LLC",
-    "website": "https://www.edermehr.com/"
+    "website": "https://www.edermehr.com/",
+    "contact_name": "Andrew Queen",
+    "contact_email": "support@edermsystems.com",
+    "contact_phone": "561-499-6900"
   },
+  "sed_intended_user_description": "Ambulatory",
+  "mandatory_disclosures_url": "https://www.edermehr.com/ederm-onc-certified",
   "products": [
     {
       "chpl_id": 10149,

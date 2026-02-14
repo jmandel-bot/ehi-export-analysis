@@ -2,8 +2,13 @@
   "url": "https://apps.medicscloud.com/B10_MedicsCloud.html",
   "developer": {
     "name": "Advanced Data Systems Corporation",
-    "website": "https://www.adsc.com"
+    "website": "https://www.adsc.com",
+    "contact_name": "Surya Kuchimanchi",
+    "contact_email": "surya@adsc.com",
+    "contact_phone": "1-800-899-4237"
   },
+  "sed_intended_user_description": "Internal Medicine and Other Specialities Providers and office staff",
+  "mandatory_disclosures_url": "https://www.adsc.com/icsa-labs-onc-health-it-certification-program-medicscloud",
   "products": [
     {
       "chpl_id": 10786,

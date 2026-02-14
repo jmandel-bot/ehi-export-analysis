@@ -2,8 +2,13 @@
   "url": "https://www.iorion.com/downloads/layoutdefinitionehi.pdf",
   "developer": {
     "name": "OrionNet Systems, LLC",
-    "website": "https://www.iorion.com/"
+    "website": "https://www.iorion.com/",
+    "contact_name": "Clyde Wafford",
+    "contact_email": "Clyde.Wafford@orionnetsystems.com",
+    "contact_phone": "405-286-1674"
   },
+  "sed_intended_user_description": "Mental Health and Substance Abuse Clinicians",
+  "mandatory_disclosures_url": "https://www.iorion.com/ehr-certified",
   "products": [
     {
       "chpl_id": 10693,

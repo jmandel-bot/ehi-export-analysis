@@ -2,8 +2,13 @@
   "url": "https://www.smartmd.com/compliance/",
   "developer": {
     "name": "SMARTMD Technologies, Inc.",
-    "website": "https://www.smartmd.com/"
+    "website": "https://www.smartmd.com/",
+    "contact_name": "Nandip Kothari",
+    "contact_email": "sales@smartmd.com",
+    "contact_phone": "855-762-7863"
   },
+  "sed_intended_user_description": "",
+  "mandatory_disclosures_url": "https://www.smartmd.com/compliance/",
   "products": [
     {
       "chpl_id": 11476,

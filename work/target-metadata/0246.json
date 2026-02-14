@@ -2,8 +2,13 @@
   "url": "https://www.ihs.gov/rpms/applications/ftp/?parent=&fld=EHI_Schemas",
   "developer": {
     "name": "Indian Health Service",
-    "website": "https://www.ihs.gov/promotinginteroperability/certificationoverview/"
+    "website": "https://www.ihs.gov/promotinginteroperability/certificationoverview/",
+    "contact_name": "Glenn Janzen",
+    "contact_email": "glenn.janzen@ihs.gov",
+    "contact_phone": "301-526-9656"
   },
+  "sed_intended_user_description": "medical providers, nursing staff, health information management staff, pharmacy staff, and imaging and laboratory personnel at clinics and hospitals.",
+  "mandatory_disclosures_url": "https://www.ihs.gov/promotinginteroperability/certificationoverview/",
   "products": [
     {
       "chpl_id": 11717,

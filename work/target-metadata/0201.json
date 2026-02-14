@@ -2,8 +2,13 @@
   "url": "https://clickmedix.com/ehr-export-format/",
   "developer": {
     "name": "ClickMedix, LLC",
-    "website": "https://clickmedix.com"
+    "website": "https://clickmedix.com",
+    "contact_name": "Ting Shih",
+    "contact_email": "ting@clickmedix.com",
+    "contact_phone": "202-618-0188"
   },
+  "sed_intended_user_description": "",
+  "mandatory_disclosures_url": "https://clickmedix.com/disclosure/",
   "products": [
     {
       "chpl_id": 11615,

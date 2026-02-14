@@ -2,8 +2,13 @@
   "url": "http://mednetmedical.com/Open_API.html",
   "developer": {
     "name": "MedNet Medical Solutions",
-    "website": "https://www.mednetmedical.com"
+    "website": "https://www.mednetmedical.com",
+    "contact_name": "Nagi Veam",
+    "contact_email": "nagi@mednetmedical.com",
+    "contact_phone": "508-949-8118"
   },
+  "sed_intended_user_description": "Ambulatory",
+  "mandatory_disclosures_url": "https://www.mednetmedical.com/price-transparency/Price_Transparency_emr4MD_v9.10.pdf",
   "products": [
     {
       "chpl_id": 10214,

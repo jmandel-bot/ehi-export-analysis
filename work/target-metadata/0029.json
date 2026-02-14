@@ -2,8 +2,13 @@
   "url": "https://flatiron.com/certification",
   "developer": {
     "name": "Flatiron Health",
-    "website": "https://flatiron.com"
+    "website": "https://flatiron.com",
+    "contact_name": "Marcie Runyan",
+    "contact_email": "onc@flatiron.com",
+    "contact_phone": "707-617-8508"
   },
+  "sed_intended_user_description": "Oncology/Hematology Community Practices",
+  "mandatory_disclosures_url": "https://flatiron.com/certification/",
   "products": [
     {
       "chpl_id": 11115,

@@ -2,8 +2,13 @@
   "url": "https://www.crystalpm.com/21stCenturyCuresActB10AllDataExportUserDocumentation2.pdf",
   "developer": {
     "name": "Abeo Solutions, Inc",
-    "website": "https://www.crystalpm.com/"
+    "website": "https://www.crystalpm.com/",
+    "contact_name": "Paul Crowley",
+    "contact_email": "paul@crystalpm.com",
+    "contact_phone": "5128446635"
   },
+  "sed_intended_user_description": "Optometric Practitioners and Supprt Personnel",
+  "mandatory_disclosures_url": "https://crystalpm.com/pricing/",
   "products": [
     {
       "chpl_id": 10996,

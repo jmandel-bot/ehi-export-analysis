@@ -2,8 +2,13 @@
   "url": "https://mdland.net/iClinicEHR/ehiexport/",
   "developer": {
     "name": "MDLAND",
-    "website": "https://www.mdland.com/"
+    "website": "https://www.mdland.com/",
+    "contact_name": "Steve Peng",
+    "contact_email": "steve.peng@mdland.com",
+    "contact_phone": "212-363-8000"
   },
+  "sed_intended_user_description": "Outpatient Clinic",
+  "mandatory_disclosures_url": "https://mdland.net/iClinicEHR/Meaningful-use-disclosure/",
   "products": [
     {
       "chpl_id": 9814,

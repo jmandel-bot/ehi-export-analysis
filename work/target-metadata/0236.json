@@ -2,8 +2,13 @@
   "url": "https://hello.helloalleva.com/ehi_export",
   "developer": {
     "name": "Alleva",
-    "website": "https://www.helloalleva.com"
+    "website": "https://www.helloalleva.com",
+    "contact_name": "Les Wilson",
+    "contact_email": "les.wilson@helloalleva.com",
+    "contact_phone": "5126239639"
   },
+  "sed_intended_user_description": "",
+  "mandatory_disclosures_url": "https://hello.helloalleva.com/certification",
   "products": [
     {
       "chpl_id": 11696,

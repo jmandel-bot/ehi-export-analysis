@@ -2,8 +2,13 @@
   "url": "https://www.ankhos.com/s/EHIExportFormatSpecification.pdf",
   "developer": {
     "name": "Ankhos Oncology Software",
-    "website": "https://www.ankhos.com/"
+    "website": "https://www.ankhos.com/",
+    "contact_name": "Nicholas Orlowski",
+    "contact_email": "nick@ankhos.com",
+    "contact_phone": "(301) 957-0261"
   },
+  "sed_intended_user_description": "Clinical Oncology / Infusion",
+  "mandatory_disclosures_url": "https://www.ankhos.com/onc-certification",
   "products": [
     {
       "chpl_id": 11754,

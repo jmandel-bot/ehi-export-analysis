@@ -2,8 +2,13 @@
   "url": "https://www.experityhealth.com/onc-certification/",
   "developer": {
     "name": "Experity",
-    "website": "https://www.experityhealth.com"
+    "website": "https://www.experityhealth.com",
+    "contact_name": "Kimberly Commito",
+    "contact_email": "Kim.Commito@experityhealth.com",
+    "contact_phone": "(708) 646-1236"
   },
+  "sed_intended_user_description": "Urgent Care",
+  "mandatory_disclosures_url": "https://www.experityhealth.com/onc-certification/",
   "products": [
     {
       "chpl_id": 11704,

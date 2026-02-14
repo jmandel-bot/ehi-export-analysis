@@ -2,8 +2,13 @@
   "url": "https://www.compulinkadvantage.com/wp-content/uploads/2023/10/COMPULINK-PHIEXPORT-DOCUMENTATION.pdf",
   "developer": {
     "name": "Compulink Healthcare Solutions",
-    "website": "http://www.compulinkadvantage.com"
+    "website": "http://www.compulinkadvantage.com",
+    "contact_name": "Steven Polk",
+    "contact_email": "support@compulinkadvantage.com",
+    "contact_phone": "(800) 888-8075"
   },
+  "sed_intended_user_description": "Outpatient Clinic",
+  "mandatory_disclosures_url": "http://www.compulinkadvantage.com/about-compulink/certification/",
   "products": [
     {
       "chpl_id": 8873,

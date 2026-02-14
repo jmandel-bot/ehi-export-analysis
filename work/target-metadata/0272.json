@@ -2,8 +2,13 @@
   "url": "https://healthycampus.com/policies/ehi-export-policy/",
   "developer": {
     "name": "Healthy Campus, LLC",
-    "website": "https://www.healthycampus.com"
+    "website": "https://www.healthycampus.com",
+    "contact_name": "Phil DuMas",
+    "contact_email": "phil@healthycampus.com",
+    "contact_phone": "+1 321-231-1482"
   },
+  "sed_intended_user_description": "",
+  "mandatory_disclosures_url": "https://healthycampus.com/policies/public-mandatory-disclosures/",
   "products": [
     {
       "chpl_id": 11760,

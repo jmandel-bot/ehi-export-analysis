@@ -2,8 +2,13 @@
   "url": "https://azaracdn.blob.core.windows.net/documentation/DRVS_Export_Formats.pdf",
   "developer": {
     "name": "Azara Healthcare, LLC",
-    "website": "https://azarahealthcare.com/"
+    "website": "https://azarahealthcare.com/",
+    "contact_name": "Jeff Brandes",
+    "contact_email": "jeff.brandes@azarahealthcare.com",
+    "contact_phone": "(781) 365-2208"
   },
+  "sed_intended_user_description": "",
+  "mandatory_disclosures_url": "https://www.azarahealthcare.com/about/certifications",
   "products": [
     {
       "chpl_id": 10733,

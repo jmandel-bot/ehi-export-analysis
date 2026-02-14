@@ -2,8 +2,13 @@
   "url": "https://apollo360health.com/certification/c-cda",
   "developer": {
     "name": "Apollo 360 Health",
-    "website": "https://apollo360health.com/"
+    "website": "https://apollo360health.com/",
+    "contact_name": "Michael Ghalchi",
+    "contact_email": "drghalchi@mcvanyc.com",
+    "contact_phone": "212-686-0066"
   },
+  "sed_intended_user_description": "",
+  "mandatory_disclosures_url": "https://apollo360health.com/certification/certification",
   "products": [
     {
       "chpl_id": 11619,

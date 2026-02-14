@@ -2,8 +2,13 @@
   "url": "https://help.elationhealth.com/s/article/EHI-Export-Criteria",
   "developer": {
     "name": "Elation Health, Inc.",
-    "website": "http://www.elationhealth.com"
+    "website": "http://www.elationhealth.com",
+    "contact_name": "Conan Fong",
+    "contact_email": "conan.fong@elationhealth.com",
+    "contact_phone": "415-231-5164"
   },
+  "sed_intended_user_description": "Ambulatory",
+  "mandatory_disclosures_url": "https://www.elationhealth.com/drummond-certification",
   "products": [
     {
       "chpl_id": 9876,

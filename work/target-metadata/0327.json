@@ -2,8 +2,13 @@
   "url": "https://documentation.qualifacts.com/ehi-export/platform/insync/insync-ehi-export.html",
   "developer": {
     "name": "Qualifacts Systems, LLC",
-    "website": "https://www.qualifacts.com"
+    "website": "https://www.qualifacts.com",
+    "contact_name": "Hope Winkowski",
+    "contact_email": "hope.winkowski@qualifacts.com",
+    "contact_phone": "301-652-9500 ext. 0428"
   },
+  "sed_intended_user_description": "Medical/Clinical Providers",
+  "mandatory_disclosures_url": "https://www.qualifacts.com/wp-content/uploads/2025/11/Cost-and-Certification-Disclosures-for-Qualifacts-InSync.pdf",
   "products": [
     {
       "chpl_id": 10858,

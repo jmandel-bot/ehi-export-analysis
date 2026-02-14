@@ -2,8 +2,13 @@
   "url": "https://www.liquidemr.com/data-export-specification-2/",
   "developer": {
     "name": "Liquid Medical Office, Inc.",
-    "website": "https://www.liquidemr.com"
+    "website": "https://www.liquidemr.com",
+    "contact_name": "Pierre Luu",
+    "contact_email": "pierre@liquidemr.com",
+    "contact_phone": "408-728-2249"
   },
+  "sed_intended_user_description": "Ambulatory physicians, nurses, clinical staffs",
+  "mandatory_disclosures_url": "https://www.liquidemr.com/resource-hub/costs-apply/",
   "products": [
     {
       "chpl_id": 10620,

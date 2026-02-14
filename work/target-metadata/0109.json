@@ -2,8 +2,13 @@
   "url": "https://medconnecthealth.com/electronic-health-information-export/",
   "developer": {
     "name": "MedConnect, Inc.",
-    "website": "http://medconnecthealth.com"
+    "website": "http://medconnecthealth.com",
+    "contact_name": "Kim Drinkard",
+    "contact_email": "kim.drinkard@medconnect-inc.com",
+    "contact_phone": "334-215-3568"
   },
+  "sed_intended_user_description": "Outpatient Clinic",
+  "mandatory_disclosures_url": "https://www.medconnecthealth.com/pricing/",
   "products": [
     {
       "chpl_id": 9183,

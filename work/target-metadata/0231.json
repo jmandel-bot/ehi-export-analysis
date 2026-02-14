@@ -2,8 +2,13 @@
   "url": "https://alineops.com/Certifications/",
   "developer": {
     "name": "Aline",
-    "website": "https://alineops.com"
+    "website": "https://alineops.com",
+    "contact_name": "John Carroll",
+    "contact_email": "john.carroll@alineops.com",
+    "contact_phone": "502-491-2900 ext. 114"
   },
+  "sed_intended_user_description": "",
+  "mandatory_disclosures_url": "https://alineops.com/Certifications/",
   "products": [
     {
       "chpl_id": 10902,

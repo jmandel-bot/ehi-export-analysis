@@ -2,8 +2,13 @@
   "url": "https://www.coresolutionsinc.com/Electronic-Health-Information-Export-Doc",
   "developer": {
     "name": "Core Solutions Inc",
-    "website": "https://www.coresolutionsinc.com/about/"
+    "website": "https://www.coresolutionsinc.com/about/",
+    "contact_name": "Rachna Bagdi",
+    "contact_email": "bbala@coresolutionsinc.com",
+    "contact_phone": "610-687-6080"
   },
+  "sed_intended_user_description": "Ambulatory Providers",
+  "mandatory_disclosures_url": "https://www.coresolutionsinc.com/mandatory-disclosures-2022",
   "products": [
     {
       "chpl_id": 9168,

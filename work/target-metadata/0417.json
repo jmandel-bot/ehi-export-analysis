@@ -2,8 +2,13 @@
   "url": "https://www.geniusdoc.com/DataExport/GeniusDoc_Data_Export.pdf",
   "developer": {
     "name": "GeniusDoc, Inc.",
-    "website": "https://geniusdoc.com/"
+    "website": "https://geniusdoc.com/",
+    "contact_name": "Bosco Fernando",
+    "contact_email": "bosco@geniusdoc.com",
+    "contact_phone": "(310) 752-7772"
   },
+  "sed_intended_user_description": "healthcare providers in private practices",
+  "mandatory_disclosures_url": "https://www.geniusdoc.com/ONC_Certification_Costs.php",
   "products": [
     {
       "chpl_id": 10745,

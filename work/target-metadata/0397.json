@@ -2,8 +2,13 @@
   "url": "https://wellsky.com/behavioral-health-software/",
   "developer": {
     "name": "Wellsky",
-    "website": "https://wellsky.com/"
+    "website": "https://wellsky.com/",
+    "contact_name": "Michelle Justiss",
+    "contact_email": "michelle.justiss@wellsky.com",
+    "contact_phone": "888-633-4927"
   },
+  "sed_intended_user_description": "Clinicians and providers",
+  "mandatory_disclosures_url": "https://wellsky.com/behavioral-health-systems/",
   "products": [
     {
       "chpl_id": 10884,

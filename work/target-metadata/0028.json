@@ -2,8 +2,13 @@
   "url": "https://www.nethealth.com/drummond-certified-for-meaningful-use-woundexpert/",
   "developer": {
     "name": "Net Health",
-    "website": "https://www.nethealth.com/"
+    "website": "https://www.nethealth.com/",
+    "contact_name": "Kahlianne Jones",
+    "contact_email": "Kahlianne.Jones@nethealth.com",
+    "contact_phone": "844-464-9348 option 2"
   },
+  "sed_intended_user_description": "Health Care Professionals",
+  "mandatory_disclosures_url": "https://www.nethealth.com/drummond-certified-page-woundexpert/",
   "products": [
     {
       "chpl_id": 9836,

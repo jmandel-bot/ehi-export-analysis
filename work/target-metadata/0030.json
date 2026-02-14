@@ -2,8 +2,13 @@
   "url": "https://www.nextech.com/compliance/ehi-export-documentation",
   "developer": {
     "name": "Nextech",
-    "website": "https://www.nextech.com"
+    "website": "https://www.nextech.com",
+    "contact_name": "Alex Borenstein",
+    "contact_email": "a.borenstein@nextech.com",
+    "contact_phone": "813.937.1359"
   },
+  "sed_intended_user_description": "Providers and Clinical staff of practices",
+  "mandatory_disclosures_url": "https://www.nextech.com/compliance/onc-health-it/srspro",
   "products": [
     {
       "chpl_id": 11040,

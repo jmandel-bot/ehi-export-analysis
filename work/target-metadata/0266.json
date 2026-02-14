@@ -2,8 +2,13 @@
   "url": "https://vigiboss.com/md4front/onccertification/ElectronicHealthInformation.html",
   "developer": {
     "name": "Vigiboss Inc.",
-    "website": "https://www.vigiboss.com"
+    "website": "https://www.vigiboss.com",
+    "contact_name": "Ramesh Jangareddi",
+    "contact_email": "rams@vigiboss.com",
+    "contact_phone": "(508) 517-5126"
   },
+  "sed_intended_user_description": "",
+  "mandatory_disclosures_url": "https://vigiboss.com/md4front/costsandlimitations.html",
   "products": [
     {
       "chpl_id": 11750,

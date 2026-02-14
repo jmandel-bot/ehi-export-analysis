@@ -2,8 +2,13 @@
   "url": "https://docindy.com/assets/CloudMD365%20EHI%20Export%20Documentation-Befwxq4M.pdf",
   "developer": {
     "name": "Softbir, Inc.",
-    "website": "https://softbir.com"
+    "website": "https://softbir.com",
+    "contact_name": "Leo Obrique",
+    "contact_email": "leo@softbir.com",
+    "contact_phone": "317-561-9125 x101"
   },
+  "sed_intended_user_description": "Healthcare Provider",
+  "mandatory_disclosures_url": "https://docindy.com/drummond-certification-disclosure/",
   "products": [
     {
       "chpl_id": 10282,

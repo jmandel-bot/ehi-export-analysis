@@ -2,8 +2,13 @@
   "url": "https://www.medonesystems.com/ehi-export",
   "developer": {
     "name": "MedOne Systems, LLC",
-    "website": "http://www.medonesystems.com"
+    "website": "http://www.medonesystems.com",
+    "contact_name": "Amanda Herb",
+    "contact_email": "info@medonesystems.com",
+    "contact_phone": "(740) 424-7987"
   },
+  "sed_intended_user_description": "Clinical & Administrative",
+  "mandatory_disclosures_url": "https://www.medonesystems.com/bolt-certification",
   "products": [
     {
       "chpl_id": 10730,

@@ -2,8 +2,13 @@
   "url": "https://help.updox.com/help/tools-account-administration",
   "developer": {
     "name": "Updox",
-    "website": "http://www.updox.com"
+    "website": "http://www.updox.com",
+    "contact_name": "Carly Kakasuleff",
+    "contact_email": "ckakasuleff@everhealthsoftware.com",
+    "contact_phone": "(614) 798-8170"
   },
+  "sed_intended_user_description": "",
+  "mandatory_disclosures_url": "https://www.updox.com/company/certifications/",
   "products": [
     {
       "chpl_id": 11194,

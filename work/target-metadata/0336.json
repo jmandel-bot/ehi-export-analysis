@@ -2,8 +2,13 @@
   "url": "https://www.ironbridgecorp.com/onc-certification",
   "developer": {
     "name": "Iron Bridge Integration, Inc.",
-    "website": "https://www.ironbridgecorp.com/"
+    "website": "https://www.ironbridgecorp.com/",
+    "contact_name": "Sloan Bowman",
+    "contact_email": "sloan@ironbridgecorp.com",
+    "contact_phone": "888-963-9793, Ext 703"
   },
+  "sed_intended_user_description": "",
+  "mandatory_disclosures_url": "https://www.ironbridgecorp.com/onc-certification",
   "products": [
     {
       "chpl_id": 8562,

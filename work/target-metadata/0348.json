@@ -2,8 +2,13 @@
   "url": "https://www.sequelmed.com/data-export/",
   "developer": {
     "name": "Sequel Systems, Inc.",
-    "website": "https://www.sequelmed.com"
+    "website": "https://www.sequelmed.com",
+    "contact_name": "Tehmas Akhtar",
+    "contact_email": "takhtar@sequelmed.com",
+    "contact_phone": "6316086403"
   },
+  "sed_intended_user_description": "Ambulatory",
+  "mandatory_disclosures_url": "https://www.sequelmed.com/ehr/2015edition/disclosurestatement.aspx",
   "products": [
     {
       "chpl_id": 11143,

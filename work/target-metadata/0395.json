@@ -2,8 +2,13 @@
   "url": "http://www.holtsystems.com/b10documentation_Intro.html",
   "developer": {
     "name": "Holt Systems, Inc.",
-    "website": "http://www.holtsystems.com"
+    "website": "http://www.holtsystems.com",
+    "contact_name": "Brendon Holt",
+    "contact_email": "brendon@holtsystems.com",
+    "contact_phone": "954-835-5879 Office Ext. 1002"
   },
+  "sed_intended_user_description": "Healthcare providers",
+  "mandatory_disclosures_url": "http://holtsystems.com/ONC2015.html",
   "products": [
     {
       "chpl_id": 10852,

@@ -2,8 +2,13 @@
   "url": "https://www.epividian.com/legal-directory/onc-product-disclosure/",
   "developer": {
     "name": "Epividian, Inc.",
-    "website": "https://www.epividian.com"
+    "website": "https://www.epividian.com",
+    "contact_name": "Bernie Stooks",
+    "contact_email": "bernie.stooks@epividian.com",
+    "contact_phone": "(919) 745-8853"
   },
+  "sed_intended_user_description": "",
+  "mandatory_disclosures_url": "https://www.epividian.com/legal-directory/onc-product-disclosure/",
   "products": [
     {
       "chpl_id": 11264,

@@ -2,8 +2,13 @@
   "url": "https://broadstreetcare.com/docs/ehi-export",
   "developer": {
     "name": "BroadStreet Health LLC",
-    "website": "https://www.broadstreetcare.com"
+    "website": "https://www.broadstreetcare.com",
+    "contact_name": "Laura Ivanoski",
+    "contact_email": "laura@washsense.com",
+    "contact_phone": "800-803-3309"
   },
+  "sed_intended_user_description": "Post Acute and Community-based health providers.",
+  "mandatory_disclosures_url": "https://broadstreetcare.com/onc-health-it-certification",
   "products": [
     {
       "chpl_id": 11410,

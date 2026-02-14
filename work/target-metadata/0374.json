@@ -2,8 +2,13 @@
   "url": "https://app.zoobooksystems.com/EHIexportDocumentation",
   "developer": {
     "name": "Zoobook Systems LLC",
-    "website": "https://www.zoobooksystems.com"
+    "website": "https://www.zoobooksystems.com",
+    "contact_name": "Anna Komissarenko",
+    "contact_email": "anna@zoobooksystems.com",
+    "contact_phone": "848-391-8547"
   },
+  "sed_intended_user_description": "Behavioral and Mental Health Clinical Staff",
+  "mandatory_disclosures_url": "https://zoobooksystems.com/disclosures/",
   "products": [
     {
       "chpl_id": 9268,

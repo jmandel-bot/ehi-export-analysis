@@ -2,8 +2,13 @@
   "url": "https://www.mayoclinic.org/about-mayo-clinic/disclosures",
   "developer": {
     "name": "Mayo Clinic Labs",
-    "website": "https://www.mayoclinic.org"
+    "website": "https://www.mayoclinic.org",
+    "contact_name": "Corrisa Miliander",
+    "contact_email": "miliander.corrisa@mayo.edu",
+    "contact_phone": "507-538-5648"
   },
+  "sed_intended_user_description": "",
+  "mandatory_disclosures_url": "https://www.mayoclinic.org/about-mayo-clinic/disclosures",
   "products": [
     {
       "chpl_id": 11598,

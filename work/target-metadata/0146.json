@@ -2,8 +2,13 @@
   "url": "https://mdsynergy.com/wp-content/uploads/2024/12/AltheaEHIDocumentation.pdf",
   "developer": {
     "name": "MD Synergy Solutions, LLC",
-    "website": "http://www.mdsynergy.com"
+    "website": "http://www.mdsynergy.com",
+    "contact_name": "Pushpa Thillai",
+    "contact_email": "pthillai@mdsynergy.com",
+    "contact_phone": "(818) 914-3456"
   },
+  "sed_intended_user_description": "Ambulatory, Outpatient Clinic",
+  "mandatory_disclosures_url": "https://mdsynergy.com/disclosures/",
   "products": [
     {
       "chpl_id": 11046,

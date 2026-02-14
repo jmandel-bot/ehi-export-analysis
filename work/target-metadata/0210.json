@@ -2,8 +2,13 @@
   "url": "https://binsera.com/ehi-export",
   "developer": {
     "name": "BINSERA CORPORATION",
-    "website": "https://binsera.com"
+    "website": "https://binsera.com",
+    "contact_name": "NARENDRAN K S",
+    "contact_email": "cto@binsera.com",
+    "contact_phone": "832-234-2164"
   },
+  "sed_intended_user_description": "",
+  "mandatory_disclosures_url": "https://binsera.com/onc-mandatory-disclosures",
   "products": [
     {
       "chpl_id": 11624,

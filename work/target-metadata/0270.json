@@ -2,8 +2,13 @@
   "url": "https://new.webedoctor.com/certification/",
   "developer": {
     "name": "WEBeDoctor, Inc.",
-    "website": "https://new.webedoctor.com/"
+    "website": "https://new.webedoctor.com/",
+    "contact_name": "Anwer Siddiqi",
+    "contact_email": "asiddiqi@webedoctor.com",
+    "contact_phone": "714-990-3999"
   },
+  "sed_intended_user_description": "Medical Doctors and DNPs",
+  "mandatory_disclosures_url": "https://new.webedoctor.com/certification/",
   "products": [
     {
       "chpl_id": 11748,

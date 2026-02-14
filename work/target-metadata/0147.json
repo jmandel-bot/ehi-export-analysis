@@ -2,8 +2,13 @@
   "url": "https://help.gethealthie.com/article/1200-b10-electronic-health-information-export-on-healthie",
   "developer": {
     "name": "Healthie",
-    "website": "https://www.gethealthie.com"
+    "website": "https://www.gethealthie.com",
+    "contact_name": "Cavan Klinsky",
+    "contact_email": "compliance@gethealthie.com",
+    "contact_phone": "949-482-9700"
   },
+  "sed_intended_user_description": "Healthcare and wellness organizations",
+  "mandatory_disclosures_url": "https://www.gethealthie.com/meaningful-use",
   "products": [
     {
       "chpl_id": 11055,

@@ -2,8 +2,13 @@
   "url": "https://www.morris-systems.com/ccda_specifications.html",
   "developer": {
     "name": "Morris Systems, Inc. d/b/a M-Systems, Inc.",
-    "website": "https://www.morris-systems.com"
+    "website": "https://www.morris-systems.com",
+    "contact_name": "Ken Morris",
+    "contact_email": "Ken@morris-systems.com",
+    "contact_phone": "866-421-6797"
   },
+  "sed_intended_user_description": "",
+  "mandatory_disclosures_url": "https://www.morris-systems.com/cehrtd.pdf",
   "products": [
     {
       "chpl_id": 11367,

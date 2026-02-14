@@ -2,8 +2,13 @@
   "url": "https://mamemr.com/etcetera/disclosure.html",
   "developer": {
     "name": "AutoMedical LLC",
-    "website": "https://mamemr.com"
+    "website": "https://mamemr.com",
+    "contact_name": "Mohamed Yatribi",
+    "contact_email": "mohamedy@myrmsc.com",
+    "contact_phone": "303-271-1000"
   },
+  "sed_intended_user_description": "Outpatient",
+  "mandatory_disclosures_url": "https://www.mamemr.com/etcetera/disclosure.html",
   "products": [
     {
       "chpl_id": 9404,

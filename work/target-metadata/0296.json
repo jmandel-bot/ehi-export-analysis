@@ -2,8 +2,13 @@
   "url": "https://www.spacinternational.com/SPAC-Export.pdf",
   "developer": {
     "name": "Sargas Pharmaceutical Adherence and Compliance International",
-    "website": "http://www.spacinternational.com"
+    "website": "http://www.spacinternational.com",
+    "contact_name": "Gitesh Patel",
+    "contact_email": "gpatel@spacinternational.com",
+    "contact_phone": "661-320-4477"
   },
+  "sed_intended_user_description": "During the usability test, 22 healthcare providers and/or intended users matching the target criterion served as participant",
+  "mandatory_disclosures_url": "https://www.spacinternational.com/certified-ehr-technology.php",
   "products": [
     {
       "chpl_id": 10702,

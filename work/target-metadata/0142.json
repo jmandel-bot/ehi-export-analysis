@@ -2,8 +2,13 @@
   "url": "https://www.pedinotes.com/certifications",
   "developer": {
     "name": "Tecurologic",
-    "website": "https://pedinotes.com/"
+    "website": "https://pedinotes.com/",
+    "contact_name": "Steven Spedale",
+    "contact_email": "Steve.Spedale@tecurologic.com",
+    "contact_phone": "(225) 214-6421"
   },
+  "sed_intended_user_description": "Neonatologists and NNPs",
+  "mandatory_disclosures_url": "http://www.pedinotes.com/certifications",
   "products": [
     {
       "chpl_id": 8846,

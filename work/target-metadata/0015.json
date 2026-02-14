@@ -2,8 +2,13 @@
   "url": "https://www.medinformatix.com/ONC/EHIExport.html",
   "developer": {
     "name": "MedInformatix",
-    "website": "http://www.medinformatix.com"
+    "website": "http://www.medinformatix.com",
+    "contact_name": "Chris Bruns",
+    "contact_email": "cbruns@medinformatix.com",
+    "contact_phone": "310-348-7367"
   },
+  "sed_intended_user_description": "Ambulatory, Outpatient Clinics",
+  "mandatory_disclosures_url": "https://www.medinformatix.com/ONC/ONC2015.html",
   "products": [
     {
       "chpl_id": 11587,

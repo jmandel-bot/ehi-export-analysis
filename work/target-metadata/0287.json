@@ -2,8 +2,13 @@
   "url": "https://www.skilledwoundcare.com/ehiexport",
   "developer": {
     "name": "Skilled Wound Care",
-    "website": "https://www.skilledwoundcare.com"
+    "website": "https://www.skilledwoundcare.com",
+    "contact_name": "Fernando Rojas",
+    "contact_email": "fernando@skilledwoundcare.com",
+    "contact_phone": "213-605-2468"
   },
+  "sed_intended_user_description": "Ambulatory",
+  "mandatory_disclosures_url": "https://www.skilledwoundcare.com/mandatorydisclosure/",
   "products": [
     {
       "chpl_id": 11266,

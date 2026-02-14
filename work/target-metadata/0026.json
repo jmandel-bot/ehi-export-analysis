@@ -2,8 +2,13 @@
   "url": "https://prognocis.com/macra/#ehiexport",
   "developer": {
     "name": "Bizmatics Inc.",
-    "website": "https://prognocis.com/"
+    "website": "https://prognocis.com/",
+    "contact_name": "Prasanna Dharmadhikari",
+    "contact_email": "pdharmadhikari@bizmaticsinc.com",
+    "contact_phone": "1 408-873-3034"
   },
+  "sed_intended_user_description": "Outpatient Clinic",
+  "mandatory_disclosures_url": "https://prognocis.com/wp-content/uploads/2024/12/Transparency-and-Disclosure-Agreement-ONC-Certification-for-HIT.pdf",
   "products": [
     {
       "chpl_id": 8856,

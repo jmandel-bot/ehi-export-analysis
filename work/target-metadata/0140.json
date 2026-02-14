@@ -2,8 +2,13 @@
   "url": "https://www.universalehr.com/exportdoc.aspx",
   "developer": {
     "name": "Universal EHR, Inc.",
-    "website": "https://www.universalehr.com"
+    "website": "https://www.universalehr.com",
+    "contact_name": "Binh Pham",
+    "contact_email": "binhpham@universalehr.com",
+    "contact_phone": "714-364-1471"
   },
+  "sed_intended_user_description": "OUTPATIENT CLINIC",
+  "mandatory_disclosures_url": "https://www.universalehr.com",
   "products": [
     {
       "chpl_id": 9333,

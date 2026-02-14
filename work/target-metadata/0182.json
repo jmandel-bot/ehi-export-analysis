@@ -2,8 +2,13 @@
   "url": "https://www.healogics.com/certified-ehr-technology/",
   "developer": {
     "name": "Healogics, Inc.",
-    "website": "http://www.healogics.com/"
+    "website": "http://www.healogics.com/",
+    "contact_name": "Emma Spight",
+    "contact_email": "emma.spight@healogics.com",
+    "contact_phone": "(904)446-3400"
   },
+  "sed_intended_user_description": "Ambulatory, Wound Care Physicians, Clinicians and Front Office Support Staff",
+  "mandatory_disclosures_url": "https://www.healogics.com/certified-ehr-technology/",
   "products": [
     {
       "chpl_id": 10140,

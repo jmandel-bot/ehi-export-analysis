@@ -2,8 +2,13 @@
   "url": "https://ipatientcare.com/onc-certified-health-it/",
   "developer": {
     "name": "AssureCare LLC",
-    "website": "https://ipatientcare.com/"
+    "website": "https://ipatientcare.com/",
+    "contact_name": "Arnaz Bharucha",
+    "contact_email": "arnaz@ipatientcare.com",
+    "contact_phone": "732-607-2400"
   },
+  "sed_intended_user_description": "Physicians and Mid-level providers",
+  "mandatory_disclosures_url": "https://ipatientcare.com/onc-certified-health-it/",
   "products": [
     {
       "chpl_id": 8970,

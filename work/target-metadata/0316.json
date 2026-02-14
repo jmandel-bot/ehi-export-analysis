@@ -2,8 +2,13 @@
   "url": "https://nextservices.com/enki-ehr-certification-details/",
   "developer": {
     "name": "NextServices, Inc.",
-    "website": "https://nextservices.com"
+    "website": "https://nextservices.com",
+    "contact_name": "Vikant Shah",
+    "contact_email": "vshah@nextservices.com",
+    "contact_phone": "7348002939"
   },
+  "sed_intended_user_description": "Outpatient Clinic",
+  "mandatory_disclosures_url": "https://nextservices.com/enki-ehr-certification-details/",
   "products": [
     {
       "chpl_id": 11372,

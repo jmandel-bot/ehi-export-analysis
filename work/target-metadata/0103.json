@@ -2,8 +2,13 @@
   "url": "https://docs.glaceemr.com/Glenwood/transparencydisclosure.html",
   "developer": {
     "name": "Glenwood Systems LLC",
-    "website": "http://www.glenwoodsystems.com"
+    "website": "http://www.glenwoodsystems.com",
+    "contact_name": "Samuel Raj",
+    "contact_email": "sam@glenwoodsystems.com",
+    "contact_phone": "203-437-6047"
   },
+  "sed_intended_user_description": "Outpatient Clinic",
+  "mandatory_disclosures_url": "https://docs.glaceemr.com/Glenwood/transparencydisclosure.html",
   "products": [
     {
       "chpl_id": 9559,

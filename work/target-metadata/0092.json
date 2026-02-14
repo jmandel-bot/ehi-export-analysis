@@ -2,8 +2,13 @@
   "url": "https://www.spectramedix.com/onc-certified-health-it-mandatory-disclosure-information",
   "developer": {
     "name": "SpectraMedix",
-    "website": "https://www.spectramedix.com"
+    "website": "https://www.spectramedix.com",
+    "contact_name": "Sathyaji Raja",
+    "contact_email": "Sathyaji.raja@spectramedix.com",
+    "contact_phone": "609-608-5010"
   },
+  "sed_intended_user_description": "",
+  "mandatory_disclosures_url": "https://www.spectramedix.com/onc-certified-health-it-mandatory-disclosure-information",
   "products": [
     {
       "chpl_id": 11248,

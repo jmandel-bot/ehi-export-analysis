@@ -2,8 +2,13 @@
   "url": "https://www.willowgladetechnologies.com/requirements",
   "developer": {
     "name": "Willowglade Technologies Corporation",
-    "website": "https://willowgladetechnologies.com"
+    "website": "https://willowgladetechnologies.com",
+    "contact_name": "John Papandrea",
+    "contact_email": "info@willowgladetechnologies.com",
+    "contact_phone": "7022462207"
   },
+  "sed_intended_user_description": "",
+  "mandatory_disclosures_url": "https://www.willowgladetechnologies.com/requirements",
   "products": [
     {
       "chpl_id": 11411,

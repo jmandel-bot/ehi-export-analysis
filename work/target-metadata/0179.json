@@ -2,8 +2,13 @@
   "url": "https://docs.aente.com/3-reference/jsonexport/",
   "developer": {
     "name": "Aente Inc",
-    "website": "https://www.aente.com"
+    "website": "https://www.aente.com",
+    "contact_name": "Gabriel Rodrigues",
+    "contact_email": "grod@aente.com",
+    "contact_phone": "7023243187"
   },
+  "sed_intended_user_description": "",
+  "mandatory_disclosures_url": "https://docs.aente.com/3-reference/disclosures/",
   "products": [
     {
       "chpl_id": 11578,

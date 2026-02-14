@@ -2,8 +2,13 @@
   "url": "https://hospicemd.com/export.aspx",
   "developer": {
     "name": "HospiceMD, Inc.",
-    "website": "https://hospicemd.com/"
+    "website": "https://hospicemd.com/",
+    "contact_name": "Sabah Francis",
+    "contact_email": "certification@hospicemd.com",
+    "contact_phone": "626-699-2135"
   },
+  "sed_intended_user_description": "",
+  "mandatory_disclosures_url": "https://www.hospicemd.com/Certification.aspx",
   "products": [
     {
       "chpl_id": 11473,

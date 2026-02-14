@@ -2,8 +2,13 @@
   "url": "https://amsemr.com/services/",
   "developer": {
     "name": "American Medical Solutions, Inc.",
-    "website": "https://www.americanmedicalsolutions.com"
+    "website": "https://www.americanmedicalsolutions.com",
+    "contact_name": "Anthony Puglisi",
+    "contact_email": "apuglisi@americanmedicalsolutions.com",
+    "contact_phone": "602 997-7041"
   },
+  "sed_intended_user_description": "Ambulatory Clinical",
+  "mandatory_disclosures_url": "https://amsemr.com/services/",
   "products": [
     {
       "chpl_id": 10834,

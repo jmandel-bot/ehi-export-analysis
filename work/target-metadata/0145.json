@@ -2,8 +2,13 @@
   "url": "https://storage.googleapis.com/aidbox-public/smartbox/certification/b10/Attestation%20for%20ONC%20B10%20criteria.pdf",
   "developer": {
     "name": "Health Samurai, Inc.",
-    "website": "https://www.health-samurai.io/"
+    "website": "https://www.health-samurai.io/",
+    "contact_name": "Mikhail Kulakov",
+    "contact_email": "mk@health-samurai.io",
+    "contact_phone": "(818) 731-1279"
   },
+  "sed_intended_user_description": "",
+  "mandatory_disclosures_url": "https://www.health-samurai.io/fhir-api",
   "products": [
     {
       "chpl_id": 11204,

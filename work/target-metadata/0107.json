@@ -2,8 +2,13 @@
   "url": "https://visiontree.com/macra-mips",
   "developer": {
     "name": "VisionTree Software, Inc.",
-    "website": "https://www.visiontree.com/"
+    "website": "https://www.visiontree.com/",
+    "contact_name": "Martin Pellinat",
+    "contact_email": "mpellinat@visiontree.com",
+    "contact_phone": "(619) 295-2800 x1000"
   },
+  "sed_intended_user_description": "",
+  "mandatory_disclosures_url": "https://visiontree.com/macra-mips/",
   "products": [
     {
       "chpl_id": 9969,

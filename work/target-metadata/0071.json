@@ -2,8 +2,13 @@
   "url": "https://smartemr.readme.io/docs/electronic-health-information-export-b10",
   "developer": {
     "name": "VIPA Health Solutions, LLC",
-    "website": "https://smartemr.readme.io/reference/getting-started#base-url"
+    "website": "https://smartemr.readme.io/reference/getting-started#base-url",
+    "contact_name": "Gaby Alvarez",
+    "contact_email": "gaby@vipahealth.com",
+    "contact_phone": "305-227-7780"
   },
+  "sed_intended_user_description": "Physician's Office",
+  "mandatory_disclosures_url": "https://app.smartemr.com/smartemr_dot_com/smartemr.html",
   "products": [
     {
       "chpl_id": 11079,

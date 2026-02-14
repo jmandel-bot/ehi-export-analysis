@@ -2,8 +2,13 @@
   "url": "https://reportingmd.com/ehi-export-specifications/",
   "developer": {
     "name": "ReportingMD, Inc.",
-    "website": "https://reportingmd.com/"
+    "website": "https://reportingmd.com/",
+    "contact_name": "Miranda Stork",
+    "contact_email": "mstork@ReportingMD.com",
+    "contact_phone": "603-873-4324"
   },
+  "sed_intended_user_description": "",
+  "mandatory_disclosures_url": "https://reportingmd.com/onc-certified-population-health-solution/",
   "products": [
     {
       "chpl_id": 10692,

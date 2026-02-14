@@ -2,8 +2,13 @@
   "url": "https://azzly.com/wp-content/uploads/2023/09/Data-Extraction-Instructions-AZZLY-Rize-v1.0.pdf",
   "developer": {
     "name": "AZZLY, Inc.",
-    "website": "https://azzly.com/"
+    "website": "https://azzly.com/",
+    "contact_name": "Coletta Dorado",
+    "contact_email": "colettad@azzly.com",
+    "contact_phone": "(772) 567-0206"
   },
+  "sed_intended_user_description": "",
+  "mandatory_disclosures_url": "https://azzly.com/mandatory-disclosure-statement-of-costs/",
   "products": [
     {
       "chpl_id": 11073,

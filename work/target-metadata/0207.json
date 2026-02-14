@@ -2,8 +2,13 @@
   "url": "https://docs.healusehr.com/EHI",
   "developer": {
     "name": "Medcare MSO",
-    "website": "https://medcaremso.com"
+    "website": "https://medcaremso.com",
+    "contact_name": "Amna Ikram",
+    "contact_email": "aikram@medcaremso.com",
+    "contact_phone": "(949) 681-8128"
   },
+  "sed_intended_user_description": "Healthcare Providers, Health IT Administrators, Patients, Pharmacists, Public Health Officials",
+  "mandatory_disclosures_url": "https://healusehr.com/onc-certified/",
   "products": [
     {
       "chpl_id": 11495,

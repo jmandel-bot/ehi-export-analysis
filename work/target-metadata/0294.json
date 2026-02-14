@@ -2,8 +2,13 @@
   "url": "https://www.ethizo.com/electronic-health-information-export/",
   "developer": {
     "name": "DocToMe, Inc.",
-    "website": "https://www.ethizo.com"
+    "website": "https://www.ethizo.com",
+    "contact_name": "Jawad Iqbal",
+    "contact_email": "jawad@doctome.org",
+    "contact_phone": "(253) 777-7279"
   },
+  "sed_intended_user_description": "",
+  "mandatory_disclosures_url": "https://ethizo.com/onc-ehr-certified/",
   "products": [
     {
       "chpl_id": 10265,

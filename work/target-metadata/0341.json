@@ -2,8 +2,13 @@
   "url": "https://onc.chntechsolutions.com/integrated-care-ehr-electronic-health-information-export-cures/",
   "developer": {
     "name": "CHN Tech Solutions LLC",
-    "website": "https://chntechsolutions.com"
+    "website": "https://chntechsolutions.com",
+    "contact_name": "Dennis Shelton",
+    "contact_email": "admin@chntechsolutions.com",
+    "contact_phone": "2818241480"
   },
+  "sed_intended_user_description": "Physicians, Nurses, Medical Assistants, Health Care Administrators and Staff",
+  "mandatory_disclosures_url": "https://onc.chntechsolutions.com/mandatory-disclosures-for-integrated-care-ehr/",
   "products": [
     {
       "chpl_id": 11067,

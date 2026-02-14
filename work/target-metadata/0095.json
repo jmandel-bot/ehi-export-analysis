@@ -2,8 +2,13 @@
   "url": "https://unislinka366.blob.core.windows.net/unislink-file-repo/ehi/ehi_export_model_v1.html",
   "developer": {
     "name": "UnisLink",
-    "website": "http://www.unislink.com"
+    "website": "http://www.unislink.com",
+    "contact_name": "Amit Lal",
+    "contact_email": "amit.l@unislink.com",
+    "contact_phone": "602.457.7301"
   },
+  "sed_intended_user_description": "",
+  "mandatory_disclosures_url": "https://www.unislink.com/onc-certification/",
   "products": [
     {
       "chpl_id": 10699,

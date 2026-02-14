@@ -2,8 +2,13 @@
   "url": "https://neodeck.atlassian.net/wiki/spaces/NPS/pages/3178987584/NeoMed+EHI+Export",
   "developer": {
     "name": "NeoDeck Holdings",
-    "website": "https://neodeckholdings.com/"
+    "website": "https://neodeckholdings.com/",
+    "contact_name": "Ricardo Pineda Then",
+    "contact_email": "ricardo@nd-soft.com",
+    "contact_phone": "787-651-6154"
   },
+  "sed_intended_user_description": "General Medicine, Cardiologists, Physical Therapists, Behavioral Health",
+  "mandatory_disclosures_url": "https://neodeck.atlassian.net/wiki/spaces/NPS/pages/905773057/Costs",
   "products": [
     {
       "chpl_id": 11563,

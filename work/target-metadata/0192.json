@@ -2,8 +2,13 @@
   "url": "https://getdevelo.com/ehi",
   "developer": {
     "name": "Develo",
-    "website": "https://getdevelo.com/"
+    "website": "https://getdevelo.com/",
+    "contact_name": "Aaron Sin",
+    "contact_email": "info@getdevelo.com",
+    "contact_phone": "4156903952"
   },
+  "sed_intended_user_description": "Providers and prescribing agents at pediatric practices",
+  "mandatory_disclosures_url": "https://getdevelo.com/onc",
   "products": [
     {
       "chpl_id": 11593,

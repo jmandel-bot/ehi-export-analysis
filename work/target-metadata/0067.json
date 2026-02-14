@@ -2,8 +2,13 @@
   "url": "https://www.aitmed.com/onc-certifications-costs",
   "developer": {
     "name": "AiTmed Inc.",
-    "website": "https://www.aitmed.com/"
+    "website": "https://www.aitmed.com/",
+    "contact_name": "Melody Li",
+    "contact_email": "Melodyli@aitmed.com",
+    "contact_phone": "213-259-5182"
   },
+  "sed_intended_user_description": "",
+  "mandatory_disclosures_url": "https://www.aitmed.com/onc-certifications-costs",
   "products": [
     {
       "chpl_id": 11036,

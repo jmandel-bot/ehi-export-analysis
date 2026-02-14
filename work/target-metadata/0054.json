@@ -2,8 +2,13 @@
   "url": "https://www.wolterskluwer.com/en/solutions/solesource/onc-b10-documentation",
   "developer": {
     "name": "Wolters Kluwer",
-    "website": "https://www.wolterskluwer.com/en/solutions/solesource/sentri7"
+    "website": "https://www.wolterskluwer.com/en/solutions/solesource/sentri7",
+    "contact_name": "Marina Zaki",
+    "contact_email": "marina.zaki@wolterskluwer.com",
+    "contact_phone": "9196001466"
   },
+  "sed_intended_user_description": "",
+  "mandatory_disclosures_url": "https://www.wolterskluwer.com/en/solutions/solesource/aur-onc-mandatory-disclosure",
   "products": [
     {
       "chpl_id": 11123,

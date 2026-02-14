@@ -2,8 +2,13 @@
   "url": "https://docs.doc-know.com/docs/single-patient-export",
   "developer": {
     "name": "Dr. Know, LLC",
-    "website": "https://www.doc-know.com"
+    "website": "https://www.doc-know.com",
+    "contact_name": "Ben Callister",
+    "contact_email": "helpdesk@doc-know.com",
+    "contact_phone": "615-265-1046"
   },
+  "sed_intended_user_description": "",
+  "mandatory_disclosures_url": "https://www.doc-know.com/onc-certification",
   "products": [
     {
       "chpl_id": 11559,

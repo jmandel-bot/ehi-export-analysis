@@ -2,8 +2,13 @@
   "url": "http://www.media.geniussolutions.com/ehrTHOMAS/ehrWebApi/Help/html/ElectronicHealthInformationExport.html",
   "developer": {
     "name": "Genius Solutions Inc.",
-    "website": "http://www.geniussolutions.com/"
+    "website": "http://www.geniussolutions.com/",
+    "contact_name": "Kim Jackson",
+    "contact_email": "Kim1@geniussolutions.com",
+    "contact_phone": "586-751-9080"
   },
+  "sed_intended_user_description": "Providers, Medical Assistants",
+  "mandatory_disclosures_url": "http://www.geniussolutions.com/ehrthomas2015ed-onctransparency",
   "products": [
     {
       "chpl_id": 9585,

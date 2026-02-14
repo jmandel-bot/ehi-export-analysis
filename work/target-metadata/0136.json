@@ -2,8 +2,13 @@
   "url": "https://www.ontada.com/Providers-Solutions/EHI/",
   "developer": {
     "name": "McKesson Specialty Health Technology Products LLC (Ontada)",
-    "website": "https://www.ontada.com/developer/"
+    "website": "https://www.ontada.com/developer/",
+    "contact_name": "Arun Meelyan",
+    "contact_email": "Arun.Meelyan@McKesson.com",
+    "contact_phone": "972-446-4800"
   },
+  "sed_intended_user_description": "Prescribers, Nurses, Configuration Users",
+  "mandatory_disclosures_url": "https://www.ontada.com/onc-certification-information/#iknowmedehr",
   "products": [
     {
       "chpl_id": 9580,

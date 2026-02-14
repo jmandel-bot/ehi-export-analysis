@@ -2,8 +2,13 @@
   "url": "https://www.charmhealth.com/ehr/electronic-health-information-export.html",
   "developer": {
     "name": "MedicalMine Inc.",
-    "website": "https://www.charmhealth.com"
+    "website": "https://www.charmhealth.com",
+    "contact_name": "Pramila Srinivasan",
+    "contact_email": "admin@medicalmine.com",
+    "contact_phone": "(415) 595-9447"
   },
+  "sed_intended_user_description": "Outpatient Clinic",
+  "mandatory_disclosures_url": "https://www.charmhealth.com/ehr/meaningful-use-certified-ehr.html",
   "products": [
     {
       "chpl_id": 9741,

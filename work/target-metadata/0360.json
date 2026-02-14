@@ -2,8 +2,13 @@
   "url": "https://www.intrinsiq.com/-/media/assets/intrinsiq/pdf/PHI_Data_Extract.pdf",
   "developer": {
     "name": "IntrinsiQ Specialty Solutions, Inc. FBO Healthtronics Information Technology Solutions Inc.",
-    "website": "http://www.intrinsiq.com"
+    "website": "http://www.intrinsiq.com",
+    "contact_name": "Mary Brunson",
+    "contact_email": "mary.brunson@intrinsiq.com",
+    "contact_phone": "(877) 570-8721"
   },
+  "sed_intended_user_description": "Clinicians",
+  "mandatory_disclosures_url": "https://www.intrinsiq.com/-/media/assets/intrinsiq/pdf/urochart-mandatory-disclosures/mandatorydisclosures_urochartehr.pdf",
   "products": [
     {
       "chpl_id": 11138,

@@ -2,8 +2,13 @@
   "url": "https://www.i2ipophealth.com/onc-certification-information/",
   "developer": {
     "name": "i2i Population Health",
-    "website": "https://www.i2ipophealth.com/"
+    "website": "https://www.i2ipophealth.com/",
+    "contact_name": "Irma Tittle",
+    "contact_email": "irma.tittle@i2ipophealth.com",
+    "contact_phone": "615-561-1190"
   },
+  "sed_intended_user_description": "",
+  "mandatory_disclosures_url": "https://www.i2ipophealth.com/onc-certification-information/",
   "products": [
     {
       "chpl_id": 11405,

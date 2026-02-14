@@ -2,8 +2,13 @@
   "url": "https://home.meditech.com/en/d/restapiresources/pages/ehiexport.htm",
   "developer": {
     "name": "Medical Information Technology, Inc. (MEDITECH)",
-    "website": "https://www.meditech.com"
+    "website": "https://www.meditech.com",
+    "contact_name": "John Kefalas",
+    "contact_email": "jkefalas@meditech.com",
+    "contact_phone": "781-821-3000"
   },
+  "sed_intended_user_description": "",
+  "mandatory_disclosures_url": "https://home.meditech.com/en/d/regulatoryresources/pages/certification.htm",
   "products": [
     {
       "chpl_id": 9091,

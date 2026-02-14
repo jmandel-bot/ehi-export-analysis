@@ -2,8 +2,13 @@
   "url": "https://www.doxemr.com/b10doc",
   "developer": {
     "name": "DOX EMR",
-    "website": "https://www.doxemr.com"
+    "website": "https://www.doxemr.com",
+    "contact_name": "Bart Ripperger",
+    "contact_email": "bripperger@doxemr.com",
+    "contact_phone": "877-270-3518"
   },
+  "sed_intended_user_description": "Physician and Podiatrist",
+  "mandatory_disclosures_url": "https://www.doxemr.com/onc-health-it-costs-limitations-disclos",
   "products": [
     {
       "chpl_id": 10806,

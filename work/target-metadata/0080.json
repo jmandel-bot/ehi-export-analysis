@@ -2,8 +2,13 @@
   "url": "https://www.alphaii.com/hubfs/Alphaii_March2023/pdfs/Patient-Export-Output-Format-v3.pdf?hsLang=en&__hstc=155195876.b3f28b845f130b7459d8a1e746201ea7.1681824942149.1698248613629.1698264607621.17&__hssc=155195876.1.1698264607621&__hsfp=2439428725&hsutk=b3f28b845f130b7459d8a1e746201ea7&contentType=standard-page",
   "developer": {
     "name": "Alpha II, LLC",
-    "website": "https://www.alphaii.com/"
+    "website": "https://www.alphaii.com/",
+    "contact_name": "Jordan Rigert",
+    "contact_email": "jordan.rigert@aptarro.com",
+    "contact_phone": "608-841-1844"
   },
+  "sed_intended_user_description": "",
+  "mandatory_disclosures_url": "https://www.alphaii.com/mips-certification",
   "products": [
     {
       "chpl_id": 10793,

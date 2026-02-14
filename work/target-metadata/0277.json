@@ -2,8 +2,13 @@
   "url": "https://medinsight.com/healthcare-data-analytics-about/onc-certification-details/",
   "developer": {
     "name": "Milliman MedInsight",
-    "website": "https://www.medinsight.com/"
+    "website": "https://www.medinsight.com/",
+    "contact_name": "Brian Thompson",
+    "contact_email": "brian.thompson@milliman.com",
+    "contact_phone": "2066247940"
   },
+  "sed_intended_user_description": "",
+  "mandatory_disclosures_url": "https://medinsight.com/healthcare-data-analytics-about/onc-certification-details/",
   "products": [
     {
       "chpl_id": 11739,

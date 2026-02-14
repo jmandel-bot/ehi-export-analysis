@@ -2,8 +2,13 @@
   "url": "https://www.dosespot.com/ehi-export",
   "developer": {
     "name": "PRN Software (DoseSpot)",
-    "website": "https://www.dosespot.com"
+    "website": "https://www.dosespot.com",
+    "contact_name": "Chad Sherron",
+    "contact_email": "Chad@dosespot.com",
+    "contact_phone": "(888) 847-6814"
   },
+  "sed_intended_user_description": "Ambulatory",
+  "mandatory_disclosures_url": "https://www.dosespot.com/onc-certification",
   "products": [
     {
       "chpl_id": 10919,

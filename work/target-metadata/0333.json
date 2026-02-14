@@ -2,8 +2,13 @@
   "url": "https://www.mirketa.com/patient-ehi-export/",
   "developer": {
     "name": "Mirketa Inc",
-    "website": "https://www.mirketa.com"
+    "website": "https://www.mirketa.com",
+    "contact_name": "Rajeev Kumar",
+    "contact_email": "rajeev@mirketa.com",
+    "contact_phone": "(415) 215-5300"
   },
+  "sed_intended_user_description": "All the users will be working with the EHR systems which includes Physicians, Nurse and office staff who are involved in Appointments, Medical coding, Prescription, Claims etc.",
+  "mandatory_disclosures_url": "https://www.mirketa.com/elixirehr-hit-1-certified/",
   "products": [
     {
       "chpl_id": 11323,

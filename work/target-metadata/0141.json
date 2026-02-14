@@ -2,8 +2,13 @@
   "url": "https://qlinical.com/ephi/",
   "developer": {
     "name": "EndoSoft, LLC",
-    "website": "https://www.endosoft.com/"
+    "website": "https://www.endosoft.com/",
+    "contact_name": "Zohair H. Jaffri",
+    "contact_email": "Zohair@endosoft.com",
+    "contact_phone": "518-831-8000"
   },
+  "sed_intended_user_description": "",
+  "mandatory_disclosures_url": "https://qlinical.com/mustage3/",
   "products": [
     {
       "chpl_id": 10855,

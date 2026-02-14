@@ -2,8 +2,13 @@
   "url": "https://learn.pcc.com/help/export-single-patient-record/",
   "developer": {
     "name": "Physician's Computer Company",
-    "website": "https://www.pcc.com/"
+    "website": "https://www.pcc.com/",
+    "contact_name": "Megan Maddocks",
+    "contact_email": "mmaddocks@pcc.com",
+    "contact_phone": "802-846-2051"
   },
+  "sed_intended_user_description": "",
+  "mandatory_disclosures_url": "https://www.pcc.com/onc/",
   "products": [
     {
       "chpl_id": 11472,

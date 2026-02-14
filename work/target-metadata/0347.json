@@ -2,8 +2,13 @@
   "url": "https://sophrona.com/products/certifications/",
   "developer": {
     "name": "Sophrona Solutions, Inc.",
-    "website": "http://www.sophrona.com"
+    "website": "http://www.sophrona.com",
+    "contact_name": "John O'Hara",
+    "contact_email": "johara@sophrona.com",
+    "contact_phone": "800-608-6017"
   },
+  "sed_intended_user_description": "",
+  "mandatory_disclosures_url": "https://sophrona.com/products/certifications/",
   "products": [
     {
       "chpl_id": 11421,

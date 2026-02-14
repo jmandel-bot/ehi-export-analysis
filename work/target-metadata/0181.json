@@ -2,8 +2,13 @@
   "url": "https://www.sabiamed.com/",
   "developer": {
     "name": "Sabiamed Corporation",
-    "website": "https://www.sabiamed.com"
+    "website": "https://www.sabiamed.com",
+    "contact_name": "Carlos Acosta",
+    "contact_email": "cacosta@sabiamed.com",
+    "contact_phone": "787-653-7000 x200"
   },
+  "sed_intended_user_description": "Outpatient Clinic",
+  "mandatory_disclosures_url": "https://www.sabiamed.com/_files/ugd/c80812_df40551ca6444064bf7ff4310c4cf559.pdf",
   "products": [
     {
       "chpl_id": 11579,

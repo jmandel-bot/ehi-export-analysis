@@ -2,8 +2,13 @@
   "url": "https://www.meditab.com/company/ehi-export",
   "developer": {
     "name": "MedPharm Services LLC",
-    "website": "https://www.meditab.com"
+    "website": "https://www.meditab.com",
+    "contact_name": "Tejas Poojara",
+    "contact_email": "tejasp@meditab.com",
+    "contact_phone": "510-201-0130"
   },
+  "sed_intended_user_description": "General Medicine, Allergy, Pediatrics, Fertility, Internal Medicine",
+  "mandatory_disclosures_url": "https://www.meditab.com/company/onchit_mandatory_disclosures_and_cost_statement",
   "products": [
     {
       "chpl_id": 9739,

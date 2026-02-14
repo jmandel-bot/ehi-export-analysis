@@ -34,8 +34,10 @@ includes:
    consent forms, advance directives, registration data, provider assignments
 6. **Documents/images** — scanned documents, uploaded images, DICOM/radiology,
    attached files, faxes, correspondence, patient-uploaded photos
-7. **Audit/access** — who accessed the record, when, what they viewed or changed
-   (if stored as part of the designated record set)
+7. **Audit/access** — who accessed the record, when, what they viewed or changed.
+   Note: audit trails are generally excluded from the HIPAA Designated Record Set
+   ("administrative data such as audit trails… that do not embed PHI"), so their
+   absence from an EHI export is not a gap. Still worth noting if present.
 
 This is NOT the same as FHIR/US Core APIs (a different ONC criterion). EHI export
 is a file-based export of ALL patient data — no terminology mapping required, no
@@ -52,9 +54,14 @@ FHIR resource constraints. The data flows as-is from the system's database.
 
 Put ALL output files in that directory. Create subdirectories as needed.
 
-**CHPL metadata**: `{{OUTPUT_DIR}}/chpl-metadata.json` has structured
-certification data (developer website, product versions, certification dates,
-all certified criteria) if you need to cross-check or debug anything.
+**CHPL metadata**: `{{OUTPUT_DIR}}/chpl-metadata.json` — READ THIS FIRST.
+It contains the developer website URL, product names/versions, certification
+dates, and the full list of certified ONC criteria for each product. Use this
+as your primary source for product context. The certified criteria tell you
+what the product does (e.g. (a)(1)-(a)(14) = clinical data, (e)(1) = patient
+portal, (f)(1)-(f)(7) = public health reporting, (g)(7)-(g)(10) = API access).
+Do NOT query the CHPL API or visit chpl.healthit.gov — everything you need
+is already in this file. Searching CHPL wastes time and adds nothing.
 
 ---
 
@@ -287,9 +294,10 @@ find {{OUTPUT_DIR}}/downloads/ -type f | xargs grep -liE 'billing|charge|claim|p
 
 **Check for the hard stuff.** The easy categories (diagnoses, medications, labs)
 are always present. The differentiator is: secure messages, billing line items
-with actual dollar amounts, insurance authorization details, and audit trails.
+with actual dollar amounts, and insurance authorization details.
 These are the categories most likely to be missing, and the ones that matter
-most for assessing completeness.
+most for assessing completeness. (Audit trails are NOT part of the Designated
+Record Set and are not expected in an EHI export — don't flag their absence.)
 
 ### Important distinction: PDF as documentation vs PDF as export
 
@@ -513,10 +521,6 @@ not. Use your judgment.
         "documents_images": {
           "present": true,
           "evidence": "Documents folder with scanned images, uploaded files..."
-        },
-        "audit_trails": {
-          "present": false,
-          "evidence": "No audit tables found in export documentation."
         }
       },
 

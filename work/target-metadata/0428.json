@@ -2,8 +2,13 @@
   "url": "https://icare.com/developers/ehi_export/",
   "developer": {
     "name": "iCare.com, Inc.",
-    "website": "http://www.icare.com"
+    "website": "http://www.icare.com",
+    "contact_name": "Jim Riley",
+    "contact_email": "jim@icare.com",
+    "contact_phone": "954-766-1400"
   },
+  "sed_intended_user_description": "Inpatient, Ambulatory, and Behavioral",
+  "mandatory_disclosures_url": "https://www.icare.com/certification",
   "products": [
     {
       "chpl_id": 10314,

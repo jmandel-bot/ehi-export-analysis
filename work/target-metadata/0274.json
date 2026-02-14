@@ -2,8 +2,13 @@
   "url": "https://healthmonix.com/onc-certification-details/",
   "developer": {
     "name": "Healthmonix",
-    "website": "https://www.healthmonix.com/"
+    "website": "https://www.healthmonix.com/",
+    "contact_name": "Lauren Patrick",
+    "contact_email": "lpatrick@healthmonix.com",
+    "contact_phone": "610-545-5511"
   },
+  "sed_intended_user_description": "",
+  "mandatory_disclosures_url": "https://healthmonix.com/onc-certification-details/",
   "products": [
     {
       "chpl_id": 11765,

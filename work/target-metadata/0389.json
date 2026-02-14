@@ -2,8 +2,13 @@
   "url": "https://medaz.com/certificationinfo.html",
   "developer": {
     "name": "MedAZ.Net, LLC",
-    "website": "https://medaz.com"
+    "website": "https://medaz.com",
+    "contact_name": "Vasu Iyengar",
+    "contact_email": "medazsupport@medaz.net",
+    "contact_phone": "6097166991"
   },
+  "sed_intended_user_description": "Physicians and their support staff",
+  "mandatory_disclosures_url": "https://medaz.com/certificationinfo.html",
   "products": [
     {
       "chpl_id": 11300,

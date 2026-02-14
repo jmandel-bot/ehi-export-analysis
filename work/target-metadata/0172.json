@@ -2,8 +2,13 @@
   "url": "https://www.paix-tech.com/documents/HarmonyEHR-EHI-Export.pdf",
   "developer": {
     "name": "PAIX Technologies",
-    "website": "https://www.paix-tech.com/"
+    "website": "https://www.paix-tech.com/",
+    "contact_name": "Thulasi Aravindh Lakshmana Peruma",
+    "contact_email": "taravindh@holyname.org",
+    "contact_phone": "201-833-3000 ext. 3702"
   },
+  "sed_intended_user_description": "",
+  "mandatory_disclosures_url": "https://www.paix-tech.com/disclosure",
   "products": [
     {
       "chpl_id": 11562,

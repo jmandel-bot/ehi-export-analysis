@@ -2,8 +2,13 @@
   "url": "https://truercm.com/about-us/ehi-export",
   "developer": {
     "name": "True RCM",
-    "website": "https://www.truercm.com"
+    "website": "https://www.truercm.com",
+    "contact_name": "Junaid Nawaz",
+    "contact_email": "jnawaz@truercm.com",
+    "contact_phone": "2246344000"
   },
+  "sed_intended_user_description": "",
+  "mandatory_disclosures_url": "https://truercm.com/mandatory-disclosure",
   "products": [
     {
       "chpl_id": 11691,

@@ -2,8 +2,13 @@
   "url": "https://royalsolutionsprod.blob.core.windows.net/public/publicimages/certification/DocumentationB10FormatExport.pdf",
   "developer": {
     "name": "Royal Health, Inc.",
-    "website": "https://royalsolutionsgroup.com/"
+    "website": "https://royalsolutionsgroup.com/",
+    "contact_name": "Chip Hardesty",
+    "contact_email": "Chip@royalsecure.com",
+    "contact_phone": "520-548-6112"
   },
+  "sed_intended_user_description": "Healthcare Staff",
+  "mandatory_disclosures_url": "https://www.royalsolutionsgroup.com/web/company/certifications.aspx",
   "products": [
     {
       "chpl_id": 10770,

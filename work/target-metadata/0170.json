@@ -2,8 +2,13 @@
   "url": "https://www.intelimd.com/assets/docs/b10-ehi-export.pdf",
   "developer": {
     "name": "inteliMD PLLC",
-    "website": "https://www.intelimd.com/"
+    "website": "https://www.intelimd.com/",
+    "contact_name": "Ben Le",
+    "contact_email": "Ben.le@intelimd.com",
+    "contact_phone": "(408) 637-9555"
   },
+  "sed_intended_user_description": "Healthcare providers",
+  "mandatory_disclosures_url": "https://www.intelimd.com/onc-certification",
   "products": [
     {
       "chpl_id": 11555,

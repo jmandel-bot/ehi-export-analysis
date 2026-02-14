@@ -2,8 +2,13 @@
   "url": "http://radysans.com/Radysans/ONCcertification.html",
   "developer": {
     "name": "Radysans, Inc",
-    "website": "https://radysans.com"
+    "website": "https://radysans.com",
+    "contact_name": "Skekar Raju",
+    "contact_email": "Shekar@radysans.com",
+    "contact_phone": "919-363-4398 x221"
   },
+  "sed_intended_user_description": "Ambulatory",
+  "mandatory_disclosures_url": "https://radysans.com/Radysans/ONCcertification.html",
   "products": [
     {
       "chpl_id": 10253,

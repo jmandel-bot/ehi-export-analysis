@@ -2,8 +2,13 @@
   "url": "https://healthendeavors.com/onc-certification/",
   "developer": {
     "name": "Health Endeavors",
-    "website": "https://healthendeavors.com/"
+    "website": "https://healthendeavors.com/",
+    "contact_name": "Ron Gowen",
+    "contact_email": "support@healthendeavors.com",
+    "contact_phone": "480.659.8612"
   },
+  "sed_intended_user_description": "",
+  "mandatory_disclosures_url": "https://healthendeavors.com/onc-certification/",
   "products": [
     {
       "chpl_id": 11402,

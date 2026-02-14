@@ -2,8 +2,13 @@
   "url": "https://cms.officeally.com/onc-acb-certification",
   "developer": {
     "name": "Office Ally, LLC",
-    "website": "https://www.officeally.com"
+    "website": "https://www.officeally.com",
+    "contact_name": "Chere Jensen",
+    "contact_email": "chere.jensen@officeally.com",
+    "contact_phone": "360.975.7000 ext. 6103"
   },
+  "sed_intended_user_description": "Physicians, Nurses, and Office Staff",
+  "mandatory_disclosures_url": "https://cms.officeally.com/acb-certification.aspx",
   "products": [
     {
       "chpl_id": 11572,

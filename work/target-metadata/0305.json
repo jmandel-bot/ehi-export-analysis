@@ -2,8 +2,13 @@
   "url": "https://claimocity.com/onc-certification",
   "developer": {
     "name": "Claimocity, Inc.",
-    "website": "https://claimocity.com"
+    "website": "https://claimocity.com",
+    "contact_name": "Balazs Kocsi",
+    "contact_email": "balazs@claimocity.com",
+    "contact_phone": "502-609-7804"
   },
+  "sed_intended_user_description": "ambulatory physician and nurses",
+  "mandatory_disclosures_url": "https://claimocity.com/onc-certification",
   "products": [
     {
       "chpl_id": 11359,

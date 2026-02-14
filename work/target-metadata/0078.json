@@ -2,8 +2,13 @@
   "url": "https://www.sevocity.com/ehi-export-technical-documentation/",
   "developer": {
     "name": "Sevocity, a division of Conceptual MindWorks, Inc",
-    "website": "http://www.sevocity.com"
+    "website": "http://www.sevocity.com",
+    "contact_name": "Kim Rayfield",
+    "contact_email": "krayfield@sevocity.com",
+    "contact_phone": "210-737-0777"
   },
+  "sed_intended_user_description": "Outpatient Clinic",
+  "mandatory_disclosures_url": "https://www.sevocity.com/resources/onc-certifications/",
   "products": [
     {
       "chpl_id": 11187,

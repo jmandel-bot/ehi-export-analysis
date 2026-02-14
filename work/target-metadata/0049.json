@@ -2,8 +2,13 @@
   "url": "https://www.advancedmd.com/medical-office-software/data-export/",
   "developer": {
     "name": "AdvancedMD",
-    "website": "https://www.advancedmd.com/"
+    "website": "https://www.advancedmd.com/",
+    "contact_name": "Angela Knox",
+    "contact_email": "aknox@advancedmd.com",
+    "contact_phone": "801-871-1097 x1097"
   },
+  "sed_intended_user_description": "Ambulatory clinical and practice staff",
+  "mandatory_disclosures_url": "https://www.advancedmd.com/emr-ehr-software/meaningful-use/ehr-certification/",
   "products": [
     {
       "chpl_id": 11732,

@@ -2,8 +2,13 @@
   "url": "https://www.fa-management.com/mu-disclosure/",
   "developer": {
     "name": "F&A Management",
-    "website": "https://www.fa-management.com/"
+    "website": "https://www.fa-management.com/",
+    "contact_name": "Muhammad Shahan Rashid",
+    "contact_email": "shahan.rashid@fam-llc.com",
+    "contact_phone": "972-922-5838"
   },
+  "sed_intended_user_description": "",
+  "mandatory_disclosures_url": "https://www.fa-management.com/mu-disclosure/",
   "products": [
     {
       "chpl_id": 11061,

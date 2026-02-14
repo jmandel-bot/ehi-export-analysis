@@ -2,8 +2,13 @@
   "url": "https://mdinteractive.com/ecqm",
   "developer": {
     "name": "MDinteractive",
-    "website": "https://mdinteractive.com/"
+    "website": "https://mdinteractive.com/",
+    "contact_name": "Paulo Andre, MD",
+    "contact_email": "support@mdinteractive.com",
+    "contact_phone": "800-634-4731"
   },
+  "sed_intended_user_description": "",
+  "mandatory_disclosures_url": "https://mdinteractive.com/ecqm",
   "products": [
     {
       "chpl_id": 10691,

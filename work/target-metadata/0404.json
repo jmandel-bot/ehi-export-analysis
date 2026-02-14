@@ -2,8 +2,13 @@
   "url": "https://www.yourdrs.com/Home/EHI_Export_Documentation",
   "developer": {
     "name": "YOURDRS Services LLC",
-    "website": "https://www.yourdrs.com"
+    "website": "https://www.yourdrs.com",
+    "contact_name": "Sudarshan Walikar",
+    "contact_email": "sudarshan@yourdrs.com",
+    "contact_phone": "+1 (201) 627 4920"
   },
+  "sed_intended_user_description": "All of the intend users work in specialty office of orthopaedic handling various aspects like handinglig treatment,administration and billing",
+  "mandatory_disclosures_url": "https://www.yourdrs.com/mandatorydisclosure/",
   "products": [
     {
       "chpl_id": 10475,

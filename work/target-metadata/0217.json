@@ -2,8 +2,13 @@
   "url": "https://docs.versasuite.com",
   "developer": {
     "name": "VersaSuite",
-    "website": "https://www.versasuite.com"
+    "website": "https://www.versasuite.com",
+    "contact_name": "Darius Samani",
+    "contact_email": "Darius.Samani@versasuite.com",
+    "contact_phone": "512-250-8774 X 3"
   },
+  "sed_intended_user_description": "Small hospitals",
+  "mandatory_disclosures_url": "https://versasuite.com/certifications/",
   "products": [
     {
       "chpl_id": 10299,

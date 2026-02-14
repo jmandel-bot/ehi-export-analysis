@@ -2,8 +2,13 @@
   "url": "https://www.itrust.io/b10/",
   "developer": {
     "name": "iTRUST",
-    "website": "https://www.itrust.io/"
+    "website": "https://www.itrust.io/",
+    "contact_name": "Matt Chrycy",
+    "contact_email": "matt@itrust.io",
+    "contact_phone": "3059056900"
   },
+  "sed_intended_user_description": "",
+  "mandatory_disclosures_url": "https://www.itrust.io/md",
   "products": [
     {
       "chpl_id": 11324,

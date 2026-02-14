@@ -2,8 +2,13 @@
   "url": "https://allegiancemd.com/ehi-export-documentation",
   "developer": {
     "name": "AllegianceMD Software, Inc.",
-    "website": "https://allegiancemd.com"
+    "website": "https://allegiancemd.com",
+    "contact_name": "Mohamed ElMawi",
+    "contact_email": "melmawi@allegiancemd.com",
+    "contact_phone": "800-868-1923 ext: 4558"
   },
+  "sed_intended_user_description": "Software is designed to be used by medical practitioners and staff as a electronic medical record and practice management system.",
+  "mandatory_disclosures_url": "https://allegiancemd.com/wp-content/uploads/2025/01/COST_LIMITATION_Meaningfuluse_2024-12-28.pdf",
   "products": [
     {
       "chpl_id": 10794,

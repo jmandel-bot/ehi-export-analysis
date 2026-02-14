@@ -2,8 +2,13 @@
   "url": "https://www.junohealth.com/ehiexport",
   "developer": {
     "name": "Juno Health",
-    "website": "https://www.junohealth.com"
+    "website": "https://www.junohealth.com",
+    "contact_name": "Eduardo Brito",
+    "contact_email": "ebrito@junohealth.com",
+    "contact_phone": "561-284-7248"
   },
+  "sed_intended_user_description": "Clinical prescribers and staff",
+  "mandatory_disclosures_url": "https://www.junohealth.com/certifications",
   "products": [
     {
       "chpl_id": 10348,

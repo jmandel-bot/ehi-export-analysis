@@ -2,8 +2,13 @@
   "url": "https://www.co.winnebago.wi.us/it-department/ehr-product-information#Structures",
   "developer": {
     "name": "Winnebago County Wisconsin",
-    "website": "http://www.co.winnebago.wi.us"
+    "website": "http://www.co.winnebago.wi.us",
+    "contact_name": "Mike Breuer",
+    "contact_email": "mbreuer@co.winnebago.wi.us",
+    "contact_phone": "920-236-3476"
   },
+  "sed_intended_user_description": "Physicians, nurses, and/or other heathcare/Health IT practitioners",
+  "mandatory_disclosures_url": "https://www.winnebagocountywi.gov/it-department/ehr-product-information",
   "products": [
     {
       "chpl_id": 11530,

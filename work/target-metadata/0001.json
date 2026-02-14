@@ -2,8 +2,13 @@
   "url": "https://open.epic.com/EHITables",
   "developer": {
     "name": "Epic Systems Corporation",
-    "website": "https://www.epic.com"
+    "website": "https://www.epic.com",
+    "contact_name": "Sasha TerMaat",
+    "contact_email": "info@epic.com",
+    "contact_phone": "608-271-9000"
   },
+  "sed_intended_user_description": "",
+  "mandatory_disclosures_url": "http://www.epic.com/docs/mucertification.pdf",
   "products": [
     {
       "chpl_id": 11595,

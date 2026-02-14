@@ -2,8 +2,13 @@
   "url": "https://ritten.notion.site/Ritten-EHI-Export-2a91c7de7e3a80bf88e1d7d4984d9b8d",
   "developer": {
     "name": "Ritten, Inc.",
-    "website": "https://www.ritten.io"
+    "website": "https://www.ritten.io",
+    "contact_name": "Gabriel Szczepanek",
+    "contact_email": "gabe@ritten.io",
+    "contact_phone": "215-326-9369"
   },
+  "sed_intended_user_description": "",
+  "mandatory_disclosures_url": "https://ritten.notion.site/Ritten-ONC-Certification-Disclosure-2a91c7de7e3a80af86edc40039a79004",
   "products": [
     {
       "chpl_id": 11721,

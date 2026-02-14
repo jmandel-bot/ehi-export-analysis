@@ -2,8 +2,13 @@
   "url": "https://www.medtrio.com/documents/csvExplanation.pdf",
   "developer": {
     "name": "MedTrio, Inc.",
-    "website": "https://www.medtrio.com/"
+    "website": "https://www.medtrio.com/",
+    "contact_name": "Travis Luyet",
+    "contact_email": "tluyet@medtrio.com",
+    "contact_phone": "501-221-6001"
   },
+  "sed_intended_user_description": "Ambulatory providers",
+  "mandatory_disclosures_url": "https://www.medtrio.com/home/cert",
   "products": [
     {
       "chpl_id": 11298,

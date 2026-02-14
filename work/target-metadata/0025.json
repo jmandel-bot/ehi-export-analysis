@@ -2,8 +2,13 @@
   "url": "https://persivia.com/meaningful-use-certification-language/",
   "developer": {
     "name": "Persivia",
-    "website": "https://persivia.com/"
+    "website": "https://persivia.com/",
+    "contact_name": "Amol Sawant",
+    "contact_email": "amol.sawant@persivia.com",
+    "contact_phone": "617 840 0458"
   },
+  "sed_intended_user_description": "",
+  "mandatory_disclosures_url": "https://persivia.com/meaningful-use-certification-language/",
   "products": [
     {
       "chpl_id": 10918,

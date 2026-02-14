@@ -2,8 +2,13 @@
   "url": "https://www.nextgen.com/sldkjljieo0935jljsrnfkl",
   "developer": {
     "name": "NextGen Healthcare",
-    "website": "https://nextgen.com"
+    "website": "https://nextgen.com",
+    "contact_name": "Mike Boucher",
+    "contact_email": "mboucher@nextgen.com",
+    "contact_phone": "949-237-6981"
   },
+  "sed_intended_user_description": "Clinicians holding the MD, DO, NP, or PA credential",
+  "mandatory_disclosures_url": "https://www.nextgen.com/certifications-and-cost-disclosures",
   "products": [
     {
       "chpl_id": 9372,

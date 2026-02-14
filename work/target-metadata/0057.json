@@ -2,8 +2,13 @@
   "url": "https://developer.chbase.com/EHIExport",
   "developer": {
     "name": "TruBridge, Inc.",
-    "website": "https://trubridge.com/"
+    "website": "https://trubridge.com/",
+    "contact_name": "Heather Courtney",
+    "contact_email": "heather.courtney@trubridge.com",
+    "contact_phone": "251 895 5652"
   },
+  "sed_intended_user_description": "",
+  "mandatory_disclosures_url": "https://www.trubridge.com/certifications/",
   "products": [
     {
       "chpl_id": 10125,

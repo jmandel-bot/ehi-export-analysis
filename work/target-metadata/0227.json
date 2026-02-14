@@ -2,8 +2,13 @@
   "url": "https://theoriamedical.com/ehr-certificate",
   "developer": {
     "name": "Theoria Medical, PLLC",
-    "website": "https://theoriamedical.com/"
+    "website": "https://theoriamedical.com/",
+    "contact_name": "Michelle Nemiada",
+    "contact_email": "nemiada@theoriamedical.com",
+    "contact_phone": "810-623-3476"
   },
+  "sed_intended_user_description": "Ambulatory/Post-Acute",
+  "mandatory_disclosures_url": "https://theoriamedical.com/ehr-certificate",
   "products": [
     {
       "chpl_id": 11542,

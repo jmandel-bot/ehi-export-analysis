@@ -2,8 +2,13 @@
   "url": "https://www.i3verticals.com/ehr-certification/",
   "developer": {
     "name": "Infinx Solutions, LLC",
-    "website": "https://www.infinx.com/"
+    "website": "https://www.infinx.com/",
+    "contact_name": "Angie Adams",
+    "contact_email": "angela.adams@infinx.com",
+    "contact_phone": "989-303-2020"
   },
+  "sed_intended_user_description": "Nurses, Doctors, Administrative",
+  "mandatory_disclosures_url": "https://www.i3verticals.com/ehr-certification/",
   "products": [
     {
       "chpl_id": 11554,

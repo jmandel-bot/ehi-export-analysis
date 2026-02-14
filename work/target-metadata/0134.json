@@ -2,8 +2,13 @@
   "url": "https://pcc-demo.mdops.com/api/viewCCDSchema",
   "developer": {
     "name": "MDOps Corporation",
-    "website": "https://www.mdops.com/"
+    "website": "https://www.mdops.com/",
+    "contact_name": "Sales Team",
+    "contact_email": "sales@MDops.com",
+    "contact_phone": "800-349-7001"
   },
+  "sed_intended_user_description": "Healthcare users in long term care settings",
+  "mandatory_disclosures_url": "https://www.mdops.com/certified/",
   "products": [
     {
       "chpl_id": 10792,

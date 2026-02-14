@@ -2,8 +2,13 @@
   "url": "https://www.nortecehr.com/export-ehi.html",
   "developer": {
     "name": "Nortec Software Inc.",
-    "website": "http://www.nortecehr.com/"
+    "website": "http://www.nortecehr.com/",
+    "contact_name": "Abid Sheikh",
+    "contact_email": "ashiekh@nortecsoftware.com",
+    "contact_phone": "800-899-1347"
   },
+  "sed_intended_user_description": "",
+  "mandatory_disclosures_url": "https://www.nortecehr.com",
   "products": [
     {
       "chpl_id": 10734,

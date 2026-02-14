@@ -2,8 +2,13 @@
   "url": "https://vecnahealthcare.com/features/clinical-surveillance/",
   "developer": {
     "name": "Vecna Technologies, Inc.",
-    "website": "https://b-inc.com/healthcare/"
+    "website": "https://b-inc.com/healthcare/",
+    "contact_name": "Mark Hudson",
+    "contact_email": "mark.hudson@vecna.com",
+    "contact_phone": "412.889.8941"
   },
+  "sed_intended_user_description": "",
+  "mandatory_disclosures_url": "https://vecnahealthcare.com/features/clinical-surveillance/",
   "products": [
     {
       "chpl_id": 11533,

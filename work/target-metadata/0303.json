@@ -2,8 +2,13 @@
   "url": "https://vertexdr.com",
   "developer": {
     "name": "Meridian Medical Management",
-    "website": "https://vertexdr.com/"
+    "website": "https://vertexdr.com/",
+    "contact_name": "Nate Beaudry",
+    "contact_email": "nate.beaudry@carecloud.com",
+    "contact_phone": "860.785.6266"
   },
+  "sed_intended_user_description": "Clinical Staff",
+  "mandatory_disclosures_url": "https://vertexdr.com/",
   "products": [
     {
       "chpl_id": 11002,

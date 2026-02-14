@@ -2,8 +2,13 @@
   "url": "https://www.mdflow.com/EHIExport.pdf",
   "developer": {
     "name": "MDFlow EHR, LLC DBA: MDFlow Systems",
-    "website": "https://www.mdflow.com/"
+    "website": "https://www.mdflow.com/",
+    "contact_name": "Sabino Ruiz",
+    "contact_email": "sabinor@mdflow.com",
+    "contact_phone": "3056480028"
   },
+  "sed_intended_user_description": "Healthcare providers and supporting clinicians",
+  "mandatory_disclosures_url": "https://www.mdflow.com/www/mdflow-electronics-health-records.html",
   "products": [
     {
       "chpl_id": 11459,

@@ -2,8 +2,13 @@
   "url": "https://cursahealth.com/document/B10-Electronic-Health-information-Export.pdf",
   "developer": {
     "name": "CursaHealth LLC",
-    "website": "https://cursahealth.com/"
+    "website": "https://cursahealth.com/",
+    "contact_name": "Faisal Shahzad",
+    "contact_email": "info@cursahealth.com",
+    "contact_phone": "414-999-3500"
   },
+  "sed_intended_user_description": "Physicians, Physician Assistants , Nurse Practitioners, Clinical Pharmacists, Medical Assistants, Clinical Staff, Front Desk Staff",
+  "mandatory_disclosures_url": "https://cursahealth.com/onc-ehr-certification",
   "products": [
     {
       "chpl_id": 11735,

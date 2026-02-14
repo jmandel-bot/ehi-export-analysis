@@ -2,8 +2,13 @@
   "url": "https://blucygnus.ai/product/NQ==",
   "developer": {
     "name": "Intellix Solutions, LLC.",
-    "website": "https://www.intellixs.com/"
+    "website": "https://www.intellixs.com/",
+    "contact_name": "Uday Chandra",
+    "contact_email": "uchandra@intellixs.com",
+    "contact_phone": "(408) 300-4361"
   },
+  "sed_intended_user_description": "",
+  "mandatory_disclosures_url": "https://intellixs.com/html_pages/healthcare/Mandatory%20Disclosures.html",
   "products": [
     {
       "chpl_id": 11746,

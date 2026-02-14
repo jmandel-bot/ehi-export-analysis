@@ -2,8 +2,13 @@
   "url": "https://docs.google.com/document/d/1HsYw7-fWQW-6txwQBw0OcsT0M5H7Wxnv7A2YopWGXSo/edit?usp=sharing",
   "developer": {
     "name": "Genensys LLC",
-    "website": "http://www.genensys.com/"
+    "website": "http://www.genensys.com/",
+    "contact_name": "Farhan Shamsi",
+    "contact_email": "farhan@genensys.com",
+    "contact_phone": "407-536-9683"
   },
+  "sed_intended_user_description": "",
+  "mandatory_disclosures_url": "https://genensys.com/mu-disclosure/",
   "products": [
     {
       "chpl_id": 10317,

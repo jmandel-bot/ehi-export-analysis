@@ -2,8 +2,13 @@
   "url": "https://www.mediportal.com/export/",
   "developer": {
     "name": "Mediportal",
-    "website": "https://www.mediportal.com/"
+    "website": "https://www.mediportal.com/",
+    "contact_name": "Edwin Vargas",
+    "contact_email": "edwin@mediportal.com",
+    "contact_phone": "(800) 285-9177"
   },
+  "sed_intended_user_description": "",
+  "mandatory_disclosures_url": "https://www.mediportal.com/disclosures/",
   "products": [
     {
       "chpl_id": 11272,

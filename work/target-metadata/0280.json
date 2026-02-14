@@ -2,8 +2,13 @@
   "url": "https://www.nexusclinical.com/costs-and-limitations/",
   "developer": {
     "name": "Nexus Clinical LLC",
-    "website": "https://www.nexusclinical.com/"
+    "website": "https://www.nexusclinical.com/",
+    "contact_name": "Kiran Agate",
+    "contact_email": "kiran.agate@nexusclinical.com",
+    "contact_phone": "239-204-4678"
   },
+  "sed_intended_user_description": "Ambulatory",
+  "mandatory_disclosures_url": "https://www.nexusclinical.com/Costs-and-Limitations/",
   "products": [
     {
       "chpl_id": 11130,

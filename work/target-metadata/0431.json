@@ -2,8 +2,13 @@
   "url": "https://www.pointandclicksolutions.com/fhir-record-export",
   "developer": {
     "name": "Point and Click Solutions, Inc.",
-    "website": "https://www.pointandclicksolutions.com/"
+    "website": "https://www.pointandclicksolutions.com/",
+    "contact_name": "David Tan",
+    "contact_email": "admin@pointnclick.com",
+    "contact_phone": "(781) 272-9800"
   },
+  "sed_intended_user_description": "",
+  "mandatory_disclosures_url": "https://www.pointandclicksolutions.com/onc-disclosures",
   "products": [
     {
       "chpl_id": 11249,

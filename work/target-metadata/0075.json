@@ -2,8 +2,13 @@
   "url": "https://beyond-essential.slab.com/posts/tamanu-patient-summary-export-1jqz4yk5",
   "developer": {
     "name": "Beyond Essential Systems",
-    "website": "https://www.bes.au/"
+    "website": "https://www.bes.au/",
+    "contact_name": "Michael Nunan",
+    "contact_email": "michael@bes.au",
+    "contact_phone": "+61424243157"
   },
+  "sed_intended_user_description": "",
+  "mandatory_disclosures_url": "https://www.bes.au/onc-certification/",
   "products": [
     {
       "chpl_id": 10617,

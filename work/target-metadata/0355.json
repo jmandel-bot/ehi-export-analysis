@@ -2,8 +2,13 @@
   "url": "https://documentation.qualifacts.com/ehi-export",
   "developer": {
     "name": "Qualifacts Systems, LLC",
-    "website": "https://www.qualifacts.com"
+    "website": "https://www.qualifacts.com",
+    "contact_name": "Hope Winkowski",
+    "contact_email": "hope.winkowski@qualifacts.com",
+    "contact_phone": "301-652-9500 ext. 0428"
   },
+  "sed_intended_user_description": "Outpatient Clinic",
+  "mandatory_disclosures_url": "https://www.qualifacts.com/onc-certification-and-costs/",
   "products": [
     {
       "chpl_id": 11183,

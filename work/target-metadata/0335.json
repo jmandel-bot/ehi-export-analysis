@@ -2,8 +2,13 @@
   "url": "https://modulemd.com/wp-content/uploads/2023/11/B10-Data-Export-Process-Flow-Document_compressed.pdf",
   "developer": {
     "name": "ModuleMD",
-    "website": "http://www.modulemd.com"
+    "website": "http://www.modulemd.com",
+    "contact_name": "Ruchit Shah",
+    "contact_email": "Ruchit.shah@modulemd.com",
+    "contact_phone": "248-434-0444"
   },
+  "sed_intended_user_description": "Ambulatory",
+  "mandatory_disclosures_url": "https://modulemd.com/onc-certified/",
   "products": [
     {
       "chpl_id": 11092,

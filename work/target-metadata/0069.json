@@ -2,8 +2,13 @@
   "url": "https://docs.oystehr.com/oystehr/services/fhir/bulk-data-export/",
   "developer": {
     "name": "MassLight",
-    "website": "https://www.masslight.com/"
+    "website": "https://www.masslight.com/",
+    "contact_name": "Daniel Abrams",
+    "contact_email": "support@oystehr.com",
+    "contact_phone": "202-569-8463"
   },
+  "sed_intended_user_description": "",
+  "mandatory_disclosures_url": "https://docs.oystehr.com/oystehr/security-and-compliance/onc/",
   "products": [
     {
       "chpl_id": 11489,

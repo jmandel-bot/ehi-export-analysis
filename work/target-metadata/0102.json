@@ -2,8 +2,13 @@
   "url": "https://www.moyae.com/disclosures-and-costs",
   "developer": {
     "name": "Moyae, Inc.",
-    "website": "https://moyae.com"
+    "website": "https://moyae.com",
+    "contact_name": "Sami Mirimiri",
+    "contact_email": "sami@moyae.com",
+    "contact_phone": "5716066385"
   },
+  "sed_intended_user_description": "medical professionals with knowledge of eyecare",
+  "mandatory_disclosures_url": "https://www.moyae.com/disclosures-and-costs",
   "products": [
     {
       "chpl_id": 11331,

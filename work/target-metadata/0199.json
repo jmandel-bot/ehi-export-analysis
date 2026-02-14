@@ -2,8 +2,13 @@
   "url": "https://turbopt.com/export_info.php",
   "developer": {
     "name": "Global Support Systems",
-    "website": "https://www.turbopt.com"
+    "website": "https://www.turbopt.com",
+    "contact_name": "Jeff Davis",
+    "contact_email": "jeffd@turbopt.com",
+    "contact_phone": "800-628-8980 X205"
   },
+  "sed_intended_user_description": "",
+  "mandatory_disclosures_url": "https://turbopt.com/cehrt.php",
   "products": [
     {
       "chpl_id": 11610,

@@ -2,8 +2,13 @@
   "url": "https://sunwavehealth.atlassian.net/wiki/spaces/ONC/overview",
   "developer": {
     "name": "SunwaveHealth",
-    "website": "https://www.sunwavehealth.com/"
+    "website": "https://www.sunwavehealth.com/",
+    "contact_name": "Tulasi Beesabathuni",
+    "contact_email": "tulasi.beesabathuni@sunwavehealth.com",
+    "contact_phone": "844.786.9283"
   },
+  "sed_intended_user_description": "",
+  "mandatory_disclosures_url": "https://sunwavehealth.atlassian.net/wiki/spaces/ONC/overview",
   "products": [
     {
       "chpl_id": 11661,

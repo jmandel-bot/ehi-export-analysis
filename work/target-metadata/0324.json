@@ -2,8 +2,13 @@
   "url": "https://ebiometronics.com/data-export/",
   "developer": {
     "name": "EBIO-METRONICS",
-    "website": "http://www.ebiometronics.com/"
+    "website": "http://www.ebiometronics.com/",
+    "contact_name": "Irfan Fazil",
+    "contact_email": "ebiometronics@hotmail.com",
+    "contact_phone": "1-844-324-6638"
   },
+  "sed_intended_user_description": "",
+  "mandatory_disclosures_url": "https://ebiometronics.com/onc-certification-costs/",
   "products": [
     {
       "chpl_id": 11087,

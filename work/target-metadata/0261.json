@@ -2,8 +2,13 @@
   "url": "https://www.virtusa.com/solutions/clinical-quality-measures-reporting/carediscovery-electronic-quality-measures-cdeqm",
   "developer": {
     "name": "Virtusa Corporation",
-    "website": "https://www.virtusa.com/"
+    "website": "https://www.virtusa.com/",
+    "contact_name": "Manish Parekhji",
+    "contact_email": "mparekhji@virtusa.com",
+    "contact_phone": "503-314-7256"
   },
+  "sed_intended_user_description": "",
+  "mandatory_disclosures_url": "https://www.virtusa.com/solutions/clinical-quality-measures-reporting/carediscovery-electronic-quality-measures-cdeqm",
   "products": [
     {
       "chpl_id": 11706,

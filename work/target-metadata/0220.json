@@ -2,8 +2,13 @@
   "url": "https://www.mdcare.com/EHIexport",
   "developer": {
     "name": "Vision Infonet Inc",
-    "website": "http://www.vinfonet.com"
+    "website": "http://www.vinfonet.com",
+    "contact_name": "Murali Mac",
+    "contact_email": "dr.murali@vinfonet.com",
+    "contact_phone": "877-477-8999 x24"
   },
+  "sed_intended_user_description": "Physician / Nurses / Admin Users",
+  "mandatory_disclosures_url": "https://mdcare.com/pdf/MDCAREEMRPMSDisclosurestatement.pdf",
   "products": [
     {
       "chpl_id": 11650,

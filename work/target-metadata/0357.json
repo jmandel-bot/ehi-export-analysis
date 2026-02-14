@@ -2,8 +2,13 @@
   "url": "https://www.claimpowerehr.com/curesUpdate/CCDA_Export.PDF",
   "developer": {
     "name": "Claimpower, Inc.",
-    "website": "https://www.claimpower.com"
+    "website": "https://www.claimpower.com",
+    "contact_name": "Rohan Thadani",
+    "contact_email": "Rohan@claimpower.com",
+    "contact_phone": "(201) 982-3661"
   },
+  "sed_intended_user_description": "DOCTORS AND THEIR STAFF",
+  "mandatory_disclosures_url": "https://claimpower.com/legal-notice/",
   "products": [
     {
       "chpl_id": 11209,

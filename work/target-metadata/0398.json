@@ -2,8 +2,13 @@
   "url": "https://corp.cozeva.com/ehi-export/",
   "developer": {
     "name": "Applied Research Works, Inc.",
-    "website": "https://corp.cozeva.com/"
+    "website": "https://corp.cozeva.com/",
+    "contact_name": "Sujay Kumar Modal",
+    "contact_email": "sujmondal@cozeva.com",
+    "contact_phone": "(408) 641-1345"
   },
+  "sed_intended_user_description": "",
+  "mandatory_disclosures_url": "https://corp.cozeva.com/drummond-mandatory-disclosures/",
   "products": [
     {
       "chpl_id": 11139,

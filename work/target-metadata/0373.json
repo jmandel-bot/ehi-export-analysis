@@ -2,8 +2,13 @@
   "url": "https://devportal.techcareehr.com/EHIExport",
   "developer": {
     "name": "NaphCare, Inc.",
-    "website": "https://www.naphcare.com"
+    "website": "https://www.naphcare.com",
+    "contact_name": "Charlie Barranco",
+    "contact_email": "Certification@naphcare.com",
+    "contact_phone": "205-552-1734"
   },
+  "sed_intended_user_description": "Correctional Health",
+  "mandatory_disclosures_url": "https://www.techcareehr.com/#costandlimitations",
   "products": [
     {
       "chpl_id": 10207,

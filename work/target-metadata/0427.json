@@ -2,8 +2,13 @@
   "url": "https://www.ehr1.com/Disclosure",
   "developer": {
     "name": "EHR1, LLC",
-    "website": "https://www.ehr1.com"
+    "website": "https://www.ehr1.com",
+    "contact_name": "Ross Seymour",
+    "contact_email": "ehrinfo@ehr1.com",
+    "contact_phone": "888-804-3471"
   },
+  "sed_intended_user_description": "Ambulatory; dental",
+  "mandatory_disclosures_url": "https://www.ehr1.com/disclosure",
   "products": [
     {
       "chpl_id": 10277,

@@ -2,8 +2,13 @@
   "url": "https://www.nextech.com/hubfs/Nextech%20Select_NexCloud%20EHI%20Export%20Documentation.pdf",
   "developer": {
     "name": "Nextech",
-    "website": "https://www.nextech.com"
+    "website": "https://www.nextech.com",
+    "contact_name": "Alex Borenstein",
+    "contact_email": "a.borenstein@nextech.com",
+    "contact_phone": "813.937.1359"
   },
+  "sed_intended_user_description": "Dermatology, Ophthalmology, and Plastic Suregery",
+  "mandatory_disclosures_url": "https://www.nextech.com/compliance/onc-health-it/nextech",
   "products": [
     {
       "chpl_id": 11722,

@@ -2,8 +2,13 @@
   "url": "https://www.imprivata.com/onc-certification-disclosures",
   "developer": {
     "name": "Imprivata",
-    "website": "https://www.imprivata.com"
+    "website": "https://www.imprivata.com",
+    "contact_name": "Matt Carlson",
+    "contact_email": "matt.carlson@imprivata.com",
+    "contact_phone": "727-576-6700"
   },
+  "sed_intended_user_description": "",
+  "mandatory_disclosures_url": "https://www.imprivata.com/onc-certification-disclosures",
   "products": [
     {
       "chpl_id": 10838,

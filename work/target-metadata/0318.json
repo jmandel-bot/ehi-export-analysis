@@ -2,8 +2,13 @@
   "url": "https://www.dawsystems.com/eprescribing.html",
   "developer": {
     "name": "DAW SYSTEMS, INC.",
-    "website": "http://www.dawsystems.com/"
+    "website": "http://www.dawsystems.com/",
+    "contact_name": "Aaron Forman, CTO",
+    "contact_email": "support@dawsystems.com",
+    "contact_phone": "866-755-1500"
   },
+  "sed_intended_user_description": "AMBULATORY OFFICE",
+  "mandatory_disclosures_url": "https://dawsystems.com/mandatory-disclosures",
   "products": [
     {
       "chpl_id": 11366,

@@ -2,8 +2,13 @@
   "url": "https://www.medent.com/onc/",
   "developer": {
     "name": "medent - Community Computer Service, Inc.",
-    "website": "https://www.medent.com"
+    "website": "https://www.medent.com",
+    "contact_name": "Tina Tomasso",
+    "contact_email": "tinat@medent.com",
+    "contact_phone": "315-567-6240"
   },
+  "sed_intended_user_description": "Ambulatory",
+  "mandatory_disclosures_url": "https://www.medent.com/onc/",
   "products": [
     {
       "chpl_id": 11347,

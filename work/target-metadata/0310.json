@@ -2,8 +2,13 @@
   "url": "https://s3.amazonaws.com/novoclinical.miscellaneous/Novoclinical+Data+Export+Format.pdf",
   "developer": {
     "name": "NovoMedici, LLC",
-    "website": "https://www.novomedici.com/"
+    "website": "https://www.novomedici.com/",
+    "contact_name": "Mary Porter",
+    "contact_email": "maryporter@novomedici.com",
+    "contact_phone": "(385) 626-7407"
   },
+  "sed_intended_user_description": "Providers, Nurses and Medical assistant",
+  "mandatory_disclosures_url": "https://www.novomedici.com/meaningful-use/",
   "products": [
     {
       "chpl_id": 10805,

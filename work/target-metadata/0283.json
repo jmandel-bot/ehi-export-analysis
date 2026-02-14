@@ -2,8 +2,13 @@
   "url": "https://cloudcraftsoftware.com/certification/B10.html",
   "developer": {
     "name": "CloudCraft, LLC",
-    "website": "http://www.naiacorp.com"
+    "website": "http://www.naiacorp.com",
+    "contact_name": "Terry Lee",
+    "contact_email": "tlee@naiacorp.net",
+    "contact_phone": "205.369.0854"
   },
+  "sed_intended_user_description": "Users at a healthcare office or facility.",
+  "mandatory_disclosures_url": "https://cloudcraftsoftware.com/certificationdisclosurestatements",
   "products": [
     {
       "chpl_id": 11150,

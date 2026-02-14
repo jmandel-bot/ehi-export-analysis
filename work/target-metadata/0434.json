@@ -2,8 +2,13 @@
   "url": "https://rojihealthintel.com/costs-and-limitations/",
   "developer": {
     "name": "Roji Health Intelligence LLC",
-    "website": "http://www.rojihealthintel.com"
+    "website": "http://www.rojihealthintel.com",
+    "contact_name": "Don Newman",
+    "contact_email": "don.newman@rojihealthintel.com",
+    "contact_phone": "(312) 258-8004 ext. 712"
   },
+  "sed_intended_user_description": "",
+  "mandatory_disclosures_url": "https://rojihealthintel.com/costs-and-requirements/",
   "products": [
     {
       "chpl_id": 8332,

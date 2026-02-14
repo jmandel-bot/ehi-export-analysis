@@ -2,8 +2,13 @@
   "url": "https://sites.google.com/encite.us/support/ehi-export",
   "developer": {
     "name": "Encite, Inc.",
-    "website": "http://www.encite.us"
+    "website": "http://www.encite.us",
+    "contact_name": "Donald Stewart",
+    "contact_email": "CHPL@encite.us",
+    "contact_phone": "704-461-1255"
   },
+  "sed_intended_user_description": "Ambulatory",
+  "mandatory_disclosures_url": "https://www.encite.us/meaningful-use",
   "products": [
     {
       "chpl_id": 10446,

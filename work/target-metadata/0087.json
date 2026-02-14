@@ -2,8 +2,13 @@
   "url": "https://physicianxpress.com/electronic-health-information-export/",
   "developer": {
     "name": "PhysicianXpress, Inc.",
-    "website": "https://www.physicianxpress.com"
+    "website": "https://www.physicianxpress.com",
+    "contact_name": "Ken Dominy",
+    "contact_email": "ken@physicianxpress.com",
+    "contact_phone": "877-366-7331"
   },
+  "sed_intended_user_description": "",
+  "mandatory_disclosures_url": "https://physicianxpress.com/onc-certification/",
   "products": [
     {
       "chpl_id": 11010,

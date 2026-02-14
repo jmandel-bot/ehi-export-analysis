@@ -2,8 +2,13 @@
   "url": "https://www.solidpractice.com/doc/SolidPractice-b10-exportable-data-content.pdf",
   "developer": {
     "name": "SolidPractice Technologies, LLC",
-    "website": "http://www.solidpractice.com"
+    "website": "http://www.solidpractice.com",
+    "contact_name": "Andras Fenyves",
+    "contact_email": "fenyves@solidpractice.com",
+    "contact_phone": "718-687-6161"
   },
+  "sed_intended_user_description": "providers and support staff",
+  "mandatory_disclosures_url": "https://solidpractice.com/cost-limitation.php",
   "products": [
     {
       "chpl_id": 10763,

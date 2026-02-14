@@ -2,8 +2,13 @@
   "url": "https://ehr-support.carbyos.com/certification-disclosures",
   "developer": {
     "name": "Carbon Health Technologies, Inc.",
-    "website": "https://carbonhealth.com"
+    "website": "https://carbonhealth.com",
+    "contact_name": "Joshua Levine",
+    "contact_email": "joshua@carbonhealth.com",
+    "contact_phone": "\u202a(707) 653-6724\u202c"
   },
+  "sed_intended_user_description": "",
+  "mandatory_disclosures_url": "https://ehr-support.carbyos.com/certification-disclosures",
   "products": [
     {
       "chpl_id": 11590,

@@ -2,8 +2,13 @@
   "url": "https://veradigm.com/legal/onc-reg-compliance/",
   "developer": {
     "name": "Veradigm",
-    "website": "https://www.veradigm.com/"
+    "website": "https://www.veradigm.com/",
+    "contact_name": "Kelly Faas",
+    "contact_email": "kelly.faas@veradigm.com",
+    "contact_phone": "984-263-6553"
   },
+  "sed_intended_user_description": "",
+  "mandatory_disclosures_url": "https://veradigm.com/legal/onc-reg-compliance/",
   "products": [
     {
       "chpl_id": 11609,

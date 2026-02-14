@@ -2,8 +2,13 @@
   "url": "https://ehi.eclinicalworks.com/ehiexport/tableindex.html",
   "developer": {
     "name": "eClinicalWorks, LLC",
-    "website": "http://www.eclinicalworks.com"
+    "website": "http://www.eclinicalworks.com",
+    "contact_name": "Vinay Ginjupalli",
+    "contact_email": "Vinay.Ginjupalli@eclinicalworks.com",
+    "contact_phone": "508-948-5070"
   },
+  "sed_intended_user_description": "Clinical Users, both Physicians and Nurses/MA's with and without eClinicalWorks experience",
+  "mandatory_disclosures_url": "https://www.eclinicalworks.com/resources/certified-ehr-technology/",
   "products": [
     {
       "chpl_id": 11299,

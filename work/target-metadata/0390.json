@@ -2,8 +2,13 @@
   "url": "https://www.clinicaldata.org/mandatory-disclosures/",
   "developer": {
     "name": "Clinical Data Solutions",
-    "website": "https://www.clinicaldata.org/"
+    "website": "https://www.clinicaldata.org/",
+    "contact_name": "David Ferri",
+    "contact_email": "david-ferri@clinicaldata.org",
+    "contact_phone": "847-948-9600"
   },
+  "sed_intended_user_description": "Current users of TCM at various customer sites",
+  "mandatory_disclosures_url": "https://www.clinicaldata.org/",
   "products": [
     {
       "chpl_id": 11280,

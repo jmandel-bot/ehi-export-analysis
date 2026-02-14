@@ -2,8 +2,13 @@
   "url": "https://fhir.pcisgold.com/ehiexport/",
   "developer": {
     "name": "PCIS GOLD",
-    "website": "http://www.pcisgold.com"
+    "website": "http://www.pcisgold.com",
+    "contact_name": "Clayton Peterson",
+    "contact_email": "claytonp@pcisgold.com",
+    "contact_phone": "801-429-2190"
   },
+  "sed_intended_user_description": "Ambulatory physicians, nurses, and staff",
+  "mandatory_disclosures_url": "https://www.pcisgold.com/disclosures-and-cost",
   "products": [
     {
       "chpl_id": 11137,

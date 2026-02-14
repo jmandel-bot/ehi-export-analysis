@@ -2,8 +2,13 @@
   "url": "https://www.flagshipmd.com/flagshipmdnew/web/Company/ehrCertification.jsp",
   "developer": {
     "name": "FlagShipMD LLC",
-    "website": "https://www.flagshipmd.com/flagshipmdnew/web/index.jsp"
+    "website": "https://www.flagshipmd.com/flagshipmdnew/web/index.jsp",
+    "contact_name": "Mani Nallapillai",
+    "contact_email": "mani@flagshipmd.com",
+    "contact_phone": "(904) 302 6160"
   },
+  "sed_intended_user_description": "",
+  "mandatory_disclosures_url": "https://www.flagshipmd.com/flagshipmdnew/web/Company/ehrCertification.jsp",
   "products": [
     {
       "chpl_id": 10220,

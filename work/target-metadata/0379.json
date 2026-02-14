@@ -2,8 +2,13 @@
   "url": "https://pulseinc.com/terms-conditions-certification-costs-and-limitations/",
   "developer": {
     "name": "Pulse Systems, Inc",
-    "website": "http://www.pulseinc.com"
+    "website": "http://www.pulseinc.com",
+    "contact_name": "Jennifer Barnhill",
+    "contact_email": "JBarnhill@harriscomputer.com",
+    "contact_phone": "401-342-1412"
   },
+  "sed_intended_user_description": "Providers, clinical users, support staff",
+  "mandatory_disclosures_url": "https://pulseinc.com/terms-conditions-certification-costs-and-limitations/",
   "products": [
     {
       "chpl_id": 11500,

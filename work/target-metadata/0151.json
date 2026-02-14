@@ -2,8 +2,13 @@
   "url": "https://tickets.kazee.us/docs/KaZee_Data_Dictionary.docx",
   "developer": {
     "name": "KaZee, Inc.",
-    "website": "https://kazee.us/"
+    "website": "https://kazee.us/",
+    "contact_name": "Tara Middleton",
+    "contact_email": "tmiddleton@kazee.us",
+    "contact_phone": "800-648-1555"
   },
+  "sed_intended_user_description": "",
+  "mandatory_disclosures_url": "https://kazee.us/disclosures/disclosures-fees.html",
   "products": [
     {
       "chpl_id": 9861,

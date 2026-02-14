@@ -2,8 +2,13 @@
   "url": "https://westcare.com/electronic-health-record/",
   "developer": {
     "name": "WestCare Foundation, Inc.",
-    "website": "https://www.westcare.com"
+    "website": "https://www.westcare.com",
+    "contact_name": "Diane Ludens",
+    "contact_email": "diane.ludens@westcare.com",
+    "contact_phone": "702-385-2090"
   },
+  "sed_intended_user_description": "Clinicians, Administration, Support, Implementation",
+  "mandatory_disclosures_url": "https://westcare.com/electronic-health-record/",
   "products": [
     {
       "chpl_id": 10249,

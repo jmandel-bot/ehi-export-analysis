@@ -2,8 +2,13 @@
   "url": "https://golunar.com/ehi-export",
   "developer": {
     "name": "Lunar Systems, Inc.",
-    "website": "https://golunar.com"
+    "website": "https://golunar.com",
+    "contact_name": "Matt Smith",
+    "contact_email": "connect@golunar.com",
+    "contact_phone": "(866) 665-8627"
   },
+  "sed_intended_user_description": "The Lunar Cloud Platform is designed for US-based hospitals, clinics, and health systems in an inpatient, ED, and ambulatory setting.",
+  "mandatory_disclosures_url": "https://www.golunar.com/certified",
   "products": [
     {
       "chpl_id": 11698,

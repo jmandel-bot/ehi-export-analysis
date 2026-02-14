@@ -2,8 +2,13 @@
   "url": "https://www.pipelinerx.com/aur/",
   "developer": {
     "name": "PipelineRx",
-    "website": "https://www.pipelinerx.com/"
+    "website": "https://www.pipelinerx.com/",
+    "contact_name": "Eric Carter",
+    "contact_email": "ecarter@pipelinerx.com",
+    "contact_phone": "7202599606"
   },
+  "sed_intended_user_description": "",
+  "mandatory_disclosures_url": "https://www.pipelinerx.com/aur/",
   "products": [
     {
       "chpl_id": 11417,

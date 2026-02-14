@@ -2,8 +2,13 @@
   "url": "https://www.inovalon.com/ehi-export/?src=vigilanz",
   "developer": {
     "name": "VigiLanz Corporation",
-    "website": "https://www.inovalon.com/"
+    "website": "https://www.inovalon.com/",
+    "contact_name": "Arlene Medina",
+    "contact_email": "amedina@vigilanzcorp.com",
+    "contact_phone": "708-948-7254"
   },
+  "sed_intended_user_description": "",
+  "mandatory_disclosures_url": "https://www.inovalon.com/products/provider-cloud/care-management/pharmacy-surveillance/?src=vigilanz",
   "products": [
     {
       "chpl_id": 11319,

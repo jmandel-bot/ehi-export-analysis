@@ -2,8 +2,13 @@
   "url": "https://bookstack.careexpandcloud.com/books/techdoc-onc-patient-ehi-export-b10/page/b10-ehi-export-ccda",
   "developer": {
     "name": "Careexpand LLC",
-    "website": "https://www.careexpand.com"
+    "website": "https://www.careexpand.com",
+    "contact_name": "Ameya Parab",
+    "contact_email": "ameya@careexpand.com",
+    "contact_phone": "9728762149"
   },
+  "sed_intended_user_description": "Providers, FNP, Clinicians",
+  "mandatory_disclosures_url": "https://www.careexpand.com/disclaimer",
   "products": [
     {
       "chpl_id": 11625,

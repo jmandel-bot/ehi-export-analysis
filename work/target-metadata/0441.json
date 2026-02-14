@@ -2,8 +2,13 @@
   "url": "https://support.kbhmaine.org/neo-faq/client-export",
   "developer": {
     "name": "Kennebec Behavioral Health",
-    "website": "https://www.kbhmaine.org/"
+    "website": "https://www.kbhmaine.org/",
+    "contact_name": "Scott Bressette",
+    "contact_email": "sbressette@kbhmaine.org",
+    "contact_phone": "(207) 873-2136"
   },
+  "sed_intended_user_description": "",
+  "mandatory_disclosures_url": "https://mobile.kbhmaine.org/home/disclosure",
   "products": [
     {
       "chpl_id": 10971,

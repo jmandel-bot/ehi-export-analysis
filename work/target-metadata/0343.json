@@ -2,8 +2,13 @@
   "url": "https://www.medonehp.com/wp-content/uploads/2023/11/Export.pdf",
   "developer": {
     "name": "MedOne Healthcare Partners",
-    "website": "https://www.medonehp.com/"
+    "website": "https://www.medonehp.com/",
+    "contact_name": "Mathina Evans",
+    "contact_email": "mevans@medonehp.com",
+    "contact_phone": "614-255-6932"
   },
+  "sed_intended_user_description": "Post acute, rehab and other ambulatory clinicans",
+  "mandatory_disclosures_url": "https://www.medonehp.com/certifications/",
   "products": [
     {
       "chpl_id": 11426,

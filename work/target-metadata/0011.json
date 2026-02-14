@@ -2,8 +2,13 @@
   "url": "https://www.medhost.com/ehr/interoperability/",
   "developer": {
     "name": "MEDHOST Cloud Services, Inc.",
-    "website": "https://www.medhost.com"
+    "website": "https://www.medhost.com",
+    "contact_name": "Shawn Wiese",
+    "contact_email": "Shawn.Wiese@medhost.com",
+    "contact_phone": "(615)761-1000"
   },
+  "sed_intended_user_description": "",
+  "mandatory_disclosures_url": "https://www.medhost.com/about-us/regulatory-and-compliance/",
   "products": [
     {
       "chpl_id": 10738,

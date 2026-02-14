@@ -2,8 +2,13 @@
   "url": "https://clinicomp.com/ehr-data-export-details/",
   "developer": {
     "name": "CliniComp, Intl.",
-    "website": "http://www.clinicomp.com"
+    "website": "http://www.clinicomp.com",
+    "contact_name": "Aparna Bala",
+    "contact_email": "Aparna.bala@clinicomp.com",
+    "contact_phone": "858-546-8202"
   },
+  "sed_intended_user_description": "",
+  "mandatory_disclosures_url": "https://clinicomp.com/certified-ehr-technology/",
   "products": [
     {
       "chpl_id": 10998,

@@ -2,8 +2,13 @@
   "url": "https://support.drchrono.com/home/20260096536987-ehi-export-overview",
   "developer": {
     "name": "drchrono Inc.",
-    "website": "https://www.drchrono.com"
+    "website": "https://www.drchrono.com",
+    "contact_name": "Carly Kakasuleff",
+    "contact_email": "support@drchrono.com",
+    "contact_phone": "(844) 569-8628"
   },
+  "sed_intended_user_description": "Ambulatory care physicians",
+  "mandatory_disclosures_url": "https://www.drchrono.com/meaningful-use-ehr/",
   "products": [
     {
       "chpl_id": 10910,

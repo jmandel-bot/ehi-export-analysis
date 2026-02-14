@@ -2,8 +2,13 @@
   "url": "https://www.officepracticum.com/op/population-health/onc-certification#onccert",
   "developer": {
     "name": "Office Practicum",
-    "website": "https://www.officepracticum.com/"
+    "website": "https://www.officepracticum.com/",
+    "contact_name": "Pamela Chapman",
+    "contact_email": "pchapman@officepracticum.com",
+    "contact_phone": "800-218-9916"
   },
+  "sed_intended_user_description": "Pediatricians, Physicians, and Practice Managers",
+  "mandatory_disclosures_url": "https://www.officepracticum.com/onc-certification-info",
   "products": [
     {
       "chpl_id": 11049,

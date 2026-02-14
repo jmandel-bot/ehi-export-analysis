@@ -2,8 +2,13 @@
   "url": "https://www.clinisys.com/uk/en/history/orchard/",
   "developer": {
     "name": "Clinisys Inc.",
-    "website": "https://www.clinisys.com/us/en/"
+    "website": "https://www.clinisys.com/us/en/",
+    "contact_name": "Gwenn Brode",
+    "contact_email": "gbrode@orchardsoft.com",
+    "contact_phone": "317-975-8645"
   },
+  "sed_intended_user_description": "",
+  "mandatory_disclosures_url": "https://www.clinisys.com/uk/en/history/orchard/",
   "products": [
     {
       "chpl_id": 11285,

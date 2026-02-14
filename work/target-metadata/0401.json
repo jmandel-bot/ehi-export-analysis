@@ -2,8 +2,13 @@
   "url": "https://www.doctorhelper.com/electronichealthinformationexport",
   "developer": {
     "name": "PartnerHelper",
-    "website": "https://www.partnerhelper.com/"
+    "website": "https://www.partnerhelper.com/",
+    "contact_name": "Javier Pineros",
+    "contact_email": "javierp@doctorhelper.com",
+    "contact_phone": "786-292-4982"
   },
+  "sed_intended_user_description": "Any person that works for medical industry",
+  "mandatory_disclosures_url": "https://www.doctorhelper.com/mandatorydisclosure",
   "products": [
     {
       "chpl_id": 10953,

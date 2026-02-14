@@ -2,8 +2,13 @@
   "url": "http://www.inpracsys.com/disclosure",
   "developer": {
     "name": "InPracSys",
-    "website": "https://www.inpracsys.com"
+    "website": "https://www.inpracsys.com",
+    "contact_name": "Ashu Kataria",
+    "contact_email": "help@Inpracsys.com",
+    "contact_phone": "612-455-6789"
   },
+  "sed_intended_user_description": "",
+  "mandatory_disclosures_url": "https://inpracsys.com/disclosure/",
   "products": [
     {
       "chpl_id": 10194,

@@ -2,8 +2,13 @@
   "url": "https://www.dynamichealthit.com/connectehr-ehi",
   "developer": {
     "name": "Dynamic Health IT, Inc",
-    "website": "https://dynamichealthit.com/"
+    "website": "https://dynamichealthit.com/",
+    "contact_name": "Jeff Robbins",
+    "contact_email": "jrobbins@dynamichealthit.com",
+    "contact_phone": "504.309.9103"
   },
+  "sed_intended_user_description": "",
+  "mandatory_disclosures_url": "https://www.dynamichealthit.com/disclosures",
   "products": [
     {
       "chpl_id": 11584,

@@ -2,8 +2,13 @@
   "url": "https://www.itreatmd.com/ONC-Certification",
   "developer": {
     "name": "iTreatMD",
-    "website": "https://www.itreatmd.com"
+    "website": "https://www.itreatmd.com",
+    "contact_name": "George Krucik MD",
+    "contact_email": "george@itreatmd.com",
+    "contact_phone": "(415) 668-0896"
   },
+  "sed_intended_user_description": "",
+  "mandatory_disclosures_url": "https://www.itreatmd.com/ONC-Certification",
   "products": [
     {
       "chpl_id": 11364,

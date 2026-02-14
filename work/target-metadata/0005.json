@@ -2,8 +2,13 @@
   "url": "https://sightview.com/about-sightview/onc-certification/",
   "developer": {
     "name": "My Vision Express, LLC",
-    "website": "https://sightview.com/"
+    "website": "https://sightview.com/",
+    "contact_name": "Lora Woltz",
+    "contact_email": "lora.woltz@sightview.com",
+    "contact_phone": "980-290-6733"
   },
+  "sed_intended_user_description": "Eye Care providers",
+  "mandatory_disclosures_url": "https://sightview.com/about-sightview/onc-certification/",
   "products": [
     {
       "chpl_id": 11525,

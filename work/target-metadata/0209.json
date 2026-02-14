@@ -2,8 +2,13 @@
   "url": "https://savassoftware.com/support_ehi_export/",
   "developer": {
     "name": "Savas Solutions LLC",
-    "website": "https://www.savassoftware.com"
+    "website": "https://www.savassoftware.com",
+    "contact_name": "Bashar Nejdawi",
+    "contact_email": "bashar@savashealth.com",
+    "contact_phone": "480-780-0011"
   },
+  "sed_intended_user_description": "",
+  "mandatory_disclosures_url": "https://savassoftware.com/onc-certified-health-it/",
   "products": [
     {
       "chpl_id": 11621,

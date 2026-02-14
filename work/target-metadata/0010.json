@@ -2,8 +2,13 @@
   "url": "https://www.clinisys.com/us/en/onc-disclosure/",
   "developer": {
     "name": "Clinisys, Inc.",
-    "website": "https://clinisys.com"
+    "website": "https://clinisys.com",
+    "contact_name": "Alicia McWilliams",
+    "contact_email": "alicia.mcwilliams@clinisys.com",
+    "contact_phone": "520-570-2335"
   },
+  "sed_intended_user_description": "",
+  "mandatory_disclosures_url": "https://www.clinisys.com/us/en/onc-disclosure/",
   "products": [
     {
       "chpl_id": 9726,

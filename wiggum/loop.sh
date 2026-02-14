@@ -7,6 +7,7 @@
 # Usage:
 #   ./wiggum/loop.sh                  # start from the beginning
 #   ./wiggum/loop.sh --resume         # skip already-completed targets
+#   ./wiggum/loop.sh --reverse        # iterate from end of list backwards
 #   ./wiggum/loop.sh --index 42       # start from target index 42
 #   ./wiggum/loop.sh --only 42        # run only target index 42
 #   MAX_CONCURRENT=4 ./wiggum/loop.sh # run up to 4 in parallel (default: 3)
@@ -27,8 +28,7 @@ MAX_CONCURRENT="${MAX_CONCURRENT:-3}"
 LLM_BACKEND="${LLM_BACKEND:-claude}"
 
 # Claude settings
-CLAUDE_MODEL="${CLAUDE_MODEL:-sonnet}"
-CLAUDE_BUDGET="${CLAUDE_BUDGET:-2.00}"
+CLAUDE_MODEL="${CLAUDE_MODEL:-opus}"
 
 # Shelley settings
 SHELLEY_PROMPT="${SHELLEY_PROMPT:-$CONFIG_DIR/shelley-prompt.ts}"
@@ -48,7 +48,7 @@ run_llm() {
       cd "$cwd"
       claude -p --dangerously-skip-permissions \
         --model "$CLAUDE_MODEL" \
-        --max-budget-usd "$CLAUDE_BUDGET"
+        --output-format stream-json
       ;;
     shelley)
       local args=("$SHELLEY_PROMPT" -server "$SHELLEY_SERVER" -cwd "$cwd" -user "$SHELLEY_USER" -v)
@@ -70,11 +70,13 @@ run_llm() {
 
 # Parse args
 RESUME=false
+REVERSE=false
 START_INDEX=0
 ONLY_INDEX=""
 while [[ $# -gt 0 ]]; do
   case $1 in
     --resume) RESUME=true; shift ;;
+    --reverse) REVERSE=true; shift ;;
     --index) START_INDEX="$2"; shift 2 ;;
     --only) ONLY_INDEX="$2"; shift 2 ;;
     *) echo "Unknown arg: $1"; exit 1 ;;
@@ -92,11 +94,12 @@ TOTAL=$(jq 'length' "$TARGETS")
 echo "=== EHI Export Documentation Collection ==="
 echo "Backend:     $LLM_BACKEND"
 case "$LLM_BACKEND" in
-  claude)  echo "Model:       $CLAUDE_MODEL (budget \$$CLAUDE_BUDGET)" ;;
+  claude)  echo "Model:       $CLAUDE_MODEL" ;;
   shelley) echo "Server:      $SHELLEY_SERVER (model: ${SHELLEY_MODEL:-default})" ;;
   gemini)  echo "Model:       $GEMINI_MODEL" ;;
 esac
 echo "Targets:     $TOTAL unique URLs"
+echo "Direction:   $(if $REVERSE; then echo "reverse (high→low)"; else echo "forward (low→high)"; fi)"
 echo "Concurrency: $MAX_CONCURRENT"
 echo "Results:     $RESULTS_DIR/"
 echo ""
@@ -121,6 +124,7 @@ wait_for_slot() {
         wait "$pid" && {
           echo "  ✓ $slug completed"
           COMPLETED=$((COMPLETED + 1))
+          commit_result "$slug"
         } || {
           echo "  ✗ $slug failed (exit $?)"
           FAILED=$((FAILED + 1))
@@ -141,6 +145,7 @@ wait_for_all() {
     wait "$pid" && {
       echo "  ✓ $slug completed"
       COMPLETED=$((COMPLETED + 1))
+      commit_result "$slug"
     } || {
       echo "  ✗ $slug failed (exit $?)"
       FAILED=$((FAILED + 1))
@@ -148,6 +153,18 @@ wait_for_all() {
     unset PIDS[$slug]
     RUNNING=$((RUNNING - 1))
   done
+}
+
+commit_result() {
+  local slug="$1"
+  local result_dir="$RESULTS_DIR/$slug"
+  if [[ -f "$result_dir/analysis.json" ]]; then
+    cd "$ROOT"
+    git add "$result_dir/" 2>/dev/null || true
+    git commit -m "$slug: collection and analysis complete" \
+      --author="wiggum <wiggum@ehi-export-analysis>" \
+      2>/dev/null || true
+  fi
 }
 
 launch_one() {
@@ -188,7 +205,10 @@ launch_one() {
 
   # Build prompt from template
   local prompt
-  prompt=$(sed \
+  prompt="plugin:chrome-devtools-mcp:chrome-devtools will help you browse the web when needed.
+
+"
+  prompt+=$(sed \
     -e "s|{{URL}}|${url}|g" \
     -e "s|{{DEVELOPERS}}|${developers}|g" \
     -e "s|{{PRODUCTS}}|${products}|g" \
@@ -201,9 +221,12 @@ launch_one() {
   echo "  Developer(s): $developers"
   echo "  Output: $output_dir/"
 
-  # Launch LLM in background — prompt via stdin
+  # Launch LLM in background
+  # Raw stream-json → results dir + filtered readable log → results dir + stdout
   run_llm "$ROOT" <<< "$prompt" \
-    > "$LOG_DIR/${slug}.log" 2>&1 &
+    2>&1 | tee "$output_dir/stream.jsonl" \
+    | python3 -u "$CONFIG_DIR/log-handler.py" \
+    | tee "$output_dir/log.txt" &
 
   PIDS[$slug]=$!
   RUNNING=$((RUNNING + 1))
@@ -214,10 +237,18 @@ if [[ -n "$ONLY_INDEX" ]]; then
   launch_one "$ONLY_INDEX"
   wait_for_all
 else
-  for (( i=START_INDEX; i<TOTAL; i++ )); do
-    wait_for_slot
-    launch_one "$i"
-  done
+  if [[ "$REVERSE" == true ]]; then
+    end_idx=$(( START_INDEX > 0 ? START_INDEX : 0 ))
+    for (( i=TOTAL-1; i>=end_idx; i-- )); do
+      wait_for_slot
+      launch_one "$i"
+    done
+  else
+    for (( i=START_INDEX; i<TOTAL; i++ )); do
+      wait_for_slot
+      launch_one "$i"
+    done
+  fi
   echo ""
   echo "All launched. Waiting for remaining jobs..."
   wait_for_all

@@ -2,8 +2,13 @@
   "url": "https://support.clinigence.com/support/solutions/articles/3000123715-patient-record-export/",
   "developer": {
     "name": "Clinigence Health",
-    "website": "https://www.clinigencehealth.com"
+    "website": "https://www.clinigencehealth.com",
+    "contact_name": "Chuck Kandzierski",
+    "contact_email": "chuck.kandzierski@clinigence.com",
+    "contact_phone": "(678) 315-9784"
   },
+  "sed_intended_user_description": "",
+  "mandatory_disclosures_url": "https://clinigencehealth.com/costs-and-limitations/",
   "products": [
     {
       "chpl_id": 9843,

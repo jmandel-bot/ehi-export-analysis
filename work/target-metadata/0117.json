@@ -2,8 +2,13 @@
   "url": "https://www.practice-alt.com/AuroraEHR_b10_EHI_Export_Documentation.pdf",
   "developer": {
     "name": "Practice Alternatives, Inc.",
-    "website": "http://practice-alt.com"
+    "website": "http://practice-alt.com",
+    "contact_name": "Luanne Wainwright",
+    "contact_email": "lwainwright@practice-alt.com",
+    "contact_phone": "732-383-4190"
   },
+  "sed_intended_user_description": "Ambulatory doctors & nurses",
+  "mandatory_disclosures_url": "http://practice-alt.com/electronic-health-records-nj-ny-pa/disclosures/",
   "products": [
     {
       "chpl_id": 11128,

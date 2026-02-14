@@ -2,8 +2,13 @@
   "url": "https://ulrichmedicalconcepts.com/home/the-ehr/meaningful-use/cost-disclosure-and-transparency/",
   "developer": {
     "name": "Ulrich Medical Concepts",
-    "website": "http://www.ulrichmedicalconcepts.com"
+    "website": "http://www.ulrichmedicalconcepts.com",
+    "contact_name": "Sandra Ulrich",
+    "contact_email": "info@ulrichmedicalconcepts.com",
+    "contact_phone": "866-885-1150"
   },
+  "sed_intended_user_description": "Medical office personnel, including RNs, Providers, Admins and Support staff",
+  "mandatory_disclosures_url": "https://ulrichmedicalconcepts.com/home/the-ehr/meaningful-use/cost-disclosure-and-transparency/",
   "products": [
     {
       "chpl_id": 10227,

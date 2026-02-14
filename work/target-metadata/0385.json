@@ -2,8 +2,13 @@
   "url": "https://www.micromd.com/micromd-emr-certified/",
   "developer": {
     "name": "MicroMD, LLC",
-    "website": "https://www.micromd.com/certified/"
+    "website": "https://www.micromd.com/certified/",
+    "contact_name": "Jake Paxton",
+    "contact_email": "Jake.Paxton@micromd.com",
+    "contact_phone": "330.758.8832"
   },
+  "sed_intended_user_description": "Ambulatory",
+  "mandatory_disclosures_url": "https://www.micromd.com/certified/",
   "products": [
     {
       "chpl_id": 11281,

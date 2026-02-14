@@ -2,8 +2,13 @@
   "url": "https://doctornow.io/data-export",
   "developer": {
     "name": "Doctornow Inc.",
-    "website": "https://doctornow.io/"
+    "website": "https://doctornow.io/",
+    "contact_name": "Asim Ranjha",
+    "contact_email": "asim.ranjha@doctornow.io",
+    "contact_phone": "+1.425.502.0865"
   },
+  "sed_intended_user_description": "",
+  "mandatory_disclosures_url": "https://doctornow.io/mandatory-disclosure",
   "products": [
     {
       "chpl_id": 10963,

@@ -2,8 +2,13 @@
   "url": "https://redwoodemr.com/s/PatientExportInfo-v1.txt",
   "developer": {
     "name": "FannoTek, Inc.",
-    "website": "http://www.FannoTek.com"
+    "website": "http://www.FannoTek.com",
+    "contact_name": "Frank Spina",
+    "contact_email": "Frank.Spina@FannoTek.com",
+    "contact_phone": "484-440-9849"
   },
+  "sed_intended_user_description": "Healthcare providers in outpatient ambulatory clinical settings",
+  "mandatory_disclosures_url": "https://redwoodemr.com/chpl-docs",
   "products": [
     {
       "chpl_id": 11039,

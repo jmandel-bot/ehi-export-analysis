@@ -2,8 +2,13 @@
   "url": "https://www.ezaccessmot.com/",
   "developer": {
     "name": "Medical Office Technologies, Inc.",
-    "website": "https://www.ezaccessmot.com/"
+    "website": "https://www.ezaccessmot.com/",
+    "contact_name": "Niral Patel",
+    "contact_email": "niral@ezaccessmot.com",
+    "contact_phone": "901-701-1153"
   },
+  "sed_intended_user_description": "",
+  "mandatory_disclosures_url": "https://www.ezaccessmot.com",
   "products": [
     {
       "chpl_id": 9663,

@@ -2,8 +2,13 @@
   "url": "https://provider.ehiehr.com/EHI_DATA_EXPort_GUIDE.pdf",
   "developer": {
     "name": "Enable Healthcare Inc.",
-    "website": "https://www.ehiehr.com/"
+    "website": "https://www.ehiehr.com/",
+    "contact_name": "Rohini Vignesh",
+    "contact_email": "rohini@ehiehr.com",
+    "contact_phone": "973 200 6566"
   },
+  "sed_intended_user_description": "Admin and Medical staff",
+  "mandatory_disclosures_url": "https://www.ehiehr.com/",
   "products": [
     {
       "chpl_id": 10247,

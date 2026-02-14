@@ -2,8 +2,13 @@
   "url": "https://harriscaretracker.com/wp-content/uploads/2024/02/CareTracker-EHI-Export-Documentation-V1_0-1-1.pdf",
   "developer": {
     "name": "Harris CareTracker, Inc",
-    "website": "https://harriscaretracker.com/"
+    "website": "https://harriscaretracker.com/",
+    "contact_name": "Kim Gaglio",
+    "contact_email": "KGaglio@harriscomputer.com",
+    "contact_phone": "866-382-5932 x63346"
   },
+  "sed_intended_user_description": "Ambulatory Medical Practices",
+  "mandatory_disclosures_url": "https://harriscaretracker.com/certified-technology/",
   "products": [
     {
       "chpl_id": 9589,

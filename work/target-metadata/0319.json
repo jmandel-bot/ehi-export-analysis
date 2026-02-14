@@ -2,8 +2,13 @@
   "url": "https://www.navigatingcancer.com/requirements-incentives/",
   "developer": {
     "name": "Navigating Cancer, LLC",
-    "website": "http://www.navigatingcancer.com/"
+    "website": "http://www.navigatingcancer.com/",
+    "contact_name": "Michael Graff",
+    "contact_email": "info@navigatingcancer.com",
+    "contact_phone": "800-925-4456"
   },
+  "sed_intended_user_description": "",
+  "mandatory_disclosures_url": "https://www.navigatingcancer.com/requirements-incentives/",
   "products": [
     {
       "chpl_id": 11068,
