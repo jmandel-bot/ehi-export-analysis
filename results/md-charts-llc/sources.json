@@ -1,0 +1,75 @@
+{
+  "research_date": "2026-02-14",
+  "sources": [
+    {
+      "url": "https://mdchartsehr.com/",
+      "type": "vendor-website",
+      "note": "Main website (redirected from mdcharts.net). Overview of product, specialties served, key features including scheduling, billing, patient intake, charting, mobile app. Testimonial from 9+ year user. Located in Great Neck, NY."
+    },
+    {
+      "url": "https://mdchartsehr.com/why-mdcharts/",
+      "type": "mandatory-disclosures",
+      "note": "Product overview and compliance page. Lists ONC Complete EHR certification, CHPL listing 11214. Features include BiopsyMapping, InstaPath, e-prescribing, lab ordering, MIPS tracking, QR code chart updates. Links to separate mandatory disclosure page at mraemr.com. Serves dermatology, OBGYN, pediatrics, cardiology, urology."
+    },
+    {
+      "url": "https://mraemr.com:47102/api/mandatory_disclosure.asp",
+      "type": "mandatory-disclosures",
+      "note": "Mandatory disclosures page — ECONNREFUSED, server unreachable at time of research."
+    },
+    {
+      "url": "https://mdchartsehr.com/ehr/",
+      "type": "vendor-website",
+      "note": "EHR feature page. Customizable templates, e-prescribing from any screen, secure data exchange, SwiftDat dashboards, Peak Charge Capture, MIPS collection, lab integration with 20+ labs (LabCorp, Quest, BioReference). Telehealth from chart. Pediatric growth/immunization tracking."
+    },
+    {
+      "url": "https://mdchartsehr.com/dermcharts/",
+      "type": "vendor-website",
+      "note": "DermCharts (dermatology-specific) page. BiopsyMapping, InstaPath biopsy tracking, instant image upload, Smart Super Bill, e-prescribing to 50,000+ pharmacies. Integrates EHR + PM + RCM. 18,000+ insurers supported."
+    },
+    {
+      "url": "https://mdchartsehr.com/practice-management-2/",
+      "type": "vendor-website",
+      "note": "Practice management features. Centralized billing with built-in clearinghouse, 99% first-pass acceptance, C-Track real-time claims panel, patient account ledger, 300+ reports plus custom report builder, real-time eligibility verification, advanced inventory control, text-to-pay collections."
+    },
+    {
+      "url": "https://mdchartsehr.com/revenue-cycle-management/",
+      "type": "vendor-website",
+      "note": "RCM features. Integrated charge capture, 99% first-pass rate on 3M+ CCI edits, electronic claims, payment posting, denial appeal management, A/R reporting, gross vs net revenue analytics."
+    },
+    {
+      "url": "https://mdchartsehr.com/our-mission/",
+      "type": "vendor-website",
+      "note": "Company mission page. Designed by physicians and software architects. Physician-focused, specialty-specific. Based in Great Neck, NY. No founding date or detailed history provided here."
+    },
+    {
+      "url": "https://mdchartsehr.com/our-features/health-records/",
+      "type": "vendor-website",
+      "note": "Health Records feature page. Health Records ID physical card for emergency access. Automated data sync for lab results, imaging, notes. Cloud-based secure storage. Patient-controlled sharing."
+    },
+    {
+      "url": "https://mdchartsehr.com/management/",
+      "type": "vendor-website",
+      "note": "Management team page. Aaron Wachspress (CTO, founder, 35+ years experience, previously founded Universal EHR Solutions). Mago Saldana (Senior Business Analyst, 150+ EHR implementations). Jacqueline Lally (Senior Revenue Cycle Manager, 8+ years medical billing). Small team."
+    },
+    {
+      "url": "https://mdchartsehr.com/blog/specialty-specific-ehr-software-why-dermatologists-love-md-charts/",
+      "type": "vendor-blog",
+      "note": "Blog post on dermatology features. Specialty templates for skin conditions, lesion details, biopsy reports, treatment plans. Integrated image management. Automated coding suggestions, e-prescribing, lab integration, dermatology-specific order sets. Analytics for diagnosis trends, treatment outcomes, medication usage."
+    },
+    {
+      "url": "https://www.findemr.com/md-charts-software",
+      "type": "third-party-review",
+      "note": "FindEMR profile. Cloud-based EHR and PM for ambulatory practices. 100+ customizable templates. Serves dermatology, pediatrics, OB-GYN, cardiology, hematology/oncology, internal medicine, gastroenterology, pulmonology. Patient portal, billing, e-prescriptions, telemedicine, MIPS."
+    },
+    {
+      "url": "https://mdchartsehr.com/blog/md-charts-a-top-choice-in-the-12-best-dermatology-emr-shortlist/",
+      "type": "vendor-blog",
+      "note": "Blog post noting MD Charts ranked in top 12 dermatology EMRs. Referenced via search results."
+    },
+    {
+      "url": "https://www.linkedin.com/company/mdcharts",
+      "type": "company-profile",
+      "note": "LinkedIn profile. 11-50 employees, privately held, Great Neck NY. Founded 2002. Referenced via search results (not fetched directly)."
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "collection_date": "2026-02-14",
+  "url": "https://mraemr.com:47102/api/DataExportGuidance.asp",
+  "final_url": null,
+  "access_status": "dead",
+  "files": [
+    {
+      "path": "downloads/screenshot-port-47102-unreachable.png",
+      "source_url": "https://mraemr.com:47102/api/DataExportGuidance.asp",
+      "size_bytes": 52409,
+      "description": "Browser screenshot showing ERR_ADDRESS_UNREACHABLE when attempting to navigate to the registered EHI export documentation URL on port 47102",
+      "curl_command": null
+    },
+    {
+      "path": "downloads/screenshot-mraemr-cert-invalid.png",
+      "source_url": "https://mraemr.com",
+      "size_bytes": 73683,
+      "description": "Browser screenshot showing ERR_CERT_DATE_INVALID when attempting to navigate to mraemr.com on the standard HTTPS port, demonstrating the domain is alive but has an expired SSL certificate",
+      "curl_command": null
+    },
+    {
+      "path": "downloads/screenshot-why-mdcharts-page.png",
+      "source_url": "https://mdchartsehr.com/why-mdcharts/",
+      "size_bytes": 1578510,
+      "description": "Full-page screenshot of the vendor's 'Why MD Charts' page on their marketing site, which contains the ONC certification section with the dead mandatory disclosures link. This is the closest thing to a compliance/certification page on the vendor's public website, but contains no EHI export documentation.",
+      "curl_command": "curl -sL 'https://mdchartsehr.com/why-mdcharts/' -H 'User-Agent: Mozilla/5.0'"
+    }
+  ]
+}
