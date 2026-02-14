@@ -54,8 +54,8 @@ ONC requirements:
   problems, medications, allergies, labs, vitals, etc.
 - **170.315(b)(10)** requires export of **all electronic health information**
   the product stores — not just US Core, not just USCDI, but *everything*:
-  billing, scheduling, images, custom forms, audit logs, specialty-specific
-  data, administrative records, whatever the system holds.
+  billing, images, custom forms, audit logs, specialty-specific
+  data, administrative records, and more.
 
 The (b)(10) export doesn't need to be FHIR. It doesn't need to be standardized
 at all. A SQL dump or CSV export of every table would satisfy the requirement
@@ -65,7 +65,7 @@ When you find a vendor pointing to their FHIR Bulk Data endpoint as their EHI
 export, ask: does this actually cover everything? Or is it just the US Core
 slice? Look for signs:
 - The documentation only mentions US Core / USCDI resource types
-- There's no mention of billing, scheduling, audit, or specialty data
+- There's no mention of billing, audit, or specialty-specific data
 - The export endpoint is the same as their (g)(10) certified API
 - The data dictionary (if any) maps only to standard FHIR resources
 
