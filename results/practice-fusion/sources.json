@@ -1,0 +1,80 @@
+{
+  "research_date": "2026-02-14",
+  "sources": [
+    {
+      "url": "https://www.practicefusion.com",
+      "type": "vendor-website",
+      "note": "Main site. Product overview, pricing ($199/mo per provider). Cloud-based EHR for small ambulatory practices."
+    },
+    {
+      "url": "https://www.practicefusion.com/onc-certified-ehr/",
+      "type": "mandatory-disclosures",
+      "note": "ONC mandatory disclosures. Lists additional required software: Updox, Veradigm FollowMyHealth, MedAllies. CHPL listing link."
+    },
+    {
+      "url": "https://www.practicefusion.com/about/",
+      "type": "vendor-website",
+      "note": "Company history and stats: 30K practices, 112K+ professionals, 5M patients/month, 300+ free clinics."
+    },
+    {
+      "url": "https://www.practicefusion.com/why-practice-fusion/",
+      "type": "vendor-website",
+      "note": "Features overview: charting, e-prescribing, lab integration, scheduling, portal, billing, reporting, 600+ developer marketplace."
+    },
+    {
+      "url": "https://www.practicefusion.com/unique-ehr-solutions/",
+      "type": "vendor-website",
+      "note": "Product tiers (EHR+Billing Services, EHR+Billing Software, Standalone EHR, ePrescribe). Reporting categories. Support model."
+    },
+    {
+      "url": "https://www.practicefusion.com/ehr-with-billing-solutions/",
+      "type": "vendor-website",
+      "note": "Billing details: managed RCM service with claims scrubbing, denial management, payment posting. Per-visit pricing. Also self-service billing software option."
+    },
+    {
+      "url": "https://www.practicefusion.com/ehr/physician-specialties/",
+      "type": "vendor-website",
+      "note": "Complete list of 53+ supported specialties from primary care to surgery to behavioral health."
+    },
+    {
+      "url": "https://www.practicefusion.com/fhir/",
+      "type": "vendor-website",
+      "note": "FHIR R4 API overview and developer registration page."
+    },
+    {
+      "url": "https://veradigm.com/practice-fusion-ehr/",
+      "type": "vendor-website",
+      "note": "Veradigm parent company positioning of Practice Fusion. Confirms it as a Veradigm Network solution."
+    },
+    {
+      "url": "https://investor.veradigm.com/news-releases/news-release-details/allscripts-acquire-practice-fusion-business-0",
+      "type": "press-release",
+      "note": "Allscripts acquisition announcement (January 2018, $100M purchase price)."
+    },
+    {
+      "url": "https://investor.veradigm.com/news-releases/news-release-details/allscripts-announces-corporate-name-change-veradigm-inc",
+      "type": "press-release",
+      "note": "Allscripts renamed to Veradigm Inc. (January 2023)."
+    },
+    {
+      "url": "https://www.justice.gov/archives/opa/pr/electronic-health-records-vendor-pay-145-million-resolve-criminal-and-civil-investigations-0",
+      "type": "government",
+      "note": "DOJ $145M settlement (January 2020) for Anti-Kickback Statute violations — opioid-steering clinical decision support alerts."
+    },
+    {
+      "url": "https://www.prnewswire.com/news-releases/practice-fusion-is-the-market-share-leader-for-solo-and-small-clinician-practices-300101205.html",
+      "type": "press-release",
+      "note": "Market share data: 12% for 1-3 clinician practices, largest in solo provider segment."
+    },
+    {
+      "url": "https://www.emrsystems.net/blog/practice-fusion-ehr-software-2024-review/",
+      "type": "third-party-review",
+      "note": "Third-party review aggregation. User feedback on ease of use, customization, and feature set."
+    },
+    {
+      "url": "https://www.practicefusion.com/ehi-export-documentation/v9/index/",
+      "type": "vendor-documentation",
+      "note": "EHI export schema listing 89 TSV files across 8 categories. Reveals detailed data model (demographics, clinical, billing, labs, meds, referrals, messaging)."
+    }
+  ]
+}

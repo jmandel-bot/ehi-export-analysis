@@ -1,0 +1,71 @@
+{
+  "collection_date": "2026-02-14",
+  "url": "https://www.practicefusion.com/ehi-export-documentation/",
+  "final_url": "https://www.practicefusion.com/ehi-export-documentation/",
+  "access_status": "found",
+  "files": [
+    {
+      "path": "downloads/ehi-export-documentation-main.html",
+      "source_url": "https://www.practicefusion.com/ehi-export-documentation/",
+      "size_bytes": 33892,
+      "description": "Main EHI Export Documentation landing page listing all 9 versions (v1-v9)",
+      "curl_command": "curl -sL 'https://www.practicefusion.com/ehi-export-documentation/' -H 'User-Agent: Mozilla/5.0' -o ehi-export-documentation-main.html"
+    },
+    {
+      "path": "downloads/v9-index.html",
+      "source_url": "https://www.practicefusion.com/ehi-export-documentation/v9/index/",
+      "size_bytes": 48342,
+      "description": "v9 index page listing all 85 TSV files organized in 8 categories with descriptions",
+      "curl_command": "curl -sL 'https://www.practicefusion.com/ehi-export-documentation/v9/index/' -H 'User-Agent: Mozilla/5.0' -o v9-index.html"
+    },
+    {
+      "path": "downloads/v9-data-dictionary.json",
+      "source_url": "https://www.practicefusion.com/ehi-export-documentation/v9/index/",
+      "size_bytes": 210497,
+      "description": "Extracted structured data dictionary: 85 tables, 1165 fields with names, types, and descriptions. Parsed from all 85 HTML subpages into a single JSON file.",
+      "curl_command": null
+    },
+    {
+      "path": "downloads/v9-pages/",
+      "source_url": "https://www.practicefusion.com/ehi-export-documentation/v9/",
+      "size_bytes": 3036349,
+      "description": "Directory containing 86 HTML subpages (85 table-specific pages + index), each with field-level data dictionary tables",
+      "curl_command": null
+    },
+    {
+      "path": "downloads/screenshot-main-page.png",
+      "source_url": "https://www.practicefusion.com/ehi-export-documentation/",
+      "size_bytes": 237149,
+      "description": "Screenshot of main EHI Export Documentation landing page (viewport)",
+      "curl_command": null
+    },
+    {
+      "path": "downloads/screenshot-main-page-full.png",
+      "source_url": "https://www.practicefusion.com/ehi-export-documentation/",
+      "size_bytes": 282657,
+      "description": "Full-page screenshot of main EHI Export Documentation landing page",
+      "curl_command": null
+    },
+    {
+      "path": "downloads/screenshot-v9-index.png",
+      "source_url": "https://www.practicefusion.com/ehi-export-documentation/v9/index/",
+      "size_bytes": 1215979,
+      "description": "Full-page screenshot of v9 index showing all 85 TSV files by category",
+      "curl_command": null
+    },
+    {
+      "path": "downloads/screenshot-v9-patient-demographics.png",
+      "source_url": "https://www.practicefusion.com/ehi-export-documentation/v9/patient-demographics/",
+      "size_bytes": 671203,
+      "description": "Full-page screenshot of patient-demographics.tsv field documentation (50 fields)",
+      "curl_command": null
+    },
+    {
+      "path": "downloads/screenshot-v9-patient-superbills.png",
+      "source_url": "https://www.practicefusion.com/ehi-export-documentation/v9/patient-superbills/",
+      "size_bytes": 951032,
+      "description": "Full-page screenshot of patient-superbills.tsv field documentation (70 fields, largest table)",
+      "curl_command": null
+    }
+  ]
+}
