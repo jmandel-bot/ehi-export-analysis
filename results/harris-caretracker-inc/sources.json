@@ -1,0 +1,70 @@
+{
+  "research_date": "2026-02-14",
+  "sources": [
+    {
+      "url": "https://harriscaretracker.com/",
+      "type": "vendor-website",
+      "note": "Main website. Describes CareTracker as all-in-one cloud-based EHR + PM + RCM for ambulatory practices. Lists specialties, key features, 600+ integrations, 20+ years serving thousands of providers."
+    },
+    {
+      "url": "https://harriscaretracker.com/certified-technology/",
+      "type": "mandatory-disclosures",
+      "note": "ONC certification details, version 9, certified July 2018. Lists third-party dependencies (Surescripts, DrFirst, Iron Bridge, EMR Direct) and bundled content (Krames, IMO, Crystal Reporting, Medicomp Medcin, Medi-Span). Discloses additional fees for ePrescribing, lab interfaces, registry interfaces."
+    },
+    {
+      "url": "https://harriscaretracker.com/electronic-health-records/",
+      "type": "vendor-website",
+      "note": "EHR feature page. Describes ambient listening/voice dictation, customizable specialty templates, integrated lab orders, e-prescribing, clinical decision support, telehealth, patient portal."
+    },
+    {
+      "url": "https://harriscaretracker.com/practice-management/",
+      "type": "vendor-website",
+      "note": "PM feature page. Details scheduling with online booking, automated reminders, integrated charge capture from clinical docs, electronic claim submission with scrubbing, ERA posting, denial management, financial analytics."
+    },
+    {
+      "url": "https://harriscaretracker.com/interfaces/",
+      "type": "vendor-website",
+      "note": "Interfaces page. Mentions demographics interface, state immunization registry interface, patient history interface. Claims 600+ integrations but doesn't list specific partners."
+    },
+    {
+      "url": "https://harriscaretracker.com/about-us/",
+      "type": "vendor-website",
+      "note": "Company history. Founded 1995 as Lighthouse Medical Management in Providence, RI. Launched CareTracker EMR in 2007. Serves 1,600+ billing company partners. Now headquartered in Niagara Falls, NY."
+    },
+    {
+      "url": "https://harriscaretracker.com/patient-portal/",
+      "type": "vendor-website",
+      "note": "Patient portal page. Describes secure messaging, health record viewing, online appointment requests, prescription renewal requests, demographic updates, bill viewing and online payments. Included at no extra charge."
+    },
+    {
+      "url": "https://harriscaretracker.com/patient-engagement/",
+      "type": "vendor-website",
+      "note": "Patient engagement page. Describes CareTracker Connect and Connect Pro bundles via InteliChart partnership. Features: online scheduling, digital patient intake, automated notifications (SMS/email/voice), patient surveys."
+    },
+    {
+      "url": "https://www.csisoftware.com/category/press-releases/2019/01/23/constellation-acquires-caretracker-inc",
+      "type": "press-release",
+      "note": "Constellation Software press release about acquiring CareTracker Inc. (subsidiary of OptumInsight) through Harris Computer in December 2014. Notes it expanded Harris's hospital business (QuadraMed) into ambulatory market."
+    },
+    {
+      "url": "https://www.globenewswire.com/news-release/2014/12/29/1475065/0/en/Constellation-Acquires-CareTracker-Inc.html",
+      "type": "press-release",
+      "note": "GlobeNewsWire press release on the CareTracker acquisition by Constellation/Harris. Confirms CareTracker was OptumInsight subsidiary, SaaS platform, same employee group retained in Providence, RI."
+    },
+    {
+      "url": "https://www.findemr.com/harris-caretracker",
+      "type": "third-party-review",
+      "note": "Software Finder listing. Pricing: EHR $245/mo per provider, PM $399/mo per provider. Lists features including eRx, EPCS, ETOR, collections module, internal messaging, telehealth. Supported specialties: internal medicine, family practice, GI, pulmonology, orthopedics. User sentiment: billing/RCM strong, interface clunky, support/reliability weak."
+    },
+    {
+      "url": "https://www.capterra.com/p/209168/Harris-CareTracker/reviews/",
+      "type": "third-party-review",
+      "note": "Capterra reviews page (403 blocked but search snippets provided). Users praise billing/claims processing and customer training. Complaints about slowness, note corruption, and interface challenges."
+    },
+    {
+      "url": "https://www.softwareadvice.com/medical/caretracker-profile/",
+      "type": "third-party-review",
+      "note": "Software Advice listing (search result only). Confirms general review presence for Harris CareTracker."
+    }
+  ]
+}

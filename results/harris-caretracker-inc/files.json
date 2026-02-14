@@ -1,0 +1,15 @@
+{
+  "collection_date": "2026-02-14",
+  "url": "https://harriscaretracker.com/wp-content/uploads/2024/02/CareTracker-EHI-Export-Documentation-V1_0-1-1.pdf",
+  "final_url": "https://harriscaretracker.com/wp-content/uploads/2024/02/CareTracker-EHI-Export-Documentation-V1_0-1-1.pdf",
+  "access_status": "found",
+  "files": [
+    {
+      "path": "downloads/CareTracker-EHI-Export-Documentation-V1_0-1-1.pdf",
+      "source_url": "https://harriscaretracker.com/wp-content/uploads/2024/02/CareTracker-EHI-Export-Documentation-V1_0-1-1.pdf",
+      "size_bytes": 177610,
+      "description": "EHI Export data format specification (v1.0). 8-page PDF documenting the folder organization and column headings for 38+ data classes exported in CSV/JSON/XML format. Covers clinical, billing, scheduling, demographic, and administrative data domains.",
+      "curl_command": "curl -sL 'https://harriscaretracker.com/wp-content/uploads/2024/02/CareTracker-EHI-Export-Documentation-V1_0-1-1.pdf' -H 'User-Agent: Mozilla/5.0' -o CareTracker-EHI-Export-Documentation-V1_0-1-1.pdf"
+    }
+  ]
+}
