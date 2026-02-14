@@ -1,0 +1,90 @@
+{
+  "research_date": "2026-02-14",
+  "sources": [
+    {
+      "url": "https://www.carecloud.com",
+      "type": "vendor-website",
+      "note": "Main company page. Lists core products: EHR (Charts), RCM, Practice Management, Breeze (patient engagement), telehealth, AI tools (cirrusAI, stratusAI). States 40,000+ providers. Mentions Medsphere acquisition."
+    },
+    {
+      "url": "https://carecloud.com/cost-and-fees-information/",
+      "type": "mandatory-disclosures",
+      "note": "ONC mandatory disclosures page. References talkEHR as ONC-certified product. Lists CHPL ID 15.04.04.2790.Clou.02.02.1.240821. Notes integration with Surescripts, EMR Direct, MedlinePlus. CCM and RPM add-on pricing. No additional fees for base product. WCAG 2.0 AA compliant."
+    },
+    {
+      "url": "https://carecloud.com/ehr/features/",
+      "type": "vendor-website",
+      "note": "EHR features page. Details flexible charting, CDS, integrated order sets, unified inbox, advanced reporting, population health, quality tracking, cirrusAI Notes/Assist/Summary."
+    },
+    {
+      "url": "https://carecloud.com/ehr/",
+      "type": "vendor-website",
+      "note": "Main EHR page. Shows three separate login portals: CareCloud (Charts), talkEHR, Archivus — suggesting distinct platforms. Lists specialties: Internal Medicine, Family Practice, Urgent Care, General Surgery."
+    },
+    {
+      "url": "https://carecloud.com/practice-management/",
+      "type": "vendor-website",
+      "note": "Practice management page (CareCloud Central). Smart scheduling, CollectiveIQ claim scrubbing, contract management, insurance eligibility, real-time analytics, automated billing."
+    },
+    {
+      "url": "https://carecloud.com/breeze/",
+      "type": "vendor-website",
+      "note": "Breeze patient experience platform. Online scheduling, digital intake forms, two-way text messaging, automated reminders, multiple payment options, telehealth integration, remote patient monitoring."
+    },
+    {
+      "url": "https://carecloud.com/community/",
+      "type": "vendor-website",
+      "note": "CareCloud Community — patient engagement and collaboration tools. Secure patient portal, real-time staff chat, patient acquisition, community manager. Patients access clinical records, appointments, billing, lab results."
+    },
+    {
+      "url": "https://carecloud.com/onc-certified-ehr/",
+      "type": "vendor-website",
+      "note": "ONC certification page. Confirms Charts is ONC-certified. Links to Real World Test Plans, API docs, §170.315(b)(10) EHI export documentation. Three login portals: CareCloud, talkEHR, Archivus."
+    },
+    {
+      "url": "https://carecloud.com/cc-prime/",
+      "type": "vendor-website",
+      "note": "CareCloud Prime marketing page. Describes Prime as 'the pinnacle of EHR platforms.' $249/provider/month. AI-driven via cirrusAI, customizable templates, telehealth, lab/pharmacy integration, HIPAA-compliant."
+    },
+    {
+      "url": "https://carecloud.com/continuum/carecloud-year-end-review-2025/",
+      "type": "vendor-website",
+      "note": "2025 year-end review. Mentions CareCloud Prime received interoperability improvements in 2025. talkEHR got ONC certification for Critical Access Hospitals Aug 2025. cirrusAI and stratusAI launches. Medsphere acquisition closed Aug 2025."
+    },
+    {
+      "url": "https://www.business.com/reviews/carecloud-ehr/",
+      "type": "third-party-review",
+      "note": "Business.com review. 8.9/10 editor score. Highlights workflow efficiency, user-friendly interface, Breeze patient engagement, drag-and-drop scheduling."
+    },
+    {
+      "url": "https://www.emrsystems.net/blog/carecloud-ehr-software-2024-in-review/",
+      "type": "third-party-review",
+      "note": "EMRSystems 2024 review. Details four product tiers: Central, Charts, Complete, Concierge. Notes charting, e-prescribing, lab integration, billing/claims, scheduling, patient portal, secure messaging. 2024 interoperability improvements and UI overhaul."
+    },
+    {
+      "url": "https://www.globenewswire.com/news-release/2020/01/08/1968039/0/en/MTBC-Announces-Acquisition-of-CareCloud-Closes-its-Largest-Transaction-to-Date.html",
+      "type": "press-release",
+      "note": "MTBC's acquisition of CareCloud Corporation in Jan 2020 for up to $40M. CareCloud (original) served 7,000+ providers with PM, RCM, EHR, and patient experience management."
+    },
+    {
+      "url": "https://www.globenewswire.com/news-release/2025/08/25/3138413/0/en/CareCloud-Closes-Medsphere-Acquisition-Expanding-into-the-Hospital-IT-Market.html",
+      "type": "press-release",
+      "note": "Medsphere acquisition closed Aug 2025. Adds CareVue (inpatient EHR), Wellsoft (ED), HealthLine (supply chain), ChartLogic (ambulatory EHR), managed IT. 600+ clients across 50 states."
+    },
+    {
+      "url": "https://www.globenewswire.com/en/news-release/2022/11/08/2551045/16541/en/CareCloud-s-Electronic-Health-Record-Solutions-Earn-Latest-ONC-Certification.html",
+      "type": "press-release",
+      "note": "Nov 2022 press release. CareCloud earned ONC certification for VertexDR and talkEHR, compliant with 21st Century Cures Act. Mentions Charts certification met Dec 2022 deadline."
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/CareCloud",
+      "type": "reference",
+      "note": "Wikipedia article (403 error on fetch but details found via search). Founded 1999 as MTBC. IPO 2014. 16+ acquisitions. Renamed to CareCloud 2021. ~4,000 employees. HQ Somerset, NJ."
+    },
+    {
+      "url": "https://www.medesk.net/en/blog/carecloud-review/",
+      "type": "third-party-review",
+      "note": "Medesk review of CareCloud. Covers pros, cons, customer experience. Notes billing system strength, practice management, patient engagement tools."
+    }
+  ]
+}

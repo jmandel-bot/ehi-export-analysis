@@ -1,0 +1,29 @@
+{
+  "collection_date": "2026-02-14",
+  "url": "https://www.carecloud.com/cc-prime/",
+  "final_url": "https://carecloud.com/cc-prime/",
+  "access_status": "found",
+  "files": [
+    {
+      "path": "downloads/certification_b10_ehi_export_documentation.pdf",
+      "source_url": "https://carecloud.com/wp-content/uploads/2014/08/certification_-___170.315_b__10__electronic_health_information_export_-_documentation-1-1-1.pdf",
+      "size_bytes": 1152100,
+      "description": "The primary EHI export documentation PDF (12 pages, v2.0). Contains: overview of the multi-format export approach (C-CDA XML for clinical data, PDF for non-clinical data, FHIR mentioned); step-by-step export instructions with UI screenshots for single-patient and bulk export; a C-CDA data dictionary mapping ~20 CDA sections to XPATHs and code systems (demographics, problems, medications, allergies, labs, vitals, immunizations, procedures, encounters, care team, goals, etc.); brief descriptions of PDF exports for demographics/insurance, appointments, billing, messages, and documents; a single-sentence mention of FHIR Bulk Data EHI Export.",
+      "curl_command": "curl -sL 'https://carecloud.com/wp-content/uploads/2014/08/certification_-___170.315_b__10__electronic_health_information_export_-_documentation-1-1-1.pdf' -H 'User-Agent: Mozilla/5.0' -o certification_b10_ehi_export_documentation.pdf"
+    },
+    {
+      "path": "downloads/screenshot-cc-prime-page-top.png",
+      "source_url": "https://carecloud.com/cc-prime/",
+      "size_bytes": 858685,
+      "description": "Screenshot of the top of the registered URL page showing it is a CareCloud Prime marketing/product page, not a dedicated EHI documentation page.",
+      "curl_command": null
+    },
+    {
+      "path": "downloads/screenshot-footer-ehi-link.png",
+      "source_url": "https://carecloud.com/cc-prime/",
+      "size_bytes": 200752,
+      "description": "Screenshot of the page footer where the EHI export PDF link is located, under 'Real World Testing Plan' heading alongside Real World Testing Plan 2025 and Result 2025 PDF links.",
+      "curl_command": null
+    }
+  ]
+}
