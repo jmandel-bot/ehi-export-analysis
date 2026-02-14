@@ -1,0 +1,80 @@
+{
+  "research_date": "2026-02-14",
+  "sources": [
+    {
+      "url": "https://streamlinehealthcare.com/",
+      "type": "vendor-website",
+      "note": "Main homepage. Describes SmartCare as cloud-based behavioral health and human services EHR. Lists key modules, target communities, and customer testimonials from Valley Oaks Health, George Junior Republic, and The Nord Center."
+    },
+    {
+      "url": "https://www.streamlinehealthcare.com/meaningful-use/",
+      "type": "mandatory-disclosures",
+      "note": "ONC mandatory disclosures page. Lists SmartCare R6 certification details, certification number, certifying body (Drummond Group), certification date (2022-09-15), certified criteria, supported CQMs, and cost disclosures (licensing, implementation, hosting, customization fees)."
+    },
+    {
+      "url": "https://streamlinehealthcare.com/smartcare-ehr/",
+      "type": "vendor-website",
+      "note": "SmartCare EHR overview page. Describes core modules: clinical care management, revenue cycle management, inpatient/residential, IOP, primary care integration, business intelligence, ePrescribing, mobile, telehealth, patient portal."
+    },
+    {
+      "url": "https://streamlinehealthcare.com/smartcare-ehr/platform/",
+      "type": "vendor-website",
+      "note": "Platform architecture page. Details cloud infrastructure on Azure, single-tenant architecture, web-based access, subscription model. Lists all modules and target communities."
+    },
+    {
+      "url": "https://streamlinehealthcare.com/electronic-health-record/",
+      "type": "vendor-website",
+      "note": "EHR features page. Describes dashboard, clinical documentation, electronic signatures, integrated platform for outpatient/inpatient/residential/primary care. Relatively high-level."
+    },
+    {
+      "url": "https://streamlinehealthcare.com/solutions/primary-care-integration/",
+      "type": "vendor-website",
+      "note": "Primary care integration page. Details scheduling, referral tracking, flow sheets, order entry, progress notes, problem tracking, health maintenance templates, physician dashboard, ePrescribing via Surescripts, standardized coding (SNOMED CT, LOINC, RxNorm, ICD-10-CM)."
+    },
+    {
+      "url": "https://streamlinehealthcare.com/smartcare-ehr/client-tracking/",
+      "type": "vendor-website",
+      "note": "Client tracking module page. Describes compliance monitoring with automated flags, due date tracking, recurring document tracking, automatic protocol application at client status transitions."
+    },
+    {
+      "url": "https://streamlinehealthcare.com/communities/behavioral-health/",
+      "type": "vendor-website",
+      "note": "Behavioral health community page. Emphasizes single-platform approach, customizable workflows, multiple service types supported (CCBHC, SUD, foster care, IDD, MCO)."
+    },
+    {
+      "url": "https://streamlinehealthcare.com/managed-behavioral-health-mco/",
+      "type": "vendor-website",
+      "note": "MCO module page. Details provider management, claims processing (837/835), client information management, authorization tracking, utilization management, capitated arrangements, population-level management."
+    },
+    {
+      "url": "https://streamlinehealthcare.com/streamline-smartcare/",
+      "type": "vendor-website",
+      "note": "SmartCare overview page. Lists all modules and solution areas, target communities, implementation and customer success services."
+    },
+    {
+      "url": "https://softwarefinder.com/emr-software/smartcare",
+      "type": "third-party-review",
+      "note": "SoftwareFinder profile. Notes AI-powered documentation via Eleos Health integration. Reports user sentiment: 60% positive on support, 55% negative on performance/lag, 50% negative on learning curve, 45% negative on cost. Describes target market as multi-site behavioral health agencies."
+    },
+    {
+      "url": "https://www.emrsystems.net/smartcare-by-streamline/",
+      "type": "third-party-review",
+      "note": "EMRSystems profile. General overview of SmartCare features. Users mention clean interface, flexible reporting, compliance tools, clinical decision support, auto-population of assessments and care plans."
+    },
+    {
+      "url": "https://www.itqlick.com/smartcare-by-streamline-software",
+      "type": "third-party-review",
+      "note": "ITQlick profile. Rates SmartCare 4.5/5 stars, ranked 82 out of 693 in Medical systems category."
+    },
+    {
+      "url": "https://rocketreach.co/streamline-healthcare-solutions-profile_b5c269bff42e0ef7",
+      "type": "company-profile",
+      "note": "Company profile indicating approximately 390 employees and $56.1M annual revenue (2025 estimate). Founded 2003, headquartered Oak Brook, IL."
+    },
+    {
+      "url": "https://getlatka.com/companies/streamlinehealthcare.com",
+      "type": "company-profile",
+      "note": "Latka company profile. Reports $67.4M revenue (December 2023) with 428 employees."
+    }
+  ]
+}
