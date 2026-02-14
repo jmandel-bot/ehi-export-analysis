@@ -1,0 +1,50 @@
+{
+  "collection_date": "2026-02-14",
+  "url": "https://pulseinc.com/terms-conditions-certification-costs-and-limitations/",
+  "final_url": "https://pulseinc.com/terms-conditions-certification-costs-and-limitations/",
+  "access_status": "found",
+  "files": [
+    {
+      "path": "downloads/Pulse_CommonClinicalDataAPI-002.pdf",
+      "source_url": "https://pulseinc.com/wp-content/uploads/2024/06/63b433c15bacad3a0c435e8c_Pulse_CommonClinicalDataAPI-002.pdf",
+      "size_bytes": 430346,
+      "description": "Pulse Common Clinical Data API Implementation Guide v1.0 (11/21/2022). 10-page PDF describing a proprietary REST API for retrieving CCD/CCDA documents. Uses POST requests, OAuth 2.0 auth, returns base64-encoded XML. This is for (g)(7)/(g)(9) API access, not the (b)(10) EHI export.",
+      "curl_command": "curl -sL 'https://pulseinc.com/wp-content/uploads/2024/06/63b433c15bacad3a0c435e8c_Pulse_CommonClinicalDataAPI-002.pdf' -H 'User-Agent: Mozilla/5.0' -o Pulse_CommonClinicalDataAPI-002.pdf"
+    },
+    {
+      "path": "downloads/Pulse-8.0-API-FHIR-Documentation.pdf",
+      "source_url": "https://harrisambulatory.com/wp-content/uploads/2023/01/Pulse-8.0-API-FHIR-Documentation.pdf",
+      "size_bytes": 596628,
+      "description": "Pulse 8.0 FHIR API Documentation (10/31/2022). 41-page PDF describing the §170.315(g)(10) FHIR R4 API with US Core profiles. Covers standard USCDI resources (AllergyIntolerance, CarePlan, CareTeam, Condition, DocumentReference, Encounter, Goal, Immunization, DiagnosticReport, Medication, Patient, Procedure, Provenance, Observation, ImplantableDevice, VitalSigns). This is the (g)(10) API, not the (b)(10) export.",
+      "curl_command": "curl -sL 'https://harrisambulatory.com/wp-content/uploads/2023/01/Pulse-8.0-API-FHIR-Documentation.pdf' -H 'User-Agent: Mozilla/5.0' -o Pulse-8.0-API-FHIR-Documentation.pdf"
+    },
+    {
+      "path": "downloads/Pulse-EHI-Export-Document-REV-06142024.docx",
+      "source_url": "https://www.chs.net/_assets/docs/Pulse-EHI-Export-Document-REV-06142024.docx",
+      "size_bytes": 163795,
+      "description": "Pulse EHI Export Document (created May 2023, revised Sep 2023). 6-page Word document hosted by Community Health Systems (CHS) for Pulse v16.1. Describes the (b)(10) export as a CDA XML document, lists ~44 CDA sections included, and provides a sample XML snippet. Note: this is for a different Pulse version (16.1) than the Pulse Systems certified product (8.02), and is branded CHS/CereCore rather than Pulse Systems Inc.",
+      "curl_command": "curl -sL 'https://www.chs.net/_assets/docs/Pulse-EHI-Export-Document-REV-06142024.docx' -H 'User-Agent: Mozilla/5.0' -o Pulse-EHI-Export-Document-REV-06142024.docx"
+    },
+    {
+      "path": "downloads/screenshot-certification-page-top.png",
+      "source_url": "https://pulseinc.com/terms-conditions-certification-costs-and-limitations/",
+      "size_bytes": 246307,
+      "description": "Screenshot of the top of the registered certification/disclosures page showing the page header and beginning of certification criteria list.",
+      "curl_command": null
+    },
+    {
+      "path": "downloads/screenshot-certification-page-full.png",
+      "source_url": "https://pulseinc.com/terms-conditions-certification-costs-and-limitations/",
+      "size_bytes": 693843,
+      "description": "Full-page screenshot of the registered certification/disclosures page, showing all content including the three documentation links at the bottom: 'View API Documentation', 'View FHIR API Documentation', and 'View Electronic Health Information Export Documentation'.",
+      "curl_command": null
+    },
+    {
+      "path": "downloads/screenshot-ehi-export-link-target.png",
+      "source_url": "https://www.hl7.org/fhir/us/core/uscdi.html",
+      "size_bytes": 221872,
+      "description": "Screenshot showing where the 'View Electronic Health Information Export Documentation' link actually leads: the HL7 FHIR US Core USCDI page (an external standard reference, not vendor-specific EHI export documentation).",
+      "curl_command": null
+    }
+  ]
+}

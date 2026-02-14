@@ -1,0 +1,65 @@
+{
+  "research_date": "2026-02-14",
+  "sources": [
+    {
+      "url": "https://pulseinc.com",
+      "type": "vendor-website",
+      "note": "Main company page. Describes Pulse as part of Harris Ambulatory Care Enterprise family. Lists EHR, PM, RCM, and Population Health as core offerings. Claims thousands of providers served."
+    },
+    {
+      "url": "https://pulseinc.com/electronic-health-records/",
+      "type": "vendor-website",
+      "note": "EHR product page. Details customizable flow sheets, Pulse Note clinical engine, Patient Clinical Snapshot, CPOE, E&M coder, document/fax/transcription management. Mentions case studies in urology, gastro, ortho. Surescripts Gold Solution Provider."
+    },
+    {
+      "url": "https://pulseinc.com/practice-management/",
+      "type": "vendor-website",
+      "note": "PulsePro PM page. Describes scheduling, billing, coding, claims processing, workflow lists, patient reminders (Pulse Engage), insurance eligibility verification, analytics reporting."
+    },
+    {
+      "url": "https://pulseinc.com/revenue-cycle-management/",
+      "type": "vendor-website",
+      "note": "PulseRCM page. Claims 98% first-pass clean claims, 50% reduction in A/R days, 20% revenue increase. Certified coders, denial management, cloud or server deployment."
+    },
+    {
+      "url": "https://pulseinc.com/about-pulse/",
+      "type": "vendor-website",
+      "note": "About page. Founded 1997, headquarters in Kansas City MO. Part of Harris Ambulatory Care Enterprise. Includes Amazing Charts (acquired 2017 by Harris). Mission to simplify workflows."
+    },
+    {
+      "url": "https://pulseinc.com/terms-conditions-certification-costs-and-limitations/",
+      "type": "mandatory-disclosures",
+      "note": "ONC mandatory disclosures page. Lists certified criteria, associated costs (HISP certificates, patient portal monthly fees, e-prescribing fees, interface costs). Confirms CPOE, drug interaction checking, demographics, family health history, implantable device tracking."
+    },
+    {
+      "url": "https://pulseinc.com/population-health/",
+      "type": "vendor-website",
+      "note": "Population Health module page. CQM module, patient view feature, chronic care management, care gaps identification, practice-wide analytics, MACRA/MIPS support, CMS registry."
+    },
+    {
+      "url": "https://www.findemr.com/pulse-ehr-software",
+      "type": "third-party-review",
+      "note": "Review/listing site. Describes cloud-based PM software, customizable flow sheets, patient portal, lab integration, transcription management. Lists supported specialties including primary care, FQHCs, behavioral health, cardiology, oncology, orthopedics. Two user reviews — mixed feedback."
+    },
+    {
+      "url": "https://mergr.com/transaction/n-harris-computer-acquires-pulse-systems",
+      "type": "third-party-news",
+      "note": "Confirms N. Harris Computer acquired Pulse Systems from Cegedim in September 2019. Founded 1997, Kansas City based."
+    },
+    {
+      "url": "https://harrisambulatory.com/electronic-health-records/",
+      "type": "vendor-website",
+      "note": "Harris Ambulatory Group EHR page. Lists 7+ EHR products in portfolio including PrognoCIS, Amazing Charts, CareTracker, GEMMS, digiChart, Picasso. Pulse listed in navigation but not featured in main content. Confirms Pulse is one of several products in the Harris ambulatory portfolio."
+    },
+    {
+      "url": "https://www.pulseinc.com/resource/pulse-partners-intelichart-patient-portal-enhanced-patient-engagement",
+      "type": "vendor-website",
+      "note": "Press release about InteliChart patient portal partnership (returned 404 — page may have been removed). Partnership confirmed via search results: InteliChart provides 24/7 secure access to health records, lab results, educational materials."
+    },
+    {
+      "url": "https://www.intelichart.com/news-and-press/pulse-partners-with-intelichart-patient-portal-for-enhanced-patient-engagement",
+      "type": "third-party-news",
+      "note": "InteliChart press release confirming patient portal partnership with Pulse Systems. Found via search results but not directly fetched."
+    }
+  ]
+}
