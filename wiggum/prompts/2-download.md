@@ -234,20 +234,49 @@ How detailed is it? Summarize the substance — don't just list filenames,
 explain what the documentation tells you about the export.)
 
 ## Export Coverage Assessment
-(This is the most important section. Compare what you found in the export
-documentation against what the product research says this product stores.
 
-- What data domains are clearly covered by the export?
-- What data domains appear to be missing or not mentioned?
-- Is the export format appropriate for the data? (e.g., a FHIR IPS bundle
-  for a product that stores radiation therapy delivery records is a red flag)
-- Does the documentation describe a bulk export of everything, or a narrow
-  subset like a patient summary?
-- Are there ambiguities — data domains where you can't tell if they're
-  included or not?
+This is the most important section. It's why we did the product research
+first. Assess the export along several dimensions:
 
-Be specific. Don't just say "some data is missing" — name the domains.
-This analysis is why we did the product research first.)
+### Data Domain Coverage
+- What data domains from the product research are clearly covered?
+- What domains appear to be missing or not mentioned?
+- Does the export describe a bulk export of *everything*, or a narrow
+  subset like a patient summary or clinical data only?
+- Are there ambiguities — domains where you can't tell?
+- Be specific. Name the domains. "Billing data is absent" not "some data
+  is missing."
+
+### Export Format & Standards
+- What format does the export use? (FHIR, C-CDA, CSV, SQL dump, proprietary
+  XML, PDF, etc.)
+- Is it a recognized standard or an ad-hoc vendor format?
+- If FHIR: which resources, what profile constraints, what version?
+- If CSV/database dump: how are relationships between tables expressed?
+- Is the format appropriate for the data? (e.g., a FHIR IPS for a product
+  that stores radiation therapy physics data is a mismatch)
+- Could a third party actually reconstruct the patient record from this
+  export, or is critical context missing?
+
+### Documentation Quality
+- How readable and navigable is the documentation?
+- Is there a clear data dictionary with field-level definitions?
+- Are data types, value sets, and constraints specified?
+- Are there worked examples or sample export files?
+- Could a developer implement an import of this data based solely on
+  the documentation?
+- Is the documentation clearly maintained, or does it look like a
+  compliance checkbox?
+
+### Structure & Completeness
+- How granular is the field-level documentation? (just table names?
+  field names? data types? descriptions? cardinality?)
+- Are coded fields documented with their value sets?
+- Are relationships between entities documented?
+- Is there versioning or change history?
+
+Don't just answer these as a checklist — write a narrative assessment
+that paints a picture of how well this vendor has approached EHI export.
 
 ## Access Summary
 - Final URL (after redirects): ...
