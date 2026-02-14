@@ -1,0 +1,60 @@
+{
+  "research_date": "2026-02-14",
+  "sources": [
+    {
+      "url": "https://aarista.com/",
+      "type": "vendor-website",
+      "note": "Main landing page. Describes Aarista as technology-powered post-acute platform, highlights AI/ML capabilities, integrations with major EHR vendors, and key metrics (70k+ patients, 14 states)."
+    },
+    {
+      "url": "https://aarista.com/about/",
+      "type": "mandatory-disclosures",
+      "note": "ONC compliance page. Lists ONC certification via Drummond Group, SOC 2 attestation, links to EHI export documentation. Describes company as physician-led, based in Bellingham, WA."
+    },
+    {
+      "url": "https://aarista.com/features/",
+      "type": "vendor-website",
+      "note": "Detailed feature list. Covers clinical alerts, remote monitoring, smart scheduler, e-prescribing, e-faxing, EHR integration (PCC, MatrixCare, Epic, Cerner, etc.), practice management, specialty templates, revenue cycle management, and Aarista Academy."
+    },
+    {
+      "url": "https://aarista.com/solution/",
+      "type": "vendor-website",
+      "note": "Solution overview page. Describes EHR, telehealth, data analytics, and patient engagement modules. Emphasizes bringing inpatient standard of care to outpatient/post-acute settings."
+    },
+    {
+      "url": "https://aarista.com/provider-app-faqs/",
+      "type": "vendor-website",
+      "note": "Provider app FAQ. Mobile app for iOS/Android with access to patient profiles, schedules, health records, clinical notes, medications, lab results. Voice documentation (Smart Scribe) feature. QR code patient registration."
+    },
+    {
+      "url": "https://www.prnewswire.com/news-releases/hcap-partners-leads-investment-in-aarista-llc-302215167.html",
+      "type": "press-release",
+      "note": "August 2024 investment announcement. HCAP Partners leads investment. Aarista serves 70,000+ patients across 14 states in long-term care, skilled nursing, and assisted living. Real-time data from 200+ sources."
+    },
+    {
+      "url": "https://www.hcap.com/portfolio-company/aarista",
+      "type": "investor-page",
+      "note": "HCAP Partners portfolio page. Confirms Aarista as Fund V investment, describes as only Digital Health Platform using real-time patient data from 200+ sources with AI/ML."
+    },
+    {
+      "url": "https://alteahc.com/",
+      "type": "related-company",
+      "note": "Altea Healthcare homepage. Describes itself as leading provider of technology solutions and provider services for post-acute care. EHI export PDF hosted here. Connection to Aarista confirmed via shared CTO (Michael Mai)."
+    },
+    {
+      "url": "https://alteahc.com/product/",
+      "type": "related-company",
+      "note": "Altea Healthcare product page. Describes 'Connected Model' but limited detail. No explicit mention of Aarista on the page."
+    },
+    {
+      "url": "https://theorg.com/org/altea-healthcare/org-chart/mike-mai",
+      "type": "third-party-directory",
+      "note": "Confirms Michael Mai (Aarista developer contact) is CTO at Altea Healthcare, establishing the link between Aarista Technology LLC and Altea Healthcare."
+    },
+    {
+      "url": "https://apps.apple.com/us/app/aarista-provider/id6742305415",
+      "type": "app-store",
+      "note": "Aarista Provider App on Apple App Store. Found via search results, confirms mobile app existence."
+    }
+  ]
+}

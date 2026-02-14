@@ -1,0 +1,22 @@
+{
+  "collection_date": "2026-02-14",
+  "url": "https://alteahc.com/wp-content/uploads/2023/11/Aarista_EHI_Export-.pdf",
+  "final_url": "https://alteahc.com/wp-content/uploads/2023/11/Aarista_EHI_Export-.pdf",
+  "access_status": "dead",
+  "files": [
+    {
+      "path": "downloads/Aarista_EHI_Export.pdf",
+      "source_url": "https://web.archive.org/web/20240809132500/https://alteahc.com/wp-content/uploads/2023/11/Aarista_EHI_Export-.pdf",
+      "size_bytes": 183079,
+      "description": "EHI Export Data Dictionary — 8-page PDF listing 7 data tables (demographics, addresses, contacts, insurances, clinical/billing encounters, practice billing, practice clinical) with field names and SQL Server data types. Created 2023-11-28 by Michael Mai. This is the primary (and only) EHI export documentation for the product. Retrieved from Wayback Machine since the original URL returns 403.",
+      "curl_command": "curl -sL 'https://web.archive.org/web/20240809132500/https://alteahc.com/wp-content/uploads/2023/11/Aarista_EHI_Export-.pdf' -H 'User-Agent: Mozilla/5.0' -o Aarista_EHI_Export.pdf"
+    },
+    {
+      "path": "downloads/b10-Real-World-Test-Plan-2025.pdf",
+      "source_url": "https://web.archive.org/web/20250804180255/https://aarista.com/wp-content/uploads/2025/02/b10-Real-World-Test-Plan-2025-Electronic-Health-Info-Export.pdf",
+      "size_bytes": 204611,
+      "description": "Real World Testing Plan 2025 for b(10) Electronic Health Information Export — 5-page scanned PDF describing test methodology, care settings (ambulatory and post-acute), expected outcomes, and timeline (Jan–Dec 2025). Mentions export format as 'C-CDA files or FHIR APIs'. Signed by Michael Mai on 10/15/2024. Found on aarista.com/about/ mandatory disclosures page via Wayback Machine.",
+      "curl_command": "curl -sL 'https://web.archive.org/web/20250804180255/https://aarista.com/wp-content/uploads/2025/02/b10-Real-World-Test-Plan-2025-Electronic-Health-Info-Export.pdf' -H 'User-Agent: Mozilla/5.0' -o b10-Real-World-Test-Plan-2025.pdf"
+    }
+  ]
+}
