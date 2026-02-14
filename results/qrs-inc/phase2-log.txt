@@ -1748,3 +1748,47 @@ Now let me write the report and manifest.
 {
   "command": "cd /home/exedev/ehi-export-analysis && git add results/qrs-inc/ && git commit -m \"QRS, Inc. PARADIGM EHI export documentation collection\n\nDownloaded from https://www.qrshs.info (QRS Disclosures page):\n- PARADIGM EHI Export Documentation (6-page PDF, v1.0, Sept 2023)\n- PARADIGM FHIR API Documentation (27-page PDF, (g)(10) reference)\n- PARADIGM Patient API Documentation (6-page PDF, companion doc)\n- Screenshots of the disclosures page\n\nKey findings:\n- Export is ZIP containing C-CDA XML + JSON + original files per patient\n- JSON includes 'invoice history' (billing data) - unusual and positive\n- Documentation is minimal: 2 paragraphs of technical content, 4 pages of T&C\n- No data dictionary, no JSON schema, no sample exports\n- 'Include all EHI' checkbox suggests awareness of b(10) scope distinction\""
 }
+[RESULT: [main 0da50af0] QRS, Inc. PARADIGM EHI export documentation collection
+ Committer: exe.dev user <exedev@ehi-research.exe.xyz>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly:
+
+    git config --global user.name "Your Name"
+    git config --global user.email you@example.com
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 10 files changed, 4389 insertions(+)
+ create mode 100644 results/qrs-inc/chpl-metadata.json
+ create mode 100644 results/qrs-inc/downloads/PARADIGM_EHI_Export_Documentation.pdf
+ create mode 100644 results/qrs-inc/downloads/PARADIGM_FHIR_API_Documentation.pdf
+ create mode 100644 results/qrs-inc/downloads/PARADIGM_Patient_API_Documentation.pdf
+ create mode 100644 results/qrs-inc/downloads/screenshot_disclosures_page.png
+ create mode 100644 results/qrs-inc/downloads/screenshot_ehi_export_section.png
+ create mode 100644 results/qrs-inc/ehi-export-report.md
+ create mode 100644 results/qrs-inc/files.json
+ create mode 100644 results/qrs-inc/phase1-log.txt
+ create mode 100644 results/qrs-inc/phase2-log.txt
+]
+Done. Here's a summary of what I found:
+
+## Results
+
+**QRS, Inc. — PARADIGM® EHI Export Documentation**
+
+**Access**: Straightforward. The registered URL (https://www.qrshs.info) is a static HTML "QRS Disclosures" page with direct PDF links. No authentication, no JavaScript, no anti-bot issues.
+
+**Downloaded 3 PDFs + 2 screenshots:**
+1. **PARADIGM EHI Export Documentation** (6 pages) — the primary document
+2. **PARADIGM FHIR API Documentation** (27 pages) — (g)(10) reference
+3. **PARADIGM Patient API Documentation** (6 pages) — companion to EHI doc
+
+**Key findings:**
+
+- **Export format**: ZIP file containing C-CDA XML (clinical data), JSON (additional data like "invoice history"), and original imported files (PDF/PNG/etc.) per patient
+- **Positive signal**: The mention of "invoice history" JSON suggests billing data is included — unusual among vendors. An "include all EHI" checkbox suggests awareness of the (b)(10) vs (g)(10) distinction.
+- **Major gap**: The documentation is **extremely sparse** — only ~2 paragraphs of actual technical content out of a 6-page PDF (the rest is legal T&C). There is **no data dictionary, no JSON schema, no sample exports, no field-level documentation**. The JSON files (where the non-clinical data lives) are completely undocumented.
+- **Assessment**: The export mechanism itself may be more comprehensive than most vendors' efforts, but the documentation makes it impossible for a third party to verify this or consume the export reliably.
