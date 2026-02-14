@@ -1,9 +1,8 @@
 #!/usr/bin/env python3
-"""Build phased target lists from the master targets.json.
+"""Build phased target lists from CHPL bulk data.
 
-Phases are evaluated in order. Each phase defines filter criteria.
-A target matched by an earlier phase is excluded from later phases.
-This ensures every target appears in at most one phase.
+Filters at the PRODUCT level, then groups by URL. The same URL can appear
+in multiple phases with disjoint product subsets.
 
 Usage:
     python3 wiggum/build-phases.py
@@ -12,145 +11,174 @@ Outputs:
     work/phases/phase-{N}-{slug}.json   — target list for each phase
     work/phases/manifest.json           — summary of all phases
 """
-import json, os, sys
+import json, os
+from collections import defaultdict
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-TARGETS = os.path.join(ROOT, 'work', 'targets.json')
-METADIR = os.path.join(ROOT, 'work', 'target-metadata')
+BULK = os.path.join(ROOT, 'chpl-data', 'all-active-listings.json')
 OUTDIR = os.path.join(ROOT, 'work', 'phases')
+METADIR = os.path.join(ROOT, 'work', 'target-metadata')
+TARGETS = os.path.join(ROOT, 'work', 'targets.json')
 
-# ── Phase definitions ──────────────────────────────────────────────
-#
-# Each phase is a dict with:
-#   name     — human-readable label
-#   slug     — filename-safe identifier
-#   filter   — function(idx, target, meta) -> bool
-#   description — what this phase captures
-#
-# Phases are evaluated in order. A target matched by phase N is
-# excluded from phases N+1, N+2, etc.
-
-def has_any_criteria(meta, criteria_set):
-    """True if any product at this URL has any of the given criteria."""
-    for prod in meta.get('products', []):
-        if set(prod.get('certified_criteria', [])) & criteria_set:
-            return True
-    return False
-
-def has_all_criteria(meta, criteria_set):
-    """True if any single product at this URL has ALL of the given criteria."""
-    for prod in meta.get('products', []):
-        if criteria_set <= set(prod.get('certified_criteria', [])):
-            return True
-    return False
-
-def count_criteria(meta):
-    """Max number of certified criteria across all products at this URL."""
-    return max(
-        (len(prod.get('certified_criteria', [])) for prod in meta.get('products', [])),
-        default=0
-    )
-
+# ── Criteria sets ────────────────────────────────────────────
 CPOE = {'170.315 (a)(1)', '170.315 (a)(2)', '170.315 (a)(3)'}
 G10 = {'170.315 (g)(10)'}
-CLINICAL_A = {f'170.315 (a)({i})' for i in range(1, 15)}
-PATIENT_PORTAL = {'170.315 (e)(1)'}
-TRANSITIONS = {'170.315 (b)(1)', '170.315 (b)(2)', '170.315 (b)(3)'}
+
+def has_any(criteria, target_set):
+    return bool(criteria & target_set)
+
+# ── Phase definitions ────────────────────────────────────────
+# Each phase filters at the product level.
+# Products claimed by an earlier phase are excluded from later ones.
 
 PHASES = [
     {
         'name': 'Comprehensive EHRs',
         'slug': 'comprehensive-ehrs',
-        'description': (
-            'Products with CPOE certification [(a)(1)-(a)(3)] and '
-            'standardized FHIR API [(g)(10)]. These are full-featured EHR '
-            'systems with clinical decision support, order entry, and '
-            'standards-based API access — the core EHR market.'
-        ),
-        'filter': lambda idx, target, meta: (
-            has_any_criteria(meta, CPOE) and has_any_criteria(meta, G10)
+        'description': 'CPOE + FHIR API (g)(10), no additional software for b(10). '
+                       'Full-featured EHRs with their own EHI export.',
+        'filter': lambda p: (
+            has_any(p['criteria'], CPOE) and
+            has_any(p['criteria'], G10) and
+            not p['has_addl_software']
         ),
     },
     {
         'name': 'CPOE systems without FHIR API',
         'slug': 'cpoe-no-fhir',
-        'description': (
-            'Products with CPOE certification [(a)(1)-(a)(3)] but no '
-            'standardized FHIR API [(g)(10)]. EHRs with order entry '
-            'that haven\'t certified for API access — may be older '
-            'systems or vendors that skipped (g)(10).'
-        ),
-        'filter': lambda idx, target, meta: (
-            has_any_criteria(meta, CPOE)
+        'description': 'CPOE certified but no (g)(10), no additional software for b(10). '
+                       'EHRs with order entry that handle their own EHI export.',
+        'filter': lambda p: (
+            has_any(p['criteria'], CPOE) and
+            not has_any(p['criteria'], G10) and
+            not p['has_addl_software']
         ),
     },
     {
-        'name': 'API-only and specialty modules',
-        'slug': 'api-and-specialty',
-        'description': (
-            'Products with (g)(10) FHIR API but no clinical (a) criteria, '
-            'or products with patient portal, transitions of care, or '
-            'other non-clinical certifications. Includes patient portals, '
-            'health information exchanges, and middleware.'
-        ),
-        'filter': lambda idx, target, meta: (
-            has_any_criteria(meta, G10 | PATIENT_PORTAL | TRANSITIONS)
+        'name': 'Comprehensive EHRs (additional software)',
+        'slug': 'comprehensive-addl-sw',
+        'description': 'CPOE + (g)(10) but b(10) requires additional software. '
+                       'Full EHRs that rely on another product for EHI export.',
+        'filter': lambda p: (
+            has_any(p['criteria'], CPOE) and
+            has_any(p['criteria'], G10) and
+            p['has_addl_software']
         ),
     },
     {
-        'name': 'Minimal certification',
-        'slug': 'minimal',
-        'description': (
-            'Products certified only for (b)(10) EHI export plus '
-            'infrastructure criteria [(d), (g)(4), (g)(5)]. Minimal '
-            'clinical functionality certified — may be niche tools, '
-            'compliance-only certifications, or products early in '
-            'their certification journey.'
+        'name': 'CPOE systems (additional software)',
+        'slug': 'cpoe-addl-sw',
+        'description': 'CPOE but b(10) requires additional software.',
+        'filter': lambda p: (
+            has_any(p['criteria'], CPOE) and
+            p['has_addl_software']
         ),
-        'filter': lambda idx, target, meta: True,  # catch-all
+    },
+    {
+        'name': 'Other certified products',
+        'slug': 'other',
+        'description': 'Everything else: no CPOE. Patient portals, lab systems, '
+                       'specialty modules, minimal certifications.',
+        'filter': lambda p: True,  # catch-all
     },
 ]
 
-# ── Build phase lists ──────────────────────────────────────────────
+# ── Extract products from bulk data ──────────────────────────
 
-def main():
+def load_products():
+    with open(BULK) as f:
+        listings = json.load(f)
+
+    products = []
+    for l in listings:
+        b10 = None
+        for cr in l.get('certificationResults', []):
+            if cr.get('criterion', {}).get('number') == '170.315 (b)(10)' and cr.get('success'):
+                b10 = cr
+                break
+        if not b10:
+            continue
+
+        criteria = set()
+        for cr in l.get('certificationResults', []):
+            if cr.get('success'):
+                criteria.add(cr.get('criterion', {}).get('number', ''))
+
+        url = b10.get('exportDocumentation', '')
+        if not url:
+            continue
+
+        products.append({
+            'id': l['id'],
+            'developer': l.get('developer', {}).get('name', ''),
+            'product': l.get('product', {}).get('name', ''),
+            'version': l.get('version', {}).get('version', ''),
+            'url': url,
+            'criteria': criteria,
+            'has_addl_software': len(b10.get('additionalSoftware', [])) > 0,
+            'additional_software': [
+                {'name': a.get('name', ''), 'version': a.get('version', '')}
+                for a in b10.get('additionalSoftware', [])
+            ],
+        })
+
+    return products
+
+# ── Build URL-to-original-index mapping ──────────────────────
+
+def load_url_index_map():
+    """Map URL -> original index in targets.json (for metadata lookup)."""
     with open(TARGETS) as f:
         targets = json.load(f)
+    return {t['url']: idx for idx, t in enumerate(targets)}
 
-    # Load all metadata
-    metadata = {}
-    for idx in range(len(targets)):
-        meta_file = os.path.join(METADIR, f'{idx:04d}.json')
-        if os.path.exists(meta_file):
-            with open(meta_file) as f:
-                metadata[idx] = json.load(f)
+# ── Group products into URL-based targets ────────────────────
 
+def group_by_url(products, url_index_map):
+    """Group products by URL, producing target entries."""
+    by_url = defaultdict(list)
+    for p in products:
+        by_url[p['url']].append(p)
+
+    targets = []
+    for url, prods in sorted(by_url.items(), key=lambda x: -len(x[1])):
+        targets.append({
+            'url': url,
+            'developers': sorted(set(p['developer'] for p in prods)),
+            'products': sorted(set(p['product'] for p in prods)),
+            'chpl_ids': sorted(set(p['id'] for p in prods)),
+            'product_count': len(prods),
+            'original_index': url_index_map.get(url),
+        })
+
+    return targets
+
+# ── Main ─────────────────────────────────────────────────────
+
+def main():
+    products = load_products()
+    url_index_map = load_url_index_map()
     os.makedirs(OUTDIR, exist_ok=True)
 
-    claimed = set()  # indices already assigned to a phase
+    print(f'Total b(10) products with URLs: {len(products)}')
+    print(f'  No additional software: {sum(1 for p in products if not p["has_addl_software"])}')
+    print(f'  With additional software: {sum(1 for p in products if p["has_addl_software"])}')
+    print()
+
+    claimed = set()  # product IDs already assigned
     manifest = []
 
     for phase_num, phase_def in enumerate(PHASES, 1):
-        matched = []
-        for idx, target in enumerate(targets):
-            if idx in claimed:
-                continue
-            meta = metadata.get(idx, {})
-            if phase_def['filter'](idx, target, meta):
-                matched.append(idx)
+        matched = [p for p in products if p['id'] not in claimed and phase_def['filter'](p)]
+        for p in matched:
+            claimed.add(p['id'])
 
-        # Build the phase target list (same format as targets.json + index)
-        phase_targets = []
-        for idx in matched:
-            entry = dict(targets[idx])
-            entry['original_index'] = idx
-            phase_targets.append(entry)
-            claimed.add(idx)
+        targets = group_by_url(matched, url_index_map)
 
         slug = phase_def['slug']
         outfile = os.path.join(OUTDIR, f'phase-{phase_num}-{slug}.json')
         with open(outfile, 'w') as f:
-            json.dump(phase_targets, f, indent=2)
+            json.dump(targets, f, indent=2)
 
         manifest.append({
             'phase': phase_num,
@@ -158,28 +186,26 @@ def main():
             'slug': slug,
             'file': f'phase-{phase_num}-{slug}.json',
             'description': phase_def['description'],
-            'count': len(phase_targets),
+            'product_count': len(matched),
+            'url_count': len(targets),
         })
 
         print(f'Phase {phase_num}: {phase_def["name"]}')
-        print(f'  {len(phase_targets)} targets → {outfile}')
-        if phase_targets:
-            top = phase_targets[:5]
-            for t in top:
-                print(f'    [{t["original_index"]:3d}] {t["product_count"]:2d} products  {t["developers"][0][:50]}')
-            if len(phase_targets) > 5:
-                print(f'    ... and {len(phase_targets) - 5} more')
+        print(f'  {len(matched)} products, {len(targets)} URLs')
+        for t in targets[:5]:
+            print(f'    {t["product_count"]:2d} products  {t["developers"][0][:50]}')
+        if len(targets) > 5:
+            print(f'    ... and {len(targets) - 5} more')
         print()
 
-    unclaimed = set(range(len(targets))) - claimed
+    unclaimed = [p for p in products if p['id'] not in claimed]
     if unclaimed:
-        print(f'WARNING: {len(unclaimed)} targets not assigned to any phase')
+        print(f'WARNING: {len(unclaimed)} products not assigned to any phase')
 
     with open(os.path.join(OUTDIR, 'manifest.json'), 'w') as f:
         json.dump(manifest, f, indent=2)
 
     print(f'Manifest: {os.path.join(OUTDIR, "manifest.json")}')
-    print(f'Total: {len(targets)} targets across {len(PHASES)} phases')
 
 if __name__ == '__main__':
     main()

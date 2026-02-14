@@ -4,31 +4,44 @@
     "name": "Comprehensive EHRs",
     "slug": "comprehensive-ehrs",
     "file": "phase-1-comprehensive-ehrs.json",
-    "description": "Products with CPOE certification [(a)(1)-(a)(3)] and standardized FHIR API [(g)(10)]. These are full-featured EHR systems with clinical decision support, order entry, and standards-based API access \u2014 the core EHR market.",
-    "count": 207
+    "description": "CPOE + FHIR API (g)(10), no additional software for b(10). Full-featured EHRs with their own EHI export.",
+    "product_count": 233,
+    "url_count": 198
   },
   {
     "phase": 2,
     "name": "CPOE systems without FHIR API",
     "slug": "cpoe-no-fhir",
     "file": "phase-2-cpoe-no-fhir.json",
-    "description": "Products with CPOE certification [(a)(1)-(a)(3)] but no standardized FHIR API [(g)(10)]. EHRs with order entry that haven't certified for API access \u2014 may be older systems or vendors that skipped (g)(10).",
-    "count": 82
+    "description": "CPOE certified but no (g)(10), no additional software for b(10). EHRs with order entry that handle their own EHI export.",
+    "product_count": 91,
+    "url_count": 77
   },
   {
     "phase": 3,
-    "name": "API-only and specialty modules",
-    "slug": "api-and-specialty",
-    "file": "phase-3-api-and-specialty.json",
-    "description": "Products with (g)(10) FHIR API but no clinical (a) criteria, or products with patient portal, transitions of care, or other non-clinical certifications. Includes patient portals, health information exchanges, and middleware.",
-    "count": 40
+    "name": "Comprehensive EHRs (additional software)",
+    "slug": "comprehensive-addl-sw",
+    "file": "phase-3-comprehensive-addl-sw.json",
+    "description": "CPOE + (g)(10) but b(10) requires additional software. Full EHRs that rely on another product for EHI export.",
+    "product_count": 32,
+    "url_count": 10
   },
   {
     "phase": 4,
-    "name": "Minimal certification",
-    "slug": "minimal",
-    "file": "phase-4-minimal.json",
-    "description": "Products certified only for (b)(10) EHI export plus infrastructure criteria [(d), (g)(4), (g)(5)]. Minimal clinical functionality certified \u2014 may be niche tools, compliance-only certifications, or products early in their certification journey.",
-    "count": 120
+    "name": "CPOE systems (additional software)",
+    "slug": "cpoe-addl-sw",
+    "file": "phase-4-cpoe-addl-sw.json",
+    "description": "CPOE but b(10) requires additional software.",
+    "product_count": 22,
+    "url_count": 10
+  },
+  {
+    "phase": 5,
+    "name": "Other certified products",
+    "slug": "other",
+    "file": "phase-5-other.json",
+    "description": "Everything else: no CPOE. Patient portals, lab systems, specialty modules, minimal certifications.",
+    "product_count": 258,
+    "url_count": 177
   }
 ]

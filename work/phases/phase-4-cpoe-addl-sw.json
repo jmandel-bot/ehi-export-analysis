@@ -1,0 +1,174 @@
+[
+  {
+    "url": "https://www.darenasolutions.com/meldrx-onc-hti1-certified#b10-EHI-Export-Documentation",
+    "developers": [
+      "Amrita Ventures, LLC",
+      "Clinicmind Inc.",
+      "Complete Healthcare Solutions, Inc.",
+      "Doctorsoft Corporation",
+      "EZDERM, LLC",
+      "Ennoble Technologies LLC",
+      "FEI Systems",
+      "Lancman Solutions LLC",
+      "Raintree Systems, Inc.",
+      "Smoky Mountain Information Systems, LLC",
+      "eRAD, Inc."
+    ],
+    "products": [
+      "Amrita Hospital Information System",
+      "Clinicmind",
+      "Doctorsoft EHR",
+      "EZDERM",
+      "Epi-Management",
+      "Office Anywhere",
+      "PIMSY Platinum",
+      "Raintree",
+      "UnifiMD",
+      "Web Infrastructure for Treatment Services (WITS)",
+      "eRAD RIS"
+    ],
+    "chpl_ids": [
+      11047,
+      11050,
+      11071,
+      11085,
+      11124,
+      11125,
+      11169,
+      11185,
+      11392,
+      11474,
+      11764,
+      11768
+    ],
+    "product_count": 12,
+    "original_index": 2
+  },
+  {
+    "url": "https://pulsechecked.com/onc-certified/",
+    "developers": [
+      "Picis PulseCheck"
+    ],
+    "products": [
+      "PulseCheck ED"
+    ],
+    "chpl_ids": [
+      10761,
+      10762
+    ],
+    "product_count": 2,
+    "original_index": 59
+  },
+  {
+    "url": "https://www.darenasolutions.com/bluebuttonpro-onc-hti1-certification/#b10-EHI-Export-Documentation",
+    "developers": [
+      "Professional Imaging, LLC"
+    ],
+    "products": [
+      "PI EMR"
+    ],
+    "chpl_ids": [
+      11358
+    ],
+    "product_count": 1,
+    "original_index": 130
+  },
+  {
+    "url": "https://www.oracle.com/health/regulatory/certified-health-it/",
+    "developers": [
+      "Oracle Health"
+    ],
+    "products": [
+      "Oracle Health PowerChart Touch"
+    ],
+    "chpl_ids": [
+      10594
+    ],
+    "product_count": 1,
+    "original_index": 3
+  },
+  {
+    "url": "https://www.dynamichealthit.com/ehi-export",
+    "developers": [
+      "Empower Systems"
+    ],
+    "products": [
+      "Empower Inpatient+Ambulatory"
+    ],
+    "chpl_ids": [
+      11326
+    ],
+    "product_count": 1,
+    "original_index": 200
+  },
+  {
+    "url": "https://www.oracle.com/health/regulatory/certified-health-it/#ehi-export-lnk",
+    "developers": [
+      "Oracle Health"
+    ],
+    "products": [
+      "Oracle Health EHR"
+    ],
+    "chpl_ids": [
+      11702
+    ],
+    "product_count": 1,
+    "original_index": 21
+  },
+  {
+    "url": "https://www.advancedmd.com/medical-office-software/data-export/",
+    "developers": [
+      "AdvancedMD"
+    ],
+    "products": [
+      "AdvancedMD Mobile"
+    ],
+    "chpl_ids": [
+      11734
+    ],
+    "product_count": 1,
+    "original_index": 50
+  },
+  {
+    "url": "https://www.epowerdoc.com/compliance-and-roi/b10-solution",
+    "developers": [
+      "EPOWERdoc, Inc."
+    ],
+    "products": [
+      "EMRdoc"
+    ],
+    "chpl_ids": [
+      10781
+    ],
+    "product_count": 1,
+    "original_index": 292
+  },
+  {
+    "url": "https://www.holyname.org/Policy/ehi-export-file-format.aspx",
+    "developers": [
+      "Holy Name Medical Center"
+    ],
+    "products": [
+      "WebHIS"
+    ],
+    "chpl_ids": [
+      11224
+    ],
+    "product_count": 1,
+    "original_index": 314
+  },
+  {
+    "url": "https://www.myeyedata.com/Certification/",
+    "developers": [
+      "Ocuco Limited"
+    ],
+    "products": [
+      "Acuitas activEHR"
+    ],
+    "chpl_ids": [
+      11083
+    ],
+    "product_count": 1,
+    "original_index": 324
+  }
+]
