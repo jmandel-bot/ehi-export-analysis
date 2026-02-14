@@ -39,16 +39,29 @@ Everything at the registered URL that documents the EHI export. This includes:
 - **Unrelated regulatory documents** — real-world testing plans, SVAP notices, etc.
   unless they describe the export mechanism
 
-### Follow vendor-internal links
+### Follow links FROM the EHI export documentation
 
-If the documentation page links to other pages **on the same vendor's domain**
-(or clearly vendor-owned domains) that contain API docs, data dictionaries,
-or technical specifications for understanding the export — follow those links
-and download that content too. The goal is a self-contained archive.
+If the EHI export documentation itself links to other resources — whether on
+the same domain or elsewhere — follow those links and download the content.
+These are part of the export documentation.
 
-For example: if the EHI page links to `docs.vendorname.com/api/bulk-export/`,
-follow it and download the relevant pages. But if it links to
-`hl7.org/fhir/R4/patient.html`, skip it.
+For example: if the EHI data dictionary page links to
+`docs.vendorname.com/api/bulk-export/` or to a vendor-hosted FHIR
+Implementation Guide, follow it — the EHI docs are pointing you there for
+a reason.
+
+But **don't independently explore** the vendor's broader documentation universe.
+If you find your way to the vendor's FHIR API developer portal, general product
+docs, or other technical documentation that isn't linked from the EHI export
+page, don't go deep on it. Stay focused on what the EHI documentation itself
+references.
+
+The distinction:
+- EHI export page → links to FHIR bulk export docs → **follow it** (the EHI
+  docs are telling you this is how the export works)
+- EHI export page is on a certification page that also links to a FHIR API
+  developer portal → **don't deep-dive** (that's a separate (g)(10) concern,
+  not b(10) EHI export)
 
 ### Prefer computable formats
 
