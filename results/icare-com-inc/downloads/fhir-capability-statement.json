@@ -1,0 +1,102 @@
+{
+  "resourceType": "CapabilityStatement",
+  "version": "1771095140213",
+  "status": "active",
+  "date": "2026-02-14T10:52:20-08:00",
+  "publisher": "Not provided",
+  "kind": "instance",
+  "instantiates": [
+    "http://hl7.org/fhir/us/core/CapabilityStatement/us-core-server",
+    "http://hl7.org/fhir/uv/bulkdata/CapabilityStatement/bulk-data"
+  ],
+  "software": {
+    "name": "EMR Direct Interoperability Engine",
+    "version": "2026"
+  },
+  "implementation": {
+    "description": "iCare.com Test System No PHI FHIR Server",
+    "url": "https://sandbox-r4.interopengine.com/fhir/r4/icare"
+  },
+  "fhirVersion": "4.0.1",
+  "format": [
+    "application/fhir+xml",
+    "application/fhir+json"
+  ],
+  "rest": [
+    {
+      "mode": "server",
+      "security": {
+        "extension": [
+          {
+            "url": "http://fhir-registry.smarthealthit.org/StructureDefinition/oauth-uris",
+            "extension": [
+              {
+                "url": "token",
+                "valueUri": "https://sandbox-r4.interopengine.com/oauth/icare/token"
+              },
+              {
+                "url": "authorize",
+                "valueUri": "https://sandbox-r4.interopengine.com/oauth/icare/authz"
+              },
+              {
+                "url": "register",
+                "valueUri": "https://sandbox-r4.interopengine.com/oauth/icare/register"
+              },
+              {
+                "url": "manage",
+                "valueUri": "https://sandbox-r4.interopengine.com/oauth/icare/manage"
+              },
+              {
+                "url": "revoke",
+                "valueUri": "https://sandbox-r4.interopengine.com/oauth/icare/revoke"
+              }
+            ]
+          }
+        ],
+        "service": [
+          {
+            "coding": [
+              {
+                "system": "http://hl7.org/fhir/restful-security-service",
+                "code": "SMART-on-FHIR"
+              }
+            ],
+            "text": "OAuth2 using SMART-on-FHIR profile (see http://docs.smarthealthit.org)"
+          },
+          {
+            "coding": [
+              {
+                "system": "http://fhir.udap.org/CodeSystem/capability-rest-security-service",
+                "code": "UDAP"
+              }
+            ],
+            "text": "OAuth 2 using UDAP profile (see http://www.udap.org)"
+          }
+        ]
+      },
+      "resource": [
+        {
+          "type": "Group",
+          "operation": [
+            {
+              "name": "export",
+              "definition": "http://hl7.org/fhir/uv/bulkdata/OperationDefinition/group-export",
+              "documentation": "FHIR Operation to obtain a detailed set of FHIR resources of diverse resource types pertaining to all patients in specified Group"
+            }
+          ]
+        },
+        {
+          "type": "SearchParameter",
+          "interaction": [
+            {
+              "code": "read"
+            },
+            {
+              "code": "search-type"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

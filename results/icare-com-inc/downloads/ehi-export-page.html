@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html>
+<head><title>Electronic Health Information Export</title></head>
+<body>
+
+<div class="et_d4_element et_pb_section et_pb_section_0  et_pb_css_mix_blend_mode et_section_regular et_block_section" >
+				
+				
+				
+				
+				
+				
+				<div class="et_d4_element et_pb_row et_pb_row_0  et_pb_css_mix_blend_mode et_block_row">
+				<div class="et_d4_element et_pb_column_4_4 et_pb_column et_pb_column_0  et_pb_css_mix_blend_mode et-last-child et_block_column">
+				
+				
+				
+				
+				<div class="et_pb_module et_d4_element et_pb_text et_pb_text_0  et_pb_text_align_left et_pb_bg_layout_light">
+				
+				
+				
+				
+				<div class="et_pb_text_inner"><div class="ak-editor-panel confluence-ssr-app-144ezyy" data-panel-type="info">
+<div class="ak-editor-panel__content">
+<h1><span>Electronic Health Information Export</span></h1>
+<p><span></span></p>
+<p style="font-weight: 400;">The export of Electronic Health Information (EHI) is core functionality of the iCare system and this document satisfies the CMS requirements for the 21<sup>st</sup> Century Cures Act: Interoperability, Information Blocking, and the ONC Health IT Certification Program §170.315 (b)(10) <em>Electronic Health</em> <em>Information export-</em></p>
+<p style="font-weight: 400;">The iCare system offers several methods to export electronic health information.</p>
+<ol>
+<li><strong><em>Single</em> <em>patient electronic health information</em> <em> </em></strong>You can use either of the following two methods to export individual patient data:
+<ol>
+<li>A user with proper privileges can create export files via the iCare system’s CCDA and HIM features:
+<ol>
+<li>Generate a CCD from within a patient chart by navigating to Reports &gt; Clinical Summary &gt; Continuity of Care and Referral Notes.</li>
+<li>Export Clinical Assessments and Notes by navigating to Patient Info &gt; HIM Request.</li>
+</ol>
+</li>
+<li>Patient data can be exported via FHIR by using the Patient REST API. See instructions below for Single Patient Search.</li>
+</ol>
+</li>
+<li><strong><em>Patient population electronic health information export</em>.</strong> Patient data for populations or groups of patient can be exported by the following two methods.
+<ol>
+<li>You may make a CSC request for export of the entirety of your organization’s clinical data. The files will be provided via SFTP or other requested means and will include a description of the data file formats and data dictionary.</li>
+<li>Population or group patient data can be exported via FHIR by using the Patient REST API. See instructions below for Population and Group Patient Search.</li>
+</ol>
+</li>
+<li><em>Documentation</em>. These export methods are described here and in the iCare Knowledge Base under <em>Electronic Health Information Export</em>.</li>
+</ol>
+<p style="font-weight: 400;"></p>
+</div>
+</div></div>
+			</div><div class="et_pb_module et_d4_element et_pb_text et_pb_text_1  et_pb_text_align_left et_pb_bg_layout_light">
+				
+				
+				
+				
+				<div class="et_pb_text_inner"><div class="ak-editor-panel confluence-ssr-app-144ezyy" data-panel-type="info">
+<div class="ak-editor-panel__content">
+<h1><span>Instructions &#8211; </span><span>Exporting Patient Data via REST APIs</span></h1>
+<p><span></span></p>
+<h2> Introduction</h2>
+<ul>
+<li>iCare provides a set of REST APIs that allows third-party entities to receive the data from the EHR</li>
+<li>API responses are formatted in accordance with Fast Healthcare Interoperability Resources (FHIR) standard. FHIR is a HL7 specification for seamless transfer of healthcare information electronically. The standardized resource types make application development simpler.</li>
+<li>The APIs supported by the iCare are as per the US Core,USCIS.Every resource is exposed as a URL, which can be obtained by accessing the API Root Endpoint.</li>
+<li>The response format for the patient search and individual criteria data requests are based on FHIR.</li>
+<li>The API is accessible in test and production environments.</li>
+</ul>
+<h2>User authorization:</h2>
+<ul>
+<li>Users must have the Admin role or another role with PHI Export permission to access this feature. Enter the username and password to authorize</li>
+<li>Click on Authorize button</li>
+<li>You can receive any data by category. Please see below detailed descriptions of available data.</li>
+</ul>
+<h3>Generate authorization token using patient’s account</h3>
+<ul>
+<li>You can also access data by using the patient’s account credentials. To reset the patient’s username and password, use the User Management feature in the Admin control panel. Once a token is generated it can be used to get the patient&#8217;s other information. Enter the patient&#8217;s username and password and click on the Authorize button.</li>
+<li>You will then receive the token to be used.</li>
+<li>For a single Patient to create a request, select the API for which you need to request the data and generate Access Token.</li>
+<li>For patient populations search, see the section below.</li>
+</ul>
+<h3>Single <span style="font-size: 22px;">Patient Search</span></h3>
+<ul>
+<li>URI: Patient?_id=&lt;id&gt;  in your browser URI please add this value.</li>
+<li>Or can use</li>
+<li>URI: <a href="https://sandbox-r4.interopengine.com/fhir/r4/icare/Patient/id/$export">https://sandbox-r4.interopengine.com/fhir/r4/icare/Patient/id/$export</a> , id = MRN.XXXXXX</li>
+<li>Request Parameters: id must be set to id of the patient MRN.</li>
+<li>Method: GET</li>
+<li>Example: <a href="https://sandbox-r4.interopengine.com/fhir/r4/icare/Patient?_id=MRN.XXXXXX">https://sandbox-r4.interopengine.com/fhir/r4/icare/Patient?_id=MRN.XXXXXX</a></li>
+</ul>
+<h3>Population Patient Search:</h3>
+<p style="font-weight: 400;">To perform a population (bulk) patient search, first generate the token</p>
+<p style="font-weight: 400;">Bulk patient &#8211; Token Generate</p>
+<p style="font-weight: 400;">Post: <a href="https://sandbox-r4.interopengine.com/oauth/icare/token">https://sandbox-r4.interopengine.com/oauth/icare/token</a></p>
+<p style="font-weight: 400;">Use the generated token as the bearer token</p>
+<p style="font-weight: 400;">GET: <a href="https://sandbox-r4.interopengine.com/fhir/r4/icare/Patient/$export">https://sandbox-r4.interopengine.com/fhir/r4/icare/Patient/$export</a></p>
+<h3>Group Patient search:</h3>
+<p style="font-weight: 400;">To perform a group patient search, first generate the token</p>
+<p style="font-weight: 400;">Group patient &#8211; Token Generate</p>
+<p style="font-weight: 400;">Post: <a href="https://sandbox-r4.interopengine.com/oauth/icare/token">https://sandbox-r4.interopengine.com/oauth/icare/token</a></p>
+<p style="font-weight: 400;">Use the generated token as the bearer token</p>
+<p style="font-weight: 400;">GET: <a href="https://sandbox-r4.interopengine.com/fhir/r4/icare/Group/GroupID/$export">https://sandbox-r4.interopengine.com/fhir/r4/icare/Group/GroupID/$export</a></p>
+<h3>Data Elements:</h3>
+<h4>CarePlan</h4>
+<ul>
+<li>URI:CarePlan?category=assess-plan&amp;patient=&lt;id&gt; in your browser URI please add this value.</li>
+<li>Or can use</li>
+<li>URI: <a href="https://sandbox-r4.interopengine.com/fhir/r4/icare/Patient/id/$export">https://sandbox-r4.interopengine.com/fhir/r4/icare/Patient/id/$export</a> , id = MRN.XXXXXX</li>
+<li>Request Parameters: id must be set to id of the patient MRN.</li>
+<li>Method: GET</li>
+<li>Example:https://sandbox-r4.interopengine.com/fhir/r4/icare/CarePlan?category=assess-plan&amp;patient=MRN.XXXXXX</li>
+</ul>
+<h4>AllergyIntolerance</h4>
+<ul>
+<li>URI: AllergyIntolerance?patient=&lt;id&gt; &#8211; in your browser URI please add this value.</li>
+<li>Or can use</li>
+<li>URI: <a href="https://sandbox-r4.interopengine.com/fhir/r4/icare/Patient/id/$export">https://sandbox-r4.interopengine.com/fhir/r4/icare/Patient/id/$export</a> , id = MRN.XXXXXX</li>
+<li>Request Parameters: id must be set to id of the patient MRN.</li>
+<li>Method: GET</li>
+<li>Example: <a href="https://sandbox-r4.interopengine.com/fhir/r4/icare/AllergyIntolerance?patient=MRN.XXXXXX">https://sandbox-r4.interopengine.com/fhir/r4/icare/AllergyIntolerance?patient=MRN.XXXXXX</a></li>
+</ul>
+<h4>CareTeam</h4>
+<ul>
+<li>URI: CareTeam?patient=&lt;id&gt;&amp;status=active  in your browser URI please add this value.</li>
+<li>Or can use</li>
+<li>URI: <a href="https://sandbox-r4.interopengine.com/fhir/r4/icare/Patient/id/$export">https://sandbox-r4.interopengine.com/fhir/r4/icare/Patient/id/$export</a> , id = MRN.XXXXXX</li>
+<li>Request Parameters: id must be set to id of the patient MRN.</li>
+<li>Method: GET</li>
+<li>Example: <a href="https://sandbox-r4.interopengine.com/fhir/r4/icare/CareTeam?patient=MRN.XXXXXX&amp;status=active">https://sandbox-r4.interopengine.com/fhir/r4/icare/CareTeam?patient=MRN.XXXXXX&amp;status=active</a></li>
+</ul>
+<h4>Condition</h4>
+<ul>
+<li>URI:Condition?patient=&lt;id&gt;  in your browser URI please add this value.</li>
+<li>Or can use</li>
+<li>URI: <a href="https://sandbox-r4.interopengine.com/fhir/r4/icare/Patient/id/$export">https://sandbox-r4.interopengine.com/fhir/r4/icare/Patient/id/$export</a> , id = MRN.XXXXXX</li>
+<li>Request Parameters: id must be set to id of the patient MRN.</li>
+<li>Method: GET</li>
+<li>Example:https://sandbox-r4.interopengine.com/fhir/r4/icare/Condition?patient=MRN.XXXXXX</li>
+</ul>
+<h4>Device</h4>
+<ul>
+<li>URI: Device?patient=&lt;id&gt;  in your browser URI please add this value.</li>
+<li>Or can use</li>
+<li>URI: <a href="https://sandbox-r4.interopengine.com/fhir/r4/icare/Patient/id/$export">https://sandbox-r4.interopengine.com/fhir/r4/icare/Patient/id/$export</a> , id = MRN.XXXXXX</li>
+<li>Request Parameters: id must be set to id of the patient MRN.</li>
+<li>Method: GET</li>
+<li>Example: <a href="https://sandbox-r4.interopengine.com/fhir/r4/icare/Device?patient=MRN.XXXXXX">https://sandbox-r4.interopengine.com/fhir/r4/icare/Device?patient=MRN.XXXXXX</a></li>
+</ul>
+<h4>DiagnosticReport</h4>
+<ul>
+<li>URI: DiagnosticReport?category=LAB&amp;patient=&lt;id&gt;  in your browser URI please add this value.</li>
+<li>Or can use</li>
+<li>URI: <a href="https://sandbox-r4.interopengine.com/fhir/r4/icare/Patient/id/$export">https://sandbox-r4.interopengine.com/fhir/r4/icare/Patient/id/$export</a> , id = MRN.XXXXXX</li>
+<li>Request Parameters: id must be set to id of the patient MRN.</li>
+<li>Method: GET</li>
+<li>Example: <a href="https://sandbox-r4.interopengine.com/fhir/r4/icare/DiagnosticReport?category=LAB&amp;patient=MRN.XXXXXX">https://sandbox-r4.interopengine.com/fhir/r4/icare/DiagnosticReport?category=LAB&amp;patient=MRN.XXXXXX</a></li>
+</ul>
+<h4>DocumentReference</h4>
+<ul>
+<li>URI:DocumentReference?patient=&lt;id&gt;-  in your browser URI please add this value.</li>
+<li>Or can use</li>
+<li>URI: <a href="https://sandbox-r4.interopengine.com/fhir/r4/icare/Patient/id/$export">https://sandbox-r4.interopengine.com/fhir/r4/icare/Patient/id/$export</a> , id = MRN.XXXXXX</li>
+<li>Request Parameters: id must be set to id of the patient MRN.</li>
+<li>Method: GET</li>
+<li>Example:<a href="https://sandbox-r4.interopengine.com/fhir/r4/icare/DocumentReference?patient=MRN.XXXXXX">https://sandbox-r4.interopengine.com/fhir/r4/icare/DocumentReference?patient=MRN.XXXXXX</a></li>
+</ul>
+<p style="font-weight: 400;">Note: Document Reference is generating one URL,which is containing all the information about Assessment,Notes and Documents tabs.</p>
+<h4>Goal</h4>
+<ul>
+<li>URI: Goal?patient=&lt;id&gt;  in your browser URI please add this value.</li>
+<li>Or can use</li>
+<li>URI: <a href="https://sandbox-r4.interopengine.com/fhir/r4/icare/Patient/id/$export">https://sandbox-r4.interopengine.com/fhir/r4/icare/Patient/id/$export</a> , id = MRN.XXXXXX</li>
+<li>Request Parameters: id must be set to id of the patient MRN.XXXXXX</li>
+<li>Method: GET</li>
+<li>Example: <a href="https://sandbox-r4.interopengine.com/fhir/r4/icare/Goal?patient=MRN.XXXXXX">https://sandbox-r4.interopengine.com/fhir/r4/icare/Goal?patient=MRN.XXXXXX</a></li>
+</ul>
+<h4>Immunization</h4>
+<ul>
+<li>URI: Immunization?patient=&lt;id&gt;  in your browser URI please add this value.</li>
+<li>Or can use</li>
+<li>URI: <a href="https://sandbox-r4.interopengine.com/fhir/r4/icare/Patient/id/$export">https://sandbox-r4.interopengine.com/fhir/r4/icare/Patient/id/$export</a> , id = MRN.XXXXXX</li>
+<li>Request Parameters: id must be set to id of the patient MRN.</li>
+<li>Method: GET</li>
+<li>Example:https://sandbox-r4.interopengine.com/fhir/r4/icare/Immunization?patient=MRN.XXXXXX</li>
+</ul>
+<h4>MedicationRequest</h4>
+<ul>
+<li>URI: MedicationRequest?intent=proposal&amp;patient=&lt;id&gt;-  in your browser URI please add this value.</li>
+<li>Or can use</li>
+<li>URI: <a href="https://sandbox-r4.interopengine.com/fhir/r4/icare/Patient/id/$export">https://sandbox-r4.interopengine.com/fhir/r4/icare/Patient/id/$export</a> , id = MRN.XXXXXX</li>
+<li>Request Parameters: id must be set to id of the patient MRN.</li>
+<li>Method: GET</li>
+<li>Example: <a href="https://sandbox-r4.interopengine.com/fhir/r4/icare/MedicationRequest?patient=MRN.XXXXXX">https://sandbox-r4.interopengine.com/fhir/r4/icare/MedicationRequest?patient=MRN.XXXXXX</a></li>
+</ul>
+<h4>Observation</h4>
+<ul>
+<li>URI: Observation?code=2708-6&amp;patient=&lt;id&gt;  in your browser URI please add this value.</li>
+<li>Or can use</li>
+<li>URI: <a href="https://sandbox-r4.interopengine.com/fhir/r4/icare/Patient/id/$export">https://sandbox-r4.interopengine.com/fhir/r4/icare/Patient/id/$export</a> , id = MRN.A006054</li>
+<li>Request Parameters: id must be set to id of the patient MRN.</li>
+<li>Method: GET</li>
+<li>Example: <a href="https://sandbox-r4.interopengine.com/fhir/r4/icare/Observation?code=2708-6&amp;patient=MRN.A006077">https://sandbox-r4.interopengine.com/fhir/r4/icare/Observation?code=2708-6&amp;patient=MRN.A006077</a></li>
+</ul>
+<h4>Procedure</h4>
+<ul>
+<li>URI: Procedure?patient=&lt;id&gt;  in your browser URI please add this value.</li>
+<li>Or can use</li>
+<li>URI: <a href="https://sandbox-r4.interopengine.com/fhir/r4/icare/Patient/id/$export">https://sandbox-r4.interopengine.com/fhir/r4/icare/Patient/id/$export</a> , id = MRN.XXXXXX</li>
+<li>Request Parameters: id must be set to id of the patient MRN.</li>
+<li>Method: GET</li>
+<li>Example: <a href="https://sandbox-r4.interopengine.com/fhir/r4/icare/Patient?_id=MRN.XXXXXX">https://sandbox-r4.interopengine.com/fhir/r4/icare/Patient?_id=MRN.XXXXXX</a></li>
+</ul>
+<h4>Encounter</h4>
+<ul>
+<li>URI: Patient?_id=&lt;id&gt;  in your browser URI please add this value.</li>
+<li>Or can use</li>
+<li>URI: <a href="https://sandbox-r4.interopengine.com/fhir/r4/icare/Patient/id/$export">https://sandbox-r4.interopengine.com/fhir/r4/icare/Patient/id/$export</a> , id = MRN.XXXXXX</li>
+<li>Request Parameters: id must be set to id of the patient MRN.</li>
+<li>Method: GET</li>
+<li>Example: <a href="https://sandbox-r4.interopengine.com/fhir/r4/icare/Procedure?patient=MRN.XXXXXX">https://sandbox-r4.interopengine.com/fhir/r4/icare/Procedure?patient=MRN.XXXXXX</a></li>
+</ul>
+<p style="font-weight: 400;">Note that items related to psychotherapy will not be included in any data export.</p>
+</div>
+</div></div>
+			</div>
+			</div>
+				
+				
+				
+				
+			</div>
+				
+				
+			</div>
+
+</body>
+</html>

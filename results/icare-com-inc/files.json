@@ -1,0 +1,43 @@
+{
+  "collection_date": "2026-02-14",
+  "url": "https://icare.com/developers/ehi_export/",
+  "final_url": "https://icare.com/developers/ehi_export/",
+  "access_status": "found",
+  "files": [
+    {
+      "path": "downloads/screenshot-ehi-export-page.png",
+      "source_url": "https://icare.com/developers/ehi_export/",
+      "size_bytes": 903082,
+      "description": "Full-page screenshot of the EHI Export documentation page, showing the complete content including export methods overview and FHIR API instructions with resource-specific query examples.",
+      "curl_command": null
+    },
+    {
+      "path": "downloads/ehi-export-page.html",
+      "source_url": "https://icare.com/developers/ehi_export/",
+      "size_bytes": 15286,
+      "description": "Clean HTML extraction of the EHI Export page content (rendered content from WordPress REST API, stripped of Divi theme wrapper). Contains the full text of the export documentation including three export methods and FHIR API data element descriptions.",
+      "curl_command": "curl -sL 'https://icare.com/wp-json/wp/v2/pages/1286' -H 'User-Agent: Mozilla/5.0' | python3 -c \"import json,sys; d=json.load(sys.stdin); print(d['content']['rendered'])\""
+    },
+    {
+      "path": "downloads/ehi-export-page-wp-json.json",
+      "source_url": "https://icare.com/wp-json/wp/v2/pages/1286",
+      "size_bytes": 18058,
+      "description": "WordPress REST API JSON response for the EHI Export page (page ID 1286). Contains full page metadata including title, dates, content, and revision history. Page last modified 2025-10-18.",
+      "curl_command": "curl -sL 'https://icare.com/wp-json/wp/v2/pages/1286' -H 'User-Agent: Mozilla/5.0'"
+    },
+    {
+      "path": "downloads/iCare-API-Guide.pdf",
+      "source_url": "https://icare.com/wp-content/uploads/2023/09/iCare.com-Application-Programming-Interface-Guide.pdf",
+      "size_bytes": 355001,
+      "description": "67-page API guide (Copyright 2020) documenting iCare's proprietary REST API for patient data access. Covers login, patient search, encounters, and 15 clinical data categories (patient, careTeam, smokingStatus, problem, medication, medAllergy, labTest, labResult, vital, procedure, immunization, device, planOfTreatment, assessment, goal, healthConcern) with input/output examples in FHIR R4 JSON format. Also documents an 'All Criteria Data Request' returning C-CDA XML.",
+      "curl_command": "curl -sL 'https://icare.com/wp-content/uploads/2023/09/iCare.com-Application-Programming-Interface-Guide.pdf' -H 'User-Agent: Mozilla/5.0' -o iCare-API-Guide.pdf"
+    },
+    {
+      "path": "downloads/fhir-capability-statement.json",
+      "source_url": "https://sandbox-r4.interopengine.com/fhir/r4/icare/metadata",
+      "size_bytes": 3013,
+      "description": "FHIR R4 CapabilityStatement from the iCare sandbox server (powered by EMR Direct Interoperability Engine). Declares US Core Server and Bulk Data conformance, Group/$export operation, SMART-on-FHIR and UDAP security. FHIR version 4.0.1.",
+      "curl_command": "curl -sL 'https://sandbox-r4.interopengine.com/fhir/r4/icare/metadata' -H 'Accept: application/fhir+json'"
+    }
+  ]
+}

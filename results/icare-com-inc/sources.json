@@ -1,0 +1,105 @@
+{
+  "research_date": "2026-02-14",
+  "sources": [
+    {
+      "url": "http://www.icare.com",
+      "type": "vendor-website",
+      "note": "Main vendor website. Heavily JS-rendered (Divi/WordPress), most content not extractable. Title confirms 'iCare | The Enterprise Cloud EHR'."
+    },
+    {
+      "url": "https://icare.com/proven/",
+      "type": "vendor-website",
+      "note": "Product marketing page titled 'Proven Cloud-Based EHR'. Content not extractable due to JS rendering."
+    },
+    {
+      "url": "https://icare.com/products/ehr-ambulatory-care/",
+      "type": "vendor-website",
+      "note": "Ambulatory care EHR product page. Content not extractable due to JS rendering, but search snippets describe full-featured ambulatory EHR."
+    },
+    {
+      "url": "https://icare.com/products/ehr-acute-care/",
+      "type": "vendor-website",
+      "note": "Acute care EHR product page. Content not extractable, but search snippets describe hospital/inpatient EHR with integrated suite."
+    },
+    {
+      "url": "https://icare.com/products/e-prescribe/",
+      "type": "vendor-website",
+      "note": "E-prescribing product page. Content not extractable, but search snippets describe EPCS, drug interaction checks, real-time tracking."
+    },
+    {
+      "url": "https://icare.com/products/rcm/",
+      "type": "vendor-website",
+      "note": "Revenue Cycle Management product page. Content not extractable, but search snippets describe billing, coding, claims, and payment automation."
+    },
+    {
+      "url": "https://icare.com/product/icare-subscription-products-2/",
+      "type": "vendor-website",
+      "note": "Subscription tiers/editions page. Content not extractable due to JS rendering."
+    },
+    {
+      "url": "https://icare.com/developers/ehi_export/",
+      "type": "vendor-website",
+      "note": "EHI export documentation page (Phase 2 target). Content not extractable due to JS rendering."
+    },
+    {
+      "url": "https://www.findemr.com/icare-ehr",
+      "type": "third-party-directory",
+      "note": "FindEMR listing. 0 reviews. Describes cloud-based EHR for ambulatory and acute care. Lists features: scheduling, clinical documentation, e-prescribing, patient portal, RCM, document management. Pricing tiers from Free to $175/month."
+    },
+    {
+      "url": "https://softwarefinder.com/emr-software/icare",
+      "type": "third-party-directory",
+      "note": "SoftwareFinder listing. 3 reviews, 5-star aggregate. Describes single-tenant SaaS, ambulatory and acute care. Lists integrations with Change Healthcare and CareDox. Contact: (661) 384-7070."
+    },
+    {
+      "url": "https://www.capterra.com/p/124123/iCare/",
+      "type": "third-party-review",
+      "note": "Capterra listing. 403 access denied during fetch. Search snippets confirm iCare EHR listing exists."
+    },
+    {
+      "url": "https://www.softwareadvice.com/medical/icare-profile/",
+      "type": "third-party-review",
+      "note": "Software Advice listing. 403 access denied during fetch. Search snippets indicate product profile exists."
+    },
+    {
+      "url": "https://slashdot.org/software/p/iCare.com/",
+      "type": "third-party-review",
+      "note": "Slashdot/SourceForge listing. No user reviews. Describes fully integrated EHR with admin, clinical, and RCM capabilities. Founded 2012. Free version available."
+    },
+    {
+      "url": "https://sourceforge.net/software/product/iCare.com/",
+      "type": "third-party-review",
+      "note": "SourceForge product listing. No reviews (0.0/5). Lists features: scheduling, e-prescribing, patient portal, billing, HIPAA compliance, mobile apps, speech recognition. Founded 2012."
+    },
+    {
+      "url": "https://openhealthnews.com/content/icare-world%E2%80%99s-most-advanced-ehr-hospitals-unveiled-himss15",
+      "type": "press-coverage",
+      "note": "Open Health News article about HIMSS15 debut. iCare claimed to be 'first new enterprise EHR in 16 years'. Cloud-native, open API, iOS app in Swift, per-user monthly pricing. Received Complete Inpatient MU Stage 2 Certification Jan 2015."
+    },
+    {
+      "url": "https://southfloridahospitalnews.com/icare-an-advanced-ehr-delivered-in-the-cloud/",
+      "type": "press-coverage",
+      "note": "South Florida Hospital News article. Redirect error prevented content extraction. Title confirms coverage of iCare as 'advanced EHR delivered in the cloud'."
+    },
+    {
+      "url": "https://www.crunchbase.com/organization/icare",
+      "type": "company-profile",
+      "note": "Crunchbase profile. Founded 2011 by Jim Riley, Ted Schneider, Don Cook. Fort Lauderdale. No funding raised."
+    },
+    {
+      "url": "https://tracxn.com/d/companies/icare/__9fwSgVEjubiZJvCbeh8LZpW4dg_FiQGt6npBRneTTSc",
+      "type": "company-profile",
+      "note": "Tracxn profile. Confirms founding 2011, Fort Lauderdale. Enterprise cloud EHR for healthcare facilities of all sizes."
+    },
+    {
+      "url": "https://www.linkedin.com/company/icare-com",
+      "type": "company-profile",
+      "note": "LinkedIn company page. Lists 51-200 employees (11 profiles). Describes enterprise cloud EHR solutions. Claims to be one of fastest growing EHR providers."
+    },
+    {
+      "url": "https://contactout.com/company/icarecom-5952327",
+      "type": "company-profile",
+      "note": "ContactOut company profile. Confirms iCare.com company details and staff directory."
+    }
+  ]
+}
