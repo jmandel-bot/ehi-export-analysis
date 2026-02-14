@@ -135,7 +135,12 @@ grep -oiE 'href="[^"]*[^"]*"' /tmp/page.html | grep -iE 'ehi|export|data.diction
 **6. Follow links one or two levels deep:**
 Record each hop: "From the main page, I clicked X which led to Y"
 
-**7. If the URL is dead (404, domain expired, redirects to homepage):**
+**7. Check certification dates in chpl-metadata.json.**
+If the product was certified very recently (last few months), missing or
+incomplete documentation is common — note this in your log but still
+investigate thoroughly.
+
+**8. If the URL is dead (404, domain expired, redirects to homepage):**
 Try:
 - Domain root, search for EHI docs
 - Common paths: /legal/, /compliance/, /onc/, /ehi/, /interoperability/
@@ -266,6 +271,9 @@ Also write `{{OUTPUT_DIR}}/download-manifest.json`:
       "curl_command": "curl -L -H 'User-Agent: Mozilla/5.0' -o filename.pdf 'https://...'"
     }
   ],
+  // Include ALL files you saved, including screenshots of 404 pages,
+  // login walls, or other evidence. These are useful documentation too.
+  // An empty files array means you saved nothing at all.
   "notes": "anything notable about the collection process"
 }
 ```
@@ -283,5 +291,7 @@ Also write `{{OUTPUT_DIR}}/download-manifest.json`:
 - **Capture obstacles.** Did you need special headers? Did Cloudflare block you?
   This information is as valuable as the docs themselves.
 - **Be proportionate.** Single PDF with clean link? 2 minutes. Complex multi-page
-  site with buried docs? Take the time. The difficulty is itself a finding.
+  site with buried docs? Take the time. Dead URL? Check Wayback Machine,
+  try a few obvious alternative paths, do a web search, and move on — don't
+  exhaustively probe every subdomain and sitemap. The difficulty is itself a finding.
 - **Use subagents** if available to parallelize downloads or explore multiple paths.

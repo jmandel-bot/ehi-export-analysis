@@ -29,7 +29,9 @@ completeness.
 
 Research the vendor and their products. Be quick and exploratory — spend a few
 minutes per product, not an hour. Use the web freely: vendor website, product
-pages, feature lists, press releases, customer case studies, third-party reviews.
+pages, feature lists, press releases, customer case studies. Third-party sources
+like G2, KLAS, Capterra, or Definitive Healthcare often reveal more about real
+usage and data capabilities than vendor marketing — check at least one if available.
 
 Start by reading `chpl-metadata.json`. It has several useful starting points:
 
