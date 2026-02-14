@@ -1,0 +1,71 @@
+{
+  "collection_date": "2026-02-14",
+  "url": "https://www.ezcaretech.com/english/onc/b.10_EHI_Export.pdf",
+  "final_url": "https://www.ezcaretech.com/english/onc/b.10_EHI_Export.pdf",
+  "access_status": "found",
+  "files": [
+    {
+      "path": "downloads/b.10_EHI_Export.pdf",
+      "source_url": "https://www.ezcaretech.com/english/onc/b.10_EHI_Export.pdf",
+      "size_bytes": 24829,
+      "description": "Primary (b)(10) EHI Export documentation. Single-page PDF describing CSV and Oracle DMP export formats for single-patient and multi-patient export. Contains no data dictionary, schema, or field definitions. Links to the FHIR API portal for 'API documentation'.",
+      "curl_command": "curl -sL 'https://www.ezcaretech.com/english/onc/b.10_EHI_Export.pdf' -H 'User-Agent: Mozilla/5.0' -o b.10_EHI_Export.pdf"
+    },
+    {
+      "path": "downloads/BESTCare2.0B_Certified_Health_IT_v3.0.pdf",
+      "source_url": "https://www.ezcaretech.com/english/onc/BESTCare2.0B%20Certified%20Health%20IT%20v.3.0.pdf",
+      "size_bytes": 138767,
+      "description": "BESTCare 2.0B Certified Health IT summary. 3-page PDF listing all 33 certified criteria and 13 CQMs. No technical detail about EHI export — just confirms (b)(10) certification. Created June 2025.",
+      "curl_command": "curl -sL 'https://www.ezcaretech.com/english/onc/BESTCare2.0B%20Certified%20Health%20IT%20v.3.0.pdf' -H 'User-Agent: Mozilla/5.0' -o BESTCare2.0B_Certified_Health_IT_v3.0.pdf"
+    },
+    {
+      "path": "downloads/fhir-capability-statement.json",
+      "source_url": "https://portal.ezcaretech.com:30122/metadata",
+      "size_bytes": 33325,
+      "description": "FHIR R4 CapabilityStatement from ezFHIRStation US Core server. Documents 26 supported resource types (standard US Core set). Named 'ezfhirstation-us-core-usa-aurora', referencing Aurora Behavioral Healthcare deployment.",
+      "curl_command": "curl -sL 'https://portal.ezcaretech.com:30122/metadata' -H 'Accept: application/fhir+json' -H 'User-Agent: Mozilla/5.0' -o fhir-capability-statement.json"
+    },
+    {
+      "path": "downloads/multi-patient-api.html",
+      "source_url": "https://portal.ezcaretech.com:30112/multiPatientApi",
+      "size_bytes": 86982,
+      "description": "Multi Patient API Guide HTML page from ezFHIRStation portal. Documents FHIR Bulk Data Export ($export) endpoints for all patients, groups, and system-level export. NDJSON output format. This is the (g)(10) Bulk Data API documentation, linked from the (b)(10) PDF.",
+      "curl_command": "curl -sL 'https://portal.ezcaretech.com:30112/multiPatientApi' -H 'User-Agent: Mozilla/5.0' -o multi-patient-api.html"
+    },
+    {
+      "path": "downloads/single-patient-api.html",
+      "source_url": "https://portal.ezcaretech.com:30112/singlePatientApi",
+      "size_bytes": 1866763,
+      "description": "Single Patient API Guide HTML page from ezFHIRStation portal. Documents FHIR R4 US Core API with per-resource-type search/read capabilities. Large file due to embedded CSS/JS. This is (g)(10) single-patient API documentation.",
+      "curl_command": "curl -sL 'https://portal.ezcaretech.com:30112/singlePatientApi' -H 'User-Agent: Mozilla/5.0' -o single-patient-api.html"
+    },
+    {
+      "path": "downloads/base-urls.html",
+      "source_url": "https://portal.ezcaretech.com:30112/baseUrls",
+      "size_bytes": 41558,
+      "description": "Service Base URLs page from ezFHIRStation portal. Lists endpoints for Authorization (port 30112), Single Patient API (port 30122), Multi Patient API (port 30132), Application Access (port 30132), and Inferno testing tool.",
+      "curl_command": "curl -sL 'https://portal.ezcaretech.com:30112/baseUrls' -H 'User-Agent: Mozilla/5.0' -o base-urls.html"
+    },
+    {
+      "path": "downloads/screenshot-single-patient-api.png",
+      "source_url": "https://portal.ezcaretech.com:30112/singlePatientApi",
+      "size_bytes": 257235,
+      "description": "Screenshot of Single Patient API Guide page showing US Core resource documentation (AllergyIntolerance profile details visible).",
+      "curl_command": null
+    },
+    {
+      "path": "downloads/screenshot-multi-patient-api.png",
+      "source_url": "https://portal.ezcaretech.com:30112/multiPatientApi",
+      "size_bytes": 273275,
+      "description": "Screenshot of Multi Patient API Guide page showing Bulk Data Export documentation with $export endpoint details.",
+      "curl_command": null
+    },
+    {
+      "path": "downloads/screenshot-onc-disclosures-page.png",
+      "source_url": "https://www.ezcaretech.com/english/onc/onc_2015.html",
+      "size_bytes": 171298,
+      "description": "Screenshot of the ONC mandatory disclosures page listing all BESTCare 2.0B certification documents, RWT plans/results, and the EHI Export PDF link.",
+      "curl_command": null
+    }
+  ]
+}

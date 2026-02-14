@@ -1,0 +1,70 @@
+{
+  "research_date": "2026-02-14",
+  "sources": [
+    {
+      "url": "https://www.ezcaretech.com/",
+      "type": "vendor-website",
+      "note": "Main company website. Describes BESTCare as comprehensive HIS for hospitals, EDGE&NEXT cloud platform, ~450 employees, 60+ implementations, 8/12 Korean university hospitals. Founded 2001 as SNUBH spinoff."
+    },
+    {
+      "url": "https://www.ezcaretech.com/english/onc/onc_2015.html",
+      "type": "mandatory-disclosures",
+      "note": "ONC mandatory disclosures for BESTCare 2.0B. Lists Medi-Span and Lexicomp (Wolters Kluwer) and NLM AccessGUDI API as third-party components. Links to RWT plans 2022-2026, MFA docs, and EHI export documentation."
+    },
+    {
+      "url": "https://ezcaretech.com/english/onc/onc.html",
+      "type": "mandatory-disclosures",
+      "note": "BESTCare 2.0G costs and limitations page. References certification 15.04.04.2610.BEST.02.01.1.221228. Links to costs/limitations PDF documents."
+    },
+    {
+      "url": "https://www.ezcaretech.com/en/solution/",
+      "type": "vendor-website",
+      "note": "Solutions page listing three products: BESTCare 2.0 (general hospitals), Behavioral Specialized EHR, and BESTCare Cloud (SaaS). Describes SOA, CDSS, closed-loop medication administration, clinical pathways."
+    },
+    {
+      "url": "https://www.ezcaretech.com/en/about/",
+      "type": "vendor-website",
+      "note": "About page with company history, 500 engineers, 70%+ Korean tertiary hospital market share, KLAS 5th global non-US vendor. Lists US subsidiary in Torrance CA (2019), Japan subsidiary (2020), SKHIC JV in Saudi Arabia."
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3402557/",
+      "type": "academic-publication",
+      "note": "Detailed PMC article on SNUBH's BESTCare implementation. Describes EMR/CPOE, CDSS, CLMA (closed-loop medication administration), CDW, HIE, DR modules. Lists 1,989 common + 1,269 dept templates. 290 clinical indicators. Integration with 36 clinics via HL7. Billing, CRM, ABC, asset management, blood transfusion tracking."
+    },
+    {
+      "url": "https://klasresearch.com/review/ezcaretech-bestcare-20-global/198065",
+      "type": "third-party-review",
+      "note": "KLAS Research review page for BESTCare 2.0 (Global). Score 87.8 in South Korea (2022, 12 responses), 82.8 in Middle East/Africa (2021, 3 responses). Classified as Acute Care EMR (Global)."
+    },
+    {
+      "url": "https://www.koreabiomed.com/news/articleView.html?idxno=5881",
+      "type": "press",
+      "note": "Korea Biomed article on BESTCare deployment at 4th US hospital (Aurora Behavioral Healthcare). Charter Oak CA (Aug 2017), Reno NV (Jun 2018), Vista Del Mar CA (Oct 2018), Glendale AZ. Part of $17.7M deal for 14-16 hospitals."
+    },
+    {
+      "url": "https://www.koreabiomed.com/news/articleView.html?idxno=2081",
+      "type": "press",
+      "note": "Korea Biomed article on ezCaretech overseas expansion. Details on MNGHA Saudi Arabia contract and US expansion strategy."
+    },
+    {
+      "url": "https://www.koreabiomed.com/news/articleView.html?idxno=3767",
+      "type": "press",
+      "note": "Korea Biomed article ranking ezCaretech among top global EMR companies outside US."
+    },
+    {
+      "url": "https://skhic.com.sa/en/about-us/",
+      "type": "partner-website",
+      "note": "SKHIC (Saudi Korean Health Informatics Company) JV between MNGHA, SNUH, SK Telecom, and ezCaretech. Provides BESTCare2.0A for Saudi hospitals."
+    },
+    {
+      "url": "https://tracxn.com/d/companies/ezcaretech/__X53k7B6xitZbQ6zKBUaXpe4HEikINVXrr5I2rkFs1jw",
+      "type": "third-party-profile",
+      "note": "Tracxn company profile for ezCaretech. Company overview and competitors data."
+    },
+    {
+      "url": "https://finance.yahoo.com/quote/099750.KQ/profile/",
+      "type": "financial",
+      "note": "Yahoo Finance profile for ezCaretech (KOSDAQ: 099750). Publicly traded South Korean company."
+    }
+  ]
+}
