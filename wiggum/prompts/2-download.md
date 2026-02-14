@@ -43,6 +43,37 @@ Everything at the registered URL that documents the EHI export. This includes:
 - **Unrelated regulatory documents** — real-world testing plans, SVAP notices, etc.
   unless they describe the export mechanism
 
+### The (b)(10) vs (g)(10) confusion
+
+A very common pattern: a vendor's "EHI export documentation" is actually just
+their FHIR Bulk Data API documentation repackaged. This conflates two different
+ONC requirements:
+
+- **170.315(g)(10)** requires a standardized FHIR API exposing US Core data.
+  This covers a defined subset of clinical data — USCDI data classes like
+  problems, medications, allergies, labs, vitals, etc.
+- **170.315(b)(10)** requires export of **all electronic health information**
+  the product stores — not just US Core, not just USCDI, but *everything*:
+  billing, scheduling, images, custom forms, audit logs, specialty-specific
+  data, administrative records, whatever the system holds.
+
+The (b)(10) export doesn't need to be FHIR. It doesn't need to be standardized
+at all. A SQL dump or CSV export of every table would satisfy the requirement
+better than a polished FHIR API that only covers 20% of the data.
+
+When you find a vendor pointing to their FHIR Bulk Data endpoint as their EHI
+export, ask: does this actually cover everything? Or is it just the US Core
+slice? Look for signs:
+- The documentation only mentions US Core / USCDI resource types
+- There's no mention of billing, scheduling, audit, or specialty data
+- The export endpoint is the same as their (g)(10) certified API
+- The data dictionary (if any) maps only to standard FHIR resources
+
+This is not necessarily bad faith — many vendors genuinely don't understand
+the distinction. But it's a critical finding for the coverage assessment.
+A vendor that has done real (b)(10) work will have documented how they export
+data that *doesn't* fit neatly into FHIR US Core.
+
 ### Staying focused: let the export docs guide you
 
 EHI export documentation often lives on a larger certification or compliance
