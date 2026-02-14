@@ -23,8 +23,8 @@ Everything at the registered URL that documents the EHI export. This includes:
 
 - **Data dictionaries** — table/field definitions, schemas, column listings
 - **Export format specifications** — file formats, encoding, structure
-- **API documentation** that is specific to this vendor's EHI export —
-  if they have a vendor-specific REST/FHIR API for bulk export, get those docs
+- **API documentation** that is specific to this vendor's EHI export mechanism —
+  if the b(10) export itself works via an API, get those docs
 - **Sample data / examples** — example export files, sample records, test data
 - **Schema files** — XSD, JSON Schema, OpenAPI specs, DDL, anything machine-readable
 - **Instructions / user guides** for performing the export
@@ -34,10 +34,20 @@ Everything at the registered URL that documents the EHI export. This includes:
 
 - **External standards documentation** — don't follow links to hl7.org, fhir.org,
   build.fhir.org, uscdi.healthit.gov, etc. We already understand those standards.
+- **FHIR API documentation that describes the vendor's (g)(7)–(g)(10) API** —
+  this is a *different* ONC criterion from b(10) EHI export. Many vendors have
+  both a FHIR API (for app access) and a separate EHI export (for bulk file
+  export). We want the EHI export docs, not the FHIR API docs. However, if the
+  vendor uses FHIR Bulk Data *as* their b(10) export mechanism, then those docs
+  ARE relevant — use your judgment.
 - **Marketing materials** — unless they contain substantive EHI export information
 - **Compliance certificates** — unless they contain technical export details
 - **Unrelated regulatory documents** — real-world testing plans, SVAP notices, etc.
   unless they describe the export mechanism
+- **Prose descriptions of standard FHIR resources** — if a vendor's FHIR portal
+  has pages describing what Patient, Condition, etc. resources contain, skip those.
+  We already know. Only download vendor-specific documentation (custom profiles,
+  extensions, proprietary export formats, data dictionaries).
 
 ### Follow vendor-internal links
 
