@@ -147,6 +147,18 @@ Record everything you tried.
 - Accordion content is often in HTML source but hidden via CSS
 - If curl gets HTML instead of expected file, try different Accept headers
 
+### Verify every download
+- After downloading a file, confirm it's what you expected: `file filename.pdf`
+  should say "PDF document", not "HTML document" or "ASCII text"
+- For JSON files, check the first few hundred bytes: `head -c 500 file.json` —
+  make sure it's actual data, not an error response or auth redirect
+- Some servers return HTTP 200 with an error message in the body (e.g., a
+  login page, a JSON error object, or a "401 Unauthorized" HTML page). Don't
+  trust the status code alone — inspect the content.
+- If a download requires authentication, note it in the collection log and
+  don't include it in the downloads. The documentation is supposed to be
+  publicly accessible.
+
 ## Output
 
 Write `{{OUTPUT_DIR}}/collection-log.md`:
