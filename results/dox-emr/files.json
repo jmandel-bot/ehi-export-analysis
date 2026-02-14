@@ -1,0 +1,22 @@
+{
+  "collection_date": "2026-02-14",
+  "url": "https://www.doxemr.com/b10doc",
+  "final_url": "https://www.doxemr.com/b10doc",
+  "access_status": "found",
+  "files": [
+    {
+      "path": "downloads/b10doc-page-screenshot.png",
+      "source_url": "https://www.doxemr.com/b10doc",
+      "size_bytes": 210474,
+      "description": "Full-page screenshot of the b(10) EHI export documentation page. Shows the complete content: a title, three sentences describing C-CDA XML export with USCDI v1 compliance, and a single link to the HL7 C-CDA standard page.",
+      "curl_command": null
+    },
+    {
+      "path": "downloads/b10doc-page.html",
+      "source_url": "https://www.doxemr.com/b10doc",
+      "size_bytes": 417397,
+      "description": "Raw HTML source of the b(10) documentation page. Primarily Wix framework JavaScript with minimal actual content — the visible text is a single paragraph about C-CDA XML export format.",
+      "curl_command": "curl -sL 'https://www.doxemr.com/b10doc' -H 'User-Agent: Mozilla/5.0' -o b10doc-page.html"
+    }
+  ]
+}

@@ -1,0 +1,65 @@
+{
+  "research_date": "2026-02-14",
+  "sources": [
+    {
+      "url": "https://www.doxemr.com",
+      "type": "vendor-website",
+      "note": "Main website (Wix-based, rendered poorly for scraping). Tagline: 'DOX EMR / Starwriter Medical Data Collection'. Describes specialty-specific EMR with scheduling, patient portal, billing, and clinical modules."
+    },
+    {
+      "url": "https://www.doxemr.com/onc-health-it-costs-limitations-disclos",
+      "type": "mandatory-disclosures",
+      "note": "ONC mandatory disclosures page. Wix site did not render content for automated extraction."
+    },
+    {
+      "url": "https://www.doxemr.com/emr-and-clincal-2",
+      "type": "vendor-website",
+      "note": "EMR & Clinical page. Wix content did not render, but search snippets indicate it describes clinical features, front office, patient portal, billing, and meaningful use."
+    },
+    {
+      "url": "https://www.doxemr.com/patient-portal",
+      "type": "vendor-website",
+      "note": "Patient portal page. Wix content did not render for scraping."
+    },
+    {
+      "url": "https://www.doxemr.com/announcement-page",
+      "type": "vendor-website",
+      "note": "Announcement page. Wix content did not render for scraping."
+    },
+    {
+      "url": "https://softwarefinder.com/emr-software/dox-podiatry",
+      "type": "third-party-review",
+      "note": "2.4/5 rating from 5 reviews. Features listed: clinical documentation, scheduling, billing, orthotics management, analytics. Cloud-based, multi-platform. Target: podiatry practices of all sizes."
+    },
+    {
+      "url": "https://www.findemr.com/dox-podiatry-emr-software",
+      "type": "third-party-review",
+      "note": "Feature overview: chart notes, billing with CPT/ICD auto-pull, e-prescriptions, scheduling, patient portal, HL7 integration with CoveMD billing. Pricing ~$200/mo plus $5k-$15k upfront."
+    },
+    {
+      "url": "https://www.emrfinder.com/dox-podiatry-emr-software/",
+      "type": "third-party-review",
+      "note": "Zero reviews. Lists features: EMR with graphical UI, real-time data capture, billing integration, patient portal, scheduling, revenue cycle management, HL7 integration, multi-platform support."
+    },
+    {
+      "url": "https://www.medicalrecords.com/mrcbase/emr/dox-emr-by-dox-starwriter",
+      "type": "third-party-review",
+      "note": "DOX Podiatry EMR listing on MedicalRecords.com. Minimal content available from scrape."
+    },
+    {
+      "url": "https://www.drbartssolutions.com/about.html",
+      "type": "vendor-website",
+      "note": "Starwriter Research Solutions - Dr. Bart Ripperger's research consultancy. 18 years private practice, 11 years consulting with Starwriter medical data. Co-creator of patented clinical data collection process for HEOR, RWE, and decentralized clinical trials."
+    },
+    {
+      "url": "https://www.zoominfo.com/pic/dox-podiatry/351493183",
+      "type": "third-party-directory",
+      "note": "ZoomInfo company profile for DOX Podiatry. Headquarters: 8723 E Via De B Commercio Bldg, Scottsdale, AZ. Small team with Bart Ripperger as VP Business Development."
+    },
+    {
+      "url": "http://www.doxpod.net/company.php",
+      "type": "vendor-website",
+      "note": "Old DOX Podiatry website. Connection refused — site appears to be defunct."
+    }
+  ]
+}
