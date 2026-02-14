@@ -1,0 +1,2413 @@
+
+[TOOL: bash]
+{
+  "command": "cat /home/exedev/ehi-export-analysis/results/pce-systems/chpl-metadata.json"
+}
+[RESULT: {
+  "url": "https://www.pcesystems.com/g10APIInfo.html",
+  "developer": {
+    "name": "PCE Systems",
+    "website": "http://www.pcesystems.com"
+  },
+  "mandatory_disclosures_url": "",
+  "sed_intended_user_description": "Behavioral Health",
+  "products": [
+    {
+      "name": "PCE Care Management",
+      "version": "Version 9.4",
+      "chpl_id": 11045,
+      "chpl_product_number": "15.04.04.2125.PCEC.94.01.1.221205",
+      "certified_criteria": [
+        "170.315 (a)(1)",
+        "170.315 (a)(12)",
+        "170.315 (a)(14)",
+        "170.315 (a)(15)",
+        "170.315 (a)(2)",
+        "170.315 (a)(3)",
+        "170.315 (a)(4)",
+        "170.315 (a)(5)",
+        "170.315 (b)(1)",
+        "170.315 (b)(10)",
+        "170.315 (b)(11)",
+        "170.315 (b)(2)",
+        "170.315 (b)(3)",
+        "170.315 (b)(9)",
+        "170.315 (c)(1)",
+        "170.315 (c)(2)",
+        "170.315 (c)(3)",
+        "170.315 (c)(4)",
+        "170.315 (d)(1)",
+        "170.315 (d)(11)",
+        "170.315 (d)(12)",
+        "170.315 (d)(13)",
+        "170.315 (d)(2)",
+        "170.315 (d)(3)",
+        "170.315 (d)(4)",
+        "170.315 (d)(5)",
+        "170.315 (d)(6)",
+        "170.315 (d)(7)",
+        "170.315 (d)(8)",
+        "170.315 (d)(9)",
+        "170.315 (e)(1)",
+        "170.315 (e)(3)",
+        "170.315 (f)(1)",
+        "170.315 (f)(7)",
+        "170.315 (g)(10)",
+        "170.315 (g)(2)",
+        "170.315 (g)(3)",
+        "170.315 (g)(4)",
+        "170.315 (g)(5)",
+        "170.315 (g)(6)",
+        "170.315 (g)(7)",
+        "170.315 (g)(9)",
+        "170.315 (h)(1)"
+      ]
+    }
+  ]
+}]
+Good. Behavioral health, broadly certified (clinical, transitions of care, patient portal, public health, FHIR APIs). Let me explore the vendor's website.
+[TOOL: browser_navigate]
+{
+  "url": "http://www.pcesystems.com",
+  "timeout": "15s"
+}
+[TOOL ERROR]
+[RESULT: port 80 is not the port you're looking for--port 80 is the main sketch server]
+
+[TOOL: browser_navigate]
+{
+  "url": "https://www.pcesystems.com",
+  "timeout": "15s"
+}
+[RESULT: done]
+
+[TOOL: browser_take_screenshot]
+{}
+[RESULT: Screenshot taken (saved as /tmp/shelley-screenshots/23dfa3c6-a9e7-4c46-8e92-983f03e26e88.png)]
+Very sparse website. Let me check the About and Location pages, plus look for more content.
+[TOOL: browser_eval]
+{
+  "expression": "document.body.innerText"
+}
+[RESULT: <javascript_result>"Home\nAbout\nLocation\n\nCopyright ©2026 PCE Systems | Privacy"</javascript_result>]
+
+[TOOL: browser_navigate]
+{
+  "url": "https://www.pcesystems.com/about.html"
+}
+[RESULT: done]
+
+[TOOL: browser_take_screenshot]
+{}
+[RESULT: Screenshot taken (saved as /tmp/shelley-screenshots/4631d030-e29e-40d4-a696-919260d9af32.png)]
+
+[TOOL: browser_navigate]
+{
+  "url": "https://www.pcesystems.com/location.html"
+}
+[RESULT: done]
+
+[TOOL: browser_eval]
+{
+  "expression": "document.body.innerText"
+}
+[RESULT: <javascript_result>"Not Found\n\nThe requested URL was not found on this server."</javascript_result>]
+
+[TOOL: browser_navigate]
+{
+  "url": "https://www.pcesystems.com/g10APIInfo.html"
+}
+[RESULT: done]
+
+[TOOL: browser_take_screenshot]
+{}
+[RESULT: Screenshot taken (saved as /tmp/shelley-screenshots/ca13a7d1-c06a-447c-95f5-5e7918780447.png)]
+Useful — production URL reveals `w3.pcesecure.com` domain. Let me check the EHI export doc link and API doc link for product details, then search for the company more broadly.
+[TOOL: browser_eval]
+{
+  "expression": "Array.from(document.querySelectorAll('a')).map(a => ({text: a.textContent.trim(), href: a.href}))"
+}
+[RESULT: <javascript_result>[{"href":"https://www.pcesystems.com/PIX_9_4_API_Documentation.pdf","text":"PCE Care Management v9.4 API Documentation"},{"href":"https://www.pcesystems.com/b10_documentation.pdf","text":"PCE Care Management v9.4 EHI Export (b)(10) Documentation"}]</javascript_result>]
+
+[TOOL: browser_navigate]
+{
+  "url": "https://www.pcesystems.com/PIX_9_4_API_Documentation.pdf",
+  "timeout": "20s"
+}
+[TOOL ERROR]
+[RESULT: page load error net::ERR_ABORTED]
+
+[TOOL: bash]
+{
+  "command": "curl -sL -o /tmp/pce_api_doc.pdf \"https://www.pcesystems.com/PIX_9_4_API_Documentation.pdf\" && file /tmp/pce_api_doc.pdf && pdftotext /tmp/pce_api_doc.pdf - | head -200",
+  "slow_ok": true
+}
+[RESULT: /tmp/pce_api_doc.pdf: PDF document, version 1.5, 87 page(s)
+PCE Care Management v9.4 - Web Service API Documentation
+PCE Systems
+January 6, 2025
+
+ONC 2015 Edition Cures Update
+Web Service API Documentation
+PCE Care Management Version 9.4
+Table of Contents
+Introduction ............................................................................................................................................................................ 4
+Registration ............................................................................................................................................................................. 4
+How to Use the API ................................................................................................................................................................. 5
+Security ................................................................................................................................................................................... 6
+Overview ............................................................................................................................................................................. 6
+Redirection .......................................................................................................................................................................... 6
+Token Refresh / Expiration ................................................................................................................................................. 7
+USCDI Data Classes ................................................................................................................................................................. 8
+API Operations ........................................................................................................................................................................ 9
+Authorization ...................................................................................................................................................................... 9
+Access Token ..................................................................................................................................................................... 11
+Refresh Access Token........................................................................................................................................................ 13
+Allergy Intolerances .......................................................................................................................................................... 15
+Bulk Export ........................................................................................................................................................................ 17
+Bulk Export Delete Request .............................................................................................................................................. 18
+Bulk Export File Request ................................................................................................................................................... 19
+Bulk Export Status Request ............................................................................................................................................... 20
+Bulk Patient Export ........................................................................................................................................................... 21
+Bulk Patient Group Export ................................................................................................................................................ 22
+Care Plans .......................................................................................................................................................................... 23
+Care Teams ........................................................................................................................................................................ 25
+Claims ................................................................................................................................................................................ 28
+Conditions ......................................................................................................................................................................... 30
+Coverage ........................................................................................................................................................................... 32
+Page 1 of 87
+© 2025 PCE Systems – CONFIDENTIAL – For Agency internal use only. Reproduction or re-distribution is prohibited.
+
+PCE Care Management v9.4 - Web Service API Documentation
+PCE Systems
+January 6, 2025
+Devices .............................................................................................................................................................................. 34
+Diagnostic Reports ............................................................................................................................................................ 36
+Document References ....................................................................................................................................................... 39
+Encounters ........................................................................................................................................................................ 42
+Goals ................................................................................................................................................................................. 44
+Healthcare Services ........................................................................................................................................................... 46
+Immunizations................................................................................................................................................................... 47
+Locations ........................................................................................................................................................................... 50
+Medication Requests ........................................................................................................................................................ 51
+Observations ..................................................................................................................................................................... 54
+Organizations .................................................................................................................................................................... 57
+Patients ............................................................................................................................................................................. 58
+Practitioners ...................................................................................................................................................................... 60
+Practitioner Roles .............................................................................................................................................................. 61
+Procedures ........................................................................................................................................................................ 62
+Provenance ....................................................................................................................................................................... 64
+Data Elements ....................................................................................................................................................................... 65
+Address.............................................................................................................................................................................. 65
+AllergyIntolerance ............................................................................................................................................................. 65
+CarePlan ............................................................................................................................................................................ 66
+CareTeam .......................................................................................................................................................................... 66
+Claim ................................................................................................................................................................................. 67
+Coded Element .................................................................................................................................................................. 67
+Condition ........................................................................................................................................................................... 68
+Coverage ........................................................................................................................................................................... 68
+Device ................................................................................................................................................................................ 68
+Diagnostic Report .............................................................................................................................................................. 69
+Document Reference ........................................................................................................................................................ 70
+Encounter .......................................................................................................................................................................... 70
+Goal ................................................................................................................................................................................... 71
+Healthcare Service ............................................................................................................................................................ 71
+Page 2 of 87
+© 2025 PCE Systems – CONFIDENTIAL – For Agency internal use only. Reproduction or re-distribution is prohibited.
+
+PCE Care Management v9.4 - Web Service API Documentation
+PCE Systems
+January 6, 2025
+Immunization .................................................................................................................................................................... 72
+Location ............................................................................................................................................................................. 73
+Medication Request .......................................................................................................................................................... 73
+Message ............................................................................................................................................................................ 74
+Observation ....................................................................................................................................................................... 74
+Organization ...................................................................................................................................................................... 75
+Patient ............................................................................................................................................................................... 76
+Practitioner ....................................................................................................................................................................... 76
+Practitioner Role ............................................................................................................................................................... 77
+Procedure .......................................................................................................................................................................... 77
+Provenance ....................................................................................................................................................................... 78
+Failed Response Header .................................................................................................................................................... 78
+Appendix A – PCE API Access Request Form......................................................................................................................... 80
+Appendix B - Terms of Use .................................................................................................................................................... 81
+Appendix C - Costs ................................................................................................................................................................ 86
+Revision History .................................................................................................................................................................... 87
+
+Page 3 of 87
+© 2025 PCE Systems – CONFIDENTIAL – For Agency internal use only. Reproduction or re-distribution is prohibited.
+
+PCE Care Management v9.4 - Web Service API Documentation
+PCE Systems
+January 6, 2025
+
+Introduction
+The public-facing Web Service API provides an interface into the PCE Care Management Version 9.4 system for the
+purposes of meeting criteria for ONC 2015 Edition Cures Update criteria test 170.315(g)(10). This API specification may
+be used “out of the box” upon approval of an API request by the appropriate parties. Alternatively, other APIs (using
+other standards, protocols, or customized APIs) are also available for implementation by contacting PCE Systems using
+the PCE API Access Request Form in Appendix A. Requests may be sent to apirequests@pcesystems.com. Use of this API
+and any other API is subject to the Terms of Use in Appendix B.
+
+Registration
+You may request access to the API by submitting a written request to PCE Systems using the PCE API Access Request
+Form in Appendix A. This form may be submitted by e-mail to apirequests@pcesystems.com.
+Registered applications must be confidential and server-based. Security credentials and fixed end-point URLs (“Launch”
+URI and redirect URI(s)) are required from the registered application to receive authorization and access data.
+Registered applications must support TLS 1.2 for all transactions and PKCE for authorization and authentication
+requests. An active email address, phone number, and contact information must be received for communications and
+error reporting going forward.
+Upon granting of a request for access to the API, security credentials, including JWT secrets when applicable, will be
+issued and endpoint URLs will be shared with the registered application. This will include two “Base URLs”, one for
+production and one for testing purposes. The production URL will not be enabled until applicable testing is completed
+and the exchange partner is approved to move to production. Additionally an email address will be provided for further
+communications and error reporting.
+
+Page 4 of 87
+© 2025 PCE Systems – CONFIDENTIAL – For Agency internal use only. Reproduction or re-distribution is prohibited.
+
+PCE Care Management v9.4 - Web Service API Documentation
+PCE Systems
+January 6, 2025
+
+How to Use the API
+This API uses REST technology with OAuth2 for authorization and JWKS asymmetric authentication for client
+authentication.
+Request operations are listed in the API Operations section. Each request operation has its own URL, which starts with
+the Base URL. Search criteria for each request operation are given via REST URL parameters, which are case-sensitive.
+Applicable URL parameters are outlined for each request operation in the API Operations section.
+Clinical data returned by the API is formatted as JSON based on FHIR v4.0.1 §170.215(a)(4) Argonaut Data Query
+specification. The top level data element is always a Request object which contains the data requested, a version
+identifier for the data and data format returned, a status flag which determines whether the request passed validations,
+and informational Message Data Elements if the request does not pass validations.
+JSON Data types returned by request operations are identified for each request operation in the API Operations section.
+Data types are defined in detail in the Data Elements section.
+The API’s capability statement can be found here: [Base URL]/MUPIX/v2/Capability
+The API’s SMART-configuration file can be found here: [Base URL]/MUPIX/v2/.well-known/smart-configuration.json
+The API’s public JWKS can be found here: [Base URL]/MUPIX/v2/.well-known/jwks.json
+
+Page 5 of 87
+© 2025 PCE Systems – CONFIDENTIAL – For Agency internal use only. Reproduction or re-distribution is prohibited.
+
+PCE Care Management v9.4 - Web Service API Documentation
+PCE Systems
+January 6, 2025
+
+Security
+Overview
+This API uses SMART on FHIR OAuth2 to allow a pre-registered client to request authorization from a patient via PCE
+Care Management Version 9.4 Patient Portal (CEHR). All requests are required to be made through a secure, encrypted
+tunnel (e.g., TLS 1.2+ or VPN).
+When authentication is required for individual HTTP requests, minimally HTTP Basic Authentication is supported.
+Additional authentication methods are supported upon request.
+The end-point for requesting authorization to patient resources is [Base URL]/OAUTH/v2/Authorize. PKCE and a state
+parameter are used to prevent CSRF and authorization code injection attacks. If the request is not recognized then the
+patient is notified there is a problem without redirecting to the client’s redirect URL. If the request is from a recognized
+client but there is a problem with the request, then the patient is redirected to the client’s redirect URL with standard
+error handling parameters/codes.
+Upon a successfully validated request, the patient is redirected to the login page for the CEHR patient portal using their
+personal credentials. Successful authentication allows the patient to grant or deny the client access to the requested
+resources. If access is granted then an authorization token is returned to the client's redirect URL along with a timerestricted authorization token and the original state parameter.
+The client may then request access to the authorized resources via the [Base URL]/OAUTH/v2/Token end-point. This is
+accomplished by sending the authorization token along with pre-registered credentials. Again, PKCE and a state
+parameter are used to prevent CSRF and authorization code injection attacks. If the request is not from a recognized
+client, the authorization token is not recognized, the PKCE code verifier does not match the code challenge from the
+original authorization request, or there is any other problem with the request structure, then an “invalid request”
+response is returned. If the given authorization token is expired or revoked, or the client credentials are not
+authenticated successfully then an “unauthorized access” response is returned.
+Upon receipt of a valid authentication token and valid client credentials, an access token is returned to the client's
+redirect URL along with the state parameter and an OpenID JWE. The JWE contains details/scope of the authorization
+RS256 encrypted with a previously registered private key; this allows the client to verify the identity of the patient. The
+JWE contains a nonce identifier to help prevent replay attacks.
+Access to patient resources can only be achieved using a valid & active authentication token and only when a valid &
+active authorization for those resources is in place between the client and the patient.
+
+Redirection
+Outbound redirect URLs are secured via the following requirements. If any of these requirements is not in place then
+redirection will not occur:
+1. URLs must precisely match pre-registered URLs.
+2. Required parameters are in place; notably the state, response_type, and client_id parameters are present and
+the client_id is recognized and registered to the redirect URL.
+3. TLS 1.2 secure channels.
+4. Cookies are not used in the process.
+Page 6 of 87
+© 2025 PCE Systems – CONFIDENTIAL – For Agency internal use only. Reproduction or re-distribution is prohibited.
+
+PCE Care Management v9.4 - Web Service API Documentation
+PCE Systems
+January 6, 2025
+5. PKCE challenge in place and validated prior to redirection.
+6. When present scope parameters must be recognized, authorized, and pertinent to the launch type.
+In addition to avoiding a redirection, failure to meet requirement 1 or 2 will result in the end-user being notified of a
+potential security issue.
+Inbound redirect URLs are secured via the following requirements & mechanisms. If any of these requirements is not in
+place then redirection will not occur:
+]
+Good — the API doc reveals a lot about data capabilities. Let me also get some key details from the API doc (Claims, Messages, etc.) and then check the EHI export doc.
+[TOOL: bash]
+{
+  "command": "pdftotext /tmp/pce_api_doc.pdf - | grep -A 5 \"For Agency internal use\""
+}
+[RESULT: © 2025 PCE Systems – CONFIDENTIAL – For Agency internal use only. Reproduction or re-distribution is prohibited.
+
+PCE Care Management v9.4 - Web Service API Documentation
+PCE Systems
+January 6, 2025
+Devices .............................................................................................................................................................................. 34
+--
+© 2025 PCE Systems – CONFIDENTIAL – For Agency internal use only. Reproduction or re-distribution is prohibited.
+
+PCE Care Management v9.4 - Web Service API Documentation
+PCE Systems
+January 6, 2025
+Immunization .................................................................................................................................................................... 72
+--
+© 2025 PCE Systems – CONFIDENTIAL – For Agency internal use only. Reproduction or re-distribution is prohibited.
+
+PCE Care Management v9.4 - Web Service API Documentation
+PCE Systems
+January 6, 2025
+
+--
+© 2025 PCE Systems – CONFIDENTIAL – For Agency internal use only. Reproduction or re-distribution is prohibited.
+
+PCE Care Management v9.4 - Web Service API Documentation
+PCE Systems
+January 6, 2025
+
+--
+© 2025 PCE Systems – CONFIDENTIAL – For Agency internal use only. Reproduction or re-distribution is prohibited.
+
+PCE Care Management v9.4 - Web Service API Documentation
+PCE Systems
+January 6, 2025
+
+--
+© 2025 PCE Systems – CONFIDENTIAL – For Agency internal use only. Reproduction or re-distribution is prohibited.
+
+PCE Care Management v9.4 - Web Service API Documentation
+PCE Systems
+January 6, 2025
+5. PKCE challenge in place and validated prior to redirection.
+--
+© 2025 PCE Systems – CONFIDENTIAL – For Agency internal use only. Reproduction or re-distribution is prohibited.
+
+PCE Care Management v9.4 - Web Service API Documentation
+PCE Systems
+January 6, 2025
+
+--
+© 2025 PCE Systems – CONFIDENTIAL – For Agency internal use only. Reproduction or re-distribution is prohibited.
+
+PCE Care Management v9.4 - Web Service API Documentation
+PCE Systems
+January 6, 2025
+
+--
+© 2025 PCE Systems – CONFIDENTIAL – For Agency internal use only. Reproduction or re-distribution is prohibited.
+
+PCE Care Management v9.4 - Web Service API Documentation
+PCE Systems
+January 6, 2025
+“error_description”, and “error_uri” when applicable, along with a “state” parameter with value matching
+--
+© 2025 PCE Systems – CONFIDENTIAL – For Agency internal use only. Reproduction or re-distribution is prohibited.
+
+PCE Care Management v9.4 - Web Service API Documentation
+PCE Systems
+January 6, 2025
+
+--
+© 2025 PCE Systems – CONFIDENTIAL – For Agency internal use only. Reproduction or re-distribution is prohibited.
+
+PCE Care Management v9.4 - Web Service API Documentation
+PCE Systems
+January 6, 2025
+An HTTP “application/json” response containing an access token used for accessing authorized patient
+--
+© 2025 PCE Systems – CONFIDENTIAL – For Agency internal use only. Reproduction or re-distribution is prohibited.
+
+PCE Care Management v9.4 - Web Service API Documentation
+PCE Systems
+January 6, 2025
+
+--
+© 2025 PCE Systems – CONFIDENTIAL – For Agency internal use only. Reproduction or re-distribution is prohibited.
+
+PCE Care Management v9.4 - Web Service API Documentation
+PCE Systems
+January 6, 2025
+
+--
+© 2025 PCE Systems – CONFIDENTIAL – For Agency internal use only. Reproduction or re-distribution is prohibited.
+
+PCE Care Management v9.4 - Web Service API Documentation
+PCE Systems
+January 6, 2025
+
+--
+© 2025 PCE Systems – CONFIDENTIAL – For Agency internal use only. Reproduction or re-distribution is prohibited.
+
+PCE Care Management v9.4 - Web Service API Documentation
+PCE Systems
+January 6, 2025
+
+--
+© 2025 PCE Systems – CONFIDENTIAL – For Agency internal use only. Reproduction or re-distribution is prohibited.
+
+PCE Care Management v9.4 - Web Service API Documentation
+PCE Systems
+January 6, 2025
+
+--
+© 2025 PCE Systems – CONFIDENTIAL – For Agency internal use only. Reproduction or re-distribution is prohibited.
+
+PCE Care Management v9.4 - Web Service API Documentation
+PCE Systems
+January 6, 2025
+
+--
+© 2025 PCE Systems – CONFIDENTIAL – For Agency internal use only. Reproduction or re-distribution is prohibited.
+
+PCE Care Management v9.4 - Web Service API Documentation
+PCE Systems
+January 6, 2025
+
+--
+© 2025 PCE Systems – CONFIDENTIAL – For Agency internal use only. Reproduction or re-distribution is prohibited.
+
+PCE Care Management v9.4 - Web Service API Documentation
+PCE Systems
+January 6, 2025
+
+--
+© 2025 PCE Systems – CONFIDENTIAL – For Agency internal use only. Reproduction or re-distribution is prohibited.
+
+PCE Care Management v9.4 - Web Service API Documentation
+PCE Systems
+January 6, 2025
+
+--
+© 2025 PCE Systems – CONFIDENTIAL – For Agency internal use only. Reproduction or re-distribution is prohibited.
+
+PCE Care Management v9.4 - Web Service API Documentation
+PCE Systems
+January 6, 2025
+
+--
+© 2025 PCE Systems – CONFIDENTIAL – For Agency internal use only. Reproduction or re-distribution is prohibited.
+
+PCE Care Management v9.4 - Web Service API Documentation
+PCE Systems
+January 6, 2025
+
+--
+© 2025 PCE Systems – CONFIDENTIAL – For Agency internal use only. Reproduction or re-distribution is prohibited.
+
+PCE Care Management v9.4 - Web Service API Documentation
+PCE Systems
+January 6, 2025
+date
+--
+© 2025 PCE Systems – CONFIDENTIAL – For Agency internal use only. Reproduction or re-distribution is prohibited.
+
+PCE Care Management v9.4 - Web Service API Documentation
+PCE Systems
+January 6, 2025
+
+--
+© 2025 PCE Systems – CONFIDENTIAL – For Agency internal use only. Reproduction or re-distribution is prohibited.
+
+PCE Care Management v9.4 - Web Service API Documentation
+PCE Systems
+January 6, 2025
+
+--
+© 2025 PCE Systems – CONFIDENTIAL – For Agency internal use only. Reproduction or re-distribution is prohibited.
+
+PCE Care Management v9.4 - Web Service API Documentation
+PCE Systems
+January 6, 2025
+A JSON-formatted response containing a list of Care Team Data Elements and optional corresponding
+--
+© 2025 PCE Systems – CONFIDENTIAL – For Agency internal use only. Reproduction or re-distribution is prohibited.
+
+PCE Care Management v9.4 - Web Service API Documentation
+PCE Systems
+January 6, 2025
+
+--
+© 2025 PCE Systems – CONFIDENTIAL – For Agency internal use only. Reproduction or re-distribution is prohibited.
+
+PCE Care Management v9.4 - Web Service API Documentation
+PCE Systems
+January 6, 2025
+The operator is optional; If not given the date
+--
+© 2025 PCE Systems – CONFIDENTIAL – For Agency internal use only. Reproduction or re-distribution is prohibited.
+
+PCE Care Management v9.4 - Web Service API Documentation
+PCE Systems
+January 6, 2025
+
+--
+© 2025 PCE Systems – CONFIDENTIAL – For Agency internal use only. Reproduction or re-distribution is prohibited.
+
+PCE Care Management v9.4 - Web Service API Documentation
+PCE Systems
+January 6, 2025
+The operator is optional; If not given the date
+--
+© 2025 PCE Systems – CONFIDENTIAL – For Agency internal use only. Reproduction or re-distribution is prohibited.
+
+PCE Care Management v9.4 - Web Service API Documentation
+PCE Systems
+January 6, 2025
+
+--
+© 2025 PCE Systems – CONFIDENTIAL – For Agency internal use only. Reproduction or re-distribution is prohibited.
+
+PCE Care Management v9.4 - Web Service API Documentation
+PCE Systems
+January 6, 2025
+The operator is optional; If not given the date
+--
+© 2025 PCE Systems – CONFIDENTIAL – For Agency internal use only. Reproduction or re-distribution is prohibited.
+
+PCE Care Management v9.4 - Web Service API Documentation
+PCE Systems
+January 6, 2025
+
+--
+© 2025 PCE Systems – CONFIDENTIAL – For Agency internal use only. Reproduction or re-distribution is prohibited.
+
+PCE Care Management v9.4 - Web Service API Documentation
+PCE Systems
+January 6, 2025
+The operator is optional; If not given the date
+--
+© 2025 PCE Systems – CONFIDENTIAL – For Agency internal use only. Reproduction or re-distribution is prohibited.
+
+PCE Care Management v9.4 - Web Service API Documentation
+PCE Systems
+January 6, 2025
+
+--
+© 2025 PCE Systems – CONFIDENTIAL – For Agency internal use only. Reproduction or re-distribution is prohibited.
+
+PCE Care Management v9.4 - Web Service API Documentation
+PCE Systems
+January 6, 2025
+
+--
+© 2025 PCE Systems – CONFIDENTIAL – For Agency internal use only. Reproduction or re-distribution is prohibited.
+
+PCE Care Management v9.4 - Web Service API Documentation
+PCE Systems
+January 6, 2025
+A JSON-formatted response containing a list of Diagnostic Report Data Elements and optional corresponding
+--
+© 2025 PCE Systems – CONFIDENTIAL – For Agency internal use only. Reproduction or re-distribution is prohibited.
+
+PCE Care Management v9.4 - Web Service API Documentation
+PCE Systems
+January 6, 2025
+
+--
+© 2025 PCE Systems – CONFIDENTIAL – For Agency internal use only. Reproduction or re-distribution is prohibited.
+
+PCE Care Management v9.4 - Web Service API Documentation
+PCE Systems
+January 6, 2025
+
+--
+© 2025 PCE Systems – CONFIDENTIAL – For Agency internal use only. Reproduction or re-distribution is prohibited.
+
+PCE Care Management v9.4 - Web Service API Documentation
+PCE Systems
+January 6, 2025
+invalid date value will result in a Message Data
+--
+© 2025 PCE Systems – CONFIDENTIAL – For Agency internal use only. Reproduction or re-distribution is prohibited.
+
+PCE Care Management v9.4 - Web Service API Documentation
+PCE Systems
+January 6, 2025
+
+--
+© 2025 PCE Systems – CONFIDENTIAL – For Agency internal use only. Reproduction or re-distribution is prohibited.
+
+PCE Care Management v9.4 - Web Service API Documentation
+PCE Systems
+January 6, 2025
+The operator is optional; If not given the date
+--
+© 2025 PCE Systems – CONFIDENTIAL – For Agency internal use only. Reproduction or re-distribution is prohibited.
+
+PCE Care Management v9.4 - Web Service API Documentation
+PCE Systems
+January 6, 2025
+
+--
+© 2025 PCE Systems – CONFIDENTIAL – For Agency internal use only. Reproduction or re-distribution is prohibited.
+
+PCE Care Management v9.4 - Web Service API Documentation
+PCE Systems
+January 6, 2025
+
+--
+© 2025 PCE Systems – CONFIDENTIAL – For Agency internal use only. Reproduction or re-distribution is prohibited.
+
+PCE Care Management v9.4 - Web Service API Documentation
+PCE Systems
+January 6, 2025
+
+--
+© 2025 PCE Systems – CONFIDENTIAL – For Agency internal use only. Reproduction or re-distribution is prohibited.
+
+PCE Care Management v9.4 - Web Service API Documentation
+PCE Systems
+January 6, 2025
+
+--
+© 2025 PCE Systems – CONFIDENTIAL – For Agency internal use only. Reproduction or re-distribution is prohibited.
+
+PCE Care Management v9.4 - Web Service API Documentation
+PCE Systems
+January 6, 2025
+
+--
+© 2025 PCE Systems – CONFIDENTIAL – For Agency internal use only. Reproduction or re-distribution is prohibited.
+
+PCE Care Management v9.4 - Web Service API Documentation
+PCE Systems
+January 6, 2025
+If more than 250 Immunizations match the request criteria then only the first 250 Immunizations will be
+--
+© 2025 PCE Systems – CONFIDENTIAL – For Agency internal use only. Reproduction or re-distribution is prohibited.
+
+PCE Care Management v9.4 - Web Service API Documentation
+PCE Systems
+January 6, 2025
+
+--
+© 2025 PCE Systems – CONFIDENTIAL – For Agency internal use only. Reproduction or re-distribution is prohibited.
+
+PCE Care Management v9.4 - Web Service API Documentation
+PCE Systems
+January 6, 2025
+
+--
+© 2025 PCE Systems – CONFIDENTIAL – For Agency internal use only. Reproduction or re-distribution is prohibited.
+
+PCE Care Management v9.4 - Web Service API Documentation
+PCE Systems
+January 6, 2025
+status
+--
+© 2025 PCE Systems – CONFIDENTIAL – For Agency internal use only. Reproduction or re-distribution is prohibited.
+
+PCE Care Management v9.4 - Web Service API Documentation
+PCE Systems
+January 6, 2025
+A JSON-formatted response containing a list of Medication Request Data Elements and optional
+--
+© 2025 PCE Systems – CONFIDENTIAL – For Agency internal use only. Reproduction or re-distribution is prohibited.
+
+PCE Care Management v9.4 - Web Service API Documentation
+PCE Systems
+January 6, 2025
+
+--
+© 2025 PCE Systems – CONFIDENTIAL – For Agency internal use only. Reproduction or re-distribution is prohibited.
+
+PCE Care Management v9.4 - Web Service API Documentation
+PCE Systems
+January 6, 2025
+category
+--
+© 2025 PCE Systems – CONFIDENTIAL – For Agency internal use only. Reproduction or re-distribution is prohibited.
+
+PCE Care Management v9.4 - Web Service API Documentation
+PCE Systems
+January 6, 2025
+
+--
+© 2025 PCE Systems – CONFIDENTIAL – For Agency internal use only. Reproduction or re-distribution is prohibited.
+
+PCE Care Management v9.4 - Web Service API Documentation
+PCE Systems
+January 6, 2025
+
+--
+© 2025 PCE Systems – CONFIDENTIAL – For Agency internal use only. Reproduction or re-distribution is prohibited.
+
+PCE Care Management v9.4 - Web Service API Documentation
+PCE Systems
+January 6, 2025
+
+--
+© 2025 PCE Systems – CONFIDENTIAL – For Agency internal use only. Reproduction or re-distribution is prohibited.
+
+PCE Care Management v9.4 - Web Service API Documentation
+PCE Systems
+January 6, 2025
+gender
+--
+© 2025 PCE Systems – CONFIDENTIAL – For Agency internal use only. Reproduction or re-distribution is prohibited.
+
+PCE Care Management v9.4 - Web Service API Documentation
+PCE Systems
+January 6, 2025
+
+--
+© 2025 PCE Systems – CONFIDENTIAL – For Agency internal use only. Reproduction or re-distribution is prohibited.
+
+PCE Care Management v9.4 - Web Service API Documentation
+PCE Systems
+January 6, 2025
+
+--
+© 2025 PCE Systems – CONFIDENTIAL – For Agency internal use only. Reproduction or re-distribution is prohibited.
+
+PCE Care Management v9.4 - Web Service API Documentation
+PCE Systems
+January 6, 2025
+
+--
+© 2025 PCE Systems – CONFIDENTIAL – For Agency internal use only. Reproduction or re-distribution is prohibited.
+
+PCE Care Management v9.4 - Web Service API Documentation
+PCE Systems
+January 6, 2025
+The operator is optional; If not given the date
+--
+© 2025 PCE Systems – CONFIDENTIAL – For Agency internal use only. Reproduction or re-distribution is prohibited.
+
+PCE Care Management v9.4 - Web Service API Documentation
+PCE Systems
+January 6, 2025
+
+--
+© 2025 PCE Systems – CONFIDENTIAL – For Agency internal use only. Reproduction or re-distribution is prohibited.
+
+PCE Care Management v9.4 - Web Service API Documentation
+PCE Systems
+January 6, 2025
+
+--
+© 2025 PCE Systems – CONFIDENTIAL – For Agency internal use only. Reproduction or re-distribution is prohibited.
+
+PCE Care Management v9.4 - Web Service API Documentation
+PCE Systems
+January 6, 2025
+
+--
+© 2025 PCE Systems – CONFIDENTIAL – For Agency internal use only. Reproduction or re-distribution is prohibited.
+
+PCE Care Management v9.4 - Web Service API Documentation
+PCE Systems
+January 6, 2025
+
+--
+© 2025 PCE Systems – CONFIDENTIAL – For Agency internal use only. Reproduction or re-distribution is prohibited.
+
+PCE Care Management v9.4 - Web Service API Documentation
+PCE Systems
+January 6, 2025
+text
+--
+© 2025 PCE Systems – CONFIDENTIAL – For Agency internal use only. Reproduction or re-distribution is prohibited.
+
+PCE Care Management v9.4 - Web Service API Documentation
+PCE Systems
+January 6, 2025
+udiCarrier:carrierAIDC
+--
+© 2025 PCE Systems – CONFIDENTIAL – For Agency internal use only. Reproduction or re-distribution is prohibited.
+
+PCE Care Management v9.4 - Web Service API Documentation
+PCE Systems
+January 6, 2025
+status
+--
+© 2025 PCE Systems – CONFIDENTIAL – For Agency internal use only. Reproduction or re-distribution is prohibited.
+
+PCE Care Management v9.4 - Web Service API Documentation
+PCE Systems
+January 6, 2025
+subject:reference
+--
+© 2025 PCE Systems – CONFIDENTIAL – For Agency internal use only. Reproduction or re-distribution is prohibited.
+
+PCE Care Management v9.4 - Web Service API Documentation
+PCE Systems
+January 6, 2025
+providedBy:reference
+--
+© 2025 PCE Systems – CONFIDENTIAL – For Agency internal use only. Reproduction or re-distribution is prohibited.
+
+PCE Care Management v9.4 - Web Service API Documentation
+PCE Systems
+January 6, 2025
+doseQuantity:unit
+--
+© 2025 PCE Systems – CONFIDENTIAL – For Agency internal use only. Reproduction or re-distribution is prohibited.
+
+PCE Care Management v9.4 - Web Service API Documentation
+PCE Systems
+January 6, 2025
+subject:reference
+--
+© 2025 PCE Systems – CONFIDENTIAL – For Agency internal use only. Reproduction or re-distribution is prohibited.
+
+PCE Care Management v9.4 - Web Service API Documentation
+PCE Systems
+January 6, 2025
+
+--
+© 2025 PCE Systems – CONFIDENTIAL – For Agency internal use only. Reproduction or re-distribution is prohibited.
+
+PCE Care Management v9.4 - Web Service API Documentation
+PCE Systems
+January 6, 2025
+id
+--
+© 2025 PCE Systems – CONFIDENTIAL – For Agency internal use only. Reproduction or re-distribution is prohibited.
+
+PCE Care Management v9.4 - Web Service API Documentation
+PCE Systems
+January 6, 2025
+identifier
+--
+© 2025 PCE Systems – CONFIDENTIAL – For Agency internal use only. Reproduction or re-distribution is prohibited.
+
+PCE Care Management v9.4 - Web Service API Documentation
+PCE Systems
+January 6, 2025
+id
+--
+© 2025 PCE Systems – CONFIDENTIAL – For Agency internal use only. Reproduction or re-distribution is prohibited.
+
+PCE Care Management v9.4 - Web Service API Documentation
+PCE Systems
+January 6, 2025
+messages element. For example zero will be returned when
+--
+© 2025 PCE Systems – CONFIDENTIAL – For Agency internal use only. Reproduction or re-distribution is prohibited.
+
+PCE Care Management v9.4 - Web Service API Documentation
+PCE Systems
+January 6, 2025
+
+--
+© 2025 PCE Systems – CONFIDENTIAL – For Agency internal use only. Reproduction or re-distribution is prohibited.
+
+PCE Care Management v9.4 - Web Service API Documentation
+PCE Systems
+January 6, 2025
+
+--
+© 2025 PCE Systems – CONFIDENTIAL – For Agency internal use only. Reproduction or re-distribution is prohibited.
+
+PCE Care Management v9.4 - Web Service API Documentation
+PCE Systems
+January 6, 2025
+
+--
+© 2025 PCE Systems – CONFIDENTIAL – For Agency internal use only. Reproduction or re-distribution is prohibited.
+
+PCE Care Management v9.4 - Web Service API Documentation
+PCE Systems
+January 6, 2025
+
+--
+© 2025 PCE Systems – CONFIDENTIAL – For Agency internal use only. Reproduction or re-distribution is prohibited.
+
+PCE Care Management v9.4 - Web Service API Documentation
+PCE Systems
+January 6, 2025
+
+--
+© 2025 PCE Systems – CONFIDENTIAL – For Agency internal use only. Reproduction or re-distribution is prohibited.
+
+PCE Care Management v9.4 - Web Service API Documentation
+PCE Systems
+January 6, 2025
+
+--
+© 2025 PCE Systems – CONFIDENTIAL – For Agency internal use only. Reproduction or re-distribution is prohibited.
+
+PCE Care Management v9.4 - Web Service API Documentation
+PCE Systems
+January 6, 2025
+
+--
+© 2025 PCE Systems – CONFIDENTIAL – For Agency internal use only. Reproduction or re-distribution is prohibited.
+
+PCE Care Management v9.4 - Web Service API Documentation
+PCE Systems
+January 6, 2025
+
+--
+© 2025 PCE Systems – CONFIDENTIAL – For Agency internal use only. Reproduction or re-distribution is prohibited.
+
+
+]
+The "For Agency internal use only" note is interesting — suggests government agency clients. Let me get the Appendix A (API access request form) and Terms sections which might reveal more about the company and product.
+[TOOL: bash]
+{
+  "command": "pdftotext /tmp/pce_api_doc.pdf - | sed -n '/Appendix A/,/Revision History/p'"
+}
+[RESULT: [output too large (159kB, 5691 lines), saved to: /tmp/shelley-output-3640745028/output]
+
+First lines:
+    1: Appendix A – PCE API Access Request Form......................................................................................................................... 80
+    2: Appendix B - Terms of Use .................................................................................................................................................... 81
+
+...
+
+Last lines:
+ 5687: PCE Systems
+ 5688: January 6, 2025
+ 5689: 
+ 5690: Revision History
+ 5691: 
+]
+
+[TOOL: bash]
+{
+  "command": "pdftotext /tmp/pce_api_doc.pdf - | sed -n '/Appendix A – PCE API Access Request Form$/,/Revision History$/p' | head -100"
+}
+[RESULT: Appendix A – PCE API Access Request Form
+PCE API Access Request Form
+To request API Access to a PCE system, please complete this document and send to apirequests@pcesystems.com. A
+representative will contact the requester to establish a requirements gathering conference call within five (5) business
+days of receipt of a request.
+Contact Name:
+Contact E-mail Address:
+Contact Phone:
+Requesting Agency:
+Requesting Agency’s EHR / Health IT Vendor:
+Exchange Partner / System:
+Brief Description of Desired Use Case(s):
+
+Desired Transactions:
+
+API Protocols / Standards (check all that apply)
+We wish to use the API documentation as published
+We wish to use the following standards / protocols:
+We wish to use a custom API (briefly describe):
+
+Page 80 of 87
+© 2025 PCE Systems – CONFIDENTIAL – For Agency internal use only. Reproduction or re-distribution is prohibited.
+
+PCE Care Management v9.4 - Web Service API Documentation
+PCE Systems
+January 6, 2025
+
+Appendix B - Terms of Use
+Access to the PCE Care Management Version 9.4 ONC 2015 Edition Cures Update Web Service API is predicated on your
+agreement to the following Terms of Use. Please note that the use of the Service is also subject to separate legal
+agreements dictating additional terms, costs (as described in Appendix C – Costs), conditions, and acceptable use that
+will be necessary between or among you, PCE, and any PCE clients or other entities whose systems / information may be
+accessed through the Service. PCE cannot guarantee that PCE clients or third party entities will agree to allow such
+access. In addition, PCE reserves the right to deny any request for access to the Service for any reason. All access is
+subject to applicable privacy and security considerations including, without limitation, those that are necessary to
+comply with HIPAA, 42 C.F.R. Part 2, and any other federal, state, or local laws and regulations. To the extent that access
+to the Service is granted, the following Terms and Conditions apply.
+Terms of Use
+Please read these Terms of Use (the “Agreement”) carefully before using the PCE Care Management Version 9.4 ONC
+2015 Edition Cures Update Web Service API (the "Service") operated by PCE Systems (“PCE”).
+Your access to and use of the Service is conditioned on your acceptance of and compliance with these Terms. These
+Terms apply to all visitors, users, customers, contracted entities, downstream entities, and others who access or use the
+Service.
+By accessing or using the Service you agree to be bound by these Terms. If you disagree with any part of the terms then
+you may not access the Service.
+
+1. Access and Use. You are provided access to the Service for the sole purpose of aiding you in your
+professional healthcare job responsibilities. When you access a certain patient's PHI through the Service, you
+represent and warrant that you have an active treatment relationship with that patient and that you are
+accessing such PHI only to the extent permissible under applicable law regarding the privacy of PHI for one of
+the following reasons: (1) for treatment of the patient within the scope of your existing treatment
+relationship, (2) to conduct authorized healthcare operations. The terms "treatment" and "healthcare
+operations" shall have those meanings attributed to them as defined in HIPAA and its related regulations. You
+understand that credentials used for access to The Service are unique to you and may not be shared with or
+viewed by others. You agree that you will not share credentials with anyone.
+2. Compliance with Applicable Law / Privacy. You understand that you are responsible for abiding by and
+compliance with all applicable laws and regulations relating to your access of all PHI, including SPHI. These
+laws and regulations include the Health Insurance Portability and Accountability Act of 1996 (HIPAA), 45 C.F.R.
+Parts 160 and 164 Subparts C and E and 42 C.F.R. Part 2.
+3. Data Quality / Independent Medical and Professional Judgment. You understand that you are responsible
+for all decisions, acts, and omissions of any persons in connection with the delivery of medical care or other
+services to any patients within the exercise of your independent medical and/or professional judgment. It is
+your responsibility to review and test all software and associated workflows and other content, as
+implemented, make independent decisions the use of the system based upon your needs, practices, standards
+Page 81 of 87
+© 2025 PCE Systems – CONFIDENTIAL – For Agency internal use only. Reproduction or re-distribution is prohibited.
+
+PCE Care Management v9.4 - Web Service API Documentation
+PCE Systems
+January 6, 2025
+
+and environment, and reaches your own independent determination that they are appropriate for use. You
+understand that the Service provides data routing, transmission, and display of data from various sources
+across the healthcare community. You agree that PCE is not responsible for the content, completeness,
+reliability, or quality of any data transmitted. You further understand that anomalies may occur at numerous
+points throughout the process, including data quality from sources, service availability, source system
+availability, transmission issues, or other data issues. You understand that any data you receive or that is
+omitted should be independently verified by you using your medical and/or professional judgment, regardless
+of whether the information received appears anomalous or otherwise inconsistent with other information you
+obtain. You understand and acknowledge that the Service is merely one of a variety of sources of information
+to be used in providing care to your patient. All data that is made available through the Service is subject to
+change arising from numerous factors, including without limitation, changes to patient health information
+made at the request of the patient, changes in the patient’s health condition, the passage of time and other
+factors. The Service may not initiate the transmission of any data, and does not monitor the specific content
+of data being transmitted. Without limiting any other provision under this Agreement, PCE SHALL HAVE NO
+RESPONSIBILITY FOR OR LIABILITY RELATED TO THE ACCURACY, CONTENT, CURRENCY, COMPLETENESS,
+CONSENT, OR DELIVERY OF ANY DATA PROVIDED BY A PARTICIPANT TO THE SERVICE.
+4. Prohibition on Redisclosure. Except as specifically set forth herein or as provided by law, you may not
+make further disclosures of patient information you obtain from the Service, including SPHI, unless further
+disclosure is permitted by the written consent of the person to whom it pertains or as otherwise permitted by
+federal and/or state laws and regulations. You agree not to remove any confidentiality tags or other
+indications of confidentiality on any data that you obtain from the Service. You take responsibility for the
+safekeeping and protection of the privacy of any PHI you obtain from the Service.
+5. Availability. Access to the Service or other source systems with the Service’s network may be limited
+during periods of high volume, system upgrades, maintenance, or for unanticipated reasons. PCE shall not be
+liable if you or another user is unable to access the Service or any resources connected to the Service or if you
+or another user is unable to complete transactions through the Service.
+6. Consent to Monitoring. By using this system, you consent to the monitoring and auditing of all of your
+activity by the Service system.
+7. License. Upon granting access to the Service, PCE is granting you a non-exclusive, non-transferable, nonsub-licensable, and limited right to use the Service. The Service shall only be used through direct access
+]
+The "42 C.F.R. Part 2" reference is significant — that's the federal regulation governing substance use disorder treatment records. This confirms the behavioral health focus. Let me look at the Costs appendix and revision history.
+[TOOL: bash]
+{
+  "command": "pdftotext /tmp/pce_api_doc.pdf - | sed -n '/Appendix C - Costs/,/Revision History/p'"
+}
+[RESULT: Appendix C - Costs ................................................................................................................................................................ 86
+Revision History .................................................................................................................................................................... 87
+Appendix C - Costs
+The Web Service API is subject to to a one-time setup fee to be charged to exchange partners (vendors, technical
+platforms, endpoints, etc.). This setup fee will be due prior to the initial kick-off call with the exchange partner and
+includes (1) provisioning and deployment of a test environment, (2) initial setup, configuration, and activation of the
+exchange partner within the test environment, (3) up to 5 hours of non-production testing with a PCE engineer and the
+exchange partner, (4) setup, configuration, and activation of the exchange partner within the production environment
+upon successful testing, and (5) up to two hours of production testing and validation with a PCE engineer.
+Additional testing time, assistance, and support, including ongoing support, troubleshooting or other partner-required
+maintenance post-launch, can be purchased in 10-hour pre-paid increments. Please contact PCE at
+apirequests@pcesystems.com for the current fee schedule.
+Use of the API assumes an appropriate level of technical experience and expertise with the technologies described in the
+Web Service API Documentation. PCE reserves the right to unilaterally terminate an API setup project in the event that
+an API cannot be successfully tested and approved for production within 25 testing hours (excluding any time spent
+addressing issues originating from PCE’s platform or services).
+All costs are non-refundable.
+
+Page 86 of 87
+© 2025 PCE Systems – CONFIDENTIAL – For Agency internal use only. Reproduction or re-distribution is prohibited.
+
+PCE Care Management v9.4 - Web Service API Documentation
+PCE Systems
+January 6, 2025
+
+Revision History
+]
+Now let me look at the USCDI data classes section from the API doc and then search for the company online.
+[TOOL: bash]
+{
+  "command": "pdftotext /tmp/pce_api_doc.pdf - | sed -n '/USCDI Data Classes/,/API Operations/p' | head -50"
+}
+[RESULT: USCDI Data Classes ................................................................................................................................................................. 8
+API Operations ........................................................................................................................................................................ 9
+USCDI Data Classes
+USCDI v1 Data Class
+
+API Operation (FHIR Resource)
+
+FHIR Resource Data Element
+
+Allergies and Intolerances
+
+Allergy Intolerances
+
+AllergyIntolerance
+
+Assessment and Plan of Treatment
+
+Care Plans
+
+CarePlan
+
+Care Team Members
+
+Care Teams
+
+CareTeam
+
+Clinical Notes
+
+Diagnostic Reports
+
+Diagnostic Report
+
+Document References
+
+Document Reference
+
+Goals
+
+Goals
+
+Goal
+
+Health Concerns
+
+Conditions
+
+Condition
+
+Immunizations
+]
+
+[TOOL: bash]
+{
+  "command": "pdftotext /tmp/pce_api_doc.pdf - | sed -n '/^USCDI Data Classes$/,/^API Operations$/p'"
+}
+[RESULT: USCDI Data Classes
+USCDI v1 Data Class
+
+API Operation (FHIR Resource)
+
+FHIR Resource Data Element
+
+Allergies and Intolerances
+
+Allergy Intolerances
+
+AllergyIntolerance
+
+Assessment and Plan of Treatment
+
+Care Plans
+
+CarePlan
+
+Care Team Members
+
+Care Teams
+
+CareTeam
+
+Clinical Notes
+
+Diagnostic Reports
+
+Diagnostic Report
+
+Document References
+
+Document Reference
+
+Goals
+
+Goals
+
+Goal
+
+Health Concerns
+
+Conditions
+
+Condition
+
+Immunizations
+
+Immunizations
+
+Immunization
+
+Laboratory
+
+Diagnostic Reports
+
+Diagnostic Report
+
+Observations
+
+Observation
+
+Medication Requests
+
+Medication Request
+
+Allergy Intolerances
+
+AllergyIntolerance
+
+Patient Demographics
+
+Patients
+
+Patient
+
+Problems
+
+Conditions
+
+Condition
+
+Procedures
+
+Procedures
+
+Procedure
+
+Provenance
+
+Provenance
+
+Provenance
+
+Smoking Status
+
+Observations
+
+Observation
+
+Unique Device Identifier(s) for Patient’s
+Implantable Device(s)
+
+Devices
+
+Device
+
+Vital Signs
+
+Observations
+
+Observation
+
+Medications
+
+Page 8 of 87
+© 2025 PCE Systems – CONFIDENTIAL – For Agency internal use only. Reproduction or re-distribution is prohibited.
+
+PCE Care Management v9.4 - Web Service API Documentation
+PCE Systems
+January 6, 2025
+
+API Operations
+]
+Now let me search for PCE Systems online to learn more about the company and their customer base.
+[TOOL: browser_navigate]
+{
+  "url": "https://www.google.com/search?q=%22PCE+Systems%22+%22PCE+Care+Management%22+behavioral+health+EHR"
+}
+[RESULT: done
+
+Downloads completed:
+  - PIX_9_4_API_Documentation.pdf (from https://www.pcesystems.com/PIX_9_4_API_Documentation.pdf) saved to: /tmp/shelley-downloads/PIX_9_4_API_Documentation_3c7aa236.pdf]
+
+[TOOL: browser_take_screenshot]
+{}
+[RESULT: Screenshot taken (saved as /tmp/shelley-screenshots/eacfc099-a984-4d0c-9abe-b5144ced7b23.png)]
+Google is blocking. Let me try Bing and DuckDuckGo.
+[TOOL: browser_navigate]
+{
+  "url": "https://www.bing.com/search?q=%22PCE+Systems%22+%22PCE+Care+Management%22+behavioral+health"
+}
+[RESULT: done]
+
+[TOOL: browser_take_screenshot]
+{}
+[RESULT: Screenshot taken (saved as /tmp/shelley-screenshots/691e47bb-9fdc-48ac-99a8-caa700b8b445.png)]
+Good — MedicalRecords.com has a profile. Let me check that and also scroll down for more results.
+[TOOL: browser_eval]
+{
+  "expression": "document.querySelector('.b_algo')?.innerText || 'no results'"
+}
+[RESULT: <javascript_result>"tmgroupinc.com\nhttps://tmgroupinc.com › addons › tmgpceintegration\nPCE Integration for CMH\n\nThis integration between Microsoft Dynamics 365 Business Central and PCE Systems, developed by TMG, offers a powerful solution for behavioral health organizations seeking to streamline and …\n\n "</javascript_result>]
+
+[TOOL: browser_eval]
+{
+  "expression": "Array.from(document.querySelectorAll('.b_algo')).map(el => el.innerText.substring(0, 200)).join('\\n---\\n')"
+}
+[RESULT: JavaScript result (1563 bytes) written to: /tmp/shelley-console-logs/js_result_c41f5427.json
+Use `cat /tmp/shelley-console-logs/js_result_c41f5427.json` to view the full content.]
+
+[TOOL: bash]
+{
+  "command": "cat /tmp/shelley-console-logs/js_result_c41f5427.json"
+}
+[RESULT: "tmgroupinc.com\nhttps://tmgroupinc.com › addons › tmgpceintegration\nPCE Integration for CMH\n\nThis integration between Microsoft Dynamics 365 Business Central and PCE Systems, developed by TMG, offers a\n---\npcesystems.com\nhttps://pcesystems.com\npcesystems.com\n\nWe would like to show you a description here but the site won’t allow us.\n\nLearn more\n---\nMiHIN\nhttps://mihin.org › wp-content › uploads › MiHIN...\n[PDF]\nSix of the Nation’s Leading Social Care Companies Sign ... - MiHIN\n\nAbout PCE Systems PCE Systems is an information technology and servi\n---\nPR Newswire\nhttps://www.prnewswire.com › news-releases › leading...\nLeading Michigan Behavioral Health Information EHR Company Signs …\n\nJan 15, 2013 · PCE is the largest behavioral health Electronic M\n---\nOakland Community Health Network\nhttps://www.oaklandchn.org\nData Sharing: Interoperability and Patient Access - Oakland CHN\n\nIn our ongoing effort to meet CMS interoperability standards, OCHN collabor\n---\nPCE\nhttps://www.pcecompanies.com › industries › healthcare\nHealthcare. M\u0026A and ESOP Advisors | PCE\n\nPCE has been helping clients in the Healthcare industry achieve their goals since the day we opened \n---\nDWIHN\nhttps://www.dwihn.org › translations › translate_pdf_wait\nTranslate this result\n[PDF]\nONC 2015 Edition Cures Update Web Service API Documentation\n---\nsuperagi.com\nhttps://sales.superagi.com › company › pce-systems\n---\nHealth Data Management\nhttps://www.healthdatamanagement.com › articles › ..."]
+Excellent. Let me visit the key results: MedicalRecords.com, MiHIN press release, and PR Newswire.
+[TOOL: browser_navigate]
+{
+  "url": "https://www.medicalrecords.com/mrcbase/emr/pce-systems"
+}
+[RESULT: done]
+
+[TOOL: browser_eval]
+{
+  "expression": "document.body.innerText.substring(0, 5000)"
+}
+[RESULT: <javascript_result>""</javascript_result>]
+
+[TOOL: browser_take_screenshot]
+{}
+[RESULT: Screenshot taken (saved as /tmp/shelley-screenshots/702a4ba5-872c-4008-adef-37034844afb1.png)]
+That's just a logo. Let me check the PR Newswire article and the MiHIN press release.
+[TOOL: browser_navigate]
+{
+  "url": "https://www.prnewswire.com/news-releases/leading-michigan-behavioral-health-information-ehr-company-signs-on-to-the-michigan-health-information-network-shared-services-mihin-177561001.html"
+}
+[RESULT: done]
+
+[TOOL: browser_eval]
+{
+  "expression": "document.body.innerText.substring(0, 5000)"
+}
+[RESULT: JavaScript result (1552 bytes) written to: /tmp/shelley-console-logs/js_result_4cbdfdb2.json
+Use `cat /tmp/shelley-console-logs/js_result_4cbdfdb2.json` to view the full content.]
+
+[TOOL: bash]
+{
+  "command": "cat /tmp/shelley-console-logs/js_result_4cbdfdb2.json"
+}
+[RESULT: "Accessibility Statement\nSkip Navigation\nResources\nInvestor Relations\nJournalists\nAgencies\nClient Login\nSend a Release\nNews\nProducts\nContact\nSearch\nNews in Focus\nBusiness \u0026 Money\nScience \u0026 Tech\nLifestyle \u0026 Health\nPolicy \u0026 Public Interest\nPeople \u0026 Culture\n\nSORRY, WE COULDN’T FIND THAT PAGE\nThe page you are searching for does not exist.\nEither it has moved, or the link is broken.\n\n\n\nERROR CODE: 404\n\nPlease use the search feature, return to the home page, or visit one of the following:\n\n \nNews\nProducts\nResources\nContact PR Newswire\n \nSend a Release\nOnline Member Center\nProfNet℠\nBecome a Member\nJournalists\n\n \nAsia\nBrazil\nCanada\nCzech\nDenmark\nFinland\nFrance\nGermany\nIndia\nIsrael\nItaly\nMexico\n\n \nMiddle East\nNetherlands\nNorway\nPoland\nPortugal\nRussia\nSlovakia\nSpain\nSweden\nUnited Kingdom\nUnited States\n\nContact PR Newswire\nCall PR Newswire at 888-776-0942\nfrom 8 AM - 9 PM ET\nContact Us \n  \nProducts\nFor Marketers\nFor Public Relations\nFor IR \u0026 Compliance\nFor Agency\nAll Products\nAbout\nAbout PR Newswire\nAbout Cision\nBecome a Publishing Partner\nBecome a Channel Partner\nCareers\nAccessibility Statement\nGlobal Sites \nMy Services\nAll New Releases\nPlatform Login\nProfNet\nData Privacy\n\nDo not sell or share my personal information:\n\nSubmit via privacy@cision.com \nCall Privacy toll-free: 877-297-8921\nTerms of Use\nPrivacy Policy\nInformation Security Policy\nSite Map\nRSS\nCookies\nCopyright © 2026 Cision US Inc."]
+404. Let me try the MiHIN PDF and then do a broader search.
+[TOOL: bash]
+{
+  "command": "curl -sL \"https://mihin.org/wp-content/uploads/MiHIN-PCE-Systems-Signs-On.pdf\" -o /tmp/mihin_pce.pdf 2>&1 && file /tmp/mihin_pce.pdf && pdftotext /tmp/mihin_pce.pdf - 2>/dev/null || echo \"Not a PDF\"; curl -sL \"https://mihin.org/wp-content/uploads/\" -o /tmp/mihin_page.html 2>&1; head -100 /tmp/mihin_page.html",
+  "slow_ok": true
+}
+[RESULT: /tmp/mihin_pce.pdf: HTML document, Unicode text, UTF-8 text, with very long lines (26335), with CRLF, LF line terminators
+Not a PDF
+<!DOCTYPE html>
+<html dir="ltr" lang="en-US" prefix="og: https://ogp.me/ns#">
+<head>
+	<meta charset="UTF-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<link rel="pingback" href="https://mihin.org/xmlrpc.php" />
+
+	<script type="text/javascript">
+		document.documentElement.className = 'js';
+	</script>
+
+	<title>Page not found &#8211; MiHIN</title>
+<script type="application/javascript">var mkdCoreAjaxUrl = "https://mihin.org/wp-admin/admin-ajax.php"</script>
+		<!-- All in One SEO 4.9.3 - aioseo.com -->
+	<meta name="robots" content="noindex" />
+	<meta name="generator" content="All in One SEO (AIOSEO) 4.9.3" />
+		<script type="application/ld+json" class="aioseo-schema">
+			{"@context":"https:\/\/schema.org","@graph":[{"@type":"BreadcrumbList","@id":"https:\/\/mihin.org\/wp-content\/uploads\/#breadcrumblist","itemListElement":[{"@type":"ListItem","@id":"https:\/\/mihin.org#listItem","position":1,"name":"Home","item":"https:\/\/mihin.org","nextItem":{"@type":"ListItem","@id":"#listItem","name":"404 - Page Not Found"}}]},{"@type":"Organization","@id":"https:\/\/mihin.org\/#organization","name":"MiHIN","description":"Michigan Health Information Shared Services Network","url":"https:\/\/mihin.org\/","logo":{"@type":"ImageObject","url":"https:\/\/mihin.org\/wp-content\/uploads\/2023\/02\/FINAL_Logo.jpg","@id":"https:\/\/mihin.org\/wp-content\/uploads\/#organizationLogo","width":863,"height":437},"image":{"@id":"https:\/\/mihin.org\/wp-content\/uploads\/#organizationLogo"}},{"@type":"WebPage","@id":"https:\/\/mihin.org\/wp-content\/uploads\/#webpage","url":"https:\/\/mihin.org\/wp-content\/uploads\/","inLanguage":"en-US","isPartOf":{"@id":"https:\/\/mihin.org\/#website"},"breadcrumb":{"@id":"https:\/\/mihin.org\/wp-content\/uploads\/#breadcrumblist"}},{"@type":"WebSite","@id":"https:\/\/mihin.org\/#website","url":"https:\/\/mihin.org\/","name":"MiHIN","description":"Michigan Health Information Shared Services Network","inLanguage":"en-US","publisher":{"@id":"https:\/\/mihin.org\/#organization"}}]}
+		</script>
+		<!-- All in One SEO -->
+
+<link rel="alternate" type="application/rss+xml" title="MiHIN &raquo; Feed" href="https://mihin.org/feed/" />
+<link rel="alternate" type="application/rss+xml" title="MiHIN &raquo; Comments Feed" href="https://mihin.org/comments/feed/" />
+		<!-- This site uses the Google Analytics by MonsterInsights plugin v10.0.2 - Using Analytics tracking - https://www.monsterinsights.com/ -->
+							<script src="//www.googletagmanager.com/gtag/js?id=G-JF8J16MFX2"  data-cfasync="false" data-wpfc-render="false" type="text/javascript" async></script>
+			<script data-cfasync="false" data-wpfc-render="false" type="text/javascript">
+				var mi_version = '10.0.2';
+				var mi_track_user = true;
+				var mi_no_track_reason = '';
+								var MonsterInsightsDefaultLocations = {"page_location":"https:\/\/mihin.org\/wp-content\/uploads\/"};
+								if ( typeof MonsterInsightsPrivacyGuardFilter === 'function' ) {
+					var MonsterInsightsLocations = (typeof MonsterInsightsExcludeQuery === 'object') ? MonsterInsightsPrivacyGuardFilter( MonsterInsightsExcludeQuery ) : MonsterInsightsPrivacyGuardFilter( MonsterInsightsDefaultLocations );
+				} else {
+					var MonsterInsightsLocations = (typeof MonsterInsightsExcludeQuery === 'object') ? MonsterInsightsExcludeQuery : MonsterInsightsDefaultLocations;
+				}
+
+								var disableStrs = [
+										'ga-disable-G-JF8J16MFX2',
+									];
+
+				/* Function to detect opted out users */
+				function __gtagTrackerIsOptedOut() {
+					for (var index = 0; index < disableStrs.length; index++) {
+						if (document.cookie.indexOf(disableStrs[index] + '=true') > -1) {
+							return true;
+						}
+					}
+
+					return false;
+				}
+
+				/* Disable tracking if the opt-out cookie exists. */
+				if (__gtagTrackerIsOptedOut()) {
+					for (var index = 0; index < disableStrs.length; index++) {
+						window[disableStrs[index]] = true;
+					}
+				}
+
+				/* Opt-out function */
+				function __gtagTrackerOptout() {
+					for (var index = 0; index < disableStrs.length; index++) {
+						document.cookie = disableStrs[index] + '=true; expires=Thu, 31 Dec 2099 23:59:59 UTC; path=/';
+						window[disableStrs[index]] = true;
+					}
+				}
+
+				if ('undefined' === typeof gaOptout) {
+					function gaOptout() {
+						__gtagTrackerOptout();
+					}
+				}
+								window.dataLayer = window.dataLayer || [];
+
+				window.MonsterInsightsDualTracker = {
+					helpers: {},
+					trackers: {},
+				};
+				if (mi_track_user) {
+					function __gtagDataLayer() {
+						dataLayer.push(arguments);
+					}
+
+					function __gtagTracker(type, name, parameters) {
+						if (!parameters) {
+							parameters = {};
+						}
+
+						if (parameters.send_to) {
+							__gtagDataLayer.apply(null, arguments);
+							return;
+						}
+
+						if (type === 'event') {
+														parameters.send_to = monsterinsights_frontend.v4_id;
+							var hookName = name;
+							if (typeof parameters['event_category'] !== 'undefined') {
+								hookName = parameters['event_category'] + ':' + name;
+							}
+
+							if (typeof MonsterInsightsDualTracker.trackers[hookName] !== 'undefined') {
+]
+Let me try the TMG Integration page and the Oakland CHN page, then try DuckDuckGo for more info.
+[TOOL: browser_navigate]
+{
+  "url": "https://tmgroupinc.com/addons/tmgpceintegration"
+}
+[RESULT: done]
+
+[TOOL: browser_eval]
+{
+  "expression": "document.body.innerText.substring(0, 5000)"
+}
+[RESULT: JavaScript result (1491 bytes) written to: /tmp/shelley-console-logs/js_result_9e44c44f.json
+Use `cat /tmp/shelley-console-logs/js_result_9e44c44f.json` to view the full content.]
+
+[TOOL: bash]
+{
+  "command": "cat /tmp/shelley-console-logs/js_result_9e44c44f.json"
+}
+[RESULT: "This website stores cookies on your computer. These cookies are used to collect information about how you interact with our website and allow us to remember you. We use this information in order to improve and customize your browsing experience and for analytics and metrics about our visitors both on this website and other media. To find out more about the cookies we use, see our Privacy Policy.\n\nIf you decline, your information won’t be tracked when you visit this website. A single cookie will be used in your browser to remember your preference not to be tracked.\n\nAccept\nDecline\nProducts\nServices\nIndustries\nAbout Us\nInsights\nContact us\nPCE Integration for CMH\n\nThis integration between Microsoft Dynamics 365 Business Central and PCE Systems, developed by TMG, offers a powerful solution for behavioral health organizations seeking to streamline and optimize their accounting and billing processes. The TMG SmartTools PCE Integration for CMH ensures that critical financial and operational data flows seamlessly between the two platforms, reducing inefficiencies and eliminating the need for redundant data entry. The result is a more efficient, accurate, and automated financial management system that allows organizations to focus on their core mission: delivering quality care.\n\nRelated Products\n365 BC\nTMG SmartTools\nAll\nVisit Website →\nContact us\nLinkedin\nFacebook\nX\n\n© The TM Group Inc, 2025 All rights reserved\n\nTerms of use\nPrivacy Policy"]
+This is very informative — confirms PCE integrates with Microsoft Dynamics 365 Business Central for accounting/billing, and serves CMH (Community Mental Health) organizations. Let me check Oakland CHN.
+[TOOL: browser_navigate]
+{
+  "url": "https://www.oaklandchn.org"
+}
+[RESULT: done]
+
+[TOOL: browser_eval]
+{
+  "expression": "document.body.innerText.substring(0, 3000)"
+}
+[RESULT: JavaScript result (3206 bytes) written to: /tmp/shelley-console-logs/js_result_b8c08c2c.json
+Use `cat /tmp/shelley-console-logs/js_result_b8c08c2c.json` to view the full content.]
+
+[TOOL: bash]
+{
+  "command": "cat /tmp/shelley-console-logs/js_result_b8c08c2c.json"
+}
+[RESULT: "Skip to main content\nEnable accessibility for low vision\nOpen the accessibility menu\nSkip to Main Content\nImmediate Help: 988 |  Services: 248-464-6363\n\nFOLLOW US ON\n\nSearch\nAbout Us\nHow Do I...\nPersons Served\nResources\nRights \u0026 Advocacy\nOCHN Crisis Services\n\nAt OCHN, we know that going through a crisis can feel overwhelming. You are not alone. Our Crisis Services are here to help you feel supported, understood, and cared for. We meet you where you are and help you figure out what to do next. Please call 888-238-0611.\n\nWelcome to Oakland Community Health Network\n\nOCHN leads a provider service network that assists approximately 30,000 Oakland County citizens at more than 400 service sites across the county. OCHN also manages a $300 million budget funded in part by the Michigan Department of Health Human Services, General Fund, grants, and Oakland County.\n\nLink to Traveling Art Show Information\n\nCalling all artists! The traveling art show is back in 2026 and we are looking for all talented artists to showcase their work. Submission of two-dimensional art, including paintings, drawings, prints, fabric, and photography will be accepted. Artwork is being accepted at OCHN’s administrative building in Troy (5505 Corporate Drive) by Friday, February 20, 2026\n\nLink to Advocacy Information\n\nAdvocacy is the act or process of supporting a cause or proposal for something or someone. Advocacy allows us to be heard and to share our lived experience so others can better understand our point of view\n\nLet OCHN Help\nCrisis\nAre you or a loved one having a mental health or substance use crisis? The Resource \u0026 Crisis Helpline is available 24/7. Call us at 988.\nMore Information on Access to Crisis Services\nNon-Crisis Services\nOCHN's screening process determines where your needs can be met, based on the severity and urgency of your situation. Call us at 248-464-6363.\nMore Information on Access to Non-Crisis Services\n\nDevelopmental Disabilities\nAutism\nCerebral Palsy\nCognitive Impairment\nDown Syndrome\nEpilepsy\nMuscular Dystrophy\nPhysical Impairment\nSensory Integration Disorder\n\nMental Health\nAnxiety\nBipolar Disorder\nCo-Occurring Disorder\nMajor Depressive Disorder\nPost-Traumatic Stress Disorder (PTSD)\nSchizophrenia\n\nSubstance Use Disorders\nAlcohol or Substance Abuse\nMedication Assisted Treatment\nResidential Treatment\nOpioid Overdose Prevention\nPrevention\nYouth Binge Drinking\n\nEvents \u0026 Highlights\n\nHere’s the Latest\nEvents\n\t\nTraining\n\t\nBoard Meeting\nFebruary 2026\nSun\tMon\tTue\tWed\tThu\tFri\tSat\n\n1\n\t\n2\n\t\n3\n\t\n4\n\t\n5\n\t\n6\n\t\n7\n\n\n8\n\t\n9\n\t\n10\n\t\n11\n\t\n12\n\t\n13\n\t\n14\n\n\n15\n\t\n16\n\t\n17\n\t\n18\n\t\n19\n\t\n20\n\t\n21\n\n\n22\n\t\n23\n\t\n24\n\t\n25\n\t\n26\n\t\n27\n\t\n28\nTue, Feb. 17\nBoard Meeting\nBoard Meeting\nMore Information\nWed, Feb. 18\nCitizen's Advisory Committee (CAC)\nCitizen's Advisory Committee (CAC)\nMore Information\nThu, Feb. 26\nBoard Study Session\nBoard Study Session\nMore Information\nMore Events\n\nKeep Informed\n\nStay Up to Date with\nOakland Community Health Network\nProvider Links\nGet access to helpful Provider Informa"]
+Oakland CHN is a CMH organization in Oakland County, MI — confirms PCE's customer base. Let me check the data sharing page from OCHN that was in search results.
+[TOOL: browser_navigate]
+{
+  "url": "https://duckduckgo.com/?q=%22PCE+Systems%22+%22PCE+Care+Management%22+behavioral+health+features"
+}
+[RESULT: done]
+
+[TOOL: browser_eval]
+{
+  "expression": "Array.from(document.querySelectorAll('[data-result]')).slice(0,8).map(el => el.innerText.substring(0, 200)).join('\\n---\\n')"
+}
+[RESULT: <javascript_result>"Features PCE Care Management offers a range of features that are critical for behavioral health providers, including: Comprehensive Care Management: Facilitates the creation and tracking of individual\n---\nPCE Care Management v9.4 - Web Service API Documentation PCE Systems November 10, 2022"</javascript_result>]
+
+[TOOL: browser_eval]
+{
+  "expression": "document.querySelectorAll('[data-result]')[0].innerText"
+}
+[RESULT: <javascript_result>"Features PCE Care Management offers a range of features that are critical for behavioral health providers, including: Comprehensive Care Management: Facilitates the creation and tracking of individualized treatment plans. Integrated Health Management: Allows for the coordination of care across different service providers."</javascript_result>]
+
+[TOOL: browser_eval]
+{
+  "expression": "Array.from(document.querySelectorAll('[data-result] a')).slice(0, 10).map(a => ({text: a.textContent.trim(), href: a.href}))"
+}
+[RESULT: <javascript_result>[]</javascript_result>]
+
+[TOOL: browser_eval]
+{
+  "expression": "Array.from(document.querySelectorAll('a[data-testid=\"result-title-a\"]')).slice(0,10).map(a => ({text: a.textContent.trim(), href: a.href}))"
+}
+[RESULT: <javascript_result>[{"href":"https://www.medicalrecords.com/mrcbase/emr/pce-systems-pce-care-management","text":"PCE Systems - MedicalRecords.com"},{"href":"https://www.dwihn.org/translations/translate_pdf_wait?t=1704400845600\u0026file_path=/patient-API.pdf","text":"ONC 2015 Edition Cures Update Web Service API Documentation"}]</javascript_result>]
+
+[TOOL: browser_navigate]
+{
+  "url": "https://www.medicalrecords.com/mrcbase/emr/pce-systems-pce-care-management"
+}
+[RESULT: done]
+
+[TOOL: browser_eval]
+{
+  "expression": "document.body.innerText.substring(0, 8000)"
+}
+[RESULT: JavaScript result (8176 bytes) written to: /tmp/shelley-console-logs/js_result_58e7a942.json
+Use `cat /tmp/shelley-console-logs/js_result_58e7a942.json` to view the full content.]
+
+[TOOL: bash]
+{
+  "command": "cat /tmp/shelley-console-logs/js_result_58e7a942.json"
+}
+[RESULT: "Get Your\nMedical Records\nLegal and\nClass Actions\nMedical\nTesting\nData\nBreaches\nEMR\nSoftware\nNeed your Records?\n5\nEMR Software\n5\nPCE Systems\nPCE Systems\nPriceWatch Demo\nMedicalRecords.com Rating 4.7\n7 reviews\nQuick Facts\nSpecialties\nBehavioral HealthPsychiatryPsychology\nPractice Sizes\n1 - 100+ Physicians\nCertifications\nONC-ATCB\nAbout PCE Systems\n\nPCE Care Management is a behavioral health Electronic Medical Record (EMR) system designed to streamline the entire care process for mental health professionals. It supports clinicians from the initial intake and assessment phase, through treatment planning, integrated health management, and discharge, all the way to billing. This EMR system is tailored to the unique needs of behavioral health care, providing a comprehensive solution for managing patient information and clinical workflows.\n\nFeatures\n\nPCE Care Management offers a range of features that are critical for behavioral health providers, including:\n\nComprehensive Care Management: Facilitates the creation and tracking of individualized treatment plans.\nIntegrated Health Management: Allows for the coordination of care across different service providers.\nBilling Integration: Streamlines the billing process, ensuring accuracy and efficiency in financial operations.\nIntegration\n\nPCE Systems, the developer of PCE Care Management, is known for creating flexible, fully-hosted software solutions. This means that PCE Care Management can integrate with other systems and databases, providing a seamless experience for users and ensuring that patient data is easily accessible and transferable when necessary.\n\nUser Interface\n\nThe user interface of PCE Care Management is designed with the unique workflows of behavioral health professionals in mind. It aims to be intuitive and user-friendly, reducing the administrative burden on clinicians and allowing them to focus more on patient care.\n\nCost\n\nWhile specific pricing details are not provided in the search results, it is important for physicians to consider the cost of an EMR system in their decision-making process. Factors such as the size of the practice, the number of users, and the specific features required can influence the overall cost.\n\nPhysicians looking to make an informed decision about PCE Care Management can contact MedicalRecords.com for unbiased and independent advice. They offer free demos or pricing information to help healthcare providers choose the best EMR system for their practice needs. For more information, physicians can reach out to MedicalRecords.com directly.\n\nFrequently Asked Questions\nHow does PCE Care Management support the creation and tracking of individualized treatment plans?\n\nPCE Care Management offers a comprehensive care management feature that facilitates the creation and tracking of individualized treatment plans. This feature is designed to streamline the entire care process, from initial intake and assessment to discharge and billing.\n\nCan PCE Care Management integrate with other systems and databases?\n\nYes, PCE Care Management is known for its flexibility and ability to integrate with other systems and databases. This ensures a seamless experience for users and allows patient data to be easily accessible and transferable when necessary.\n\nHow user-friendly is the interface of PCE Care Management?\n\nThe user interface of PCE Care Management is designed with the unique workflows of behavioral health professionals in mind. It aims to be intuitive and user-friendly, reducing the administrative burden on clinicians and allowing them to focus more on patient care.\n\nHow does PCE Care Management handle billing?\n\nPCE Care Management has a billing integration feature that streamlines the billing process. This ensures accuracy and efficiency in financial operations, making it easier for clinicians to manage their practice’s finances.\n\nWhat is the cost of PCE Care Management?\n\nSpecific pricing details for PCE Care Management are not provided in the search results. However, the cost of an EMR system can depend on factors such as the size of the practice, the number of users, and the specific features required. Physicians can contact MedicalRecords.com for unbiased and independent advice, including free demos or pricing information.\n\nFREE RESOURCE\nMedical, EMR \u0026 EHR software Pricing Guide\n\n★★★★★\n\nDon’t let price confusion keep you from selecting the best software!\n\nFREE Download\nReviews\nMedicalRecords.com Rating 4.7\n(7 reviews)\n\nTodd Lewicki\n\nSuper organization, great staff.\n\nPhilip Chen\n\nUB Wagner\n\nTerrance Hood\n\nYusuf khan\n\nRead All 7 Reviews\nSimilar Software\nPrevious\nElationEMR\n\nCertifications: Drummond, ONC-ATCB\n\nSpecialties: Allergy, Anesthesiology, Bariatric Surgery, Behavioral Health, Breast Surgery, Cardiology, Chiropractic, Dentistry, Dermatology, Emergency Medicine, Endocrinology, ENT, Family Med, Gastroenterology, General Surgery, Geriatrics, HEMATOLOGY/ONCOLOGY, Hospitalist, Infectious Disease, Internal Medicine, Internal Medicine Sub-Specialty, Long-Term Care, Mental Health, Multi-Specialty, Nephrology, Neurology, Neurosurgery, OB-Gyn, Occupational Medicine, Oncology, Ophthalmology, Optometry, Orthopedics, Pain Management, Pathology, Pediatrics, Physical Therapy, Plastic Surgery, Podiatry, Psychiatry, Psychology, Pulmonology, Radiology, Rheumatology, Sleep Medicine, surgery, SurgiCenter, Urgent Care, Urology, Vascular Surgery\n\nCareTracker EMR by OptumInsight\n\nCertifications: CCHIT\n\nSpecialties: Allergy, Anesthesiology, Bariatric Surgery, Behavioral Health, Breast Surgery, Cardiology, Chiropractic, Dentistry, Dermatology, Emergency Medicine, Endocrinology, ENT, Family Med, Gastroenterology, General Surgery, Geriatrics, HEMATOLOGY/ONCOLOGY, Hospitalist, Infectious Disease, Internal Medicine, Internal Medicine Sub-Specialty, Long-Term Care, Multi-Specialty, Nephrology, Neurology, Neurosurgery, OB-Gyn, Occupational Medicine, Oncology, Ophthalmology, Optometry, Orthopedics, Pathology, Pediatrics, Physical Therapy, Plastic Surgery, Podiatry, Psychiatry, Psychology, Pulmonology, Radiology, Rheumatology, Sleep Medicine, SurgiCenter, Urgent Care, Urology, Vascular Surgery\n\nSimplify MD\n\nCertifications: CCHIT\n\npatientNOW\n\nSpecialties: Dermatology, General Surgery, OB-Gyn, Plastic Surgery\n\nSigmacare\n\nSpecialties: Long-Term Care\n\nPractice Fusion\n\nCertifications: CCHIT, Dragon, Drummond, ONC-ATCB\n\nSpecialties: Allergy, Bariatric Surgery, Behavioral Health, Cardiology, Chiropractic, Dermatology, Emergency Medicine, Endocrinology, ENT, Family Med, Gastroenterology, General Surgery, Geriatrics, HEMATOLOGY/ONCOLOGY, Infectious Disease, Multi-Specialty, Nephrology, Neurology, Neurosurgery, OB-Gyn, Occupational Medicine, Oncology, Ophthalmology, Physical Therapy, Podiatry, Psychiatry, Pulmonology, Rheumatology, Urology\n\nDrChrono EHR\n\nCertifications: Dragon\n\nSpecialties: General Practice, General Practices\n\nOperating System: Windows\n\nAcumen EHR\n\nCertifications: CCHIT, ONC-ATCB\n\nSpecialties: Nephrology\n\nAdvancedMD EHR and EMR Software\n\nSpecialties: Allergy, Bariatric Surgery, Cardiology, Dermatology, Endocrinology, ENT, Family Med, Gastroenterology, General Surgery, Geriatrics, Infectious Disease, Internal Medicine, Internal Medicine Sub-Specialty, Multi-Specialty, Neurology, Neurosurgery, OB-Gyn, Occupational Medicine, Ophthalmology, Orthopedics, Pediatrics, Physical Therapy, Plastic Surgery, Podiatry, Pulmonology, Rheumatology, Sleep Medicine, Urgent Care, Urology\n\nAlteer Office EMR Software\n\nSpecialties: Cardiology, Dermatology, Emergency Medicine, Endocrinology, Family Med, Gastroenterology, General Surgery, HEMATOLOGY/ONCOLOGY, Infectious Disease, Internal Medicine, Internal Medicine Sub-Specialty, Multi-Specialty, Neurology, Neurosurgery, OB-Gyn, Orthopedics, Pediatrics, Plastic Surgery, Pulmonology, Rheumatology, SurgiCenter, Urgent Care, Urology\n\nElationEMR\n\nCertifications: Drummond, ONC-ATCB\n\nSpecialties: Allergy, Anesthesiology, Bariatric Surgery, Behavioral Health, Breast Surgery, Cardiol"]
+Very helpful. Now let me search for more about DWIHN (Detroit Wayne Integrated Health Network) which is another PCE customer.
+[TOOL: browser_navigate]
+{
+  "url": "https://duckduckgo.com/?q=%22PCE+Systems%22+Michigan+%22community+mental+health%22"
+}
+[RESULT: done]
+
+[TOOL: browser_eval]
+{
+  "expression": "Array.from(document.querySelectorAll('a[data-testid=\"result-title-a\"]')).slice(0,10).map(a => ({text: a.textContent.trim(), href: a.href}))"
+}
+[RESULT: <javascript_result>[{"href":"https://www.cmhpsm.org/ehr","text":"EHR Electronic Health Record | CMHPSM"},{"href":"https://marketplace.microsoft.com/en-us/marketplace/consulting-services/thetmgroupinc1589858852862.tmg-cmh","text":"TMGCLOUD Community Mental Health Business Central to PCE Billing"},{"href":"https://www.salary.com/research/company/pce-systems-overview","text":"PCE Systems Overview - Salary.com"},{"href":"https://mihin.org/2013/11/michigan-health-info-exchange-sets-two-national-milestones/","text":"Michigan Health Info Exchange Sets Two National Milestones"},{"href":"https://www.zoominfo.com/p/Alan-Erickson/14515584252","text":"Alan Erickson Senior Project Manager at PCE Systems"}]</javascript_result>]
+
+[TOOL: browser_navigate]
+{
+  "url": "https://www.cmhpsm.org/ehr"
+}
+[RESULT: done]
+
+[TOOL: browser_eval]
+{
+  "expression": "document.body.innerText.substring(0, 5000)"
+}
+[RESULT: JavaScript result (2389 bytes) written to: /tmp/shelley-console-logs/js_result_431822bc.json
+Use `cat /tmp/shelley-console-logs/js_result_431822bc.json` to view the full content.]
+
+[TOOL: bash]
+{
+  "command": "cat /tmp/shelley-console-logs/js_result_431822bc.json"
+}
+[RESULT: "Skip to Main Content\nPrograms / Services\nFor Providers\nPolicies\nAdministration\nElectronic Health Record Information\nOverview\n\nThe Community Mental Health Partnership of Southeast Michigan and its partner CMHSPs utilize a shared electronic health record for claims submission, incident reporting, and other service information reporting. The PCE Systems supported electronic health record system used within the CMHPSM region is \"Confidential Record of Consumer Treatment\" or \"CRCT\" for short.\n\n​\n\nAs our CRCT electronic health record is utilized by our PIHP, partner CMHSPs, and providers of the PIHP and CMHSPs support for users is a shared function. CRCT users that work with multiple CMHSPs will have a user account that has separate access to each of those 'affiliates\".\n\n​\n\nLink to CRCT EHR\nCRCT Login Assistance\n\nAll Lenawee service providers should contact Lenawee CMHSP for user access to CRCT or other assistance.\n\nAll Livingston service providers should contact Livingston CMHSP for user access to CRCT or other assistance.\n\nMonroe mental health / IDD service providers should contact Monroe CMHSP for user access to CRCT or other assistance.\n\nWashtenaw mental health / IDD service providers should contact Washtenaw CMHSP for user access to CRCT or other assistance.\n\nSubstance use treatment service providers contracted directly to the CMHPSM to serve Monroe and Washtenaw residents should utilize the CMHPSM SUD Provider Login Request Form below. For other assistance with CRCT individuals should contact the CMHPSM help desk. \n\nCMHPSM SUD Provider Login Request Form\nCRCT Help Module\n\nAll users with CRCT access can access the CRCT Help module for detailed guides on various processes within CRCT. The CRCT Help module can be used for immediate access to assistance for most user questions. If you have a question on a specific CRCT process or a question that isn't covered in the Help module please contact the CMHPSM help desk. \n\nIf you have additional questions about CRCT or CRCT trainings, please email or call the CMHPSM help desk. \n\nEmail CMHPSM Help Desk\nCall CMHPSM Help Desk\nPage Resources\nOverview\nLink to CRCT\nCRCT Login Assistance\nMonroe/Washtenaw SUD Access\nContact CRCT Help Dessk\n\nLooking for Services: Click Here\n\nReport Fraud, Waste or Abuse: Form\n\nData Sharing: Click Here\n\n© 2023 CMHPSM"]
+This is gold. The CMHPSM (Community Mental Health Partnership of Southeast Michigan) uses PCE Systems' EHR, branded as "CRCT" (Confidential Record of Consumer Treatment). It's used by a PIHP (Prepaid Inpatient Health Plan), partner CMHSPs, and providers — for claims submission, incident reporting, and service information. Let me check Salary.com for company size info, then the Microsoft marketplace listing.
+[TOOL: browser_navigate]
+{
+  "url": "https://www.salary.com/research/company/pce-systems-overview"
+}
+[RESULT: done]
+
+[TOOL: browser_eval]
+{
+  "expression": "document.body.innerText.substring(0, 4000)"
+}
+[RESULT: <javascript_result>"We use cookies and similar technologies on this site to enhance functionality, analyze traffic and usage, and deliver personalized content. Learn More\nI Accept\nFOR YOU\nFOR EMPLOYERS\nSURVEY CATALOG\nRESOURCES\nFIND A JOB\nDEMO COMPENSATION PLANNING\nBLOG\nHuman Check Required\nTo keep our platform safe, please confirm you're human:\nI am not a robot\nTick this box to continue\n© 2026 Salary.com. All rights reserved."</javascript_result>]
+Blocked. Let me try the Microsoft listing.
+[TOOL: browser_navigate]
+{
+  "url": "https://marketplace.microsoft.com/en-us/marketplace/consulting-services/thetmgroupinc1589858852862.tmg-cmh"
+}
+[RESULT: done]
+
+[TOOL: browser_eval]
+{
+  "expression": "document.body.innerText.substring(0, 5000)"
+}
+[RESULT: JavaScript result (5080 bytes) written to: /tmp/shelley-console-logs/js_result_566c6c52.json
+Use `cat /tmp/shelley-console-logs/js_result_566c6c52.json` to view the full content.]
+
+[TOOL: bash]
+{
+  "command": "cat /tmp/shelley-console-logs/js_result_566c6c52.json"
+}
+[RESULT: "Marketplace\nProfessional Services\n\n\n\nSign in\n\n\nAll\nProducts\n\nCategories\n\nIndustries\n\nPartners\n\nProfessional ServicesTMGCLOUD Community Mental Health Business Central to PCE Billing\nTMGCLOUD Community Mental Health Business Central to PCE Billing\nThe TM Group, Inc.\nDynamics 365 Business Central\nPower BI\nPower Automate\nPricing $5,000\nContact me\nOverview\nAdditional information\n\nRobust automatic integration between Business Central and PCE for Billing.\n\nThis integration between Microsoft Dynamics 365 Business Central and PCE Systems, developed by TMG, offers a powerful solution for behavioral health organizations seeking to streamline and optimize their accounting and billing processes. The integration ensures that critical financial and operational data flows seamlessly between the two platforms, reducing inefficiencies and eliminating the need for redundant data entry. The result is a more efficient, accurate, and automated financial management system that allows organizations to focus on their core mission: delivering quality care.\n\nKey Integration Points and Functionality\n\nThe integration focuses on several essential points that are crucial to maintaining accurate financial records and ensuring the smooth operation of day-to-day financial activities. These include:\n\nCost Centers: Cost centers are a vital aspect of financial management, allowing organizations to track expenses and allocate resources effectively. The integration between Business Central and PCE Systems ensures that cost centers are accurately reflected in both systems, allowing for real-time tracking and reporting. This synchronization enables finance teams to monitor spending across different departments or service lines, ensuring that resources are being used effectively to support client care.\n\nAccounts Payable (AP) Transactions: Managing accounts payable efficiently is critical to maintaining cash flow and ensuring timely payments to vendors and service providers. The integration facilitates the automatic transfer of AP transactions from PCE Systems to Business Central, streamlining the payment process and ensuring accuracy in financial reporting. This reduces the risk of errors that can occur when entering data manually and helps maintain positive relationships with vendors by ensuring that payments are made on time.\n\nVendor Information: Accurate vendor management is essential to maintaining a reliable supply chain and ensuring that services and supplies are delivered when needed. The integration allows for the automatic synchronization of vendor information between PCE Systems and Business Central, ensuring that vendor records are up-to-date and consistent across both platforms. This reduces the administrative burden of manually updating vendor details and helps prevent errors that can lead to payment delays or service interruptions.\n\nBy automating these critical processes, the integration between Business Central and PCE Systems significantly reduces the time and effort required to manage financial operations. This allows finance teams to focus on higher-value tasks, such as financial planning and analysis, rather than spending time on data entry and reconciliation.\n\nEnhanced Efficiency Through the PCE Integration Engine\n\nA standout feature of the Business Central to PCE Systems integration is the PCE integration engine, built by The TM Group. This engine is designed to monitor and streamline the flow of data between the two platforms, ensuring that the integration is not only seamless but also scalable and adaptable to the changing needs of the organization.\n\nThe PCE integration engine continuously monitors the data exchange process, identifying and addressing any issues before they can impact financial operations. This proactive approach minimizes downtime and ensures that the integration remains reliable, even as the organization grows or its financial needs evolve.\n\nBenefits for Behavioral Health Organizations\n\nThe benefits of the Business Central to PCE Systems integration are far-reaching and can significantly impact the overall financial health of behavioral health organizations. These benefits include:\n\nIncreased Efficiency: By automating key financial processes, the integration reduces the time and effort required to manage financial operations, allowing staff to focus on more strategic tasks.\n\nImproved Accuracy: Automation eliminates the risk of errors that can occur with manual data entry, ensuring that financial records are accurate and up-to-date.\n\nEnhanced Visibility: The integration provides real-time visibility into financial data, allowing organizations to make informed decisions and respond quickly to changing financial conditions.\n\nCompliance and Reporting: Behavioral health organizations must comply with a range of regulatory requirements, and the integration ensures that financial data is accurate and readily available for reporting purposes. This simplifies compliance with regulations such as HIPAA and en"]
+Excellent. Now let me search for more about the DWIHN and their use of PCE.
+[TOOL: browser_navigate]
+{
+  "url": "https://duckduckgo.com/?q=%22PCE+Systems%22+site:linkedin.com"
+}
+[RESULT: done]
+
+[TOOL: browser_eval]
+{
+  "expression": "Array.from(document.querySelectorAll('a[data-testid=\"result-title-a\"]')).slice(0,10).map(a => ({text: a.textContent.trim(), href: a.href}))"
+}
+[RESULT: JavaScript result (1275 bytes) written to: /tmp/shelley-console-logs/js_result_c9c9ce58.json
+Use `cat /tmp/shelley-console-logs/js_result_c9c9ce58.json` to view the full content.]
+
+[TOOL: bash]
+{
+  "command": "cat /tmp/shelley-console-logs/js_result_c9c9ce58.json"
+}
+[RESULT: [{"href":"https://in.linkedin.com/company/power-control-electro-systems-pvt-ltd","text":"Power Control Electro Systems Pvt Ltd | LinkedIn"},{"href":"https://www.linkedin.com/in/jeff-c-78b0005","text":"Jeff C. - PCE Systems | LinkedIn"},{"href":"https://www.linkedin.com/in/stephen-wallag-04377613","text":"Stephen Wallag - Senior Network Administrator | LinkedIn"},{"href":"https://www.linkedin.com/in/david-desnoyer-8497a7266","text":"David DesNoyer - Senior Systems Analyst / Project Manager at PCE ..."},{"href":"https://www.linkedin.com/in/maryrose-deberardino-02596610a","text":"Maryrose DeBerardino - Project Manager at PCE Systems | LinkedIn"},{"href":"https://www.linkedin.com/in/nathangabrish","text":"Nathan Gabrish - PCE Systems | LinkedIn"},{"href":"https://www.linkedin.com/in/sabrina-bowers-56b08691","text":"Sabrina Bowers - Project Manager at PCE Systems | LinkedIn"},{"href":"https://www.linkedin.com/in/gabe-blonski-ba46ba39","text":"Gabe Blonski - Systems Analyst at PCE Systems | LinkedIn"},{"href":"https://www.linkedin.com/in/mike-gorivodskiy-99960746","text":"Mike Gorivodskiy - Systems Analyst at PCE Systems | LinkedIn"},{"href":"https://www.linkedin.com/in/kevin-kalp-5653085","text":"Kevin Kalp - Senior Systems Analyst at PCE Systems | LinkedIn"}]]
+
+[TOOL: browser_navigate]
+{
+  "url": "https://duckduckgo.com/?q=%22PCE+Systems%22+%22behavioral+health%22+EHR+michigan+customers"
+}
+[RESULT: done]
+
+[TOOL: browser_eval]
+{
+  "expression": "Array.from(document.querySelectorAll('a[data-testid=\"result-title-a\"]')).slice(0,10).map(a => ({text: a.textContent.trim(), href: a.href}))"
+}
+[RESULT: JavaScript result (1240 bytes) written to: /tmp/shelley-console-logs/js_result_687202ed.json
+Use `cat /tmp/shelley-console-logs/js_result_687202ed.json` to view the full content.]
+
+[TOOL: bash]
+{
+  "command": "cat /tmp/shelley-console-logs/js_result_687202ed.json"
+}
+[RESULT: [{"href":"https://www.prnewswire.com/news-releases/leading-michigan-behavioral-health-information-ehr-company-signs-up-for-data-sharing-through-michigan-health-information-network-186941191.html","text":"Leading Michigan Behavioral Health Information EHR Company Signs Up for ..."},{"href":"https://mihin.org/wp-content/uploads/2022/07/MiHIN-Interoperable-Referrals-Pledge-Final-V2.pdf","text":"PDF Six of the Nation's Leading Social Care Companies Sign ... - MiHIN"},{"href":"https://www.cbsnews.com/detroit/news/client-wins-from-january-25-3/","text":"Client Wins From January 25 - CBS Detroit"},{"href":"https://beta.healthit.gov/sites/default/files/playbook/pdf/brightspot-health-info-exchange-washtenaw-mi.pdf","text":"PDF Expanding Behavioral Health Information Exchange for Providers in ..."},{"href":"https://www.healthdatamanagement.com/articles/michigan-hies-able-to-share-behavioral-health-data","text":"Michigan HIEs Able to Share Behavioral Health Data"},{"href":"https://openminds.com/market-intelligence/bulletins/011513-mihin-pce-systems-ehr-vqo/","text":"Michigan's Leading Behavioral Health Information EHR Company Signs Up ..."},{"href":"https://tmgroupinc.com/addons/tmgpceintegration","text":"PCE Integration for CMH"}]]
+
+[TOOL: browser_navigate]
+{
+  "url": "https://www.prnewswire.com/news-releases/leading-michigan-behavioral-health-information-ehr-company-signs-up-for-data-sharing-through-michigan-health-information-network-186941191.html"
+}
+[RESULT: done]
+
+[TOOL: browser_eval]
+{
+  "expression": "document.body.innerText.substring(0, 8000)"
+}
+[RESULT: JavaScript result (6415 bytes) written to: /tmp/shelley-console-logs/js_result_4b7c998c.json
+Use `cat /tmp/shelley-console-logs/js_result_4b7c998c.json` to view the full content.]
+
+[TOOL: bash]
+{
+  "command": "cat /tmp/shelley-console-logs/js_result_4b7c998c.json"
+}
+[RESULT: "Accessibility Statement\nSkip Navigation\nResources\nInvestor Relations\nJournalists\nAgencies\nClient Login\nSend a Release\nNews\nProducts\nContact\nSearch\nNews in Focus\nBusiness \u0026 Money\nScience \u0026 Tech\nLifestyle \u0026 Health\nPolicy \u0026 Public Interest\nPeople \u0026 Culture\nLeading Michigan Behavioral Health Information EHR Company Signs Up for Data Sharing Through Michigan Health Information Network\nNEWS PROVIDED BY\nMichigan Health Information Network \n\nJan 15, 2013, 09:42 ET\n\nSHARE THIS ARTICLE\n    \n\nEAST LANSING, Mich., Jan. 15, 2013 /PRNewswire-USNewswire/ -- The Michigan Health Information Network Shared Services (MiHIN) has announced that PCE Systems, a leading provider of Electronic Health Record (EHR) solutions to Michigan's Behavioral Health organizations, has executed the legal data sharing agreements to become a Virtually Qualified Data Sharing Organization (VQO) through MiHIN.  As a MiHIN VQO, PCE has the ability to securely send and receive health information securely through MiHIN to other Qualified Data Sharing Organizations (QO's) connected to MiHIN.  PCE Systems can now utilize the Shared Services offered by MiHIN and allow Michigan's sub-state Health Information Exchanges (HIE) to connect their physical health networks with behavioral health and substance abuse treatment organizations connected to PCE's information exchange network. This will provide clinical staff with secure access to comprehensive patient health information in a manner that is consistent with the additional privacy protections afforded to behavioral health and substance abuse treatment information. MiHIN Senior Integration and Technical Architect Jeff Shaw observed \"Bringing PCE into the MiHIN stakeholder community helps close the information gap between physical and behavioral health.  This ensures that all health professionals will have appropriate access to patients' medical information allowing for treatment of the specific needs of each and every patient.\"\n\n\nJeff Chang, Project Manager at PCE Systems, stated, \"PCE has been working hard both internally and with its behavioral health client base to navigate the complex technical, legal, and political issues of integrating behavioral health and substance abuse treatment information into the current HIE infrastructure. We are excited to be working with MiHIN's talented technical team to build on MiHIN's great work in the physical health HIE space. Together, we will be able to bring the behavioral health and physical health community together, and provide healthcare professionals on the ground with the best, most comprehensive and timely information possible.\"\n\nThe Upper Peninsula Health Information Exchange (UPHIE), a MiHIN Qualified Organization and sub-state HIE, plans to immediately undertake a behavioral health information exchange pilot with MiHIN and PCE.  Dennis Smith, President and CEO of UPHIE said regarding the pilot program \"We have been talking to PCE for a while, but having Michigan's QO's go through MiHIN's cloud to communicate with PCE through a common path was obviously the most cost-effective approach for Michiganders.  We are excited to begin this pilot with PCE and MiHIN to accelerate HIE in the Behavioral Health Community and look forward to sharing our early successes statewide through MiHIN.\"\n\nMiHIN Associate Director Jeff Livesay commented \"MiHIN is extremely fortunate to be working with the advanced technology team at PCE Systems.  PCE's pro-active, results-oriented approach to getting things done intelligently and in short order will allow MiHIN participants to soon access to their patients' behavioral health information through a common interface thereby saving time and money for HIE organizations statewide.\" \n\nAbout Michigan Health Information Network Shared Services (MiHIN)\nThe Michigan Health Information Network (MiHIN) is Michigan's initiative to improve health care quality, efficiency, and patient safety through the sharing of electronic health information, while reducing costs. MiHIN is the official state designated entity for health information exchange across Michigan and the future integration with the eHealth Exchange. MiHIN is a Michigan nonprofit entity, functioning as a public and private collaboration between the State of Michigan, sub-state Health Information Exchanges, payers, providers, and patients.\nFor more information please visit www.mihin.org.\n\n\nAbout Upper Peninsula Health Information Exchange (UPHIE)\nWe are a health information organization that brings together health care stakeholders within a defined geographic area and governs health information exchanges among them for the purpose of improving health and care in the community. Our vision is to provide secure electronic health information to health care providers to have ready, seamless access to patient health information to support clinical decisions and care coordination for the residents of the Upper Peninsula.\n\n\nAbout PCE Systems\nPCE Systems is an information technology and services company based in Farmington Hills, MI specializing in custom, hosted solutions that go beyond the capabilities of typical \"off-the-shelf\" software. PCE is the largest behavioral health Electronic Medical Record (EMR) and provider management system vendor in the State of Michigan, with clients encompassing over 70% of the Michigan Medicaid mental health budget. PCE seeks to break the mold of typical software vendors by providing innovative solutions and unparalleled support services under a model that engenders trust and collaboration among PCE and its clients.\n\nSOURCE Michigan Health Information Network\n\n21%\nmore press release views with \nRequest a Demo\nContact PR Newswire\nCall PR Newswire at 888-776-0942\nfrom 8 AM - 9 PM ET\nContact Us \n  \nProducts\nFor Marketers\nFor Public Relations\nFor IR \u0026 Compliance\nFor Agency\nAll Products\nAbout\nAbout PR Newswire\nAbout Cision\nBecome a Publishing Partner\nBecome a Channel Partner\nCareers\nAccessibility Statement\nGlobal Sites \nMy Services\nAll New Releases\nPlatform Login\nProfNet\nData Privacy\n\nDo not sell or share my personal information:\n\nSubmit via privacy@cision.com \nCall Privacy toll-free: 877-297-8921\nTerms of Use\nPrivacy Policy\nInformation Security Policy\nSite Map\nRSS\nCookies\nCopyright © 2026 Cision US Inc."]
+This is extremely informative. Key facts:
+- **Based in Farmington Hills, MI**
+- **Largest behavioral health EMR vendor in Michigan**
+- **Clients encompassing over 70% of Michigan Medicaid mental health budget**
+- **Specializes in custom, hosted solutions**
+- **Connected to MiHIN for behavioral health/substance abuse data exchange**
+- **42 C.F.R. Part 2 compliant** (substance abuse treatment privacy)
+
+Now let me check the ONC Brightspot document and then look for the EHI export documentation briefly.
+[TOOL: bash]
+{
+  "command": "curl -sL \"https://beta.healthit.gov/sites/default/files/playbook/pdf/brightspot-health-info-exchange-washtenaw-mi.pdf\" -o /tmp/brightspot.pdf && pdftotext /tmp/brightspot.pdf - 2>/dev/null | head -100",
+  "slow_ok": true
+}
+[RESULT: Expanding Behavioral Health Information Exchange for
+Providers in Washtenaw County, Michigan
+“As behavioral health providers, it is significant to have access to patient physical health
+information. With access to data like lab results, medications, and treatment plans, we can
+ultimately provide a better quality of care for our patients.” Mike Harding, Deputy-Director,
+Washtenaw County Community Mental Health
+
+Washtenaw County Community Mental Health
+Washtenaw County Community Mental Health (CMH) is the primary mental health services provider for
+more than 5,000 children and adults living with serious mental illness, developmental disabilities, or
+emotional disturbances in Washtenaw County, Michigan. To improve care coordination with healthcare
+and social services providers in the area, CMH and other mental health agencies and community
+partners, spearheaded the development of an electronic consent (eConsent) management system with
+funding from the Office of the National Coordinator for Health IT (ONC).
+
+Capturing Patient Consent
+The Health Insurance Portability and Accountability Act (HIPAA) permits healthcare providers to freely
+share almost all patient data to support treatment, payment, and operational needs. However, HIPAA
+does not apply to information related to treatment for substance use disorders. Federal regulation 42
+CFR Part 2 requires providers to obtain patient consent before sharing information about treatment for
+substance use disorders with other providers. Moreover, Michigan state laws require a patient to
+consent before providers can share any information related to their mental or behavioral healthcare. As
+such, behavioral health providers in Michigan have had to develop processes for obtaining and sharing
+patient consent for care coordination.
+For many years, Michigan’s behavioral health organizations created their own consent forms to address
+the state and federal laws, leading to a patchwork system that proved confusing to both providers and
+patients. In 2014, Michigan’s legislature passed a law establishing a standardized consent form
+compliant with HIPAA, 42 CFR Part 2, and Michigan’s Mental Health Code that all entities in Michigan
+have to accept.
+Instead of relying on a paper-based process, CMH sought to develop a mechanism for electronically
+capturing the information on Michigan’s standardized consent form. CMH collaborated with Michiganbased health information technology developer PCE Systems to create an eConsent Management
+System. The system functions as a gateway to a behavioral health information exchange called PIX. PIX
+uses common health information exchange (HIE) standards and application programming interfaces
+(APIs) to connect and provide consent-managed data exchange among users of PCE’s electronic health
+record (EHR). The PIX system can also connect and share with external systems from other developers
+that have implemented compatible standards. Through PIX, users can search for patient records from
+1
+
+other implementations of the EHR across Michigan. PIX enables providers to find information about a
+patient’s care team, treatment plan, appointments, problem list, medications, vitals, lab results, and
+other clinical documentation such as medication reviews and clinical assessments.
+The consent form available through the eConsent Management System includes:
+·
+
+A section for listing all of the entities who have consent to view the patient’s records (patients
+can select from a pre-filled list of participants in PIX or fill in information themselves)
+
+·
+
+A disclaimer about the patient’s rights and what their consent means
+
+·
+
+An option for specifying an expiration date (cannot exceed one year)
+
+Patients can sign the consent form digitally, using a signature pad or touchscreen, or sign a paper copy
+that can be scanned and uploaded into the system. By providing consent through the system, a patient
+agrees to make all of their health data available to each of the entities listed on the consent directive.
+CMH and partners decided not to depend on potentially unreliable data segmentation techniques when
+developing the system; patients cannot use the system to specify which data they want to share with
+other providers. However, patients can revoke their consent at any time.
+
+Connecting Community Partners
+Prior to developing the eConsent Management System, CMH already had a relatively mature health
+information technology infrastructure. In addition to using PCE’s EHR and participating in PIX, CMH was
+also a member of the regional health information exchange Great Lakes Health Connect (GLHC).
+Through GLHC, CMH providers can find key clinical data about their patients from primary care providers
+in the region. CMH developed single sign-on capabilities with the GLHC Virtual Integrated Patient Record
+(VIPR) so that providers could access GLHC’s data from within their EHR.
+However, CMH shares many patients with other local community and health service providers that do
+not have the same level of technological maturity:
+·
+
+Packard Health – a primary care practice that also offers integrated behavioral health services
+
+·
+
+The Shelter Association of Washtenaw County – provides a range of health and social services
+to the homeless population, including an onsite health clinic
+
+·
+
+Avalon Housing – offers housing and support services for individuals struggling with
+homelessness
+
+These organizations represent an important set of safety net resources in Washtenaw County, but
+lacked access to the breadth of data available to CMH providers.
+To help improve access to patient data for care coordination throughout the community, CMH, PCE, and
+other community stakeholders collaborated to create a standalone portal called MI Care Connect. All
+three community partners have access to PIX through the portal, giving them insights into the
+behavioral health care of their clients. The portal presents information from PIX in a clear and concise
+format, with separate tabs for key data elements:
+
+2
+
+Providers have already noted the clinical benefits of the system, including the ability to obtain a
+patient’s information more quickly. Consents are often already in the system, which means providers
+can access the information immediately instead of waiting to process a new consent form. CMH is
+exploring how increased access to data may be reducing the number of duplicative diagnostic tests
+providers are ordering. In addition to gaining a more holistic view of a patient’s health, providers also
+]
+This is excellent — the ONC Brightspot document reveals the **PIX** system (Provider Information Exchange), which is the HIE layer of PCE's EHR. It also mentions the **MI Care Connect** portal and the **eConsent Management System**. Let me get the rest.
+[TOOL: bash]
+{
+  "command": "pdftotext /tmp/brightspot.pdf - 2>/dev/null | tail -60"
+}
+[RESULT: To help improve access to patient data for care coordination throughout the community, CMH, PCE, and
+other community stakeholders collaborated to create a standalone portal called MI Care Connect. All
+three community partners have access to PIX through the portal, giving them insights into the
+behavioral health care of their clients. The portal presents information from PIX in a clear and concise
+format, with separate tabs for key data elements:
+
+2
+
+Providers have already noted the clinical benefits of the system, including the ability to obtain a
+patient’s information more quickly. Consents are often already in the system, which means providers
+can access the information immediately instead of waiting to process a new consent form. CMH is
+exploring how increased access to data may be reducing the number of duplicative diagnostic tests
+providers are ordering. In addition to gaining a more holistic view of a patient’s health, providers also
+appreciate having information about the patient’s care team for follow-up questions and care
+coordination.
+
+Familiarizing Users with eConsent Management
+Every new technology implementation runs the risk of disrupting existing workflows and processes.
+During an earlier pilot with the University of Michigan to test eConsent Management and exchange
+data, CMH found that its providers were not fully utilizing the system. Although they wanted access to
+primary care data from the University of Michigan, the mechanism for accessing the data was not well
+integrated into their workflows. CMH ultimately developed single sign-on capabilities to GLHC as a
+result, which helped increase utilization of the system. CMH also learned an important lesson about the
+need to design workflows to support new technologies.
+Consequently, CMH partnered with Altarum Institute, a health systems research and consulting
+organization, to train the three community partners on using eConsent Management System. Altarum
+staff analyzed existing workflows to understand when and how to integrate the eConsent Management
+System effectively. Altarum held multiple in-person sessions to introduce the system to staff at each
+site, as well as more in depth trainings with end users like case managers that would use the system
+most frequently.
+CMH also employed a variety of strategies to educate patients about the new system. For example, CMH
+runs a clubhouse program that focuses on fostering recovery, competency, and social supports, as well
+as vocational skills and opportunities for those that participate. CMH staff presented at clubhouse
+program events about the importance of sharing health information. CMH has also created a tip sheet
+for front desk staff and case managers to use to help guide their conversations with patients about
+3
+
+consent. CMH emphasized the importance of telling a story about information exchange that resonated
+with patients, such as what would happen if the patient were in crisis and had to remember all of the
+medications or treatments they had. CMH’s approach to patient engagement has resulted in most
+patients opting to consent to sharing their health information.
+
+Looking Ahead
+Because of the project, healthcare providers in Washtenaw County can now access comprehensive
+clinical data about their patients, and patients can outline their preferences for how their health
+information is shared among providers. CMH has now turned its attention to onboarding new
+community partners, including the local corrections system. CMH is also developing a standardized
+consent form for use among social service organizations to expand access to health information in
+Washtenaw County further.
+
+More about Washtenaw County Community Mental Health’s (CMH) Project:
+Washtenaw is committed to furthering the advancement of holistic health through one unified
+integrated system of health care and social services for all. If you would like to know more about the
+WCCMH project feel free to contact Michael Harding at hardingm@ewashtenaw.org.
+Learn more about CMH Now!
+Connect with us: www.ewashtenaw.org | Facebook
+
+4
+
+]
+Now let me look at what the DWIHN page says and also search for CHPL info to understand the product scope.
+[TOOL: browser_navigate]
+{
+  "url": "https://duckduckgo.com/?q=%22PCE+Systems%22+%22CRCT%22+OR+%22PIX%22+features+modules"
+}
+[RESULT: done]
+
+[TOOL: browser_eval]
+{
+  "expression": "Array.from(document.querySelectorAll('a[data-testid=\"result-title-a\"]')).slice(0,10).map(a => ({text: a.textContent.trim(), href: a.href}))"
+}
+[RESULT: <javascript_result>[]</javascript_result>]
+
+[TOOL: browser_eval]
+{
+  "expression": "document.body.innerText.substring(0, 2000)"
+}
+[RESULT: <javascript_result>"DuckDuckGo\nProtection. Privacy. Peace of mind.\nOpen menu\n All\nImages\nVideos\nNews\nMore\nMaps\nShopping\n Duck.ai\nSearch Settings\nProtected\nAll regions\nSafe search: moderate\nAny time\n\nNo results found for \"PCE Systems\" \"CRCT\" OR \"PIX\" features modules\n\nSuggestions:\n\nCheck spelling\nTry related keywords\nRetry search without quotes: PCE Systems CRCT OR PIX features modules\n\nTry asking Duck.ai, our private AI chat service:\n\nClose menu\nSEARCH\nHomepage\nThemes\nSettings\nSHARE FEEDBACK\nDOWNLOADS\niOS Browser\nAndroid Browser\nMac Browser\nWindows Browser\nBrowser Extensions\nMORE FROM DUCKDUCKGO\nDuckDuckGo Subscription\nDuck.ai\nEmail Protection\nNewsletter\nBlog\nPodcast\nNEW\nLEARN MORE\nWhat’s New\nCompare Privacy\nAbout Our Browser\nAbout DuckDuckGo\nOTHER RESOURCES\nHelp\nCommunity\nCareers\nPrivacy Policy\nTerms of Service\nPress Kit\nAdvertise on Search\nSee What’s DuckDuckNew\n\nExplore DuckDuckGo’s latest product updates.\n\nLearn More\nShare Feedback"</javascript_result>]
+
+[TOOL: browser_navigate]
+{
+  "url": "https://duckduckgo.com/?q=%22PCE+Systems%22+treatment+plan+assessment+intake+clinical+documentation"
+}
+[RESULT: done]
+
+[TOOL: browser_eval]
+{
+  "expression": "Array.from(document.querySelectorAll('a[data-testid=\"result-title-a\"]')).slice(0,10).map(a => ({text: a.textContent.trim(), href: a.href}))"
+}
+[RESULT: <javascript_result>[{"href":"https://www.dwihn.org/translations/translate_pdf_wait?t=1757855667596\u0026file_path=/resources/upload/6840/MichiCANS%20Overview%20in%20PCE%20Systems%20April%202024.pdf","text":"MichiCANS Overview PCE Systems MichiCANS Overview in PCE - dwihn.org"},{"href":"https://www.oaklandchn.org/423/Data-Sharing-Interoperability-and-Patien","text":"Data Sharing: Interoperability and Patient Access - Oakland CHN"},{"href":"https://www.sciencedirect.com/science/article/pii/S1078817424002050","text":"Preliminary clinical evaluation: Where are we? An ... - ScienceDirect"}]</javascript_result>]
+Let me check the MichiCANS document — it shows how PCE implements the Michigan Child and Adolescent Needs and Strengths assessment.
+[TOOL: bash]
+{
+  "command": "curl -sL \"https://www.dwihn.org/translations/translate_pdf_wait?t=1757855667596&file_path=/resources/upload/6840/MichiCANS%20Overview%20in%20PCE%20Systems%20April%202024.pdf\" -o /tmp/michicans.pdf && file /tmp/michicans.pdf && pdftotext /tmp/michicans.pdf - 2>/dev/null | head -100",
+  "slow_ok": true
+}
+[RESULT: /tmp/michicans.pdf: HTML document, Unicode text, UTF-8 text, with very long lines (1129)
+]
+Not a PDF accessible directly. Let me check Oakland CHN's data sharing page.
+[TOOL: browser_navigate]
+{
+  "url": "https://www.oaklandchn.org/423/Data-Sharing-Interoperability-and-Patien"
+}
+[RESULT: done]
+
+[TOOL: browser_eval]
+{
+  "expression": "document.body.innerText.substring(0, 5000)"
+}
+[RESULT: JavaScript result (5088 bytes) written to: /tmp/shelley-console-logs/js_result_64883458.json
+Use `cat /tmp/shelley-console-logs/js_result_64883458.json` to view the full content.]
+
+[TOOL: bash]
+{
+  "command": "cat /tmp/shelley-console-logs/js_result_64883458.json"
+}
+[RESULT: "Skip to main content\nEnable accessibility for low vision\nOpen the accessibility menu\nSkip to Main Content\nImmediate Help: 988 |  Services: 248-464-6363\n\nFOLLOW US ON\n\nSearch\nAbout Us\nHow Do I...\nPersons Served\nResources\nRights \u0026 Advocacy\nHomePersons ServedSecured Electronic Health Record (CEHR)Data Sharing: Interoperability and Patient Access\nA A\nData Sharing: Interoperability and Patient Access\nData Sharing\nInteroperability and Patient Access\n\nOakland Community Health Network (OCHN) is committed to providing secure health information to individuals and their healthcare providers. As part of the ONC 2015 Edition Cures Update (170.315(g)(10)), OCHN ensures that persons served and approved third-party developers can access health data through our secure APIs.\n\nWhat is Interoperability?\nWhy Interoperability?\n\nClick here to read more about the Interoperability and Patient Final Rule.\n\nKey points about Cures Act payer data exchange:\n\nInteroperability focus: The primary goal is to promote interoperability, allowing different systems to easily communicate and share patient data without barriers. \nPatient access: The Cures Act also empowers patients to access their own health information from payers, giving them greater control over their healthcare data. \nAPI utilization: To facilitate data exchange, payers are required to implement APIs that enable secure access to patient information, including claims, clinical data, and encounter details. \nBenefits: This data exchange can lead to improved care coordination, better decision-making by healthcare providers, reduced administrative burdens, and enhanced patient experience. \nIndividuals Access to Healthcare Data\n\nOCHN offers access to healthcare data specifically for our individuals served. To access this data, individuals will need to download and use a third-party application that connects to our healthcare data API. While no third-party applications are currently registered and available, we are actively accepting requests from app developers to integrate their software with our system, providing individuals with easy and secure access to their health records.\n\nSecurity and Privacy Measures\n\nOCHN is fully compliant with HIPAA and CMS requirements to protect sensitive information. Our API features multiple layers of security, including:\n\nEncryption: All data exchanged via our API is encrypted to ensure confidentiality.\nAuthorization and Pre-registration: Third-party developers must go through a pre-registration process to gain access to individua’s data. Individuals served maintain full control over who can access their health information.\nToken-based Authentication: Access to data requires token-based authentication, adding an extra layer of security for every transaction.\n\nIf you are a developer interested in connecting your application to our API, please review our Web Service API Documentation for full details on the security protocols and technical requirements. To apply for access to the API, please submit a written request using the PCE API Access Request Form in Appendix A of our Web Service API Documentation.\n\nYour Rights Under HIPAA\n\nAs a beneficiary, HIPAA grants you specific rights over your healthcare data, including:\n\nRight to Access: You have the right to access your healthcare information and request copies of your medical records from covered entities like health plans and healthcare providers.\nRight to Request Amendments: If you believe that your healthcare data is incorrect or incomplete, you have the right to request amendments to your health records.\nRight to Privacy: Your healthcare data is protected from unauthorized disclosure. Covered entities must follow strict privacy and security standards to ensure your information is only shared with authorized parties.\nRight to File a Complaint: If you believe your healthcare privacy rights have been violated, you have the right to file a complaint with the U.S. Department of Health \u0026 Human Services (HHS) Office for Civil Rights (OCR). You can learn more about how to file a complaint here. You can also file a complaint with the Federal Trade Commission (FTC). ReportFraud.ftc.gov is the federal government's website where you can report fraud, scams, and bad business practices.\n\nFor more detailed information about your HIPAA rights, visit the official CMS webpage: Understanding HIPAA\n\nAPI Information\n\nIn our ongoing effort to meet CMS interoperability standards, OCHN collaborates with our EHR vendor, PCE Systems. Together, we ensure the secure and compliant sharing of healthcare information in a way that meets the needs of our individuals while protecting their privacy.\n\nLink to Web Service API Documentation\n\nProvider Directory API: The Payer Data Exchange will allow for exposing some public facing access points that will allow for querying and displaying of provider directory data in the system. This allows for applications /sites developed by third party developers to query basic information out of pa"]
+This confirms OCHN uses PCE Systems as their EHR vendor. Let me now check the DWIHN site and then the Wayback Machine for the PCE Systems website for historical context.
+[TOOL: browser_navigate]
+{
+  "url": "https://duckduckgo.com/?q=%22PCE+Systems%22+%22Farmington+Hills%22+OR+%22care+management%22+substance+abuse+developmental+disability"
+}
+[RESULT: done]
+
+[TOOL: browser_eval]
+{
+  "expression": "Array.from(document.querySelectorAll('a[data-testid=\"result-title-a\"]')).slice(0,10).map(a => ({text: a.textContent.trim(), href: a.href}))"
+}
+[RESULT: <javascript_result>[]</javascript_result>]
+
+[TOOL: browser_navigate]
+{
+  "url": "https://web.archive.org/web/2023*/pcesystems.com"
+}
+[RESULT: done]
+
+[TOOL: browser_take_screenshot]
+{}
+[RESULT: Screenshot taken (saved as /tmp/shelley-screenshots/e5462867-f9a9-44ae-ada6-26ec44030e38.png)]
+Let me check an older snapshot that might have more content.
+[TOOL: browser_navigate]
+{
+  "url": "https://web.archive.org/web/2019/https://www.pcesystems.com/"
+}
+[RESULT: done]
+
+[TOOL: browser_take_screenshot]
+{}
+[RESULT: Screenshot taken (saved as /tmp/shelley-screenshots/cd95737b-dc79-4961-9f8d-c9c4804ffede.png)]
+Same sparse website even in 2019. Let me check if they had more content in earlier years.
+[TOOL: browser_navigate]
+{
+  "url": "https://web.archive.org/web/2013/https://www.pcesystems.com/about.html"
+}
+[RESULT: done]
+
+[TOOL: browser_eval]
+{
+  "expression": "document.body.innerText.substring(0, 3000)"
+}
+[RESULT: <javascript_result>" \nTEXTS\n \nVIDEO\n \nAUDIO\n \nSOFTWARE\n \nIMAGES\n SIGN UP | LOG IN\n UPLOAD\nSearch the Archive\nSign up for free\nLog in\n Search metadata\n Search text contents\n Search TV news captions\n Search radio transcripts\n Search archived web sites\nAdvanced Search\nABOUT BLOG EVENTS PROJECTS HELP DONATE  CONTACT JOBS VOLUNTEER\nDONATE\nLatest\nShow All\nHrm.\n\nThe Wayback Machine has not archived that URL.\n\nClick here to search for all archived pages under https://www.pcesystems.com/.\n\nThe Wayback Machine is an initiative of the Internet Archive, a 501(c)(3) non-profit, building a digital library of Internet sites and other cultural artifacts in digital form.\nOther projects include Open Library \u0026 archive-it.org.\n\nYour use of the Wayback Machine is subject to the Internet Archive's Terms of Use."</javascript_result>]
+
+[TOOL: browser_navigate]
+{
+  "url": "https://web.archive.org/web/2008/http://www.pcesystems.com/"
+}
+[RESULT: done]
+
+[TOOL: browser_eval]
+{
+  "expression": "document.body.innerText.substring(0, 3000)"
+}
+[RESULT: <javascript_result>"\n\n\nAccess to this system is limited to authorized personnel only.\nUnauthorized access to this system is prohibited; all access attempts are logged.\n\n\n \t[ Employee E-mail ]\t \t[ Employee Login ]\t \n \tPCE Systems\n28530 Orchard Lake Road, Suite 101\nFarmington Hills, MI  48334\t \tPhone 248.932.4888\nFAX 248.932.4889\t \nCopyright ©2008 PCE Systems"</javascript_result>]
+This confirms the Farmington Hills, MI address. The older site was just an employee login portal. Let me now check the MiHIN press release about 6 social care companies.
+[TOOL: bash]
+{
+  "command": "curl -sL \"https://mihin.org/wp-content/uploads/2022/07/MiHIN-Interoperable-Referrals-Pledge-Final-V2.pdf\" -o /tmp/mihin_pledge.pdf && pdftotext /tmp/mihin_pledge.pdf - 2>/dev/null | head -80",
+  "slow_ok": true
+}
+[RESULT: For additional information, contact:
+Emily Mata | 517.745.8835
+emily.mata@mihin.org
+
+Six of the Nation’s Leading Social Care Companies
+Sign Trailblazing Interoperable Referrals Pledge
+
+Pledge puts public interest before profit, streamlines connection to necessary services
+Lansing, Mich.— In an unprecedented commitment to achieve an open and connected ecosystem of
+care for communities, CareAdvisors, findhelp, PCE Systems, RiverStar, Unite Us and WellSky® have
+signed Michigan Health Information Network’s (MiHIN) Interoperable Referrals Pledge (the “Pledge”),
+and in doing so, have taken responsibility to act, together, in the public interest to enable a more
+interoperable social care environment through mutual collaboration. These six organizations, along
+with MiHIN, equally commit to eliminating information silos and to working diligently to achieve the
+following five core principles:
+1. Service providers should be able to work within their chosen systems of record
+2. Consumers should have access to their own data with full transparency into who will have
+access to their data if they consent to a service; and service providers commit to not block
+electronic health information (defined as knowingly and unreasonably interfering with
+information-sharing)
+3. Service providers commit to the use of national standards (e.g., HL7 FHIR Gravity Accelerator)
+and open APIs
+4. Service providers recognize the need for data aggregation from multiple systems to quantify
+demand and utilization for services to inform policy makers and ensure service quality
+5. Service providers support the state designated entity, statewide HIE, or health data utility to
+serve as the trusted health data exchange broker to ensure an interoperable ecosystem among
+the medical, public health, and social care communities
+“Our country has witnessed firsthand the limitations of siloed data ecosystems on whole-person care,”
+says Tim Pletcher, Executive Director of MiHIN. “The Interoperable Referrals Pledge is about committing
+to looking for ways in Michigan to create data informed processes and procedures around the full
+spectrum of care coordination that reaches into communities and even neighborhoods. We are excited
+to be working with these six pioneers as the first partners in taking a giant leap on this overdue, but
+necessary journey.
+###
+
+About Michigan Health Information Network Shared Services
+The Michigan Health Information Network Shared Services (MiHIN) is Michigan’s state-designated entity for
+the technical, legal, secure, and private exchange of health information. Breaking down disparate and siloed
+data systems, the digital network is dedicated to transforming the healthcare experience, improving quality,
+decreasing cost and solving for health. MIHIN is a 501C3 non-profit, socio-technical collaboration that
+includes the State of Michigan, Health Information Exchanges, health systems, hospitals, care providers,
+behavioral health clinics, FQHC’s, PIHPs, health plans/payers, pharmacies, post-acute care, hospices, and the
+Governor’s Health Information Technology Commission. For more information, visit https://mihin.org
+About CareAdvisors
+CareAdvisors is a social care management company that addresses health disparities by developing a
+complete ecosystem for social care management. Our platform supports interoperability among clinical and
+human services data, value-based payment models, and comprehensive automation of manual, labor
+intensive workflows for social care management. For more information, visit https://care-advisors.com/
+About findhelp
+Findhelp is the nation’s leading social care network, making it easy for customers in a wide range of
+industries to integrate social care into the work they already do—from education and government to
+housing, healthcare, and more. Through customer platforms and our public site, findhelp.org, the findhelp
+network reaches more than 13 million users across the country, making it easy to connect people seeking
+help and the verified social care providers that serve them, with dignity and ease.
+https://company.findhelp.com/
+About PCE Systems
+PCE Systems is an information technology and services company based in Farmington Hills, MI specializing in
+custom, hosted solutions that go beyond the capabilities of typical "off-the-shelf" software. PCE provides
+comprehensive, integrated information systems for a variety of community-based behavioral health and
+social service organizations. PCE seeks to break the mold of typical software vendors by providing innovative
+solutions and unparalleled support services under a model that engenders trust and collaboration among PCE
+and its clients, with the ultimate goal of helping its clients provide the best and most efficient care and
+services to the individuals they serve.
+About RiverStar
+RiverStar partners with service organizations, health care providers, funders, and payers to deliver solutions
+for community-based whole person population health care to address social determinant and behavioral
+health needs. This collaborative approach leverages and integrates with existing community pathways,
+including health practice record systems, to facilitate care coordination among providers while empowering
+individuals to actively participate in their own care. By integrating social determinant care with behavioral
+health services, RiverStar’s Whole Person Care platform also offers new revenue opportunities to foster
+sustainability.
+
+About Unite Us
+Unite Us is a technology company that builds coordinated care networks of health and social service
+providers. Care providers across sectors can send and receive secure electronic referrals, track every person’s
+total health journey, and report tangible outcomes across a full range of services in a centralized, cohesive,
+and collaborative ecosystem. This HITRUST-certified social care infrastructure helps communities transform
+their ability to work together and measure impact at scale. For more information, visit: https://uniteus.com.
+About WellSky®
+WellSky® is a technology company leading the movement for intelligent, coordinated care worldwide. Our
+]
+The updated "About PCE Systems" description in 2022 is revealing: **"PCE provides comprehensive, integrated information systems for a variety of community-based behavioral health and social service organizations."** Note the addition of "social service organizations" beyond just behavioral health.
+
+Now let me check if there are any G2, Capterra, or KLAS reviews for PCE.
+[TOOL: browser_navigate]
+{
+  "url": "https://duckduckgo.com/?q=%22PCE+Care+Management%22+review+OR+capterra+OR+g2+OR+KLAS"
+}
+[RESULT: done]
+
+[TOOL: browser_eval]
+{
+  "expression": "Array.from(document.querySelectorAll('a[data-testid=\"result-title-a\"]')).slice(0,10).map(a => ({text: a.textContent.trim(), href: a.href}))"
+}
+[RESULT: <javascript_result>[]</javascript_result>]
+
+[TOOL: browser_navigate]
+{
+  "url": "https://duckduckgo.com/?q=%22PCE+Care+Management%22+review"
+}
+[RESULT: done]
+
+[TOOL: browser_eval]
+{
+  "expression": "Array.from(document.querySelectorAll('a[data-testid=\"result-title-a\"]')).slice(0,10).map(a => ({text: a.textContent.trim(), href: a.href}))"
+}
+[RESULT: <javascript_result>[{"href":"https://www.pcenj.org/about-us/scope-of-services/","text":"Scope of Services - Partnership for Children of Essex"},{"href":"https://www.oaklandchn.org/423/Data-Sharing-Interoperability-and-Patien","text":"Data Sharing: Interoperability and Patient Access - Oakland CHN"},{"href":"https://www.indeed.com/q-pce-care-management-jobs.html","text":"Pce Care Management Jobs, Employment | Indeed"}]</javascript_result>]
+Let me check Indeed for job postings — those often reveal product details.
+[TOOL: browser_navigate]
+{
+  "url": "https://www.indeed.com/q-pce-care-management-jobs.html"
+}
+[RESULT: done]
+
+[TOOL: browser_eval]
+{
+  "expression": "document.body.innerText.substring(0, 5000)"
+}
+[RESULT: <javascript_result>"Find jobs\nCompany Reviews\nFind salaries\nUpload your resume\nSign in\nEmployers / Post Job\nAdditional Verification Required\n\nYour Ray ID for this request is 9cde717b084d1a0b\n\nReturn home\n  →\n\nTroubleshooting Cloudflare Errors\n\nNeed more help? Contact us"</javascript_result>]
+Blocked. Let me try the DWIHN site to see if they have details about their PCE-powered EHR.
+[TOOL: browser_navigate]
+{
+  "url": "https://duckduckgo.com/?q=site:dwihn.org+PCE"
+}
+[RESULT: done]
+
+[TOOL: browser_eval]
+{
+  "expression": "Array.from(document.querySelectorAll('a[data-testid=\"result-title-a\"]')).slice(0,10).map(a => ({text: a.textContent.trim(), href: a.href}))"
+}
+[RESULT: JavaScript result (1533 bytes) written to: /tmp/shelley-console-logs/js_result_2c0c64f9.json
+Use `cat /tmp/shelley-console-logs/js_result_2c0c64f9.json` to view the full content.]
+
+[TOOL: bash]
+{
+  "command": "cat /tmp/shelley-console-logs/js_result_2c0c64f9.json"
+}
+[RESULT: [{"href":"https://www.dwihn.org/","text":"Homepage | DWIHN"},{"href":"https://www.dwihn.org/translations/translate_pdf_wait?t=1752883374570\u0026file_path=/Board/Full_May_2024_Agenda.pdf","text":"DETROIT WAYNE INTEGRATED HEALTH NETWORK FULL BOARD Meeting Minutes ..."},{"href":"https://www.dwihn.org/translations/translate_pdf_wait?t=1761640447260\u0026file_path=/Board/FCM_May2024_Agenda.pdf","text":"FINANCE COMMITTEE - dwihn.org"},{"href":"https://www.dwihn.org/board-Full-April2023-agenda.pdf","text":"PDF Detroit Wayne Integrated Health Network Board Committees 2023-2024 ..."},{"href":"https://www.dwihn.org/translations/translate_pdf_wait?t=1752883374570\u0026file_path=/Board/Full_April2024_agenda.pdf","text":"www.dwihn.org"},{"href":"https://www.dwihn.org/provider-hours-of-operations?provider_location_id=28531","text":"www.dwihn.org"},{"href":"https://www.dwihn.org/translations/translate_pdf_wait?t=1751639004435\u0026file_path=/board-finance-agenda-feb2021.pdf","text":"FINANCE COMMITTEE - dwihn.org"},{"href":"https://www.dwihn.org/translations/translate_pdf_wait?t=1702147463600\u0026file_path=/board-PCC-Nov2022-agenda.pdf","text":"PROGRAM COMPLIANCE COMMITTEE MEETING Wednesday, November 9, 2022 St ..."},{"href":"https://www.dwihn.org/programs-services/childrens-services","text":"Children's Services | DWIHN"},{"href":"https://www.dwihn.org/translations/translate_pdf_wait?t=1704729608521\u0026file_path=/board/PCC_Sept2023.pdf","text":"PROGRAM COMPLIANCE COMMITTEE MEETING Wednesday, September 13, 2023 St ..."}]]
+Let me check what the EHI export b(10) documentation looks like — but only briefly for research context (it's more Phase 2). The b10 doc will tell us what data fields PCE exposes.
+[TOOL: bash]
+{
+  "command": "curl -sL \"https://www.pcesystems.com/b10_documentation.pdf\" -o /tmp/pce_b10.pdf && pdftotext /tmp/pce_b10.pdf - | head -80",
+  "slow_ok": true
+}
+[RESULT: PCE Care Management – EHI Export Documentation
+PCE Systems
+November 20, 2023
+
+PCE Care Management Version 9.4
+Electronic Health Information Export (b)(10)
+System Documentation
+Product Name:
+
+PCE Care Management
+
+Product Version:
+
+9.4
+
+Revision Date:
+
+November 17, 2023
+
+Page 1 of 3
+© 2023 PCE Systems – For customer use only. Reproduction, re-distribution, or use for any other purpose is prohibited.
+
+PCE Care Management – EHI Export Documentation
+PCE Systems
+November 20, 2023
+
+Introduction
+The data export process allows authorized EHR users to export patient-related electronic health information out of the
+EHR system. Data may be exported per patient or for all patients within the EHR.
+
+Export Format
+The export process produces one or more password-protected zip files each containing information about the export
+process, data for one or more patients, and the structure and syntax of the data. The password is provided with the zip
+file(s).
+Each zip file also contains the following files / directories:
+1. meta.json – This file contains information about the export process that produced the data, including who ran it
+and when.
+2. documentation.json – This file contains EHR system information and a list of data definitions, descriptions, and
+types for exported resources, as described in the “Resource / Data Definitions” section below.
+3. Patient_[EHRPatientId] – One or more subdirectories are included where patient-specific data is found as
+described in the “Patient Subdirectories” section below.
+
+Resource / Data Definitions
+The documentation.json file contained within the zip file includes a JSON-structured index of all possible resource
+definitions. This is available under the attribute “resourceDefinitions”. Resource Definitions consists of a list of resources
+each having two properties:
+1. Name: This property distinguishes the resource and is used to reference the resource from within the exported
+patient data
+2. propertyDefinitions: This is a list of the properties comprising a resource.
+Property Definitions are represented by the following attributes:
+1. name: This property distinguishes the property
+2. type: This represents the data type of values stored within the property, which comes from the following values:
+a. CLOB – Character Large Object Value
+b. DATE – A date represented in YYYY-MM-DD format
+c. DECIMAL – Numeric value with a precision and scale
+d. INTEGER – Numeric, whole-number value
+e. RESOURCE – A reference to another resource within the export. This contains the following additional
+attributes:
+i. resource – identifies the name attribute of the referenced resource
+ii. id – matches the value of the id attribute of the referenced resource
+f. STRING – Alphanumeric / variable character field
+g. TIMESTAMP – A date and time represented in YYYY-MM-DD HH:MM:SS format
+
+Patient Subdirectories
+The zip file will contained one subdirectory for each patient whose data was exported through this process. The
+[EHRPatientId] within the directory name is the unique identifier (e.g., Case Number / MRN) of the patient within the
+EHR. Each patient subdirectory contains the following:
+Page 2 of 3
+© 2023 PCE Systems – For customer use only. Reproduction, re-distribution, or use for any other purpose is prohibited.
+
+PCE Care Management – EHI Export Documentation
+PCE Systems
+November 20, 2023
+
+1. One Newline-Delimited JSON (NDJSON) file for each applicable resource. Each NDJSON file contains all data for
+that resource related to the patient, formatted as described in the documentation.json file. Resource files are
+only present in the patient subdirectory when patient data exists for that resource.
+2. Files subdirectory , which contains exported, non-computable files that contain data related to the patient (e.g.,
+scanned documents, PDFs, etc.). Resources that reference a file in this directory identify the file via property
+fileName or imageName. The value of this property matches the name of the corresponding file in the Files
+]
+
+[TOOL: bash]
+{
+  "command": "pdftotext /tmp/pce_b10.pdf - | tail -30"
+}
+[RESULT: e. RESOURCE – A reference to another resource within the export. This contains the following additional
+attributes:
+i. resource – identifies the name attribute of the referenced resource
+ii. id – matches the value of the id attribute of the referenced resource
+f. STRING – Alphanumeric / variable character field
+g. TIMESTAMP – A date and time represented in YYYY-MM-DD HH:MM:SS format
+
+Patient Subdirectories
+The zip file will contained one subdirectory for each patient whose data was exported through this process. The
+[EHRPatientId] within the directory name is the unique identifier (e.g., Case Number / MRN) of the patient within the
+EHR. Each patient subdirectory contains the following:
+Page 2 of 3
+© 2023 PCE Systems – For customer use only. Reproduction, re-distribution, or use for any other purpose is prohibited.
+
+PCE Care Management – EHI Export Documentation
+PCE Systems
+November 20, 2023
+
+1. One Newline-Delimited JSON (NDJSON) file for each applicable resource. Each NDJSON file contains all data for
+that resource related to the patient, formatted as described in the documentation.json file. Resource files are
+only present in the patient subdirectory when patient data exists for that resource.
+2. Files subdirectory , which contains exported, non-computable files that contain data related to the patient (e.g.,
+scanned documents, PDFs, etc.). Resources that reference a file in this directory identify the file via property
+fileName or imageName. The value of this property matches the name of the corresponding file in the Files
+directory.
+
+Page 3 of 3
+© 2023 PCE Systems – For customer use only. Reproduction, re-distribution, or use for any other purpose is prohibited.
+
+]
+The EHI export doc is only 3 pages — it describes the format (NDJSON per resource, password-protected zip) but doesn't actually list the specific resources/data types exported. The actual resource definitions are inside the `documentation.json` within the export zip itself. This is notable.
+
+Now let me check one more thing — the HealthDataManagement article about Michigan HIEs sharing behavioral health data.
+[TOOL: browser_navigate]
+{
+  "url": "https://www.healthdatamanagement.com/articles/michigan-hies-able-to-share-behavioral-health-data"
+}
+[RESULT: done]
+
+[TOOL: browser_eval]
+{
+  "expression": "document.body.innerText.substring(0, 5000)"
+}
+[RESULT: JavaScript result (2472 bytes) written to: /tmp/shelley-console-logs/js_result_09214520.json
+Use `cat /tmp/shelley-console-logs/js_result_09214520.json` to view the full content.]
+
+[TOOL: bash]
+{
+  "command": "cat /tmp/shelley-console-logs/js_result_09214520.json"
+}
+[RESULT: "This website stores cookies on your computer. These cookies are used to improve your website experience and provide more personalized services to you, both on this website and through other media. To find out more about the cookies we use, see our Privacy Policy.\n\nWe won't track your information when you visit our site. But in order to comply with your preferences, we'll have to use just one tiny cookie so that you're not asked to make this choice again.\n\nAccept\nDecline\n\nHealthData\n\nManagement\n\nTopics\nPatient Experience\nCare Team Experience\nBetter Outcomes\nReducing Cost\nHealthcare Equity\nChannels\nHIE\nMichigan HIEs Able to Share Behavioral Health Data\n\nMichigan Health Information Network Shared Services, the federally funded, state-designated entity to support health information exchange across the state, has taken steps to support the secure sharing of behavioral health information.\n\nJan 15 13\n1 min read\nJoseph Goedert\n\nSenior Editor, Health Data Management\n\nSHARE:\n\nMichigan Health Information Network Shared Services, the federally funded, state-designated entity to support health information exchange across the state, has taken steps to support the secure sharing of behavioral health information.\n\nPCE Systems, a vendor of electronic health records for behavioral health providers, has signed legal papers to become a “virtually qualified data sharing organization” through the network, called MiHIN. This will allow regional HIEs in the state to link their networks--through MIHIN--to behavioral health and substance abuse treatment providers connected to PCE’s data exchange.\n\nThe Upper Peninsula Health Information Exchange will pilot test the new service. The rural HIE covers about 16,400 square miles with more than 900 medical and ancillary providers serving 300,000 residents.\n\n\nMore for you\nARTIFICIAL INTELLIGENCE\nStart. Stop. Continue: The leadership reset that makes AI operational \nFeb 10 26\nACHDM\nOn the ground in Oman, and what It signals across the GCC\nFeb 06 26\nDISEASE MANAGEMENT\nHow health systems are fueling antimicrobial resistance\nJan 27 26\nDISEASE MANAGEMENT\nWhy antimicrobial resistance is no longer a future threat\nJan 21 26\n\nHealthData\n\nManagement\n\nSign up to get the latest stories sent to your inbox every week\n\nAbout Us\nPartners\nContact Us\n\n3790 Fernandina Road\n\nSuite 301\n\nColumbia, SC 29210\n\nFollow us:\nPrivacy Policy\n© 2021 HDM Group"]
+Good. Now let me search for information about how many Michigan CMH agencies use PCE.
+[TOOL: browser_navigate]
+{
+  "url": "https://duckduckgo.com/?q=%22PCE+Systems%22+%22community+mental+health%22+michigan+CMHSP+PIHP"
+}
+[RESULT: done]
+
+[TOOL: browser_eval]
+{
+  "expression": "Array.from(document.querySelectorAll('a[data-testid=\"result-title-a\"]')).slice(0,10).map(a => ({text: a.textContent.trim(), href: a.href}))"
+}
+[RESULT: <javascript_result>[{"href":"https://www.cmhpsm.org/ehr","text":"EHR Electronic Health Record | CMHPSM"}]</javascript_result>]
+Let me try the CBS Detroit article.
+[TOOL: browser_navigate]
+{
+  "url": "https://www.cbsnews.com/detroit/news/client-wins-from-january-25-3/"
+}
+[RESULT: done]
+
+[TOOL: browser_eval]
+{
+  "expression": "document.body.innerText.substring(0, 3000)"
+}
+[RESULT: JavaScript result (3045 bytes) written to: /tmp/shelley-console-logs/js_result_272fce76.json
+Use `cat /tmp/shelley-console-logs/js_result_272fce76.json` to view the full content.]
+
+[TOOL: bash]
+{
+  "command": "cat /tmp/shelley-console-logs/js_result_272fce76.json | python3 -c \"import sys,json; print(json.load(sys.stdin))\" | grep -i pce"
+}
+[RESULT: Behavioral Health Information EHR Company Signs Up for Data Sharing Through Michigan Health Information Network: The Michigan Health Information Network Shared Services (MiHIN) has announced that PCE Systems, a provider of electronic health record products and services to Michigan behavioral health organizations, has executed the legal data sharing agreements to become a Virtually Qualified Data Sharing Organization (VQO) through MiHIN.  As a MiHIN VQO, PCE has the ability to securely send and receive health information securely through MiHIN to other Qualified Data Sharing Organizations (QO's) connected to MiHIN.  PCE Systems can now utilize the Shared Services offered by MiHIN and allow Michigan's sub-state Health Information Exchanges (HIE) to connect their physical health networks with behavioral health and substance abuse treatment organizations connected to PCE's information exchange network. This will provide clinical staff with secure access to comprehensive patient health information in a manner that is consistent with the additional privacy protections afforded to behavioral health and substance abuse treatment information. The Upper Peninsula Health Information Exchange (UPHIE), a MiHIN Qualified Organization and sub-state HIE, plans to immediately undertake a behavioral health information exchange pilot with MiHIN and PCE. For more information please visit www.mihin.org.
+]
+Let me now look at the SuperAGI company data page and look at the OpenMinds article.
+[TOOL: browser_navigate]
+{
+  "url": "https://openminds.com/market-intelligence/bulletins/011513-mihin-pce-systems-ehr-vqo/"
+}
+[RESULT: done]
+
+[TOOL: browser_eval]
+{
+  "expression": "document.body.innerText.substring(0, 3000)"
+}
+[RESULT: JavaScript result (2846 bytes) written to: /tmp/shelley-console-logs/js_result_9c03a8a9.json
+Use `cat /tmp/shelley-console-logs/js_result_9c03a8a9.json` to view the full content.]
+
+[TOOL: bash]
+{
+  "command": "cat /tmp/shelley-console-logs/js_result_9c03a8a9.json"
+}
+[RESULT: "We use essential cookies to make our site work. With your consent, we may also use non-essential cookies to improve user experience and analyze website traffic. By clicking “Accept,” you agree to our website's cookie use as described in our Cookie Policy. You can change your cookie settings at any time by clicking “Preferences.”\nPreferences\nDecline\nAccept\nCFO As Architects Of Value: Creating A Service Line Expense \u0026 Revenue Model is starting in \n9\n9\n0\n0\n4\n4\n5\n5\n9\n9\n0\n0\n9\n9\n0\n0\n9\n9\n0\n0\n1\n1\n2\n2\n1\n1\n1\n1\n1\n1\n0\n0\n Register\nPERFORMANCE\nManagement Institute\nSTRATEGY\n\u0026 Innovation Institute\nSERVICE\nExcellence Institute\nEXECUTIVE\nLeadership Retreat\nTECHNOLOGY\n\u0026 Analytics Institute\nSearch\nAbout\nContact\nPartnership\nBecome A Member\nLog In\n\nMarket Intel Library\nExecutive Education\nPresentation Library\nTools \u0026 Assessments\nLearning Collaboratives\nResource Centers\nMARKET WATCH | January 15, 2013\nMichigan’s Leading Behavioral Health Information EHR Company Signs Up For Data Sharing Through Michigan Health Information Network\n\nCircle Connections: Tech Updates The Michigan Health Information Network Shared Services (MiHIN) has announced that PCE Systems, a leading provider of Electronic Health Record (EHR) solutions to Michigan's Behavioral Health organizations, has executed the legal data sharing agreements to become a Virtually Qualified Data Sharing Organization (VQO) through MiHIN. As a MiHIN VQO, PCE has the ability to securely send and receive health information securely through MiHIN to other Qualified Data Sharing Organizations (QO's) connected to MiHIN. PCE Systems can now utilize the Shared Services offered by MiHIN and allow Michigan's sub-state Health Information Exchanges (HIE . . .\n\nWant To Read More? Log In Or Become A Free Member\nResource Available For All OPEN MINDS Circle Members\nLog In\nIf you are already a member, log in to your account to access this resource and more.\n\nBecome A Free Member\nYou can become a free member and get access now. Learn more about the OPEN MINDS Circle Market Intelligence Service Membership. Reach out to our team at info@openminds.com, or call us at 877-350-6463.\n\nA Paid OPEN MINDS Circle Membership provides unlimited organizational access to all OPEN MINDS strategic advice, market intelligence, and management best practices – over 250,000 resources!\n\nTagged As:\nAnnouncements\nTech Updates\n LinkedIn\n Twitter\n Facebook\n Instagram\nContact\n15 Lincoln Sq\nGettysburg, PA 17325-1933\n877-350-6463\n717-334-0538\ninfo@openminds.com\nCorporate\nAbout Us\nMeet Our Team\nCareers\nPress Releases\nPartners\nHelpful Links\nMembership Options\nContact Us\nLegal\nTerms Of Use\nPrivacy Policy\nReprint Policy\nCookie Policy\n\n© 2025 OPEN MINDS  – All rights reserved."]
+Now I have a solid picture. Let me also quickly check if there's a SuperAGI / ZoomInfo company page with employee counts.
+[TOOL: browser_navigate]
+{
+  "url": "https://sales.superagi.com/company/pce-systems"
+}
+[RESULT: done]
+
+[TOOL: browser_eval]
+{
+  "expression": "document.body.innerText.substring(0, 3000)"
+}
+[RESULT: JavaScript result (3096 bytes) written to: /tmp/shelley-console-logs/js_result_d95020f6.json
+Use `cat /tmp/shelley-console-logs/js_result_d95020f6.json` to view the full content.]
+
+[TOOL: bash]
+{
+  "command": "cat /tmp/shelley-console-logs/js_result_d95020f6.json"
+}
+[RESULT: "Sign up for free\nP\npce-systems\nCompany Domain\nwww.pcesystems.com\nMarket Research\n\n\nCompany Overview\n\n\nPCE Systems is a leading entity in the IT Services and IT Consulting industry, specializing in the development of flexible, fully-hosted software solutions for care management, with a specific focus on enhancing public health delivery systems. Based in Farmington Hills, Michigan, PCE Systems serves as a privately-held company with a workforce ranging from 11 to 50 employees. The firm partners with healthcare institutions to deliver customized IT solutions that prioritize efficiency and system integration.\n\n\nLeadership and Key Personnel\n\n\nPCE Systems boasts a strong leadership team, instrumental in propelling the company's mission of transforming health delivery systems through innovative IT solutions:\n\n\nJeff Chang: Chief Executive Officer, leading the strategic direction and advancement of public health initiatives.\n\n\nNathan Gabrish: Senior Project Manager/Developer, key in executing projects and development tasks.\n\n\nDavid Rushdoony: Software Developer, critical for creating and maintaining software solutions.\n\n\nMike Gorivodskiy: Systems Analyst, tasked with ensuring system reliability and operational efficiency.\n\n\nMaryrose DeBerardino: Project Manager, responsible for overseeing project timelines and successful delivery.\n\n\nDavid DesNoyer: Senior Systems Analyst and Project Manager, renowned for his analytical skills and project oversight.\n\n\n\nIndustry and Services\n\n\nOperating within the IT consulting and software development sector, PCE Systems provides comprehensive care management solutions. These solutions cater to healthcare institutions requiring robust IT support, aiming to enhance data management and system integration.\n\n\nRecent Developments and Strategic Initiatives\n\n\nPCE Systems has engaged in significant partnerships, notably with the Michigan Health Information Exchange (HIE), to advance behavioral health services. This collaboration showcases the company's strategic efforts to broaden its influence in healthcare IT. The firm remains committed to delivering flexible, customizable solutions tailored to improving public health infrastructure.\n\n\nCompetitor Analysis\n\n\n\nKey Competitors\n\n\n1. DocuTrac\n\nSpecializes in behavioral health software, focusing on billing and patient record management.\n\n\nLocated in Hagerstown, Maryland, with 20-49 employees.\n\n\n2. EMRFinder\n\nProvides resources for EMR and EHR software, including reviews and pricing.\n\n\nBased in East Brunswick, NJ, operating with 2-10 employees.\n\n\n3. EHR Reviews\n\nOffers detailed analysis of EHR systems, especially within specialized medical practices.\n\n\nA non-profit based in New York, New York.\n\n\n4. HealthTec Software\n\nSupplies complete solutions for medical practices, including HealthTec Trilogy.\n\n\nPrivately held, with 11-50 employees, headquartered in San Antonio, Texas.\n\n\n\nStrategic Insights\n\n\nThe competitive landscape for PCE Systems is marked by diverse players offering specialized"]
+Excellent. This confirms:
+- **11–50 employees** (small company)
+- **Privately held**
+- **CEO: Jeff Chang** (who was also the Project Manager in the 2013 MiHIN press release)
+- **Farmington Hills, Michigan**
+- Focuses on **care management solutions for public health delivery systems**
+
+I now have enough information to write the report. Let me compile everything.
+[TOOL: patch]
+{
+  "path": "/home/exedev/ehi-export-analysis/results/pce-systems/product-research.md",
+  "patches": [
+    {
+      "operation": "overwrite",
+      "newText": "# PCE Systems — Product Research\n\nResearched: 2025-07-14\nDeveloper website: https://www.pcesystems.com\n\n## Overview\n\nPCE Systems is a small, privately held IT services company based in Farmington Hills, Michigan, with an estimated 11–50 employees. The company specializes in building custom, fully-hosted electronic health record (EHR) and care management software for community-based behavioral health and social service organizations. PCE's primary market is Michigan's public behavioral health system — specifically the Community Mental Health Service Programs (CMHSPs) and Prepaid Inpatient Health Plans (PIHPs) that serve Medicaid beneficiaries with mental illness, substance use disorders, and developmental disabilities.\n\nAs of a 2013 press release, PCE described itself as \"the largest behavioral health Electronic Medical Record (EMR) and provider management system vendor in the State of Michigan, with clients encompassing over 70% of the Michigan Medicaid mental health budget.\" The company has been in operation since at least 2001 (per Wayback Machine records). Jeff Chang, identified as Project Manager in 2013, is now CEO. The company's website is deliberately minimal — just a logo and navigation links (Home, About, Location), with the About and Location pages returning 404 errors as of 2025. The site has looked essentially the same since at least 2019. PCE does not appear to have a public marketing presence, product demos, or feature pages. This is consistent with a vendor whose customers are a known, finite set of government-funded behavioral health agencies in Michigan, acquired through direct relationships rather than inbound marketing.\n\n## Product: PCE Care Management\n\nCHPL ID: 11045\nCHPL Product Number: 15.04.04.2125.PCEC.94.01.1.221205\nVersion: 9.4\n\n### What It Is\n\nPCE Care Management is a behavioral health EHR system designed to manage the full lifecycle of care for individuals receiving community mental health, substance use disorder treatment, and developmental disability services. The SED (Safety-Enhanced Design) intended user description in CHPL metadata is simply \"Behavioral Health.\"\n\nThe product is broadly certified across 44 ONC criteria spanning clinical data (a)(1)–(a)(5), (a)(12), (a)(14)–(a)(15); transitions of care (b)(1)–(b)(3), (b)(9)–(b)(11); patient portal (e)(1), (e)(3); clinical quality measures (c)(1)–(c)(4); public health reporting (f)(1), (f)(7); and FHIR APIs (g)(7), (g)(9)–(g)(10). This is a comprehensive certification profile indicating a full-featured clinical EHR, not a limited-scope module.\n\nThe certified product appears to be the entire system — there is no evidence of PCE Care Management being a module within a larger product platform. The system is described as \"fully-hosted\" (cloud/hosted model, not on-premise), and the production FHIR API endpoint is at `w3.pcesecure.com`.\n\n### Users & Market\n\n**Primary users:** Clinicians, case managers, and administrative staff at Michigan community-based behavioral health organizations — including CMHSPs (Community Mental Health Service Programs), PIHPs (Prepaid Inpatient Health Plans), and their contracted service providers.\n\n**Known customers:**\n- **Detroit Wayne Integrated Health Network (DWIHN)** — the largest PIHP in Michigan, serving Wayne County (Detroit metro area). DWIHN's website hosts PCE API documentation and MichiCANS assessment training materials for PCE Systems.\n- **Oakland Community Health Network (OCHN)** — a CMH authority serving ~30,000 Oakland County citizens at 400+ service sites. OCHN's website explicitly names PCE Systems as their EHR vendor and references the PCE API and patient portal (CEHR).\n- **Community Mental Health Partnership of Southeast Michigan (CMHPSM)** — a PIHP serving Lenawee, Livingston, Monroe, and Washtenaw counties. CMHPSM's website describes their PCE-based EHR as \"CRCT\" (Confidential Record of Consumer Treatment), used by the PIHP, partner CMHSPs, and providers for claims submission, incident reporting, and service information.\n- **Washtenaw County Community Mental Health** — featured in an ONC Brightspot case study as a PCE customer. Serves 5,000+ children and adults with serious mental illness, developmental disabilities, or emotional disturbances.\n\n**Clinical settings:** These are not private medical practices. PCE's customers are publicly funded behavioral health authorities that manage networks of providers serving vulnerable populations — people with serious mental illness (schizophrenia, bipolar disorder, major depression), substance use disorders, developmental disabilities (autism, cerebral palsy, cognitive impairment), and co-occurring conditions. Settings include community mental health centers, substance abuse treatment programs, crisis services, residential treatment, clubhouse programs, and social service organizations.\n\n**Geographic concentration:** Heavily Michigan-focused. All identified customers are Michigan public behavioral health entities. The 2013 claim of 70%+ of Michigan's Medicaid mental health budget suggests PCE is the dominant vendor across the state's CMH system.\n\n**Scale:** PCE is small (11–50 employees) but punches above its weight in terms of the population served — Michigan's public behavioral health system serves hundreds of thousands of Medicaid beneficiaries across dozens of CMHSPs.\n\n### Modules & Functionality\n\nPCE's website provides essentially zero product information. However, the following functionality is documented across multiple third-party sources:\n\n**Clinical Documentation & Care Management:**\n- Intake and assessment (per MedicalRecords.com profile)\n- Individualized treatment plan creation and tracking (MedicalRecords.com)\n- Clinical assessments including MichiCANS (Michigan Child and Adolescent Needs and Strengths) — confirmed by DWIHN training materials\n- Integrated health management / care coordination across providers (MedicalRecords.com)\n- Discharge planning (MedicalRecords.com)\n- Incident reporting (CMHPSM EHR page)\n\n**Patient Portal (CEHR):**\n- The patient portal is referenced as \"CEHR\" in the API documentation and the OCHN website\n- Supports SMART on FHIR OAuth2 patient authentication\n- Certified for patient view/download/transmit — (e)(1)\n\n**Health Information Exchange (PIX):**\n- PCE operates \"PIX\" (Provider Information Exchange), a behavioral health HIE built into the platform\n- PIX uses common HIE standards and APIs to connect PCE EHR implementations across Michigan\n- PIX enables providers to search for patient records from other PCE implementations, finding care team info, treatment plans, appointments, problem lists, medications, vitals, lab results, and clinical documentation (per ONC Brightspot case study)\n- PIX is consent-managed — PCE built an eConsent Management System for 42 CFR Part 2 compliance (substance use disorder treatment privacy) and Michigan Mental Health Code requirements\n- PCE is connected to MiHIN (Michigan Health Information Network) as a Virtually Qualified Data Sharing Organization, enabling data exchange between behavioral health and physical health networks\n\n**MI Care Connect Portal:**\n- A standalone portal providing PIX access to community partners who may not use PCE's EHR directly\n- Used by community organizations like Packard Health, Shelter Association of Washtenaw County, and Avalon Housing (per ONC Brightspot)\n\n**Billing:**\n- Billing is described as integrated in the MedicalRecords.com profile (\"from... all the way to billing\")\n- CMHPSM describes using the PCE EHR for \"claims submission\"\n- TMG (The TM Group) sells a separate integration product ($5,000) connecting PCE Systems to Microsoft Dynamics 365 Business Central for accounting — handling cost centers, accounts payable transactions, and vendor information. This suggests PCE handles clinical billing/claims internally but some organizations use external accounting systems for financial management.\n- The FHIR API includes Claims and Coverage resources, confirming claims data is stored\n\n**Public Health Reporting:**\n- Certified for (f)(1) transmission to immunization registries and (f)(7) health care surveys\n\n**Clinical Quality Measures:**\n- Certified for CQM recording (c)(1), import (c)(2), export (c)(3), and filtering (c)(4)\n\n**FHIR API (g)(10)):**\n- Full SMART on FHIR API supporting Patient and Population Services\n- Exposed FHIR resources per API documentation: AllergyIntolerance, CarePlan, CareTeam, Claim, Condition, Coverage, Device, DiagnosticReport, DocumentReference, Encounter, Goal, HealthcareService, Immunization, Location, MedicationRequest, Observation, Organization, Patient, Practitioner, PractitionerRole, Procedure, Provenance\n- Also includes a Message data element in API documentation, suggesting messaging capabilities\n- Supports bulk export for population-level data access\n\n### Data & Content\n\nBased on the evidence gathered, PCE Care Management stores the following categories of data:\n\n**Clinical Data** (confirmed via FHIR API resources and USCDI mapping in API documentation):\n- Patient demographics\n- Allergies and intolerances\n- Conditions / problem lists\n- Medications (medication requests)\n- Immunizations\n- Procedures\n- Vital signs, laboratory results, smoking status (via Observations)\n- Diagnostic reports\n- Clinical notes / documents (DocumentReference, DiagnosticReport)\n- Care plans / assessment and plan of treatment\n- Care team members\n- Goals\n- Implantable devices (UDI)\n- Encounters\n- Provenance\n\n**Behavioral Health-Specific Data** (confirmed via various sources):\n- Treatment plans (individualized, per MedicalRecords.com and ONC Brightspot)\n- Clinical assessments (MichiCANS and likely others — per DWIHN training materials)\n- Intake and assessment records\n- Discharge records\n- Incident reports (per CMHPSM)\n- Consent directives (eConsent Management System for 42 CFR Part 2 and Michigan Mental Health Code)\n\n**Claims & Financial Data:**\n- Claims data (FHIR Claims resource in API; CMHPSM uses system for \"claims submission\")\n- Coverage / insurance information (FHIR Coverage resource)\n- Service information reporting (per CMHPSM)\n\n**Administrative & Care Coordination Data:**\n- Provider/practitioner information (Practitioner, PractitionerRole resources)\n- Organization and location data\n- Healthcare service definitions\n- Care team assignments\n- Messages (Message data element in API documentation)\n- Patient portal (CEHR) data — access logs, patient interactions\n\n**Documents & Files:**\n- Scanned documents, PDFs, and other non-computable files (confirmed by EHI export documentation which describes a \"Files subdirectory\" containing \"exported, non-computable files... e.g., scanned documents, PDFs\")\n\n**Notable Data Considerations:**\n- 42 CFR Part 2 data: The system explicitly manages substance use disorder treatment records with consent-based access controls. The API Terms of Use specifically references compliance with \"42 C.F.R. Part 2\" alongside HIPAA.\n- Social service referral data: PCE signed MiHIN's Interoperable Referrals Pledge (2022) alongside social care companies like findhelp, Unite Us, and WellSky, suggesting the platform handles social service referral data.\n- The EHI export documentation (b)(10) is only 3 pages and describes the export format (password-protected zip, NDJSON per resource, documentation.json for schema) but does **not** enumerate the specific data resources included in the export. The resource definitions are embedded in the `documentation.json` file within the export itself.\n\n**Information gaps:**\n- No product feature page, user manual, or detailed module documentation is publicly available from PCE Systems\n- The vendor website is essentially non-functional for research purposes\n- Scheduling capabilities are not mentioned in any source, though they likely exist given the ONC Brightspot mentions \"appointments\" as viewable through PIX\n- e-Prescribing (EPCS, Surescripts integration) is not mentioned — behavioral health prescribing patterns may differ from general ambulatory care\n- Patient messaging details beyond the API's Message data element are unclear\n- Whether the system handles authorization/prior-auth workflows for Medicaid services is unclear, though this would be expected for a CMH/PIHP-focused product\n"
+    }
+  ]
+}
+[RESULT: <patches_applied>all</patches_applied>
+]
+
+[TOOL: patch]
+{
+  "path": "/home/exedev/ehi-export-analysis/results/pce-systems/sources.json",
+  "patches": [
+    {
+      "operation": "overwrite",
+      "newText": "{\n  \"research_date\": \"2025-07-14\",\n  \"sources\": [\n    {\n      \"url\": \"https://www.pcesystems.com\",\n      \"type\": \"vendor-website\",\n      \"note\": \"Extremely minimal — logo, three nav links (Home, About, Location), About and Location pages return 404. No product information, features, or marketing content.\"\n    },\n    {\n      \"url\": \"https://www.pcesystems.com/g10APIInfo.html\",\n      \"type\": \"vendor-website\",\n      \"note\": \"API and EHI Export landing page. Links to FHIR API documentation PDF and EHI export (b)(10) documentation PDF. Shows production FHIR endpoint at w3.pcesecure.com.\"\n    },\n    {\n      \"url\": \"https://www.pcesystems.com/PIX_9_4_API_Documentation.pdf\",\n      \"type\": \"vendor-documentation\",\n      \"note\": \"87-page FHIR API documentation for PCE Care Management v9.4 (Jan 2025). Lists all FHIR resources (AllergyIntolerance, CarePlan, CareTeam, Claim, Condition, Coverage, Device, DiagnosticReport, DocumentReference, Encounter, Goal, HealthcareService, Immunization, Location, MedicationRequest, Observation, Organization, Patient, Practitioner, PractitionerRole, Procedure, Provenance). Also contains Message data element. Includes Terms of Use referencing 42 CFR Part 2 and HIPAA. Mentions patient portal as 'CEHR'. Marked 'For Agency internal use only'.\"\n    },\n    {\n      \"url\": \"https://www.pcesystems.com/b10_documentation.pdf\",\n      \"type\": \"vendor-documentation\",\n      \"note\": \"3-page EHI Export (b)(10) documentation (Nov 2023). Describes export format (password-protected zip, NDJSON per resource, documentation.json for schema, Files subdirectory for scanned docs/PDFs). Does NOT enumerate specific data resources — those are embedded in the export's documentation.json.\"\n    },\n    {\n      \"url\": \"https://www.prnewswire.com/news-releases/leading-michigan-behavioral-health-information-ehr-company-signs-up-for-data-sharing-through-michigan-health-information-network-186941191.html\",\n      \"type\": \"press-release\",\n      \"note\": \"MiHIN press release (Jan 2013). PCE becomes VQO for behavioral health data exchange. Key quotes: PCE is 'largest behavioral health EMR and provider management system vendor in Michigan' with 'clients encompassing over 70% of Michigan Medicaid mental health budget.' Based in Farmington Hills, MI. Jeff Chang identified as Project Manager.\"\n    },\n    {\n      \"url\": \"https://mihin.org/wp-content/uploads/2022/07/MiHIN-Interoperable-Referrals-Pledge-Final-V2.pdf\",\n      \"type\": \"press-release\",\n      \"note\": \"MiHIN Interoperable Referrals Pledge (2022). PCE Systems signed alongside findhelp, Unite Us, WellSky, CareAdvisors, RiverStar. Updated About section: 'PCE provides comprehensive, integrated information systems for a variety of community-based behavioral health and social service organizations.'\"\n    },\n    {\n      \"url\": \"https://beta.healthit.gov/sites/default/files/playbook/pdf/brightspot-health-info-exchange-washtenaw-mi.pdf\",\n      \"type\": \"government-publication\",\n      \"note\": \"ONC Brightspot case study on Washtenaw County CMH. Describes PIX (Provider Information Exchange) — PCE's behavioral health HIE. Details eConsent Management System for 42 CFR Part 2 compliance. MI Care Connect portal for community partners. PIX enables searching patient records for care team, treatment plans, appointments, problem lists, medications, vitals, lab results, clinical documentation.\"\n    },\n    {\n      \"url\": \"https://www.cmhpsm.org/ehr\",\n      \"type\": \"customer-website\",\n      \"note\": \"CMHPSM (Community Mental Health Partnership of Southeast Michigan) EHR page. Confirms PCE Systems as their EHR vendor. System branded as 'CRCT' (Confidential Record of Consumer Treatment). Used by PIHP, partner CMHSPs, and providers for claims submission, incident reporting, and service information.\"\n    },\n    {\n      \"url\": \"https://www.oaklandchn.org/423/Data-Sharing-Interoperability-and-Patien\",\n      \"type\": \"customer-website\",\n      \"note\": \"Oakland Community Health Network interoperability page. Explicitly names PCE Systems as EHR vendor. References PCE API Access Request Form and Web Service API Documentation. OCHN serves ~30,000 citizens at 400+ service sites.\"\n    },\n    {\n      \"url\": \"https://www.medicalrecords.com/mrcbase/emr/pce-systems-pce-care-management\",\n      \"type\": \"third-party-review\",\n      \"note\": \"MedicalRecords.com profile. 4.7/5 rating, 7 reviews. Describes PCE Care Management as behavioral health EMR covering intake, assessment, treatment planning, integrated health management, discharge, and billing. Specialties: Behavioral Health, Psychiatry, Psychology. Practice sizes: 1-100+ physicians.\"\n    },\n    {\n      \"url\": \"https://tmgroupinc.com/addons/tmgpceintegration\",\n      \"type\": \"partner-website\",\n      \"note\": \"TMG PCE Integration for CMH — integration between Microsoft Dynamics 365 Business Central and PCE Systems for accounting/billing. Handles cost centers, AP transactions, vendor information. Confirms PCE handles billing but some customers use external accounting systems.\"\n    },\n    {\n      \"url\": \"https://marketplace.microsoft.com/en-us/marketplace/consulting-services/thetmgroupinc1589858852862.tmg-cmh\",\n      \"type\": \"partner-website\",\n      \"note\": \"Microsoft Marketplace listing for TMG's PCE integration ($5,000). Detailed description of Business Central to PCE billing integration — cost centers, AP transactions, vendor synchronization. Confirms behavioral health organizations as target users.\"\n    },\n    {\n      \"url\": \"https://sales.superagi.com/company/pce-systems\",\n      \"type\": \"business-intelligence\",\n      \"note\": \"SuperAGI company profile. Confirms 11-50 employees, privately held, Farmington Hills MI. CEO: Jeff Chang. Other staff: Nathan Gabrish (Sr. Project Manager), David DesNoyer (Sr. Systems Analyst). Competitors listed include DocuTrac and HealthTec Software.\"\n    },\n    {\n      \"url\": \"https://www.healthdatamanagement.com/articles/michigan-hies-able-to-share-behavioral-health-data\",\n      \"type\": \"industry-publication\",\n      \"note\": \"Health Data Management article (Jan 2013). Brief coverage of PCE joining MiHIN for behavioral health data exchange. Mentions Upper Peninsula HIE pilot covering 16,400 sq mi, 900+ providers, 300,000 residents.\"\n    },\n    {\n      \"url\": \"https://web.archive.org/web/2008/http://www.pcesystems.com/\",\n      \"type\": \"web-archive\",\n      \"note\": \"2008 Wayback Machine capture. Site was just an employee login portal with address: 28530 Orchard Lake Road, Suite 101, Farmington Hills, MI 48334. Phone 248.932.4888.\"\n    }\n  ]\n}\n"
+    }
+  ]
+}
+[RESULT: <patches_applied>all</patches_applied>
+]
+Now let me commit.
+[TOOL: bash]
+{
+  "command": "cd /home/exedev/ehi-export-analysis && git add results/pce-systems/product-research.md results/pce-systems/sources.json && git commit -m \"PCE Systems product research: behavioral health EHR for Michigan CMH system\n\nPCE Systems is a small (11-50 employees), privately held company in\nFarmington Hills, MI that builds PCE Care Management, a behavioral health\nEHR serving Michigan's public community mental health system. As of 2013,\nthey claimed 70%+ of Michigan's Medicaid mental health budget.\n\nKey findings:\n- Full-featured behavioral health EHR (44 ONC-certified criteria)\n- Customers: Michigan CMHSPs and PIHPs (DWIHN, OCHN, CMHPSM, Washtenaw CMH)\n- Serves populations with serious mental illness, substance use disorders,\n  developmental disabilities\n- Includes PIX (Provider Information Exchange) behavioral health HIE\n- eConsent Management System for 42 CFR Part 2 compliance\n- CRCT and CEHR branded implementations at customer sites\n- Billing/claims built-in; some customers integrate with MS Dynamics 365 BC\n- Patient portal, FHIR APIs, public health reporting\n- Vendor website is essentially non-functional for research purposes\n- EHI export doc (3 pages) describes format but not specific data resources\""
+}
+[RESULT: [main 26596335] PCE Systems product research: behavioral health EHR for Michigan CMH system
+ Committer: exe.dev user <exedev@ehi-research.exe.xyz>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly:
+
+    git config --global user.name "Your Name"
+    git config --global user.email you@example.com
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 2 files changed, 224 insertions(+)
+ create mode 100644 results/pce-systems/product-research.md
+ create mode 100644 results/pce-systems/sources.json
+]
+Done. Here's a summary of what I found:
+
+## Research Summary: PCE Systems / PCE Care Management
+
+**What it is:** A behavioral health EHR built for Michigan's publicly-funded community mental health system. Not a general-purpose ambulatory EHR — it serves CMHSPs and PIHPs managing care for people with serious mental illness, substance use disorders, and developmental disabilities.
+
+**Key findings:**
+- **Tiny company, huge footprint:** 11–50 employees, but claimed 70%+ of Michigan's Medicaid mental health budget (as of 2013)
+- **Michigan-centric:** All identified customers are Michigan public behavioral health entities (DWIHN, OCHN, CMHPSM, Washtenaw CMH)
+- **Broadly certified:** 44 ONC criteria — full clinical, billing, portal, HIE, public health, and FHIR capabilities
+- **Notable features:** PIX (behavioral health HIE), eConsent Management System for 42 CFR Part 2 (substance abuse privacy), MI Care Connect community portal
+- **Billing included** but some customers integrate with Microsoft Dynamics 365 Business Central for accounting
+- **Ghost website:** The vendor's public website has essentially no product information — consistent with a vendor selling to a known set of government agencies through relationships
+
+**For Phase 2 (EHI export assessment):** The EHI export documentation is only 3 pages and describes the *format* but deliberately does not enumerate what data is exported — the resource definitions are embedded in the export's `documentation.json` file. This will be an interesting challenge to evaluate completeness.

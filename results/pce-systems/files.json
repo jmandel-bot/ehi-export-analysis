@@ -1,0 +1,43 @@
+{
+  "collection_date": "2025-07-14",
+  "url": "https://www.pcesystems.com/g10APIInfo.html",
+  "final_url": "https://www.pcesystems.com/g10APIInfo.html",
+  "access_status": "found",
+  "files": [
+    {
+      "path": "downloads/b10_documentation.pdf",
+      "source_url": "https://www.pcesystems.com/b10_documentation.pdf",
+      "size_bytes": 889642,
+      "description": "EHI Export (b)(10) documentation - 3 pages describing the export format: password-protected ZIP containing meta.json, documentation.json (self-describing schema), and per-patient NDJSON data files plus non-computable files. Does NOT enumerate the actual resources or fields exported.",
+      "curl_command": "curl -L -H 'User-Agent: Mozilla/5.0' -o b10_documentation.pdf 'https://www.pcesystems.com/b10_documentation.pdf'"
+    },
+    {
+      "path": "downloads/PIX_9_4_API_Documentation.pdf",
+      "source_url": "https://www.pcesystems.com/PIX_9_4_API_Documentation.pdf",
+      "size_bytes": 1888837,
+      "description": "FHIR (g)(10) API documentation - 87 pages covering SMART on FHIR OAuth2, all API operations, and data element definitions for 22 FHIR resource types. Includes field-level attribute/type/description tables. Not the (b)(10) export, but the only public enumeration of PCE's data model.",
+      "curl_command": "curl -L -H 'User-Agent: Mozilla/5.0' -o PIX_9_4_API_Documentation.pdf 'https://www.pcesystems.com/PIX_9_4_API_Documentation.pdf'"
+    },
+    {
+      "path": "downloads/capability-statement.json",
+      "source_url": "https://w3.pcesecure.com/cgi-bin/WebObjects/HIEAdmin.woa/MUPIX/v2/Capability",
+      "size_bytes": 42557,
+      "description": "FHIR CapabilityStatement from production endpoint - machine-readable declaration of supported resources, search parameters, and operations. Declares conformance to US Core Server and FHIR Bulk Data.",
+      "curl_command": "curl -s -H 'User-Agent: Mozilla/5.0' -H 'Accept: application/json' -o capability-statement.json 'https://w3.pcesecure.com/cgi-bin/WebObjects/HIEAdmin.woa/MUPIX/v2/Capability'"
+    },
+    {
+      "path": "downloads/g10APIInfo.html",
+      "source_url": "https://www.pcesystems.com/g10APIInfo.html",
+      "size_bytes": 2268,
+      "description": "Landing page HTML - simple static page with links to both the API and EHI Export documentation PDFs, plus FHIR API base URLs.",
+      "curl_command": "curl -sL -H 'User-Agent: Mozilla/5.0' -o g10APIInfo.html 'https://www.pcesystems.com/g10APIInfo.html'"
+    },
+    {
+      "path": "downloads/landing-page-screenshot.png",
+      "source_url": "https://www.pcesystems.com/g10APIInfo.html",
+      "size_bytes": 56003,
+      "description": "Screenshot of the landing page showing the page layout, both documentation links, and FHIR API base URLs.",
+      "curl_command": "browser screenshot"
+    }
+  ]
+}
