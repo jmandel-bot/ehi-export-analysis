@@ -455,6 +455,20 @@
     "original_index": 150
   },
   {
+    "url": "https://tickets.kazee.us/docs/KaZee_Data_Dictionary.docx",
+    "developers": [
+      "KaZee, Inc."
+    ],
+    "products": [
+      "Pearl"
+    ],
+    "chpl_ids": [
+      9861
+    ],
+    "product_count": 1,
+    "original_index": 151
+  },
+  {
     "url": "https://www.paix-tech.com/documents/HarmonyEHR-EHI-Export.pdf",
     "developers": [
       "PAIX Technologies"
@@ -833,6 +847,34 @@
     "original_index": 239
   },
   {
+    "url": "https://divinetechpoc.com/certification",
+    "developers": [
+      "Divine Family Care"
+    ],
+    "products": [
+      "DivineTech"
+    ],
+    "chpl_ids": [
+      11680
+    ],
+    "product_count": 1,
+    "original_index": 240
+  },
+  {
+    "url": "https://montrosecenter.org/about/privacy/",
+    "developers": [
+      "The Montrose Center"
+    ],
+    "products": [
+      "CONTINUUM"
+    ],
+    "chpl_ids": [
+      11269
+    ],
+    "product_count": 1,
+    "original_index": 241
+  },
+  {
     "url": "https://www.sprypt.com/chpl-product-certification",
     "developers": [
       "SPRY Therapeutics, Inc"
@@ -845,6 +887,20 @@
     ],
     "product_count": 1,
     "original_index": 245
+  },
+  {
+    "url": "https://github.com/GoodXSoftware/patient_export/blob/master/README.md",
+    "developers": [
+      "Goodx Inc."
+    ],
+    "products": [
+      "Goodx"
+    ],
+    "chpl_ids": [
+      11703
+    ],
+    "product_count": 1,
+    "original_index": 247
   },
   {
     "url": "https://www.theralytics.net/ehiexport",
@@ -987,6 +1043,20 @@
     "original_index": 264
   },
   {
+    "url": "https://vigiboss.com/md4front/onccertification/ElectronicHealthInformation.html",
+    "developers": [
+      "Vigiboss Inc."
+    ],
+    "products": [
+      "MD4Front"
+    ],
+    "chpl_ids": [
+      11750
+    ],
+    "product_count": 1,
+    "original_index": 267
+  },
+  {
     "url": "https://www.kipuhealth.com/wp-content/uploads/2025/12/ONC_EHI_Export_Documentation_v1.1.pdf",
     "developers": [
       "Kipu Health"
@@ -1099,6 +1169,34 @@
     "original_index": 293
   },
   {
+    "url": "https://www.nortecehr.com/export-ehi.html",
+    "developers": [
+      "Nortec Software Inc."
+    ],
+    "products": [
+      "Nortec EHR"
+    ],
+    "chpl_ids": [
+      10734
+    ],
+    "product_count": 1,
+    "original_index": 300
+  },
+  {
+    "url": "https://claimocity.com/onc-certification",
+    "developers": [
+      "Claimocity, Inc."
+    ],
+    "products": [
+      "Claimocity"
+    ],
+    "chpl_ids": [
+      11359
+    ],
+    "product_count": 1,
+    "original_index": 306
+  },
+  {
     "url": "https://www.ironbridgecorp.com/onc-certification",
     "developers": [
       "Iron Bridge Integration, Inc."
@@ -1183,6 +1281,20 @@
     "original_index": 334
   },
   {
+    "url": "https://acplus.com/technology/acplus/",
+    "developers": [
+      "Accelerated Care Plus"
+    ],
+    "products": [
+      "ACPlus\u2122"
+    ],
+    "chpl_ids": [
+      11412
+    ],
+    "product_count": 1,
+    "original_index": 343
+  },
+  {
     "url": "https://imatsolutions.com/index.php/ecqm/",
     "developers": [
       "IMAT Solutions"
@@ -1237,6 +1349,20 @@
     ],
     "product_count": 1,
     "original_index": 364
+  },
+  {
+    "url": "https://myriad.health/terms",
+    "developers": [
+      "Myriad Systems"
+    ],
+    "products": [
+      "Myriad Health"
+    ],
+    "chpl_ids": [
+      11452
+    ],
+    "product_count": 1,
+    "original_index": 367
   },
   {
     "url": "https://trinitashealth.com/FEHR-EHI/ehr-ehi-export-documentation_Trinitas/index.html",
@@ -1351,6 +1477,48 @@
     "original_index": 383
   },
   {
+    "url": "https://www.communitycarelink.com/data-extract",
+    "developers": [
+      "First Call Technologies, LLC DBA Community CareLink"
+    ],
+    "products": [
+      "Community CareLink"
+    ],
+    "chpl_ids": [
+      9281
+    ],
+    "product_count": 1,
+    "original_index": 393
+  },
+  {
+    "url": "https://www.cedaron.com/wp-content/uploads/CONNECT-Patient-EHI-Export.pdf",
+    "developers": [
+      "Cedaron Medical, Inc."
+    ],
+    "products": [
+      "Connect"
+    ],
+    "chpl_ids": [
+      10804
+    ],
+    "product_count": 1,
+    "original_index": 395
+  },
+  {
+    "url": "https://westcare.com/electronic-health-record/",
+    "developers": [
+      "WestCare Foundation, Inc."
+    ],
+    "products": [
+      "Clinical Data System"
+    ],
+    "chpl_ids": [
+      10249
+    ],
+    "product_count": 1,
+    "original_index": 404
+  },
+  {
     "url": "https://iatric.com/meaningful-use/haystack-is-product-certification/",
     "developers": [
       "Iatric Systems, Inc"
@@ -1363,6 +1531,20 @@
     ],
     "product_count": 1,
     "original_index": 417
+  },
+  {
+    "url": "https://azzly.com/wp-content/uploads/2023/09/Data-Extraction-Instructions-AZZLY-Rize-v1.0.pdf",
+    "developers": [
+      "AZZLY, Inc."
+    ],
+    "products": [
+      "AZZLY Rize"
+    ],
+    "chpl_ids": [
+      11073
+    ],
+    "product_count": 1,
+    "original_index": 431
   },
   {
     "url": "https://www.pointandclicksolutions.com/fhir-record-export",
@@ -1405,6 +1587,20 @@
     ],
     "product_count": 1,
     "original_index": 436
+  },
+  {
+    "url": "https://www.itrust.io/b10/",
+    "developers": [
+      "iTRUST"
+    ],
+    "products": [
+      "iTRUST"
+    ],
+    "chpl_ids": [
+      11324
+    ],
+    "product_count": 1,
+    "original_index": 438
   },
   {
     "url": "https://support.clinigence.com/support/solutions/articles/3000123715-patient-record-export/",

@@ -214,6 +214,20 @@
     "original_index": 114
   },
   {
+    "url": "https://www.floridahealth.gov/statistics-data/health-management-system/",
+    "developers": [
+      "Florida Department of Health"
+    ],
+    "products": [
+      "The Florida Department of Health, Health Management System"
+    ],
+    "chpl_ids": [
+      10047
+    ],
+    "product_count": 1,
+    "original_index": 115
+  },
+  {
     "url": "https://ensorahealth.com/onc/erx/",
     "developers": [
       "Ensora Health"
@@ -354,6 +368,20 @@
     "original_index": 277
   },
   {
+    "url": "https://welligent.com/wp-content/uploads/2025/07/B10-Documentation.pdf",
+    "developers": [
+      "Welligent, Part of the ContinuumCloud"
+    ],
+    "products": [
+      "Welligent"
+    ],
+    "chpl_ids": [
+      10811
+    ],
+    "product_count": 1,
+    "original_index": 309
+  },
+  {
     "url": "https://www.navigatingcancer.com/requirements-incentives/",
     "developers": [
       "Navigating Cancer, LLC"
@@ -366,6 +394,20 @@
     ],
     "product_count": 1,
     "original_index": 321
+  },
+  {
+    "url": "https://ebiometronics.com/data-export/",
+    "developers": [
+      "EBIO-METRONICS"
+    ],
+    "products": [
+      "EBIO-METRONICS"
+    ],
+    "chpl_ids": [
+      11087
+    ],
+    "product_count": 1,
+    "original_index": 326
   },
   {
     "url": "https://usmon.com/ExportProcess.jsp",
@@ -464,6 +506,20 @@
     ],
     "product_count": 1,
     "original_index": 408
+  },
+  {
+    "url": "https://www.dosespot.com/ehi-export",
+    "developers": [
+      "PRN Software (DoseSpot)"
+    ],
+    "products": [
+      "DoseSpot"
+    ],
+    "chpl_ids": [
+      10919
+    ],
+    "product_count": 1,
+    "original_index": 409
   },
   {
     "url": "https://8759937.fs1.hubspotusercontent-na1.net/hubfs/8759937/assets/pdfs/PERFORM+Connect_FHIR_API_Document_V_22_01_02.pdf",

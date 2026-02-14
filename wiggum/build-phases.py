@@ -72,16 +72,16 @@ PHASES = [
         ),
     },
     {
-        'name': 'Clinical systems without FHIR API',
-        'slug': 'clinical-no-fhir',
+        'name': 'CPOE systems without FHIR API',
+        'slug': 'cpoe-no-fhir',
         'description': (
-            'Products with clinical criteria [(a)(1)-(a)(14)] but no '
-            'standardized FHIR API [(g)(10)]. May be older systems, '
-            'specialty EHRs, or products that certified for clinical '
-            'functions but not API access.'
+            'Products with CPOE certification [(a)(1)-(a)(3)] but no '
+            'standardized FHIR API [(g)(10)]. EHRs with order entry '
+            'that haven\'t certified for API access — may be older '
+            'systems or vendors that skipped (g)(10).'
         ),
         'filter': lambda idx, target, meta: (
-            has_any_criteria(meta, CLINICAL_A)
+            has_any_criteria(meta, CPOE)
         ),
     },
     {
