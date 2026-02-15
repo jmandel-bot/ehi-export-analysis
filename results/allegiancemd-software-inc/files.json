@@ -1,0 +1,267 @@
+{
+  "collection_date": "2026-02-14",
+  "url": "https://allegiancemd.com/ehi-export-documentation",
+  "final_url": "https://allegiancemd.com/ehi-export-documentation",
+  "access_status": "found",
+  "files": [
+    {
+      "path": "downloads/ehi-export-documentation-page.html",
+      "source_url": "https://allegiancemd.com/ehi-export-documentation",
+      "size_bytes": 37045,
+      "description": "Main EHI export documentation WordPress page (Divi builder HTML). Describes CBOR export format and links to data structure.",
+      "curl_command": "curl -sL 'https://allegiancemd.com/ehi-export-documentation' -H 'User-Agent: Mozilla/5.0' -o ehi-export-documentation-page.html"
+    },
+    {
+      "path": "downloads/ehi-export-documentation-page.png",
+      "source_url": "https://allegiancemd.com/ehi-export-documentation",
+      "size_bytes": 155911,
+      "description": "Screenshot of the main EHI export documentation page.",
+      "curl_command": null
+    },
+    {
+      "path": "downloads/ehi-export-index.html",
+      "source_url": "https://allegiancemd.com/ehi-export/",
+      "size_bytes": 11399,
+      "description": "Javadoc index page listing all 31 entity classes in the EHI export data model.",
+      "curl_command": "curl -sL 'https://allegiancemd.com/ehi-export/' -H 'User-Agent: Mozilla/5.0' -o ehi-export-index.html"
+    },
+    {
+      "path": "downloads/ehi-export-data-structure-index.png",
+      "source_url": "https://allegiancemd.com/ehi-export/",
+      "size_bytes": 112671,
+      "description": "Screenshot of the Javadoc entity index page showing all 31 entity types.",
+      "curl_command": null
+    },
+    {
+      "path": "downloads/ehi-export-stylesheet.css",
+      "source_url": "https://allegiancemd.com/ehi-export/stylesheet.css",
+      "size_bytes": 30650,
+      "description": "Javadoc stylesheet for the data structure documentation.",
+      "curl_command": "curl -sL 'https://allegiancemd.com/ehi-export/stylesheet.css' -H 'User-Agent: Mozilla/5.0' -o ehi-export-stylesheet.css"
+    },
+    {
+      "path": "downloads/entity-data-dictionary.json",
+      "source_url": "https://allegiancemd.com/ehi-export/",
+      "size_bytes": 69122,
+      "description": "Structured JSON extraction of all 31 entities and 715 fields from the Javadoc pages (field names, types, descriptions).",
+      "curl_command": null
+    },
+    {
+      "path": "downloads/AppointmentsEntity.html",
+      "source_url": "https://allegiancemd.com/ehi-export/AppointmentsEntity.html",
+      "size_bytes": 11659,
+      "description": "Javadoc for AppointmentsEntity — 25 fields, no descriptions.",
+      "curl_command": "curl -sL 'https://allegiancemd.com/ehi-export/AppointmentsEntity.html' -H 'User-Agent: Mozilla/5.0' -o AppointmentsEntity.html"
+    },
+    {
+      "path": "downloads/CasesEntity.html",
+      "source_url": "https://allegiancemd.com/ehi-export/CasesEntity.html",
+      "size_bytes": 20810,
+      "description": "Javadoc for CasesEntity — 41 fields, all with descriptions. Cases (workers' comp, etc.).",
+      "curl_command": "curl -sL 'https://allegiancemd.com/ehi-export/CasesEntity.html' -H 'User-Agent: Mozilla/5.0' -o CasesEntity.html"
+    },
+    {
+      "path": "downloads/EmrAllergyEntity.html",
+      "source_url": "https://allegiancemd.com/ehi-export/EmrAllergyEntity.html",
+      "size_bytes": 8899,
+      "description": "Javadoc for EmrAllergyEntity — 18 fields, no descriptions.",
+      "curl_command": "curl -sL 'https://allegiancemd.com/ehi-export/EmrAllergyEntity.html' -H 'User-Agent: Mozilla/5.0' -o EmrAllergyEntity.html"
+    },
+    {
+      "path": "downloads/EmrEncounterEntity.html",
+      "source_url": "https://allegiancemd.com/ehi-export/EmrEncounterEntity.html",
+      "size_bytes": 2683,
+      "description": "Javadoc for EmrEncounterEntity — 2 fields, no descriptions.",
+      "curl_command": "curl -sL 'https://allegiancemd.com/ehi-export/EmrEncounterEntity.html' -H 'User-Agent: Mozilla/5.0' -o EmrEncounterEntity.html"
+    },
+    {
+      "path": "downloads/EmrImplantableDeviceEntity.html",
+      "source_url": "https://allegiancemd.com/ehi-export/EmrImplantableDeviceEntity.html",
+      "size_bytes": 9803,
+      "description": "Javadoc for EmrImplantableDeviceEntity — 20 fields, no descriptions.",
+      "curl_command": "curl -sL 'https://allegiancemd.com/ehi-export/EmrImplantableDeviceEntity.html' -H 'User-Agent: Mozilla/5.0' -o EmrImplantableDeviceEntity.html"
+    },
+    {
+      "path": "downloads/EmrInjectionEntity.html",
+      "source_url": "https://allegiancemd.com/ehi-export/EmrInjectionEntity.html",
+      "size_bytes": 18706,
+      "description": "Javadoc for EmrInjectionEntity — 43 fields, no descriptions. Immunizations/injections.",
+      "curl_command": "curl -sL 'https://allegiancemd.com/ehi-export/EmrInjectionEntity.html' -H 'User-Agent: Mozilla/5.0' -o EmrInjectionEntity.html"
+    },
+    {
+      "path": "downloads/EmrMedicationEntity.html",
+      "source_url": "https://allegiancemd.com/ehi-export/EmrMedicationEntity.html",
+      "size_bytes": 26731,
+      "description": "Javadoc for EmrMedicationEntity — 62 fields, 1 with description. Medications and prescriptions.",
+      "curl_command": "curl -sL 'https://allegiancemd.com/ehi-export/EmrMedicationEntity.html' -H 'User-Agent: Mozilla/5.0' -o EmrMedicationEntity.html"
+    },
+    {
+      "path": "downloads/EmrPatientOrderItemEntity.html",
+      "source_url": "https://allegiancemd.com/ehi-export/EmrPatientOrderItemEntity.html",
+      "size_bytes": 9808,
+      "description": "Javadoc for EmrPatientOrderItemEntity — 20 fields, no descriptions. Lab/imaging order items.",
+      "curl_command": "curl -sL 'https://allegiancemd.com/ehi-export/EmrPatientOrderItemEntity.html' -H 'User-Agent: Mozilla/5.0' -o EmrPatientOrderItemEntity.html"
+    },
+    {
+      "path": "downloads/EmrPatientOrderPanelEntity.html",
+      "source_url": "https://allegiancemd.com/ehi-export/EmrPatientOrderPanelEntity.html",
+      "size_bytes": 25655,
+      "description": "Javadoc for EmrPatientOrderPanelEntity — 60 fields, 1 with description. Lab/imaging order panels with results.",
+      "curl_command": "curl -sL 'https://allegiancemd.com/ehi-export/EmrPatientOrderPanelEntity.html' -H 'User-Agent: Mozilla/5.0' -o EmrPatientOrderPanelEntity.html"
+    },
+    {
+      "path": "downloads/EmrProblemEntity.html",
+      "source_url": "https://allegiancemd.com/ehi-export/EmrProblemEntity.html",
+      "size_bytes": 8139,
+      "description": "Javadoc for EmrProblemEntity — 16 fields, no descriptions. Problem list.",
+      "curl_command": "curl -sL 'https://allegiancemd.com/ehi-export/EmrProblemEntity.html' -H 'User-Agent: Mozilla/5.0' -o EmrProblemEntity.html"
+    },
+    {
+      "path": "downloads/EmrRefToProvidersEntity.html",
+      "source_url": "https://allegiancemd.com/ehi-export/EmrRefToProvidersEntity.html",
+      "size_bytes": 8954,
+      "description": "Javadoc for EmrRefToProvidersEntity — 18 fields, 1 with description. Referrals.",
+      "curl_command": "curl -sL 'https://allegiancemd.com/ehi-export/EmrRefToProvidersEntity.html' -H 'User-Agent: Mozilla/5.0' -o EmrRefToProvidersEntity.html"
+    },
+    {
+      "path": "downloads/EmrVitalsCategoryEntity.html",
+      "source_url": "https://allegiancemd.com/ehi-export/EmrVitalsCategoryEntity.html",
+      "size_bytes": 6171,
+      "description": "Javadoc for EmrVitalsCategoryEntity — 11 fields, no descriptions. Vitals categories/types.",
+      "curl_command": "curl -sL 'https://allegiancemd.com/ehi-export/EmrVitalsCategoryEntity.html' -H 'User-Agent: Mozilla/5.0' -o EmrVitalsCategoryEntity.html"
+    },
+    {
+      "path": "downloads/EmrVitalsEntity.html",
+      "source_url": "https://allegiancemd.com/ehi-export/EmrVitalsEntity.html",
+      "size_bytes": 4637,
+      "description": "Javadoc for EmrVitalsEntity — 7 fields, no descriptions. Vitals measurements.",
+      "curl_command": "curl -sL 'https://allegiancemd.com/ehi-export/EmrVitalsEntity.html' -H 'User-Agent: Mozilla/5.0' -o EmrVitalsEntity.html"
+    },
+    {
+      "path": "downloads/EncountersDiagEntity.html",
+      "source_url": "https://allegiancemd.com/ehi-export/EncountersDiagEntity.html",
+      "size_bytes": 3132,
+      "description": "Javadoc for EncountersDiagEntity — 3 fields, no descriptions. Encounter-diagnosis linkage.",
+      "curl_command": "curl -sL 'https://allegiancemd.com/ehi-export/EncountersDiagEntity.html' -H 'User-Agent: Mozilla/5.0' -o EncountersDiagEntity.html"
+    },
+    {
+      "path": "downloads/EncountersEntity.html",
+      "source_url": "https://allegiancemd.com/ehi-export/EncountersEntity.html",
+      "size_bytes": 20700,
+      "description": "Javadoc for EncountersEntity — 47 fields, 2 with descriptions. Clinical/billing encounters.",
+      "curl_command": "curl -sL 'https://allegiancemd.com/ehi-export/EncountersEntity.html' -H 'User-Agent: Mozilla/5.0' -o EncountersEntity.html"
+    },
+    {
+      "path": "downloads/GuarantorEntity.html",
+      "source_url": "https://allegiancemd.com/ehi-export/GuarantorEntity.html",
+      "size_bytes": 11194,
+      "description": "Javadoc for GuarantorEntity — 24 fields, no descriptions. Responsible party/guarantor.",
+      "curl_command": "curl -sL 'https://allegiancemd.com/ehi-export/GuarantorEntity.html' -H 'User-Agent: Mozilla/5.0' -o GuarantorEntity.html"
+    },
+    {
+      "path": "downloads/InsuranceDataAuthorizationsEntity.html",
+      "source_url": "https://allegiancemd.com/ehi-export/InsuranceDataAuthorizationsEntity.html",
+      "size_bytes": 6100,
+      "description": "Javadoc for InsuranceDataAuthorizationsEntity — 9 fields, all with descriptions. Insurance pre-authorizations.",
+      "curl_command": "curl -sL 'https://allegiancemd.com/ehi-export/InsuranceDataAuthorizationsEntity.html' -H 'User-Agent: Mozilla/5.0' -o InsuranceDataAuthorizationsEntity.html"
+    },
+    {
+      "path": "downloads/InsuranceDataEntity.html",
+      "source_url": "https://allegiancemd.com/ehi-export/InsuranceDataEntity.html",
+      "size_bytes": 19241,
+      "description": "Javadoc for InsuranceDataEntity — 36 fields, all with descriptions. Insurance coverage details.",
+      "curl_command": "curl -sL 'https://allegiancemd.com/ehi-export/InsuranceDataEntity.html' -H 'User-Agent: Mozilla/5.0' -o InsuranceDataEntity.html"
+    },
+    {
+      "path": "downloads/InternalNotesEntity.html",
+      "source_url": "https://allegiancemd.com/ehi-export/InternalNotesEntity.html",
+      "size_bytes": 4263,
+      "description": "Javadoc for InternalNotesEntity — 6 fields, no descriptions. Internal staff notes.",
+      "curl_command": "curl -sL 'https://allegiancemd.com/ehi-export/InternalNotesEntity.html' -H 'User-Agent: Mozilla/5.0' -o InternalNotesEntity.html"
+    },
+    {
+      "path": "downloads/MessagesEntity.html",
+      "source_url": "https://allegiancemd.com/ehi-export/MessagesEntity.html",
+      "size_bytes": 10275,
+      "description": "Javadoc for MessagesEntity — 21 fields, 1 with description. Patient-related messages.",
+      "curl_command": "curl -sL 'https://allegiancemd.com/ehi-export/MessagesEntity.html' -H 'User-Agent: Mozilla/5.0' -o MessagesEntity.html"
+    },
+    {
+      "path": "downloads/NotesEntity.html",
+      "source_url": "https://allegiancemd.com/ehi-export/NotesEntity.html",
+      "size_bytes": 2705,
+      "description": "Javadoc for NotesEntity — 2 fields, no descriptions. Alert/general notes.",
+      "curl_command": "curl -sL 'https://allegiancemd.com/ehi-export/NotesEntity.html' -H 'User-Agent: Mozilla/5.0' -o NotesEntity.html"
+    },
+    {
+      "path": "downloads/PatientCareTeamEntity.html",
+      "source_url": "https://allegiancemd.com/ehi-export/PatientCareTeamEntity.html",
+      "size_bytes": 9330,
+      "description": "Javadoc for PatientCareTeamEntity — 19 fields, no descriptions. Care team members.",
+      "curl_command": "curl -sL 'https://allegiancemd.com/ehi-export/PatientCareTeamEntity.html' -H 'User-Agent: Mozilla/5.0' -o PatientCareTeamEntity.html"
+    },
+    {
+      "path": "downloads/PatientCustomFieldsEntity.html",
+      "source_url": "https://allegiancemd.com/ehi-export/PatientCustomFieldsEntity.html",
+      "size_bytes": 3146,
+      "description": "Javadoc for PatientCustomFieldsEntity — 3 fields, no descriptions. User-defined custom fields.",
+      "curl_command": "curl -sL 'https://allegiancemd.com/ehi-export/PatientCustomFieldsEntity.html' -H 'User-Agent: Mozilla/5.0' -o PatientCustomFieldsEntity.html"
+    },
+    {
+      "path": "downloads/PatientEntity.html",
+      "source_url": "https://allegiancemd.com/ehi-export/PatientEntity.html",
+      "size_bytes": 35833,
+      "description": "Javadoc for PatientEntity — 71 fields, all with descriptions. Root entity containing all patient data with nested entity lists.",
+      "curl_command": "curl -sL 'https://allegiancemd.com/ehi-export/PatientEntity.html' -H 'User-Agent: Mozilla/5.0' -o PatientEntity.html"
+    },
+    {
+      "path": "downloads/PatientMedicalFormEntity.html",
+      "source_url": "https://allegiancemd.com/ehi-export/PatientMedicalFormEntity.html",
+      "size_bytes": 6216,
+      "description": "Javadoc for PatientMedicalFormEntity — 11 fields, no descriptions. Medical history forms.",
+      "curl_command": "curl -sL 'https://allegiancemd.com/ehi-export/PatientMedicalFormEntity.html' -H 'User-Agent: Mozilla/5.0' -o PatientMedicalFormEntity.html"
+    },
+    {
+      "path": "downloads/PatientPharmacyEntity.html",
+      "source_url": "https://allegiancemd.com/ehi-export/PatientPharmacyEntity.html",
+      "size_bytes": 5819,
+      "description": "Javadoc for PatientPharmacyEntity — 10 fields, no descriptions. Patient preferred pharmacy.",
+      "curl_command": "curl -sL 'https://allegiancemd.com/ehi-export/PatientPharmacyEntity.html' -H 'User-Agent: Mozilla/5.0' -o PatientPharmacyEntity.html"
+    },
+    {
+      "path": "downloads/PaymentEntity.html",
+      "source_url": "https://allegiancemd.com/ehi-export/PaymentEntity.html",
+      "size_bytes": 6594,
+      "description": "Javadoc for PaymentEntity — 12 fields, no descriptions. Payment records.",
+      "curl_command": "curl -sL 'https://allegiancemd.com/ehi-export/PaymentEntity.html' -H 'User-Agent: Mozilla/5.0' -o PaymentEntity.html"
+    },
+    {
+      "path": "downloads/ScreeningEntity.html",
+      "source_url": "https://allegiancemd.com/ehi-export/ScreeningEntity.html",
+      "size_bytes": 11088,
+      "description": "Javadoc for ScreeningEntity — 23 fields, 1 with description. Patient screenings.",
+      "curl_command": "curl -sL 'https://allegiancemd.com/ehi-export/ScreeningEntity.html' -H 'User-Agent: Mozilla/5.0' -o ScreeningEntity.html"
+    },
+    {
+      "path": "downloads/TaskCommentsEntity.html",
+      "source_url": "https://allegiancemd.com/ehi-export/TaskCommentsEntity.html",
+      "size_bytes": 3468,
+      "description": "Javadoc for TaskCommentsEntity — 4 fields, no descriptions. Comments on tasks.",
+      "curl_command": "curl -sL 'https://allegiancemd.com/ehi-export/TaskCommentsEntity.html' -H 'User-Agent: Mozilla/5.0' -o TaskCommentsEntity.html"
+    },
+    {
+      "path": "downloads/TasksEntity.html",
+      "source_url": "https://allegiancemd.com/ehi-export/TasksEntity.html",
+      "size_bytes": 8934,
+      "description": "Javadoc for TasksEntity — 18 fields, no descriptions. Staff task management.",
+      "curl_command": "curl -sL 'https://allegiancemd.com/ehi-export/TasksEntity.html' -H 'User-Agent: Mozilla/5.0' -o TasksEntity.html"
+    },
+    {
+      "path": "downloads/TransactionsEntity.html",
+      "source_url": "https://allegiancemd.com/ehi-export/TransactionsEntity.html",
+      "size_bytes": 22668,
+      "description": "Javadoc for TransactionsEntity — 53 fields, no descriptions. Billing transactions with CPT codes, diagnoses, amounts.",
+      "curl_command": "curl -sL 'https://allegiancemd.com/ehi-export/TransactionsEntity.html' -H 'User-Agent: Mozilla/5.0' -o TransactionsEntity.html"
+    }
+  ]
+}

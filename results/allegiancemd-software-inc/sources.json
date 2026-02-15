@@ -1,0 +1,75 @@
+{
+  "research_date": "2026-02-14",
+  "sources": [
+    {
+      "url": "https://allegiancemd.com",
+      "type": "vendor-website",
+      "note": "Main website. Describes Veracity as all-in-one cloud EMR/PM/billing with 28 years experience. Lists core modules: EHR, practice management, billing, patient engagement, e-prescribing, telemedicine, lab interface, mobile apps."
+    },
+    {
+      "url": "https://allegiancemd.com/ehr-software",
+      "type": "vendor-website",
+      "note": "EHR product page. Details clinical features: customizable templates, machine learning for treatment preferences, EPCS, lab interface, clinical decision support, mobile app capabilities."
+    },
+    {
+      "url": "https://allegiancemd.com/all-in-one",
+      "type": "vendor-website",
+      "note": "All-in-one overview page. Lists all modules: EHR, practice management, patient engagement, merit-based payment. Confirms data types handled include demographics, insurance, medical history, medications, schedules, lab results, imaging, chart notes."
+    },
+    {
+      "url": "https://allegiancemd.com/practice-management",
+      "type": "vendor-website",
+      "note": "Practice management page. Details charge capture, billing, eligibility, electronic claims, claim scrubbing, denial management, remittance, collections, credit card processing, clearinghouse, document management, e-fax, analytics dashboard."
+    },
+    {
+      "url": "https://allegiancemd.com/practice-management/billing",
+      "type": "vendor-website",
+      "note": "Billing-specific page. Details claim submission, rejection tracking, denial follow-up, electronic payment posting, collection letters, patient statements with online payment."
+    },
+    {
+      "url": "https://allegiancemd.com/patient-engagement/patient-portal",
+      "type": "vendor-website",
+      "note": "Patient portal page. Patients can update demographics/insurance/history/medications, view records (appointments, clinical summaries, health maintenance, immunizations, medications, labs), request refills, schedule appointments, send secure messages, pay bills. Physician controls what patients see."
+    },
+    {
+      "url": "https://allegiancemd.com/specialty",
+      "type": "vendor-website",
+      "note": "Specialty page listing 50+ supported specialties from allergy/immunology through urology. Suggests general-purpose ambulatory EHR with customizable specialty templates."
+    },
+    {
+      "url": "https://allegiancemd.com/company/about-us",
+      "type": "vendor-website",
+      "note": "About page. Describes AllegianceMD as innovative, privately held company operating 20+ years. Cloud-based with 100% uptime claim. ONC Certified. Emphasizes personalized support and automation."
+    },
+    {
+      "url": "https://allegiancemd.com/pricing",
+      "type": "vendor-website",
+      "note": "Pricing page. No specific pricing listed — contact-based model. Claims affordable monthly fee with no hidden charges. All features included (e-fax, e-RX, patient portal, etc.)."
+    },
+    {
+      "url": "https://allegiancemd.com/wp-content/uploads/2025/01/COST_LIMITATION_Meaningfuluse_2024-12-28.pdf",
+      "type": "mandatory-disclosures",
+      "note": "ONC mandatory disclosures PDF. Could not extract text content from PDF format."
+    },
+    {
+      "url": "https://www.findemr.com/allegiancemd-ehr-software",
+      "type": "third-party-review",
+      "note": "FindEMR review page. 40 reviews, 4-star aggregate. Describes target market as small-to-mid-sized practices including primary care, pediatrics, OB/GYN, behavioral health, multi-specialty. Highlights machine learning feature and responsive support. Some users note performance slowdowns."
+    },
+    {
+      "url": "https://www.softwareadvice.com/medical/allegiancemd-profile/",
+      "type": "third-party-review",
+      "note": "Software Advice profile. Could not access (403). Search results indicated 86% user satisfaction from 42 reviews across 4 sites."
+    },
+    {
+      "url": "https://www.capterra.com/p/104324/AllegianceMD/",
+      "type": "third-party-review",
+      "note": "Capterra profile. Could not access (403). Search results indicated 4.3/5 rating from 24 reviews. Users praise auto-billing and claim tracking; some note outdated UI design and data feed authentication challenges."
+    },
+    {
+      "url": "https://www.trustradius.com/products/allegiancemd/reviews",
+      "type": "third-party-review",
+      "note": "TrustRadius reviews page. Referenced in search results. Users praise ease of use and customer service; concerns about specialty-specific features and outdated design."
+    }
+  ]
+}
