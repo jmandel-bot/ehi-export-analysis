@@ -1,0 +1,85 @@
+{
+  "research_date": "2026-02-14",
+  "sources": [
+    {
+      "url": "https://www.hcsinc.net/",
+      "type": "vendor-website",
+      "note": "Main homepage. Identifies HCS as behavioral health EMR provider for psychiatric hospitals, RTCs, and SUD programs. Lists seven product areas: Call Center CRM, Behavioral Record, Revenue Cycle Management, Order Management, Medication Assisted Treatment, Patient Safety, Compliance Toolkit."
+    },
+    {
+      "url": "https://www.hcsinc.net/meaningful-use/",
+      "type": "mandatory-disclosures",
+      "note": "ONC mandatory disclosures page. Lists HCS eMR 10 certification (Dec 2023). Describes EHI export as ZIP of CSV files with readme, available for single patient or populations in real time at no charge. EHI Data Dictionary CSV available. MFA details: barcode badge, Active Directory, tokenized verification for EPCS."
+    },
+    {
+      "url": "https://www.hcsinc.net/who-we-are/",
+      "type": "vendor-website",
+      "note": "Company background page. Founded 1983 by a pharmacist and software engineer. 40+ years experience. Serves psychiatric hospitals, RTCs, SUD programs, outpatient orgs, and corrections facilities nationwide. Staff includes clinicians."
+    },
+    {
+      "url": "https://www.hcsinc.net/experience/",
+      "type": "vendor-website",
+      "note": "Experience page. 40+ years in behavioral health software. Emphasizes clinical, financial, operational expertise. Positions as clinician-staffed company."
+    },
+    {
+      "url": "https://www.hcsinc.net/products/behavioral-record/",
+      "type": "vendor-website",
+      "note": "Behavioral Record product page. Intake/evaluation, treatment planning, 50+ peer-reviewed assessments (ASAM 4, PHQ-9, C-SSRS), group notes, bed board, AIDA AI dictation assistant, scheduling, workflow engine, community portal for patients."
+    },
+    {
+      "url": "https://www.hcsinc.net/products/revenue-cycle-management/",
+      "type": "vendor-website",
+      "note": "RCM product page. CRM/pre-admission screening, electronic eligibility verification, charge capture, denial prevention alerts, claim workflow management, ERA processing, billing reports with HCS Analytics."
+    },
+    {
+      "url": "https://www.hcsinc.net/products/patient-safety/",
+      "type": "vendor-website",
+      "note": "Patient Safety product page. eMAR with barcode scanning (33% error reduction), medication adherence tracking, Safety Checks patent US11869638 (observation rounding at 5/15/30/60-min intervals capturing patient location, clinical status, clinician location), clinical decision support, patient education documentation."
+    },
+    {
+      "url": "https://www.hcsinc.net/products/compliance-toolkit/",
+      "type": "vendor-website",
+      "note": "Compliance Toolkit page. Monitors unsigned orders, time-based form compliance, Z code/ASAM analysis, readmission tracking, antibiotic stewardship, C-SSRS completion, discharge disposition, opioid oversight. IPFQR publication to CMS. Credentialing Manager with license tracking and recertification reminders."
+    },
+    {
+      "url": "https://www.hcsinc.net/workflow/clinical-workflow/",
+      "type": "vendor-website",
+      "note": "Clinical workflow overview. Patient intake/registration, treatment planning, clinical documentation, CPOE for meds/labs/radiology/tasks, MAR/TAR with barcode, medication reconciliation with 12-month Surescripts history, ePrescribing (controlled and non-controlled), telehealth, integration with dispensing devices/pharmacy/lab/radiology."
+    },
+    {
+      "url": "https://www.hcsinc.net/partners/",
+      "type": "vendor-website",
+      "note": "Partners page. Major customer/partners: UHS, Acadia Healthcare, HCA Healthcare, LifePoint Behavioral Health, Haven Behavioral Healthcare, Summit BHC, National HealthCare Corporation, US Healthvest, Malvern Health. Tech partners: Surescripts, Merative, Hawaii HIE. Serves behavioral acute care hospitals, crisis centers, RTCs, SUD facilities, PHP, IOP, outpatient."
+    },
+    {
+      "url": "https://www.hcsinc.net/enhancing-care-efficiency-at-summit-northern-path-recovery-center/",
+      "type": "vendor-website",
+      "note": "Case study: Summit BHC's Northern Path Recovery Center (Fort Wayne, IN), SUD residential treatment facility. Summit BHC's 39th location. Live on HCS Order Management and Patient Safety Solutions."
+    },
+    {
+      "url": "https://www.hcsinc.net/algani-consulting-selects-hcs-behavioral-health-software/",
+      "type": "vendor-website",
+      "note": "Press release: Algani Consulting (multi-state behavioral health org) selected full HCS suite for all facilities. Details: real-time charting, AI dictation, e-prescribing, location-tracked rounds, clinical decision support, integrated billing/RCM, smart intake, insurance verification, automated charge capture, claims payment matching, reporting/analytics, patient engagement portal, utilization review, compliance reporting. Hosted on HCS Cloud."
+    },
+    {
+      "url": "http://www.hcsinc.net/products/hcs-emr.html",
+      "type": "vendor-website",
+      "note": "Legacy HCS eMR product page. Describes it as workflow-driven EHR driving rapid cross-functional user adoption. Helps hospitals meet meaningful use requirements."
+    },
+    {
+      "url": "http://www.hcsinc.net/products/hcs-medics.html",
+      "type": "vendor-website",
+      "note": "HCS MEDICS page reference. Pharmacy information system built on 30+ years of experience, designed by pharmacists. Rated one of the best pharmacy information systems."
+    },
+    {
+      "url": "http://www.hcsinc.net/products/hcs-emar.html",
+      "type": "vendor-website",
+      "note": "HCS eMAR page reference. Electronic medication administration record proven to improve patient safety and reduce documentation time."
+    },
+    {
+      "url": "https://www.linkedin.com/company/health-care-systems-inc",
+      "type": "third-party-profile",
+      "note": "LinkedIn company page. Confirmed behavioral health EMR provider in Montgomery, AL. No specific employee count or revenue figures extracted."
+    }
+  ]
+}

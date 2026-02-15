@@ -1,0 +1,36 @@
+{
+  "collection_date": "2026-02-14",
+  "url": "https://www.hcsinc.net/meaningful-use/",
+  "final_url": "https://www.hcsinc.net/meaningful-use/",
+  "access_status": "found",
+  "files": [
+    {
+      "path": "downloads/EHIExportInstructionsHCSeMRv10.pdf",
+      "source_url": "https://www.hcsinc.net/wp-content/uploads/2024/12/EHIExportInstructionsHCSeMRv10.pdf",
+      "size_bytes": 608872,
+      "description": "EHI Export Instructions - 2-page scanned PDF with export overview, user access info, step-by-step export creation instructions, screenshot of the export interface, and attestation signed by Reubin Felkey (12/18/2023). States export produces ZIP of CSV files covering all patient data in the HCS database.",
+      "curl_command": null
+    },
+    {
+      "path": "downloads/HCSDataDictionary.csv",
+      "source_url": "https://www.hcsinc.net/wp-content/uploads/2024/12/HCSDataDictionary.csv",
+      "size_bytes": 253996,
+      "description": "EHI Data Dictionary - CSV file documenting 339 database tables and 3,878 columns with table name, column name, SQL data type, size, and description. Covers clinical, financial, pharmacy, safety, and operational data domains. Foreign key relationships documented in descriptions.",
+      "curl_command": null
+    },
+    {
+      "path": "downloads/meaningful-use-page.png",
+      "source_url": "https://www.hcsinc.net/meaningful-use/",
+      "size_bytes": 437922,
+      "description": "Full-page screenshot of the Meaningful Use page showing the EHI Export section with description and download links, plus Real World Testing and ONC Certification sections.",
+      "curl_command": null
+    },
+    {
+      "path": "downloads/hcsinc-403-page.png",
+      "source_url": "https://www.hcsinc.net/meaningful-use/",
+      "size_bytes": 169245,
+      "description": "Screenshot showing the 403 Forbidden error page that appears when the site blocks non-browser access (curl). Documented as evidence of anti-bot protection.",
+      "curl_command": null
+    }
+  ]
+}
