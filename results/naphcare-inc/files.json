@@ -1,0 +1,120 @@
+{
+  "collection_date": "2026-02-14",
+  "url": "https://devportal.techcareehr.com/EHIExport",
+  "final_url": "https://devportal.techcareehr.com/EHIExport",
+  "access_status": "found",
+  "files": [
+    {
+      "path": "downloads/ehi-export-page.html",
+      "source_url": "https://devportal.techcareehr.com/EHIExport",
+      "size_bytes": 24038,
+      "description": "Full EHI Export documentation page — Word-to-HTML document containing purpose statement, export format description (CSV + C-CDA + PDF), assumptions, and data dictionary (as embedded images). Last updated 11/28/2023.",
+      "curl_command": "curl -sL 'https://devportal.techcareehr.com/EHIExport' -H 'User-Agent: Mozilla/5.0' -o ehi-export-page.html"
+    },
+    {
+      "path": "downloads/image001.png",
+      "source_url": "https://devportal.techcareehr.com/Content/image001.png",
+      "size_bytes": 11987,
+      "description": "Screenshot of TechCare UI showing the EHI export notification message with 'All Facilities' dropdown and Messages badge.",
+      "curl_command": "curl -sL 'https://devportal.techcareehr.com/Content/image001.png' -o image001.png"
+    },
+    {
+      "path": "downloads/image003.jpg",
+      "source_url": "https://devportal.techcareehr.com/Content/image003.jpg",
+      "size_bytes": 34429,
+      "description": "Data dictionary: Demographics table — 10 fields including ID, Booking Number, BookingDate, CustodyStatus, First/Last Name, DOB, Gender, HousingLocation, SSN.",
+      "curl_command": "curl -sL 'https://devportal.techcareehr.com/Content/image003.jpg' -o image003.jpg"
+    },
+    {
+      "path": "downloads/image005.jpg",
+      "source_url": "https://devportal.techcareehr.com/Content/image005.jpg",
+      "size_bytes": 64870,
+      "description": "Data dictionary: Medications table — ~22 fields including drug description, SIG instructions, start/stop dates, GPI, route, order type, quantity, refills, authorizing provider NPI.",
+      "curl_command": "curl -sL 'https://devportal.techcareehr.com/Content/image005.jpg' -o image005.jpg"
+    },
+    {
+      "path": "downloads/image007.jpg",
+      "source_url": "https://devportal.techcareehr.com/Content/image007.jpg",
+      "size_bytes": 58434,
+      "description": "Data dictionary: Allergies table — ~14 fields including allergy name/type, onset/stop dates, NDC, allergy class, GPI, reaction description (SNOMED).",
+      "curl_command": "curl -sL 'https://devportal.techcareehr.com/Content/image007.jpg' -o image007.jpg"
+    },
+    {
+      "path": "downloads/image009.jpg",
+      "source_url": "https://devportal.techcareehr.com/Content/image009.jpg",
+      "size_bytes": 48526,
+      "description": "Data dictionary: Problem List table — ~10 fields including ICD-10 code, problem name (from FLAGS), date identified/resolved, resolve text.",
+      "curl_command": "curl -sL 'https://devportal.techcareehr.com/Content/image009.jpg' -o image009.jpg"
+    },
+    {
+      "path": "downloads/image011.jpg",
+      "source_url": "https://devportal.techcareehr.com/Content/image011.jpg",
+      "size_bytes": 40335,
+      "description": "Data dictionary: Flags (alerts) table — ~8 fields including subject, message, alert date, location ID.",
+      "curl_command": "curl -sL 'https://devportal.techcareehr.com/Content/image011.jpg' -o image011.jpg"
+    },
+    {
+      "path": "downloads/image012.png",
+      "source_url": "https://devportal.techcareehr.com/Content/image012.png",
+      "size_bytes": 42591,
+      "description": "Data dictionary: Appointments table — ~13 fields including scheduled/completed dates, appointment type, status, housing location, reason, created by.",
+      "curl_command": "curl -sL 'https://devportal.techcareehr.com/Content/image012.png' -o image012.png"
+    },
+    {
+      "path": "downloads/image014.jpg",
+      "source_url": "https://devportal.techcareehr.com/Content/image014.jpg",
+      "size_bytes": 56688,
+      "description": "Data dictionary: Diet Orders table — ~12 fields including diet type code/description, status, order/end dates, clinical comments, cancel reason.",
+      "curl_command": "curl -sL 'https://devportal.techcareehr.com/Content/image014.jpg' -o image014.jpg"
+    },
+    {
+      "path": "downloads/image015.png",
+      "source_url": "https://devportal.techcareehr.com/Content/image015.png",
+      "size_bytes": 37449,
+      "description": "Data dictionary: Lab Orders table — ~14 fields including order code (lab type), test name, status, order/end dates, service provider, priority.",
+      "curl_command": "curl -sL 'https://devportal.techcareehr.com/Content/image015.png' -o image015.png"
+    },
+    {
+      "path": "downloads/image016.png",
+      "source_url": "https://devportal.techcareehr.com/Content/image016.png",
+      "size_bytes": 38598,
+      "description": "Data dictionary: Treatment Orders table — ~12 fields including treatment code, description (free text), status, order/end dates, clinical comments.",
+      "curl_command": "curl -sL 'https://devportal.techcareehr.com/Content/image016.png' -o image016.png"
+    },
+    {
+      "path": "downloads/image017.png",
+      "source_url": "https://devportal.techcareehr.com/Content/image017.png",
+      "size_bytes": 49733,
+      "description": "Data dictionary: Specialty Consult Orders table — ~13 fields including order code (offsite/onsite/hospitalization/ER), specialty type, status, priority.",
+      "curl_command": "curl -sL 'https://devportal.techcareehr.com/Content/image017.png' -o image017.png"
+    },
+    {
+      "path": "downloads/image018.png",
+      "source_url": "https://devportal.techcareehr.com/Content/image018.png",
+      "size_bytes": 52840,
+      "description": "Data dictionary: Admission Orders table — ~12 fields including admission management type, order description, status, order/end dates, clinical comments (quick notes).",
+      "curl_command": "curl -sL 'https://devportal.techcareehr.com/Content/image018.png' -o image018.png"
+    },
+    {
+      "path": "downloads/image020.jpg",
+      "source_url": "https://devportal.techcareehr.com/Content/image020.jpg",
+      "size_bytes": 97152,
+      "description": "Data dictionary: Immunizations table — ~22 fields including CVX code, vaccine name, manufacturer (MVX), lot number, route, site, VIS info, refusal reasons. Most detailed table in the dictionary.",
+      "curl_command": "curl -sL 'https://devportal.techcareehr.com/Content/image020.jpg' -o image020.jpg"
+    },
+    {
+      "path": "downloads/screenshot-ehi-export-page-top.png",
+      "source_url": "https://devportal.techcareehr.com/EHIExport",
+      "size_bytes": 208378,
+      "description": "Browser screenshot of the top portion of the EHI Export page showing the Purpose and Documentation sections.",
+      "curl_command": null
+    },
+    {
+      "path": "downloads/screenshot-ehi-export-full-page.png",
+      "source_url": "https://devportal.techcareehr.com/EHIExport",
+      "size_bytes": 3658168,
+      "description": "Full-page browser screenshot of the entire EHI Export documentation page including all data dictionary images.",
+      "curl_command": null
+    }
+  ]
+}

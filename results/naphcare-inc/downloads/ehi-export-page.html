@@ -1,0 +1,563 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title></title>
+    <link href="/Content/css?v=HapI3U-7RPv0GTYBHcRzC2CKEs3szmFlVeROUaA8x-o1" rel="stylesheet"/>
+
+    <script src="/bundles/modernizr?v=inCVuEFe6J4Q07A0AcRsbJic_UE5MwpRMNGcOtk94TE1"></script>
+
+</head>
+<body>
+    <div class="navbar navbar-inverse navbar-fixed-top">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="/">TechCare 5.0 API</a>
+            </div>
+            <div class="navbar-collapse collapse">
+                <ul class="nav navbar-nav">
+                    <li><a href="/">Home</a></li>
+                    <li><a href="/Help">Docs</a></li>
+                    <li><a href="/Terms">Terms</a></li>
+                    <li><a href="/RWTP">RWTP</a></li>
+                    <li><a href="/EHIExport">EHI Export</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="container body-content">
+        
+<html xmlns:v="urn:schemas-microsoft-com:vml"
+      xmlns:o="urn:schemas-microsoft-com:office:office"
+      xmlns:w="urn:schemas-microsoft-com:office:word"
+      xmlns:dt="uuid:C2F41010-65B3-11d1-A29F-00AA00C14882"
+      xmlns:m="http://schemas.microsoft.com/office/2004/12/omml"
+      xmlns="http://www.w3.org/TR/REC-html40">
+
+<head>
+    <meta http-equiv=Content-Type content="text/html; charset=windows-1252">
+    <meta name=ProgId content=Word.Document>
+    <meta name=Generator content="Microsoft Word 15">
+    <meta name=Originator content="Microsoft Word 15">
+    <link rel=File-List href="/Content/filelist.xml">
+    <link rel=Edit-Time-Data href="/Content/editdata.mso">
+</head>
+
+<body lang=EN-US style='tab-interval:.5in'>
+
+    <div class=WordSection1>
+
+        <h2>Purpose</h2>
+
+        <p class=MsoNoSpacing>
+            Migrating Electronic Health Information (EHI) from one
+            certified Electronic Health Record (EHR) system to another, whether a single
+            patient or all patients in the platform, represents great risks to project
+            timelines and patient continuity of care. TechCare® supports organizations,
+            users, and patients alike via <b style='mso-bidi-font-weight:normal'>
+                170.315
+                (b)(10) Electronic Health Information Export
+            </b> with the formats, definitions,
+            and processes set forth in this <b style='mso-bidi-font-weight:normal'>
+                publicly
+                accessible hyperlink
+            </b>.
+        </p>
+
+        <p class=MsoNoSpacing><o:p>&nbsp;</o:p></p>
+
+        <h2>Documentation, Format Types and Processes</h2>
+
+        <p class=MsoNoSpacing>
+            Recognizing the scope and variations in technology not
+            only across different EHR platforms but also among old and new versions of the
+            same EHR, TechCare®’s EHI output for a <b style='mso-bidi-font-weight:normal'>
+                single
+                patient
+            </b> or <b style='mso-bidi-font-weight:normal'>all patients</b> is built
+            upon the combination of three (3) of the most universally accepted and simple documentation
+            and <b style='mso-bidi-font-weight:normal'>file types</b>: 1) .<b style='mso-bidi-font-weight:normal'>CSV</b> files, 2) <b style='mso-bidi-font-weight:
+normal'>Consolidated-Clinical Document Architecture (C-CDA)</b>, and 3) <b style='mso-bidi-font-weight:normal'>PDF</b> (without restrictions). <b style='mso-bidi-font-weight:normal'>
+                Each are electronic and in a computable
+                format
+            </b>.
+        </p>
+
+        <p class=MsoNoSpacing><o:p>&nbsp;</o:p></p>
+
+        <p class=MsoNoSpacing>
+            The publicly accessible link to this document and its
+            data dictionaries and export format explanations is included with every output.
+        </p>
+
+        <p class=MsoNoSpacing><o:p>&nbsp;</o:p></p>
+
+        <p class=MsoNoSpacing>
+            The export of <b style='mso-bidi-font-weight:normal'>
+                TechCare®’s
+                EHI data for a single patient can be done at any time the user chooses without
+                Developer assistance.
+            </b> In a timely fashion (minutes or seconds), the logged
+            in user is notified via a message that all the EHI for their single patient is
+            ready for download:
+        </p>
+
+        <p class=MsoNoSpacing><o:p>&nbsp;</o:p></p>
+
+        <p class=MsoNoSpacing>
+            <span style='mso-no-proof:yes'>
+                <img width=237 height=200
+                                 src="/Content/image001.png" v:shapes="Picture_x0020_30">
+            </span>
+        </p>
+
+        <p class=MsoNoSpacing><o:p>&nbsp;</o:p></p>
+
+        <p class=MsoNoSpacing>
+            Only a specific set of users have the ability to create
+            the export file, limited to those with administrative rights.
+        </p>
+
+        <p class=MsoNoSpacing><o:p>&nbsp;</o:p></p>
+
+        <p class=MsoNoSpacing>
+            The export of <b style='mso-bidi-font-weight:normal'>
+                all
+                EHI for all patients in TechCare® outputs the same data file types</b>, only
+            for all patients via its side-loaded export engine that scalably produces the
+            files continuously for all patients.
+        </p>
+
+        <p class=MsoNoSpacing><o:p>&nbsp;</o:p></p>
+
+        <h2>Assumptions</h2>
+
+        <p class=MsoNoSpacing>
+            Unless otherwise specified, INMATES.ID is the demographic
+            database table’s unique and primary key and it is the foundational link in all
+            other database tables that associates each discreet data element set (e.g. IMMUNIZATIONS)
+            to a specific patient in both one to one and one to many relationships. All of
+            the structure and syntax information of the EHI data is included below in the
+            Data Dictionary.
+        </p>
+
+        <p class=MsoNoSpacing><o:p>&nbsp;</o:p></p>
+
+        <p class=MsoNoSpacing>
+            All categories of EHI in the data dictionary are output
+            as .CSV files with header row and named appropriately.
+        </p>
+
+        <p class=MsoNoSpacing><o:p>&nbsp;</o:p></p>
+
+        <p class=MsoNoSpacing>
+            Images and scanned paper records are automatically
+            processed into the universally accepted and human readable <b style='mso-bidi-font-weight:
+normal'>PDF format</b> and their computability is limited to positive patient
+            identification by their nature.
+        </p>
+
+        <p class=MsoNoSpacing><o:p>&nbsp;</o:p></p>
+
+        <p class=MsoNoSpacing>
+            No 3<sup>rd</sup> party software(s) is required for the
+            described functionality.
+        </p>
+
+        <p class=MsoNoSpacing><o:p>&nbsp;</o:p></p>
+
+        <p class=MsoNoSpacing>
+            This page is updated regularly as needed. Current as of <i style='mso-bidi-font-style:normal'>11/28/2023</i>.
+        </p>
+
+        <h1><b style='mso-bidi-font-weight:normal'>Data Dictionary<o:p></o:p></b></h1>
+
+        <h2>Demographics</h2>
+
+        <p class=MsoNormal><o:p>&nbsp;</o:p></p>
+
+        <p class=MsoNoSpacing>
+            <span style='mso-no-proof:yes'>
+                
+                <img width=723 height=204
+                                 src="/Content/image003.jpg" v:shapes="Picture_x0020_1">
+            </span>
+        </p>
+
+        <p class=MsoNoSpacing><o:p>&nbsp;</o:p></p>
+
+        <span style='font-size:11.0pt;line-height:107%;font-family:"Calibri",sans-serif;
+mso-ascii-theme-font:minor-latin;mso-fareast-font-family:Calibri;mso-fareast-theme-font:
+minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-font-family:"Times New Roman";
+mso-bidi-theme-font:minor-bidi;mso-ansi-language:EN-US;mso-fareast-language:
+EN-US;mso-bidi-language:AR-SA'>
+            <br clear=all style='mso-special-character:line-break;
+page-break-before:always'>
+        </span>
+
+        <p class=MsoNormal>
+            <span style='font-size:13.0pt;line-height:107%;font-family:
+"Calibri Light",sans-serif;mso-ascii-theme-font:major-latin;mso-fareast-font-family:
+"Times New Roman";mso-fareast-theme-font:major-fareast;mso-hansi-theme-font:
+major-latin;mso-bidi-font-family:"Times New Roman";mso-bidi-theme-font:major-bidi;
+color:#2E74B5;mso-themecolor:accent1;mso-themeshade:191'><o:p>&nbsp;</o:p></span>
+        </p>
+
+        <h2>
+            Medications<br style='mso-special-character:line-break'>
+            <![if !supportLineBreakNewLine]><br style='mso-special-character:line-break'>
+            <![endif]>
+        </h2>
+
+        <p class=MsoNoSpacing>
+            <span style='mso-no-proof:yes'>
+                <img width=695 height=407
+                                 src="/Content/image005.jpg" v:shapes="Picture_x0020_3">
+            </span>
+        </p>
+
+        <p class=MsoNoSpacing><o:p>&nbsp;</o:p></p>
+
+        <span style='font-size:11.0pt;line-height:107%;font-family:"Calibri",sans-serif;
+mso-ascii-theme-font:minor-latin;mso-fareast-font-family:Calibri;mso-fareast-theme-font:
+minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-font-family:"Times New Roman";
+mso-bidi-theme-font:minor-bidi;mso-ansi-language:EN-US;mso-fareast-language:
+EN-US;mso-bidi-language:AR-SA'>
+            <br clear=all style='mso-special-character:line-break;
+page-break-before:always'>
+        </span>
+
+        <p class=MsoNormal>
+            <span style='font-size:13.0pt;line-height:107%;font-family:
+"Calibri Light",sans-serif;mso-ascii-theme-font:major-latin;mso-fareast-font-family:
+"Times New Roman";mso-fareast-theme-font:major-fareast;mso-hansi-theme-font:
+major-latin;mso-bidi-font-family:"Times New Roman";mso-bidi-theme-font:major-bidi;
+color:#2E74B5;mso-themecolor:accent1;mso-themeshade:191'><o:p>&nbsp;</o:p></span>
+        </p>
+
+        <h2>
+            Allergies<br style='mso-special-character:line-break'>
+            <![if !supportLineBreakNewLine]><br style='mso-special-character:line-break'>
+            <![endif]>
+        </h2>
+
+        <p class=MsoNoSpacing>
+            <span style='mso-no-proof:yes'>
+                <img width=720 height=430
+                                 src="/Content/image007.jpg" v:shapes="Picture_x0020_6">
+            </span>
+        </p>
+
+        <span style='font-size:13.0pt;line-height:107%;font-family:"Calibri Light",sans-serif;
+mso-ascii-theme-font:major-latin;mso-fareast-font-family:"Times New Roman";
+mso-fareast-theme-font:major-fareast;mso-hansi-theme-font:major-latin;
+mso-bidi-font-family:"Times New Roman";mso-bidi-theme-font:major-bidi;
+color:#2E74B5;mso-themecolor:accent1;mso-themeshade:191;mso-ansi-language:EN-US;
+mso-fareast-language:EN-US;mso-bidi-language:AR-SA'>
+            <br clear=all
+                style='page-break-before:always'>
+        </span>
+
+        <h2>
+            Problem List<br style='mso-special-character:line-break'>
+            <![if !supportLineBreakNewLine]><br style='mso-special-character:line-break'>
+            <![endif]>
+        </h2>
+
+        <p class=MsoNoSpacing>
+            <span style='mso-no-proof:yes'>
+               
+                <img width=720 height=406
+                                 src="/Content/image009.jpg" v:shapes="Picture_x0020_10">
+            </span>
+        </p>
+
+        <h2>
+            <br>
+            Flags<br style='mso-special-character:line-break'>
+            <![if !supportLineBreakNewLine]><br style='mso-special-character:line-break'>
+            <![endif]>
+        </h2>
+
+        <p class=MsoNoSpacing>
+            <span style='mso-no-proof:yes'>
+                <img width=720 height=314
+                                 src="/Content/image011.jpg" v:shapes="Picture_x0020_11"><![endif]>
+            </span><br clear=all style='mso-special-character:line-break;page-break-before:always'>
+            <span style='font-size:13.0pt;font-family:"Calibri Light",sans-serif;
+mso-ascii-theme-font:major-latin;mso-fareast-font-family:"Times New Roman";
+mso-fareast-theme-font:major-fareast;mso-hansi-theme-font:major-latin;
+mso-bidi-font-family:"Times New Roman";mso-bidi-theme-font:major-bidi;
+color:#2E74B5;mso-themecolor:accent1;mso-themeshade:191'><o:p></o:p></span>
+        </p>
+
+        <h2>
+            Appointments<br style='mso-special-character:line-break'>
+            <![if !supportLineBreakNewLine]><br style='mso-special-character:line-break'>
+            <![endif]>
+        </h2>
+
+        <p class=MsoNoSpacing>
+            <span style='mso-no-proof:yes'>
+                ><img width=720 height=516
+                                 src="/Content/image012.png" v:shapes="Picture_x0020_12">
+            </span>
+        </p>
+
+        <h2><o:p>&nbsp;</o:p></h2>
+
+        <span style='font-size:11.0pt;line-height:107%;font-family:"Calibri",sans-serif;
+mso-ascii-theme-font:minor-latin;mso-fareast-font-family:Calibri;mso-fareast-theme-font:
+minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-font-family:"Times New Roman";
+mso-bidi-theme-font:minor-bidi;mso-ansi-language:EN-US;mso-fareast-language:
+EN-US;mso-bidi-language:AR-SA'>
+            <br clear=all style='mso-special-character:line-break;
+page-break-before:always'>
+        </span>
+
+        <p class=MsoNormal>
+            <span style='font-size:13.0pt;line-height:107%;font-family:
+"Calibri Light",sans-serif;mso-ascii-theme-font:major-latin;mso-fareast-font-family:
+"Times New Roman";mso-fareast-theme-font:major-fareast;mso-hansi-theme-font:
+major-latin;mso-bidi-font-family:"Times New Roman";mso-bidi-theme-font:major-bidi;
+color:#2E74B5;mso-themecolor:accent1;mso-themeshade:191'><o:p>&nbsp;</o:p></span>
+        </p>
+
+        <h2>
+            Diet Orders<br style='mso-special-character:line-break'>
+            <![if !supportLineBreakNewLine]><br style='mso-special-character:line-break'>
+            <![endif]>
+        </h2>
+
+        <p class=MsoNoSpacing>
+            <span style='mso-no-proof:yes'>
+                <img width=720 height=454
+                                 src="/Content/image014.jpg" v:shapes="Picture_x0020_13">
+            </span><br style='mso-special-character:line-break'>
+            <![if !supportLineBreakNewLine]><br style='mso-special-character:line-break'>
+            <![endif]>
+        </p>
+
+        <span style='font-size:11.0pt;line-height:107%;font-family:"Calibri",sans-serif;
+mso-ascii-theme-font:minor-latin;mso-fareast-font-family:Calibri;mso-fareast-theme-font:
+minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-font-family:"Times New Roman";
+mso-bidi-theme-font:minor-bidi;mso-ansi-language:EN-US;mso-fareast-language:
+EN-US;mso-bidi-language:AR-SA'>
+            <br clear=all style='mso-special-character:line-break;
+page-break-before:always'>
+        </span>
+
+        <p class=MsoNormal>
+            <span style='font-size:13.0pt;line-height:107%;font-family:
+"Calibri Light",sans-serif;mso-ascii-theme-font:major-latin;mso-fareast-font-family:
+"Times New Roman";mso-fareast-theme-font:major-fareast;mso-hansi-theme-font:
+major-latin;mso-bidi-font-family:"Times New Roman";mso-bidi-theme-font:major-bidi;
+color:#2E74B5;mso-themecolor:accent1;mso-themeshade:191'><o:p>&nbsp;</o:p></span>
+        </p>
+
+        <h2>Lab Orders</h2>
+
+        <p class=MsoNoSpacing><o:p>&nbsp;</o:p></p>
+
+        <p class=MsoNoSpacing>
+            <span style='mso-no-proof:yes'>
+                ><img width=720 height=422
+                                 src="/Content/image015.png" v:shapes="Picture_x0020_20">
+            </span>
+        </p>
+
+        <p class=MsoNoSpacing><o:p>&nbsp;</o:p></p>
+
+        <span style='font-size:11.0pt;line-height:107%;font-family:"Calibri",sans-serif;
+mso-ascii-theme-font:minor-latin;mso-fareast-font-family:Calibri;mso-fareast-theme-font:
+minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-font-family:"Times New Roman";
+mso-bidi-theme-font:minor-bidi;mso-ansi-language:EN-US;mso-fareast-language:
+EN-US;mso-bidi-language:AR-SA'>
+            <br clear=all style='mso-special-character:line-break;
+page-break-before:always'>
+        </span>
+
+        <p class=MsoNormal>
+            <span style='font-size:13.0pt;line-height:107%;font-family:
+"Calibri Light",sans-serif;mso-ascii-theme-font:major-latin;mso-fareast-font-family:
+"Times New Roman";mso-fareast-theme-font:major-fareast;mso-hansi-theme-font:
+major-latin;mso-bidi-font-family:"Times New Roman";mso-bidi-theme-font:major-bidi;
+color:#2E74B5;mso-themecolor:accent1;mso-themeshade:191'><o:p>&nbsp;</o:p></span>
+        </p>
+
+        <h2>Treatment Orders</h2>
+
+        <p class=MsoNoSpacing><o:p>&nbsp;</o:p></p>
+
+        <p class=MsoNoSpacing>
+            <span style='mso-no-proof:yes'>
+                <img width=720 height=440
+                                 src="/Content/image016.png" v:shapes="Picture_x0020_25">
+            </span>
+        </p>
+
+        <span style='font-size:13.0pt;line-height:107%;font-family:"Calibri Light",sans-serif;
+mso-ascii-theme-font:major-latin;mso-fareast-font-family:"Times New Roman";
+mso-fareast-theme-font:major-fareast;mso-hansi-theme-font:major-latin;
+mso-bidi-font-family:"Times New Roman";mso-bidi-theme-font:major-bidi;
+color:#2E74B5;mso-themecolor:accent1;mso-themeshade:191;mso-ansi-language:EN-US;
+mso-fareast-language:EN-US;mso-bidi-language:AR-SA'>
+            <br clear=all
+                style='page-break-before:always'>
+        </span>
+
+        <h2>Specialty Consult Orders</h2>
+
+        <p class=MsoNoSpacing><o:p>&nbsp;</o:p></p>
+
+        <p class=MsoNoSpacing>
+            <span style='mso-no-proof:yes'>
+                <img width=650 height=664
+                                 src="/Content/image017.png" v:shapes="Picture_x0020_26">
+            </span>
+        </p>
+
+        <p class=MsoNoSpacing><o:p>&nbsp;</o:p></p>
+
+        <span style='font-size:11.0pt;line-height:107%;font-family:"Calibri",sans-serif;
+mso-ascii-theme-font:minor-latin;mso-fareast-font-family:Calibri;mso-fareast-theme-font:
+minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-font-family:"Times New Roman";
+mso-bidi-theme-font:minor-bidi;mso-ansi-language:EN-US;mso-fareast-language:
+EN-US;mso-bidi-language:AR-SA'>
+            <br clear=all style='mso-special-character:line-break;
+page-break-before:always'>
+        </span>
+
+        <p class=MsoNormal>
+            <span style='font-size:13.0pt;line-height:107%;font-family:
+"Calibri Light",sans-serif;mso-ascii-theme-font:major-latin;mso-fareast-font-family:
+"Times New Roman";mso-fareast-theme-font:major-fareast;mso-hansi-theme-font:
+major-latin;mso-bidi-font-family:"Times New Roman";mso-bidi-theme-font:major-bidi;
+color:#2E74B5;mso-themecolor:accent1;mso-themeshade:191'><o:p>&nbsp;</o:p></span>
+        </p>
+
+        <h2>
+            Admission Orders<br style='mso-special-character:line-break'>
+            <![if !supportLineBreakNewLine]><br style='mso-special-character:line-break'>
+            <![endif]>
+        </h2>
+
+        <p class=MsoNoSpacing>
+            <span style='mso-no-proof:yes'>
+                <img width=720 height=614
+                                 src="/Content/image018.png" v:shapes="Picture_x0020_27">
+            </span>
+        </p>
+
+        <h2><o:p>&nbsp;</o:p></h2>
+
+        <span style='font-size:11.0pt;line-height:107%;font-family:"Calibri",sans-serif;
+mso-ascii-theme-font:minor-latin;mso-fareast-font-family:Calibri;mso-fareast-theme-font:
+minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-font-family:"Times New Roman";
+mso-bidi-theme-font:minor-bidi;mso-ansi-language:EN-US;mso-fareast-language:
+EN-US;mso-bidi-language:AR-SA'>
+            <br clear=all style='mso-special-character:line-break;
+page-break-before:always'>
+        </span>
+
+        <p class=MsoNormal>
+            <span style='font-size:13.0pt;line-height:107%;font-family:
+"Calibri Light",sans-serif;mso-ascii-theme-font:major-latin;mso-fareast-font-family:
+"Times New Roman";mso-fareast-theme-font:major-fareast;mso-hansi-theme-font:
+major-latin;mso-bidi-font-family:"Times New Roman";mso-bidi-theme-font:major-bidi;
+color:#2E74B5;mso-themecolor:accent1;mso-themeshade:191'><o:p>&nbsp;</o:p></span>
+        </p>
+
+        <h2>
+            Immunizations<br style='mso-special-character:line-break'>
+            <![if !supportLineBreakNewLine]><br style='mso-special-character:line-break'>
+            <![endif]>
+        </h2>
+
+        <p class=MsoNoSpacing>
+            <span style='mso-no-proof:yes'>
+                <img width=720 height=650
+                                 src="/Content/image020.jpg" v:shapes="Picture_x0020_29">
+            </span>
+        </p>
+
+        <h2><o:p>&nbsp;</o:p></h2>
+
+        <h2>C-CDA</h2>
+
+        <p class=MsoNoSpacing>
+            In order to ensure all EHI for both single patient and
+            full roster exports, each individual patient’s <b style='mso-bidi-font-weight:
+normal'>C-CDA document</b> is also provided. The following data types are
+            available from within the C-CDA document exclusively, since they are EHI, but
+            due to their format and archival structure, they remain the most broadly useful
+            and importable into other certified EHRs via existing C-CDA functionality:
+        </p>
+
+        <p class=MsoNoSpacing><o:p>&nbsp;</o:p></p>
+
+        <p class=MsoNoSpacing>Medication Administrations</p>
+
+        <p class=MsoNoSpacing>Vitals Signs</p>
+
+        <p class=MsoNoSpacing>Diagnostic Results</p>
+
+        <p class=MsoNoSpacing>Treatment Plans (Plan of Care)</p>
+
+        <p class=MsoNoSpacing>Social History</p>
+
+        <p class=MsoNoSpacing>Assessments</p>
+
+        <p class=MsoNoSpacing>Functional Status</p>
+
+        <p class=MsoNoSpacing>Mental Status</p>
+
+        <p class=MsoNoSpacing><o:p>&nbsp;</o:p></p>
+
+        <h2>PDF - Images and Scanned Paper Records</h2>
+
+        <p class=MsoNoSpacing>
+            In order to ensure all EHI for both single patient and
+            full roster exports are included, each individual patient’s entire encounter
+            history documentation is also provided. Any and all images (eg wound pictures)
+            and scanned paper records (eg faxed progress notes from outside clinics) are
+            automatically processed into the universally accepted and human readable <b style='mso-bidi-font-weight:normal'>PDF format</b>.
+        </p>
+
+        <p class=MsoNoSpacing><o:p>&nbsp;</o:p></p>
+
+        <p class=MsoNoSpacing>
+            Given their source and nature, there is no discreet data
+            elements to ingest. However, their importance to continuity of care across
+            health systems and EHR platforms cannot be overstated. They are provided with a
+            naming convention that ensures positive patient identification and frictionless
+            import or reference regardless of their final destination or platform.
+        </p>
+
+        <p class=MsoNormal><o:p>&nbsp;</o:p></p>
+
+    </div>
+
+</body>
+
+</html>
+
+        <hr />
+        <footer>
+            
+        </footer>
+    </div>
+
+    <script src="/bundles/jquery?v=2u0aRenDpYxArEyILB59ETSCA2cfQkSMlxb6jbMBqf81"></script>
+
+    <script src="/bundles/bootstrap?v=lescQEuG5u4jd-GcVDBcbpUOSyTDIg0Kk9zHDX55GCw1"></script>
+
+    
+</body>
+</html>

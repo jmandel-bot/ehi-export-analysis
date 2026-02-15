@@ -1,0 +1,80 @@
+{
+  "research_date": "2026-02-14",
+  "sources": [
+    {
+      "url": "https://www.naphcare.com",
+      "type": "vendor-website",
+      "note": "Main corporate site. NaphCare is a correctional healthcare services company (founded 1989, ~6,000 employees). Serves local/state/federal correctional facilities. Provides medical, mental health, pharmacy, dialysis, telehealth, forensic services, and TechCare EHR."
+    },
+    {
+      "url": "https://www.naphcare.com/services",
+      "type": "vendor-website",
+      "note": "Services page detailing medical/mental health (Proactive Care model), pharmacy (NaphCare Rx), dialysis, STATCare 24/7 telehealth, MAT, forensic services (THRIVE), TechCare EHR, MyCare portal, and administrative services (claims, provider networks, scheduling)."
+    },
+    {
+      "url": "https://www.techcareehr.com/#costandlimitations",
+      "type": "mandatory-disclosures",
+      "note": "ONC mandatory disclosures page. Sparse content — describes TechCare as 'corrections specific EHR system and hosted solutions' customized for each correctional system. NASPO member. No detailed feature list or cost/limitation specifics visible in page content."
+    },
+    {
+      "url": "https://www.techcareehr.com/",
+      "type": "vendor-website",
+      "note": "TechCare product site. Very minimal content — landing page with basic description of corrections-specific EHR and hosted solutions. No detailed feature documentation publicly accessible."
+    },
+    {
+      "url": "https://www.carahsoft.com/naphcare/techcare-ehr",
+      "type": "third-party-reseller",
+      "note": "Carahsoft (government IT reseller) product page. Most detailed feature description found: all modules built into product, scales with facility demands, consolidates offender management/lab/pharmacy/radiology/food service/kiosks/hospital referrals/Medicaid into one system. Supports chart audits, litigation, real-time tracking."
+    },
+    {
+      "url": "https://www.naphcare.com/news/naphcare-to-showcase-innovative-techcare-ehr-solutions",
+      "type": "vendor-press-release",
+      "note": "NMCD deployment announcement. Details integrations: offender management, pharmacy, lab, radiology, immunization registry, state HIE. 5,800 residents, all state prisons. MyCare portal and Power BI dashboards featured."
+    },
+    {
+      "url": "https://www.naphcare.com/news/naphcare-expands-techcare-to-advance-patient-care-in-correctional-facilities",
+      "type": "vendor-press-release",
+      "note": "TechCare GO announcement (Sept 2025). Browser-based offline medication administration module. Preloaded patient lists, sync on reconnection, activity tracking, compliance audit trails."
+    },
+    {
+      "url": "https://www.naphcare.com/news/naphcare-celebrates-20-year-anniversary-of-techcare",
+      "type": "vendor-press-release",
+      "note": "20th anniversary article (2024). History: launched 2004 as first corrections-specific EHR. 229 facilities, 154,000+ daily records. Mentions emerging AI, chatbots, visual analytics capabilities."
+    },
+    {
+      "url": "https://www.naphcare.com/news/naphcare-launches-specialized-ehr-solution-for-georgia-department-of-corrections",
+      "type": "vendor-press-release",
+      "note": "Georgia DOC deployment: 62 facilities, 41,000+ patient records, 1,700+ staff trained. Describes TechCare as 'whole person healthcare operating system.' MyCare portal and Power BI dashboards included."
+    },
+    {
+      "url": "https://www.naphcare.com/news/techcare-receives-recognition-as-the-2026-top-rated-ehr-vendor-for-correctional-facilities",
+      "type": "vendor-press-release",
+      "note": "Black Book Research 2026 Top-Rated EHR Vendor for Correctional Facilities. Based on evaluation of 239 EHR brands. Notes 'secure workflows and documentation controls tailored to correctional care environments.'"
+    },
+    {
+      "url": "https://www.naphcare.com/news/naphcares-techcare-ehr-version-5-0-earns-onc-health-it-certification-from-drummond-group",
+      "type": "vendor-press-release",
+      "note": "ONC certification announcement for TechCare 5.0 via Drummond Group. At time of announcement: 160+ facilities, 126,000+ daily records."
+    },
+    {
+      "url": "https://www.naphcare.com/news/techcare-bi-streamlines-transparency-and-optimize-correctional-healthcare-operations",
+      "type": "vendor-press-release",
+      "note": "TechCare BI announcement. Eight specific dashboards detailed: Intake Compliance, Detox, Pharmacy Active Orders, Completed Sick Calls, Monthly HSR, Daily HSR, Offsite Reporting, NaphCare University Compliance."
+    },
+    {
+      "url": "https://www.naphcare.com/news/driving-change-in-correctional-healthcare-naphcares-commitment-to-innovation-and-impact",
+      "type": "vendor-press-release",
+      "note": "Company overview article. Mentions AI engines, chatbots, visual data analytics as emerging capabilities. Confirms family-owned, ~6,000 employees."
+    },
+    {
+      "url": "https://www.healthcaretechoutlook.com/naphcare-techcare",
+      "type": "third-party-review",
+      "note": "HealthcareTechOutlook 2015 profile. Most specific feature details: MAR integration, centralized diagnostics, intake assessments, discharge coordination. Notes system eliminates 'unnecessary free-world processes' for corrections focus. Stores demographics, medical history (including prior incarcerations), diagnostics, medications, encounters, compliance records."
+    },
+    {
+      "url": "https://leadiq.com/c/naphcare-inc/5a1d869b240000240060cd0e",
+      "type": "third-party-business-info",
+      "note": "LeadIQ company profile. Noted in search results: ~6,000 employees, $250M-$500M revenue range."
+    }
+  ]
+}
