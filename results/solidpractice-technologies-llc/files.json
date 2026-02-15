@@ -1,0 +1,22 @@
+{
+  "collection_date": "2026-02-14",
+  "url": "https://www.solidpractice.com/doc/SolidPractice-b10-exportable-data-content.pdf",
+  "final_url": "https://www.solidpractice.com/doc/SolidPractice-b10-exportable-data-content.pdf",
+  "access_status": "found",
+  "files": [
+    {
+      "path": "downloads/SolidPractice-b10-exportable-data-content.pdf",
+      "source_url": "https://www.solidpractice.com/doc/SolidPractice-b10-exportable-data-content.pdf",
+      "size_bytes": 29140,
+      "description": "Core b(10) EHI export documentation — a 3-page spreadsheet listing 87 exportable data elements with columns for data element name, description, and which export formats support each field (Computable PDF, CCD XML, JSON). Covers demographics, clinical data, insurance, appointments, billing receipts, and uploaded documents.",
+      "curl_command": "curl -sL 'https://www.solidpractice.com/doc/SolidPractice-b10-exportable-data-content.pdf' -H 'User-Agent: Mozilla/5.0' -o SolidPractice-b10-exportable-data-content.pdf"
+    },
+    {
+      "path": "downloads/SolidPractice-Data-Access-API.pdf",
+      "source_url": "https://www.solidpractice.com/doc/SolidPractice-Data-Access-API.pdf",
+      "size_bytes": 14526,
+      "description": "Data Access API documentation — describes the HTTP API endpoint for exporting patient CCD XML data. Includes endpoint URL pattern, authentication (token-based), parameter specification (patient ID, date range, section-level toggles for 16 clinical data sections), JSON response format with CCD XML payload, and error handling examples. Dated December 2022.",
+      "curl_command": "curl -sL 'https://www.solidpractice.com/doc/SolidPractice-Data-Access-API.pdf' -H 'User-Agent: Mozilla/5.0' -o SolidPractice-Data-Access-API.pdf"
+    }
+  ]
+}

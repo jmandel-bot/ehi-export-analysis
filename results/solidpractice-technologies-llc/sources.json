@@ -1,0 +1,50 @@
+{
+  "research_date": "2026-02-14",
+  "sources": [
+    {
+      "url": "http://www.solidpractice.com",
+      "type": "vendor-website",
+      "note": "Main landing page. Desktop-based EMR, emphasizes ease of use and dictation technology. Developed by IMPS with 30+ years healthcare IT experience."
+    },
+    {
+      "url": "https://solidpractice.com/cost-limitation.php",
+      "type": "mandatory-disclosures",
+      "note": "ONC mandatory disclosures. No additional fees beyond monthly subscription. Lists integrations with SureScripts and NewCrop. FHIR API available. 11 CQMs."
+    },
+    {
+      "url": "https://www.solidpractice.com/solid-practice-emr.php",
+      "type": "vendor-website",
+      "note": "Most detailed feature page. Lists: dictation/voice capture, e-prescribing, referral letters, charting, lab/imaging management, billing integration, medication/allergy tracking, vital signs, drug interaction checking, PQRS reporting, custom data fields."
+    },
+    {
+      "url": "http://www.solidpractice.com/emr.php",
+      "type": "vendor-website",
+      "note": "General EMR marketing page. Sparse on specifics — emphasizes workflow improvements, intuitive interface, Meaningful Use Stage II certification."
+    },
+    {
+      "url": "http://www.solidpractice.com/about-solid-practice.php",
+      "type": "vendor-website",
+      "note": "About page. IMPS has 30+ years experience, formerly known as Voice Activated Systems / Medical Voice Products. Based in Sarasota, FL."
+    },
+    {
+      "url": "https://www.solidpractice.com/support.php",
+      "type": "vendor-website",
+      "note": "Support page. US-based phone support, no tickets. Monthly subscription pricing. Mentions e-prescribing, voice recognition, electronic labs, HIPAA compliance."
+    },
+    {
+      "url": "https://www.prnewswire.com/news-releases/innovative-medical-practice-solutions-solidpractice-receives-stage-2-2014-onc-acb-certification-300038966.html",
+      "type": "press-release",
+      "note": "2015 press release. SolidPractice received Stage 2 ONC-ACB certification (Drummond Group, Nov 2014). CEO Dr. Andras Fenyves. Integrates with NewCrop and SureScripts."
+    },
+    {
+      "url": "https://slashdot.org/software/comparison/Medgen-EHR-vs-SolidPractice/",
+      "type": "third-party-review",
+      "note": "SourceForge/Slashdot comparison page. Lists features: appointment management, charting, compliance tracking, e-prescribing, E/M coding, handwriting recognition, integrated telehealth, MIPS certified, patient portal, self-service portal, voice recognition. Zero user reviews. Founded 1994."
+    },
+    {
+      "url": "https://www.linkedin.com/company/solidpractice",
+      "type": "social-media",
+      "note": "LinkedIn company page found in search results but not accessed (requires authentication)."
+    }
+  ]
+}
